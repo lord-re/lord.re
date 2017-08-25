@@ -7,4 +7,3 @@ publishDir = "/var/www/lordtoniok.com/http/hugo"
 
 [params]
 	sidebartitle = "/home/lord"
-	sidebartagline = "la tagline"
