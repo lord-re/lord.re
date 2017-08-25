@@ -2,7 +2,7 @@
 Categories = ["software","tips","www"]
 Tags = ["software","tips","www"]
 date = "2013-10-27T23:21:23+02:00"
-title = "IP Proxy Logs Nginx Revers"
+title = "IP Proxy Logs Nginx Reverse"
 Description = "Comment afficher l'adresse du client dans les logs lorsque son ptit nginx est derrière un reverse proxy ? Vous le découvrirez vite"
 menu = "main"
 
