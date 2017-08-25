@@ -1,0 +1,10 @@
+baseurl = "https://lord.re/hugo/"
+languageCode = "fr-fr"
+title = "/home/lord"
+theme = "redlounge"
+publishDir = "/var/www/lordtoniok.com/http/hugo"
+
+
+[params]
+	sidebartitle = "/home/lord"
+	sidebartagline = "la tagline"
