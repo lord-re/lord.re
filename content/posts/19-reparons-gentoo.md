@@ -3,7 +3,7 @@ menu = "main"
 Categories = ["gentoo","adminsys","tips"]
 Tags = ["adminsys","gentoo","tips"]
 Description = "Installer des paquets gentoo quand sa chaîne de compil est pétée"
-date = "2017-08-25T22:05:17+02:00"
+date = "2011-08-25T22:05:17+02:00"
 title = "Bidouil^wRéparons de la gentoo."
 nodate = true
 
