@@ -1,6 +1,6 @@
 +++
 Description = "Découverte du Turris Omnia et configuration pour remplacer une livebox avec fibre"
-date = "2017-10-10T15:02:09+02:00"
+date = "2016-10-10T15:02:09+02:00"
 title = "Nouveau routeur Turris Omnia"
 menu = "main"
 Categories = ["hardware","software","réseau","tips"]
