@@ -7,7 +7,6 @@
       <a name="top"></a>
 
       <div class="posts">
-      {{ range .Data.Pages }}
         <section  class="post">
           <header class="post-header">
             <h1 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
@@ -18,16 +17,35 @@
           {{ if not .Params.noread }}<span class="post-reading-time">{{.ReadingTime}} minutes de plaisir</span>{{ end }}</em>
           {{ if .Params.categories }}<span class="post-categories">{{ $Site := .Site }}{{ range .Params.categories }}<a class="post-category post-category-{{ . | urlize }}" href="{{ $Site.BaseURL}}/categories/{{ . | urlize }}">{{ . }}</a>{{ end }}</span>{{ end }}
          </p>
-          {{ if .Truncated  }}
-          <article class="post-summary">
-            {{ .Summary }}
-          </article>
-          <div class="read-more-link"><a href="{{ .RelPermalink }}">Lire  ...</a></div>
-          {{ else }}
+          <article>
             {{ .Content }}
-          {{ end }}
+          </article>
+
+
+				<div class="post-meta">
+					<p>
+          {{ if .Params.tags }}
+			      {{ $Site := .Site }}
+					  Tags : 
+					  {{ range .Params.tags }}
+	             <a class="post-tag post-tag-{{ . | urlize }}" href="{{ $Site.BaseURL}}/tags/{{ . | urlize }}">{{ . }}</a>,
+            {{ end }}
+			    {{ end }}
+			    </p>
+			    {{ if not .Params.nopaging }}
+				  <div class="paging">
+						<p>Lire du
+					  {{ if .Prev }}
+					  	+ récent : <a class="paging-link" href="{{ .Prev.RelPermalink }}">{{ .Prev.Title }}</a> ou 
+            {{ end }}
+					  {{ if .Next }}
+						  + ancien : <a class="paging-link" href="{{ .Next.RelPermalink }}">{{ .Next.Title  }}</a>
+		        {{ end }}
+						</p>
+				  </div>
+				  {{ end }}
+
         </section>
-      {{ end }}
       </div>
     </div>
   </div>
