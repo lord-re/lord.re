@@ -1,8 +1,8 @@
-baseurl = "https://lord.re/hugo/"
+baseurl = "https://lord.re/"
 languageCode = "fr-fr"
 title = "/home/lord"
-theme = "redlounge"
-publishDir = "/var/www/lordtoniok.com/http/hugo"
+theme = "neoDark"
+publishDir = "/var/www/lordtoniok.com/http/"
 
 
 [params]
