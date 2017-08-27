@@ -1,0 +1,13 @@
+name = "Neo Dark"
+description = "A minimalist dark theme for Hugo"
+license = "wtfpl"
+licenselink = ""
+source_repo = ""
+homepage = ""
+tags = ["neodark", "dark", "minimal", "blog", "bloatfree"]
+features = ["blog"]
+min_version = 0.14
+
+[author]
+    name = "Lord"
+    homepage = "https://lord.re"

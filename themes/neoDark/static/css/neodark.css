@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+	transition: all 0.1s ease;
+	margin: 0;
+	padding: 0;
+}
+html{
+	line-height:1.35em;
+	font-family:'Droid Sans';
+  background: #272b30;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color:orangered;
+}
+nav {
+	padding: 1rem;
+	color: #757c82;
+	text-align:center;
+  box-shadow:0 0 1em #222;
+	border-bottom: 2px solid #414;
+}
+nav h1{
+	padding-bottom: 1.5rem;
+	text-align:center;
+}
+nav p{
+	font-size:0.9rem;
+}
+@media (min-width: 58em){
+  nav {
+    position: fixed;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		width: 18rem;
+		text-align: left;
+		border-right: 2px solid #414;
+		border-bottom:none;
+	}
+	.content{
+    margin-left: 20rem;
+	}
+  #sidebar{
+    position: absolute;
+		right: 1rem;
+		bottom: 1rem;
+		left: 1rem;
+	}
+}
+@media (min-width: 80em){
+	nav {
+    border-right: 4px solid #414;
+	}
+  html{
+		font-size:18pt;
+	}
+}
+@media (min-width: 100em){
+	html{
+    font-size:22pt;
+	}
+}
+.content {
+  color: #757c82;
+}
+a {
+	color: #aa7c82;
+}
+h1 {
+  font-size: 2rem;
+	color:#bb8;
+}
+h1 a{
+  font-size: 1.7rem;
+	color: #aa8;
+}
+h2 {
+  font-size:1.5rem;
+	color: #8aa;
+	padding-top:1.2rem;
+}
+.post {
+  margin:1rem;
+  box-shadow: 3px 3px 10px 3px #222;
+  border-top:1px solid #547;
+  border-left:1px solid #444;
+  border-right:1px solid #222;
+  border-bottom:1px solid #222;
+  padding:2rem;
+  text-align:justify;
+	max-width: 50em;
+}
+.post-category {
+	color: #757cab;
+	padding: 0.5rem;
+}
+.post li{
+  padding-left: 1em;
+	list-style-type:none;
+}
+section p{
+  padding-top: 1rem;
+}
+em{
+  color:#8a8;
+}
+strong{
+	color:#a8a;
+}
+.post-meta {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+  font-size: 0.8rem;
+}
+.read-more-link , .read-more-link a{
+	text-align:right;
+  color: #2aa198;
+}
+.read-more-link a:hover{
+	color: #4ab1a8;
+}
+@font-face{
+        src: local('Droid Sans'), local('DroidSans'), url(static/css/droidsans.woff) format('woff');
+        src: local('Droid Serif'), local('DroidSerif'), url(static/css/droidserif.woff) format('woff');
+}
