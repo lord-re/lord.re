@@ -68,8 +68,8 @@ Bon voilà pour ce que vous pouvez faire en tant qu'op sur un salon. C'est pas e
 
 **Concernant Geeknode** : ces derniers temps on a ajouté quelques modules pour se protéger des lourdingues.
 
- - Le premier est l'anti-amsg. Les amsg sont des messages qui sont envoyés sur plusieurs canaux simultannément.
+ - Le premier est l'anti-amsg. Les amsg sont des messages qui sont envoyés sur plusieurs canaux simultanément.
  - Ensuite plus sympa c'est l'anti-caps. POUR ÉVITER LES HURLEURS. Les messages contenant trop de majuscules seront passés en minuscules. C'est un poil moins aggressif.
  
- - Et troisièmement l'anti-masshl. Les HL ou Highlight c'est quand quelqu'un mentionne le pseudo de quelqu'un. Dans la plupart des clients irc ça créer une notification et ça change les couleurs pour quelque chose de très visible (un highlight). Bref, ce module kill (déconnecte du serveur) les personnes faisant plus de 5 hl consécutifs (dans la même phrase ou alors 1hl par phrase dans 5 phrases d'affilées). Bref pas mal pour virer les pollueurs. Ce comportement peut-être désactivé (certains bots ont tendance à hl) en mettant le salon en **s** ou **i**.
+ - Et troisièmement l'anti-masshl. Les HL ou Highlight c'est quand quelqu'un mentionne le pseudo de quelqu'un. Dans la plupart des clients irc ça créer une notification et ça change les couleurs pour quelque chose de très visible (un highlight). Bref, ce module kill (déconnecte du serveur) les personnes faisant plus de 5 hl consécutifs (dans la même phrase ou alors 1hl par phrase dans 5 phrases d'affilées). Bref pas mal pour virer les pollueurs. Ce comportement peut être désactivé (certains bots ont tendance à hl) en mettant le salon en **s** ou **i**.
 
