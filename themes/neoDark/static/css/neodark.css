@@ -60,7 +60,7 @@ nav p{
 }
 @media (min-width: 100em){
 	html{
-    font-size:22pt;
+    font-size:20pt;
 	}
 }
 .content {
@@ -109,6 +109,14 @@ em{
 }
 strong{
 	color:#a8a;
+}
+pre, :not(pre) > code {
+  border: 1px dashed black;
+	box-shadow: 0 0 0.5em #222 inset;
+	background:#1d2024;
+	margin-top:0.5rem;
+	font-size:0.7rem;
+	padding: 0.5rem;
 }
 .post-meta {
 	margin-top: 1rem;
