@@ -62,7 +62,7 @@ Les attaques de bots sont un peu plus relou. Généralement ça consiste en de t
 
 - Le **R** permet de limiter les join aux seuls membres enregistrés auprès des services (redoutable).
 
-- Le dernier mode intéressant et l'un des plus complexes (ça reste soft quand même) est l'antiflood **f**. Il permet de définir des règles et du coup possède une syntaxe différentes des autres. Typiquement ***/mode -f [5t]:15*** signifie qu'à partir de 5 lignes de textes en 15 secondes, la personne sera kickée. Pas mal de possibilité pour ce mode sont à voir sur sa page de doc officielle.
+- Le dernier mode intéressant et l'un des plus complexes (ça reste soft quand même) est l'antiflood **f**. Il permet de définir des règles et du coup possède une syntaxe différentes des autres. Typiquement ***/mode -f [5t]:15*** signifie qu'à partir de 5 lignes de textes en 15 secondes, la personne sera kickée. Pas mal de possibilité pour ce mode sont à voir sur [https://www.unrealircd.org/docs/Anti-flood_features#Channel_mode_f](sa page de doc officielle) ou bien directement depuis votre client irc via **/quote helpop chmodef**.
 
 Bon voilà pour ce que vous pouvez faire en tant qu'op sur un salon. C'est pas exhaustif mais ça permet de pouvoir réagir dans pas mal de situations.
 
