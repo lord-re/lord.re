@@ -16,6 +16,8 @@ Oui oui une seconde suffit. Bon dans mon cas c'est overkill car mon site est sta
 
 Mais au delà de ça, si on rajoute deux trois options de configuration, vous pourrez vous prémunir des downtime (ce que je recherchais surtout).
 
+Bon on va définir **le_cache** qui va être l'endroit où seront stockées nos données en cache : ```proxy_cache_path /var/www/cache keys_zone=le_cache:1m max_size=20m inactive=10d use_temp_path=off;```
+
 Bon sur la machine qui va vous servir de proxy vous allez dans la conf du bel nginx */etc/conf/nginx/nginx.conf* vous ajoutez la conf du vhost:
 ```
 server {
@@ -37,6 +39,7 @@ server {
                 proxy_set_header Host $host;
                 proxy_set_header X-Real-IP $remote_addr;
                 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+								proxy_buffering off;
         }
 }
 ```
@@ -44,4 +47,5 @@ La magie se trouve dans le ***proxy_cache_use_stale*** qui fait en sorte d'envoy
 
 Désormais je peux couper le serveur sans que ça ne se voit. Ça peut permettre de mettre à jour l'esprit libre. Sur un site dynamique ça peut énormément booster les perfs sans trop de détriments (surtout avec juste 1s de cache).
 
+Le ```proxy_buffering off;``` n'est peut-être pas adapté à votre cas mais si je ne le met pas, lorsqu'un bienveillant internaute tente de récupérer un fichier un poil gros (plus de quelques Mo) bha ça déconne de partout car la machine a peu de ram, donc ça rentre pas en ram, donc nginx tente de fouttre ça dans le cache, mais comme j'ai restreint le cache à 20Mo… bha si ça rentre pas dedans ça merdoie et ça n'envoi plus les données. Voilà voilà.
 
