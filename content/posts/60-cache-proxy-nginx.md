@@ -1,9 +1,9 @@
 +++
 Description = "Ma ptite infra perso pour cacher les downtime sur mon site perso."
-PublishDate = "2017-10-04T22:01:38+02:00"
+PublishDate = "2017-09-24T22:01:38+02:00"
 notoc = true
 menu = "main"
-date = "2017-10-04T22:01:38+02:00"
+date = "2017-09-24T22:01:38+02:00"
 title = "Microcache nginx pour améliorer les perfs et diminuer le downtime"
 Tags = ["www","software","adminsys","tips"]
 Categories = ["www","software","adminsys","tips"]
