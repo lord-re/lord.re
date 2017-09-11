@@ -3,7 +3,7 @@ notoc = true
 menu = "main"
 date = "2017-10-07T11:49:01+02:00"
 PublishDate = "2017-10-07T11:49:01+02:00"
-title = "Enregistrement DNS de type CAA poru protéger votre TLS"
+title = "Enregistrement DNS de type CAA pour protéger votre TLS"
 Tags = ["adminsys","sécu"]
 Categories = ["adminsys","sécu"]
 Description = "Comment améliorer un chouilla sa sécurité TLS"
@@ -12,7 +12,7 @@ Description = "Comment améliorer un chouilla sa sécurité TLS"
 
 La mouvance actuelle de chiffrer de plus en plus de contenu est vraiment une bonne chose. Un peu plus de sécurité pour tout le monde c'est parfait. Surtout si c'est bien fait sinon c'est complètement contre-productif. Letsencrypt a énormément contribué à la démocratisation des certifs x509 pour le ***TLS*** grâce à son protocole bien efficace et aussi ses tarifs imbattables.
 ## Certificate Transparency
-Comme de nombreuses ***CA*** (Autorité de Certifacition : les organismes "de confiance" qui signent les certificats x509) désormais, Letsencrypt participe au ***Certificate Transparency***. Il s'agit d'un log publique remplie par les CA où elles annoncent tous les certificats qu'elles émettent. En gros avec ça vous ne pouvez plus prendre de certificat discrètement sans que ça ne se sâche.
+Comme de nombreuses ***CA*** (Autorité de Certifacition : les organismes "de confiance" qui signent les certificats x509) désormais, Letsencrypt participe au ***Certificate Transparency***. Il s'agit d'un log publique remplie par les CA où elles annoncent tous les certificats qu'elles émettent. En gros avec ça vous ne pouvez plus prendre de certificat discrètement sans que ça ne se sache.
 
 Si jamais une CA sérieuse (ça veux dire à minima qu'elle participe à Certificate Transparency) créer un certificat ça, elle le publiera donc dans le log ce qui permettra donc de voir quand est-ce qu'il y a un nouveau certificat et émis par quelle CA. Avec ce système il est donc possible de savoir qu'un certificat a été émis, par quelle CA, et quand. Donc vous allez pouvoir savoir si un certificat a été émis dans votre dos.
 
