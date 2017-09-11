@@ -3,7 +3,7 @@ languageCode = "fr-fr"
 DefaultContentLanguage = "fr"
 title = "/home/lord"
 theme = "neoDark"
-publishDir = "/var/www/lordtoniok.com/http/"
+publishDir = "/home/lord/www/public"
 
 
 [params]
