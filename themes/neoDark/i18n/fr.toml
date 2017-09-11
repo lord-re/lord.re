@@ -1,0 +1,18 @@
+[readingTime]
+one = "Une seule belle minute de plaisir"
+other = "{{.Count}} minutes de plaisir"
+
+[more]
+other = "Lire en entier …"
+
+[paging-start]
+other = "Lire du "
+[paging-fresher]
+other = "+ récent : "
+[paging-older]
+other = "+ ancien : "
+[sidebar-description]
+other ="Geek libriste, addict à IRC, gentoo¡ste convaincu, amateur de joli matos, troll averti à tendance ironico-sarcastico pas-si-méchant, fan de metal mais pas que. HF."
+
+[url-lang]
+other=""

@@ -1,0 +1,17 @@
+[readingTime]
+one = "Only one minute to read"
+other = "{{.Count}} good minutes to read"
+
+[more]
+other = "Read more …"
+
+[paging-start]
+other = "Read some "
+[paging-fresher]
+other = "fresher : "
+[paging-older]
+other = "older : "
+[sidebar-description]
+other="Libre geek, irc addict, convinced gentooist, A-grade troll with ironic/sarcastic tendencies, metalhead but not restricted."
+[url-lang]
+other="en/"
