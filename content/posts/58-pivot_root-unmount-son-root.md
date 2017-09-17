@@ -30,10 +30,10 @@ Bon donc **cp -ax /{bin,etc,sbin,lib32,lib64,lib} /ramroot** puis pour s'économ
 
 Tout ? Non. Il manque plus que les montages "bizarres".
 
-Bon bha **mkdir /ramroot/dev /ramroot/sys /ramroot/proc** pour créer les points de montage. Par contre là vu que ça existe déjà sur votre disque dur,  on va juste "binder" avec **mount --rbind /dev /ramroot/dev** puis **mount --rbind /proc /ramroot/proc** et **mount -t proc none /ramroot/proc** et là c'est tout bon.
+Bon bah **mkdir /ramroot/dev /ramroot/sys /ramroot/proc** pour créer les points de montage. Par contre là vu que ça existe déjà sur votre disque dur,  on va juste "binder" avec **mount --rbind /dev /ramroot/dev** puis **mount --rbind /proc /ramroot/proc** et **mount -t proc none /ramroot/proc** et là c'est tout bon.
 
 ## Le grand saut
-Bon bha vous avez un bien bel userspace de dispo dans votre ramdisk. On peut donc se décider à migrer dedans.
+Bon bah vous avez un bien bel userspace de dispo dans votre ramdisk. On peut donc se décider à migrer dedans.
 
 Premièrement **mkdir /ramroot/oldroot** va accueillir notre skeudur. Et maintenant la commande miraculeuse.
 
