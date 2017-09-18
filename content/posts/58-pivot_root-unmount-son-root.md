@@ -20,9 +20,9 @@ Pour pouvoir démonter votre partoche il va falloir couper tous les processus fa
 Si vous avez suffisamment de ram vous pouvez même vous débrouiller pour ne pas couper ou juste relancer les processes mais c'est un poil plus touchy. Surtout si vous avez des données qui sont susceptibles d'être modifiées pendant que ça tourne.
 
 ## Recréer son userland en ram
-Bon donc le but du jeu ça va être de se créer une partition racine mais dans la ram. Donc déjà première étape, on se créer un point de montage **mkdir /mnt/ramroot** et ensuite on y monte du tmpfs avec **mount -t tmpfs none /ramroot** .
+Bon donc le but du jeu ça va être de se créer une partition racine mais dans la ram. Donc déjà première étape, on se créer un point de montage **mkdir /ramroot** et ensuite on y monte du tmpfs avec **mount -t tmpfs none /ramroot** .
 
-Là ça y est, tout ce que vous collerez dans */mnt/ramroot* ne sera pas sur votre skeudur mais dans votre ram.
+Là ça y est, tout ce que vous collerez dans */ramroot* ne sera pas sur votre skeudur mais dans votre ram.
 
 Là, deux choix s'offrent à nous : votre partition racine peut être contenue dans votre ram (c'est le plus simple) ou bien vous n'avez pas assez de ram et du coup va falloir recréer de 0 ( j'aborderai pas ce point mais en gros soit vous ne prenez que le strict nécessaire de votre rootfs, soit vous n'avez qu'à pécho un rootfs sur les interwebz ).
 
