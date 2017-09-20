@@ -1,6 +1,6 @@
 +++
 notoc = true
-date = "2017-09-30T21:46:06+02:00"
+date = "2017-09-21T21:46:06+02:00"
 PublishDate = "2017-09-21T21:46:06+02:00"
 title = "Substring History Search dans ZSH"
 menu = "main"
@@ -20,6 +20,6 @@ Donc on va fouttre [ce fichier](/static/zsh-history-substring-search.zsh) */etc/
 Il ne nous reste plus qu'à affecter une touche pour déclencher l'action. On édite encore */etc/zsh/zshrc* et ce coup-ci vers la fin (où on range soigneusement tous les keybinds) ```bindkey "^[[A" history-substring-search-up``` et ``` bindkey "^[[B" history-substring-search-down``` et voilà. **^[[A** correspond comme vous le savez à la flêche du haut et donc **^[[B** évidemment à celle du bas.
 
 ## Mise en pratique immédiate.
-On ouvre un nouveau shell pour que ce soit pris en compte (ou alors on source mais franchement on est flemmard jusqu'au bout). On commence à rédiger une commande genre **hugo ne** , puis on fait flêche du haut et là pouf votre commande se complète. Si la commande qui arrive est pas la bonne, on continue d'appuyer en haut ou en bas. Et voilà.
+On ouvre un nouveau shell pour que ce soit pris en compte (ou alors on source mais franchement on est flemmard jusqu'au bout). On commence à rédiger une commande genre **hugo ne** , puis on fait **flêche du haut** et là pouf votre commande se complète. Si la commande qui arrive est pas la bonne, on continue d'appuyer en haut ou en bas. Et voilà.
 
 C'est vraiment efficace, surtout que l'on peut rentrer n'importe quel morceau de la commande recherchée, pas forcément les premiers caractères. Ça mériterait d'être dans tous les shells par défaut !
