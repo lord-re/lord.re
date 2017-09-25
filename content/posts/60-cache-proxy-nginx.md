@@ -33,13 +33,14 @@ server {
         location / {
                 proxy_cache le_cache;
                 proxy_pass http://10.0.0.1;
-                proxy_cache_use_stale error timeout http_404 http_403;
-                proxy_cache_valid any 1s;
+								proxy_cache_lock on;
+                proxy_cache_use_stale updating error timeout http_502 http_503;
+                proxy_cache_valid 200 1s;
                 add_header X-Cache-Status $upstream_cache_status;
                 proxy_set_header Host $host;
                 proxy_set_header X-Real-IP $remote_addr;
                 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-								proxy_buffering off;
+							#	proxy_buffering off;
         }
 }
 ```
@@ -47,5 +48,5 @@ La magie se trouve dans le ***proxy_cache_use_stale*** qui fait en sorte d'envoy
 
 Désormais je peux couper le serveur sans que ça ne se voit. Ça peut permettre de mettre à jour l'esprit libre. Sur un site dynamique ça peut énormément booster les perfs sans trop de détriments (surtout avec juste 1s de cache).
 
-Le ```proxy_buffering off;``` n'est peut-être pas adapté à votre cas mais si je ne le met pas, lorsqu'un bienveillant internaute tente de récupérer un fichier un poil gros (plus de quelques Mo) bha ça déconne de partout car la machine a peu de ram, donc ça rentre pas en ram, donc nginx tente de fouttre ça dans le cache, mais comme j'ai restreint le cache à 20Mo… bha si ça rentre pas dedans ça merdoie et ça n'envoi plus les données. Voilà voilà.
+Le ```proxy_buffering off;``` n'est peut-être pas adapté à votre cas mais si je ne le met pas, lorsqu'un bienveillant internaute tente de récupérer un fichier un poil gros (plus de quelques Mo) bha ça déconne de partout car la machine a peu de ram, donc ça rentre pas en ram, donc nginx tente de fouttre ça dans le cache, mais comme j'ai restreint le cache à 20Mo… bha si ça rentre pas dedans ça merdoie et ça n'envoi plus les données. Voilà voilà. Donc là je l'ai mis en commentaire car cet exemple n'est qu'un morceau de ma conf complète mais je voulais quand même vous présenter cette option.
 
