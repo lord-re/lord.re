@@ -12,7 +12,7 @@ Categories = ["www","software","adminsys","tips"]
 Depuis que mon serveur ne me sert plus de routeur il m'arrive de le couper de temps à autres. Et pourtant mon site reste accessible. J'ai en fait, sur mon routeur, installé un container avec un nginx qui tourne et qui proxy. Les connexions se font donc via le nginx du routeur qui sert de cache quand le vrai serveur ne répond pas. Mais histoire de ne pas avoir de contenu pas à jour mais toujours d'une fraîcheur exemplaire je me contente d'un cache de maximum 1seconde.
 
 ## 1s de cache
-Oui oui une seconde suffit. Bon dans mon cas c'est overkill car mon site est statique mais pour des sites dynamiques à fort trafic c'est clairement valable. Fournir un contenu vieu d'un seconde n'est généralement pas gênant. Par contre la différence de perf est assez énormissime.
+Oui oui une seconde suffit. Bon dans mon cas c'est overkill car mon site est statique mais pour des sites dynamiques à fort trafic c'est clairement valable. Fournir un contenu vieux d'un seconde n'est généralement pas gênant. Par contre la différence de perf est assez énormissime.
 
 Mais au delà de ça, si on rajoute deux trois options de configuration, vous pourrez vous prémunir des downtime (ce que je recherchais surtout).
 
