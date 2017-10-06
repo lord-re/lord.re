@@ -1,8 +1,8 @@
 +++
 notoc = true
 menu = "main"
-date = "2017-10-07T11:49:01+02:00"
-PublishDate = "2017-10-07T11:49:01+02:00"
+date = "2017-10-06T11:49:01+02:00"
+PublishDate = "2017-10-06T11:49:01+02:00"
 title = "Using CAA dns records to protect your TLS"
 Tags = ["adminsys","sécu"]
 Categories = ["adminsys","sécu"]
