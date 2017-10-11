@@ -82,6 +82,10 @@ h2 {
 	color: #8aa;
 	padding-top:1.2rem;
 }
+h3 {
+  font-size: 1.3rem;
+	padding-top: 1.1rem;
+}
 .post {
   margin:1rem;
   box-shadow: 3px 3px 10px 3px #222;
@@ -98,8 +102,9 @@ h2 {
 	padding: 0.5rem;
 }
 .post li{
-  padding-left: 1em;
-	list-style-type:none;
+	margin-left:1rem;
+  list-style-position:outside;
+	list-style-type:disc;
 }
 section p{
   padding-top: 1rem;
@@ -117,7 +122,6 @@ pre, :not(pre) > code {
 	margin-top:0.5rem;
 	font-size:0.7rem;
 	padding: 0.5rem;
-	overflow: scroll;
 }
 .post-meta {
 	margin-top: 1rem;
