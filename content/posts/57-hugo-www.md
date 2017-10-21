@@ -11,7 +11,7 @@ publishDate = "2017-09-08T17:03:12+02:00"
 +++
 
 Ça faisait un bail que j'avais pas trop touché au site (blog ?). Ça fait depuis quelques années qu'il ne s'agissait que d'un simple fichier *index.html* que j'éditais à la mano dans vim. Une seule et unique page avec tout le contenu. C'était plutôt élégant techniquement et pratique. Mais ça a aussi quelques limites. La première c'est que j'avais pas de flux rss. C'est un peu la honte. Étant moi même présentement présent un très grand utilisateur des reusseusseu ça me tiraillait. D'autant plus que je ne publie absolument pas régulièrement sur le site.
-Il se passe régulièrement de nombreux mois sans que je ne prenne la plume puis soudainement il va m'arriver d'écrire coup sur coup quelques articles (comme actuellement). Le rss brille dans cette situation : on consulte le site, on aime le contenu, on choppe le rss, puis le site dort pendant quleques mois et d'un coup pouf à l'improviste ça apparait dans l'aggrégateur.
+Il se passe régulièrement de nombreux mois sans que je ne prenne la plume puis soudainement il va m'arriver d'écrire coup sur coup quelques articles (comme actuellement). Le rss brille dans cette situation : on consulte le site, on aime le contenu, on choppe le rss, puis le site dort pendant quleques mois et d'un coup pouf à l'improviste ça apparait dans l'agrégateur.
 
 ## Bref j'ai craqué
 J'ai tenté un outil ou deux pour générer manuellement le rss mais c'était soit hébergé ailleurs (coucou feed43) soit assez crado soit fallait que je me motive à pondre du xslt des familles.
