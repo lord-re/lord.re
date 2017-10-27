@@ -2,8 +2,8 @@
 Categories = ["dns","network","adminsys"]
 Tags = ["dns","network","adminsys"]
 Description = "The ultimate DNS guide. How to set it up, how to maintain it, how to have a modern stack. Deploying DNSSEC and DANE."
-date = "2017-10-27T23:05:06+02:00"
-PublishDate = "2017-10-27T23:05:06+02:00"
+date = "2017-10-27T13:05:06+02:00"
+PublishDate = "2017-10-27T13:05:06+02:00"
 menu = "main"
 notoc = false
 title = "Ultimate DNS guide v1"
@@ -66,9 +66,10 @@ Once knot is installed you'll have to create the config file. The file is quite 
 Everything is well sorted. Now you'll have to put your zones files in */var/lib/knot/zones*. Knot will generate all the needed keys and will sign your zone by itself.
 
 ## Gérer la redondance
-Monter un serveur DNS secondaire.
 
-FIXME
+Setup a secondary DNS server.
+
+This will come later. Sorry ;-)
 
 ## Publishing your DNSKEY or DS Record to your registrar
 

@@ -2,8 +2,8 @@
 Categories = ["dns","réseau","adminsys"]
 Tags = ["dns","réseau","adminsys"]
 Description = "Le guide ultime concernant le DNS. On y voit comment monter le bousin, comment le tenir à jour, comment avoir un truc moderne. Gérer le DNSSEC. Faire du DANE. "
-date = "2017-10-27T23:05:06+02:00"
-PublishDate = "2017-10-27T23:05:06+02:00"
+date = "2017-10-27T13:05:06+02:00"
+PublishDate = "2017-10-27T13:05:06+02:00"
 menu = "main"
 notoc = false
 title = "Guide ultime du serveur DNS v1"
@@ -68,7 +68,7 @@ Tout est bien rangé dans sa section, *acl* contient les règles d'accès (pour 
 ## Gérer la redondance
 Monter un serveur DNS secondaire.
 
-FIXME
+Cette partie sera ajoutée un peu plus tard ;-)
 
 ## Publication DNSKEY ou DS record chez le registrar
 
