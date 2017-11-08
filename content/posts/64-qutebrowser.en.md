@@ -5,7 +5,7 @@ Tags = ["www","web"]
 date = "2017-11-08T16:03:10+01:00"
 menu = "main"
 notoc = true
-title = "qutebrowser"
+title = "Qutebrowser"
 
 +++
 
