@@ -123,6 +123,17 @@ pre, :not(pre) > code {
 	font-size:0.7rem;
 	padding: 0.5rem;
 }
+figure h4 {
+	font-size:0.7rem;
+	text-align:center;
+	background:#67a4a8;
+	font-weight:100;
+	color:black;
+}
+figure {
+	margin:1em;
+	box-shadow:0 0 1em rgba(0,0,0,0.4);
+}
 .post-meta {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
