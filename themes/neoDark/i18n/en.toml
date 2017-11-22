@@ -13,7 +13,7 @@ other = "fresher : "
 other = "older : "
 [sidebar-description]
 other="Libre geek, irc addict, convinced gentooist, A-grade troll with ironic/sarcastic tendencies, metalhead but not restricted."
-[url-lang]
-other="en/"
+[baseurl]
+other="https://lord.re/en"
 [dispo]
-other="Disponible en français"
+other="Dispo en français"

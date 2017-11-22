@@ -1,8 +1,10 @@
 +++
 Description = ""
-Categories = ["meta", "www"]
-Tags = ["www", "meta"]
+Categories = ["", ""]
+Tags = ["", ""]
 menu = "main"
 notoc = true
-PublishDate = ""
+PublishDate = {{ .Date }}
+date = {{ .Date }}
+title = "{{ replace .TranslationBaseName "-" " " | title }}"
 +++

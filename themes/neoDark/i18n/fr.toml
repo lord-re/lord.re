@@ -14,10 +14,8 @@ other = "+ ancien : "
 [sidebar-description]
 other ="Geek libriste, addict à IRC, gentoo¡ste convaincu, amateur de joli matos, troll averti à tendance ironico-sarcastico pas-si-méchant, fan de metal mais pas que. HF."
 
-[url-lang]
-other=""
-[rev-url-lang]
-other="en/"
+[baseurl]
+other="https://lord.re"
 
 [dispo]
 other="Available in Frenglish"

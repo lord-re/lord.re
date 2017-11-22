@@ -1,6 +1,6 @@
 <nav role="banner">
 	<div id="sidebar">
-		{{ if .Site.Params.sidebartitle }}<h1 class="brand-title"><a href="{{ .Site.BaseURL }}{{ i18n "url-lang"}}">{{ .Site.Params.sidebartitle }}</a></h1>{{ end }}
+		<h1 class="brand-title"><a href="{{ i18n "baseurl" }}">/home/lord</a></h1>
 		<p>{{ i18n "sidebar-description"}}</p>
     <br>
     <p>Mail : lord@lesitequevouslisez</p>
@@ -11,13 +11,5 @@
     <p><a href="{{ .Permalink }}">{{i18n "dispo"}} : {{ .Title }}{{ if .IsPage }} {{ end }}</a></p>
     {{ end}}
 
-    <br>
-    <div class="nav-menu">
-      <br>
-      <br>
-      {{ range .Site.Menus.truc }}
-      →<a href="{{ .URL }}">{{ .Name }}</a>
-      {{ end }}
-    </div>
   </div>
 </nav>
