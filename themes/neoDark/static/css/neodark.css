@@ -19,7 +19,7 @@ nav {
 	padding: 1rem;
 	color: #757c82;
 	text-align:center;
-  box-shadow:0 0 1em #222;
+	box-shadow:0 0 1em rgba(0,0,0,0.4);
 	border-bottom: 2px solid #414;
 }
 nav h1{
@@ -88,7 +88,7 @@ h3 {
 }
 .post {
   margin:1rem;
-  box-shadow: 3px 3px 10px 3px #222;
+	box-shadow:0 0 1em rgba(0,0,0,0.4);
   border-top:1px solid #547;
   border-left:1px solid #444;
   border-right:1px solid #222;
@@ -117,7 +117,7 @@ strong{
 }
 pre, :not(pre) > code {
   border: 1px dashed black;
-	box-shadow: 0 0 0.5em #222 inset;
+	box-shadow:0 0 0.5em rgba(0,0,0,0.4) inset;
 	background:#1d2024;
 	margin-top:0.5rem;
 	font-size:0.7rem;
