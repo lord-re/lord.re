@@ -1,69 +1,67 @@
-* {
-  box-sizing: border-box;
-	transition: all 0.1s ease;
-	margin: 0;
-	padding: 0;
+*{
+  box-sizing:border-box;
+	transition:all 0.1s ease;
+	margin:0;
+	padding:0;
 }
 html{
 	line-height:1.35em;
 	font-family:'Droid Sans';
-  background: #272b30;
+  background:#272b30;
 }
-a {
-  text-decoration: none;
+a{
+  text-decoration:none;
 	border-bottom:1px dotted;
 }
-article a {
-  text-decoration: none;
-	border-bottom: 1px dashed;
-	outline: 1px dotted rgba(255,255,255,0.3);
+article a{
+  text-decoration:none;
+	border-bottom:1px dashed;
+	outline:1px dotted rgba(255,255,255,0.3);
 	outline-offset:.2em;
 }
 a:hover{
-  outline: 1px solid;
+  outline:1px solid;
 	outline-offset:.3em;
+  border-bottom:1px dashed orangered;
 }
-a:hover {
-  border-bottom: 1px dashed orangered;
-}
-aside {
-	padding: 1rem;
-	color: #757c82;
+aside{
+	padding:1rem;
+	color:#757c82;
 	text-align:center;
 	box-shadow:0 0 1em rgba(0,0,0,0.4);
-	border-bottom: 2px solid #414;
+	border-bottom:2px solid #414;
 }
 aside h1{
-	padding-bottom: 1.5rem;
+	padding-bottom:1.5rem;
 	text-align:center;
 }
 aside p{
-	font-size:0.9rem;
+	font-size:.9rem;
 }
-@media (min-width: 58em){
+@media (min-width:58em){
   aside {
-    position: fixed;
-		top: 0;
-		left: 0;
-		bottom: 0;
-		width: 18rem;
-		text-align: left;
-		border-right: 2px solid #414;
+    position:fixed;
+		top:0;
+		left:0;
+		bottom:0;
+		width:18rem;
+		text-align:left;
+		border-right:2px solid #414;
 		border-bottom:none;
 	}
 	.content{
-    margin-left: 20rem;
+    margin-left:20rem;
 	}
   #sidebar{
-    position: absolute;
-		right: 1rem;
-		bottom: 1rem;
-		left: 1rem;
+    position:absolute;
+		right:1rem;
+		bottom:1rem;
+		left:1rem;
 	}
 }
 @media (min-width: 80em){
-	aside {
-    border-right: 4px solid #414;
+	aside{
+    border-right:4px solid #414;
 	}
   html{
 		font-size:18pt;
@@ -74,44 +72,42 @@ aside p{
     font-size:20pt;
 	}
 }
-.content {
-  color: #757c82;
+.content{
+  color:#757c82;
 }
-a {
-	color: #aa7c82;
+a{
+	color:#aa7c82;
 }
-h1 {
+h1{
 	line-height:2rem;
-  font-size: 2rem;
+  font-size:2rem;
 	color:#bb8;
 }
 h1 a{
-  font-size: 1.7rem;
-	color: #aa8;
+  font-size:1.7rem;
+	color:#aa8;
 }
-h2 {
+h2{
   font-size:1.5rem;
-	color: #8aa;
+	color:#8aa;
 	padding-top:1.2rem;
 }
-h3 {
-  font-size: 1.3rem;
-	padding-top: 1.1rem;
+h3{
+  font-size:1.3rem;
+	padding-top:1.1rem;
 }
-.post {
+.post{
   margin:1rem;
 	box-shadow:0 0 1em rgba(0,0,0,0.4);
   border-top:1px solid #547;
   border-left:1px solid #444;
-  border-right:1px solid #222;
-  border-bottom:1px solid #222;
   padding:2rem;
   text-align:justify;
-	max-width: 50em;
+	max-width:50em;
 }
-.post-category {
-	color: #757cab;
-	padding: 0.5rem;
+.post-category{
+	color:#757cab;
+	margin-left:.6rem;
 }
 .post li{
 	margin-left:1rem;
@@ -119,7 +115,7 @@ h3 {
 	list-style-type:disc;
 }
 section p{
-  padding-top: 1rem;
+  padding-top:1rem;
 }
 em{
   color:#8a8;
@@ -127,38 +123,38 @@ em{
 strong{
 	color:#a8a;
 }
-pre, :not(pre) > code {
-  border: 1px dashed black;
+pre, :not(pre) > code{
+  border:1px dashed black;
 	box-shadow:0 0 0.5em rgba(0,0,0,0.4) inset;
 	background:#1d2024;
 	margin-top:0.5rem;
 	font-size:0.7rem;
 	padding: 0.5rem;
 }
-figure h4 {
+figure h4{
 	font-size:0.7rem;
 	text-align:center;
 	background:#67a4a8;
 	font-weight:100;
 	color:black;
 }
-figure {
+figure{
 	margin:1em;
 	box-shadow:0 0 1em rgba(0,0,0,0.4);
 }
-.post-meta {
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-  font-size: 0.8rem;
+.post-meta{
+	margin-top:1rem;
+	margin-bottom:1rem;
+  font-size:.8rem;
 }
 .read-more-link , .read-more-link a{
 	text-align:right;
-  color: #2aa198;
+  color:#2aa198;
 }
 .read-more-link a:hover{
-	color: #4ab1a8;
+	color:#4ab1a8;
 }
 @font-face{
-        src: local('Droid Sans'), local('DroidSans'), url(static/css/droidsans.woff) format('woff');
-        src: local('Droid Serif'), local('DroidSerif'), url(static/css/droidserif.woff) format('woff');
+        src:local('Droid Sans'),local('DroidSans'),url(static/css/droidsans.woff) format('woff');
+        src:local('Droid Serif'),local('DroidSerif'),url(static/css/droidserif.woff) format('woff');
 }
