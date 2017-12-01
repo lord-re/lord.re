@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 Tags = ["hardware","meta","software"]
 Description = "Replacing mom with zoid. A server retire and another one replace it"
 menu = "main"

@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 Description = "How to set microcaching on an nginx reverse proxy."
 PublishDate = "2017-09-24T22:01:38+02:00"
 notoc = true

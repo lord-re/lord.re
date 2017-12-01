@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 menu = "main"
 Categories = ["jabber","www"]
 Tags = ["www","meta"]

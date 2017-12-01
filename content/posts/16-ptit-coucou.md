@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 Categories = ["tips","hardware"]
 Tags = ["tips","hardware"]
 Description = "Démerdouillage de bug audio sur laptop asus g50"

@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 Description = "Modif du design du site"
 date = "2010-08-25T21:55:11+02:00"
 title = "Un coup de polish"

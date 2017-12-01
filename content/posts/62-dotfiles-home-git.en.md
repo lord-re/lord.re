@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 Categories = ["tips","adminsys"]
 Description = "Manage your dotfiles without a new soft. Easily with versionning and all."
 Tags = ["www","meta"]

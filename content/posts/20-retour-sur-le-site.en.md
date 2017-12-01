@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 title = "Yet another new website revamping"
 menu = "main"
 Categories = ["meta","www"]

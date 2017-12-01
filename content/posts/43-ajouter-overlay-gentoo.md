@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 Description = "Nous allons voir comment ajouter/supprimmer un overlay gentoo sans passer par le vénérable layman"
 date = "2016-10-06T14:58:02+02:00"
 title = "Ajouter un overlay Gentoo sans layman"

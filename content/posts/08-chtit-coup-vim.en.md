@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 date = "2010-01-25T17:52:30+02:00"
 title = "An ounce of ViM to change your mind"
 Tags = ["tips","vim"]

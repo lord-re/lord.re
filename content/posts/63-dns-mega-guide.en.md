@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 Categories = ["dns","network","adminsys"]
 Tags = ["dns","network","adminsys"]
 Description = "The ultimate DNS guide. How to set it up, how to maintain it, how to have a modern stack. Deploying DNSSEC and DANE."

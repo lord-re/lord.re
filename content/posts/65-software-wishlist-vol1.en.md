@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 Description = "My small wishlist of features or my dream softwares"
 Categories = ["software", "cli"]
 Tags = ["software", "cli"]

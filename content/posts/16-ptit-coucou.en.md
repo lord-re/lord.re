@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 Categories = ["tips","hardware"]
 Tags = ["tips","hardware"]
 Description = "Fixing an audio bug on an asus g50 laptop"

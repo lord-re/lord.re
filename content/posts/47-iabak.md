@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 Description = "Filons un coup de mains à archive.org dans leur quête de préservation de l'Internet"
 date = "2016-12-08T15:22:34+02:00"
 title = "Redondons les archives du net"

@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 title = "Gestionnaire de passwords : password-store"
 menu = "main"
 Categories = ["software","libre","tips"]

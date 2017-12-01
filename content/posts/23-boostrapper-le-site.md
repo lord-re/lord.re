@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 title = "Bootstrapper le site"
 menu = "main"
 Categories = ["meta","www"]

@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 notoc = true
 menu = "main"
 Tags = ["tips","ux","cli","adminys","linux"]

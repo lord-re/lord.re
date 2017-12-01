@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 date = "2017-08-24T16:09:56+02:00"
 title = "Guide d'utilisation d'IRC : niveau 4"
 menu = "main"

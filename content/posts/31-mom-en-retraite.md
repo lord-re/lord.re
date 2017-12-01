@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 Tags = ["hardware","meta","software"]
 Description = "Remplacement de mom par zoid. Un serveur qui prend sa retraite et un nouveau vient le remplacer."
 menu = "main"

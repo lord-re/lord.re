@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 Categories = ["libre","mail"]
 date = "2008-08-25T17:34:56+02:00"
 title = "Degooglification"

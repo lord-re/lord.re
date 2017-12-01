@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 date = "2016-03-08T14:52:04+02:00"
 title = "Démarrer des applis dans tmux au boot"
 menu = "main"

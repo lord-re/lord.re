@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 date = "2012-11-20T22:40:42+02:00"
 title = "Basic survival guide in vim"
 Categories = ["libre","software","tips"]

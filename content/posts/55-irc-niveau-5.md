@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 Tags = ["irc","tips","réseau"]
 Categories = ["irc","tips","réseau"]
 Description = "Bon bha l'ultime niveau c'est la gestion du réseau. Donc c'est à destination des ircop et des netadmin."

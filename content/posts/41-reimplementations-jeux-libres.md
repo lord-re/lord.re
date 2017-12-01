@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 date = "2015-12-28T14:36:41+02:00"
 title = "Réimplémentations libres de moteurs de jeux"
 menu = "main"

@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 Description = "Post-Mortem suite à une coupure de courant. Une gentoo maladouille qui doit se faire réparer."
 date = "2013-07-07T23:16:41+02:00"
 title = "Devtmpfs et Udev sont dans un bateau"

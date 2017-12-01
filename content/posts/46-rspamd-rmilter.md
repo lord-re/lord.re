@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 Categories = ["software","adminsys","réseau","tips"]
 Tags = ["software","adminsys","réseau","tips"]
 Description = "Allez hop hop hop, on modernise la stack mail. On vire spamassassin et opendkim. À la place on met ceux à la mode : rmilter et rspamd."

@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 Categories = ["adminsys","réseau","tips"]
 Tags = ["adminsys","réseau","tips"]
 Description = "Tutorial pour virer une livebox pour la remplacer par un vrai routeur. Le but du jeu est de conserver le service de télévision fonctionnel"

@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 Description = "Une petite liste de logiciels qui me font défaut et qui me plairait."
 Categories = ["software", "cli"]
 Tags = ["software", "cli"]

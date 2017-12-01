@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 Description = "Abordons une conf de nginx avec php plutôt proprette"
 date = "2014-03-11T23:36:06+02:00"
 title = "Monter un hébergement de site web propre et performant."

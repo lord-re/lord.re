@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 date = "2017-07-23T15:35:44+02:00"
 title = "Changer la couleur de fond de son terminal à la volée"
 menu = "main"

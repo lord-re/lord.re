@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 Categories = ["adminsys","network","tips"]
 Tags = ["adminsys","network","tips"]
 Description = "Tutorial to replace a Livebox with a true router. The goal is to keep the TV service."

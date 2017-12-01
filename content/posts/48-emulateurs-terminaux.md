@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 Description = "Petit récap des émulateurs de terminal."
 date = "2017-02-21T15:27:50+02:00"
 title = "Tour d'horizons des émulateurs de terminal"

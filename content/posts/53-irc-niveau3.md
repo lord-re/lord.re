@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 Description = "On passe au niveau 3 de l'utilisation d'IRC. On aborde ce coup-ci l'utilisation un poil poussée."
 menu = "main"
 date = "2017-08-24T16:01:50+02:00"

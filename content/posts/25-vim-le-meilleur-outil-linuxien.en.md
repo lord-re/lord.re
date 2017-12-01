@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 Description = "Why use vim ?"
 date = "2012-11-20T22:36:42+02:00"
 title = "Vim : The linuxian bestfriend"

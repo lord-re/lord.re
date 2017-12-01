@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 date = "2010-08-25T21:41:23+02:00"
 title = "Farewell MSN"
 Tags = ["libre"]

@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 title = "Contrôler son écran via l'ordi"
 Tags = ["hardware","software","linux","tips"]
 Categories = ["hardware","software","linux","tips"]

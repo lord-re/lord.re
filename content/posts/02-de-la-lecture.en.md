@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 date = "2008-08-25T16:21:49+02:00"
 title = "As a nice guy I provide you some nice reading"
 Description = ""

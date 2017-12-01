@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 Categories = ["web","www"]
 Description = "Petite présentation de Qutebrowser. Un navigateur webkit/blink utilisant Python et QT5 avec une interface à la vim."
 Tags = ["www","web"]

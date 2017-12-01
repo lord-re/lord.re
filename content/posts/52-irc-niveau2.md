@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 Categories = ["irc","tips","réseau"]
 Tags = ["irc","tips","réseau"]
 Description = "C'est un quoi donc l'irc ? Petit survol des trucs de l'irc"

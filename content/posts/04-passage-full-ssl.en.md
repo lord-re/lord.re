@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 Tags = ["meta","www"]
 Description = ""
 date = "2008-08-25T16:29:59+02:00"

@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 Categories = ["tips","adminsys"]
 Description = "Gérer ses fameux dotfiles sans installer de nouveau logiciel. Simplement avec versionnement toussa toussa."
 Tags = ["www","meta"]

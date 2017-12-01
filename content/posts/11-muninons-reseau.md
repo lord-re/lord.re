@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 title = "Monitorons ce qui traîne sur son réseau"
 Tags = ["adminsys","monitoring","meta"]
 Description = "On va poser un ptit munin et reluquer le réseau"

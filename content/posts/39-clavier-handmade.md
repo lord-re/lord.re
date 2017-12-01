@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 Description = "Récit de la constuction de mon clavier fait à la main"
 date = "2015-08-01T12:13:26+02:00"
 title = "Le clavier fait maison : PART 1"

@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 Description = "Faire une config SSL propre de nginx en 2015"
 date = "2015-02-21T12:03:50+02:00"
 title = "Nginx HTTPS 2015"

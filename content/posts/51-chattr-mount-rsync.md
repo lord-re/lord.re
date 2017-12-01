@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 Description = "Petite astuce qui va vous empêcher de pourrir une partoche en cas de montage oublié."
 date = "2017-08-16T15:49:41+02:00"
 title = "Empêcher rsync de pourrir une partoche si c'est pas mount"

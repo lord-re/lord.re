@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 Categories = ["libre","ux","software","linux"]
 Tags = ["libre","ux","software","linux"]
 Description = "Pistes de réflexion pour faire un init"

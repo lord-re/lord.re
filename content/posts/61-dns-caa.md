@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 notoc = true
 menu = "main"
 date = "2017-10-06T11:49:01+02:00"

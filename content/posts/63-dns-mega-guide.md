@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 Categories = ["dns","réseau","adminsys"]
 Tags = ["dns","réseau","adminsys"]
 Description = "Le guide ultime concernant le DNS. On y voit comment monter le bousin, comment le tenir à jour, comment avoir un truc moderne. Gérer le DNSSEC. Faire du DANE. "

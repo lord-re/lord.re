@@ -1,4 +1,5 @@
 +++
+Author = "Lord"
 Description = "Explorons un peu l'utilisation de BTRFS avec du multi devices."
 menu = "main"
 date = "2014-02-16T23:28:35+02:00"
