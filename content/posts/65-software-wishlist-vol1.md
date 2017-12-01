@@ -10,6 +10,7 @@ title = "Ma Wishlist logicielle : Vol1"
 +++
 
 Ma liste au père nowel 2017 niveau logiciel. Je sens que ça va pas être exaucé mais qui ne tente rien…
+<!--more-->
 
 ## ||| : Le magic pipe
 Il y a un truc qui me gonfle. Et ça me gonfle sévère : constamment, j'ouvre pleins de terminaux. Et souvent ça se fini en ssh à droite à gauche. Avec parfois des rebonds. Parfois sur des machines qui n'ont même pas accès au net (des vm toussa toussa). 

@@ -10,6 +10,7 @@ title = "My software wishlist : Vol1"
 +++
 
 Here's my 2017 letter to Santa Code. I don't think all my wishes will be answered but we never know…
+<!--more-->
 
 ## ||| : Le magic pipe
 You know what really grinds my gear ? I frequently open many terminal emulators. Often i connect to various remote boxes. Sometimes with multiple jumps. Even sometime on machines without Internet access (containers and VM accessed from the hypevisor).
