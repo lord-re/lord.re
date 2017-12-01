@@ -5,38 +5,31 @@
 
     <div class="content">
       <a name="top"></a>
-
-      <div class="posts">
-        <section  class="post">
-          <header class="post-header">
-            <h1 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
-          </header>
+      <section  class="post">
+        <header class="post-header">
+          <h1 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
           <p class="post-meta"><em>
-          {{ if not .Params.nodate }}<span class="post-date">{{ .Date.Format "02/01/2006" }}</span> - {{ end }}
-          {{ if not .Params.noauthor }}{{ if .Params.author }}By <a class="post-author" {{ if .Params.authorlink }}href="{{ .Params.authorlink }}"{{ end }}>{{ .Params.author }}</a>{{ end }}{{ end }}
-          {{ if not .Params.noread }}<span class="post-reading-time">{{ i18n "readingTime" .ReadingTime}}</span>{{ end }}</em>
-	  {{ if .Params.categories }}<span class="post-categories">{{ $Site := .Site }}{{ range .Params.categories }}<a class="post-category post-category-{{ . | urlize }}" href="{{ $Site.BaseURL}}{{i18n "url-lang"}}categories/{{ . | urlize }}">[{{ . }}]</a>{{ end }}</span>{{ end }}
-         </p>
-          <article role="main">
-            {{ .Content }}
-          </article>
+            {{ if not .Params.nodate }}<span class="post-date">{{ .Date.Format "02/01/2006" }}</span> - {{ end }}
+            {{ if not .Params.noauthor }}{{ if .Params.author }}By <a class="post-author" {{ if .Params.authorlink }}href="{{ .Params.authorlink }}"{{ end }}>{{ .Params.author }}</a>{{ end }}{{ end }}
+            {{ if not .Params.noread }}<span class="post-reading-time">{{ i18n "readingTime" .ReadingTime}}</span>{{ end }}</em>
+	          {{ if .Params.categories }}<span class="post-categories">{{ $Site := .Site }}{{ range .Params.categories }}<a class="post-category post-category-{{ . | urlize }}" href="{{ $Site.BaseURL}}{{i18n "url-lang"}}categories/{{ . | urlize }}">[{{ . }}]</a> {{ end }}</span>{{ end }}
+          </p>
+        </header>
+        <main>
+          {{ .Content }}
+        </main>
 
-
-				<div class="post-meta">
+				<footer class="post-meta">
 			    {{ if not .Params.nopaging }}
 			    <div class="paging"><p>{{ i18n "paging-start" }}
-					  {{ if .Prev }}
-					  {{ i18n "paging-fresher" }}<a class="paging-link" href="{{ .Prev.RelPermalink }}">{{ .Prev.Title }}</a> 
-            {{ end }}
-					  {{ if .Next }}
-					  {{ i18n "paging-older" }} <a class="paging-link" href="{{ .Next.RelPermalink }}">{{ .Next.Title  }}</a>
-		        {{ end }}
-						</p>
+          {{ if .Prev }}{{ i18n "paging-fresher" }}<a class="paging-link" href="{{ .Prev.RelPermalink }}">{{ .Prev.Title }}</a>{{ end }}
+          {{ if .Next }}{{ i18n "paging-older" }}<a class="paging-link" href="{{ .Next.RelPermalink }}">{{ .Next.Title  }}</a>{{ end }}
+					</p>
 				  </div>
 				  {{ end }}
+				</footer>
 
-        </section>
-      </div>
+      </section>
     </div>
   </div>
 </body>

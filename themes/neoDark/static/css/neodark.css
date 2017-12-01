@@ -11,26 +11,37 @@ html{
 }
 a {
   text-decoration: none;
+	border-bottom:1px dotted;
+}
+article a {
+  text-decoration: none;
+	border-bottom: 1px dashed;
+	outline: 1px dotted rgba(255,255,255,0.3);
+	outline-offset:.2em;
+}
+a:hover{
+  outline: 1px solid;
+	outline-offset:.3em;
 }
 a:hover {
-  color:orangered;
+  border-bottom: 1px dashed orangered;
 }
-nav {
+aside {
 	padding: 1rem;
 	color: #757c82;
 	text-align:center;
 	box-shadow:0 0 1em rgba(0,0,0,0.4);
 	border-bottom: 2px solid #414;
 }
-nav h1{
+aside h1{
 	padding-bottom: 1.5rem;
 	text-align:center;
 }
-nav p{
+aside p{
 	font-size:0.9rem;
 }
 @media (min-width: 58em){
-  nav {
+  aside {
     position: fixed;
 		top: 0;
 		left: 0;
@@ -51,7 +62,7 @@ nav p{
 	}
 }
 @media (min-width: 80em){
-	nav {
+	aside {
     border-right: 4px solid #414;
 	}
   html{
@@ -70,6 +81,7 @@ a {
 	color: #aa7c82;
 }
 h1 {
+	line-height:2rem;
   font-size: 2rem;
 	color:#bb8;
 }
