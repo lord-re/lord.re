@@ -1,4 +1,4 @@
-<aside role="banner">
+<aside>
 	<div id="sidebar">
   <h1 class="brand-title"><a href="{{ .Site.BaseURL }}{{ i18n "url-lang" }}">/home/lord</a></h1>
   <p>{{ i18n "sidebar-description"}}</p>
@@ -8,5 +8,5 @@
   <p>RSS : <a href="{{ .Site.RSSLink }}" rel="alternate" type="application/rss+xml">index.xml</a></p>
   <br>
 {{ range .Translations }}  <p><a href="{{ .Permalink }}">{{i18n "dispo"}} : {{ .Title }}{{ if .IsPage }} {{ end }}</a></p>{{ end}}
-  <div>
+  </div>
 </aside>
