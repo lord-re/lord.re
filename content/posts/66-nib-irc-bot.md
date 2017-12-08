@@ -10,19 +10,19 @@ date = 2017-12-08T16:21:40+01:00
 title = "NIB : Mon assistant personnel IRC"
 +++
 
-Je vous présente ***NIB*** mon assistant personnel. Il me simplifie la vie depuis quelques années maintenant. J'y gère des todo, j'y fait un peu de supervision, un peu de self monitoring manuel également et il possède mêmes quelques commandes réseaux. 
+Je vous présente ***NIB*** mon assistant personnel. Il me simplifie la vie depuis quelques années maintenant. J'y gère des todo, j'y fais un peu de supervision, un peu de self monitoring manuel également et il possède même quelques commandes réseaux. 
 
-J'ai une forte addiction à l'irc. J'y suis connecté 24h/24 depuis près de vingt ans ans maintenant. Je consulte jamais mes mails mais irc plusieurs fois par heure. Dès que je démarre mon ordi, je me reconnecte sur ma session ssh où tourne mon fidèle tmux/weechat. C'est ma cyber-forme de communication première (désolé blog mais ouai tu passes après). Bref si je dois avoir un assistant personnel faut qu'il soit accessible sur irc. J'y ait accès sur mon ordi, sur n'importe quel ordi via le web ou directement depuis mon téléphone via client weechat-android tourne constamment aussi.
+J'ai une forte addiction à l'irc. J'y suis connecté 24h/24 depuis près de vingt ans ans maintenant. Je consulte jamais mes mails mais irc plusieurs fois par heure. Dès que je démarre mon ordi, je me reconnecte sur ma session ssh où tourne mon fidèle tmux/weechat. C'est ma cyber-forme de communication première (désolé blog mais ouais tu passes après). Bref si je dois avoir un assistant personnel faut qu'il soit accessible sur irc. J'y ait accès sur mon ordi, sur n'importe quel ordi via le web ou directement depuis mon téléphone via client weechat-android tournant constamment aussi.
 
 ## Choix techniques
 
 Je ne sais pas coder, tout juste lire quelques lignes de codes pour m'en dépatouiller pour tenter de débugguer un peu à droite à gauche mais guère plus. J'ai donc bidouillé du **script shell** pour fabriquer mon bot irc.
 
-Il existe pas mal de bots irc déjà dans pas mal de langages différents mais bon j'ai pas envie d'avoir du vieux code pas forcément à jour ou bien des softs avec quinze milles dépendances et surtout j'ai envie de m'amuser à faire ça. Un truc léger et pas forcément remplie de fonctionnalités. Du coup bha du script shell c'est à peu près universel, un client irc facilement hackable et les commandes inotify pour aider. On tartine ça de commandes sorties de **coreutils** et pouf.  Voilà tout ce qui est nécessaire. En bonus on peut rajouter tmux c'est quand même plus pratique.
+Il existe pas mal de bots irc déjà dans pas mal de langages différents mais bon j'ai pas envie d'avoir du vieux code pas forcément à jour ou bien des softs avec quinze milles dépendances et surtout j'ai envie de m'amuser à faire ça. Un truc léger et pas forcément rempli de fonctionnalités. Du coup bha du script shell c'est à peu près universel, un client irc facilement hackable et les commandes inotify pour aider. On tartine ça de commandes sorties de **coreutils** et pouf.  Voilà tout ce qui est nécessaire. En bonus on peut rajouter tmux c'est quand même plus pratique.
 
-Au final c'est très économe en ram (la vm consomme 14Mo là tout de suite) en CPU 4 Minutes de CPU par jour environ soit bien moins de 1% de CPU en moyenne et ça rentre dans moins de 100Mo de skeudur. C'est donc virtuellement hébergeable partout. Perso je le fait tourner dans un container sur mon routeur.
+Au final c'est très économe en ram (la vm consomme 14Mo là tout de suite) en CPU 4 Minutes de CPU par jour environ soit bien moins de 1% de CPU en moyenne et ça rentre dans moins de 100Mo de skeudur. C'est donc virtuellement hébergeable partout. Perso je le fais tourner dans un container sur mon routeur.
 
-Le client IRC choisi est **ii**. C'est un client irc assez minimaliste fait par les braves gens de [Suckless](https://suckless.org/). Il se connecte au réseau irc voulu ainsi qu'au salon de discussion voulu et vous ouvre des *FIFO* dans lesquels vous enverrez le texte. Pour lire le salon vous ouvrirez le fichier texte qu'ii créer. C'est assez primitif au premier abord mais ça permet d'utiliser les logiciels de son choix pour lire/écrire c'est pas mal. C'est du coup ultra simple à scripter. Un simple ``echo coucou >> irc.geeknode.org/#lesalon/in`` et hop.
+Le client IRC choisi est **ii**. C'est un client irc assez minimaliste fait par les braves gens de [Suckless](https://suckless.org/). Il se connecte au réseau irc voulu ainsi qu'au salon de discussion voulu et vous ouvre des *FIFO* dans lesquels vous enverrez le texte. Pour lire le salon vous ouvrirez le fichier texte qu'ii crée. C'est assez primitif au premier abord mais ça permet d'utiliser les logiciels de son choix pour lire/écrire c'est pas mal. C'est du coup ultra simple à scripter. Un simple ``echo coucou >> irc.geeknode.org/#lesalon/in`` et hop.
 
 Une partie du boulot du bot est fait par le bot lui même mais pas uniquement. Le bot est également en écoute sur un port et envoi sur IRC tout ce qui arrive sur ce port. Ça permet de recevoir du texte depuis l'extérieur (Ça fait même un cheap honey pot).
 
@@ -34,7 +34,7 @@ En plus d'être addict à IRC je suis un gros utilisateur des flux RSS. Ça perm
 
 ### Monitoring ping
 
-Je gère quelques machines persos mais également des machines associatives dont certaines nécessitent un uptime plutôt correct.  Je fait donc chaque minute un test de connexion TCP et/ou UDP sur les services critiques. En cas d'échec, le bot affiche le service qui est injoignable. Je fait ça chaque minute ce qui me permet de voir les downtimes assez rapidement et ainsi voir combien de temps ça dure. Pour faire ce teste j'utilise un fonction assez peu connue du shell : ``echo >/dev/tcp/la_machine/le_port) &>/dev/null`` . Et bien entendu je récupère (ou non) un code d'erreur en retour. Si ça échoue, j'attend quelques secondes et je lance une seconde tentative, ça évite d'avoir des erreurs pour des micro-interruptions. *0 dépendance pour ce module.*
+Je gère quelques machines persos mais également des machines associatives dont certaines nécessitent un uptime plutôt correct.  Je fait donc chaque minute un test de connexion TCP et/ou UDP sur les services critiques. En cas d'échec, le bot affiche le service qui est injoignable. Je fait ça chaque minute ce qui me permet de voir les downtimes assez rapidement et ainsi voir combien de temps ça dure. Pour faire ce teste j'utilise une fonction assez peu connue du shell : ``echo >/dev/tcp/la_machine/le_port) &>/dev/null`` . Et bien entendu je récupère (ou non) un code d'erreur en retour. Si ça échoue, j'attend quelques secondes et je lance une seconde tentative, ça évite d'avoir des erreurs pour des micro-interruptions. *0 dépendance pour ce module.*
 
 ### Vérif des backup
 
@@ -44,11 +44,11 @@ Un simple cron lançant régulièrement un tout petit script qui vérifie si le 
 
 ### Gestion de todo
 
-Un petit script qui ajoute/supprimme des lignes dans un fichier texte. Une ligne par truc à faire. Un cron qui affiche la todo tous les jours deux fois par jours. Avec ça je me sense "oppressé" du coup je la vide aussi vite que possible. Un simple ***todo add truc à faire*** et hop c'est ajouté. C'est tout à base de **echo** et **while read**. *Pas de dépendance en dehors des coreutils classiques.*
+Un petit script qui ajoute/supprime des lignes dans un fichier texte. Une ligne par truc à faire. Un cron qui affiche la todo tous les jours deux fois par jours. Avec ça je me sens "oppressé" du coup je la vide aussi vite que possible. Un simple ***todo add truc à faire*** et hop c'est ajouté. C'est tout à base de **echo** et **while read**. *Pas de dépendance en dehors des coreutils classiques.*
 
 ### VoD perso
 
-Mon NAS est connecté au net. Du coup parfois quand je suis pas dans mon LAN et que j'ai envie de matter une vidéo dispo sur mon NAS je dois chercher la vidéo. Ouai ouai le NAS est pas super bien rangé, il y a des trucs à droite à gauche (séparé sur plusieurs disques). Du coup je me suis fait une ptite commande qui va simplement **find|grepper** dans tous les dossiers de stockage pour trouver la vidéo désirée et qui me sort le lien. *Ce coup-ci on a besoin de ssh (ainsi que la configuration d'un utilisateur et de ses clés) comme unique dépendance.*
+Mon NAS est connecté au net. Du coup parfois quand je suis pas dans mon LAN et que j'ai envie de matter une vidéo dispo sur mon NAS je dois chercher la vidéo. Ouais ouais le NAS est pas super bien rangé, il y a des trucs à droite à gauche (séparé sur plusieurs disques). Du coup je me suis fait une ptite commande qui va simplement **find|grepper** dans tous les dossiers de stockage pour trouver la vidéo désirée et qui me sort le lien. *Ce coup-ci on a besoin de ssh (ainsi que la configuration d'un utilisateur et de ses clés) comme unique dépendance.*
 
 ### Monitoring perso
 
@@ -60,13 +60,13 @@ Ouai des fois j'ai un besoin urgent de télécharger un fichier. Je lui donne l'
 
 ### Monitoring de sessions
 
-Gérant plusieurs machines ouvertes sur le net, j'ai des serveurs SSH à droite à gauche bien évidemment. Même si tant que possible j'essaye de faire en sorte que la conf des SSHD soit bonne, on n'est à l'abris de rien. Du coup dès qu'une session est ouverte je reçois l'information de la provenance de la connexion ainsi que l'utilisateur. Ça permet de voir en live qui se connecte où. C'est génial ( "Tiens qui sait ce *Lord* qui vient de se connecter sur mon routeur ?" ). Ça permet de réagir assez vite en cas de compromission ou tout simplement après coup de voir qui s'est connecté il y a six mois sur telle machine ? On voit également en live les backup se faire via ssh. On peut facilement détecter un backup qui se passe mal (une connexion qui ne dure que 5 secondes au lieu des 40 minutes habituelles par exemple).
+Gérant plusieurs machines ouvertes sur le net, j'ai des serveurs SSH à droite à gauche bien évidemment. Même si tant que possible j'essaye de faire en sorte que la conf des SSHD soit bonne, on n'est à l'abri de rien. Du coup dès qu'une session est ouverte je reçois l'information de la provenance de la connexion ainsi que l'utilisateur. Ça permet de voir en live qui se connecte où. C'est génial ( "Tiens qui sait ce *Lord* qui vient de se connecter sur mon routeur ?" ). Ça permet de réagir assez vite en cas de compromission ou tout simplement après coup de voir qui s'est connecté il y a six mois sur telle machine ? On voit également en live les backup se faire via ssh. On peut facilement détecter un backup qui se passe mal (une connexion qui ne dure que 5 secondes au lieu des 40 minutes habituelles par exemple).
 
 Cette partie n'est en fait pas gerée par le bot lui même. C'est juste sur les machines surveillées, un script qui s'execute à la connexion pour envoyer la notif au bot. Soit on fout la commande dans le *sshrc* qui est executé à l'établissement de la connexion réussie. Soit (et je préfère) carrément dans PAM ce qui permet d'avoir la connexion ET la déconnexion. On envoi ça via un simple netcat même si je pourrai le faire via un **echo >/dev/tcp/** . *Pas de dépendance sur le bot par contre un script à mettre en place sur chacune des machines surveillées et donc installation de nc*.
 
 ## Crypto-monnaies
 
-J'ai un peu de crypto monnaies et je tente de grapher un peu combien ça vaut. Et surtout je mine à mon rythme du Monero l'hiver pour chauffer l'appart. Du coup je récupère la balance de mon wallet, le cours du monero, le hashrate actuel et avec un chouilla de calcul je sort la valeur en €uro de mon ptit portefeuille. C'est principalement du **curl | jq** et les calculs avec **awk** (ouai c'est pas l'outil le plus intuitif mais ça fonctionne et ça évite de rajouter un paquet supplémentaire au container. Donc toutes les trentes minutes le bot relève les infos, annonce les résultats et envoi ça dans un csv via **ssh** pour être graphé. *Là on introduit pas mal de dépendances : curl, jq, awk et ssh*.
+J'ai un peu de crypto monnaies et je tente de grapher un peu combien ça vaut. Et surtout je mine à mon rythme du Monero l'hiver pour chauffer l'appart. Du coup je récupère la balance de mon wallet, le cours du monero, le hashrate actuel et avec un chouilla de calcul je sors la valeur en €uro de mon ptit portefeuille. C'est principalement du **curl | jq** et les calculs avec **awk** (ouais c'est pas l'outil le plus intuitif mais ça fonctionne et ça évite de rajouter un paquet supplémentaire au container. Donc toutes les trentes minutes le bot relève les infos, annonce les résultats et envoie ça dans un csv via **ssh** pour être graphé. *Là on introduit pas mal de dépendances : curl, jq, awk et ssh*.
 
 ## Quelques détails d'implémentation
 
@@ -75,8 +75,8 @@ Le code est en bash et non en sh pure. Je sais plus exactement pour quelle raiso
 J'ai découpé en multiples fonctions qui s'exécutent parallèlement. Le bot utilise de nombreuses boucles qui tournent constamment.
 
   - La première boucle vérifie que **ii** tourne. Si ce n'est pas le cas elle va le relancer et se reconnecter au salon. Ça permet en cas de relancement du bot ou de plantage de ii de se relancer mais en vrai ça n'arrive jamais. Par contre lorsque le bot se fait kill (parfois ça flood un peu trop), ii s'arrête. Du coup la boucle relance le truc.
-  - La seconde boucle vérifie que **nc** tourne et écoute les connexions entrantes. Nc envoi tout ce qu'il reçoit dans un fichier que j'ai appelé buffer. Ce buffer permet de conserver tous les messages si jamais le reste du bot est en carafe (sait-on jamais).
-	- La troisième boucle est celle qui lit le buffer et envoi les lignes vers l'irc avec un ptit délai entre chaque ligne pour éviter le flood. Elle vide également le buffer. C'est un fifo fait main.
+  - La seconde boucle vérifie que **nc** tourne et écoute les connexions entrantes. Nc envoie tout ce qu'il reçoit dans un fichier que j'ai appelé buffer. Ce buffer permet de conserver tous les messages si jamais le reste du bot est en carafe (sait-on jamais).
+	- La troisième boucle est celle qui lit le buffer et envoie les lignes vers l'irc avec un ptit délai entre chaque ligne pour éviter le flood. Elle vide également le buffer. C'est un fifo fait main.
   - Il y a ensuite une quatrième boucle qui s'amuse à lire ce qu'il se passe sur irc et dans certaines conditions va parser ce qui se raconte (en gros si c'est pas le bot lui même qui parle.
 	- Une autre boucle encore qui lit ce qu'il se passe dans le shell ayant lancé le bot. Histoire de pouvoir lancer des commandes interactivement. Ça sert rarement mais parfois c'est utile. J'ai aussi bidouillé des scripts qui envoie des commandes à tmux pour "écrire interactivement" avec le bot. Bidouillage quand tu nous tiens.
 	- J'ai la boucle de monitoring réseau qui tente d'établir les connexions réseau chaque minute.
@@ -519,3 +519,6 @@ main(){
 main $*
 ```
 *Partout où vous voyez XXXX j'ai planqué des infos sensibles.*
+
+
+PS : Merci Gof pour la correction ;-)
