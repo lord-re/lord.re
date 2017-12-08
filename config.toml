@@ -11,6 +11,12 @@ publishDir = "/home/lord/www/public"
 
 [Languages]
 [Languages.fr]
+baseURL = "https://lord.re/"
+languageName = "Français"
+title = "/home/lord"
 weight = 1
 [Languages.en]
+baseURL = "https://lord.re/en/"
+languageName = "Engrish"
+title = "/home/lord"
 weight = 2
