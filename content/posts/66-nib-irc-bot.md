@@ -30,7 +30,7 @@ Une partie du boulot du bot est fait par le bot lui même mais pas uniquement. L
 
 ### Lecture de RSS
 
-En plus d'être addict à IRC je suis un gros utilisateur des flux RSS. Ça permet de suivre de très nombreux sites sans les consulter un par un. J'héberge une instance [Tiny Tiny RSS](https://tt-rss.org/) qui est est un excellent aggrégateur de flux en web. Il est particulièrement adapté pour gérer énormément de flux et les catégoriser. J' ai une catégorie particuliere où je suis les sorties de nouvelles versions de logiciel et également les failles de sécurité. Ce flux est donc assez important. Du coup chaque nouvel item de ce flux est rebalancé sur IRC via le bot histoire de vite faire les mises à jour (ou pas). Pour cela j'utilise **rsstail** qui pioche le flux géneré par ttrss. *On dépend donc de rsstail.*
+En plus d'être addict à IRC je suis un gros utilisateur des flux RSS. Ça permet de suivre de très nombreux sites sans les consulter un par un. J'héberge une instance [Tiny Tiny RSS](https://tt-rss.org/) qui est est un excellent aggrégateur de flux en web. Il est particulièrement adapté pour gérer énormément de flux et les catégoriser. J'ai une catégorie particulière où je suis les sorties de nouvelles versions de logiciel et également les failles de sécurité. Ce flux est donc assez important. Du coup chaque nouvel item de ce flux est rebalancé sur IRC via le bot histoire de vite faire les mises à jour (ou pas). Pour cela j'utilise **rsstail** qui pioche le flux géneré par ttrss. *On dépend donc de rsstail.*
 
 ### Monitoring ping
 
@@ -40,7 +40,7 @@ Je gère quelques machines persos mais également des machines associatives dont
 
 Le boulot n'est pas fait par le bot lui même mais directement sur le serveur de backup qui ne fait que transmettre le texte.
 
-Un simple cron lançant régulièrement un tout petit script qui vérifie si le dossier du dernier backup journalier existe. Et ensuite qui vérifie que ce dossier n'est pas plus vieux qu'un jour. Basique mais suffisant. Et biensûr si c'est pas le cas, une alerte vers le bot. Une dernière petite fonctionnalité est l'affichage de la taille du dernier backup. Ça me permet de voir vite fait si la valeur est cohérente ou pas. Ça ne me demande moins de dix secondes d'attention par jour. *Pas de dépendance introduite par ce module.*
+Un simple cron lançant régulièrement un tout petit script qui vérifie si le dossier du dernier backup journalier existe. Et ensuite qui vérifie que ce dossier n'est pas plus vieux qu'un jour. Basique mais suffisant. Et bien sûr si c'est pas le cas, une alerte vers le bot. Une dernière petite fonctionnalité est l'affichage de la taille du dernier backup. Ça me permet de voir vite fait si la valeur est cohérente ou pas. Ça ne me demande moins de dix secondes d'attention par jour. *Pas de dépendance introduite par ce module.*
 
 ### Gestion de todo
 
@@ -60,9 +60,9 @@ Ouai des fois j'ai un besoin urgent de télécharger un fichier. Je lui donne l'
 
 ### Monitoring de sessions
 
-Gérant plusieurs machines ouvertes sur le net, j'ai des serveurs SSH à droite à gauche bien évidemment. Même si tant que possible j'essaye de faire en sorte que la conf des SSHD soit bonne, on n'est à l'abri de rien. Du coup dès qu'une session est ouverte je reçois l'information de la provenance de la connexion ainsi que l'utilisateur. Ça permet de voir en live qui se connecte où. C'est génial ( "Tiens qui sait ce *Lord* qui vient de se connecter sur mon routeur ?" ). Ça permet de réagir assez vite en cas de compromission ou tout simplement après coup de voir qui s'est connecté il y a six mois sur telle machine ? On voit également en live les backup se faire via ssh. On peut facilement détecter un backup qui se passe mal (une connexion qui ne dure que 5 secondes au lieu des 40 minutes habituelles par exemple).
+Gérant plusieurs machines ouvertes sur le net, j'ai des serveurs SSH à droite à gauche bien évidemment. Même si tant que possible j'essaye de faire en sorte que la conf des SSHD soit bonne, on n'est à l'abri de rien. Du coup dès qu'une session est ouverte je reçois l'information de la provenance de la connexion ainsi que l'utilisateur. Ça permet de voir en live qui se connecte où. C'est génial ( "Tiens qui c'est ce *Lord* qui vient de se connecter sur mon routeur ?" ). Ça permet de réagir assez vite en cas de compromission ou tout simplement après coup de voir qui s'est connecté il y a six mois sur telle machine ? On voit également en live les backup se faire via ssh. On peut facilement détecter un backup qui se passe mal (une connexion qui ne dure que 5 secondes au lieu des 40 minutes habituelles par exemple).
 
-Cette partie n'est en fait pas gerée par le bot lui même. C'est juste sur les machines surveillées, un script qui s'execute à la connexion pour envoyer la notif au bot. Soit on fout la commande dans le *sshrc* qui est executé à l'établissement de la connexion réussie. Soit (et je préfère) carrément dans PAM ce qui permet d'avoir la connexion ET la déconnexion. On envoi ça via un simple netcat même si je pourrai le faire via un **echo >/dev/tcp/** . *Pas de dépendance sur le bot par contre un script à mettre en place sur chacune des machines surveillées et donc installation de nc*.
+Cette partie n'est en fait pas gerée par le bot lui même. C'est juste sur les machines surveillées, un script qui s'exécute à la connexion pour envoyer la notif au bot. Soit on fout la commande dans le *sshrc* qui est executé à l'établissement de la connexion réussie. Soit (et je préfère) carrément dans PAM ce qui permet d'avoir la connexion ET la déconnexion. On envoi ça via un simple netcat même si je pourrai le faire via un **echo >/dev/tcp/** . *Pas de dépendance sur le bot par contre un script à mettre en place sur chacune des machines surveillées et donc installation de nc*.
 
 ## Crypto-monnaies
 
@@ -521,4 +521,4 @@ main $*
 *Partout où vous voyez XXXX j'ai planqué des infos sensibles.*
 
 
-PS : Merci Gof pour la correction ;-)
+PS : Merci Gof et Mortbise pour la correction ;-)
