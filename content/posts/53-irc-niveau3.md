@@ -10,7 +10,7 @@ notoc = true
 
 +++
 ## Guide perso : Se protéger des relous
-Alors la toute première des choses à faire pour se protéger c'est d'**enregistrer son pseudo auprès des services**. Ça évitera que quelqu'un le prenne et se fasse passer pour vous. Pour cela il faut voir avec les services : ***/msg C nick register unmotdepasse uneadressemail***. Désormais à chaque fois que vous vous connecterez au serveur, il faudra vous identifier auprès de C via ***/msg C identify unmotdepasse***
+Alors la toute première des choses à faire pour se protéger c'est d'**enregistrer son pseudo auprès des services**. Ça évitera que quelqu'un le prenne et se fasse passer pour vous. Pour cela il faut voir avec les services : ***/msg C nick register unmotdepasse uneadressemail***. Désormais à chaque fois que vous vous connecterez au serveur, il faudra vous identifier auprès de C via ***/msg C nick identify unmotdepasse***
 
 **Ghoster son nick**. Si quelqu'un est connecté avec votre pseudo, vous ne pouvez pas utiliser ce pseudo. Ghoster consiste donc à forcer la récupération de votre pseudo. Ça se fait simplement avec ***/msg C nick ghost votrepseudo votremotdepasse*** . L'usurpateur se retrouvera avec un pseudo aléatoire et vous serez de nouveau vous. Et pour empêcher que ça ne se reproduise il va falloir activer votre **option protect** : ***/msg C nick set protect on***. Désormais, quelqu'un qui prend votre pseudo devra s'identifier au bout de 60 secondes (configurable) auprès de C sinon il se retrouvera avec un pseudo aléatoire. Bon avec ça normalement plus de soucis d'usurpation d'identité.
 
