@@ -23,8 +23,8 @@
 				<footer class="post-meta">
 			    {{ if not .Params.nopaging }}
 			    <div class="paging"><p>{{ i18n "paging-start" }}
-          {{ if .Prev }}{{ i18n "paging-fresher" }}<a class="paging-link" href="{{ .Prev.RelPermalink }}">{{ .Prev.Title }}</a>{{ end }}
-          {{ if .Next }}{{ i18n "paging-older" }}<a class="paging-link" href="{{ .Next.RelPermalink }}">{{ .Next.Title  }}</a>{{ end }}
+          {{ if .PrevInSection }}{{ i18n "paging-older" }}<a class="paging-link" href="{{ .PrevInSection.RelPermalink }}">{{ .PrevInSection.Title }}</a>{{ end }}
+          {{ if .NextInSection }}{{ i18n "paging-fresher" }}<a class="paging-link" href="{{ .NextInSection.RelPermalink }}">{{ .NextInSection.Title  }}</a>{{ end }}
 					</p>
 				  </div>
 				  {{ end }}
