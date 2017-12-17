@@ -5,6 +5,7 @@ Categories = ["opensource", "linux"]
 Tags = ["opensource", "linux"]
 menu = "main"
 notoc = true
+noread = true
 PublishDate = 2017-12-14T17:02:52+01:00
 date = 2017-12-14T17:02:52+01:00
 title = "AMD Graphic Drivers 2017"
