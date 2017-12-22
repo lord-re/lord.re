@@ -6,7 +6,7 @@ Tags = ["opensource", "jeux"]
 menu = "main"
 notoc = true
 PublishDate = 2017-12-22T11:44:50+01:00
-date = 2017-12-12T12:44:50+01:00
+date = 2017-12-22T11:44:50+01:00
 title = "Doom et ses Mods"
 +++
 
