@@ -38,3 +38,5 @@ And for the next time, buy some AMD system to lessen the Intel monopoly. The new
   - [The blogpost which started drawing attention on this](http://pythonsweetness.tumblr.com/post/169166980422/the-mysterious-case-of-the-linux-page-table)
 
   - [How to read kernel memory from usermode](https://cyber.wtf/2017/07/28/negative-result-reading-kernel-memory-from-user-mode/)
+
+  - [Reddit thread on the subject](https://www.reddit.com/r/sysadmin/comments/7nl8r0/intel_bug_incoming/)
