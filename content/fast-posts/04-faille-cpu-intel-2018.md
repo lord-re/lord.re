@@ -43,3 +43,5 @@ Quelques liens pour approfondir le sujet. Pas de français pour le moment.
   - [Lire la mémoire du kernel depuis l'usermode (EN)](https://cyber.wtf/2017/07/28/negative-result-reading-kernel-memory-from-user-mode/)
 
   - [Discussion reddit sur le sujet (EN](https://www.reddit.com/r/sysadmin/comments/7nl8r0/intel_bug_incoming/)
+
+  - [Journal de Pinaraf sur linuxfr qui explique bien mieux que moi (FR)](https://linuxfr.org/users/pied/journaux/ca-sent-pas-bon-chez-intel)
