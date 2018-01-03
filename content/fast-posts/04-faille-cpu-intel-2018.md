@@ -45,3 +45,10 @@ Quelques liens pour approfondir le sujet. Pas de français pour le moment.
   - [Discussion reddit sur le sujet (EN](https://www.reddit.com/r/sysadmin/comments/7nl8r0/intel_bug_incoming/)
 
   - [Journal de Pinaraf sur linuxfr qui explique bien mieux que moi (FR)](https://linuxfr.org/users/pied/journaux/ca-sent-pas-bon-chez-intel)
+
+## PS :
+Ha bha visiblement il y a des **soupçons de délit d'initiés chez Intel** qui monte : le PDG d'Intel aurait revendu le maximum d'actions il y deux semaines alors que l'affaire n'était pas encore médiatisé. Il y a des risques qu'aujourd'hui Wall Street soit mis au courant de l'histoire et que l'action Intel baisse considérablement.
+
+Pour info, **Windows est également touché et va être patché aussi**.
+
+Pour l'instant ce ne sont que des suppositions de failles mais de nombreux indices étayent l'histoire. L'embargo sera levé ce jeudi midi.
