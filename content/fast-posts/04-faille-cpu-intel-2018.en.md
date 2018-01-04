@@ -21,12 +21,16 @@ This breach comes from a bug in the hardware architecture of the cpu. There is a
 
 We also now know that AMD isn't affected thanks to a [second patch](https://lkml.org/lkml/2017/12/27/2).
 
+{{< figure src="/static/meltdown.min.svg" title="Official logo of the Meltdown attack" link="/static/meltdown.min.svg" >}}
+
 ## Is it serious SERIOUS or just serious ?
 It is ***SERIOUS***. This breach is exploitable on many levels. Virtualized systems are impacted. Apparently it can even be used through specially crafted javascript.
 
 So, even a personal machine could be affected through a web page. Every VM hoster is probably patching as soon as possible.
 
 We don't know for now every details but as usual we don't know if it's already used in the wild.
+
+{{< figure src="/static/spectre.min.svg" title="Official logo of the Meltdown attack" link="/static/spectre.min.svg" >}}
 
 ## What to do ?
 Patch as soon as your OS release the update.
@@ -40,3 +44,7 @@ And for the next time, buy some AMD system to lessen the Intel monopoly. The new
   - [How to read kernel memory from usermode](https://cyber.wtf/2017/07/28/negative-result-reading-kernel-memory-from-user-mode/)
 
   - [Reddit thread on the subject](https://www.reddit.com/r/sysadmin/comments/7nl8r0/intel_bug_incoming/)
+
+## PS :
+
+We have a lot more information. First there is 2 breaches. One called **Spectre** and another one **Meltdown** and there is now an [official website](https://spectreattack.com/) which confirms more or less everything we suspected. It's still ***unclear*** if AMD and/or ARM is affected or not.

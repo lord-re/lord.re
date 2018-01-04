@@ -23,12 +23,16 @@ Les informations complètes seront diffusées un peu plus tard une fois que les 
 
 L'information comme quoi AMD ne serait pas impacté est arrivé dans un second temps (un [second patch](https://lkml.org/lkml/2017/12/27/2) à vrai dire).
 
+{{< figure src="/static/meltdown.min.svg" title="Logo officiel de l'attaque meltdown" link="/static/meltdown.min.svg" >}}
+
 ## Mais c'est grave ?
 Ouai vraiment grave. Cette faille serait exploitable à pleins de niveaux. Les systèmes virtualisés sont également impactés. Même du javascript dans un navigateur pourrait faire des saloperies apparemment.
 
 Du coup bha même une machine perso serait exploitable via une page web. Tous les hébergeurs de machines virtuelles sont probablement en train de flipper et patcher à droite à gauche.
 
 Comme dit précédemment pour l'instant on a pas tous les détails mais comme à chaque fois, on ne sait pas si la faille est déjà utilisée dans la nature.
+
+{{< figure src="/static/spectre.min.svg" title="Logo officiel de l'attaque meltdown" link="/static/spectre.min.svg" >}}
 
 ## Et du coup faut faire quoi ?
 Bha dès que le patch arrive pour votre OS, vous l'installez sans réfléchir.
@@ -52,3 +56,6 @@ Ha bha visiblement il y a des **soupçons de délit d'initiés chez Intel** qui 
 Pour info, **Windows est également touché et va être patché aussi**.
 
 Pour l'instant ce ne sont que des suppositions de failles mais de nombreux indices étayent l'histoire. L'embargo sera levé ce jeudi midi.
+
+## PS2 :
+*4 Janvier 2018 :* Bon bha on a un nom et un site : L'attaque se nomme ***Meltdown*** et ***Spectre*** et [son site](https://spectreattack.com/) confirme à peu près tout ce qu'on savait sauf que c'est toujours vague concernant les processeurs affectés. Apparemment AMD **pourrait** être victime de la faille ansi qu'ARM. En fait la plus grande surprise vient du fait que c'est deux failles.
