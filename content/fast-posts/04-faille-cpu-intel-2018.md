@@ -23,7 +23,7 @@ Les informations complètes seront diffusées un peu plus tard une fois que les 
 
 L'information comme quoi AMD ne serait pas impacté est arrivé dans un second temps (un [second patch](https://lkml.org/lkml/2017/12/27/2) à vrai dire).
 
-{{< figure src="/static/meltdown.min.svg" title="Logo officiel de l'attaque meltdown" link="/static/meltdown.min.svg" >}}
+{{< figure src="/static/meltdown.min.svg" title="Logo officiel de l'attaque Meltdown" link="/static/meltdown.min.svg" >}}
 
 ## Mais c'est grave ?
 Ouai vraiment grave. Cette faille serait exploitable à pleins de niveaux. Les systèmes virtualisés sont également impactés. Même du javascript dans un navigateur pourrait faire des saloperies apparemment.
@@ -32,7 +32,7 @@ Du coup bha même une machine perso serait exploitable via une page web. Tous le
 
 Comme dit précédemment pour l'instant on a pas tous les détails mais comme à chaque fois, on ne sait pas si la faille est déjà utilisée dans la nature.
 
-{{< figure src="/static/spectre.min.svg" title="Logo officiel de l'attaque meltdown" link="/static/spectre.min.svg" >}}
+{{< figure src="/static/spectre.min.svg" title="Logo officiel de l'attaque Spectre" link="/static/spectre.min.svg" >}}
 
 ## Et du coup faut faire quoi ?
 Bha dès que le patch arrive pour votre OS, vous l'installez sans réfléchir.
@@ -65,4 +65,4 @@ Pour l'instant ce ne sont que des suppositions de failles mais de nombreux indic
 *4 Janvier 2018 :* Bon bha on a un nom et un site : L'attaque se nomme ***Meltdown*** et ***Spectre*** et [son site](https://spectreattack.com/) confirme à peu près tout ce qu'on savait sauf que c'est toujours vague concernant les processeurs affectés. Apparemment AMD **pourrait** être victime de la faille ansi qu'ARM. En fait la plus grande surprise vient du fait que c'est deux failles.
 
 ## PS3 :
-*5 Janvier 2018 :* On sait également que c'est effectivement **exploitable via javascript** et que les navigateurs s(er)ont patchés pour limiter les risques mais pas complètement supprimmé le risque. Bref, c'est la merde.
+*5 Janvier 2018 :* On sait également que c'est effectivement **exploitable via javascript** et que les navigateurs s(er)ont patchés pour limiter les risques mais pas complètement supprimmer le risque. Bref, c'est la merde.
