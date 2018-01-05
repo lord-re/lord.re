@@ -45,6 +45,12 @@ And for the next time, buy some AMD system to lessen the Intel monopoly. The new
 
   - [Reddit thread on the subject](https://www.reddit.com/r/sysadmin/comments/7nl8r0/intel_bug_incoming/)
 
+  - [Mozilla explain how they reduce the breach](https://blog.mozilla.org/security/2018/01/03/mitigations-landing-new-class-timing-attack/)
+
 ## PS :
 
 We have a lot more information. First there is 2 breaches. One called **Spectre** and another one **Meltdown** and there is now an [official website](https://spectreattack.com/) which confirms more or less everything we suspected. It's still ***unclear*** if AMD and/or ARM is affected or not.
+
+## PS2 :
+
+*05/01/2018 :* We now know that this breach can be exploited from javascript. Web browsers need to be patched. You could disable javascript while waiting for a patch. You'll see that the web from 2018 is quite fast without js.

@@ -50,6 +50,10 @@ Quelques liens pour approfondir le sujet. Pas de français pour le moment.
 
   - [Journal de Pinaraf sur linuxfr qui explique bien mieux que moi (FR)](https://linuxfr.org/users/pied/journaux/ca-sent-pas-bon-chez-intel)
 
+  - [Explications des différences entre les deux failles Meltdown et Spectre (EN)](https://danielmiessler.com/blog/simple-explanation-difference-meltdown-spectre/)
+
+  - [Mozilla explique ce qu'ils ont mis en place pour réduire le risque (EN)](https://blog.mozilla.org/security/2018/01/03/mitigations-landing-new-class-timing-attack/)
+
 ## PS :
 Ha bha visiblement il y a des **soupçons de délit d'initiés chez Intel** qui monte : le PDG d'Intel aurait revendu le maximum d'actions il y deux semaines alors que l'affaire n'était pas encore médiatisé. Il y a des risques qu'aujourd'hui Wall Street soit mis au courant de l'histoire et que l'action Intel baisse considérablement.
 
@@ -59,3 +63,6 @@ Pour l'instant ce ne sont que des suppositions de failles mais de nombreux indic
 
 ## PS2 :
 *4 Janvier 2018 :* Bon bha on a un nom et un site : L'attaque se nomme ***Meltdown*** et ***Spectre*** et [son site](https://spectreattack.com/) confirme à peu près tout ce qu'on savait sauf que c'est toujours vague concernant les processeurs affectés. Apparemment AMD **pourrait** être victime de la faille ansi qu'ARM. En fait la plus grande surprise vient du fait que c'est deux failles.
+
+## PS3 :
+*5 Janvier 2018 :* On sait également que c'est effectivement **exploitable via javascript** et que les navigateurs s(er)ont patchés pour limiter les risques mais pas complètement supprimmé le risque. Bref, c'est la merde.
