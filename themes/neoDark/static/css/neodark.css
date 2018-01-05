@@ -154,6 +154,7 @@ figure{
 	margin-top:0.5rem;
 	box-shadow:0 0 1em rgba(0,0,0,0.4);
 	outline: 3px solid black;
+	text-align:center;
 }
 figure a img{
 	max-width:100%;
