@@ -9,7 +9,7 @@ PublishDate = 2018-01-09T15:44:34+01:00
 date = 2018-01-09T15:44:34+01:00
 title = "Utiliser ZSH à la façon de VI en réduisant les inconvénients"
 +++
-***Vi*** et ***Emacs*** ont inspiré et inspire encore pas mal les devs car ils ont posés deux bases d'expériences utilisateurs qui ont depuis le temps prouvé leur efficacité. Ils s'appuient tous les deux principalement sur l'utilisation du clavier mais abordent le problème différemment.
+***Vi*** et ***Emacs*** ont inspiré et inspirent encore pas mal les devs car ils ont posés deux bases d'expériences utilisateurs qui ont depuis le temps prouvé leur efficacité. Ils s'appuient tous les deux principalement sur l'utilisation du clavier mais abordent le problème différemment.
 
   - Emacs s'appuient sur **des raccourcis claviers** nécessitant tous pleins de doigts pour appuyer simultanément sur diverses touches : Ctrl-Alt-Shift-Altgr-x …
   - Vi lui utilise **des modes** : un mode pour entrer des commandes, un mode pour écrire, un mode pour faire le café …
@@ -40,7 +40,7 @@ Un autre truc un peu chiant c'est qu'on ne sait pas dans quel mode on se trouve 
 	zle -N zle-line-init
 	zle -N zle-keymap-select
 
-Quelques explications : déjà ***RPS1*** est la variable contenant le prompte de droite. D'abord on a défini la variable VIM_PROMPT qui défini l'affichage désiré pour le mode normal (en jaune c'est sympa) puis une double substitution made in zsh qui remplace le nom du keymap par la variable VIM_PROMPT sauf si le mode actuel est *main* ou *viins*. Je colle ensuite $LAST_COMMAND_DURATION qui est la variable qui contient la durée de la dernière commande exécutée.
+Quelques explications : déjà ***RPS1*** est la variable contenant le prompte de droite. D'abord on a défini la variable VIM_PROMPT qui définit l'affichage désiré pour le mode normal (en jaune c'est sympa) puis une double substitution made in zsh qui remplace le nom du keymap par la variable VIM_PROMPT sauf si le mode actuel est *main* ou *viins*. Je colle ensuite $LAST_COMMAND_DURATION qui est la variable qui contient la durée de la dernière commande exécutée.
 
 ## Adaptons à nos besoins
 Du coup là on a pas fait grand chose de bien méchant. On a choisi un keymap et modifié le prompt, rien de bien tordu. On peut tout de même apporter quelques modifications pour ajouter de nouveaux raccourcis. On va donc en profiter pour virer les ptits inconvénients du keymap de vi : les emmerdes pour se déplacer normalement avec les flèches et plus.
