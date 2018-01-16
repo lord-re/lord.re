@@ -13,18 +13,26 @@ notoc = true
 ## Guide pour op : Protéger son salon
 Tout fier de votre casquette d'op, vous vous demandez comment protéger votre fief des abrutis spammeurs/emmerdeurs ? Haha voilà un ptit guide pour défendre votre chez vous.
 
-**Enregistrez votre salon**, c'est la toute première chose à faire auprès de C avec ***/msg C chan register #votresalon***, ici pas de mot de passe, par contre il faut que vous soyez identifié pour que ça fonctionne (comme toute la suite).
+### Enregistrez votre salon
+C'est la toute première chose à faire auprès de *C* avec ***/msg C chan register #votresalon***, ici pas de mot de passe, par contre il faut que vous soyez identifié pour que ça fonctionne (comme toute la suite). En faisant ça, vous deviendrez le *fondateur* du salon (founder). Il ne peut y avoir qu'un seul fondateur qui pourra être assisté par des *proprios* (owners).
 
-**La gestion des utilisateurs**. C'est un très vaste sujet qui pourrait suffire à un article dédié mais on va survoler et donner quelques clés. Il y a deux modes de gestions : soit avec des flags, soit avec des niveaux. Les flags sont le moyen le plus simple à privilégier à moins de vraiment vouloir du tordu. Il s'agit d'une simple liste d'utilisateur et pour chacun vous indiquez les accès de l'utilisateur. Par exemple dans le salon #truc vous voulez que l'utilisateur Lord soit op : ***/msg C chan #truc Lord +oO***. Désormais quand Lord rejoint #truc il pourra devenir op (+o) et il sera automatique op (+O). C'est donc un peu de boulot de remplir la liste des accès d'un salon mais c'est tout de même assez flexible et évite de se taper ça manuellement par la suite. La liste des accès possibles se trouve via ***/msg C help chan access flags***. Il est à noter que ça ne fonctionne qu'avec les utilisateurs enregistrés (ouai va falloir pousser vos utilisateurs à s'enregistrer pour profiter de ces raffinements).
+### Gérer vos utilisateurs
+C'est un très vaste sujet qui pourrait suffire à un article dédié mais on va survoler et donner quelques clés. 
 
-Si vous êtes déconnecté et qu'aucun op n'est dispo mais que vous avez les accès requis pour l'être, il va vous falloir récupérer les accès. Donc pour op quelqu'un (ou vous même) il faut ***/msg C chan op #lechan lepseudo*** . Bon c'est pas mal mais si on a pas mal de monde à trafiquoter c'est long. Là on peut faire un ***/msg C chan resync #lechan*** pour que tous ceux qui ont un accès de configuré. Rapide et efficace.
+Il y a deux modes de gestions : soit avec des *flags*, soit avec des *niveaux*. Les flags sont le moyen le plus simple à privilégier à moins de vraiment vouloir du tordu. Il s'agit d'une simple liste d'utilisateur et pour chacun vous indiquez les accès de l'utilisateur.
+
+Par exemple dans le salon #truc, vous voulez que l'utilisateur Lord soit op : ***/msg C chan access #truc Lord +oO***. Désormais quand Lord rejoint #truc il pourra devenir op (+o) et il sera automatiquement op (+O). C'est pris en compte immédiatement. C'est donc un peu de boulot de remplir la liste des accès d'un salon mais c'est tout de même assez flexible et évite de se taper ça manuellement par la suite. 
+
+La liste des accès possibles se trouve via ***/msg C help chan access flags***. Il est à noter que ça ne fonctionne qu'avec les utilisateurs enregistrés (ouai va falloir pousser vos utilisateurs à s'enregistrer pour profiter de ces raffinements).
+
+Si vous êtes déconnecté et qu'aucun op n'est dispo mais que vous avez les accès requis pour l'être, il va vous falloir récupérer les accès. Donc pour op quelqu'un (ou vous même) il faut ***/msg C chan op #lechan lepseudo*** . Bon c'est pas mal mais si on a pas mal de monde à traficoter c'est long. Là on peut faire un ***/msg C chan resync #lechan*** pour que tous ceux qui ont un accès de configuré retrouvent leur accès. Rapide et efficace.
 
 ## Les options
-Bon bha maintenant que vous avez votre petite équipe d'utilisaeurs/op de bien geré, il va vous falloir modifier deux trois **options**.
+Bon bha maintenant que vous avez votre petite équipe d'utilisateurs/op de bien gérée, il va vous falloir modifier deux trois **options**.
 La première option intéressante est le **private** qui permet de planquer quelques informations sur le chan, le second est le **secure** qui permet de voicer/opper uniquement les utilisateurs identifiés et éventuellement **protectops** qui empêche les ops d'être déoppé. ***/msg C chan set #lechan loption on***
 
 ## Les modes d'accès
-Il y a pas mal de **modes pour les salons**, cette partie va être un gros morceaux. À commencer par les "modes d'accès" tels que **vhoq** (voice/hop/op/owner) mais ceux-là on les a déjà abordé.
+Il y a pas mal de **modes pour les salons**, cette partie va être un gros morceau. À commencer par les "modes d'accès" tels que **vhoq** (voice/hop/op/owner) mais ceux-là on les a déjà abordé.
 
 Il y a également le mode **b** qui est en fait la liste des bans du salon.
 
@@ -53,7 +61,7 @@ Bon passons aux modes pour se défendre des gentils vilains.
 ## Les modes contre les bots
 Les attaques de bots sont un peu plus relou. Généralement ça consiste en de très nombreux "utilisateurs" qui rejoignent puis quittent immédiatement avec un message ou non, ceux qui vont changer de pseudo constamment, ceux qui vont flooder le salon. Il y a plusieurs solutions pour ça.
 
-- **c** ce mode bloque tout ce qui est formattage du texte comme le gras/italique/couleurs.
+- **c** ce mode bloque tout ce qui est formatage du texte comme le gras/italique/couleurs.
 
 - **l** ( L minuscule pour ceux qui ont une font pourrie ), permet de limiter le nombre de personnes connectées au salon.
 
@@ -69,8 +77,9 @@ Bon voilà pour ce que vous pouvez faire en tant qu'op sur un salon. C'est pas e
 
 **Concernant Geeknode** : ces derniers temps on a ajouté quelques modules pour se protéger des lourdingues.
 
- - Le premier est l'anti-amsg. Les amsg sont des messages qui sont envoyés sur plusieurs canaux simultanément.
- - Ensuite plus sympa c'est l'anti-caps. POUR ÉVITER LES HURLEURS. Les messages contenant trop de majuscules seront passés en minuscules. C'est un poil moins aggressif.
+ - Le premier est l'*anti-amsg*. Les amsg sont des messages qui sont envoyés sur plusieurs canaux simultanément.
+
+ - Ensuite plus sympa c'est l'*anti-caps*. POUR ÉVITER LES HURLEURS. Les messages contenant trop de majuscules seront passés en minuscules. C'est un poil moins aggressif.
  
- - Et troisièmement l'anti-masshl. Les HL ou Highlight c'est quand quelqu'un mentionne le pseudo de quelqu'un. Dans la plupart des clients irc ça créer une notification et ça change les couleurs pour quelque chose de très visible (un highlight). Bref, ce module kill (déconnecte du serveur) les personnes faisant plus de 5 hl consécutifs (dans la même phrase ou alors 1hl par phrase dans 5 phrases d'affilées). Bref pas mal pour virer les pollueurs. Ce comportement peut être désactivé (certains bots ont tendance à hl) en mettant le salon en **s** ou **i**.
+ - Et troisièmement l'*anti-masshl*. Les HL ou Highlight c'est quand quelqu'un mentionne le pseudo de quelqu'un. Dans la plupart des clients irc ça créer une notification et ça change les couleurs pour quelque chose de très visible (un highlight). Bref, ce module va dropper silencieusement (ne pas envoyer le message sur le salon) les personnes sans aucun modes (pas voice,hop,op,…) faisant plus de 5 hl consécutifs (dans la même phrase ou alors 1hl par phrase dans 5 phrases d'affilées). Bref pas mal pour virer les pollueurs. Ce comportement peut être désactivé (certains bots ont tendance à hl) en mettant le salon en **s** ou **i**.
 
