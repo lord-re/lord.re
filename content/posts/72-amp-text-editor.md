@@ -5,6 +5,7 @@ Categories = ["cli", "linux", "software"]
 Tags = ["cli", "linux", "software"]
 menu = "main"
 notoc = true
+draft = true
 PublishDate = 2018-02-03T22:11:07+01:00
 date = 2018-02-03T22:11:07+01:00
 title = "Amp : un ptit éditeur de texte à la vi"
