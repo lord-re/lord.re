@@ -19,7 +19,7 @@ J'allais initialement commenter sur le JDH mais ma réponse commençait à être
 Google a un business plutôt efficace d'ammassage et de revente de données privées.
 C'est un fait établi que je ne nierai pas.
 Il est également reproché à Google de collaborer avec la NSA (mais pas forcément de bon cœur).
-Il est reproché à DuckDuckGo d'être hébergé sur Amazon.
+
 Le soucis de Google est sa position un peu trop omniprésente sur le mobile et l'Internet en général.
 Éviter Google sur Internet est un sport de haut niveau.
 
@@ -49,8 +49,8 @@ Il pousse à l'amalgame pour discréditer DDG. DDG ne s'est jamais vanter de ne 
 
 Il faut bien distinguer deux choses :
 
-  - Collecter/analyser/recouper des données et les revendre pour du pognon à n'importe qui
-  - Se faire voler des données issues de recherche web par une organisation étatique
+  - Collecter/analyser/recouper des données et les revendre pour du pognon à n'importe qui.
+  - Se faire voler des données issues de recherche web par une organisation étatique.
 
 Ce sont deux concept diamétralement opposés qu'on ne peut pas faire passer pour la même chose.
 
@@ -79,9 +79,12 @@ Le peu de données qu'ils possèderont sur moi iront chez les espions français 
 
 ## Et les autres solutions proposées ?
 
-  - Startpage : Mouai c'est du résultat Google donc ça revient au même niveau interception que Qwant et DDG.
-  - Metager : Idem.
-  - Searx : À peu près pareil. Surtout si on utilise une instance personnelle et qu'on l'utilise seul ou presque.
+Voyons un peu les alternatives citées :
+
+
+  - **Startpage** : Mouai c'est du résultat Google donc ça revient au même niveau interception que Qwant et DDG.
+  - **Metager** : Idem.
+  - **Searx** : À peu près pareil. Surtout si on utilise une instance personnelle et qu'on l'utilise seul ou presque : les données seront d'autant moins anonymes.
 
 ## DDG n'est pas qu'un méta-moteur
 
