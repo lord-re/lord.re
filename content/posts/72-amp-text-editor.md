@@ -5,9 +5,9 @@ Categories = ["cli", "linux", "software"]
 Tags = ["cli", "linux", "software"]
 menu = "main"
 notoc = true
-draft = true
-PublishDate = 2018-02-03T22:11:07+01:00
-date = 2018-02-03T22:11:07+01:00
+draft = false
+PublishDate = 2018-02-07T13:11:07+01:00
+date = 2018-02-07T13:11:07+01:00
 title = "Amp : un ptit éditeur de texte à la vi"
 +++
 
@@ -149,4 +149,5 @@ N'étant pas codeur ça ne m'impacte pas trop mais j'imagine que pour quelqu'un 
 À surveiller de près.
 Je pense continuer à m'en servir pour bloguer et autre.
 
-Vi gardera toujours l'avantage d'être disponible partout du moindre busybox à la bonne grosse gentoo des familles…
+Vi gardera toujours l'avantage d'être disponible partout du moindre busybox à la bonne grosse gentoo des familles… Mais amp peut devenir une alternative sympatoche.
+
