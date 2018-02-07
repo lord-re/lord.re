@@ -92,3 +92,24 @@ Ils ont démarrés effectivement comme étant *juste* une surcouche de Bing le c
 Ils ont depuis évolués et possèdent un bot crawler pour créer leur propre index désormais.
 Ils ont donc des résultats bien de chez eux désormais.
 
+−−−−−−−
+## PS :
+J'ai échangé brièvement par mail avec Kapush et après avoir eu son accord, voilà sa réponse :
+
+Lecture intéressante mais qui fait la même omission que l'article initial.
+
+  1. Qwant est hébergé chez Equinix en banlieue nord de paris
+  2. Equinix est une entreprise californienne
+  3. D'après la loi US, Le patriot act s'applique à toutes les entreprises étatsuniennes.
+
+Conclusion *Qwant est soumis à exactement le même problème que duckduckgo au niveau de la capture de données par les agences gouvernementales US*.
+
+La subtile différence est que *les USA n'ont pas de loi obligeant à la collecte et rétention des données de connexions, tandis que la France en a*.
+
+Du coup si duckduckgo fait ce qu'ils disent et ne collecte pas les données sur leurs usagers alors il n'y a tout simplement rien à venir prendre.
+C'est le modèle utilisé par certains fournisseurs de VPN basés aux USA.
+
+Dans le cas de Qwant pour le moment ils jouent sur le fait que selon eux ils ne sont ni éditeur, ni hébergeur pour contourner l'obligation de collecter/conserver les données.
+Comme expliqué dans cette interview: https://www.nextinpact.com/news/97572-dans-coulisses-qwant-interview-deric-leandri.htm
+
+Aussi intéréssant à mentionner par rapport à la pique "duckduckgo c'est rien qu'un métamoteur pour bing", comme tu le fait remarquer ils ont leur propre crawler et ils utilisent aussi d'autres source mais surtout Qwant aussi utilise Bing https://www.nextinpact.com/news/103652-les-liens-moteur-qwant-avec-microsoft-bing.htm
