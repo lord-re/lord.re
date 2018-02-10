@@ -1,6 +1,6 @@
 +++
 Author = "Lord"
-Categories = ["tips","adminsys","git",linux"]
+Categories = ["tips","adminsys","git","linux"]
 Description = "Manage your dotfiles without a new soft. Easily with versionning and all."
 date = "2017-10-16T12:50:35+02:00"
 PublishDate = "2017-10-16T12:50:35+02:00"
