@@ -5,8 +5,7 @@ notoc = true
 date = "2017-09-08T17:03:12+02:00"
 title = "Refonte complète du site"
 menu = "main"
-Tags = ["www","meta","adminsys","cli"]
-Categories = ["www","meta","adminsys","cli"]
+Categories = ["www","meta","adminsys","cli","git"]
 publishDate = "2017-09-08T17:03:12+02:00"
 
 +++
@@ -39,7 +38,7 @@ Bha franchement j'aime bien. Ça permet d'utiliser du markdown pour rédiger. Je
 D'ailleurs ce post a été écrit il y a un mois et j'ai mis une date de publication dans le futur pour voir.
 
 ## Et tu parles pas du nouveau design ?
-Haha merci titre de me rappeler d'en parler ! Bon bha voilà j'ai refait un nouveau design. Donc au début j'était parti sur un thême existant (redlounge) et je pensais le modifier un peu. Mais au final quand j'ai vu qu'il fallait du js toussa toussa j'ai changé d'avis. Du coup j'ai regardé un peu son code voir comment c'était branlé et au final pour ce que je voulais faire ça allait être diablement simple.
+Haha merci titre de me rappeler d'en parler ! Bon bha voilà j'ai refait un nouveau design. Donc au début j'était parti sur un thême existant ([redlounge](https://themes.gohugo.io/redlounge/)) et je pensais le modifier un peu. Mais au final quand j'ai vu qu'il fallait du js toussa toussa j'ai changé d'avis. Du coup j'ai regardé un peu son code voir comment c'était branlé et au final pour ce que je voulais faire ça allait être diablement simple.
 
 Ni une ni deux je commence à trifouiller un truc simple dans la même charte graphique que l'ancien site (le fameux *design4.css*) mais je voulais en profiter pour adapter mon site aux grands écrans. Depuis peu j'ai un écran 4K et j'en ai marre des sites pas super adaptés. Donc je veux un truc qui s'adapte aux téléphones, aux ordis habituels et à la 4K. Je veux pas une usine à gaz.
 

@@ -5,8 +5,7 @@ menu = "main"
 date = "2017-10-06T11:49:01+02:00"
 PublishDate = "2017-10-06T11:49:01+02:00"
 title = "Enregistrement DNS de type CAA pour protéger votre TLS"
-Tags = ["adminsys","sécu"]
-Categories = ["adminsys","sécu"]
+Categories = ["adminsys","sécu","knot","dns","tls"]
 Description = "Comment améliorer un chouilla sa sécurité TLS"
 
 +++

@@ -1,8 +1,7 @@
 +++
 Author = "Lord"
 Description = "Pourquoi et comment jouer à Doom en 2017."
-Categories = ["opensource", "jeux"]
-Tags = ["opensource", "jeux"]
+Categories = ["opensource", "jeux","fps","doom","mods"]
 menu = "main"
 notoc = true
 PublishDate = 2017-12-22T11:44:50+01:00

@@ -1,8 +1,7 @@
 +++
 Author = "Lord"
 Description = "Mon ptit script qui permet de lancer des vidéos rapidement depuis i3. C'est basé sur dmenu, mpv et un peu de shell"
-Categories = ["shell", "script","ux"]
-Tags = ["shell", "script","ux"]
+Categories = ["shell", "script","ux","dmenu"]
 menu = "main"
 notoc = true
 PublishDate = 2018-01-27T12:57:33+01:00

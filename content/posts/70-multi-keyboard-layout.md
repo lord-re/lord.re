@@ -1,8 +1,7 @@
 +++
 Author = "Lord"
 Description = "Comment configurer Xorg pour avoir un layout de clavier différent pour de multiples claviers simultanément ?"
-Categories = ["linux", "xorg", "clavier"]
-Tags = ["linux", "xorg", "clavier"]
+Categories = ["linux", "xorg", "clavier", "keyboard", "bépo"]
 menu = "main"
 notoc = true
 PublishDate = 2018-01-31T21:18:40+01:00

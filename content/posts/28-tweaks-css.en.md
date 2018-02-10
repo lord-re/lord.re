@@ -1,11 +1,10 @@
 +++
 Author = "Lord"
-Tags = ["www","meta"]
 date = "2012-12-16T23:01:07+02:00"
 title = " CSS tweaks"
 Description = "The usual useless post about css. I know it's boring but now you'll read it."
 menu = "main"
-Categories = ["meta","www"]
+Categories = ["meta","www","css"]
 
 +++
 

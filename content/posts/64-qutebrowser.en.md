@@ -1,8 +1,8 @@
 +++
 Author = "Lord"
-Categories = ["web","www"]
+Categories = ["web","www", "software", "qutebrowser"]
 Description = "Qutebrowser is a Python/Qt web browser using webkit/blink. You'll browse the web like you edit in vim !"
-Tags = ["www","web"]
+Tags = ["www","web", "software", "qutebrowser"]
 date = "2017-11-08T16:03:10+01:00"
 menu = "main"
 notoc = true

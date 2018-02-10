@@ -4,8 +4,7 @@ Description = "A small tip to avoid filling your host partition when you forgot 
 date = "2017-08-16T15:49:41+02:00"
 title = "Keep rsync from filling an unmounted partition"
 menu = "main"
-Categories = ["linux","software","tips","cli"]
-Tags = ["linux","software","tips","cli"]
+Categories = ["linux","software","tips","cli","fs"]
 
 +++
 Rhaaa Linux and it's filesystem hierarchy. That's so good !

@@ -1,7 +1,6 @@
 +++
 Author = "Lord"
-Categories = ["dns","network","adminsys"]
-Tags = ["dns","network","adminsys"]
+Categories = ["dns","network","adminsys","knot","dane","dnssec"]
 Description = "The ultimate DNS guide. How to set it up, how to maintain it, how to have a modern stack. Deploying DNSSEC and DANE."
 date = "2017-10-27T13:05:06+02:00"
 PublishDate = "2017-10-27T13:05:06+02:00"
@@ -80,7 +79,7 @@ The last thing to do with your registrar is giving them your DS record or DNSKEY
 
 - To get your ***DNSKEY*** it's the nearly the same story : **keymgr lord.re dnskey 42754** and there you go.
 
-Each time you'll rollover (change) your KSK (it's recommanded to do it every year or two) you'll have to do it again. In fact DNSSEC use two type of keys : 
+Each time you'll rollover (change) your KSK (it's recommanded to do it every year or two) you'll have to do it again. In fact DNSSEC use two type of keys :
 
 - ***ZSK*** (Zone Signing Key) which are used to sign each record in your zone. This key is quite small (to stay fast) so it must be renewed every month or so.
 - ***KSK*** (Key Signing Key) is only used to sign the KSK. This key is way bigger than zsk so it can be used longer and can be published to you registrar to be in the parent's zone.
@@ -215,7 +214,7 @@ It's a good new default for ssh clients to check these records. In */etc/ssh/ssh
 
 ### CAA
 
-[As previously seen](https://lord.re/en/posts/61-dns-caa/), ***CAA*** records will avoid legit ***CA*** to sign a certificate for your domain if they are not the one you choose. I consider this new record almost mandatory now. It won't protect you from a rogue CA but that's not the same threat level. It can prevent another adminsys from using another CA behind your back. So here's the only three lines you'll need : 
+[As previously seen](https://lord.re/en/posts/61-dns-caa/), ***CAA*** records will avoid legit ***CA*** to sign a certificate for your domain if they are not the one you choose. I consider this new record almost mandatory now. It won't protect you from a rogue CA but that's not the same threat level. It can prevent another adminsys from using another CA behind your back. So here's the only three lines you'll need :
 
 	lord.re.                600     IN      CAA     0 iodef "mailto:lord-x509@lord.re"
 	lord.re.                600     IN      CAA     0 issue "letsencrypt.org"
@@ -255,14 +254,14 @@ It means *mx* machines are allowed whereas *all* are disallowed to send mails. I
 
 ***Domain Key Identified Mail*** is one step higher. It's a cryptographic system to sign your outcoming mails and it's headers. Receiving servers will check that you mail match the signature in your DNS's zone. It's a way to prevent another mail server to send mail from your domain. It's also a way to assure the receiver that your mail hasn't been modified by any intermediate server.
 
-This time you'll have to setup your mail stack to sign outgoing mails. There are may ways to do this and as it's out of the scope of this article … well … you'll have to duckduckgo it (I use rspamd to do it with postfix). You'll get a public key that you have to publish in your zone in a TXT record : 
+This time you'll have to setup your mail stack to sign outgoing mails. There are may ways to do this and as it's out of the scope of this article … well … you'll have to duckduckgo it (I use rspamd to do it with postfix). You'll get a public key that you have to publish in your zone in a TXT record :
 
 	default._domainkey.lord.re.     3600    IN      TXT     "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC06MC2/9/YtSn9BS09oMN26UdKO6DMGlCWYsodQ8P+t2CzsSzqUJxaszJmWZglqZyXRjaCMAFUoOF7GiyhXhqM4rSLGxaPHfrLK7f9YlJYAnqdhzEJdEjP8/vkJoMTJxINP9gEBi+wGSGEhoha514NHHtZ4g+QbJZliahwAjl0BQIDAQAB"
 
-Now that you've set up SPF and DKIM, other mails servers won't know what to do if your mails aren't DKIM-valid or if SPF isn't respected. 
+Now that you've set up SPF and DKIM, other mails servers won't know what to do if your mails aren't DKIM-valid or if SPF isn't respected.
 
 ### DMARC
-Here is the way to tell other servers what to do if there is something wrong with SPF or DKIM. ***DMARC*** is the next step after SPF and DKIM. It's still a TXT record : 
+Here is the way to tell other servers what to do if there is something wrong with SPF or DKIM. ***DMARC*** is the next step after SPF and DKIM. It's still a TXT record :
 
 	_dmarc.lord.re.    600 IN TXT "v=DMARC1;p=none;pct=100;rua=mailto:lord-dmarc@lord.re;ruf=mailto:lord-dmarc@lord.re;sp=none;adkim=s;aspf=s"
 
@@ -280,7 +279,7 @@ This one is brand new. It's not official yet but it's promising even if it's a b
 
 This new record is a way to inform other MTAs how to connect to your server : you can tell them to reject a plaintext connection. It's a good way to protect your privacy.
 
-The record looks like this ```_mta-sts.lord.re.  IN TXT "v=STSv1; id=20160831085700Z;"```. 
+The record looks like this ```_mta-sts.lord.re.  IN TXT "v=STSv1; id=20160831085700Z;"```.
 
 It contains an id of policy which MTAs will have to fetch from your web server. It could have been written directly in the dns record but… no they decided to go overkill.
 

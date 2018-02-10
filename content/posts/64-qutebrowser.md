@@ -1,8 +1,8 @@
 +++
 Author = "Lord"
-Categories = ["web","www"]
+Categories = ["web", "www", "qutebrowser", "software"]
 Description = "Petite présentation de Qutebrowser. Un navigateur webkit/blink utilisant Python et QT5 avec une interface à la vim."
-Tags = ["www","web"]
+Tags = ["www","web", "qutebrowser", "software" ]
 date = "2017-11-08T16:03:10+01:00"
 menu = "main"
 notoc = true
@@ -28,7 +28,7 @@ Toutes vos interactions se feront donc au clavier. Le seul élément d'interface
 
 Comme vous pouvez le voir, c'est dépouillé.
 
-Tout se fait donc avec des raccourcis claviers mimant le fonctionnement de **vim**. Donc le fameux ***hjkl*** (que je n'utilise pas) pour se déplacer. Le ***G*** et ***gg*** pour aller en fond de page ou au début. 
+Tout se fait donc avec des raccourcis claviers mimant le fonctionnement de **vim**. Donc le fameux ***hjkl*** (que je n'utilise pas) pour se déplacer. Le ***G*** et ***gg*** pour aller en fond de page ou au début.
 
 Un système très important c'est le ***f*** qui va vous permettre de *hinter* les liens. C'est à dire que chaque lien de la page va se voir attribuer un repère que vous aller taper pour l'ouvrir. Dans mon cas j'ai modifié le comportement par défaut pour utiliser le mode *number* (**:set hints.mode number**). Il me suffit donc d'appuyer sur **f** puis d'entrer quelques lettres du lien en question, s'il n'y a pas d'ambiguité, la page s'ouvre. Si plusieurs résultats sont possibles chaque résultant restant aura un numéro attribué qu'il me suffira d'écrire :
 
@@ -48,7 +48,7 @@ C'est bien gentil mais bon si on doit éditer du texte un peu long pour un wiki 
 
 ### La status bar
 
-Tout comme vim, vous pouvez y lancer des commandes en commançant par **:** . Par exemple pour modifier un réglage c'est **:set content.javascript.enabled false** . En sachant qu'il y a de l'autocomplétion plutôt efficace. 
+Tout comme vim, vous pouvez y lancer des commandes en commançant par **:** . Par exemple pour modifier un réglage c'est **:set content.javascript.enabled false** . En sachant qu'il y a de l'autocomplétion plutôt efficace.
 
 C'est aussi elle qui va vous permettre de taper une recherche/adresse. Soit vous lancez la commande **:open** soit vous tappez ***o*** qui fait la même chose. Si vous voulez éditer l'adresse de la page actuelle c'est ***O***. Par défaut ça effectuera une recherche sur le moteur par défaut.
 

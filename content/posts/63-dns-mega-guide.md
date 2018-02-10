@@ -1,7 +1,6 @@
 +++
 Author = "Lord"
-Categories = ["dns","réseau","adminsys"]
-Tags = ["dns","réseau","adminsys"]
+Categories = ["dns","réseau","adminsys","knot","dane","dnssec"]
 Description = "Le guide ultime concernant le DNS. On y voit comment monter le bousin, comment le tenir à jour, comment avoir un truc moderne. Gérer le DNSSEC. Faire du DANE. "
 date = "2017-10-27T13:05:06+02:00"
 PublishDate = "2017-10-27T13:05:06+02:00"
@@ -18,7 +17,7 @@ Bon il y aura quelques redites de précédents articles sur le sujet mais le but
 ## D'où ça vient ?
 Historiquement lorsqu'on voulait contacter une machine sur le réseau Internet, il fallait connaitre son adresse. Le nombre de machine du réseau grandissant, un fichier texte était échangé pour trouver les autres machines du réseau. C'était très manuel mais peu efficace. Et là : PAF le DNS. Bref une base de donnée distribuée/répliquée/déleguée mondiale.
 
-Le DNS est un arbre qui fonctionne par délégation. Typiquement ***www.lord.re*** devrait en vrai se dire ***www.lord.re.*** (remarquez le point à la fin). C'est un chemin qui se lit de droite à gauche. 
+Le DNS est un arbre qui fonctionne par délégation. Typiquement ***www.lord.re*** devrait en vrai se dire ***www.lord.re.*** (remarquez le point à la fin). C'est un chemin qui se lit de droite à gauche.
 
 - Donc on a la racine ***.*** tout à droite, c'est geré par l'**ICANN**.
 - Ensuite ***.re*** qui est le TLD (Top Level Domain, aussi apellé extension d'un nom de domaine), c'est non plus geré par l'ICANN mais délegué à l'**AFNIC** (qui gère les domaines français dont le .re qui est le domaine de la Réunion).
@@ -64,7 +63,7 @@ Bon déjà on l'installe et ensuite on créer le fichier de conf. Il est ultra s
 	    dnssec-signing: on
 	    dnssec-policy: default
 
-Tout est bien rangé dans sa section, *acl* contient les règles d'accès (pour modifier), *template* permet d'appliquer des règlages similaires à plusieurs zones, et *zone* va contenir toutes vos zones (Thx Cpt Obvious). Bon du coup maintenant vos fichiers de zones vont devoir se fouttre dans */var/lib/knot/zones*. Knot va générer de lui même les clefs et chiffrer votre zone DNSSEC. 
+Tout est bien rangé dans sa section, *acl* contient les règles d'accès (pour modifier), *template* permet d'appliquer des règlages similaires à plusieurs zones, et *zone* va contenir toutes vos zones (Thx Cpt Obvious). Bon du coup maintenant vos fichiers de zones vont devoir se fouttre dans */var/lib/knot/zones*. Knot va générer de lui même les clefs et chiffrer votre zone DNSSEC.
 
 ## Gérer la redondance
 Monter un serveur DNS secondaire.
@@ -73,9 +72,9 @@ Cette partie sera ajoutée un peu plus tard ;-)
 
 ## Publication DNSKEY ou DS record chez le registrar
 
-La seule chose qu'il vous reste à faire auprès de votre registrar va être de publier votre DS record ou la DNSKEY de la KSK chez votre registrar. Dis comme ça, c'est effrayant mais c'est pas bien compliqué. Cette opération permet de terminer la chaîne de confiance nécessaire à DNSSEC. Selon les registrar il va vous falloir soit le DS soit le DNSKEY complet. 
+La seule chose qu'il vous reste à faire auprès de votre registrar va être de publier votre DS record ou la DNSKEY de la KSK chez votre registrar. Dis comme ça, c'est effrayant mais c'est pas bien compliqué. Cette opération permet de terminer la chaîne de confiance nécessaire à DNSSEC. Selon les registrar il va vous falloir soit le DS soit le DNSKEY complet.
 
-- Pour obtenir le ***DS*** : **keymgr lord.re list** vous listera toutes les clés actives. Il faut repérer la ***KSK*** et noter son ***tag***. Et maintenant **keymgr lord.re ds 42754** (42754 étant le tag vu à la commande précédente). Et là vous devriez voir trois enregistrements. Votre registrar vous en demandera un, il s'agit en fait de la même chose mais selon trois méthode de hash différent et là, plus c'est long meilleur c'est pour votre sécurité. 
+- Pour obtenir le ***DS*** : **keymgr lord.re list** vous listera toutes les clés actives. Il faut repérer la ***KSK*** et noter son ***tag***. Et maintenant **keymgr lord.re ds 42754** (42754 étant le tag vu à la commande précédente). Et là vous devriez voir trois enregistrements. Votre registrar vous en demandera un, il s'agit en fait de la même chose mais selon trois méthode de hash différent et là, plus c'est long meilleur c'est pour votre sécurité.
 
 - Pour obtenir le ***DNSKEY*** un simple **keymgr lord.re dnskey 42754** et voilà.
 
@@ -130,7 +129,7 @@ On ouvre le fichier */var/lib/knot/zones/lord.re*. On fait les modifs en faisant
 
 ### 2 : (k)nsupdate à l'interactive
 
-On lance **knsupdate** ce qui va vous ouvrir un shell interactif. 
+On lance **knsupdate** ce qui va vous ouvrir un shell interactif.
 
 		server 127.0.0.1 (ouai on pourrait l'utiliser à distance avec un peu de crypto)
 		zone lord.re.
@@ -141,7 +140,7 @@ Et voilà. C'est assez simple. On peut fouttre les commandes dans un fichier tex
 
 ### 3 : knotc à l'authentique
 
-Tout va se faire via la commande spéciale knot : 
+Tout va se faire via la commande spéciale knot :
 
 		knotc zone-begin lord.re
 		knotc zone-(un)set lord.re. truc.lord.re. 600 A 1.2.3.4 (que vous pouvez répéter autant de fois que le voulez)
@@ -240,7 +239,7 @@ Ici c'est la folie. Le mail étant un des plus vieux protocole d'Internet, il y 
 
 C'est le plus simple de la bande. Celui-là spécifie quelles sont les machines/ip qui sont autorisées à envoyer des mails en provenance de votre domaine. En théorie si vous avez une configuration classique, les seules machines qui enverront du mail en provenance de votre domaines seront les machines déclarées en MX.
 
-Il existe un champs de type ***SPF*** mais il est [consideré obsolète](https://tools.ietf.org/html/rfc7208) (dommage), il faut placer ça dans un champs TXT. 
+Il existe un champs de type ***SPF*** mais il est [consideré obsolète](https://tools.ietf.org/html/rfc7208) (dommage), il faut placer ça dans un champs TXT.
 
 	lord.re.				600	IN	TXT	"v=spf1 mx -all"
 
@@ -249,18 +248,18 @@ Il existe un champs de type ***SPF*** mais il est [consideré obsolète](https:/
 ### DKIM
 Le ***Domain Keys Identified Mail*** est un système de signatures cryptographiques qui va signer le mail et ses entêtes. Les serveurs SMTP traitant le mail vont donc devoir vérifier que ça coïncide avec la clé publiée dans le DNS. En gros ça empêche que le messages et ses entêtes soient modifiés et cela atteste que c'est bien votre serveur qui sont à l'origine de ce mail.
 
-Ce coup-ci il va falloir configurer votre pile mail pour qu'elle signe vos mails. Je vous laisse vous débrouiller pour ça (hors scope de cet article, mais sachez que rspamd sait très bien faire cela). Bref vous allez donc avoir une clé publique que vous allez publier dans un TXT avec cette allure : 
+Ce coup-ci il va falloir configurer votre pile mail pour qu'elle signe vos mails. Je vous laisse vous débrouiller pour ça (hors scope de cet article, mais sachez que rspamd sait très bien faire cela). Bref vous allez donc avoir une clé publique que vous allez publier dans un TXT avec cette allure :
 
 	default._domainkey.lord.re.     3600    IN      TXT     "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC06MC2/9/YtSn9BS09oMN26UdKO6DMGlCWYsodQ8P+t2CzsSzqUJxaszJmWZglqZyXRjaCMAFUoOF7GiyhXhqM4rSLGxaPHfrLK7f9YlJYAnqdhzEJdEjP8/vkJoMTJxINP9gEBi+wGSGEhoha514NHHtZ4g+QbJZliahwAjl0BQIDAQAB"
 
 Donc les serveurs mails qui recevront vos mails avec les entêtes DKIM vérifieront votre champs DNS qui va bien pour vérifier que c'est ok. Mais rien n'indique ce qu'ils doivent faire si ça ne correspond pas.
 
 ### DMARC
-Ha bha le voilà le truc qui va indiquer aux autres serveurs que faire de vos mails si le SPF et/ou le DKIM déconne. ***DMARC*** est donc complémentaire aux deux précédents. C'est encore un enregistrement de type TXT qui a cette gueule 
+Ha bha le voilà le truc qui va indiquer aux autres serveurs que faire de vos mails si le SPF et/ou le DKIM déconne. ***DMARC*** est donc complémentaire aux deux précédents. C'est encore un enregistrement de type TXT qui a cette gueule
 
 	_dmarc.lord.re.    600 IN TXT "v=DMARC1;p=none;pct=100;rua=mailto:lord-dmarc@lord.re;ruf=mailto:lord-dmarc@lord.re;sp=none;adkim=s;aspf=s"
 
-C'est plutôt explicite : 
+C'est plutôt explicite :
 
 - le ***p=none*** indique la politique que doivent adopter les autres serveurs vis-à-vis de vos mails. Avec ***none***, c'est indifférent. Si vous êtes absolument sûr de vos règlages vous pouvez mettre ***quarantine*** voir ***reject*** pour que ça soit carrément rejeté.
 - Le ***rua*** et ***ruf*** vous permet d'être contacté par les serveurs mails pour recevoir des rapports
@@ -269,9 +268,9 @@ C'est plutôt explicite :
 Mon conseil c'est de commencer pépère avec une politique à none et si dans six mois vous avez pas de soucis, de monter d'un cran en passant à quarantine et pourquoi pas plus tard à reject. Si c'est pas bon, vous risqueriez de vous tirer une balle dans le panard !
 
 ### STS
-Celui-là c'est un ptit nouveau. Il est pas encore vraiment sorti de l'œuf à vrai dire mais il est prometteur mais un peu chiant à mettre en place car il dépend du DNS mais aussi d'un serveur web… Ouai il va falloir mettre du json dans *.well-known* de votre serveur web. C'est pour ça que je l'ai pas encore mis en place mais je pense le faire à terme. 
+Celui-là c'est un ptit nouveau. Il est pas encore vraiment sorti de l'œuf à vrai dire mais il est prometteur mais un peu chiant à mettre en place car il dépend du DNS mais aussi d'un serveur web… Ouai il va falloir mettre du json dans *.well-known* de votre serveur web. C'est pour ça que je l'ai pas encore mis en place mais je pense le faire à terme.
 
-Donc en gros celui-là permet de spécifier comment doivent réagir les serveurs mails se connectant aux votre concernant la crypto : vous pouvez exiger de refuser la connexion si ce n'est pas chiffré. C'est donc vraiment très intéressant d'un point de vue protection de la vie privée de vos mails. 
+Donc en gros celui-là permet de spécifier comment doivent réagir les serveurs mails se connectant aux votre concernant la crypto : vous pouvez exiger de refuser la connexion si ce n'est pas chiffré. C'est donc vraiment très intéressant d'un point de vue protection de la vie privée de vos mails.
 
 Ça a cette allure ```_mta-sts.lord.re.  IN TXT "v=STSv1; id=20160831085700Z;"```. En gros ça donne un numéro de politique à suivre. Ensuite il faudra aller piocher dans le json à quoi correspond la politique correspondant à cet id. À mon avis ça aurait pu tenir dans le DNS toussa mais bon…
 

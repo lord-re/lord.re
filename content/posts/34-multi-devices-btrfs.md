@@ -4,8 +4,7 @@ Description = "Explorons un peu l'utilisation de BTRFS avec du multi devices."
 menu = "main"
 date = "2014-02-16T23:28:35+02:00"
 title = "Multi devices BTRFS"
-Categories = ["linux","software","adminsys","tips"]
-Tags = ["linux","software","adminsys","tips"]
+Categories = ["linux","software","adminsys","tips","fs","btrfs"]
 
 +++
 Étant malade ce week-end, quoi de mieux qu'un peu de machines virtuelles de BTRFS et de temps pour guérir ? Donc voilà en vue de la rénovation de mon système de stockage actuel j'ai commencé à faire mumuse avec BTRFS en mode multi-devices. Ce terme étrange signifie que l'on va avoir un système de fichier réparti sur plusieurs partitions/disque durs. Ça permet d'utiliser tous les raffinements de BTRFS. :-)

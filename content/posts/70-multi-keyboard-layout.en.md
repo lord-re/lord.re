@@ -1,8 +1,7 @@
 +++
 Author = "Lord"
 Description = "How to configure Xorg to have multiple keyboard layouts on multiple physical keyboards ?"
-Categories = ["linux", "xorg","keyboard"]
-Tags = ["linux", "xorg","keyboard"]
+Categories = ["linux", "xorg","keyboard","bépo"]
 menu = "main"
 notoc = true
 PublishDate = 2018-01-31T21:18:40+01:00

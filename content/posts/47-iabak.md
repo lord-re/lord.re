@@ -4,11 +4,10 @@ Description = "Filons un coup de mains à archive.org dans leur quête de prése
 date = "2016-12-08T15:22:34+02:00"
 title = "Redondons les archives du net"
 menu = "main"
-Categories = ["libre","adminsys"]
-Tags = ["libre","adminsys"]
+Categories = ["libre","adminsys","communs","git"]
 
 +++
-J'imagine que vous connaissez de près ou de très loin le site [archive.org](https://archive.org). Il s'agit d'un site tenu par une poignée de volontaires très passionnés s'étant donné pour mission d'archiver. À la base ils archivaient le web, puis le net puis en fait tout ce qui est composé de 0 et de 1. Sacré boulot. Mais ces gens sont vraiment très passionnés. Ils arrivent à mettre la main sur des données plus ou moins perdues/ignorées/oubliées et les rendent accessibles à tous. Le tout en les classant/organisant/archivant. Gros gros boulot. Leur tâche est titanesque mais ils s'en sortent plutôt bien. Un de leur projet les plus populaire est l'Internet Wayback Machine qui permet de consulter d'anciennes versions de site ouaibs. C'est vraiment super sympa pour voir l'évolution des modes du webdesign. Une sacré mine d'or intarissable. 
+J'imagine que vous connaissez de près ou de très loin le site [archive.org](https://archive.org). Il s'agit d'un site tenu par une poignée de volontaires très passionnés s'étant donné pour mission d'archiver. À la base ils archivaient le web, puis le net puis en fait tout ce qui est composé de 0 et de 1. Sacré boulot. Mais ces gens sont vraiment très passionnés. Ils arrivent à mettre la main sur des données plus ou moins perdues/ignorées/oubliées et les rendent accessibles à tous. Le tout en les classant/organisant/archivant. Gros gros boulot. Leur tâche est titanesque mais ils s'en sortent plutôt bien. Un de leur projet les plus populaire est l'Internet Wayback Machine qui permet de consulter d'anciennes versions de site ouaibs. C'est vraiment super sympa pour voir l'évolution des modes du webdesign. Une sacré mine d'or intarissable.
 
 ## Leur petit soucis
 Du stockage ils en ont un sacré paquet. En 2014 c'était plus de 50 Peta octets stockés chez l'archive team. À noter qu'ils ne se content pas uniquement des données numériques mais désormais tente de sauver également des livres et autres manuels. Cependant il ne s'agit que d'une petite association avec finalement assez peu de moyen par rapport à leurs ambitions.

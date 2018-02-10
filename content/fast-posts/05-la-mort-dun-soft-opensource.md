@@ -1,7 +1,7 @@
 +++
 Author = "Lord"
 Description = "Vimperator s'en va. C'est triste de voir la mort d'un logiciel opensource comme ça. Juste avec une issue sur github qui se ferme."
-Categories = ["actu", "opensource"]
+Categories = ["actu", "opensource","firefox","ux"]
 menu = "fast"
 noread = true
 notoc = true

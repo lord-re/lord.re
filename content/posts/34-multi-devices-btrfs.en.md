@@ -4,8 +4,7 @@ Description = "Let's play with BTRFS multi devices."
 menu = "main"
 date = "2014-02-16T23:28:35+02:00"
 title = "Multi devices BTRFS"
-Categories = ["linux","software","adminsys","tips"]
-Tags = ["linux","software","adminsys","tips"]
+Categories = ["linux","software","adminsys","tips","fs","btrfs"]
 
 +++
 As i'm sick this weekend, what's better than playing with virtual machines and BTRFS to heal ? I'll soon renovate my NAS and i'm considering using one BTRFS spread on multile devices. It means having one file system on multiple hard drives so your OS will only see one big contiguous space. And I'll be able to play with all btrfs features. :-)

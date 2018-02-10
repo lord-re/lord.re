@@ -1,8 +1,7 @@
 +++
 Author = "Lord"
-Categories = ["tips","adminsys"]
+Categories = ["tips","adminsys","git","linux"]
 Description = "Gérer ses fameux dotfiles sans installer de nouveau logiciel. Simplement avec versionnement toussa toussa."
-Tags = ["www","meta"]
 date = "2017-10-16T12:50:35+02:00"
 PublishDate = "2017-10-16T12:50:35+02:00"
 menu = "main"

@@ -5,8 +5,7 @@ menu = "main"
 date = "2017-10-06T11:49:01+02:00"
 PublishDate = "2017-10-06T11:49:01+02:00"
 title = "Using CAA dns records to protect your TLS"
-Tags = ["adminsys","sécu"]
-Categories = ["adminsys","sécu"]
+Categories = ["adminsys","sécu","knot","dns","tls"]
 Description = "Enhancing your TLS stack thanks to this new dns record."
 
 +++
@@ -31,6 +30,6 @@ You can even add another line to specify which CA is allowed to sign a wildcard 
 The last thing you can specify is an adress mail to contact to let CA notify you in case of a denied signature : ```lord.re. CAA 0 iodef "mailto:truc@votrema.il"``` and voilà !
 
 ## We supercharge more the dns role and we are still dependant from CA
-More and more DNS contain sensible data. We already publish SSH public keys, we put TLS public keys too and now we publish authorized CA. It's more and more crucial to secure your DNS. ***DNSSEC*** become more and more essential. 
+More and more DNS contain sensible data. We already publish SSH public keys, we put TLS public keys too and now we publish authorized CA. It's more and more crucial to secure your DNS. ***DNSSEC*** become more and more essential.
 
 CA's role is still central. A rogue CA could still not publish signed certs to the public log… It could also not take into account CAA records… Their job still rely in trust. ***DANE*** is still relevant and it's quite sad that nobody try to implement it. Wouldn't it be great if ***TLSA*** records and ***CAA*** records would be checked by web browsers ?

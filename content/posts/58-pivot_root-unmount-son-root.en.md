@@ -4,8 +4,7 @@ date = "2017-09-16T17:01:10+02:00"
 title = "Unmount your root without reboot"
 notoc = true
 menu = "main"
-Tags = ["software","tips","linux","cli","adminsys"]
-Categories = ["software","tips","linux","cli","adminsys"]
+Categories = ["software","tips","linux","cli","adminsys","fs","btrfs"]
 Description = "How to unmount your root filesystem when your os runs on it ? Follow the guide"
 publishDate = "2017-09-16T17:03:12+02:00"
 

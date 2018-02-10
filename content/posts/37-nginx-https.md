@@ -4,8 +4,7 @@ Description = "Faire une config SSL propre de nginx en 2015"
 date = "2015-02-21T12:03:50+02:00"
 title = "Nginx HTTPS 2015"
 menu = "main"
-Categories = ["meta","www","adminsys","tips"]
-Tags = ["meta","www","adminsys","tips"]
+Categories = ["meta","www","adminsys","tips","nginx","tls"]
 
 +++
 
