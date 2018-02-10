@@ -121,6 +121,9 @@ h3{
 	color:#757cab;
 	margin-left:.6rem;
 }
+.post-edit-date{
+  color:#777;
+}
 .post li{
 	margin-left:1rem;
   list-style-position:outside;
