@@ -174,6 +174,10 @@ figure a img{
 .read-more-link a:hover{
 	color:#4ab1a8;
 }
+hr{
+  margin-top: 1rem;
+  border: 1px dashed #555;
+}
 table{
   margin:1rem;
 }
