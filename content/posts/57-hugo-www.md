@@ -1,11 +1,11 @@
 +++
 Author = "Lord"
-Description = ""
+Description = "2017 : enfin la grosse refonte de mon site. Je passe d'une simple grosse page web à un moteur de site statique."
 notoc = true
 date = "2017-09-08T17:03:12+02:00"
 title = "Refonte complète du site"
 menu = "main"
-Categories = ["www","meta","adminsys","cli","git"]
+Categories = ["www","meta","adminsys","cli","git","hugo","blog"]
 publishDate = "2017-09-08T17:03:12+02:00"
 
 +++
