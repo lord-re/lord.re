@@ -6,8 +6,7 @@ notoc = true
 menu = "main"
 date = "2017-09-24T22:01:38+02:00"
 title = "Leveraging nginx microcaching to boost your perf and prevent downtime"
-Tags = ["www","software","adminsys","tips"]
-Categories = ["www","software","adminsys","tips"]
+Categories = ["www","software","adminsys","tips","nginx"]
 
 +++
 As I have a dedicated router now, find myself shutting down my server from time to time. My website (hosted on the server) keep on being accessible. On the router side, i installed a container with an nginx proxy server. Connections to the website goes throught it. It acts as a cache when the upstream server is down. But to always have up to date content I only use 1 second of cache.

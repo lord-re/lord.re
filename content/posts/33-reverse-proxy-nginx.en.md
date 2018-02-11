@@ -1,7 +1,6 @@
 +++
 Author = "Lord"
-Categories = ["software","tips","www"]
-Tags = ["software","tips","www"]
+Categories = ["software","tips","www","nginx"]
 date = "2013-10-27T23:21:23+02:00"
 title = "IP Proxy Logs Nginx Reverse"
 Description = "How to have the real Client IP Address in nginx logs when you are behind a reverse proxy ?"
@@ -26,6 +25,6 @@ real_ip_recursive on;
 ```
 Inside you *server block* and it's okay.
 
-You reload your webservers and you're good to go. 
+You reload your webservers and you're good to go.
 
 

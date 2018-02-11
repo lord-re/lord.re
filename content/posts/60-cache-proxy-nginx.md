@@ -6,8 +6,7 @@ notoc = true
 menu = "main"
 date = "2017-09-24T22:01:38+02:00"
 title = "Microcache nginx pour améliorer les perfs et diminuer le downtime"
-Tags = ["www","software","adminsys","tips"]
-Categories = ["www","software","adminsys","tips"]
+Categories = ["www","software","adminsys","tips","nginx"]
 
 +++
 Depuis que mon serveur ne me sert plus de routeur il m'arrive de le couper de temps à autres. Et pourtant mon site reste accessible. J'ai en fait, sur mon routeur, installé un container avec un nginx qui tourne et qui proxy. Les connexions se font donc via le nginx du routeur qui sert de cache quand le vrai serveur ne répond pas. Mais histoire de ne pas avoir de contenu pas à jour mais toujours d'une fraîcheur exemplaire je me contente d'un cache de maximum 1seconde.
