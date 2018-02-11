@@ -4,11 +4,11 @@ Description = "What I did behind the scenes on the blog these last months"
 Categories = ["meta", "hugo","blog","git"]
 menu = "fast"
 noread = true
-draft = true
+draft = false
 notoc = true
 PublishDate = 2018-02-11T10:34:48+01:00
 date = 2018-02-11T10:34:48+01:00
-title = "Méta-news about the blog"
+title = "Meta-news about the blog"
 +++
 Two months after introducing fast-posts here a small report.
 
