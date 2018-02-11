@@ -71,7 +71,7 @@ How it's done ?
 
   1. **cd ~/www** - That's where i keep the sources files
   2. **hugo new posts/xx-titre-du-post.md** - to create the file with metadata
-  3. **amp** - to start [amp]({{< ref "posts/72-amp-text-editor" >}}) and write text
+  3. **amp** - to start [amp](https://amp.rs) and write text
   4. **hugo server --navigateToChanged -F -D --disableFastRender** - to be able to browse edits in realtime.
   5. **git add content/posts/xx-titre-du-post.md** - to add the new file to the git repo
   6. **git commit !$ -m "[BLOG] ajout article xx titre du post"** - to commit files and add a comment to the repo
