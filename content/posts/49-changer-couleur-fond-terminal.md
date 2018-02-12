@@ -3,8 +3,7 @@ Author = "Lord"
 date = "2017-07-23T15:35:44+02:00"
 title = "Changer la couleur de fond de son terminal à la volée"
 menu = "main"
-Categories = ["software","cli","tips","linux"]
-Tags = ["software","cli","tips","linux"]
+Categories = ["software","cli","tips","linux","shell"]
 Description = "Une petite astuce qui devient très vite indispensable pour changer la couleur de fond du terminal à la volée. Super pour distinguer les terminaux avec une session ssh."
 
 +++
@@ -13,7 +12,7 @@ Description = "Une petite astuce qui devient très vite indispensable pour chang
 
 Et ouai il existe un séquence d'échappement qui permet de faire ce petit miracle à condition que votre terminal le gère (par exemple xterm et très bientôt alacritty). La séquence magique est ***\033]11;#rrggbb\007*** . Voilà voilà.
 
-Comment utiliser ça ? Easy ! Vous éditez votre */etc/ssh/ssh_config* et vous mettez 
+Comment utiliser ça ? Easy ! Vous éditez votre */etc/ssh/ssh_config* et vous mettez
 ```
 PermitLocalCommand yes
 LocalCommand /bin/echo -e "\033]11;#440044\007"

@@ -2,8 +2,7 @@
 Author = "Lord"
 title = "Bootstrap the website"
 menu = "main"
-Categories = ["meta","www"]
-Tags = ["www","meta"]
+Categories = ["meta","www","blog","css"]
 Description = "The exact moment of your life when you want to apply bootstrap on every html file."
 date = "2012-09-30T22:26:33+02:00"
 

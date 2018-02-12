@@ -1,8 +1,7 @@
 +++
 Author = "Lord"
 Description = "Présentation de la nouvelle section Fast-posts de mon site. Ça sera des articles beaucoup plus court et spontannés. J'y aborderai des sujets plus dans l'actualité pour réagir."
-Categories = ["", ""]
-Tags = ["", ""]
+Categories = ["meta ", "blog"]
 noread = true
 menu = "main"
 notoc = true

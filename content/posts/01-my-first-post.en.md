@@ -3,9 +3,8 @@ Author = "Lord"
 date = "2008-08-25T15:41:37+02:00"
 title = "Yet another new website !"
 menu = "main"
-Categories = ["meta","www"]
-Tags = ["meta","www"]
-Description = ""
+Categories = ["meta","www","blog"]
+Description = "A brave new blog !"
 nodate = true
 
 +++

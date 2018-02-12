@@ -3,12 +3,14 @@ Author = "Lord"
 date = "2011-08-25T21:58:33+02:00"
 title = "Let's Protocol !"
 menu = "main"
-Categories = ["adminsys","tips","network"]
-Tags = ["adminsys","tips","network"]
+Categories = ["adminsys","tips","network","mail","irc","smtp","imap","tls"]
 Description = "We are gonna talk different network protocols by hand"
 nodate = true
 +++
 So, what if we played a bit ? We will speak some network protocols by hand through a socket (netcat or telnet). Ready ?
+
+## SMTP
+
 Gogo SMTP : Sending an email like a tru3 h4ck4r.
 **nc monserveursmtpfavoris.com 25**
 ```
@@ -20,6 +22,9 @@ One supa mail
 .
 ```
 Ok you've just sent a slick mail by hand. Now that you are convinced that SMTP is easy, what about IMAP ?
+
+## IMAP
+
 **nc myfavoriteserver.com 143**
 ```
 . login myuser mypass
@@ -29,6 +34,9 @@ Ok you've just sent a slick mail by hand. Now that you are convinced that SMTP i
 . logout
 ```
 Once again it was easy but less interesting…
+
+## IRC
+
 Next : IRC ? ok !
 **nc myfavoriteirc.com 6667**
 ```
@@ -38,6 +46,9 @@ privmsg myfriend : Telnet is so fresh !
 pong myfavoriteirc.com
 ```
 So… not my bad for this timee, no ?
+
+## TLS
+
 A small hint : if you want to do the same thing but with a bit more privacy thanks to ssl/tls : replace ***netcat*** with ***openssl*** :
 **openssl s_client -connect host:port**
 Maybe we will learn more protocols later

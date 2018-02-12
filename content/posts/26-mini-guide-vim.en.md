@@ -2,8 +2,7 @@
 Author = "Lord"
 date = "2012-11-20T22:40:42+02:00"
 title = "Basic survival guide in vim"
-Categories = ["libre","software","tips"]
-Tags = ["libre","software","tips"]
+Categories = ["libre","software","tips","vim","cli"]
 Description = "The bare minimum to know about vim"
 menu = "main"
 

@@ -1,7 +1,6 @@
 +++
 Author = "Lord"
-Categories = ["software","adminsys","réseau","tips"]
-Tags = ["software","adminsys","réseau","tips"]
+Categories = ["software","adminsys","réseau","tips","mail","postfix"]
 Description = "Allez hop hop hop, on modernise la stack mail. On vire spamassassin et opendkim. À la place on met ceux à la mode : rmilter et rspamd."
 date = "2016-10-18T15:17:19+02:00"
 title = "Dégageons opendkim et spamassassin pour Rspamd et Rmilter"

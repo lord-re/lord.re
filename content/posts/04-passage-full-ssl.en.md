@@ -1,11 +1,10 @@
 +++
 Author = "Lord"
-Tags = ["meta","www"]
 Description = ""
 date = "2008-08-25T16:29:59+02:00"
 title = "Migrating to full ssl"
 menu = "main"
-Categories = ["meta","www"]
+Categories = ["meta","www","tls","secu"]
 nodate = true
 nocategory = true
 

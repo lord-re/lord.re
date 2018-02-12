@@ -2,8 +2,7 @@
 Author = "Lord"
 date = "2012-11-20T22:40:42+02:00"
 title = "Mini-Guide minimaliste pour vim"
-Categories = ["libre","software","tips"]
-Tags = ["libre","software","tips"]
+Categories = ["libre","software","tips","vim","cli"]
 Description = "Le rudiment des bases de l'indispensable strict minimum à savoir sur vim."
 menu = "main"
 

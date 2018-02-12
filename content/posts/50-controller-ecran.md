@@ -1,8 +1,7 @@
 +++
 Author = "Lord"
 title = "Contrôler son écran via l'ordi"
-Tags = ["hardware","software","linux","tips"]
-Categories = ["hardware","software","linux","tips"]
+Categories = ["hardware","software","linux","tips","cli"]
 Description = "Il est possible de commander son écran via l'ordi. C'est super pratique si vous êtes flemmard ou si vous voulez scripter."
 menu = "main"
 date = "2017-08-04T15:42:01+02:00"
@@ -20,13 +19,13 @@ Je connais deux softs qui savent faire le taff. DDCControl est le plus ancien. I
 
 DDCUtil est le ptit nouveau qui débarque et croyez moi, les parts de marché de DDCControl vont en pâtir (au moins dans mon cas). Il se base pas sur une base de données mais plus par le standard plus ou moins implicite qui s'est établit au fil des années chez les constructeurs. Pas dispo chez Gentoo mais sur github. Il a pas trop de dépendances donc pas de soucis à craindre.
 
-Une fois compilé/installé pour pas trop se faire chier on vérifie que son user est dans le groupe video et maintenant on va donner des droits d'écriture dans le device i2c qui va bien pour pouvoir gérer l'écran sans être root. Donc on se rend dans */etc/udev/rules.d* et on rajoute un nouveau ptit fichier contenant : 
+Une fois compilé/installé pour pas trop se faire chier on vérifie que son user est dans le groupe video et maintenant on va donner des droits d'écriture dans le device i2c qui va bien pour pouvoir gérer l'écran sans être root. Donc on se rend dans */etc/udev/rules.d* et on rajoute un nouveau ptit fichier contenant :
 ```
 KERNEL=="i2c-[0-9]*", GROUP="video", MODE="0660"
 ```
 et hop. Si on veux pas se faire chier on reboot (sinon on se relog et on reload eudev). Et maintenant à nous les joies de la flemmardise pour modifier les règlages.
 
-Allez on commence pépère par un ptit **ddcutil detect** qui, si tout se déroule comme prévu, vous affichera quelques infos concernant votre écran. Bon du coup on va voir ce que vous pouvez tripatouiller via **ddcutil getvcp KNOWN**. Il est à noter qu'il est possible que certains règlages ne soient pas trouvés mais la liste s'agrandit à chaque nouvelle update de ddcutil. Dans la liste vous trouverez pleins de lignes comme par exemple 
+Allez on commence pépère par un ptit **ddcutil detect** qui, si tout se déroule comme prévu, vous affichera quelques infos concernant votre écran. Bon du coup on va voir ce que vous pouvez tripatouiller via **ddcutil getvcp KNOWN**. Il est à noter qu'il est possible que certains règlages ne soient pas trouvés mais la liste s'agrandit à chaque nouvelle update de ddcutil. Dans la liste vous trouverez pleins de lignes comme par exemple
 ```
 VCP code 0x10 (Brightness ): current value = 5, max value = 100
 ```
