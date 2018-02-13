@@ -6,8 +6,8 @@ Tags = ["web", "software", "tips", "qutebrowser", "cookies"]
 menu = "main"
 draft = true
 notoc = true
-PublishDate = 2018-02-13T22:12:32+01:00
-date = 2018-02-13T22:12:32+01:00
+PublishDate = 2018-02-13T17:12:32+01:00
+date = 2018-02-13T17:12:32+01:00
 title = "Removing cookies from a specific website in QuteBrowser"
 +++
 Je vous ai déjà chanté [les louanges de mon cher Qutebrowser]({{< ref "posts/64-qutebrowser" >}}) mais ce coup-ci on va passer sous le capot.
