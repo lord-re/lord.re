@@ -1,13 +1,12 @@
 +++
 Author = "Lord"
-Description = ""
-Categories = ["", ""]
-Tags = ["", ""]
+Description = "5ème avancement du Librem 5"
+Categories = ["traduction", "hardware","software","librem"]
 menu = "main"
 notoc = true
 PublishDate = 2018-02-14T11:39:02+01:00
 date = 2018-02-14T11:39:02+01:00
-title = "74 Librem Progress Report 5"
+title = "5ème article d'avancement du Librem 5"
 +++
 Ceci est une traduction libre de [cet article](https://puri.sm/posts/librem5-progress-report-5/) concernant les avancées de la société Purism concernant le smartphone **Librem 5**.
 L'article original est sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) tout comme ma traduction.
