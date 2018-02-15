@@ -148,6 +148,7 @@ pre, :not(pre) > code{
 	margin-top:0.5rem;
 	font-size:0.7rem;
 	padding: 0.5rem;
+  white-space: pre-line;
 }
 figure h4{
 	font-size:0.7rem;
