@@ -130,6 +130,7 @@ h3{
 	list-style-type:disc;
 }
 ol li{
+  padding-top:0.4rem;
   margin-left:2rem;
 }
 section p{
