@@ -129,7 +129,7 @@ h3{
   list-style-position:outside;
 	list-style-type:disc;
 }
-ol li{
+ol li,ul li{
   padding-top:0.4rem;
   margin-left:2rem;
 }
