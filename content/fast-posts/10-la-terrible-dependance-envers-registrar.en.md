@@ -8,6 +8,7 @@ notoc = true
 PublishDate = 2018-02-21T14:02:59+01:00
 date = 2018-02-21T14:02:59+01:00
 title = "We all depend on registrars and registries"
+editor = "kakoune"
 +++
 Purism just suffered from a [massive dns outage](https://puri.sm/posts/the-great-purism-dns-outage-of-2018/).
 All their websites were down.
