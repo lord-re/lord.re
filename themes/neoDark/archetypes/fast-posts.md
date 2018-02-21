@@ -8,4 +8,5 @@ notoc = true
 PublishDate = {{ .Date }}
 date = {{ .Date }}
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
+editor = ""
 +++
