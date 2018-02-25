@@ -8,7 +8,7 @@ PublishDate = 2018-02-25T21:57:15+01:00
 date = 2018-02-25T23:57:15+01:00
 title = "La demoscene vol.1"
 editor = "kakoune"
-draft = "true"
+draft = "false"
 +++
 Connaissez-vous la demoscene ?
 
