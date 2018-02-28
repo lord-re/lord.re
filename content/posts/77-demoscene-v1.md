@@ -34,7 +34,7 @@ Mais au delà de la compétition, il faut également y voir l'émulsion d'une co
 Les équipes produisant les meilleures compo sont acclammées par la foule lors de la diffusion sur écran géant du fruit d'un rush de 3 jours avec peu de sommeil et peu de nourriture saine.
 D'ailleurs les lanparties se sont d'abord greffées au demoparty avant de devenir indépendantes.
 
-## De la contrainte né le génie
+## De la contrainte nait le génie
 
 Non content de devoir être capable de générer la vidéo et l'image en temps réel, il existe également des catégories dans la demoscene qui imposent des contraintes supplémentaires.
 
@@ -43,7 +43,7 @@ Non content de devoir être capable de générer la vidéo et l'image en temps r
 Premièrement certaines démo ne visent pas les ordinateurs dernier cri mais visent des machines assez anciennes tel que les [Commodore 64](https://fr.wikipedia.org/wiki/Commodore_64) sortis en 1982.
 D'autres démos visent également le [ZX Spectrum](https://fr.wikipedia.org/wiki/ZX_Spectrum) également sorti en 1982.
 Les Atari ont également leur lot de démos.
-Tout comme les consoles de jeux vidéos qui ont quasiment toute droit elles aussi à des démos.
+Tout comme les consoles de jeux vidéos qui ont quasiment toutes droit elles aussi à des démos.
 
 ### De taille
 
