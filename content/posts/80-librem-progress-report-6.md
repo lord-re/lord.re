@@ -4,8 +4,8 @@ Description = "7ème avancement du Librem 5"
 Categories = ["traduction", "hardware","software","librem","purism"]
 menu = "main"
 notoc = true
-PublishDate = 2018-03-06T11:39:02+01:00
-date = 2018-03-06T11:39:02+01:00
+PublishDate = 2018-03-04T10:39:02+01:00
+date = 2018-03-04T10:39:02+01:00
 title = "7ème article d'avancement du Librem 5"
 +++
 Ceci est une traduction libre de [cet article](https://puri.sm/posts/librem5-progress-report-7/) concernant les avancées de la société Purism concernant le smartphone **Librem 5**.
