@@ -7,6 +7,7 @@ notoc = true
 PublishDate = 2018-03-04T10:39:02+01:00
 date = 2018-03-04T10:39:02+01:00
 title = "7ème article d'avancement du Librem 5"
+editor = "kakoune"
 +++
 Ceci est une traduction libre de [cet article](https://puri.sm/posts/librem5-progress-report-7/) concernant les avancées de la société Purism concernant le smartphone **Librem 5**.
 L'article original est sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) tout comme ma traduction.
@@ -132,4 +133,4 @@ C'est assez bluffant.
 Cependant la partie téléphonie parait tellement abscons pour le moment que ça en devient un peu inquiétant.
 Je trouve la date de juin pour les devs boards assez optimiste également mais bon.
 
-Au fait, j'héberge les images sur mon serveur mais pas leurs vidéos qui seraient trop volumineuses pour chez mois, désolé.
+Au fait, j'héberge les images sur mon serveur mais pas leurs vidéos qui seraient trop volumineuses pour chez moi, désolé.
