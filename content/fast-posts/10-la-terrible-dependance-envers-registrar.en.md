@@ -1,7 +1,7 @@
 +++
 Author = "Lord"
 Description = "Purism post-mortem about their 2018 dns outage reminds us the infamous dependance with registry and registrars."
-Categories = ["actu", "purism","dns","spof"]
+Categories = ["actu", "purism","dns","spof","purism"]
 menu = "fast"
 noread = true
 notoc = true

@@ -1,7 +1,7 @@
 +++
 Author = "Lord"
 Description = "Le post-mortem de Purism concernant leur grosse panne de ce début 2018 nous rapelle la terrible dépendances envers les registrars."
-Categories = ["actu", "purism","dns","spof"]
+Categories = ["actu", "purism","dns","spof","purism"]
 menu = "fast"
 noread = true
 notoc = true

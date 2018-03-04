@@ -1,7 +1,7 @@
 +++
 Author = "Lord"
 Description = "5ème avancement du Librem 5"
-Categories = ["traduction", "hardware","software","librem"]
+Categories = ["traduction", "hardware","software","librem","purism"]
 menu = "main"
 notoc = true
 PublishDate = 2018-02-14T11:39:02+01:00

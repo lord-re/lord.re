@@ -1,8 +1,7 @@
 +++
 Author = "Lord"
 Description = "Traduction libre du troisième article d'avancement du Librem 5"
-Categories = ["traduction", "hardware", "software", "librem"]
-Tags = ["traduction", "hardware", "software", "librem"]
+Categories = ["traduction", "hardware", "software", "librem","purism"]
 menu = "main"
 notoc = true
 PublishDate = 2018-02-02T21:35:38+01:00
