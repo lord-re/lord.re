@@ -38,4 +38,4 @@ Ce petit outil est assez peu connu et pourtant très pratique pour avoir un aper
 Ce n'est biensûr pas un outil infaillible mais permet déjà d'éviter le pire.
 Ça ne remplace bien entendu pas une mise à jour globale du système via **emerge -uDnav @world**.
 
-Tiens d'ailleurs si vous voulez nourrir un peu votre aggrégateur de flux rss, Debian publie aussi ses [DSA](https://www.debian.org/security/dsa).
+Tiens d'ailleurs si vous voulez nourrir un peu votre agrégateur de flux rss, Debian publie aussi ses [DSA](https://www.debian.org/security/dsa).
