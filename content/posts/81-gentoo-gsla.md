@@ -16,13 +16,13 @@ Trèves de trolleries, Gentoo c'est bien (entre autre) parcequ'on peut tester vi
 
 ## GLSA
 
-Gentoo n'est pas une distro avec une immense équipe de dev mais est tout de même pas mal lottie.
+Gentoo n'est pas une distro avec une immense équipe de dev mais est tout de même pas mal lotie.
 Et du coup il y a de multiples équipes spécialisées dont une pour la sécurité.
 Et cette équipe de sécurité publie les [GLSA](https://security.gentoo.org/glsa/) pour Gentoo Linux Security Advisories.
 
 Les GLSA sont publiées régulièrement et permettent d'être alerté assez rapidement de failles importantes.
 Pour les suivre il y a plusieurs moyens.
-Personnelement je suis [leur flux RSS](https://security.gentoo.org/glsa/feed.rss) via [Nib]({{< ref "posts/66-nib-irc-bot.md" >}}).
+Personnellement je suis [leur flux RSS](https://security.gentoo.org/glsa/feed.rss) via [Nib]({{< ref "posts/66-nib-irc-bot.md" >}}).
 
 ## GLSA-Check
 
