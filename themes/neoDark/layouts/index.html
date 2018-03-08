@@ -4,7 +4,7 @@
 {{ partial "sidebar.html" . }}
     <div class="content">
       <div class="posts">
-{{ range .Data.Pages }}
+{{ range where .Data.Pages "Section" "in" .Site.Params.sectionsInHomepage }}
         <section {{ if eq .Type "posts" }}class="post"{{ else }}class="fast-post"{{ end }}>
           <header class="post-header">
             <h1 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
