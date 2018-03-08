@@ -72,6 +72,10 @@ aside p{
     font-size:20pt;
 	}
 }
+#draft{
+  color:#272b30;
+	font-size:0.5rem;
+}
 .content{
   color:#757c82;
 }

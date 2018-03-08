@@ -1,5 +1,5 @@
 <aside>
-	<div id="sidebar">
+  <div id="sidebar">
   <h1 class="brand-title"><a href="{{ .Site.BaseURL }}">/home/lord</a></h1>
   <p>{{ i18n "sidebar-description"}}</p>
   <br>
@@ -8,5 +8,6 @@
   <p>RSS : <a href="{{ .Site.RSSLink }}" rel="alternate" type="application/rss+xml">index.xml</a></p>
   <br>
 {{ range .Translations }}  <p><a href="{{ .Permalink }}">{{i18n "dispo"}} : {{ .Title }}{{ if .IsPage }} {{ end }}</a></p>{{ end}}
+  <p><a id="draft" href="{{ .Site.BaseURL }}drafts">drafts</a></p>
   </div>
 </aside>
