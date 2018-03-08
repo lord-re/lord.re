@@ -1,0 +1,35 @@
+{{ partial "header.html" . }}
+<body>
+  <div id="layout">
+  {{ partial "sidebar.html" . }}
+
+    <div class="content">
+      <section  class="post">
+        <header class="post-header">
+          <h1 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+          <p class="post-meta"><em>
+            {{ if not .Params.nodate }}<span class="post-date">{{ .Date.Format "02/01/2006" }}</span> - {{ end }}
+            {{ if not .Params.noread }}<span class="post-reading-time">{{ i18n "readingTime" .ReadingTime}}</span>{{ end }}</em>
+						{{ if .Params.categories }}<span class="post-categories">{{ $Site := .Site }}{{ range .Params.categories }}<a class="post-category post-category-{{ . | urlize }}" href="{{ $Site.BaseURL}}categories/{{ . | urlize }}">{{ . }}</a> {{ end }}</span>{{ end }}
+						{{ if .Params.lastEdit}}<span class="post-date">Dernière mise à jour le : {{ dateFormat "02/01/2006" .Params.lastEdit }}</span>{{ end }}
+					</p>
+        </header>
+        <main>
+          {{ .Content }}
+        </main>
+
+				<footer class="post-meta">
+			    {{ if not .Params.nopaging }}
+			    <div class="paging"><p>{{ i18n "paging-start" }}
+          {{ if .PrevInSection }}{{ i18n "paging-older" }}<a class="paging-link" href="{{ .PrevInSection.RelPermalink }}">{{ .PrevInSection.Title }}</a>{{ end }}
+          {{ if .NextInSection }}{{ i18n "paging-fresher" }}<a class="paging-link" href="{{ .NextInSection.RelPermalink }}">{{ .NextInSection.Title  }}</a>{{ end }}
+					</p>
+				  </div>
+				  {{ end }}
+				</footer>
+
+      </section>
+    </div>
+  </div>
+</body>
+</html>
