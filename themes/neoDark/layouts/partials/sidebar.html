@@ -8,6 +8,6 @@
   <p>RSS : <a href="{{ .Site.RSSLink }}" rel="alternate" type="application/rss+xml">index.xml</a></p>
   <br>
 {{ range .Translations }}  <p><a href="{{ .Permalink }}">{{i18n "dispo"}} : {{ .Title }}{{ if .IsPage }} {{ end }}</a></p>{{ end}}
-  <p><a id="draft" href="{{ .Site.BaseURL }}drafts">drafts</a></p>
+  <p><a id="drafturl" href="{{ .Site.BaseURL }}drafts">.</a></p>
   </div>
 </aside>
