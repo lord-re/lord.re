@@ -5,7 +5,7 @@ Categories = ["linux", "kernel","gentoo"]
 Tags = ["linux", "kernel","gentoo"]
 menu = "main"
 notoc = true
-PublishDate = 2018-12-23T17:50:32+01:00
+PublishDate = 2017-12-23T17:50:32+01:00
 date = 2017-12-23T17:50:32+01:00
 title = "Créer son initramfs à la mode de Gentoo"
 +++
