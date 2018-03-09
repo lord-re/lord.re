@@ -6,7 +6,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <meta name="description" content="{{ .Description }}">
-  <meta name="keywords" content="{{ range .Params.Tags }}{{ . }},{{ end }}">
+  <meta name="keywords" content="{{ range .Params.Categories }}{{ . }},{{ end }}">
   <meta name="author" content="{{ .Params.author }}">
   {{ .Hugo.Generator }}
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/neodark.css">
