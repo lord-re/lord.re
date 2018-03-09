@@ -1,16 +1,16 @@
 +++
 Author = "Lord"
-Description = ""
-Categories = ["", ""]
+Description = "Comment réaliser un blog avec Hugo et monter son premier blog."
+Categories = ["www", "tuto","hugo"]
 menu = "main"
 notoc = true
 draft = false
-PublishDate = 2018-03-07T12:46:32+01:00
-date = 2018-03-07T12:46:32+01:00
+PublishDate = 2018-03-09T17:46:32+01:00
+date = 2018-03-09T17:46:32+01:00
 title = "Créer un blog statique Hugo de A à Y"
 editor = "kakoune"
 +++
-Je vois que ces derniers jours Hugo commence à attirer de nouvelles personnes.
+Je vois que ces derniers temps Hugo commence à attirer de nouvelles personnes.
 Du coup, pourquoi pas vous proposer un article un peu plus en profondeur sur ce que j'ai compris d'Hugo.
 Je vous ai déjà fait un [retour sur mon utilisation d'Hugo]({{< ref "fast-posts/09-modifs-blogs-hugo" >}}) mais là ça va plus être sous le capot.
 
@@ -97,7 +97,7 @@ Dans le jargon on appelle ça le *frontmatter*.
 Tout ce qui se trouve entre les *---* (ou *+++* en fonction du format).
 Donc par défaut le titre de votre article sera tiré du nom du fichier donné par la commande *hugo new*.
 La date correspondra à la  création du fichier et par défaut votre fichier est à l'état de *brouillon*.
-Par défaut, hugo ne génère pas les pages à l'état de brouillon.
+Par défaut, Hugo ne génère pas les pages à l'état de brouillon.
 Pour la suite, mettez *draft: false*.
 
 Vous pouvez rédiger en dessous votre article en utilisant la [syntaxe MarkDown](https://learn.netlify.com/en/cont/markdown/).
@@ -215,7 +215,7 @@ Et maintenant refaites un ptit coup de **hugo** et observez votre nouvel *public
 Voilà, votre tout premier résultat tangible.
 Voyons ce qu'il s'est passé.
 
-*{{ range .Data.Pages }}* indique à hugo d'itérer sur toutes les pages de contenu que vous avez créé.
+*{{ range .Data.Pages }}* indique à Hugo d'itérer sur toutes les pages de contenu que vous avez créé.
 Donc dans notre cas uniquement le fichier *content/blog/welcome.md*.
 Il s'agit d'une boucle qui s'exécutera pour chacun des items jusqu'à la fermeture qu'est *{{ end }}*.
 
@@ -335,7 +335,7 @@ Bon on a un truc qui marche pas trop mal.
 Plus qu'à raffiner.
 
 Déjà pour se simplifier la vie, dans un autre terminal lancez **hugo server --navigateToChanged -F -D**.
-Cette commande lance le ptit serveur web interne d'hugo en générant les article avec une date dans le futur (-F) et les articles en brouillons (-D).
+Cette commande lance le ptit serveur web interne d'Hugo en générant les article avec une date dans le futur (-F) et les articles en brouillons (-D).
 Une fois lancée, ils vous indiquera quelle adresse ouvrir dans votre navigateur (généralement http://localhost:1313).
 À chaque modification, vous serez redirigé vers la page éditée.
 
