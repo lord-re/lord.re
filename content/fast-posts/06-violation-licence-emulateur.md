@@ -8,6 +8,7 @@ notoc = true
 PublishDate = 2018-01-14T13:34:23+01:00
 date = 2018-01-14T13:34:23+01:00
 title = "Le respect des licences logicielles est moins fort que le buzz nostalgique du rétro gaming"
+lastEdit = 2018-03-08T21:18:23+01:00
 +++
 Pouwah ! Quel titre !
 
@@ -33,6 +34,18 @@ Maintenant pour ceux que ça intéresse un peu, sachez donc qu'Hyperkin a très 
 
 Bref je vais tabler sur la bonne fois d'Hyperkin et tout foutre sur le dos des journalistes.
 
-*PS 18/02/2018 :*
+## PS 18/02/2018 :
 
 Un [article intéressant](http://www.eurogamer.net/articles/2018-02-09-the-retro-gaming-industry-could-be-killing-video-game-preservation) qui aborde ça chez Eurogamer.
+
+## PS 09/03/2018 :
+
+Bon bha on a [du nouveau sur cette affaire](http://www.twitlonger.com/show/n_1sqfaoi).
+Donc en gros l'entreprise qui revend les émulateurs au fabricant est Datapower Development Limited.
+On apprend aussi que l'arrête de la revente de snes9x au profit de Higan par Byuu est pas innocente.
+
+TwinAphex (le fameux Mr Matteis, dev de snes9x entre autre) aurait discuté avec Byuu le dev de Higan.
+Ces personnes se connaissent plutôt bien car ils collaborent régulièrement auprès de leurs différents projets opensource.
+Et donc Byuu s'est vu proposé un contrat d'utilisation de Higan que financièrement il ne pouvait refuser mais il a du coup décidé de forcer Datapower Dev… à ne plus jamais utiliser snes9x.
+
+Bref, des retournements de situations ! Vivement le prochain épisode.
