@@ -23,7 +23,7 @@ Bref voilà l'article :
 
 Comme nombre d'entres vous le savent, le Librem 5 proposera [deux options](https://puri.sm/posts/gnome-and-kde-in-pureos-diversity-across-devices/) d'environnement de bureau, un basé sur Gnome phone shell et un sur Plasma Mobile.
 En travaillant étroitement avec la communauté KDE, nous sommes parvenus à installer, faire tourner et même parvenu à voir le fournisseur de réseau fonctionner sur Plasma Mobile !
-Le but de cet article est de vous montrer nos progrés avec Plasma Mobile sur la dev board Librem 5 actuelle.
+Le but de cet article est de vous montrer nos progrès avec Plasma Mobile sur la dev board Librem 5 actuelle.
 Voyons, les étapes nécessaires et les challenges que nous avons surmontés.
 
 ## The Setup
@@ -47,7 +47,7 @@ On s'est vite rendu compte qu'en commentant la ligne *QT_QPA_PLATFORM=wayland* d
 Mais la variable QT_QPA_PLATFORM est nécessaire pour que la plateforme soit wayland.
 La question devîent donc *"Pourquoi le driver graphique, etnaviv, ne fonctionne pas sous wayland ?"*
 
-Il s'est averé que la pièce manquante du puzzel se situé dans le protocole *zwp_linux_dmabuf* qui n'était pas encore supporté par Plasma.
+Il s'est avéré que la pièce manquante du puzzle se situé dans le protocole *zwp_linux_dmabuf* qui n'était pas encore supporté par Plasma.
 Pour savoir pourquoi zwp_linux_dmabuf est nécessaire au driver Etnaviv, je vous invite à lire [cette annonce](https://www.pengutronix.de/en/2017-09-28-etnaviv-weston-mainline.html).
 
 Il existait déjà un rapport de bug upstream à ce sujet, avec des patchs pour kwin et kwayland. Merci à Fredrik Höglund pour son travail sur zwp_linux_dmabuf.
@@ -59,24 +59,22 @@ Nous sommes désormais capable d'exporter la variable QT_QPA_PLATFORM et d'avoir
 {{< figure src="/static/84-screenlock.jpg" link="/static/84-screenlock.jpg" alt="Capture d'écran de l'écran de verrouillage de Plasma Mobile" title="L'écran de verouillage de Plasma Mobile" >}}
 
 ## Challenge à surmonter n°2 : La souris invisible
-Il était évident que le clavier fonctionnait, puisque nous avons pu taper notre mot de passe pour se lo connecter depuis l'écran de verrouillage.
+Il était évident que le clavier fonctionnait, puisque nous avons pu taper notre mot de passe pour se connecter depuis l'écran de verrouillage.
 La souris, par contre, était introuvable.
 Par contre, en bougeant la souris à l'aveugle et en cliquant, il était possible d'ouvrir des applications.
 
 Le problème vient du fait que le driver DRM (Direct Rendering Manager, interne au kernel) ne fournit pas de plan de curseur.
-Il existe déjà un impressionant rapport de bug à ce sujet.
+Il existe déjà un impressionnant rapport de bug à ce sujet.
 
 Par contre, dans un premier temps, on peut contourner le soucis en appuyant sur Ctrl+Super pour afficher des cercles autour du curseur, comme vous pouvez le voir sur la vidéo :
 <video class="wp-video-shortcode" id="video-49252-1" width="100%" preload="metadata" controls="controls"><source type="video/webm" src="https://puri.sm/wp-content/uploads/2018/03/plamo_on_l5.webm?_=1" /><a href="https://puri.sm/wp-content/uploads/2018/03/plamo_on_l5.webm?_=1"></a></video>
-
-https://puri.sm/wp-content/uploads/2018/03/plamo_on_l5.webm?_=1
 
 C'est suffisant pour nos besoins actuels, puisque nous recevrons l'adaptateur tactile manquant pour l'écran de dev et nous n'aurons donc plus besoin d'un curseur traditionnel.
 
 ## Challenge à surmonter n°3 : Opérateur mobile
 Naturellement, le prochain challenge est de passer un appel téléphonique.
 D'abord, la carte SIM doit être reconnue et les informations de l'opérateur mobile.
-Ceci nécessite des paquets supplémentaires dont certains ont dû se compiler hors dépot.
+Ceci nécessite des paquets supplémentaires dont certains ont dû se compiler hors dépôt.
 Pour que le Sierra Wireless MC7455 reconnaisse la carte SIM, il a fallu envoyer un code PIN, connecter le modem, raccorder les antennes.
 Puis, quand Plasma Mobile a démarré, on a pu voir le nom de l'opérateur et la force du signal dans le coin en haut à gauche !
 {{< figure src="/static/84-operateur.jpg" link="/static/84-operateur.jpg" alt="Photo de l'écran montrant l'opérateur et la puissance du signal affiché dans le coin" title="La fierté d'afficher le nom de l'opérateur et la puissance du signal dans le coin !" >}}
@@ -91,7 +89,7 @@ Il reste de nombreux efforts et la collaboration avec la communauté Plasma perm
 Du 27 Février au 1er Avril, Todd et Nicole seront à l'Embedded World Electronics Supplier Trade Show à Nürnberg en Allemagne pour rencontrer de potentiels fournisseurs et tout particulièrement des représentants de chez NXP et du distributeur EBV Elektronik.
 En plus, nous avons eu de nombreux meetings avec des fournisseurs de composants WiFi, BlueTooth et de capteurs et nous avons également discutés avec des fabricants et designers de boards.
 
-Cet évènement et ces discussions nous préparrent pour notre prochain voyage à Shenzhen, le Silicon Delta de la Chine.
+Cet évènement et ces discussions nous préparent pour notre prochain voyage à Shenzhen, le Silicon Delta de la Chine.
 Nous avons des rendez-vous avec différents fournisseurs intéressés pour collaborer avec nous sur le Librem 5 ainsi que d'autres de nos projets matériels.
 Nous aurons deux semaines intensives sous forme de marathon de rendez-vous pour définir nos choix matériels et le choix de fournisseurs pour notre projet.
 
