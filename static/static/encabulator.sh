@@ -1,10 +1,10 @@
 #! /bin/bash
-# Script innofensif bien entendu.
+# Script inoffensif bien entendu.
 
 # Il ne faut surtout jamais exécuté un script choppé sur les internets sans le regarder un minimum.
 # D'un point de vue sécu c'est une horreur absolue.
 
-# Les mainteneurs de votre distro font un important travail pour vous protégérer en vérifiant les sources et en vous proposant une façon sûre d'installer des logiciels propres sur votre linux.
+# Les mainteneurs de votre distro font un important travail pour vous protéger en vérifiant les sources et en vous proposant une façon sûre d'installer des logiciels propres sur votre linux.
 # Ne ruinez pas votre linux en faisant du curl …| bash.
 # Bon j'espère que cet article vous aura appris un peu de prudence et/ou vous aura fait rire.
 # Si vous ne connaissiez pas le meme du Turbo Encabulator vous pouvez aller voir 
@@ -79,26 +79,26 @@ printf "\n\n"
 Hackerecho "[PHASE D'INSTALLATION]"
 printf "\n\n"
 sleep 1
-Hackerecho "Décompression du Binmft [1/8]"
+Hackerecho "Décompression du Binmft [1/8]"
 printf "\n"
 sleep 2
-Hackerecho "Side Fumbling Prevention [2/8]"
+Hackerecho "Side Fumbling Prevention [2/8]"
 printf "\n"
 sleep 1
-Hackerecho "DH Decyphering in UDMA-mode 4[3/8]"
+Hackerecho "DH Decyphering in UDMA-mode 4[3/8]"
 printf "\n"
 sleep 1.2
-Hackerecho "Optimisation des IRQ [4/8]"
+Hackerecho "Optimisation des IRQ [4/8]"
 printf "\n"
 sleep 0.4
-Hackerecho "$(uname -r)[5/8]"
+Hackerecho "$(uname -r) [5/8]"
 printf "\n"
 sleep 1
-Hackerecho "IFrame reinitialazition [6/8]"
+Hackerecho "IFrame Reinitialazition [6/8]"
 printf "\n"
 Hackerecho "Et voilà vous venez de faire une connerie."
 printf "\n"
-Hackerecho "Il ne faut surtout jamais executer un script chopper sur le net sans l'inspecter avant !"
+Hackerecho "Il ne faut surtout jamais executer un script choppé sur le net sans l'inspecter avant !"
 printf "\n"
 Hackerecho "Faire “curl x | bash” est potentiellement très dangeureux !"
 printf "\n"
