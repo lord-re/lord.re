@@ -69,3 +69,5 @@ N'hésitez pas à me faire part de vos gains de performances. Dans mon cas je su
 <!-- Voilà voilà. -->
 <!-- -->
 <!-- C'est un peu avant le premier avril mais bon c'est pas grave -->
+
+Pour en discuter [direction le Journal Du Hacker](https://www.journalduhacker.net/s/rjc69g/turbo_encabulator_dans_votre_kernel).
