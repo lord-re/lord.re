@@ -8,7 +8,6 @@ Categories = ["software","tips","linux","cli","adminsys","fs","btrfs"]
 Description = "Comment faire pour démonter sa partition racine alors que votre OS tourne dessus ? Allez suivez le guide."
 publishDate = "2017-09-16T17:03:12+02:00"
 jdh = "https://www.journalduhacker.net/s/bq5ezx/unmount_son_root_sans_reboot"
-jdh = "https://www.journalduhacker.net/s/bq5ezx/unmount_son_root_sans_reboot"
 
 +++
 
