@@ -7,6 +7,7 @@ PublishDate = "2017-10-06T11:49:01+02:00"
 title = "Enregistrement DNS de type CAA pour protéger votre TLS"
 Categories = ["adminsys","sécu","knot","dns","tls"]
 Description = "Comment améliorer un chouilla sa sécurité TLS"
+jdh = "https://www.journalduhacker.net/s/cft5mk/enregistrement_dns_de_type_caa_pour_prot"
 
 +++
 

@@ -8,6 +8,7 @@ notoc = true
 PublishDate = 2017-12-08T16:21:40+01:00
 date = 2017-12-08T16:21:40+01:00
 title = "NIB : Mon assistant personnel IRC"
+jdh = "https://www.journalduhacker.net/s/r9mhms/nib_mon_assistant_personnel_irc"
 +++
 
 Je vous présente ***NIB*** mon assistant personnel. Il me simplifie la vie depuis quelques années maintenant. J'y gère des todo, j'y fais un peu de supervision, un peu de self monitoring manuel également et il possède même quelques commandes réseaux. 

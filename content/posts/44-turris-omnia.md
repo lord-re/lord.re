@@ -5,6 +5,7 @@ date = "2016-10-10T15:02:09+02:00"
 title = "Nouveau routeur Turris Omnia"
 menu = "main"
 Categories = ["hardware","software","réseau","tips"]
+jdh = "https://www.journalduhacker.net/s/mgijdu/retour_dexp_rience_routeur_turris_omnia"
 
 +++
 

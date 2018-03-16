@@ -9,6 +9,7 @@ noread = true
 PublishDate = 2017-12-14T17:02:52+01:00
 date = 2017-12-14T17:02:52+01:00
 title = "Drivers graphiques AMD 2017"
+jdh = "https://www.journalduhacker.net/s/n3j0yb/amd_opensource_son_impl_mentation_de"
 +++
 En 2007, AMD a adopté une nouvelle stratégie concernant les drivers de cartes graphiques de sa récente acquisition, ATI. Ils ont en effet décidé d'**aider le développement de drivers opensource** en fournissant énormément de documentation qui s'est révélée précieuse. 
 

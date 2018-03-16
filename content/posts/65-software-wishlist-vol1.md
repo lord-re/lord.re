@@ -8,6 +8,7 @@ notoc = true
 PublishDate = "2017-11-22T15:08:53+01:00"
 date = 2017-11-22T15:08:53+01:00
 title = "Ma Wishlist logicielle : Vol1"
+jdh = "https://www.journalduhacker.net/s/j5kurd/ma_wishlist_logicielle_vol1"
 +++
 
 Ma liste au père nowel 2017 niveau logiciel. Je sens que ça va pas être exaucé mais qui ne tente rien…

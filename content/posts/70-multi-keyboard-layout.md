@@ -7,6 +7,7 @@ notoc = true
 PublishDate = 2018-01-31T21:18:40+01:00
 date = 2018-01-31T21:18:40+01:00
 title = "Multi layout claviers simultanés pour Xorg"
+jdh = "https://www.journalduhacker.net/s/p5jfsc/multi_layout_claviers_simultan_s_pour"
 +++
 J'aime beaucoup les claviers. Et il m'arrive régulièrement d'en brancher plusieurs sur l'ordinateur… en même temps. Ça n'a que peu d'intérêt mais j'aime bien. Ma petite collection grandit petit à petit. Mon clavier principal est en bépo légèrement trafiqué tandis que la plupart de mes autres bestiaux sont en azerty plus traditionnel voir quelques-uns en qwerty. Du coup j'ai configuré *Xorg* pour avoir une configuration un peu hors du commun :
 

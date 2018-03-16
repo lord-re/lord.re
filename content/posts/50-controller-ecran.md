@@ -5,6 +5,7 @@ Categories = ["hardware","software","linux","tips","cli"]
 Description = "Il est possible de commander son écran via l'ordi. C'est super pratique si vous êtes flemmard ou si vous voulez scripter."
 menu = "main"
 date = "2017-08-04T15:42:01+02:00"
+jdh = "https://www.journalduhacker.net/s/ugvwin/controller_son_cran_depuis_lordi"
 
 +++
 

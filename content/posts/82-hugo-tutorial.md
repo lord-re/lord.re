@@ -9,6 +9,7 @@ PublishDate = 2018-03-09T17:46:32+01:00
 date = 2018-03-09T17:46:32+01:00
 title = "Créer un blog statique Hugo de A à Y"
 editor = "kakoune"
+jdh = "https://www.journalduhacker.net/s/zvd6u9/cr_er_un_blog_statique_hugo_de_y"
 +++
 Je vois que ces derniers temps Hugo commence à attirer de nouvelles personnes.
 Du coup, pourquoi pas vous proposer un article un peu plus en profondeur sur ce que j'ai compris d'Hugo.

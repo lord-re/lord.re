@@ -8,6 +8,7 @@ notoc = true
 PublishDate = 2018-01-09T15:44:34+01:00
 date = 2018-01-09T15:44:34+01:00
 title = "Utiliser ZSH à la façon de VI en réduisant les inconvénients"
+jdh = "https://www.journalduhacker.net/s/bmkshi/utiliser_zsh_la_fa_on_de_vi_en_r_duisant_les"
 +++
 ***Vi*** et ***Emacs*** ont inspiré et inspirent encore pas mal les devs car ils ont posés deux bases d'expériences utilisateurs qui ont depuis le temps prouvé leur efficacité. Ils s'appuient tous les deux principalement sur l'utilisation du clavier mais abordent le problème différemment.
 

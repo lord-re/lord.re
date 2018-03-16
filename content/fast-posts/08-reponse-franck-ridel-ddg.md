@@ -9,6 +9,7 @@ PublishDate = 2018-02-04T21:16:39+01:00
 date = 2018-02-04T21:16:39+01:00
 lastEdit = 2018-02-07T20:47:04+01:00
 title = "Réponse à Franck Ridel concernant DuckDuckGo"
+jdh = "https://www.journalduhacker.net/s/cs6jnb/r_ponse_franck_ridel_concernant"
 +++
 Je viens de lire [cet article de Franck Ridel](http://franck-ridel.fr/duckduckgo-le-canard-aux-pratiques-boiteuses/).
 J'allais initialement commenter sur le JDH mais ma réponse commençait à être un poil long donc je le fais ici.

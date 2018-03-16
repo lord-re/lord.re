@@ -9,6 +9,7 @@ PublishDate = 2018-03-01T10:55:02+01:00
 date = 2018-03-01T10:55:02+01:00
 title = "Retour sur le reverse proxy du blog"
 editor = "kakoune"
+jdh = "https://www.journalduhacker.net/s/mwzbyq/retour_sur_le_reverse_proxy_du_blog"
 +++
 
 En septembre dernier, je vous avais parlé de la mise en place d'un [micro-cache nginx en reverse proxy]({{< ref "posts/60-cache-proxy-nginx" >}}) et du coup je voulais vous faire un petit retour.

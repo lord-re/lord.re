@@ -7,6 +7,7 @@ Categories = ["tips","ux","cli","adminys","linux"]
 Description = "Voilà un nouveau script qui me sert à me rappeler de trucs importants quand on rentre dans certains dossiers. Pas mal pour soulager sa mémoire."
 date = "2017-08-27T20:14:47+02:00"
 title = "Foldcat : se rappeler de quelque chose quand on rentre dans un dossier"
+jdh = "https://www.journalduhacker.net/s/oixhwz/foldcat_se_rappeler_de_quelque_chose"
 
 +++
 

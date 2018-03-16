@@ -7,6 +7,7 @@ PublishDate = "2017-10-27T13:05:06+02:00"
 menu = "main"
 notoc = false
 title = "Guide ultime du serveur DNS v1"
+jdh = "https://www.journalduhacker.net/s/38cipq/guide_ultime_du_serveur_dns_v1"
 
 +++
 Bon bon ces derniers temps je trifouille pas mal mon DNS. Pour les deux du fond qui viennent de se réveiller le DNS c'est l'annuaire de référence de l'Internet. Mais en fait c'est très réducteur de dire ça. En vrai le DNS c'est un système de base de données qui peut faire tout un tas de truc et pas uniquement convertir des noms en adresse IP. Allez, c'est parti pour le DNS Méga Guide 2017 !

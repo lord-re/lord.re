@@ -7,6 +7,7 @@ date = "2017-11-08T16:03:10+01:00"
 menu = "main"
 notoc = true
 title = "Qutebrowser"
+jdh = "https://www.journalduhacker.net/s/lzm6ml/qutebrowser"
 
 +++
 

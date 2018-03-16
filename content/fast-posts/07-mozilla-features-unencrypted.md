@@ -8,6 +8,7 @@ notoc = true
 PublishDate = 2018-01-17T13:00:08+01:00
 date = 2018-01-17T13:00:08+01:00
 title = "Mozilla annonce commencer à restreindre les nouvelles fonctionnalités aux pages chargées via HTTPS"
+jdh = "https://www.journalduhacker.net/s/fr0wmw/mozilla_annonce_commencer_restreindre"
 +++
 Dans sa quête pour un web plus sûr, [Mozilla vient d'annoncer](https://blog.mozilla.org/security/2018/01/15/secure-contexts-everywhere/) qu'une bonne partie **des nouvelles fonctionnalités de Firefox ne seront utilisables qu'uniquement sur des pages web accédées via HTTPS**.
 

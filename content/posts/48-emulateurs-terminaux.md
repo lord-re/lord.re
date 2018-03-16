@@ -6,6 +6,7 @@ title = "Tour d'horizons des émulateurs de terminal"
 menu = "main"
 Categories = ["software","libre","linux","cli"]
 Tags = ["software","libre","linux","cli"]
+jdh = "https://www.journalduhacker.net/s/1blcpe/tour_dhorizon_des_mulateurs_de_terminal"
 
 +++
 

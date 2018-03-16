@@ -5,6 +5,7 @@ Categories = ["software","adminsys","réseau","postfix","mail"]
 Description = "Et si l'on soulageait votre stack mail en virant les spams au plus tôt avant même qu'ils ne rentrent chez vous ? Sounds Good !"
 date = "2016-10-17T15:09:31+02:00"
 title = "Soulager son serveur mail du traitement du spam avec Postscreen"
+jdh = "https://www.journalduhacker.net/s/xkorqz/soulager_son_serveur_mail_du_traitement"
 
 +++
 

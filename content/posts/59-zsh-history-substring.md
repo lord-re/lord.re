@@ -8,6 +8,7 @@ menu = "main"
 Tags = ["cli","ux","tips","software"]
 Categories = ["cli","ux","tips","software"]
 Description = "Voyons une astuce pour faire du substring history search avec ZSH. En vrai ça consiste en une autocompletion d'une commande par rapport à votre historique de commande. Un bon gain de temps pour relancer une commande alambiquée."
+jdh = "https://www.journalduhacker.net/s/kf7qx2/substring_history_search_dans_zsh" 
 
 +++
 Les shells de nos chers unices sont de merveilleux outils qui permettent d'interagir avec nos OS. C'est mon interface principale. Je l'utilise constamment et pour tout. J'utilise très peu de logiciels graphiques. Un navigateur, un terminal et un lecteur vidéo. Voilà tout.

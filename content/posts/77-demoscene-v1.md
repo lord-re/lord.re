@@ -9,6 +9,7 @@ date = 2018-02-25T23:57:15+01:00
 title = "La demoscene vol.1"
 editor = "kakoune"
 draft = "false"
+jdh = "https://www.journalduhacker.net/s/itfjbs/la_demoscene_vol_1"
 +++
 Connaissez-vous la demoscene ?
 

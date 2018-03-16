@@ -5,6 +5,7 @@ title = "Changer la couleur de fond de son terminal à la volée"
 menu = "main"
 Categories = ["software","cli","tips","linux","shell"]
 Description = "Une petite astuce qui devient très vite indispensable pour changer la couleur de fond du terminal à la volée. Super pour distinguer les terminaux avec une session ssh."
+jdh = "https://www.journalduhacker.net/s/vcqj7d/changer_la_couleur_de_fond_de_son_terminal"
 
 +++
 

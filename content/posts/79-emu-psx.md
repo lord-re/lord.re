@@ -9,6 +9,7 @@ PublishDate = 2018-03-03T23:32:32+01:00
 date = 2018-03-03T23:32:32+01:00
 title = "Nouveautés dans l'émulation Playstation"
 editor = "kakoune"
+jdh = "https://www.journalduhacker.net/s/swkj6o/avanc_es_r_centes_dans_l_mulation"
 +++
 La Playstation première du nom est l'une des quatre consoles de jeux vidéos que j'ai pratiqué à l'époque.
 

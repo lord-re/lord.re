@@ -8,6 +8,7 @@ notoc = true
 PublishDate = 2018-01-02T22:05:14+01:00
 date = 2018-01-02T22:05:14+01:00
 title = "Une faille de sécurité béante touchant tous les cpu Intel"
+jdh = "https://www.journalduhacker.net/s/i7aoje/une_faille_de_s_curit_b_ante_touchant_tous"
 +++
 Les monocultures ont de nombreuses fois prouvées qu'elles étaient un risque et pas uniquement dans l'informatique. En agriculture c'est pareil… faire pousser uniquement une seule espèce de plante est risqué. Le jour où une maladie ou bien un insecte/animal un peu gourmand s'abat sur vous, vous perdez absolument tout. Bha là c'est pour les processeurs qui prennent cher.
 

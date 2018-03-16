@@ -9,6 +9,7 @@ PublishDate = 2018-02-21T14:02:59+01:00
 date = 2018-02-21T14:02:59+01:00
 title = "La Terrible Dependance Envers les Registrars"
 editor = "kakoune"
+jdh = "https://www.journalduhacker.net/s/vmtoon/la_terrible_dependance_envers_les"
 +++
 Purism vient de subir une [importante panne de leur infrastructure réseau](https://puri.sm/posts/the-great-purism-dns-outage-of-2018/).
 Leurs sites web étaient injoignables.
