@@ -76,7 +76,7 @@ aside p{
   color:#272b30;
   font-size:0.5rem;
 }
-.post-header{
+.post-header,article{
   margin:2rem;
 }
 .content{
@@ -129,6 +129,9 @@ h3{
 .post-category{
   color:#757cab;
   margin-left:.6rem;
+}
+.post-date{
+  margin-left:2rem;
 }
 .post-edit-date{
   color:#777;
@@ -184,6 +187,8 @@ figure a img{
 .read-more-link , .read-more-link a{
   text-align:right;
   color:#2aa198;
+  margin-right:1rem;
+  margin-bottom:1.3rem;
 }
 .read-more-link a:hover{
   color:#4ab1a8;
