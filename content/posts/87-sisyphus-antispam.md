@@ -65,7 +65,7 @@ Perso un ptit **git clone** puis un **make build** et hop c'est bon (ouai c'est 
 Yapuka démarrer !
 
 Ha non en fait faut configurer un truc quand même : l'emplacement de votre maildir.
-**excrpt SISYPHUS_DIRS="/home/lord/Maildir"**
+**export SISYPHUS_DIRS="/home/lord/Maildir"**
 
 Et maintenant on le lance avec **sisyphus run&**.
 
