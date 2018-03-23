@@ -5,11 +5,11 @@ Categories = ["réseau", "p2p","video","autohebergement"]
 menu = "main"
 notoc = true
 title = "Peertube et l'impossible challenge de remplacer Youtube"
-date = "2018-03-21T21:08:01+01:00"
-PublishDate = "2018-03-22T19:00:00+01:00"
+date = "2018-03-23T21:08:01+01:00"
+PublishDate = "2018-03-23T19:00:00+01:00"
 draft = "false"
 editor = "kakoune"
-jdh = ""
+jdh = "https://www.journalduhacker.net/s/omjylw/peertube_et_limpossible_challenge_de"
 +++
 
 Ça y est dans le cercle des libristes la nouvelle fait grand bruit ! 
