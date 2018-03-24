@@ -4,9 +4,10 @@ menu = "main"
 Categories = ["meta","www","hardware"]
 Tags = ["www","meta","hardware"]
 Description = "Changement de serveur/routeur/nas"
-date = "2010-08-25T21:46:12+02:00"
+date = "2010-10-02T21:46:12+02:00"
+PublishDate = "2010-10-02T21:46:12+02:00"
 title = "Migration"
-nodate = true
+nodate = false
 
 +++
 Et voilà j'ai changé d'hébergement, enfin la machine qui me sert un peu pour tout. Donc je suis passé d'une config qui fût jadis mon PC principal. Un Opteron 165 dual core overclocké et watercoolé dans un boitier Antec Twelve Hundred. Je suis passé à un petit PC sur base d'atom D510. Globalement je pense que j'ai perdu en perf mais j'ai casé ça dans un boitier Fractal Design Array R2. Je passe d'un boitier grande tour à un boitier mini ITX.
