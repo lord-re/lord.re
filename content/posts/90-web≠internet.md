@@ -6,7 +6,7 @@ menu = "main"
 notoc = true
 PublishDate = 2018-03-29T22:29:14+02:00
 date = 2018-03-29T22:29:14+02:00
-title = "Web≠internet"
+title = "Web ≠ Internet"
 editor = "kakoune"
 +++
 Il y a des trucs qui m'agacent.
