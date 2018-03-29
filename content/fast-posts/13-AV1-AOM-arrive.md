@@ -40,3 +40,8 @@ Il y a fort à parier que ça devienne le codec pour le web également dans une 
 Le code source vient d'arriver [ici](https://aomedia.googlesource.com/) et Gstreamer 1.4 a déjà un support expérimental ainsi que le récent VLC3.
 
 Il me tarde de le tester un peu voir s'il tient ses promesses et si c'est utilisable sans (en|dé)codeur hardware.
+
+**PS :** Ha bha je viens de tomber sur [cette galerie](https://people.xiph.org/~tdaede/av1stilldemo/) qui permet de tester sur des images fixes.
+Le rendu est effectivement à la hauteur si ce n'est meilleur que celui d'h265.
+
+D'ailleurs en théorie, Firefox Nightly est en mesure de lire les vidéos en AV1 mais pas de bol chez moi ça ne fonctionne pas.
