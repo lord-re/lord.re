@@ -8,6 +8,7 @@ PublishDate = 2018-03-29T22:29:14+02:00
 date = 2018-03-29T22:29:14+02:00
 title = "Web ≠ Internet"
 editor = "kakoune"
+jdh = "https://www.journalduhacker.net/s/kbozj9/web_internet"
 +++
 Il y a des trucs qui m'agacent.
 
