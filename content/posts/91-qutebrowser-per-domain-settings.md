@@ -4,8 +4,8 @@ Description = "N'activer javascript que sur certains sites dans la nouvelle vers
 Categories = ["web", "qutebrowser","javascript"]
 menu = "main"
 notoc = true
-PublishDate = 2018-03-15T13:51:09+01:00
-date = 2018-03-15T13:51:09+01:00
+date = 2018-04-02T19:51:09+01:00
+Publishdate = 2018-03-15T13:51:09+01:00
 title = "Qutebrowser per Domain Settings"
 editor = "kakoune"
 +++
@@ -26,6 +26,8 @@ Il y un nouveau raccourci tout bien foutu pour ça.
 
 Donc on *désactive globalement javascript* avec **:set content.javascript.enabled false** .
 Ensuite sur chacune des pages autorisées à faire du javascript, vous faites **tSh** qui va réactiver javascript pour le domaine du site que vous consultez et recharger la page.
+
+Si par contre vous voulez autoriser que ponctuellement sans sauvegarder dans la config, il faut faire un **tsh** (donc sans majuscule).
 
 Et hop c'est bon.
 
