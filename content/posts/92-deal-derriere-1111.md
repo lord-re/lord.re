@@ -58,10 +58,18 @@ Et ça même sous windows !
 Et d'ailleurs ça marche avec pleins d'autres.
 À la maison mon lan est en *10.0.0.0/8* et du coup je peux **ping 10.254** pour pinguer 10.0.0.254 .
 
-
-
-
 ## Liens
 
   - [Annonce de la part de Cloudflare](https://blog.cloudflare.com/announcing-1111/)
   - [Annonce de la part de l'APNIC](https://labs.apnic.net/?p=1127)
+
+## PS 05/04/2018
+Je n'ai pas été suffisamment clair.
+
+L'APNIC a conclu ce deal à des fins de recherches pour analyser l'allure du traffic DNS **mais également** pour tout le reste du trafic qui y passe.
+
+Selon leurs dires, ces adresses écopent d'environ 50Gbps ce qui est vraiment massif.
+
+Donc Cloudflare s'engage à fournir le service de DNS et d'anonymiser ce traffic, produire des stats et supprimmer les données en 24h et aussi de faire la même chose pour tout le reste du trafic en vrac qui passe.
+
+Auparavant, Google était déjà en partenariat avec l'APNIC pour ça, ce nouveau deal remplace Google par Cloudflare et pousse l'expérience un peu plus dans le sens du DNS histoire d'étudier du vrai trafic DNS à grande échelle.
