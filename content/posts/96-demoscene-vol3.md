@@ -6,7 +6,7 @@ menu = "main"
 notoc = true
 PublishDate = 2018-04-11T17:38:50+02:00
 date = 2018-04-15T22:00:50+02:00
-title = "Demoscene Vol3"
+title = "La demoscene vol.3"
 editor = "kakoune"
 jdh = "https://www.journalduhacker.net/s/0wbokx/demoscene_vol3"
 +++
