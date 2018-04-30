@@ -7,7 +7,7 @@ noread = true
 notoc = true
 PublishDate = 2018-04-28T17:39:07+02:00
 date = 2018-04-28T17:39:07+02:00
-title = "Déboires Hardware de ce début 2018"
+title = "Mes déboires Hardware de ce début 2018"
 editor = "kakoune"
 +++
 Bon bha ça y est j'en vois je bout.
