@@ -106,3 +106,5 @@ Le Fediverse pourrait l'être.
 Bon sur ce je vous laisse, je retourne à [la fête du Fediverse](http://fediverse.party/).
 
 *PS : Tiens wikipedia n'a pas d'article concernant le Fediverse.*
+
+*PS2 :* Ha bha trois heures après finalement il y a [un article Fediverse dans le wikipedia FR](https://fr.wikipedia.org/wiki/Fediverse). Je comptais m'y atteler demain pour fêter le travail mais finalement j'ai été pris de vitesse.
