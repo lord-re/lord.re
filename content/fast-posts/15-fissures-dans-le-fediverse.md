@@ -86,6 +86,8 @@ Trente ans plus tard l'IRC est toujours morcellé en de nombreux réseaux.
 
 C'est ce que risque le Fediverse.
 
+Si vous voulez plus d'infos concernant l'histoire d'IRC, la [page anglaise de Wikipedia](https://en.wikipedia.org/wiki/Irc#History) en a un ptit résumé.
+
 Le seul réseau fédéré qui malgré les années l'est encore est le SMTP : **les mails**.
 Et pourtant Google et Microsoft s'acharnent à briser cette fédération.
 
@@ -103,3 +105,4 @@ Le Fediverse pourrait l'être.
 
 Bon sur ce je vous laisse, je retourne à [la fête du Fediverse](http://fediverse.party/).
 
+*PS : Tiens wikipedia n'a pas d'article concernant le Fediverse.*
