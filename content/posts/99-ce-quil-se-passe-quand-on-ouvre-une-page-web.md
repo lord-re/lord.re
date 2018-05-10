@@ -71,7 +71,7 @@ Vous n'allez pas vous connecter juste à un ordinateur en réalité mais à 1 po
 Un même ordinateur pourra faire tourner plusieurs logiciels simultanément qui attendront chacun des connexions sur des ports différents.
 De ce fait un seul ordinateur peut à la fois parler http et https mais également faire serveur mail sur le port 25 par exemple et pourquoi pas aussi serveur de discussion via le port 6667…
 
-Les ordinateurs ont 65535 ce qui leur laisse pas mal de marge de manœuvre (et encore autant en UDP). 
+Les ordinateurs en ont 65535 ce qui leur laisse pas mal de marge de manœuvre (et encore autant en UDP). 
 *Un port est donc un point d'entrée et/ou de sortie de votre OS sur le réseau.*
 
 Donc reprenons :
