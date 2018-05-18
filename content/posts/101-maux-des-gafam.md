@@ -12,7 +12,7 @@ jdh = "https://www.journalduhacker.net/s/k9yfxi/les_maux_des_gafam"
 +++
 Il est de bon ton de critiquer les GAFAM.
 C'est un sport assez commun.
-Aussi bien chez les libristes/techniciens qui sont au fait des enjeux techniques de la chose mais également désormais la presse spécialisée voir [pas spécialisée du tout](https://www.nouvelobs.com/tech/20180213.OBS2112/les-gafa-regnent-sur-nos-smartphones-reprenons-le-controle.html).
+Aussi bien chez les libristes/techniciens qui sont au fait des enjeux techniques de la chose mais également désormais la presse spécialisée voire [pas spécialisée du tout](https://www.nouvelobs.com/tech/20180213.OBS2112/les-gafa-regnent-sur-nos-smartphones-reprenons-le-controle.html).
 
 Bref le discours devient assez connu et commun.
 **C'est bien**.
@@ -54,10 +54,13 @@ En quarante ans, ils sont passés d'une entreprise pro-bidouilleurs à une égli
   4. *Le culte Apple* : Ouai c'est fatigant toute cette ambiance qui règne autour. Non, c'est pas forcément mieux pour un graphiste… À l'inverse, c'est pas forcément beaucoup plus cher à matos de même qualité et même intégration. T'as-tu vraiment besoin de remplacer ton matos toutes les cinq minutes ? Non tu n'utilises pas 50% des perfs de ton téléphone actuel, donc les 15% de perf supplémentaires du nouveau te changeront rien.
 
 Finalement on ne leur reproche pas du tout la même chose que Google.
-Pas de soucis de vie privée.
-Pas de pistage intempestif.
+~~Pas de soucis de vie privée.~~
+~~Pas de pistage intempestif.~~
+On me signale qu'en fait leurs produits embarquent un SuperCookie permettant d'identifier leurs utilisateurs.
 En gros on s'en fout un peu d'eux.
 Ils posent pas trop de soucis, c'est plutôt leur clientèle qui est toxique.
+
+Le moyen facile pour éviter leurs travers est de ne pas acheter leurs produits et c'est bon vous êtes safe.
 
 On peut se réjouir que le “Don't be evil” s'applique plutôt à eux, car avec les semi-remorques de lingots qu'ils possèdent ils pourraient faire des dégats massifs.
 
