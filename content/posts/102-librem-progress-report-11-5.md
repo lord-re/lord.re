@@ -8,7 +8,7 @@ date = 2018-05-18T18:22:07+01:00
 Categories = ["traduction","software","librem","purism"]
 title = "Présentation de Calls. L'appli du Librem 5 pour les appels"
 editor = "kakoune"
-jdh = ""
+jdh = "https://www.journalduhacker.net/s/7laje4/pr_sentation_de_calls_lappli_du_librem_5"
 +++
 Ceci est une traduction libre de [cet article](https://puri.sm/posts/introducing-calls/) concernant les avancées de la société Purism concernant le smartphone **Librem 5**.
 L'article original est sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) tout comme ma traduction.
