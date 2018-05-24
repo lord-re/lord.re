@@ -111,7 +111,7 @@ Même si ces derniers années ils s'améliorent énormément en découvrant l'Op
 
 Bon bha une partie vient de la position dominante dans un domaine.
 
-Donc **utiliser des alternatives** est déjà un bon moyen de rendre plus innofensif ces géants.
+Donc **utiliser des alternatives** est déjà un bon moyen de rendre plus inoffensif ces géants.
 
 Ensuite concernant la vie privée, la première chose la plus évidente est d'*arrêter de coller nos données ailleurs que chez soit*.
 N'écoutez pas les sirènes du cloud.
