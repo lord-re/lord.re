@@ -66,8 +66,8 @@ Beaucoup trop d'étape pour une action aussi basique.
 
 Et c'est pareil pour la *Media library*, au moins l'interface est cohérente dans sa lourdeur.
 
-## MPS
-J'ai vite fait testé un autre client pour MPD du nom de MPS qui est plus récent que le vénérable ncmpcpp et qui est actuellement en train de subir une réécriture en Go.
+## PMS
+J'ai vite fait testé un autre client pour MPD du nom de [PMS](https://kimtore.no/pms/) qui est plus récent que le vénérable ncmpcpp et qui est actuellement en train de subir une réécriture en Go.
 J'ai donc testé la version classique avant réécriture qui est annoncé comme stable et pour l'instant avec plus de fonctionnalité et pour faire vite j'ai pas aimé l'interface non plus.
 Et puis la doc est … déplorable.
 Pas réussi à faire ce que je voulais simplement du coup j'ai capitulé en voyant la non-doc.
