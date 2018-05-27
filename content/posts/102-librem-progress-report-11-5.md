@@ -27,7 +27,7 @@ De loin, la fonctionnalité la plus critique d'un téléphone est la possibilit�
 Même si chez Purism nous souhaitons implémenter des systèmes de communications permettant plus de sécurité et un meilleur respect de la vie privée que ce que l'on peut attendre via le réseau téléphonique publique, ce moyen est le plus utilisé pour le moment et nous ne pouvons nous permettre de vendre un téléphone ne pouvant pas téléphoner. [⁰]({{< relref "#⁰" >}})
 
 Mon boulot a été de coder un dialer (numéroteur) et la gestion des appels.
-Comme tous nos develeppoments sur le Librem 5, le but est de réutiliser le plus de code existant possible et de viser l'intégration dans la plateforme Gnome qui est utilisée par défaut par notre PureOS.
+Comme tous nos développements sur le Librem 5, le but est de réutiliser le plus de code existant possible et de viser l'intégration dans la plateforme Gnome qui est utilisée par défaut par notre PureOS.
 Il n'y a pour le moment pas de dialer dans le projet Gnome donc nous pousserons son adoption.
 
 ## Idées initiales
