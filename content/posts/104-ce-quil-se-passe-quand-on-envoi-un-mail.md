@@ -1,12 +1,12 @@
 +++
 Author = "Lord"
-Description = "Après ce qu'il se passe quand on ouvre une page web, ce qu'il se passe quand on envoi un mail !"
+Description = "Après ce qu'il se passe quand on ouvre une page web, ce qu'il se passe quand on envoie un mail !"
 Categories = ["internet", "vulgarisation", "mail", "réseau"]
 menu = "main"
 notoc = true
 PublishDate = 2018-05-23T12:07:11+02:00
 date = 2018-05-29T12:07:11+02:00
-title = "Ce qu'il se passe quand on envoi un mail"
+title = "Ce qu'il se passe quand on envoie un mail"
 editor = "kakoune"
 jdh = "https://www.journalduhacker.net/s/yuyuhb/ce_quil_se_passe_quand_on_envoi_un_mail"
 +++
