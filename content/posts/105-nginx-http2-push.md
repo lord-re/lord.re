@@ -75,3 +75,8 @@ Ou bien si vous voulez un truc plus simple vous avez [http2-push](https://http2-
 -----------
 Voilà vous allez probablement pouvoir grapiller quelques ms sur l'affichage de votre site ouaib avec ça.
 C'est en place depuis déjà plusieurs jours ici sans soucis, j'ai pas constaté d'augmentation de la conso de bande passante (j'ai été prudent sur les push).
+
+-----------
+## PS :
+Comme signalé par [Buzut](https://buzut.fr/), si vous mettez le push comme indiqué dans l'article, à chaque requête les ressources seront poussées au visiteur ce qui n'est pourtant utile que la première fois.
+Il est possible de gérer ça en utilisant un cookie et de ne pusher que lorsque le cookie n'existe pas comme c'est montré sur [l'article nginx à ce propos](https://www.nginx.com/blog/nginx-1-13-9-http2-server-push/#selective-push).
