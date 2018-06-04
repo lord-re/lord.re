@@ -6,6 +6,7 @@ menu = "main"
 notoc = true
 PublishDate = 2018-05-23T12:07:11+02:00
 date = 2018-05-29T12:07:11+02:00
+lastEdit = 2018-06-04T23:09:17+02:00
 title = "Ce qu'il se passe quand on envoie un mail"
 editor = "kakoune"
 jdh = "https://www.journalduhacker.net/s/yuyuhb/ce_quil_se_passe_quand_on_envoi_un_mail"
@@ -120,9 +121,12 @@ Dans un second temps, le mail va être signé par le serveur d'émission en fonc
 C'est une signature qui atteste que le mail provient bien du serveur de mail autorisé par mon nom de domaine (dans mon serveur DNS, j'ai annoncé que les mails provenant de mon domaine sont signés par telle clé).
 Contrairement à GPG, cette signature vaut pour tous les mails du domaine, ils ne chiffrent pas le message et ne garantissent pas de l'identité de l'émetteur mais l'identité du nom de domaine d'émission.
 Toutes les personnes utilisant le même nom de domaine pour émettre leur mail auront la même signature.
-Cette signature sera placé dans l'entête du mail et sera utilisé par les serveurs intermédiaires et finaux afin de vérifier que votre mail soit bien légitime.
+
+Qui plus est cette signature atteste de l'intégrité du mail : il prouve qu'à partir de votre serveur d'émission jusqu'à la lecture, le mail n'a pas été modifié. (Par contre entre le logiciel rédigeant le mail et le serveur d'envoi par contre pas de certitude mais c'est généralement un segment de confiance.)
+
+Bref, cette signature sera placée dans l'entête du mail et sera utilisée par les serveurs intermédiaires et finaux afin de vérifier que votre mail soit bien légitime.
 Elle ne sert pas directement aux utilisateurs et n'est donc que rarement montrée.
-**Cette signature atteste uniquement de l'authenticité du serveur d'émission.**
+**Cette signature atteste uniquement de l'authenticité du serveur d'émission et de l'intégrité du mail à partir du serveur d'émission.**
 Elle ne prouve rien concernant l'utilisateur lui même, uniquement le serveur !
 
 Si tout se passe comme il faut, votre mail est donc consideré comme légitime par votre serveur de mail et est donc signé.
@@ -194,14 +198,14 @@ Avec un peu de chance ça sera dans quelques secondes mais rien dans le protocol
 Il me semble que cette technique n'est pas employée par Gmail mais assez courante chez les auto-hébergeurs du fait de son efficacité redoutable.
 
 ### 7.2 Différentes vérifications
-Chaque serveurs possède des règles différentes pour l'acceptation des mails.
+Chaque serveur possède des règles différentes pour l'acceptation des mails.
 
 Certains ne font que le strict minimum (c'est à dire vérifier que le destinataire existe bien), d'autres imposent des tailles maximales pour les mails, d'autres utilisent des systèmes de réputation…
 Chacun fait sa tambouille.
 
 Dans les grands classiques on trouve la consultation de listes noires publiques via le DNS, ce que l'on apelle les **DNSBL**.
-On y vérifie que votre serveur d'envoi n'est pas présent dans cette blacklist.
-C'est donc potentiellement encore un endroit potentiel de fuite d'information : votre mail n'est pas envoyé aux fournisseurs de DNSBL, juste votre nom de domaine ainsi que l'ip du serveur de réception.
+On y vérifie que l'adresse IP de votre serveur d'envoi n'est pas présent dans cette blacklist.
+C'est donc potentiellement encore un endroit potentiel de fuite d'information : votre mail n'est pas envoyé aux fournisseurs de DNSBL, juste l'ip de votre serveur, ce qui peut être couplé avec l'ip du serveur de réception faisant la requête DNS.
 Le risque est minime cela-dit.
 
 Vous obtiendrez parfois un mail de réponse de la part de *Mailer Daemon* vous indiquant pourquoi (ou pas) votre mail à été rejeté et ce mail peut prendre jusqu'à une semaine pour arriver…
@@ -235,7 +239,7 @@ C'est deux technique complémentaires permettant de limiter l'envoi de spam en v
 Si en 2018 vous n'avez pas de SPF et de DKIM fonctionnel, vos mails finiront quasi-systèmatiquement dans les spams, à juste titre.
 Là encore le DNS joue un grand rôle et se trouve être une potentielle fuite de données.
 
-### 9.3 Antispam Bayésien
+### 9.3 Antispam basique
 Encore un peu d'antispam mais ce coup-ci ça se base non plus sur le serveur d'émission mais sur les méta-données et les données du mail lui-même.
 
 Là *le mail va être analysé selon pleins de critères variés.*
@@ -247,12 +251,20 @@ Là *le mail va être analysé selon pleins de critères variés.*
   - …
 
 C'est aussi bien des points techniques que des points plus "humains".
-À chaque réponse on obtient **un score** positif ou négatif, à la fin on fait le compte et le résultat final détermine si c'est un spam ou non.
+À chaque réponse on obtient **un score** positif ou négatif.
+
+### 9.4 Filtre Bayésien
+Là on pousse encore un peu plus l'antispam en faisant une analyse statistique sur les mots présents dans le mail.
+
+Si votre mail insiste un peu trop sur la longueur des membres, ou bien s'attarde un peu trop sur d'éventuels gains financiers ou tout autre sujet à la mode, le filtre Bayésien va reconnaître des *motifs récurrents* et encore une fois attribué un *score de probabilité*.
+
+On cumule ce score à celui précédemment obtenu et à la fin on fait le compte et le résultat final détermine si c'est un spam ou non.
 
 En fonction de ce score le mail sera soit supprimmé, soit placé dans les spams, soit aura le droit d'arriver dans la boîte du destinataire.
 
 Ici le logiciel antispam a accès au mail complet.
-Cela pourrai poser un soucis de confidentialité cependant ce filtre n'est pas sous-traité à ma connaissance.
+~~Cela pourrai poser un soucis de confidentialité cependant ce filtre n'est pas sous-traité à ma connaissance.~~
+Bon bha finalement on me signale que si certaines entreprises sont spécialisées dans l'antispam et reçoivent donc les mails en live pour les analyser et délibérer si oui ou non il s'agit d'un spam, donc c'est encore une fois une fuite potentiel pour votre mail.
 
 ## 10 - Livraison locale
 Le serveur du destinataire a donc accepté le mail et effectué tous ses tests d'antispam, il faut donc maintenant transférer le mail au **LDA**, le *local delivery agent*.
@@ -294,4 +306,5 @@ Avec dans quelques cas des risques de fuites de données de votre mail (surtout 
 
 Si vous vous autohébergez, vous pouvez à peu près garantir les deux premières étapes pour la confidentialité de votre mail tout au mieux.
 Si vous ne vous auto-hébergez pas vous ne pouvez garantir que la première étape au delà … bha … bonne chance.
-Si vous voulez mieux, il va falloir chifrer votre mail ;-)
+
+**Si vous voulez mieux, il va falloir chiffrer votre mail ;-)**
