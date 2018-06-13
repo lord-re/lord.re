@@ -22,7 +22,7 @@ Bref voilà l'article :
 
 <hr>
 
-#L'importance des claviers visuels
+# L'importance des claviers visuels
 Le rôle des claviers ne doit pas être sous-estimé.
 Ils sont apparus bien avant les ordinateurs et survivent à l'ère des smartphones.
 Des millions de gens discutent avec leurs amis en écrivant sur leur cher ordinateur de poche en utilisant la vénérable disposition QWERTY datant de 1873.
