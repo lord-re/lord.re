@@ -37,7 +37,7 @@ Il est basé sur rootston (wlroots), GTK et weston-keyboard − notez ces noms, 
 
 {{< figure src="/static/109-qwerty.jpg" alt="photo d'un clavier de machine à écrire en Qwerty" title="Une machine à écrire “Continental Standard” Photo issue de Wikipedia" link="https://en.wikipedia.org/wiki/File:Continental_Standard_typewriter_keyboard_-_key_detail.jpg" >}}
 
-<video class="wp-video-shortcode" id="video-52786-1" width="640" height="360" preload="metadata" controls="controls"><source type="video/webm" src="https://videos.puri.sm/librem5/keyboard-l5-edit.webm?_=1" /><a href="https://videos.puri.sm/librem5/keyboard-l5-edit.webm">https://videos.puri.sm/librem5/keyboard-l5-edit.webm</a></video>
+<video class="wp-video-shortcode" id="video-52786-1" width="1024" preload="metadata" controls="controls"><source type="video/webm" src="https://videos.puri.sm/librem5/keyboard-l5-edit.webm?_=1" /><a href="https://videos.puri.sm/librem5/keyboard-l5-edit.webm">https://videos.puri.sm/librem5/keyboard-l5-edit.webm</a></video>
 
 Cette tâche s'est avéré un voyage intéressant et enrichissant.
 Le train Wayland m'a baladé des *méthodes d'entrée* à l'Asie, à travers les protocoles, ainsi que les communautés FLOSS.
