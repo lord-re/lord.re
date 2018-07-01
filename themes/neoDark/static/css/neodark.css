@@ -37,6 +37,7 @@ aside{
   border-bottom:2px solid #414;
 }
 aside h1{
+	color:#aa8;
   padding-bottom:1.5rem;
   text-align:center;
 }
@@ -94,14 +95,8 @@ main {
 a{
   color:#aa7c82;
 }
-h1{
-  line-height:2rem;
-  font-size:2rem;
-  color:#bb8;
-}
 h1 a{
   font-size:1.7rem;
-  color:#aa8;
 }
 h2{
   font-size:1.5rem;
@@ -112,25 +107,39 @@ h3{
   font-size:1.3rem;
   padding-top:1.1rem;
 }
-.post, .fast-post{
+.post, .fast-post, .share{
   margin:1rem;
   box-shadow:0 0 1em rgba(0,0,0,0.4);
+  text-align:justify;
+  max-width:50em;
+}
+.post{
   border-top:3px solid #547;
   border-bottom:1px solid #436;
   border-left:2px solid #444;
-  text-align:justify;
-  max-width:50em;
+  background:#2d2f34;
 }
 .fast-post{
   border-top:3px solid #457;
   border-bottom:1px solid #346;
   border-left:2px solid #447;
   color:#999;
-  background:#272b30;
   background:#292f34;
+}
+.share{
+  border-top:3px solid #d2c555;
+	border-bottom:1px solid #443;
+	border-left:2px solid #752;
+  background:#292e30;
+}
+.post h1 a {
+  color:#cac;
 }
 .fast-post h1 a {
   color:#99C3D1;
+}
+.share h1 a {
+  color:#ffa;
 }
 .post-category{
   color:#757cab;

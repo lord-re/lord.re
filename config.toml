@@ -7,7 +7,7 @@ publishDir = "/home/lord/www/public"
 
 [params]
 	sidebartitle = "/home/lord"
-	sectionsInHomepage = ["posts","fast-posts"]
+	sectionsInHomepage = ["posts","fast-posts","shares"]
 
 [Languages]
   [Languages.fr]
