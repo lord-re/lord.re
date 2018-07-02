@@ -37,7 +37,6 @@ aside{
   border-bottom:2px solid #414;
 }
 aside h1{
-	color:#aa8;
   padding-bottom:1.5rem;
   text-align:center;
 }
@@ -113,11 +112,23 @@ h3{
   text-align:justify;
   max-width:50em;
 }
+.post:before,.share:before,.fast-post:before{
+	font-size:0.8rem;
+	border-radius:0 0 0.4rem 0;
+	border-bottom:none;
+	border-left:none;
+	padding:0.2rem;
+}
 .post{
   border-top:3px solid #547;
   border-bottom:1px solid #436;
-  border-left:2px solid #444;
+  border-left:2px solid #436;
   background:#2d2f34;
+}
+.post:before{
+  content:"post";
+	background:#436;
+	border:1px solid #547;
 }
 .fast-post{
   border-top:3px solid #457;
@@ -126,11 +137,21 @@ h3{
   color:#999;
   background:#292f34;
 }
+.fast-post:before{
+  content:"fast-post";
+	background:#346;
+	border:1px solid #457;
+}
 .share{
   border-top:3px solid #d2c555;
 	border-bottom:1px solid #443;
-	border-left:2px solid #752;
+	border-left:2px solid #554;
   background:#292e30;
+}
+.share:before{
+  content:"share";
+	background:#443;
+	border:1px solid #554;
 }
 .post h1 a {
   color:#cac;
