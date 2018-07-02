@@ -26,7 +26,7 @@
 {{ if .PrevInSection }}{{ i18n "paging-older" }}<a class="paging-link" href="{{ .PrevInSection.RelPermalink }}">{{ .PrevInSection.Title }}</a>{{ end }}
 {{ if .NextInSection }}{{ i18n "paging-fresher" }}<a class="paging-link" href="{{ .NextInSection.RelPermalink }}">{{ .NextInSection.Title  }}</a>{{ end }}
           </p>
-          <p>Un article aléatoire : {{ range first 1 (shuffle (where .Site.RegularPages "Section" "posts" ))  }} <a href="{{ .Permalink }}">{{ .Title }}</a> {{ end }}</p>
+          <p>Un article aléatoire : {{ range first 1 (shuffle (where .Site.RegularPages "Section" "shares" ))  }} <a href="{{ .Permalink }}">{{ .Title }}</a> {{ end }}</p>
         </div>
 {{ end }}
       </footer>
