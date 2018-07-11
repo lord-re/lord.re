@@ -1,0 +1,1612 @@
+<HTML>
+<HEAD>
+<META NAME="KEYWORDS" CONTENT="The $5000 Compression Challenge">
+<TITLE>The $5000 Compression Challenge</TITLE>
+
+<STYLE type="text/css">
+  B.me {color: brown}
+  B.him {color: red}
+</STYLE>
+</HEAD>
+
+<BODY BGCOLOR=#D0D0A0>
+
+<A HREF="../index.htm">Patrick Craig</A> &gt; <A HREF="index.htm">Other Stuff</A> &gt; Compression Challenge
+<HR>
+
+<H1>The $5000 Compression Challenge</H1>
+Apart from the $100 cash I sent him, the emails below are a complete record of
+all the correspondence between myself and Mike Goldman. The only editing I have
+done is to remove some line breaks and to replace potentially sensitive information
+with asterisks. I left in my typos (e.g. wc -b -> wc -c, Digital Linux -> Digital UNIX)<BR>
+<BR>
+<UL>
+<LI><A HREF="#Challenge">The Challenge</A></LI>
+<LI><A HREF="#Rules">Clarifying the rules and other pre challenge correspondence with Mike Goldman</A></LI>
+<LI><A HREF="#News">The comp.compression newsgroup email</A></LI>
+<LI><A HREF="#Random">Compressing random data and self compressing / extracting files</A></LI>
+<LI><A HREF="#Programs">Completing the challenge - the compressor and decompressor</A></LI>
+<LI><A HREF="#After">Post challenge correspondence with Mike Goldman</A></LI>
+<LI><A HREF="#Analysis">Analysis by the comp.compression newsgroup</A></LI>
+</UL>
+<BR>
+<H2><A NAME="Challenge">The Challenge</A></H2>
+I came across this challenge while browsing the
+<A HREF="http://www.faqs.org/faqs/compression-faq/part1/section-8.html">compression FAQ</A> pages.
+<PRE>
+Mike Goldman <whig@by.net> makes another offer:
+
+    I will attach a prize of $5,000 to anyone who successfully meets this
+    challenge.  First, the contestant will tell me HOW LONG of a data file to
+    generate.  Second, I will generate the data file, and send it to the
+    contestant.  Last, the contestant will send me a decompressor and a
+    compressed file, which will together total in size less than the original
+    data file, and which will be able to restore the compressed file to the
+    original state.
+
+    With this offer, you can tune your algorithm to my data.  You tell me the
+    parameters of size in advance.  All I get to do is arrange the bits within
+    my file according to the dictates of my whim.  As a processing fee, I will
+    require an advance deposit of $100 from any contestant.  This deposit is
+    100% refundable if you meet the challenge.
+</PRE>
+<BR>
+<H2><A NAME="Rules">Clarifying the rules and other pre challenge correspondence with Mike Goldman</A></H2>
+<BR>
+<PRE>
+------------------------------------------------------------------------------
+
+Subject: 
+        Compression challenge
+   Date: 
+        Mon, 26 Mar 2001 13:11:04 +0900
+   From: 
+        Patrick Craig <patrick@nag-j.co.jp>
+     To: 
+        whig@by.net
+
+<B class="me">Hello
+
+Mike Goldman <whig@by.net> makes another offer:
+
+    I will attach a prize of $5,000 to anyone who successfully meets this
+    challenge.  First, the contestant will tell me HOW LONG of a data file to
+    generate.  Second, I will generate the data file, and send it to the
+    contestant.  Last, the contestant will send me a decompressor and a
+    compressed file, which will together total in size less than the original
+    data file, and which will be able to restore the compressed file to the
+    original state.
+
+    With this offer, you can tune your algorithm to my data.  You tell me the
+    parameters of size in advance.  All I get to do is arrange the bits within
+    my file according to the dictates of my whim.  As a processing fee, I will
+    require an advance deposit of $100 from any contestant.  This deposit is
+    100% refundable if you meet the challenge.
+
+This sounds like an interesting challenge. Is it still available? Can
+you give a few more details about the decompressor. Does it have to run
+on any machine or is just one machine ok. How do you define a
+decompressor? Does this script count as a decompressor:
+
+gunzip $1
+
+Thanks in advance for your reply
+
+Patrick Craig</B>
+
+------------------------------------------------------------------------------
+
+    Subject: 
+            Re: Compression challenge
+       Date: 
+            Sun, 25 Mar 2001 23:52:03 -0500
+      From: 
+            Mike Goldman <whig@debian.org>
+        To: 
+            Patrick Craig <patrick@nag-j.co.jp>
+ References: 
+            1
+
+Patrick Craig wrote:
+
+&gt; Hello
+&gt;
+&gt; Mike Goldman <whig@by.net> makes another offer:
+&gt;
+&gt;     I will attach a prize of $5,000 to anyone who successfully meets this
+&gt;     challenge.  First, the contestant will tell me HOW LONG of a data file to
+&gt;     generate.  Second, I will generate the data file, and send it to the
+&gt;     contestant.  Last, the contestant will send me a decompressor and a
+&gt;     compressed file, which will together total in size less than the original
+&gt;     data file, and which will be able to restore the compressed file to the
+&gt;     original state.
+&gt;
+&gt;     With this offer, you can tune your algorithm to my data.  You tell me the
+&gt;     parameters of size in advance.  All I get to do is arrange the bits within
+&gt;     my file according to the dictates of my whim.  As a processing fee, I will
+&gt;     require an advance deposit of $100 from any contestant.  This deposit is
+&gt;     100% refundable if you meet the challenge.
+&gt;
+&gt; This sounds like an interesting challenge. Is it still available? Can
+&gt; you give a few more details about the decompressor. Does it have to run
+&gt; on any machine or is just one machine ok. How do you define a
+&gt; decompressor? Does this script count as a decompressor:
+&gt;
+&gt; gunzip $1
+&gt;
+&gt; Thanks in advance for your reply
+&gt;
+&gt; Patrick Craig
+
+<B class="him">Sure, that would be fine.
+
+Would you like to play?</B>
+
+------------------------------------------------------------------------------
+
+    Subject: 
+            Re: Compression challenge
+       Date: 
+            Mon, 26 Mar 2001 14:32:14 +0900
+      From: 
+            Patrick Craig <patrick@nag-j.co.jp>
+        To: 
+            Mike Goldman <whig@debian.org>
+ References: 
+            1 , 2
+
+Mike Goldman wrote:
+
+&gt; Sure, that would be fine.
+&gt;
+&gt; Would you like to play?
+
+<B class="me">I'm thinking about it. Are you only allowed one compressed file?
+
+Patrick</B>
+
+------------------------------------------------------------------------------
+
+    Subject: 
+            Re: Compression challenge
+       Date: 
+            Mon, 26 Mar 2001 01:04:02 -0500
+      From: 
+            Mike Goldman <whig@debian.org>
+        To: 
+            Patrick Craig <patrick@nag-j.co.jp>
+ References: 
+            1 , 2 , 3
+
+Patrick Craig wrote:
+
+&gt; Mike Goldman wrote:
+&gt;
+&gt; &gt;  Sure, that would be fine.
+&gt; &gt;
+&gt; &gt;  Would you like to play?
+&gt;
+&gt; I'm thinking about it. Are you only allowed one compressed file?
+&gt;
+&gt; Patrick
+
+<B class="him">You tell me how large a file to make and send me $100.
+
+I make it and send it to you.
+
+You send me a compressed file and a decompressor which together are
+less than the size of my uncompressed file, and which can together
+regenerate the original uncompressed file.
+
+I send you $5,000.
+
+If you fail, you send me another $100 and try again.</B>
+
+------------------------------------------------------------------------------
+
+    Subject: 
+            Re: Compression challenge
+       Date: 
+            Mon, 26 Mar 2001 15:04:27 +0900
+      From: 
+            Patrick Craig <patrick@nag-j.co.jp>
+        To: 
+            Mike Goldman <whig@debian.org>
+ References: 
+            1 , 2 , 3 , 4
+
+Mike Goldman wrote:
+
+&gt; Patrick Craig wrote:
+&gt;
+&gt; &gt;  Mike Goldman wrote:
+&gt; &gt;
+&gt; &gt;  &gt;  Sure, that would be fine.
+&gt; &gt;  >
+&gt; &gt;  &gt;  Would you like to play?
+&gt; &gt;
+&gt; &gt;  I'm thinking about it. Are you only allowed one compressed file?
+&gt; &gt;
+&gt; &gt;  Patrick
+&gt;
+&gt; You tell me how large a file to make and send me $100.
+&gt;
+&gt; I make it and send it to you.
+&gt;
+&gt; You send me a compressed file and a decompressor which together are
+&gt; less than the size of my uncompressed file, and which can together
+&gt; regenerate the original uncompressed file.
+&gt;
+&gt; I send you $5,000.
+&gt;
+&gt; If you fail, you send me another $100 and try again.
+
+<B class="me">I meant can I send you a compressor and several compressed files whose
+total file size is less than the original uncompressed file and from
+which I can regenerate the original uncompressed file.
+
+Patrick</B>
+
+------------------------------------------------------------------------------
+
+    Subject: 
+            Re: Compression challenge
+       Date: 
+            Mon, 26 Mar 2001 15:05:47 +0900
+      From: 
+            Patrick Craig <patrick@nag-j.co.jp>
+        To: 
+            Mike Goldman <whig@debian.org>
+ References: 
+            1 , 2 , 3 , 4 , 5
+
+Patrick Craig wrote:
+
+&gt; Mike Goldman wrote:
+&gt;
+&gt; I meant can I send you a compressor and several compressed files whose
+&gt; total file size is less than the original uncompressed file and from
+&gt; which I can regenerate the original uncompressed file.
+
+<B class="me">For compressor read decompressor.</B>
+
+------------------------------------------------------------------------------
+
+    Subject: 
+            Re: Compression challenge
+       Date: 
+            Mon, 26 Mar 2001 01:41:00 -0500
+      From: 
+            Mike Goldman <whig@debian.org>
+        To: 
+            Patrick Craig <patrick@nag-j.co.jp>
+ References: 
+            1 , 2 , 3 , 4 , 5
+
+Patrick Craig wrote:
+
+&gt; Mike Goldman wrote:
+&gt;
+&gt; &gt;  Patrick Craig wrote:
+&gt; &gt;
+&gt; &gt;  &gt;  Mike Goldman wrote:
+&gt; &gt;  &gt; 
+&gt; &gt;  &gt;  &gt;  Sure, that would be fine.
+&gt; &gt;  &gt;  &gt; 
+&gt; &gt;  &gt;  &gt;  Would you like to play?
+&gt; &gt;  &gt; 
+&gt; &gt;  &gt;  I'm thinking about it. Are you only allowed one compressed file?
+&gt; &gt;  &gt; 
+&gt; &gt;  &gt;  Patrick
+&gt; &gt;
+&gt; &gt;  You tell me how large a file to make and send me $100.
+&gt; &gt;
+&gt; &gt;  I make it and send it to you.
+&gt; &gt;
+&gt; &gt;  You send me a compressed file and a decompressor which together are
+&gt; &gt;  less than the size of my uncompressed file, and which can together
+&gt; &gt;  regenerate the original uncompressed file.
+&gt; &gt;
+&gt; &gt;  I send you $5,000.
+&gt; &gt;
+&gt; &gt;  If you fail, you send me another $100 and try again.
+&gt;
+&gt; I meant can I send you a compressor and several compressed files whose
+&gt; total file size is less than the original uncompressed file and from
+&gt; which I can regenerate the original uncompressed file
+&gt;
+&gt; Patrick
+
+<B class="him">Sure -- but you send me a *decompressor*, I don't need the compressor.</B>
+
+------------------------------------------------------------------------------
+
+    Subject: 
+            Re: Compression challenge
+       Date: 
+            Mon, 26 Mar 2001 01:41:25 -0500
+      From: 
+            Mike Goldman <whig@debian.org>
+        To: 
+            Patrick Craig <patrick@nag-j.co.jp>
+ References: 
+            1 , 2 , 3 , 4 , 5 , 6
+
+Patrick Craig wrote:
+
+&gt; Patrick Craig wrote:
+&gt;
+&gt; &gt;  Mike Goldman wrote:
+&gt; &gt;
+&gt; &gt;  I meant can I send you a compressor and several compressed files whose
+&gt; &gt;  total file size is less than the original uncompressed file and from
+&gt; &gt;  which I can regenerate the original uncompressed file.
+&gt;
+&gt; For compressor read decompressor.
+
+<B class="him">Right.  Yep.</B>
+
+------------------------------------------------------------------------------
+
+    Subject: 
+            Re: Compression challenge
+       Date: 
+            Mon, 26 Mar 2001 15:44:43 +0900
+      From: 
+            Patrick Craig <patrick@nag-j.co.jp>
+        To: 
+            Mike Goldman <whig@debian.org>
+ References: 
+            1 , 2 , 3 , 4 , 5 , 6 , 7
+
+Mike Goldman wrote:
+
+&gt; Patrick Craig wrote:
+&gt;
+&gt; &gt;  Patrick Craig wrote:
+&gt; &gt;
+&gt; &gt;  &gt;  Mike Goldman wrote:
+&gt; &gt;  &gt; 
+&gt; &gt;  &gt;  I meant can I send you a compressor and several compressed files whose
+&gt; &gt;  &gt;  total file size is less than the original uncompressed file and from
+&gt; &gt;  &gt;  which I can regenerate the original uncompressed file.
+&gt; &gt;
+&gt; &gt;  For compressor read decompressor.
+&gt;
+&gt; Right.  Yep.
+
+<B class="me">Ok, I accept the challenge. How do I go about sending you the money?
+
+By the way shouldn't you be in bed by now, or don't you bother with sleep?
+
+Patrick</B>
+
+------------------------------------------------------------------------------
+
+    Subject: 
+            Re: Compression challenge
+       Date: 
+            Mon, 26 Mar 2001 01:52:57 -0500
+      From: 
+            Mike Goldman <whig@debian.org>
+        To: 
+            Patrick Craig <patrick@nag-j.co.jp>
+ References: 
+            1 , 2 , 3 , 4 , 5 , 6 , 7 , 8
+
+Patrick Craig wrote:
+
+&gt; Mike Goldman wrote:
+&gt;
+&gt; &gt;  Patrick Craig wrote:
+&gt; &gt;
+&gt; &gt;  &gt;  Patrick Craig wrote:
+&gt; &gt;  &gt; 
+&gt; &gt;  &gt;  &gt;  Mike Goldman wrote:
+&gt; &gt;  &gt;  &gt; 
+&gt; &gt;  &gt;  &gt;  I meant can I send you a compressor and several compressed files whose
+&gt; &gt;  &gt;  &gt;  total file size is less than the original uncompressed file and from
+&gt; &gt;  &gt;  &gt;  which I can regenerate the original uncompressed file.
+&gt; &gt;  &gt; 
+&gt; &gt;  &gt;  For compressor read decompressor.
+&gt; &gt;
+&gt; &gt;  Right.  Yep.
+&gt;
+&gt; Ok, I accept the challenge. How do I go about sending you the money?
+&gt;
+&gt; By the way shouldn't you be in bed by now, or don't you bother with sleep?
+&gt;
+&gt; Patrick
+
+<B class="him">Send a check or money order payable to Mike Goldman to *****, *****
+*****, *****, *****.  Assuming you are going to need a file
+of an arbitarily large size, please provide necessary media for delivering the
+compressed file along with instructions for getting it to you.  How large a
+file do you want, btw?</B>
+
+------------------------------------------------------------------------------
+
+    Subject: 
+            Re: Compression challenge
+       Date: 
+            Mon, 26 Mar 2001 15:57:14 +0900
+      From: 
+            Patrick Craig <patrick@nag-j.co.jp>
+        To: 
+            Mike Goldman <whig@debian.org>
+ References: 
+            1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9
+
+Mike Goldman wrote:
+
+&gt; Send a check or money order payable to Mike Goldman to *****, *****
+&gt; *****, *****, *****.  Assuming you are going to need a file
+&gt; of an arbitarily large size, please provide necessary media for delivering the
+&gt; compressed file along with instructions for getting it to you.  How large a
+&gt; file do you want, btw?
+
+<B class="me">I'm still thinking about the best file size but I don't think it will be really
+massive, probably less than 1Gb. Could you put it on an anonymous ftp site
+somewhere?
+
+Patrick</B>
+
+------------------------------------------------------------------------------
+
+    Subject: 
+            Re: Compression challenge
+       Date: 
+            Mon, 26 Mar 2001 02:23:50 -0500
+      From: 
+            Mike Goldman <whig@debian.org>
+        To: 
+            Patrick Craig <patrick@nag-j.co.jp>
+ References: 
+            1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10
+
+Patrick Craig wrote:
+
+&gt; Mike Goldman wrote:
+&gt;
+&gt; &gt;  Send a check or money order payable to Mike Goldman to *****, *****
+&gt; &gt;  *****, *****, *****.  Assuming you are going to need a file
+&gt; &gt;  of an arbitarily large size, please provide necessary media for delivering the
+&gt; &gt;  compressed file along with instructions for getting it to you.  How large a
+&gt; &gt;  file do you want, btw?
+&gt;
+&gt; I'm still thinking about the best file size but I don't think it will be really
+&gt; massive, probably less than 1Gb. Could you put it on an anonymous ftp site
+&gt; somewhere?
+&gt;
+&gt; Patrick
+
+<B class="him">If you want to give me a login and password to an FTP site where I can send this,
+and it is less than 1 GB, I will upload it to you once your check clears and I have
+had a chance to create the datafile.  It will take me a few days to do this, most
+likely, however I won't take any more time than necessary.</B>
+
+------------------------------------------------------------------------------
+
+    Subject: 
+            Re: Compression challenge
+       Date: 
+            Mon, 26 Mar 2001 17:28:37 +0900
+      From: 
+            Patrick Craig <patrick@nag-j.co.jp>
+        To: 
+            Mike Goldman <whig@debian.org>
+ References: 
+            1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9
+
+Mike Goldman wrote:
+
+&gt; Send a check or money order payable to Mike Goldman to *****, *****
+&gt; *****, *****, *****.
+
+<B class="me">The problem is I am living in Japan at the moment. I have been looking on the web
+for a way to send a money order online using a credit card. I found
+sendmoneyorder.com, but they require you to send a photocopy of your credit card
+and a letter of authorization before you can send $100. Do you know of any site
+that will allow me to do this from Japan?
+
+Alternatively I could just send $100 cash. I also have a bank account in England
+so I could send you an English check (they don't have checks in Japan) for the
+equivalent in British pounds (plus a bit extra for the inconvenience).
+
+Patrick</B>
+
+------------------------------------------------------------------------------
+
+    Subject: 
+            Re: Compression challenge
+       Date: 
+            Mon, 26 Mar 2001 03:43:33 -0500
+      From: 
+            Mike Goldman <whig@debian.org>
+        To: 
+            Patrick Craig <patrick@nag-j.co.jp>
+ References: 
+            1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10
+
+Patrick Craig wrote:
+
+&gt; Mike Goldman wrote:
+&gt;
+&gt; &gt;  Send a check or money order payable to Mike Goldman to *****, *****
+&gt; &gt;  *****, *****, *****.
+&gt;
+&gt; The problem is I am living in Japan at the moment. I have been looking on the web
+&gt; for a way to send a money order online using a credit card. I found
+&gt; sendmoneyorder.com, but they require you to send a photocopy of your credit card
+&gt; and a letter of authorization before you can send $100. Do you know of any site
+&gt; that will allow me to do this from Japan?
+&gt;
+&gt; Alternatively I could just send $100 cash. I also have a bank account in England
+&gt; so I could send you an English check (they don't have checks in Japan) for the
+&gt; equivalent in British pounds (plus a bit extra for the inconvenience).
+&gt;
+&gt; Patrick
+
+<B class="him">Cash will be fine if you don't mind the risk.  Whatever is easiest for you.
+
+I am curious, though, and I am not trying to get any sort of angle on you here, what
+brilliant idea have you come up with that makes you think you can compress arbitrary
+data?  Whether or whatever you disclose won't affect this challenge and I will live
+up t my end of the bargain regardless.</B>
+
+------------------------------------------------------------------------------
+
+    Subject: 
+            Re: Compression challenge
+       Date: 
+            Mon, 26 Mar 2001 17:48:34 +0900
+      From: 
+            Patrick Craig <patrick@nag-j.co.jp>
+        To: 
+            Mike Goldman <whig@debian.org>
+ References: 
+            1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11
+
+Mike Goldman wrote:
+
+&gt; Patrick Craig wrote:
+&gt;
+&gt; Cash will be fine if you don't mind the risk.  Whatever is easiest for you.
+
+<B class="me">Ok I will send cash</B>
+
+&gt; I am curious, though, and I am not trying to get any sort of angle on you here, what
+&gt; brilliant idea have you come up with that makes you think you can compress arbitrary
+&gt; data?  Whether or whatever you disclose won't affect this challenge and I will live
+&gt; up t my end of the bargain regardless.
+
+<B class="me">Wait and see...
+
+Patrick</B>
+
+------------------------------------------------------------------------------
+
+    Subject: 
+            Re: Compression challenge
+       Date: 
+            Tue, 27 Mar 2001 13:37:37 +0900
+      From: 
+            Patrick Craig <patrick@nag-j.co.jp>
+        To: 
+            Mike Goldman <whig@debian.org>
+ References: 
+            1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11
+
+Mike Goldman wrote:
+
+&gt; Cash will be fine if you don't mind the risk.  Whatever is easiest for you.
+
+<B class="me">I sent the cash this morning, it should arrive within a week. Let me know when it
+arrives and I will tell you the required size of the uncompressed file and how you can
+ftp it to me.
+
+Patrick</B>
+
+------------------------------------------------------------------------------
+
+    Subject: 
+            Re: Compression challenge
+       Date: 
+            Sat, 31 Mar 2001 14:26:44 -0500
+      From: 
+            Mike Goldman <whig@debian.org>
+        To: 
+            Patrick Craig <patrick@nag-j.co.jp>
+ References: 
+            1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12
+
+Patrick Craig wrote:
+
+&gt; Mike Goldman wrote:
+&gt;
+&gt; &gt;  Cash will be fine if you don't mind the risk.  Whatever is easiest for you.
+&gt;
+&gt; I sent the cash this morning, it should arrive within a week. Let me know when it
+&gt; arrives and I will tell you the required size of the uncompressed file and how you can
+&gt; ftp it to me.
+&gt;
+&gt; Patrick
+
+<B class="him">Cash received.
+
+Please advise further.</B>
+
+------------------------------------------------------------------------------
+
+    Subject: 
+            Re: Compression challenge
+       Date: 
+            Mon, 02 Apr 2001 10:46:31 +0900
+      From: 
+            Patrick Craig <patrick@nag-j.co.jp>
+        To: 
+            Mike Goldman <whig@debian.org>
+ References: 
+            1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13
+
+Mike Goldman wrote:
+
+&gt; Patrick Craig wrote:
+&gt;
+&gt; &gt;  Mike Goldman wrote:
+&gt; &gt;
+&gt; &gt;  &gt;  Cash will be fine if you don't mind the risk.  Whatever is easiest for you.
+&gt; &gt;
+&gt; &gt;  I sent the cash this morning, it should arrive within a week. Let me know when it
+&gt; &gt;  arrives and I will tell you the required size of the uncompressed file and how you can
+&gt; &gt;  ftp it to me.
+&gt; &gt;
+&gt; &gt;  Patrick
+&gt;
+&gt; Cash received.
+&gt;
+&gt; Please advise further.
+
+<B class="me">Ok, I would like the uncompressed file size to be 3Mb (i.e. 3,145,728 bytes). Let me know
+when you have created it and I will give you ftp instructions.
+
+Patrick</B>
+
+------------------------------------------------------------------------------
+
+    Subject: 
+            Re: Compression challenge
+       Date: 
+            Mon, 02 Apr 2001 12:12:34 -0400
+      From: 
+            Mike Goldman <whig@debian.org>
+        To: 
+            Patrick Craig <patrick@nag-j.co.jp>
+ References: 
+            1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14
+
+Patrick Craig wrote:
+
+&gt; &gt;  &gt; I sent the cash this morning, it should arrive within a week. Let me know when it
+&gt; &gt;  &gt; arrives and I will tell you the required size of the uncompressed file and how you can
+&gt; &gt;  &gt; ftp it to me.
+&gt;
+&gt; &gt;  Cash received.
+&gt;
+&gt; &gt;  Please advise further.
+&gt;
+&gt; Ok, I would like the uncompressed file size to be 3Mb (i.e. 3,145,728 bytes). Let me know
+&gt; when you have created it and I will give you ftp instructions.
+
+<B class="him">File is generated.
+
+Please send transmission instructions.</B>
+
+------------------------------------------------------------------------------
+
+    Subject: 
+            Re: Compression challenge
+       Date: 
+            Tue, 03 Apr 2001 12:29:28 +0900
+      From: 
+            Patrick Craig <patrick@nag-j.co.jp>
+        To: 
+            Mike Goldman <whig@debian.org>
+ References: 
+            1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15
+
+Mike Goldman wrote:
+
+&gt; &gt;  Ok, I would like the uncompressed file size to be 3Mb (i.e. 3,145,728 bytes). Let me know
+&gt; &gt;  when you have created it and I will give you ftp instructions.
+&gt;
+&gt; File is generated.
+&gt;
+&gt; Please send transmission instructions.
+
+<B class="me">ftp server: *****
+login name: *****
+password: *****
+
+Put the file in the subdirectory called in.
+
+Thanks
+
+Patrick</B>
+
+------------------------------------------------------------------------------
+
+    Subject: 
+            Re: Compression challenge
+       Date: 
+            Tue, 3 Apr 2001 10:58:25 -0400
+      From: 
+            Mike Goldman <whig@debian.org>
+        To: 
+            Patrick Craig <patrick@nag-j.co.jp>
+ References: 
+            1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10
+
+On Tue, Apr 03, 2001 at 12:29:28PM +0900, Patrick Craig wrote:
+
+&gt; Put the file in the subdirectory called in.
+
+<B class="him">It is there: original.dat.
+
+The md5sum of this file is 17be33ede31902098b4dd92613b7c891 and
+the file size is 3145728.
+
+In order to meet the challenge you must provide to me a
+compressed file and a decompressor which together total less
+than the size of this original.dat, and which can generate a
+file identical to original.dat.
+
+Now that you have the data with which you will be working, I am
+still curious to know what techniques you will be trying to
+compress this file.  Also, do you have an estimated time when
+you will expect to complete this challenge?
+
+Good luck, Patrick.  Please keep in touch.</B>
+
+------------------------------------------------------------------------------
+</PRE>
+<BR>
+<H2><A NAME="News">The comp.compression newsgroup email</A></H2>
+Mike Goldman posted the following email to the comp.compression newsgroup
+after creating the uncompressed file but before I had given him ftp instructions.
+<PRE>
+------------------------------------------------------------------------------
+
+     Newsgroups: comp.compression 
+     From: Mike Goldman <whig@debian.org> 
+     Subject: Compression of random data 
+     Date: Mon, 02 Apr 2001 17:32:46 -0400 
+     Organization: Posted via Supernews, http://www.supernews.com 
+
+
+
+<B class="him">Quick update...
+
+My compression challenge (which can be found in the
+comp.compression faq in part 1, section 8) has been accepted.
+
+The contestant has sent me $100 as a processing fee and requested
+that I generate a 3 megabyte file for him to attempt to compress.
+According to the rules of the contest, he must send me back a
+compressed file and a decompressor which together total in size
+less than the original file, and which can correctly regenerate the
+original uncompressed file.  If he can do so, he will receive
+$5,000 plus refund of his processing fee.
+
+Thanks to random.org for providing me with a source of high-quality
+true random values for use in this contest.
+
+Before naming the individual and giving additional details of our
+correspondence, I would like to give him some time to analyze the
+data I will be sending him.  It would be very easy to point out to
+him the impossibility of his task, but far more interesting to see
+how long he will struggle with the problem before realizing it for
+himself.
+
+I am supposing that one of his fellow co-workers probably referred
+him to my challenge, as I cannot fathom that someone would read the
+comp.compression faq first and then want to participate after
+understanding the futility of the effort.  On the other hand, some
+people just don't understand information theory too well.
+
+I'll try to give him a complete explanation of his error after a
+week or so, I guess.  :)</B>
+
+------------------------------------------------------------------------------
+</PRE>
+<BR>
+<H2><A NAME="Random">Compressing random data and self compressing / extracting files</A></H2>
+<BR>
+It's a mathematical fact that it's impossible to uniquely represent every byte sequence
+of length n by another single byte sequence that is at least one byte shorter than n.
+This is because there are fewer sequences that are smaller than size n (by any
+amount, not just one byte smaller) than there are sequences of size n, so some
+of the original sequences would be represented by the same sequence.<BR>
+<BR>
+However, the challenge isn't to compress any possible data, it's to recreate one
+file from a compressed file and a decompressor whose combined file sizes are
+less than the uncompressed file size.
+Assuming that the person who generates the file knows what they're doing,
+this is quite difficult if you're only allowed one compressed file.
+They will probably give you a file that has been output from some
+sort of random number generator. A randomly generated file could contain
+anything so you have to hope that they give you something that contains
+a particular sequence or sequences of bytes that enables you to complete the
+challenge. It is theoretically possible for a random number generator to
+output a large file that just contains ASCII text. This could be compressed
+with gzip and uncompressed with this decompression script (which Mike Goldman
+would allow as a decompressor):<BR>
+<BR>
+gunzip $1<BR>
+<BR>
+The person generating the file would probably notice if it contained just
+ASCII text or anything else that could be compressed with a standard
+compression program, so you have to hope for something that is more difficult
+to spot. E.g. consider the following decompression script:<BR>
+<PRE>
+cat $1
+printf "X"
+cat $0
+exit
+</PRE>
+NOTE: Any garbage can appear after the newline following the exit command and
+this script will still execute. If you don't require a clean exit you don't
+even need the exit command.<BR>
+<BR>
+This script is one possible arrangement of 30 bytes that could occur in a randomly
+generated file. If these 30 bytes are preceded by an X character (X could
+be any printable character) in the file,
+you can split the file into two, all characters up to the X in one file and all
+characters after the X in the other file and discard the X, saving one byte.
+The first file is the compressed file (comp.dat) and the second file is the
+decompressor (decompress).
+You can then regenerate the original file (original.dat) using the following
+command:<BR>
+<BR>
+decompress comp.dat &gt;  original.dat<BR>
+<BR>
+NOTE: There is no requirement in the challenge to store the original filename
+in the compressed file.<BR>
+<BR>
+The first drawback to this approach is that you need quite a large file
+to be fairly confident of getting the required byte sequence in the file.
+This byte sequence would occur on average once in a random file whose size was
+256^31 bytes, i.e. about 4.2e+65 Gb. You would probably want to ask for a file
+that was about 1000 times as big as that to give yourself more chance.
+The second drawback is that the person generating the file may have read
+this, so you would have to look for something different, e.g.<BR>
+<BR>
+<PRE>
+ac t1$p
+irtn fX"
+"ddi =f0$c no=vwsbae
+ix
+t
+</PRE>
+If you swap pairs of characters in this sequence, you get:<BR>
+<BR>
+<PRE>
+cat $1
+printf "X"
+dd if=$0 conv=swab
+exit
+</PRE>
+If the first sequence appeared in your random file and was preceded by an X,
+you could put all the characters up to the X in the compressed file and
+put all the characters after the X in the decompessor and discard the X.
+You would need to
+do a bit of extra processing in this case, namely swapping byte pairs
+in the decompressor. (Example files with 1000 byte original.dat - 
+<A HREF=swab.tar.gz>swab.tar.gz</A>).
+This script is also a bit longer (42 bytes)
+so you would have to ask for a bigger file (256^43*1000 bytes) to have a good chance of
+it occurring in the file. This decompressor also suffers from the second
+drawback above, so you would probably need to look for something else, etc, etc...<BR>
+<BR>
+It's probably also possible to meet the challenge with smaller file sizes by
+storing information in the filename of the compressed file or the
+decompressor, but I think most people would consider this to be
+cheating. Another cheat would be to use command line options or user
+input to regenerate some or all of the original data. Taken to extremes,
+this method could be used to compress every file to nothing! To compress
+the file you simply delete it. The only problem is that in order to
+regenerate the original file, the user has to remember not only the
+original filename, but also the exact contents, byte by byte, of
+the original file as this information has to be entered into the
+"decompressor" in order to regenerate the original file. Does storing
+data in the human brain instead of on computer disk count as compression?<BR>
+<BR>
+Luckily for me, Mike Goldman allowed me to use several compressed files.
+This makes the challenge easy to complete without cheating (at least in my opinion).<BR>
+<BR>
+<H2><A NAME="Programs">Completing the challenge - the compressor and decompressor</A></H2>
+The restated challenge is to reconstruct the original file using a decompressor and
+several compressed files whose total file size is less than the original file size.
+Using the method below, you can save on average one byte for every 256 bytes in the
+original file. The size of the decompressor and the extra information required to
+reconstruct the original file is 161 + length of original filename (I wanted to
+store the filename in the compressed files even though there was no requirement
+to do so). Assuming the original filename was a sensible size (e.g. 8.3), the
+original file needed to be at least about 45kb. I asked for a 3Mb file
+to allow for a ridiculously long filename and to give plenty of additional
+leeway.<BR>
+<BR>
+The file Mike Goldman gave me was original.dat.
+GeoCities doesn't let you use files with a .dat extension. Instead you can download the same file
+renamed to .gz, <A HREF="original.gz">original.gz</A>.
+The correct file size is 3,145,728 bytes.<BR>
+<BR>
+This file looks fairly random and can't be compressed with any standard compression
+program. I wrote a simple program to compress this file (compiled on Windows NT -
+<A HREF="AaahAa.exe">AaahAa.exe</A>):<BR>
+<PRE>
+<CODE>
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;string.h&gt;
+
+/* This program assumes the uncompressed filename has an extension */
+#define MAGIC_CHAR '5' /* This can be "tuned" to your data file */
+#define PADDING 6 /* Assumes three figures to store number of files */
+
+int main(int argc, char *argv[])
+{
+	char infile[_MAX_PATH];
+	char inext[_MAX_EXT];
+	char outfile[_MAX_PATH];
+	char *dot;
+	FILE *in,*out;
+	int i,c,count;
+	int maxCompress,compression,numFiles;
+	long size;
+	if (argc != 2)
+	{
+		printf ("Requires uncompressed filename as argument\n");
+		return EXIT_FAILURE;
+	}
+	in = fopen(argv[1],"rb");
+	if (in == NULL)
+	{
+		printf ("Cannot open uncompressed file %s\n",argv[1]);
+		return EXIT_FAILURE;
+	}
+	count = 0;
+	size = 0;
+	while (!feof(in))
+	{
+		c = getc(in);
+		if (c == MAGIC_CHAR) count++;
+		size++;
+	}
+	fclose(in);
+	_splitpath(argv[1], NULL, NULL, infile, inext);
+	maxCompress = count+strlen(infile)+strlen(inext)+PADDING;
+	if (size - maxCompress < 1)
+	{
+		printf("Sorry can't compress input file\n");
+		return EXIT_FAILURE;
+	}
+	do
+	{
+		printf("How many bytes to you want to compress by (1-%d)?",maxCompress);
+		if (scanf("%d",&compression) != 1) compression = 0;
+		scanf("%*[^\n]");
+		getchar();
+	}
+	while ((compression < 1) || (compression &gt;  maxCompress));
+	do
+	{
+		printf("Basename for output files?");
+		if (scanf("%c%s",outfile,outfile+1) != 2) outfile[0] = 0;
+		scanf("%*[^\n]");
+		getchar();
+	}
+	while(outfile[0] == 0);
+	numFiles = compression+strlen(infile)+strlen(inext)+PADDING;
+	dot = outfile + strlen(outfile);
+	out = fopen(outfile,"wb");
+	fprintf(out,"%s%s\n%d\n",infile,inext,numFiles);
+	fclose(out);
+	out = NULL;
+	in = fopen(argv[1],"rb");
+	if (in == NULL) return EXIT_FAILURE;
+	for (i = 0; i < numFiles; i++)
+	{
+		if (out != NULL) fclose(out);
+		sprintf(dot,".%d",i);
+		out = fopen(outfile,"wb");
+		c = getc(in);
+		while (c != MAGIC_CHAR)
+		{
+			fputc(c,out);
+			c = getc(in);
+		}
+	}
+	while(!feof(in))
+	{
+		fputc(c,out);
+		c = getc(in);
+	}
+	fclose(out);
+	return EXIT_SUCCESS;
+}
+</CODE>
+</PRE>
+I used this program to compress the file by 200 bytes
+(156 bytes for the decompressor plus one byte to complete the challenge plus a
+bit for luck) and produced 219 files named comp, comp.0, comp.1, comp.2, ..., comp.217.<BR>
+<BR>
+The contents of the first file (comp) are:<BR>
+<BR>
+<CODE>
+<PRE>
+original.dat
+218
+</PRE>
+</CODE>
+The decompressor is called <A HREF="dfi">dfi</A> and is the following script:<BR>
+<CODE>
+<PRE>
+#!/bin/sh
+i=0
+f=`head -1 $1`
+n=`tail -1 $1`
+rm -f $f
+while [ $i != $n ]; do
+cat $1.$i >> $f
+i=`expr $i + 1`
+if [ $i != $n ]; then printf "5" >> $f; fi
+done
+</PRE>
+</CODE>
+The original file can be regenerated by running this decompressor on the compressed files:<BR>
+<BR>
+dfi comp<BR>
+<BR>
+The total file size of the decompressor (156 bytes) and all the compressed files
+(3,145,528 bytes) is 3,145,684 bytes. The original file is 3,145,728 bytes, so I successfully
+completed the challenge.<BR>
+<BR>
+This can be confirmed by downloading <A HREF="comp.tar.gz">comp.tar.gz</A>, a
+gzipped tar file containing the decompressor and all the compressed files.
+Unsurprisingly, this file is actually larger than the original data file.<BR>
+<BR>
+<H2><A NAME="After">Post challenge correspondence with Mike Goldman</A></H2>
+<PRE>
+------------------------------------------------------------------------------
+
+    Subject: 
+            Re: Compression challenge
+       Date: 
+            Wed, 04 Apr 2001 17:17:03 +0900
+      From: 
+            Patrick Craig <patrick@nag-j.co.jp>
+        To: 
+            Mike Goldman <whig@debian.org>
+ References: 
+            1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11
+
+Mike Goldman wrote:
+
+&gt; In order to meet the challenge you must provide to me a
+&gt; compressed file and a decompressor which together total less
+&gt; than the size of this original.dat, and which can generate a
+&gt; file identical to original.dat.
+
+Mike Goldman wrote:
+
+&gt; Patrick Craig wrote:
+&gt;
+&gt; &gt;  I meant can I send you a compressor and several compressed files whose
+&gt; &gt;  total file size is less than the original uncompressed file and from
+&gt; &gt;  which I can regenerate the original uncompressed file
+&gt; &gt;
+&gt; &gt;  Patrick
+&gt;
+&gt; Sure -- but you send me a *decompressor*, I don't need the compressor.
+
+Mike Goldman wrote:
+
+&gt; Patrick Craig wrote:
+&gt;
+&gt; &gt;  Patrick Craig wrote:
+&gt; &gt;
+&gt; &gt;  &gt; Mike Goldman wrote:
+&gt; &gt;  &gt;
+&gt; &gt;  &gt; I meant can I send you a compressor and several compressed files whose
+&gt; &gt;  &gt; total file size is less than the original uncompressed file and from
+&gt; &gt;  &gt; which I can regenerate the original uncompressed file.
+&gt; &gt;
+&gt; &gt;  For compressor read decompressor.
+&gt;
+&gt; Right.  Yep.
+
+Mike Goldman wrote:
+
+&gt; Whether or whatever you disclose won't affect this challenge and I will live
+&gt; up t my end of the bargain regardless.
+
+<B class="me">All the files you require are in the out directory of the ftp server you logged onto
+last time, the password has now changed to *****
+
+The decompressor is called dfi and the compressed files are called comp, comp.0, comp.1,
+... comp.217. Download everything in the out directory to the same directory. You will
+probably need to make the decompressor executable, e.g.
+
+chmod +x dfi
+
+You then decompress your file by running
+
+./dfi comp
+
+The total file size of the compressed files (wc -b comp*) is
+
+3145528 bytes
+
+The decompressor is
+
+156 bytes
+
+Making a total of
+
+3145684 bytes
+
+The original file is
+
+3145728 bytes
+
+Which means the total file size of the decompressor and compressed files is 44 bytes
+less than the uncompressed file and I have completed the challenge.
+
+I have tested the decompressor on the following operating systems:
+Linux
+AIX
+SunOS
+IRIX
+Digital Linux
+Windows (with cygwin tools installed)
+and found it to work correctly.
+
+When you have confirmed that I have completed the challenge, I will tell you how you can
+send me the $5000
+
+Thanks
+
+Patrick</B>
+
+------------------------------------------------------------------------------
+
+    Subject: 
+            Re: Compression challenge
+       Date: 
+            Wed, 04 Apr 2001 23:44:34 -0400
+      From: 
+            Mike Goldman <whig@debian.org>
+        To: 
+            Patrick Craig <patrick@nag-j.co.jp>
+ References: 
+            1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12
+
+<B class="him">Hello Patrick,
+
+I have accessed your server and downloaded exactly two files, the "decompressor" (dfi) and
+the "compressed file" (comp).
+
+The rest of the files in the directory (comp.0 through comp.217 inclusive) I have not
+touched.  You may ascertain that this is true if you wish to view your ftp server logs.
+
+Note that dfi is unable to reconstruct the original.dat file from comp.  Contrary to the
+requirements of the challenge, a textual analysis of the "decompressor" reveals that you
+did absolutely nothing whatsoever even to attempt compression of the data which I
+previously sent you.  Rather, you simply split the file into 218 parts ending with the
+character "5" and then stripped that final character from each part.  Thus the
+"decompressor" is nothing more than a reassembler, concatenating the parts and reappending
+the character "5" after each.  While I have not downloaded the said 218 parts, it is a
+certainty that they are either exactly as I have described them to be, or else they are not
+capable of being reassembled into the original data by the dfi script you provided.
+
+In further point of fact, the 218 parts together must occupy more space than the original
+file (original.dat) that you were given.  Each file requires space for a directory entry,
+and each such directory entry requires in excess of one byte of space.  Thus you have in
+actuality expanded the data which you were given to compress.
+
+You have compressed no data.  It does not appear that you ever intended to do so.  Perhaps
+you misunderstood the terms or the objective of the challenge.  If so, and you promptly
+submit your withdrawal of your challenge acceptance, I shall refund your $100 processing
+fee in consideration of this misunderstanding.  If you insist on pressing your request for
+$5,000 I shall be forced to defend against any such claim on the basis that you did not
+satisfy the requirements of the challenge, and, if necessary, for fraud.</B>
+
+Patrick Craig wrote:
+
+&gt; All the files you require are in the out directory of the ftp server you logged onto
+&gt; last time, the password has now changed to *****
+&gt;
+&gt; The decompressor is called dfi and the compressed files are called comp, comp.0, comp.1,
+&gt; ... comp.217. Download everything in the out directory to the same directory. You will
+&gt; probably need to make the decompressor executable, e.g.
+&gt;
+&gt; chmod +x dfi
+&gt;
+&gt; You then decompress your file by running
+&gt;
+&gt; ./dfi comp
+&gt;
+&gt; The total file size of the compressed files (wc -b comp*) is
+&gt;
+&gt; 3145528 bytes
+&gt;
+&gt; The decompressor is
+&gt;
+&gt; 156 bytes
+&gt;
+&gt; Making a total of
+&gt;
+&gt; 3145684 bytes
+&gt;
+&gt; The original file is
+&gt;
+&gt; 3145728 bytes
+&gt;
+&gt; Which means the total file size of the decompressor and compressed files is 44 bytes
+&gt; less than the uncompressed file and I have completed the challenge.
+&gt;
+&gt; I have tested the decompressor on the following operating systems:
+&gt; Linux
+&gt; AIX
+&gt; SunOS
+&gt; IRIX
+&gt; Digital Linux
+&gt; Windows (with cygwin tools installed)
+&gt; and found it to work correctly.
+&gt;
+&gt; When you have confirmed that I have completed the challenge, I will tell you how you can
+&gt; send me the $5000
+&gt;
+&gt; Thanks
+&gt;
+&gt; Patrick
+
+------------------------------------------------------------------------------
+
+    Subject: 
+            Re: Compression challenge
+       Date: 
+            Thu, 05 Apr 2001 15:08:29 +0900
+      From: 
+            Patrick Craig <patrick@nag-j.co.jp>
+        To: 
+            Mike Goldman <whig@debian.org>
+ References: 
+            1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13
+
+Mike Goldman wrote:
+
+&gt; Hello Patrick,
+&gt;
+&gt; I have accessed your server and downloaded exactly two files, the "decompressor" (dfi) and
+&gt; the "compressed file" (comp).
+&gt;
+&gt; The rest of the files in the directory (comp.0 through comp.217 inclusive) I have not
+&gt; touched.  You may ascertain that this is true if you wish to view your ftp server logs.
+&gt;
+&gt; Note that dfi is unable to reconstruct the original.dat file from comp.  Contrary to the
+&gt; requirements of the challenge, a textual analysis of the "decompressor" reveals that you
+&gt; did absolutely nothing whatsoever even to attempt compression of the data which I
+&gt; previously sent you.  Rather, you simply split the file into 218 parts ending with the
+&gt; character "5" and then stripped that final character from each part.  Thus the
+&gt; "decompressor" is nothing more than a reassembler, concatenating the parts and reappending
+&gt; the character "5" after each.  While I have not downloaded the said 218 parts, it is a
+&gt; certainty that they are either exactly as I have described them to be, or else they are not
+&gt; capable of being reassembled into the original data by the dfi script you provided.
+&gt;
+&gt; In further point of fact, the 218 parts together must occupy more space than the original
+&gt; file (original.dat) that you were given.  Each file requires space for a directory entry,
+&gt; and each such directory entry requires in excess of one byte of space.  Thus you have in
+&gt; actuality expanded the data which you were given to compress.
+
+<B class="me">The Challenge had nothing to do with compressing data, it was simply to recreate the original
+file from several "compressed" files and a "decompressor" whose total file size was less than
+the original file. I think anyone would agree that if you sent me an uncompressed file of size
+1000 bytes and I sent you a decompressor of size 400 bytes and a compressed file of size 599
+bytes, I would have met the challenge in spite of the fact that these two files will take up
+more disk space than the original file.</B>
+
+&gt; You have compressed no data.  It does not appear that you ever intended to do so.  Perhaps
+&gt; you misunderstood the terms or the objective of the challenge.  If so, and you promptly
+&gt; submit your withdrawal of your challenge acceptance, I shall refund your $100 processing
+&gt; fee in consideration of this misunderstanding.  If you insist on pressing your request for
+&gt; $5,000 I shall be forced to defend against any such claim on the basis that you did not
+&gt; satisfy the requirements of the challenge, and, if necessary, for fraud.
+
+<B class="me">Obviously, I would like you to send me the $5000 as promised, but I never really expected you
+to. I'm surprised we went as far as we did. I thought you were going to pull out the morning
+after the original emails after realising your mistake. You can keep the $100.
+
+By the way, I think I could theoretically complete the original challenge, but the uncompressed
+file would be impossible large and you would probably argue that the files weren't really a
+compressed file and a decompressor anyway.
+
+I would rather you didn't reveal my identity or give additional details of our correspondence
+to the comp.compression newsgroup.
+
+Thanks
+
+Patrick</B>
+
+------------------------------------------------------------------------------
+
+    Subject: 
+            Re: Compression challenge
+       Date: 
+            Thu, 05 Apr 2001 08:45:37 -0400
+      From: 
+            Mike Goldman <whig@debian.org>
+        To: 
+            Patrick Craig <patrick@nag-j.co.jp>
+ References: 
+            1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14
+
+Patrick Craig wrote:
+
+&gt; &gt;  In further point of fact, the 218 parts together must occupy more space than the original
+&gt; &gt;  file (original.dat) that you were given.  Each file requires space for a directory entry,
+&gt; &gt;  and each such directory entry requires in excess of one byte of space.  Thus you have in
+&gt; &gt;  actuality expanded the data which you were given to compress.
+&gt;
+&gt; The Challenge had nothing to do with compressing data, it was simply to recreate the original
+&gt; file from several "compressed" files and a "decompressor" whose total file size was less than
+&gt; the original file. I think anyone would agree that if you sent me an uncompressed file of size
+&gt; 1000 bytes and I sent you a decompressor of size 400 bytes and a compressed file of size 599
+&gt; bytes, I would have met the challenge in spite of the fact that these two files will take up
+&gt; more disk space than the original file.
+
+<B class="him">The challenge was specifically regarding data compression.  Perhaps it will be necessary to
+restate the terms in a legalistic form which is not open to this sort of miscommunication, but
+I believe the intention was clear from the plain English wording.  One can engage in "data hiding"
+through a number of approaches, and it is true that you took a somewhat novel approach to this in
+your own case.  One might likewise shift part of the data to the filename of the "compressed" file
+and/or to that of the "decompressor" itself.  Much in this way does gzip retain the filename of
+the uncompressed original -- by creating a new file with the characters ".gz" appended.  However
+this would also not qualify as data compression -- it is moving data from one part of the
+filesystem to another, but no data is saved.  (Gzip does perform data compression in many cases,
+but it does not perform filename compression.)
+
+Likewise in your case, the use of 218 separate files implicitly does nothing more than set an
+equivalency of EOF = "5", and then makes such a substitution.  However, EOF does not consume less
+space than "5", no compression has occurred, data has been shifted or "hidden" from the file
+itself to another part of the filesystem.
+
+By contrast, if your "decompressor" did not make use of such tricks as this, as in your example of
+having a compressed file of 599 bytes and a decompressor of 400 bytes, I believe the terms of the
+challenge would be met.  The question is whether real compression took place.</B>
+
+&gt; Obviously, I would like you to send me the $5000 as promised, but I never really expected you
+&gt; to. I'm surprised we went as far as we did. I thought you were going to pull out the morning
+&gt; after the original emails after realising your mistake. You can keep the $100.
+&gt;
+&gt; By the way, I think I could theoretically complete the original challenge, but the uncompressed
+&gt; file would be impossible large and you would probably argue that the files weren't really a
+&gt; compressed file and a decompressor anyway.
+
+<B class="him">I think that I did not make a mistake except to believe that you truly intended to attempt to
+compress the data I was sending you.  I do appreciate your graciousness in this, my offer to
+return the $100 stands if you change your mind, as this was never intended as a money making
+enterprise but merely a discouragement to insincere challengers from wasting my time.
+
+Alternately, you could still take up the original challenge if you like, with the understanding
+that you must actually compress data to meet the requirements.  I have heard the argument that
+given a suffiently large dataset it should be possible to find a more efficient representation,
+however this is not true.  From an information theoretic standpoint when dealing with true random
+data that has been skew-corrected, the most efficient representation for the value of each bit is
+precisely one bit, not more and not less.  Flagging any slightly compressible portion of the data
+stream will require more overhead bytes than will be gained in compression.  This would obviously
+have to consider using the filesystem for doing the flagging as part of the overhead, at minimum
+to consider the EOF = flag substitution to consume a byte (actually it must consume at least 9
+bits).
+
+I would gladly submit any such submission to an impartial ombudsman to determine the question of
+whether data compression has occurred.</B>
+
+&gt; I would rather you didn't reveal my identity or give additional details of our correspondence
+&gt; to the comp.compression newsgroup.
+
+<B class="him">I will respect your wishes regarding your identity in consideration of your request.  I would
+still like to summarize this exchange in some manner, in particular to show how the terms of the
+challenge might be misconstrued by a clever individual, and therefore restating the challenge in
+terms which allow of no reoccurrance of this sort of thing.</B>
+
+------------------------------------------------------------------------------
+
+    Subject: 
+            Re: Compression challenge
+       Date: 
+            Fri, 06 Apr 2001 14:26:27 +0900
+      From: 
+            Patrick Craig <patrick@nag-j.co.jp>
+        To: 
+            Mike Goldman <whig@debian.org>
+ References: 
+            1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15
+
+Hello Mike
+
+Mike Goldman wrote:
+
+&gt; I would gladly submit any such submission to an impartial ombudsman to determine the question of
+&gt; whether data compression has occurred.
+
+<B class="me">I don't know much about compression theory, but I would define a compressed file as a file that
+contained less data than the original file and from which, by use of a decompressor, the original file
+could be regenerated. I would define a decompressor as a program that could restore original files
+from compressed files by the use of information or algorithms internal to the decompressor.</B>
+
+&gt; &gt;  I would rather you didn't reveal my identity or give additional details of our correspondence
+&gt; &gt;  to the comp.compression newsgroup.
+&gt;
+&gt; I will respect your wishes regarding your identity in consideration of your request.  I would
+&gt; still like to summarize this exchange in some manner, in particular to show how the terms of the
+&gt; challenge might be misconstrued by a clever individual, and therefore restating the challenge in
+&gt; terms which allow of no reoccurrance of this sort of thing.
+
+<B class="me">I will withdraw my claim to the $5000 and allow you to use any of our correspondence provided you do
+the following:
+
+1. Don't reveal my identity or information regarding the ftp server.
+2. State that you allowed me to use multiple compressed files before I accepted the challenge.
+3. Explain how I "completed" the challenge and show the contents of the dfi and comp files. You can
+say whatever you like about the method as long as you explain how it works.
+4. Don't do any "creative editing" of our emails in order to change their original meaning.
+
+Might generate a bit of discussion about what constitutes a compressed file and a decompressor ;-)
+
+Patrick</B>
+
+------------------------------------------------------------------------------
+</PRE>
+<BR>
+<H2><A NAME="Analysis">Analysis by the comp.compression newsgroup</A></H2>
+Mike Goldman never replied to my last email, so I posted this web page to the
+comp.compression newsgroup on 16th April. This generated a fair bit of discussion
+about who won and whether any compression had taken place. Below are extracts
+from some of the emails posted. The full thread can be viewed 
+<A HREF="https://groups.google.com/d/topic/comp.compression/sSC04FEoAqE/discussion">here</A>.<BR>
+<BR>
+<H3>Who won?</H3>
+<PRE>
+------------------------------------------------------------------------------
+
+Joshua Schmier wrote:
+
+Mike was going
+by the guidelines within the FAQ. The FAQ clearly outlines that filesystem
+exploits are not true compression. I think it may have been short-sighted of
+Goldman to allow multiple 'compressed' files, however, having the challenge
+worded so loosely makes things interesting. :)
+
+And yes, very good show Patrick.
+
+------------------------------------------------------------------------------
+
+David Scott wrote:
+
+I am certain having dealt with many bar room bets. Mike didn't
+give a dam due to being smug about his winning. If anything he thought
+Patrick was a bigger fool than he first thought. A common thing
+in bar room bets. Mike knew he lost when Patrick sent him the files.
+From that point on the emails were Mike trying to weasel out of the bet.
+He know He lost them pretended to not understand by saying he checked
+the 2 files and that Patrick failed. He knew he lost but tried to
+change the rules after the action was over. Much like the deomcrats
+in Florida.
+
+------------------------------------------------------------------------------
+</PRE>
+I think I won because the bet was on the data length of the files. I specifically
+stated the required length of the uncompressed file (3,145,728 bytes)
+and that's what Mike Goldman gave me. The main argument against this is that
+the file length should include the file header information as stated in the
+compression FAQ. In his email to comp.compression, Mike states that he thought
+I must be one of those people who "don't understand information theory too well"
+and I couldn't possibly have read the FAQ or I wouldn't have taken the challenge.
+Isn't it a bit unfair to expect me to play by rules I've never seen?<BR>
+<BR>
+<H3>Why did I do it?</H3>
+<PRE>
+------------------------------------------------------------------------------
+
+Joshua Schmier wrote:
+
+I personally believe Patrick wanted the money and thought $100 was a
+nice gamble since his rules were predefined and accepted, IMHO.
+
+------------------------------------------------------------------------------
+
+Phil Norman wrote:
+
+I don't believe he had a purely financial intent in mind.  Note
+the two quotes from the discussion after the decompressor had been
+sent:
+
+  "Obviously I would like you to send me the $5000 as promised,
+  but I never really expected you to."
+
+... and a little later...
+
+  "I will withdraw my claim to the $5000 and allow you to...."
+
+The way I read it, it's fairly clear that Patrick's main reason
+for accepting the challenge was to show Mike how dangerous it can
+be to make carelessly-worded challenges.
+
+------------------------------------------------------------------------------
+
+Steve Tate wrote:
+
+Who was trying to trick who?  Wasn't Mike trying to trick
+some naive person into accepting a challenge that couldn't be met?  So
+Patrick out-tricked the tricker....  that's the thing that great tales
+are made of.
+
+------------------------------------------------------------------------------
+</PRE>
+My main motivation was to "out-trick the tricker". I thought the chances
+of me making any money were very remote. If, after receiving the files,
+Mike Goldman had said "Congratulations here's the $5000" I wouldn't have
+complained or sent the money back. As soon as he threatened legal action,
+it was obvious he wasn't going to pay up. From then on, I was just trying
+to avoid the situation where he said that I had made up either the whole
+thing or the emails where he agreed to multiple files. That's why I said
+I didn't want the $5000 or for him to reveal my identity. I
+thought that if he thought I wasn't going to say anything publicly it would
+make him feel more secure and more likely to talk to me and other
+people, and to tell the truth to comp.compression, thereby making it
+more difficult to deny everything later on. I said he could keep
+the $100 because I think that taking it back would be admitting that
+I failed or cheated.<BR>
+<BR>
+I think the only reason Mike offered the $5000 prize was because he
+was convinced that the challenge was impossible. He probably
+thought that no one would ever take him up on it anyway.
+When I showed an interest, he couldn't believe
+his luck and allowed me to bend the rules a bit so he could
+get my $100. In an ideal world he would send me the $5000.
+In the real world nobody is that honest. This should be a
+lesson to anyone else who wants to set (or take) such
+challenges with high stakes.<BR>
+<BR>
+<H3>Did I compress anything?</H3>
+<PRE>
+------------------------------------------------------------------------------
+
+Steve Tate wrote:
+
+To show compression, you need to show space
+savings, which has not been done here.  In fact, the disk space
+required for the "compressed" data is substantially larger than the
+disk space for the original data, since many more inodes/directory
+entries are required.  It all goes back to "hiding information" in
+the file length, which has been discussed here over and over.
+
+------------------------------------------------------------------------------
+</PRE>
+There's almost universal agreement that I didn't compress anything, but
+I don't think this is a requirement of the challenge anyway. I still think I
+compressed the data in the original file. It's not my fault that
+a file system uses up more space storing the same amount of data
+in two files rather than a single file.<BR>
+<BR>
+<HR>
+<BR>
+This page was first featured on <A HREF="http://www.bbspot.com">BBSpot</A><BR>
+<BR>
+When it appeared on <A HREF="http://slashdot.org/articles/01/04/24/0457247.shtml">
+Slashdot</A> it got 35,000 hits in a day.<BR>
+<BR>
+</BODY>
+</HTML>
