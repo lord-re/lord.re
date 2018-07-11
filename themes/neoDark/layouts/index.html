@@ -13,7 +13,7 @@
 {{ if .Truncated  }}            <article class="post-summary">{{ .Summary }}
         </article>
         <div class="read-more-link"><a href="{{ .RelPermalink }}">{{ i18n "more" }}</a></div>
-{{ else }}{{ .Content }}
+				{{ else }}<article class="post-summary">{{ .Content }}</article>
 {{ end }}
       </section>
 {{ end }}

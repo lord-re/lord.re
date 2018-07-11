@@ -7,7 +7,6 @@ You can reuse it, and if you reuse it i'll be glad looking at your website :-)
   box-sizing:border-box;
   transition:all 0.1s ease;
   margin:0;
-  padding:0;
 }
 html{
   line-height:1.35em;
@@ -166,9 +165,6 @@ h3{
   color:#757cab;
   margin-left:.6rem;
 }
-.post-date{
-  margin-left:2rem;
-}
 .post-edit-date{
   color:#777;
 }
@@ -216,6 +212,7 @@ figure a img{
   max-width:100%;
 }
 .post-meta{
+  margin-left:2rem;
   margin-top:1rem;
   font-size:.8rem;
 }
