@@ -245,6 +245,9 @@ td{
   padding:0.3rem;
 }
 footer{
+	position:relative;
+	left:-2rem;
+	width:100%;
   background-color:#222;
   padding:0 2rem 1rem 2rem;
   color:#ccc;
