@@ -406,7 +406,7 @@ Pour le modifier il va falloir modifier le layout par défaut : **mkdir layouts/
         {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{ end }}
     {{ range .Data.Pages }}
-    <item
+    <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
