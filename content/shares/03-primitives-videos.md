@@ -19,9 +19,9 @@ Mais **il y a des codes à respecter** :
 
   1. *Partir de 0* : pas d'outil ou autre. Il faut se construire ses propres outils à partir des ressources à disposition localement.
   2. *Ne pas parler* : les vidéos ne sont pas des tutos. La partie audio se contente des bruits ambiants.
-  3. *Être dans la nature*. Faut pas faire ça dans le jardin de mami avec les immeubles dans le fond.
+  3. *Être dans la nature*. Faut pas faire ça dans le jardin de mamie avec les immeubles dans le fond.
   4. *Être à moitié à poil*. Bha ouai on est primitif mais pas trop non plus. L'uniforme habituel est le bermuda uni et c'est tout (enfin probablement un slibard/calçouf j'imagine mais dur à vérifier)
-  5. *La caméra est en plan fixe* de façon à pouvoir être manipulé par l'acteur qui la place puis vaque à ses occupations.
+  5. *La caméra est en plan fixe* de façon à pouvoir être manipulée par l'acteur qui la place puis vaque à ses occupations.
   6. Bonus point : *être asiatique*. Ouai les trois quarts des youtubeurs qui font ça sont asiatiques. Ce sont les rois de la discipline. 
  
 Voilà pour les règles.
@@ -39,7 +39,7 @@ Il a ouvert un [blog qui détaille chaque vidéo](https://primitivetechnology.wo
 Ses vidéos contiennent également des sous-titre détaillant ce qu'il fait.
 
 Il me semble qu'il a depuis investit un second terrain pour pouvoir continuer ses aventures.
-Il cumule plus d'un demi milliard de vue à l'heure actuelle.
+Il cumule plus d'un demi milliard de vuee à l'heure actuelle.
 C'est le big boss du domaine mais son rythme de publication est désormais assez faible.
 
 Voilà [sa chaine](https://www.youtube.com/channel/UCAL3JXZSzSm8AlZyD3nQdBA/videos) et surtout son [flux rss](https://www.youtube.com/feeds/videos.xml?channel_id=UCAL3JXZSzSm8AlZyD3nQdBA).
@@ -58,7 +58,7 @@ Je sais pas pourquoi mais cette chaîne est dans mon top.
 Je sais pas pourquoi, mais ce gars m'apparaît sympatique avec son rythme et sa démarche bien à lui.
 Je saurai pas l'expliquer mais j'accroche particulièrement.
 
-Je ne sais pas exactement d'où il est mais je le soupçonne d'être vietnamiens et de s'apeler Chris Wong.
+Je ne sais pas exactement d'où il est mais je le soupçonne d'être vietnamien et de s'appeler Chris Wong.
 Bref il a commencé il y a moins d'un an et est passé du stade de débutant au stade de roi du <abbr title="ciment">−−−−−−</abbr> en quelques vidéos.
 Je veux pas vous le spoiler mais vous verrez vite.
 
@@ -105,4 +105,4 @@ J'avoue ne pas trop savoir ce qu'ils pourraient faire pour aller plus loin.
 Passer à l'âge de cuivre pour se fabriquer des outils ?
 J'imagine que c'est un peu plus compliqué pour un vidéaste de trouver un terrain avec les ressources nécessaires.
 
-Bref on seul le temps nous le dira.
+Bref seul le temps nous le dira.
