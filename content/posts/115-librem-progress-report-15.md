@@ -8,7 +8,7 @@ PublishDate = 2018-07-17T15:36:26+02:00
 date = 2018-07-17T15:36:26+02:00
 title = "15ème article d'avancement du Librem 5"
 editor = "kakoune"
-jdh=""
+jdh="https://www.journalduhacker.net/s/njnljn/15_me_article_davancement_du_librem_5"
 +++
 
 Ceci est une traduction libre de [cet article](https://puri.sm/posts/librem5-progress-report-15/) concernant les avancées de la société Purism concernant le smartphone **Librem 5**.
