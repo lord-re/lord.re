@@ -45,7 +45,7 @@ Lorsqu'un client va demander une ressource, le serveur web va envoyer le documen
 
 Le client reçoit les données avant même d'en avoir fait la demande ce qui permet (si c'est bien utilisé) de ne pas avoir à demander cette ressource et donc de pouvoir l'utiliser plus vite.
 
-Par contre, vous vous douter que si le serveur s'amuse à envoyer un fichier inutile, le client n'utilisera pas ce fichier et du coup vous aurez consommé de la bande passante pour pas grand chose…
+Par contre, vous vous doutez que si le serveur s'amuse à envoyer un fichier inutile, le client n'utilisera pas ce fichier et du coup vous aurez consommé de la bande passante pour pas grand chose…
 
 ## Et dans le Moteur X ?
 ### H2
