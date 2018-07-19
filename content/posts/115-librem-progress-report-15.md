@@ -73,7 +73,7 @@ Dans l'appli, l'envoi des [fréquences DTMF](https://en.wikipedia.org/wiki/Dual-
 
 <video class="wp-video-shortcode" id="video-55414-1" width="960" height="540" preload="metadata" controls="controls"><source type="video/webm" src="https://puri.sm/wp-content/uploads/2018/07/Calls.webm?_=1" /><a href="https://puri.sm/wp-content/uploads/2018/07/Calls.webm">https://puri.sm/wp-content/uploads/2018/07/Calls.webm</a></video>
 
-Afin de rendre calls pour robuste,la possibilité de faire des tests unitaires, dans [oFono](https://en.wikipedia.org/wiki/OFono) le backend de l'appli, en utilisant [phonesim simulator](https://github.com/jpakkane/ofono-phonesim) a été envisagé.
+Afin de rendre calls plus robuste,la possibilité de faire des tests unitaires, dans [oFono](https://en.wikipedia.org/wiki/OFono) le backend de l'appli, en utilisant [phonesim simulator](https://github.com/jpakkane/ofono-phonesim) a été envisagé.
 Cependant, faire tourner ofonod nécessite les privilèges root pour réquisitionner le nom org.ofono, ce qui rend les tests quasiment infaisable.
 Cependant, des tests unitaires ont été créés pour le fournisseur d'interface de Calls en utilisant l'implémentation dummy, ainsi que des test pour l'interface Origin et Call.
 
