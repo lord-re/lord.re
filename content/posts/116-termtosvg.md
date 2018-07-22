@@ -5,10 +5,10 @@ Categories = ["cli", "linux"]
 menu = "main"
 notoc = true
 PublishDate = 2018-07-15T22:36:48+02:00
-date = 2018-07-15T22:36:48+02:00
+date = 2018-07-18T22:36:48+02:00
 title = "Termtosvg : capturer la cli dans un svg"
 editor = "kakoune"
-jdh = ""
+jdh = "https://www.journalduhacker.net/s/cvvxef/termtosvg_capturer_la_cli_dans_un_svg"
 +++
 
 {{< figure src="/static/116-termtosvg.svgz" link="/static/116-termtosvg.svgz" title="L'article en cours de rédaction ~3min" alt="Capture faites lors de la rédaction de cet article ! Peut prendre un peu de temps pour charger." >}}
