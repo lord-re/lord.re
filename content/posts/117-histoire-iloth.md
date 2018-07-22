@@ -22,7 +22,7 @@ Par contre pas de bol j'ai un mal de chien avec les dates donc ça sera pas supe
 ## 2010 : Création
 En l'an de grâce 2010 née la FFDN, Fédération FDN qui cherche à essaimer.
 Pourquoi ?
-Parceque l'asso FDN devenait trop grosse et du coup gagnait en poids mais malheureusement perdait le côté local/associatif où tu connais tout le monde toussa.
+Parce que l'asso FDN devenait trop grosse et du coup gagnait en poids mais malheureusement perdait le côté local/associatif où tu connais tout le monde toussa.
 
 Du coup de nombreuses petites assos locales se sont créées et regroupées dans une fédération afin de garder un certain poids tout en recréant un côté local qui est bénéfique pour l'humain.
 
@@ -32,14 +32,14 @@ Iloth a été dans la première vague de la FFDN à l'initiative de 3 geeks Mont
 À cette époque les 3 valeureux gugusses se sont tapés toute la paperasse administrative, ont ouvert un compte en banque, se sont déclarés officiellement comme étant un vrai FAI auprès de l'ARCEP.
 Ils ont fait la partie vraiment chiante.
 
-Peu de temps après (je sais pas quand exactement), l'asso sympathise avec une boîte locale qui héberge et fournie des services et notamment des connexions Internet neutre à des entreprises du coin.
+Peu de temps après (je sais pas quand exactement), l'asso sympathise avec une boîte locale qui héberge et fournit des services et notamment des connexions Internet neutres à des entreprises du coin.
 Des liens sont tissés et c'est ainsi qu'une relation solide s'est créée et permettra à l'asso de vivre et surtout d'avoir une présence sur Internet.
 Une convention est signée et permet à l'asso d'héberger son propre serveur dans un datacenter montpellierain avec un peu de bande passante.
 Bref l'asso peut commencer à officier en tant que FAI.
 
 Et là ça va commencer à patauger, comme souvent dans le milieu associatif, chacun investit le temps qu'il peut quand il peut…
 L'asso commence donc déjà à battre de l'aile.
-Elle n'a pas de vitrine, ne se réunie pas, n'existe pas vraiment.
+Elle n'a pas de vitrine, ne se réunit pas, n'existe pas vraiment.
 Il n'est pas vraiment possible d'adhérer car aucun moyen de les contacter.
 
 ## 2012 : La seconde vague
@@ -48,7 +48,7 @@ On est désormais aux alentours de fin 2011 début 2012 si je me rappelle bien.
 Sauf que pas de bol, le site était sacrément vide («Coming Soon»), le salon IRC était en calme plat pendant des semaines complètes malgré plusieurs tentatives d'attirer l'attention.
 
 J'ai réussi à faire venir une deuxième personne sur le salon IRC qui était également intéressée et même une troisième que je ne connaissais que d'IRC.
-Bref nous étions désormais au moins trois à vouloir intégrer les membres de l'asso et vla-ti-pas qu'un quatrième larron sortit de nulle part est également intéressé et se met à traîner également sur le salon #iloth .
+Bref nous étions désormais au moins trois à vouloir intégrer les membres de l'asso et vla-ti-pas qu'un quatrième larron sorti de nulle part est également intéressé et se met à traîner également sur le salon #iloth .
 
 Et un jour, Ô miracle !
 *Un des pères fondateurs voit ça et commence à parler sur IRC.*
@@ -166,10 +166,10 @@ Juillet arrive et nous voilà donc en train de grimper dans les arbres de l'espl
 {{< figure src="/static/117-rmll-arbre-1.jpg" link="/static/117-rmll-arbre-1.jpg" alt="Les premiers petits arbres de l'esplanade" title="Les premiers petits arbres de l'esplanade" >}}
 {{< figure src="/static/117-rmll-arbre-2.jpg" link="/static/117-rmll-arbre-2.jpg" alt="Les premiers petits arbres de l'esplanade" title="Les premiers petits arbres de l'esplanade" >}}
 On tire près de 1250m de fibre dans les arbres en espérant qu'elle survivra une semaine.
-C'est en partie réussie (une seule fibre pété paralysant qu'un tiers des stands, on comblera avec un peu de wifi).
+C'est en partie réussie (une seule fibre pétée paralysant qu'un tiers des stands, on comblera avec un peu de wifi).
 Malgré quelques soucis de MTU et compagnie le réseau fonctionnera sur le campus.
 J'en aurai beaucoup chié à cause du manque de sommeil au point de ne plus trop parvenir à réfléchir le jour J.
-**L'évènement est un succès et permet à l'asso de beaucoup se voir et être actives, l'ambiance est au beau fixe, les voyages pizza et les restaus pour adultes soudent un peu plus l'équipe.**
+**L'évènement est un succès et permet à l'asso de beaucoup se voir et être active, l'ambiance est au beau fixe, les voyages pizza et les restaus pour adultes soudent un peu plus l'équipe.**
 
 {{< figure src="/static/117-rmll.jpg" link="/static/117-rmll.jpg" alt="Moment d'euphorie lors des RMLL2014" title="L'euphorie lors des RMLL2014" >}}
 
@@ -193,7 +193,7 @@ Plus à moi de gérer Dolibarr \o/
 
 On remarque déjà qu'une fois les RMLL passées, *le rythme de l'asso diminue drastiquement et que la motivation connait une baisse drastique*.
 Cependant, l'asso lance des idées de projets qui ne seront jamais menés à bien…
-Il a également été décidé d'organiser deux permanences par mois afin de pouvoir organiser des ateliers/débats mais celles-ci n'auront lieux que trois fois fautes de participant (internes et externes).
+Il a également été décidé d'organiser deux permanences par mois afin de pouvoir organiser des ateliers/débats mais celles-ci n'auront lieux que trois fois faute de participants (internes et externes).
 C'est dommage on aura réussi à y recruter un membre très actifs par la suite.
 
 Nous menons une campagne de contacts des députés pour les pousser à ne pas voter pour l'instauration des boîtes noires dans les réseaux opérateurs.
@@ -215,8 +215,8 @@ Assurer le SAV est une galère ultra chronophage.
 Rien de mieux pour démotiver quelqu'un.
 
 Bref les restaus mensuels s'enchaînent toujours, mais je suis encore seul à devoir les organiser.
-Si je ne le fait pas… ça se fait juste pas.
-Mais quand on y est ça se passe toujours bien, juste une bande de pote contents de se retrouver chaque mois pour discuter de tout et de rien autour d'un peu de bouffe.
+Si je ne le fais pas… ça se fait juste pas.
+Mais quand on y est ça se passe toujours bien, juste une bande de potes contents de se retrouver chaque mois pour discuter de tout et de rien autour d'un peu de bouffe.
 Socialement le but de l'asso est complètement rempli et depuis qu'on fait moins de technique (vue que c'est déjà en place) bha l'asso se casse carrément la gueule.
 
 Tiens, en passant, en Décembre on connait notre première petite panne de quelques heures.
@@ -242,12 +242,12 @@ Qu'est-ce qui pourrait déconner ?
 
 Il est décidé de repartir sur une seconde fournée de dix briques à distribuer.
 Je le fait un peu à reculons mais étrangement les autres membres sont intéressés pour continuer cela (sans avoir participé au premier batch).
-Bref on les prépare à plusieurs et je parvient à ne pas garder tout le stock et n'en avoir que deux.
+Bref on les prépare à plusieurs et je parviens à ne pas garder tout le stock et n'en avoir que deux.
 Ils se débrouilleront avec les autres briques.
 C'est triste de voir que le but est désormais de se débarrasser des tâches à faire.
 
 Je rédige également quelques articles sur le site d'Iloth qui auront un succès pas trop dégueu.
-C'est d'ailleurs en parti ce qui m'a remotivé à reprendre en main mon site perso.
+C'est d'ailleurs en partie ce qui m'a remotivé à reprendre en main mon site perso.
 Même deux ans plus tard, *certains articles amènent encore quelques visiteurs sur le site de l'asso*, c'est une bonne pub naturelle.
 Malheureusement personne d'autres ne semble intéressé pour en rédiger.
 
@@ -259,7 +259,7 @@ L'AG sera l'occasion d'avoir un nouveau président pour me remplacer, je vais po
 Pas de bol quelques semaines plus tard il abdique sans donner aucune raison et on ne le revit plus jamais…
 Dans la foulée, *le reste du bureau démissionne également* et l'asso se retrouve sans plus personne.
 
-Un début de drama commence à éclater lorsqu'**un des membres de l'asso prend peur de la pérennité de son VPN et discute avec son avocat pour éventuellement mettre encore plus en péril l'asso voir certains membres**.
+Un début de drama commence à éclater lorsqu'**un des membres de l'asso prend peur de la pérennité de son VPN et discute avec son avocat pour éventuellement mettre encore plus en péril l'asso voire certains membres**.
 C'est tout pile ce qu'il fallait pour donner envie de reprendre le bousin…
 
 Bref quelques temps après une Assemblée Générale Extraordinaire est organisée où un nouveau Bureau reprend les rennes de l'asso.
@@ -316,4 +316,4 @@ Bref si vous êtes motivés pour faire avancer les choses, apprendre pleins de t
 N'hésitez pas à le faire et à vous rendre sur le salon de discussion.
 L'asso a un grand besoin de nouveau souffle, a du matos, un peu de pognon, **il ne manque que des cerveaux motivés**.
 
-Moi pour l'instant, je prend des vacances, je reviendrai ptet quand il y aura de la vie.
+Moi pour l'instant, je prends des vacances, je reviendrai ptet quand il y aura de la vie.
