@@ -257,3 +257,8 @@ footer{
   src:local('Droid Sans'),local('DroidSans'),url(static/css/droidsans.woff) format('woff');
   src:local('Droid Serif'),local('DroidSerif'),url(static/css/droidserif.woff) format('woff');
 }
+
+samp::selection{
+	background-color:#111;
+	color:#ccc;
+}
