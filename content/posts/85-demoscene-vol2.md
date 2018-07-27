@@ -11,7 +11,7 @@ title = "La demoscene vol.2"
 editor = "kakoune"
 jdh = "https://www.journalduhacker.net/s/mh1wis/la_demoscene_vol_2"
 +++
-Lors de l'[article précédent]({{< ref "posts/77-demoscene-v1" >}}), on a découvert de loin ce qu'était la Démoscene.
+Lors de l'[article précédent]({{< ref "/posts/77-demoscene-v1" >}}), on a découvert de loin ce qu'était la Démoscene.
 Continuons un peu cette exploration.
 
 Cette fois-ci je vous présenterai uniquement des démos de type **ASCII Art** et l'**ANSI Art**.

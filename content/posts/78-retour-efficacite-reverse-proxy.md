@@ -12,7 +12,7 @@ editor = "kakoune"
 jdh = "https://www.journalduhacker.net/s/mwzbyq/retour_sur_le_reverse_proxy_du_blog"
 +++
 
-En septembre dernier, je vous avais parlé de la mise en place d'un [micro-cache nginx en reverse proxy]({{< ref "posts/60-cache-proxy-nginx" >}}) et du coup je voulais vous faire un petit retour.
+En septembre dernier, je vous avais parlé de la mise en place d'un [micro-cache nginx en reverse proxy]({{< ref "/posts/60-cache-proxy-nginx" >}}) et du coup je voulais vous faire un petit retour.
 
 Depuis cet article je n'ai pas changé la config en dehors de la durée du cache que j'ai augmenté récemment à dix minutes.
 
@@ -61,7 +61,7 @@ En dehors de la satisfaction de voir que des gens le lisent, je ne tire aucun pr
 Mon upstream est un tout petit [Atom D510 de 2011]({{< ref "15-migration" >}}) qui pourrait largement tenir la faible charge des visites de ce blog.
 
 Mon reverse proxy est également une toute petite machine.
-C'est mon routeur, un [Turris Omnia]({{< ref "posts/44-turris-omnia" >}}), avec un container lxc pour le reverse proxy nginx.
+C'est mon routeur, un [Turris Omnia]({{< ref "/posts/44-turris-omnia" >}}), avec un container lxc pour le reverse proxy nginx.
 
 Pour voir à quel point l'upstream est soulagé il suffit de comparer les logs de l'upstream et du reverse proxy sur la même période et comparer.
 

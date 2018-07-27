@@ -42,7 +42,7 @@ C'est utilisé pour tester l'[implémentation](https://github.com/swaywm/wlroots
 Nous aimerions tout particulièrement remercier le projet **wlroots** et **Weston** pour leurs revues de code, recommandations et supports.
 
 Puisqu'on peut pas avoir un téléphone qui ne puisse faire d'appels téléphoniques, de grands efforts ont été fait sur [Calls](https://source.puri.sm/Librem5/calls) qui peut désormais émettre des appels !
-(Et si vous l'aviez manqué, nous vous encourageons à lire [l'article correspondant](https://puri.sm/posts/librem5-progress-report-12/)[FR]({{< ref "posts/102-librem-progress-report-11-5" >}}))
+(Et si vous l'aviez manqué, nous vous encourageons à lire [l'article correspondant](https://puri.sm/posts/librem5-progress-report-12/)[FR]({{< ref "/posts/102-librem-progress-report-11-5" >}}))
 En plus de tout le code écrit, les interfaces ont été documentées dans de code.
 L'empaquetage pour Debian est en préparation et nous taffons pour inclure un paquet Flatpak créé par un membre de la communauté.
 
@@ -50,7 +50,7 @@ Chaque smartphone nécessite un clavier visuel (OSK pour On-Screen-Keyboard), do
 Pour l'instant, le protocole *virtual-keyboard* [a été accepté](https://github.com/swaywm/wlroots/pull/999) pour être inclus dans wlroots.
 Le protocole *text-input* a été [soumis upstream](https://lists.freedesktop.org/archives/wayland-devel/2018-May/038071.html) à l'approbation.
 Pour tester le protocole. *virtual-keyboard*, nous avons créé un prototype basé sur **weston-keyboard**.
-Vous pouvez lire ça plus en détail à propos du dev du clavier visuel dans [l'article de Dorota](https://puri.sm/posts/dorota-on-the-importance-of-on-screen-keyboards/)[FR]({{< ref "posts/109-librem-progress-report-13" >}}).
+Vous pouvez lire ça plus en détail à propos du dev du clavier visuel dans [l'article de Dorota](https://puri.sm/posts/dorota-on-the-importance-of-on-screen-keyboards/)[FR]({{< ref "/posts/109-librem-progress-report-13" >}}).
 
 ## Le travail matériel
 Identifier et tester chaque composant matériel qui seront présent dans le dev kit et éventuellement le téléphone est une tâche non trivial.

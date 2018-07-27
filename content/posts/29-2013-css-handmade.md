@@ -8,7 +8,7 @@ Description = "Et encore un article sur le changement de design du site… Mais 
 
 +++
 
-Mais quel indécis ! Ouais je change **encore** mon site. Bon en fait [bootstrap]({{< ref "posts/23-boostrapper-le-site" >}}) c'est bien sympa mais au final déléguer toute la partie fun bha c'est pas fun.
+Mais quel indécis ! Ouais je change **encore** mon site. Bon en fait [bootstrap]({{< ref "/posts/23-boostrapper-le-site" >}}) c'est bien sympa mais au final déléguer toute la partie fun bha c'est pas fun.
 Autant j'ai toujours du mal à créer du contenu pour le site, autant j'adore faire mumuse avec le css.
 Du coup, bha ouais j'ai refait encore le site.
 J'ai quasiment pas touché au fond.

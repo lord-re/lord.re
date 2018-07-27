@@ -58,7 +58,7 @@ Il n'y a plus trop de mise à jour cela-dit, c'est dommage.
 ## Les FPS
 Du côté des FPS de chez id, c'est un peu de la triche… Vu que les devs originaux publient les sources de leur moteur il y a foison de réimplémentations.
 **GzDoom** est une réimplémentation en OpenGL du id tech1 donc tous les jeux à base du moteur de Doom mais il y a également **Zandronum** qui est sensiblement identique mais avec du multiplayer et également **Doomsday** qui mérite de s'y attarder.
-Pour plus d'info à ce propos, j'ai écrit [un article dédié à Doom]({{< ref "posts/67-doom-et-ses-mods" >}})
+Pour plus d'info à ce propos, j'ai écrit [un article dédié à Doom]({{< ref "/posts/67-doom-et-ses-mods" >}})
 
 **GlQuake** pour l'id tech 2 mais aussi [**DarkPlaces**](https://icculus.org/twilight/darkplaces/) pour les deux implé principales.
 

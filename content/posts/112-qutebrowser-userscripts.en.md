@@ -9,7 +9,7 @@ date = 2018-07-01T09:45:56+02:00
 title = "Userscripts in Qutebrowser"
 editor = "kakoune"
 +++
-Qutebrowser is a [really nice browser]({{< ref "posts/64-qutebrowser" >}}) but some points still lack while comparing it to the main browsers.
+Qutebrowser is a [really nice browser]({{< ref "/posts/64-qutebrowser" >}}) but some points still lack while comparing it to the main browsers.
 It's developpment is way slower than Chrome and Firefox because of it's smaller scale with way less contributors and no paid devs without any commercial entity behind it.
 But it's still a good alternative with strong features if you are ready to accept little sacrifices.
 

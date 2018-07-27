@@ -17,7 +17,7 @@ Un groupe particulièrement chiant passe régulièrement pour faire leur propaga
 
 Bref un moyen de contrer leur spam est donc d'utiliser la fonction [Spamfilter](https://www.unrealircd.org/docs/Spamfilter) d'Unrealircd.
 
-J'avais un peu survolé les différentes actions que peuvent faire un ircop [ici]({{< ref "posts/55-irc-niveau-5" >}}) mais là c'est spécifique au spamfilter.
+J'avais un peu survolé les différentes actions que peuvent faire un ircop [ici]({{< ref "/posts/55-irc-niveau-5" >}}) mais là c'est spécifique au spamfilter.
 
 ## Spamfilter
 La syntaxe est à première vue assez simple mais pourtant toujours un peu spéciale.

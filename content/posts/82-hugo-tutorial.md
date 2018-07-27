@@ -13,7 +13,7 @@ jdh = "https://www.journalduhacker.net/s/zvd6u9/cr_er_un_blog_statique_hugo_de_y
 +++
 Je vois que ces derniers temps Hugo commence à attirer de nouvelles personnes.
 Du coup, pourquoi pas vous proposer un article un peu plus en profondeur sur ce que j'ai compris d'Hugo.
-Je vous ai déjà fait un [retour sur mon utilisation d'Hugo]({{< ref "fast-posts/09-modifs-blogs-hugo" >}}) mais là ça va plus être sous le capot.
+Je vous ai déjà fait un [retour sur mon utilisation d'Hugo]({{< ref "/fast-posts/09-modifs-blogs-hugo" >}}) mais là ça va plus être sous le capot.
 
 Je vais vous montrer comment faire ses premiers pas pour se monter un blog simple comme le mien avec un thème fait maison.
 
@@ -424,7 +424,7 @@ C'est un peu une base du web de faire des liens entre les pages.
 Faire du web sans y coller des liens hypertexte est un non-sens. Bref.
 Pour pointer vers un autre article il suffit d'utiliser cette syntaxe :
 ```
-[ceci est un lien]({{ < ref "blog/welcome" > }})
+[ceci est un lien]({{ < ref "/blog/welcome" > }})
 ```
 
 

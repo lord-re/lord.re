@@ -73,4 +73,4 @@ include fastcgi_params;
 fastcgi_pass unix:/tmp/php.socket;
 }
 ```
-Bon bha voilà vous avez une conf bien poussée. Si vous voulez aussi voir comment faire du reverse proxy il y a déjà [un article]({{< ref "posts/33-reverse-proxy-nginx.md" >}}).
+Bon bha voilà vous avez une conf bien poussée. Si vous voulez aussi voir comment faire du reverse proxy il y a déjà [un article]({{< ref "/posts/33-reverse-proxy-nginx.md" >}}).

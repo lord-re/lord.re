@@ -10,7 +10,7 @@ title = "Kakoune"
 editor = "Kakoune"
 jdh = "https://www.journalduhacker.net/s/sjcgq3/kakoune"
 +++
-Après avoir un peu utilisé [Amp]({{< ref "posts/72-amp-text-editor">}}) j'utilise désormais kakoune depuis quelques mois.
+Après avoir un peu utilisé [Amp]({{< ref "/posts/72-amp-text-editor">}}) j'utilise désormais kakoune depuis quelques mois.
 En fait à la base je n'avais pas l'intention de migrer aussi vite vers un autre éditeur mais pas de bol, une mise à jour de ncurses à rendu Amp inutilisable à cause de bugs graphiques dans tous les sens.
 Une mise à jour était nécessaire mais du coup je suis allé voir un peu ailleurs voir ce qui se faisait.
 

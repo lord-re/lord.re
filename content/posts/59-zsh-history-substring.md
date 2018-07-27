@@ -13,7 +13,7 @@ jdh = "https://www.journalduhacker.net/s/kf7qx2/substring_history_search_dans_zs
 +++
 Les shells de nos chers unices sont de merveilleux outils qui permettent d'interagir avec nos OS. C'est mon interface principale. Je l'utilise constamment et pour tout. J'utilise très peu de logiciels graphiques. Un navigateur, un terminal et un lecteur vidéo. Voilà tout.
 
-Par contre je dois avouer que j'ai pas une super mémoire et du coup j'ai parfois du mal à me rappeler de certaines commandes. C'est d'ailleurs pour ça que j'utilise [Foldcat]({{< ref "posts/56-foldcat.md" >}}) comme vu il y a quelques temps. Par contre ça ne fait pas tout encore. J'ai donc une botte secrète.
+Par contre je dois avouer que j'ai pas une super mémoire et du coup j'ai parfois du mal à me rappeler de certaines commandes. C'est d'ailleurs pour ça que j'utilise [Foldcat]({{< ref "/posts/56-foldcat.md" >}}) comme vu il y a quelques temps. Par contre ça ne fait pas tout encore. J'ai donc une botte secrète.
 
 ## Historique des commandes
 Le shell garde en mémoire toutes les commandes que vous lancez. Vous avez alors un fichier *history* ou *zhistory* qui traine dans votre */home*. Dans pas mal de shell vous pouvez chercher dans cet historique avec *Ctrl-r* , c'est pas mal. Mais c'est pas non plus la panacée. On va ajouter un ptit script à notre cher ZSH pour le rendre superbement efficace sur ce point.

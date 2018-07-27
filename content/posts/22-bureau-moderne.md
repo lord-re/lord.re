@@ -74,4 +74,4 @@ Bon bha je vous ai fait un roman mais au final c'est peut-être plus, comment di
 
 Bon bha globalement c'est toujours vrai. J'utilise toujours qingy, i3, le terminal j'ai migré vers alacritty mais urxvt est toujours recommandable.
 
-Par contre niveau navigateur… bha Opera c'est devenu de la merde en barre. C'est dommage. Du coup bha j'ai migré [une première fois chez Firefox]({{< ref "posts/24-navigateur" >}}) puis plus récemment sur [Qutebrowser]({{< ref "posts/64-qutebrowser" >}}).
+Par contre niveau navigateur… bha Opera c'est devenu de la merde en barre. C'est dommage. Du coup bha j'ai migré [une première fois chez Firefox]({{< ref "/posts/24-navigateur" >}}) puis plus récemment sur [Qutebrowser]({{< ref "/posts/64-qutebrowser" >}}).

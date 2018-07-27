@@ -11,7 +11,7 @@ title = "Reverse proxy, 6 months later"
 editor = "kakoune"
 +++
 
-Last september i wrote about [setting up an nginx micro-cache in reverse proxy]({{< ref "posts/60-cache-proxy-nginx" >}}), so here i a little feedback.
+Last september i wrote about [setting up an nginx micro-cache in reverse proxy]({{< ref "/posts/60-cache-proxy-nginx" >}}), so here i a little feedback.
 
 Since then i didn't changed the settings excepting the caching duration which i increased to *10 minutes*.
 

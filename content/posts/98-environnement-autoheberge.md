@@ -27,7 +27,7 @@ Je ne le recommande donc pas à tout le monde.
 Pour le webmail j'ai longtemps utilisé Roundcube mais je suis désormais sur [Rainloop](https://www.rainloop.net/).
 L'interface est un poil plus joli que Roundcube et passe mieux sur téléphone.
 
-Et dans le fond j'utilise Postfix, Dovecot, [Rspamd]({{< ref "posts/46-rspamd-rmilter" >}}), [Sisyphus]({{< ref "posts/87-sisyphus-antispam" >}}).
+Et dans le fond j'utilise Postfix, Dovecot, [Rspamd]({{< ref "/posts/46-rspamd-rmilter" >}}), [Sisyphus]({{< ref "/posts/87-sisyphus-antispam" >}}).
 
 ## RSS
 Dans les services web, un dont je suis ultra friand est l'aggrégateur de flux RSS/Atom.
@@ -60,7 +60,7 @@ Pas mal du tout.
 Puis j'ai découvert [PhotoFloat](https://git.zx2c4.com/PhotoFloat/about/) qui est par contre bien plus moderne.
 Plus besoin de rafraîchir la page, ça charge quasi instantanément.
 Bien plus agréable à utiliser mais c'est en Python, faut générer la galerie à chaque fois qu'on rajoute des photos (générateur de site statique quoi).
-Pas de bol c'est plus trop maintenu (c'est le dev qui a aussi pondu les excellent [Password-store]({{< ref "posts/36-gestionnaire-passwords" >}}) et aussi [Wireguard](https://www.wireguard.com/)).
+Pas de bol c'est plus trop maintenu (c'est le dev qui a aussi pondu les excellent [Password-store]({{< ref "/posts/36-gestionnaire-passwords" >}}) et aussi [Wireguard](https://www.wireguard.com/)).
 
 ## Cloud multi-services
 Je me suis également monté un instance [Sandstorm](https://sandstorm.io/).

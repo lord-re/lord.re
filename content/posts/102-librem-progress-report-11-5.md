@@ -35,7 +35,7 @@ Après quelques recherches, le but initial était de réutiliser le framework [T
 Qui plus est, le gestionnaire de connexion PSTN [telepathy-ring](https://git.merproject.org/mer-core/telepathy-ring) est déjà utilisé dans des téléphones sur le marché.
 Et même si il possède quelques soucis, je trouve Telepathy vraiment génial :-)
 
-Pour aller plus loin, mon collègue François Téchené a écrit [un article]({{< ref "posts/83-librem-progress-report-8" >}}) décrivant un approche basé sur les fonctionnalité plutôt que sur les applications concernant l'expérience utilisateur.
+Pour aller plus loin, mon collègue François Téchené a écrit [un article]({{< ref "/posts/83-librem-progress-report-8" >}}) décrivant un approche basé sur les fonctionnalité plutôt que sur les applications concernant l'expérience utilisateur.
 Telepathy pourrait fournir les fondations d'une telle approche.
 
 Il est bon de noter cependant que Telepathy n'est pas en odeur de sainteté.

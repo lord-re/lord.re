@@ -13,7 +13,7 @@ jdh = "https://www.journalduhacker.net/s/vntd5d/ce_quil_se_passe_quand_on_ouvre_
 Vous ouvrez très probablement des dizaines voir des centaines de pages web tous les jours.
 C'est devenu naturel à tel point qu'on ne se rend pas compte de toute la magie à l'œuvre pour nous afficher notre drogue moderne.
 
-Déjà commençons par une petite mise au point : je vais causer principalement de Web mais pas trop d'Internet car souvenez-vous : [Web ≠ Internet]({{< ref "posts/90-web≠internet" >}}). 
+Déjà commençons par une petite mise au point : je vais causer principalement de Web mais pas trop d'Internet car souvenez-vous : [Web ≠ Internet]({{< ref "/posts/90-web≠internet" >}}). 
 
 C'est parti !
 

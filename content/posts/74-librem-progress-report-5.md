@@ -37,7 +37,7 @@ Vos retours sont le moteur de notre motivation pour travailler encore plus dur.
 Merci beaucoup !
 
 ## Avancées logicielles
-Comme expliqué [précédemment]({{< ref "posts/71-librem-progress-report-3" >}}), nous avons reçu des i.MX 6 QuadPlus de test. Donc voilà quelques photos :
+Comme expliqué [précédemment]({{< ref "/posts/71-librem-progress-report-3" >}}), nous avons reçu des i.MX 6 QuadPlus de test. Donc voilà quelques photos :
 
 {{< figure src="/static/74-photo1.jpg" title="" alt="Photographie de la board raccordée à un écran" link="/static/74-photo1.jpg" >}}
 

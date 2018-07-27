@@ -10,7 +10,7 @@ title = "Trifouillage de firmware de clavier"
 editor = "kakoune"
 jdh = "https://www.journalduhacker.net/s/apzt6c/trifouillage_de_firmware_de_clavier"
 +++
-Je vous ai déjà parlé de mon clavier fait maison il y a bientôt trois ans dans [ce premier article]({{< ref "posts/39-clavier-handmade" >}}).
+Je vous ai déjà parlé de mon clavier fait maison il y a bientôt trois ans dans [ce premier article]({{< ref "/posts/39-clavier-handmade" >}}).
 Il est ptet temps de faire la partie 2 ?
 Ouai mais non c'est trop tard.
 
@@ -26,7 +26,7 @@ Il fonctionne superbement bien malgré son look… particulier.
 J'ai déjà refait une soudure ou deux qui s'étaient pétées mais bon rien de bien méchant.
 Ça se refait en moins de cinq minutes montre en main.
 
-Par contre depuis que [je réutilise mpd]({{< ref "posts/103-remplacer-groovebasin" >}}) j'ai pas de moyen simple de passer au morceau de musique suivant.
+Par contre depuis que [je réutilise mpd]({{< ref "/posts/103-remplacer-groovebasin" >}}) j'ai pas de moyen simple de passer au morceau de musique suivant.
 J'ai pas de touche multimédia et j'ai pas envie de rajouter un raccourci *i3* à base de alt ou autre…
 
 Il me restait toujours deux emplacements de libres sur le clavier mais à des emplacements un peu bâtard du coup pas trop envie d'y toucher, je conserve ce Maj droite et ce GUI (la ptite touche menu à droite de la touche windows droite sur un bon vieil azerty des familles).

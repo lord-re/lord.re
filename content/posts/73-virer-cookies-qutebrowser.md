@@ -10,7 +10,7 @@ PublishDate = 2018-02-13T17:12:32+01:00
 date = 2018-02-13T17:12:32+01:00
 title = "Virer les cookies d'un site précis dans Qutebrowser"
 +++
-Je vous ai déjà chanté [les louanges de mon cher Qutebrowser]({{< ref "posts/64-qutebrowser" >}}) mais ce coup-ci on va passer sous le capot.
+Je vous ai déjà chanté [les louanges de mon cher Qutebrowser]({{< ref "/posts/64-qutebrowser" >}}) mais ce coup-ci on va passer sous le capot.
 
 Alors que je démarre la bête et qu'il restaure la session habituelle (mail, musique, rss et affaires courantes) : SURPRISE !
 Mon instance Tiny Tiny RSS m'affiche un message bien moche.

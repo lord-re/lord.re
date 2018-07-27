@@ -12,7 +12,7 @@ editor = "kakoune"
 +++
 Vous l'avez peut-être remarqué mais le site a eu des ptits soucis : certaines pages étaient inaccessibles.
 
-*Mon pauvre [Bender]({{< ref "posts/15-migration" >}}) (mon serveur/nas) était HS vendredi en rentrant du boulot.*
+*Mon pauvre [Bender]({{< ref "/posts/15-migration" >}}) (mon serveur/nas) était HS vendredi en rentrant du boulot.*
 
 L'onduleur couinait du fond du placard.
 Étrangement je vais voir le disjoncteur qui effectivement a fait son boulot.

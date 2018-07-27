@@ -72,7 +72,7 @@ Bon comment se présente une séance de rédaction ?
 
   1. **cd ~/www** - c'est là où je stock mes fichiers sources
   2. **hugo new posts/xx-titre-du-post.md** - pour créer le fichier avec les méta-données pré-remplies
-  3. **amp** - pour démarrer [amp]({{< ref "posts/72-amp-text-editor" >}}) et rajouter le texte
+  3. **amp** - pour démarrer [amp]({{< ref "/posts/72-amp-text-editor" >}}) et rajouter le texte
   4. **hugo server --navigateToChanged -F -D --disableFastRender** - en parallèle pour voir les modifs en live
   5. **git add content/posts/xx-titre-du-post.md** - pour ajouter le nouveau fichier dans le dépôt git du site
   6. **git commit !$ -m "[BLOG] ajout article xx titre du post"** - pour prendre en compte et mettre un commentaire dans le dépôt git

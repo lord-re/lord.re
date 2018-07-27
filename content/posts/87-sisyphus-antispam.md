@@ -13,8 +13,8 @@ jdh = "https://www.journalduhacker.net/s/osyrcs/sisyphus_lantispam_mignonnet"
 Je vous ai déjà fait part à maintes reprises de ma stack mail.
 J'ai rajouté il y a quelques mois un antispam supplémentaire.
 
-  - J'ai donc [Postscreen]({{< ref "posts/45-postscreen" >}}) en première ligne (presque avant Postfix) qui vire environ 80% de spam avant le traitement par le reste.
-  - Ensuite j'ai un [Rspamd]({{< ref "posts/46-rspamd-rmilter" >}}) qui agit après Postfix avant Dovecot et qui vire encore une grosse partie de merde (il retire encore 19% de spam).
+  - J'ai donc [Postscreen]({{< ref "/posts/45-postscreen" >}}) en première ligne (presque avant Postfix) qui vire environ 80% de spam avant le traitement par le reste.
+  - Ensuite j'ai un [Rspamd]({{< ref "/posts/46-rspamd-rmilter" >}}) qui agit après Postfix avant Dovecot et qui vire encore une grosse partie de merde (il retire encore 19% de spam).
   - Et enfin [Sisyphus](https://github.com/carlostrub/sisyphus) qui agit après Dovecot, directement sur le maildir (donc au niveau des fichiers).
 
 Ouai c'est ptet overkill.

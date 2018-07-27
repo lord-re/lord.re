@@ -10,7 +10,7 @@ title = "Les userscripts dans Qutebrowser"
 editor = "kakoune"
 jdh = "https://www.journalduhacker.net/s/nmdzkj/les_userscripts_dans_qutebrowser"
 +++
-Qutebrowser est un [super navigateur]({{< ref "posts/64-qutebrowser" >}}) mais sur certains points il est loin des ténors.
+Qutebrowser est un [super navigateur]({{< ref "/posts/64-qutebrowser" >}}) mais sur certains points il est loin des ténors.
 Son développement est bien plus lent que celui de Chrome et Firefox car c'est un projet bien plus petit avec bien moins de contributeurs et aucune entreprise commerciale pour pousser.
 Il n'en reste pas moins tout à fait fonctionnelle et propose une alternative crédible au prix de maigres sacrifices.
 

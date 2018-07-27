@@ -293,7 +293,7 @@ En bonus toutes ces informations permettent à gmail de vous afficher rapidement
 Bref ce service coûte très cher mais par chance est très facilement rentabilisé par Google.
 
 ## 12 - Consultation
-Bon bha maintenant votre destinataire va vouloir lire votre mail, Gmail étant un webmail avant tout, votre utilisateur va devoir ouvrir la page avec son navigateur web et se tapper [toutes les étapes classiques]({{< ref "posts/99-ce-quil-se-passe-quand-on-ouvre-une-page-web" >}}).
+Bon bha maintenant votre destinataire va vouloir lire votre mail, Gmail étant un webmail avant tout, votre utilisateur va devoir ouvrir la page avec son navigateur web et se tapper [toutes les étapes classiques]({{< ref "/posts/99-ce-quil-se-passe-quand-on-ouvre-une-page-web" >}}).
 Le webmail a le rôle de **MUA** ici.
 
 Et voilà ! 

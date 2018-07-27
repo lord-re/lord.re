@@ -79,7 +79,7 @@ Cette petite merde de bouton reset qui déconne et qui se déclenche seul de tem
 
 ## Ptit nordi
 
-Mon [vieux Bender]({{< ref "fast-posts/12-panne-bender" >}}) était malade.
+Mon [vieux Bender]({{< ref "/fast-posts/12-panne-bender" >}}) était malade.
 
 Une extinction inopinée le mois dernier dans un mystère le plus total m'avais un peu troublé mais sans plus.
 J'étais pas spécialement pressé de le réparer car avec l'usage je me rend compte que je suis de moins en moins dépendant envers mon nas.
