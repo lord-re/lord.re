@@ -3,9 +3,12 @@
     <h1 class="brand-title"><a href="{{ .Site.BaseURL }}">/home/lord</a></h1>
     <p>{{ i18n "sidebar-description"}}</p>
     <br>
-    <p>Mail : lord@lesitequevouslisez</p>
-    <p>IRC : sur geeknode, freenode, evolunet</p>
-    <p>RSS : <a href="{{ .Site.RSSLink }}" rel="alternate" type="application/rss+xml">index.xml</a></p>
+		<p class="icons"><a href="mailto:lord-blog@lord.re" title="En gros c'est lord@lesitequevousvisitez"><img src="{{ .Site.BaseURL }}/svg/mail.svg" width="35em"></a>
+		<a href="ircs://irc.geeknode.org" title="Je suis présent sur Geeknode, Freenode, Evolunet, EFnet, OFTC"><img src="{{.Site.BaseURL}}/svg/chat.svg" width="35rem"></a>
+		<a href="{{ .Site.RSSLink }}" rel="alternate" type="application/rss+xml" title="Les RSS c'est le bien ! Par contre pas la peine d'updater plus de deux fois par jours ;-)"><img src="{{ .Site.BaseURL }}/svg/rss.svg" width="30rem"></a>
+		<a href="https://octodon.social/@lord" title="Mon ptit compte Mastodon"><img src="{{ .Site.BaseURL }}/svg/mastodon.svg" width="30rem"></a>
+		<a href="{{ .Site.BaseURL}}mono/" title="Le site en version monopage"><img src="{{ .Site.BaseURL }}/svg/mono.svg" width="30rem"></a>
+		</p>
     <br>
     <p>{{ i18n "licence" }}</p>
     <br>

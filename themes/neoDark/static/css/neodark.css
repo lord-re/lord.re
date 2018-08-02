@@ -35,6 +35,13 @@ aside{
   box-shadow:0 0 1em rgba(0,0,0,0.4);
   border-bottom:2px solid #414;
 }
+.icons a{
+  display:inline-block;
+	margin:0.8rem;
+}
+.icons a:hover{
+	transform: scale(2);
+}
 aside h1{
   padding-bottom:1.5rem;
   text-align:center;
@@ -111,7 +118,7 @@ h3{
   text-align:justify;
   max-width:50em;
 }
-.posts:before,.share:before,.fast-post:before{
+.posts:before,.shares:before,.fast-posts:before{
 	font-size:0.8rem;
 	border-radius:0 0 0.4rem 0;
 	border-bottom:none;

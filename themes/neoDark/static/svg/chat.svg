@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Conversations</title>
+  <desc>A line styled icon from Orion Icon Library.</desc>
+  <path data-name="layer2"
+  d="M28.4 35.9a11 11 0 0 0 10.6 14h5.9L54 59v-9.5a11 11 0 0 0-3-21.6h-.7"
+  fill="none" stroke="#3b95f0" stroke-linecap="round" stroke-linejoin="round"
+  stroke-width="2"></path>
+  <path data-name="layer1" d="M37 5.9H17A15 15 0 0 0 12 35v11.9l11-11h14a15 15 0 0 0 0-30z"
+  fill="none" stroke="#3b95f0" stroke-linecap="round" stroke-linejoin="round"
+  stroke-width="2"></path>
+</svg>
