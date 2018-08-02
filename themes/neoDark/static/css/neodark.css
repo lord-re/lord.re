@@ -105,60 +105,60 @@ h3{
   font-size:1.3rem;
   padding-top:1.1rem;
 }
-.post, .fast-post, .share{
+.posts, .fast-posts, .shares{
   margin:1rem;
   box-shadow:0 0 1em rgba(0,0,0,0.4);
   text-align:justify;
   max-width:50em;
 }
-.post:before,.share:before,.fast-post:before{
+.posts:before,.share:before,.fast-post:before{
 	font-size:0.8rem;
 	border-radius:0 0 0.4rem 0;
 	border-bottom:none;
 	border-left:none;
 	padding:0.2rem;
 }
-.post{
+.posts{
   border-top:3px solid #547;
   border-bottom:1px solid #436;
   border-left:2px solid #436;
   background:#2d2f34;
 }
-.post:before{
+.posts:before{
   content:"post";
 	background:#436;
 	border:1px solid #547;
 }
-.fast-post{
+.fast-posts{
   border-top:3px solid #457;
   border-bottom:1px solid #346;
   border-left:2px solid #447;
   color:#999;
   background:#292f34;
 }
-.fast-post:before{
+.fast-posts:before{
   content:"fast-post";
 	background:#346;
 	border:1px solid #457;
 }
-.share{
+.shares{
   border-top:3px solid #d2c555;
 	border-bottom:1px solid #443;
 	border-left:2px solid #554;
   background:#292e30;
 }
-.share:before{
+.shares:before{
   content:"share";
 	background:#443;
 	border:1px solid #554;
 }
-.post h1 a {
+.posts h1 a {
   color:#cac;
 }
-.fast-post h1 a {
+.fast-posts h1 a {
   color:#99C3D1;
 }
-.share h1 a {
+.shares h1 a {
   color:#ffa;
 }
 .post-category{
@@ -168,7 +168,7 @@ h3{
 .post-edit-date{
   color:#777;
 }
-.post li{
+.posts li{
   margin-left:1rem;
   list-style-position:outside;
   list-style-type:disc;

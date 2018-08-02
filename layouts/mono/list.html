@@ -3,9 +3,8 @@
   <div id="layout">
 {{ partial "sidebar.html" . }}
     <div class="content">
-      <div class="posts">
 {{ range where .Site.Pages "Section" "in" .Site.Params.sectionsInHomepage }}
-        <section {{ if eq .Type "posts" }}class="post"{{ else }}class="fast-post"{{ end }}>
+        <section class="{{.Section}}">
           <header class="post-header">
             <h1 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
           </header>
@@ -16,7 +15,6 @@
 {{ end }}
         </section>
 {{ end }}
-      </div>
     </div>
   </div>
 </body>
