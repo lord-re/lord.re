@@ -37,7 +37,7 @@ aside{
 }
 .icons a{
   display:inline-block;
-	margin:0.8rem;
+	margin:0.7rem;
 }
 .icons a:hover{
 	transform: scale(2);
@@ -112,13 +112,13 @@ h3{
   font-size:1.3rem;
   padding-top:1.1rem;
 }
-.posts, .fast-posts, .shares{
+.posts, .fast-posts, .shares, .ideas{
   margin:1rem;
   box-shadow:0 0 1em rgba(0,0,0,0.4);
   text-align:justify;
   max-width:50em;
 }
-.posts:before,.shares:before,.fast-posts:before{
+.posts:before,.shares:before,.fast-posts:before,.ideas:before{
 	font-size:0.8rem;
 	border-radius:0 0 0.4rem 0;
 	border-bottom:none;
@@ -134,7 +134,7 @@ h3{
 .posts:before{
   content:"post";
 	background:#436;
-	border:1px solid #547;
+	border:solid #547;
 }
 .fast-posts{
   border-top:3px solid #457;
@@ -146,7 +146,7 @@ h3{
 .fast-posts:before{
   content:"fast-post";
 	background:#346;
-	border:1px solid #457;
+	border:solid #457;
 }
 .shares{
   border-top:3px solid #d2c555;
@@ -157,16 +157,33 @@ h3{
 .shares:before{
   content:"share";
 	background:#443;
-	border:1px solid #554;
+	border:solid #554;
 }
-.posts h1 a {
+.ideas{
+  border-top:3px solid #55c5d2;
+	border-bottom:1px solid #344;
+	border-left:2px solid #455;
+	background:#293034;
+}
+.ideas:before{
+  content:"idées à la con";
+	background:#344;
+	border:solid #455;
+}
+.posts:before,.fast-posts:before,.shares:before,.ideas:before{
+	border-width:0 1px 1px 0;
+}
+.posts h1 a{
   color:#cac;
 }
-.fast-posts h1 a {
+.fast-posts h1 a{
   color:#99C3D1;
 }
-.shares h1 a {
+.shares h1 a{
   color:#ffa;
+}
+.ideas h1 a{
+  color:#aff;
 }
 .post-category{
   color:#757cab;
