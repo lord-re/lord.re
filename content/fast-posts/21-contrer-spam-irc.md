@@ -9,7 +9,7 @@ date = 2018-08-05T10:20:59+02:00
 title = "Contrer la vague de spam touchant IRC"
 editor = "kakoune"
 +++
-Bon ça fait plus de deux semaines qu'un bande de pecnos s'amuse à spammer joyeusement à peu près tous les réseaux IRC existants (enfin s'ils sont suffisamment gros).
+Bon ça fait plus de deux semaines qu'un bande de péquenots s'amuse à spammer joyeusement à peu près tous les réseaux IRC existants (enfin s'ils sont suffisamment gros).
 
 ## L'attaque
 C'est un flood avec toujours les mêmes phrases (!) consistant à envoyer des URL vers des blogs.
