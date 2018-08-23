@@ -6,6 +6,7 @@ menu = "main"
 notoc = true
 PublishDate = 2018-07-02T22:42:11+02:00
 date = 2018-07-15T21:42:11+02:00
+lastedit = 2018-08-23T21:42:23+02:00
 title = "Les Vidéos Primitives"
 editor = "kakoune"
 +++
@@ -85,7 +86,7 @@ Ouai c'est le même nom qu'une autre chaîne…
 La particularité de celle-là est d'être tenue par une femme.
 
 Ça change pas grand chose au concept mais bon.
-Il y a un plus grand effort vestimentaire (pas forcément dans le bon sens) mais sinon elle s'en sort vraiment super bien et a tendance à pondre des vidéos un peu plus longue que les autres protagonistes.
+Il y a un plus grand effort vestimentaire (pas forcément dans le <abbr title="Je précise car ça pourrait être mal interprêté : elle porte du Lacoste, dans le genre primitive c'est pas top. Et non j'espère pas la voir topless, juste un truc plus neutre, genre une chemise unie sans marque.">bon sens</abbr>) mais sinon elle s'en sort vraiment super bien et a tendance à pondre des vidéos un peu plus longue que les autres protagonistes.
 
 Le rythme de publication est pas trop régulier.
 Il y a des périodes de rush et des périodes sans rien mais bon.
