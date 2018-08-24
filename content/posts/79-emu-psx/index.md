@@ -71,8 +71,8 @@ C'est à dire que la partie graphique n'est plus calculée par votre CPU mais vo
 
 ## Améliorons le rendu
 
-{{< figure src="/static/79-cb-orig.jpg" title="On va passer de ça" alt="capture d'écran de Crash Bandicoot en résolution d'origigne" link="/static/79-cb-orig.jpg" >}}
-{{< figure src="/static/79-cb-enhanced.jpg" title="À ça" alt="capture d'écran de Crash Bandicoot avec des graphismes améliorés" link="/static/79-cb-enhanced.jpg" >}}
+{{< img src="*9-cb-orig.jpg" title="On va passer de ça" alt="capture d'écran de Crash Bandicoot en résolution d'origigne" link="/static/79-cb-orig.jpg" >}}
+{{< img src="*9-cb-enhanced.jpg" title="À ça" alt="capture d'écran de Crash Bandicoot avec des graphismes améliorés" link="/static/79-cb-enhanced.jpg" >}}
 
 Cet article n'est pas un tuto pour Retroarch mais juste une ptite aide pour trouver les bons réglages pour Beetle PSX HW.
 Si vous ne savez pas comment modifier les réglages et tout [RTFM](https://docs.libretro.com/).
