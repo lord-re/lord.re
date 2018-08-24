@@ -83,7 +83,7 @@ On avait une machine fonctionnelle, pas mal de temps libres.
 On a également *tissé des liens avec d'autres assos locales* tel que [Montpellibre](http://montpel-libre.fr/) (de loin) et un peu plus intimes avec Le [BIB](https://lebib.org) notre cher Hackerspace Montpellierain.
 Nous nous y réunionnons une fois par mois dans leur garage pour faire une réu-apéro qui généralement se termine dans un restau.
 
-{{< img src="*logo-iloth.png" link="/static/117-logo-iloth.png" alt="Un des prototype de logo non retenu" title="L'une des propositions non retenues de logo" >}}
+{{< img src="*logo-iloth.png" link="117-logo-iloth.png" alt="Un des prototype de logo non retenu" title="L'une des propositions non retenues de logo" >}}
 
 *Le côté social de l'asso commence à décoller.*
 Avec le temps le noyau dur de l'asso se connait désormais pas mal et nous sommes devenus une bande de potes.
@@ -163,15 +163,15 @@ Le cinéma peut maintenant recevoir certains de ces films sans passer par des di
 *Un projet bien sympas auquel je suis fier d'avoir participé et j'ai d'ailleurs un magnifique sticker rond en forme de tranche de citron !*
 
 Juillet arrive et nous voilà donc en train de grimper dans les arbres de l'esplanade avec une grande échelle et un touret de fibre optique au milieu des passants.
-{{< img src="*rmll-arbre-1.jpg" link="/static/117-rmll-arbre-1.jpg" alt="Les premiers petits arbres de l'esplanade" title="Les premiers petits arbres de l'esplanade" >}}
-{{< img src="*rmll-arbre-2.jpg" link="/static/117-rmll-arbre-2.jpg" alt="Les premiers petits arbres de l'esplanade" title="Les premiers petits arbres de l'esplanade" >}}
+{{< img src="*rmll-arbre-1.jpg" link="117-rmll-arbre-1.jpg" alt="Les premiers petits arbres de l'esplanade" title="Les premiers petits arbres de l'esplanade" >}}
+{{< img src="*rmll-arbre-2.jpg" link="117-rmll-arbre-2.jpg" alt="Les premiers petits arbres de l'esplanade" title="Les premiers petits arbres de l'esplanade" >}}
 On tire près de 1250m de fibre dans les arbres en espérant qu'elle survivra une semaine.
 C'est en partie réussie (une seule fibre pétée paralysant qu'un tiers des stands, on comblera avec un peu de wifi).
 Malgré quelques soucis de MTU et compagnie le réseau fonctionnera sur le campus.
 J'en aurai beaucoup chié à cause du manque de sommeil au point de ne plus trop parvenir à réfléchir le jour J.
 **L'évènement est un succès et permet à l'asso de beaucoup se voir et être active, l'ambiance est au beau fixe, les voyages pizza et les restaus pour adultes soudent un peu plus l'équipe.**
 
-{{< img src="*rmll.jpg" link="/static/117-rmll.jpg" alt="Moment d'euphorie lors des RMLL2014" title="L'euphorie lors des RMLL2014" >}}
+{{< img src="*rmll.jpg" link="117-rmll.jpg" alt="Moment d'euphorie lors des RMLL2014" title="L'euphorie lors des RMLL2014" >}}
 
 En Août un membre offre un Edge Router Pro à l'asso qui permettra de délester notre unique serveur de la partie réseau.
 Nous possédons donc un routeur, un switch et un serveur.
@@ -179,7 +179,7 @@ Un FAI dans moins de 300W.
 
 Pour finir l'été le rendez-vous annuel de l'Antigone des assos.
 *Probablement une des meilleure année, avec à peu près toute l'équipe Iloth présente toute la journée pour faire découvrir l'asso à tout le monde.*
-{{< img src="*antigone-assos-2014.jpg" link="/static/117-antigone-assos-2014.jpg" alt="Stand 2014 pour l'antigone des assos" title="Stand 2014 pour l'antigone des assos" >}}
+{{< img src="*antigone-assos-2014.jpg" link="117-antigone-assos-2014.jpg" alt="Stand 2014 pour l'antigone des assos" title="Stand 2014 pour l'antigone des assos" >}}
 On a réussi à gagner encore quelques membres.
 
 Et les trois derniers mois seront plutôt calmes.
@@ -229,7 +229,7 @@ L'équipe continue de s'étioler avec de moins en moins de membres actifs et de 
 
 Les restaus mensuels continuent de se dérouler toujours dans la bonne humeur mais on y croise de moins en moins souvent de nouvelles têtes et on y parle de moins en moins de l'asso et même au fur et à mesure, même les habitués ne sont plus 100% dispos.
 
-{{< img src="*infra-cogent.jpg" link="/static/117-infra-cogent.jpg" alt="Notre installation dans le datacenter de Cogent à Montpellier" title="Notre infra au datacenter Cogent, imaginez à peu près la même chose dans celui de Zayo" >}}
+{{< img src="*infra-cogent.jpg" link="117-infra-cogent.jpg" alt="Notre installation dans le datacenter de Cogent à Montpellier" title="Notre infra au datacenter Cogent, imaginez à peu près la même chose dans celui de Zayo" >}}
 
 Je présente deux confs, une dans un fablab de Montpellier pour y présenter la neutralité du net et aborder vite fait la brique Internet et une seconde dans un Lycée à Mendes sur les mêmes sujets.
 Je suis à peu près le seul membre actif désormais.
@@ -284,7 +284,7 @@ Et voilà.
 Tiens et d'ailleurs faisons un point sur le projet de CHATONS en collaboration avec les trois assos.
 Bha j'ai monté un Sandstorm (plateforme de cloud pour avoir pleins d'applications sans administration toussa, je ferai un article dessus un de ces quatre) sur lequel on a commencé à organiser pas mal de trucs.
 
-{{< img src="*logo-bim.png" link="/static/117-logo-bim.png" alt="Logo de BIM" title="Bienvenue sur l'Internet Montpellierain : Bib Iloth Montpel'Libre" >}}
+{{< img src="*logo-bim.png" link="117-logo-bim.png" alt="Logo de BIM" title="Bienvenue sur l'Internet Montpellierain : Bib Iloth Montpel'Libre" >}}
 
 Niveau matos on a désormais un bon gros serveur bi-proc avec 64Go de ram toussa.
 On a tout pleins d'IP dédiées aux différents services.
