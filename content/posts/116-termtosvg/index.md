@@ -11,7 +11,7 @@ editor = "kakoune"
 jdh = "https://www.journalduhacker.net/s/cvvxef/termtosvg_capturer_la_cli_dans_un_svg"
 +++
 
-{{< figure src="/static/116-termtosvg.svgz" link="/static/116-termtosvg.svgz" title="L'article en cours de rédaction ~3min" alt="Capture faites lors de la rédaction de cet article ! Peut prendre un peu de temps pour charger." >}}
+{{< img src="*16-termtosvg.svgz" link="116-termtosvg.svgz" title="L'article en cours de rédaction ~3min" alt="Capture faites lors de la rédaction de cet article ! Peut prendre un peu de temps pour charger." >}}
 
 Voilà vous le voyez sous vos yeux ébahis : *Termtosvg* est un petit logiciel en python qui permet d'enregistrer ce qu'il se passe sur votre terminal et d'en faire un joli SVG.
 
