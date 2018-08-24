@@ -214,4 +214,4 @@ Pour l'instant je publie pas SMPCD (Shell Media Player Client Daemon) car je pen
 Si jamais vous le voulez vraiment n'hésitez pas à demander.
 
 Pour dmenu pour l'instant j'ai annoncé ce que j'avais fait sur le chan irc de Suckless sans trop de réponse donc pour l'instant ça reste chez moi.
-Pour les intéressés je le fout [ici](/static/103-dmenu-4.8-nograb.patch).
+Pour les intéressés je le fout [ici](103-dmenu-4.8-nograb.patch).
