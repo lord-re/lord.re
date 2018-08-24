@@ -87,7 +87,7 @@ Si jamais le doute persiste concernant la nature du mail, voyons à quoi il ress
 
 ## Le mail en HTML
 
-{{< figure link="/static/89-spam-mail.png" title="Non je n'ai pas affiché les images (et vous ne devriez pas non plus)" src="/static/89-spam-mail.png" >}}
+{{< img link="89-spam-mail.png" title="Non je n'ai pas affiché les images (et vous ne devriez pas non plus)" src="*9-spam-mail.png" >}}
 
 Bon déjà *This message was sent to …*, c'est pas de bol c'est pas moi.
 
