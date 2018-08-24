@@ -35,7 +35,7 @@ J'ai passé ce temps à m'assurer que toutes les pièces s'emboîtent bien et à
 Le prototype peut être vu dans la vidéo ci-dessous.
 Il est basé sur rootston (wlroots), GTK et weston-keyboard − notez ces noms, ils auront leur importance plus loin.
 
-{{< figure src="/static/109-qwerty.jpg" alt="photo d'un clavier de machine à écrire en Qwerty" title="Une machine à écrire “Continental Standard” Photo issue de Wikipedia" link="https://en.wikipedia.org/wiki/File:Continental_Standard_typewriter_keyboard_-_key_detail.jpg" >}}
+{{< img src="*9-qwerty.jpg" alt="photo d'un clavier de machine à écrire en Qwerty" title="Une machine à écrire “Continental Standard” Photo issue de Wikipedia" link="https://en.wikipedia.org/wiki/File:Continental_Standard_typewriter_keyboard_-_key_detail.jpg" >}}
 
 <video class="wp-video-shortcode" id="video-52786-1" width="1024" preload="metadata" controls="controls"><source type="video/webm" src="https://videos.puri.sm/librem5/keyboard-l5-edit.webm?_=1" /><a href="https://videos.puri.sm/librem5/keyboard-l5-edit.webm">https://videos.puri.sm/librem5/keyboard-l5-edit.webm</a></video>
 
@@ -61,7 +61,7 @@ Ces méthodes d'entrées peuvent avoir plus de responsabilités que juste permet
 On pourrait avoir une touche pour corriger les erreurs de frappe, ou bien choisir une suggestion depuis un dictionnaire, trouver des synonymes, entrer des phrases complètes que j'utilise fréquemment comme “Ahoy Matey!”.
 Pour les langues asiatiques, il est quasiment indispensable d'en utiliser pour écrire.
 
-{{< figure src="/static/109-ibus-anthy-on-gedit.png" alt="Illustration d'anthy un logiciel de méthode d'entrée pour les langues asiatiques" link="https://upload.wikimedia.org/wikipedia/commons/9/92/Ibus-anthy-on-gedit.png" title="Écrire en japonais en utilisant la méthode d'entrée Anthy. Image issue de Wikipedia" >}}
+{{< img src="*9-ibus-anthy-on-gedit.png" alt="Illustration d'anthy un logiciel de méthode d'entrée pour les langues asiatiques" link="https://upload.wikimedia.org/wikipedia/commons/9/92/Ibus-anthy-on-gedit.png" title="Écrire en japonais en utilisant la méthode d'entrée Anthy. Image issue de Wikipedia" >}}
 
 En général, les méthodes d'entrée permettent à l'utilisateur d'entrée du texte, il existe une grande variété de façon de faire.
 Elles peuvent afficher un pop-up de suggestions, suggérer des phrases, reconnaître de l'écriture manuscrite or proposer carrément proposer des systèmes comme [Dasher](http://www.inference.org.uk/dasher/DasherSummary2.html).
@@ -75,7 +75,7 @@ Un compositeur Wayland agit en tant qu'intermédiaire entre les appareils et les
 Il définit comment les applications se partagent ces appareils.
 Imaginez le boxon que ce serait si toutes les applis écoutaient les clavier en même temps !
 
-{{< figure src="/static/109-input-methods-diagram.png" alt="Diagramme montrant la relation entre les différents appareils d'entrée, le compositeur au centre, puis les applis à droite à qui le compositeur redirige les entrée" link="/static/109-input-methods-diagram.png" title="" >}}
+{{< img src="*9-input-methods-diagram.png" alt="Diagramme montrant la relation entre les différents appareils d'entrée, le compositeur au centre, puis les applis à droite à qui le compositeur redirige les entrée" link="/static/109-input-methods-diagram.png" title="" >}}
 
 Voilà où la partie technique démarre.
 Wayland est un ensemble de protocole.
