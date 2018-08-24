@@ -40,7 +40,7 @@ La consommation électrique est un facteur majeur à prendre en compte mais éga
   - Nous visons désormais un écran d'une taille d'environ 5.5 à 5.7 pouces avec un ration de 18:9 ce qui nous permettrait d'inclure une plus grande batterie sans impacter le format du téléphone.
   - Nous allons également opter pour une forme chanfrein (voir la photo), au lieu de l'habituel bord arrondi. Non seulement c'est élégant, mais ça permettra une meilleure préhension tout en donnant un peu plus d'espace pour les composants internes.
 
-{{< img src="*l5-v1-turn-around.jpg" link="/static/100-l5-v1-turn-around.jpg" alt="Concept de design du Librem 5 en version 1">}}
+{{< img src="*l5-v1-turn-around.jpg" link="100-l5-v1-turn-around.jpg" alt="Concept de design du Librem 5 en version 1">}}
 
 ## Simplification de l'interface utilisateur
 Au fur et à mesure de l'avancement du Librem5, nous sommes conscient du planning serré en visant une sortie en Janvier 2019, et sommes donc concentrés sur la robustesse et l'efficacité pour la première version de l'interface mobile ("phosh"), que nous allons pousser pour devenir l'interface mobile de Gnome Shell.
@@ -49,7 +49,7 @@ Nous avons donc revus les fonctionnalités et décidé de diviser le design et s
 
 **La Phase 1** définie une interface la plus simple en terme de fonctionnalité et d'utilisation. C'est ce qui sera livré avec le téléphone en Janvier 2019.
 
-{{< img src="*l5-shell-1.jpg" link="/static/100-l5-shell-1.jpg" alt="Concept des différents éléments d'interface de l'interface phosh.">}}
+{{< img src="*l5-shell-1.jpg" link="100-l5-shell-1.jpg" alt="Concept des différents éléments d'interface de l'interface phosh.">}}
 
 Cela inclu :
 
@@ -72,7 +72,7 @@ C'est l'application qui aura en charge la gestion des contacts pour les autres a
 
 Pour cela, nous sommes en train d'adapter l'applications [Contacts](https://wiki.gnome.org/Apps/Contacts) existante en designant son agencement mobile et en ajoutant de nouveaux champs nécessaires pour les différentes applications.
 
-{{< img src="*contact-adaptive-design.jpg" link="/static/100-contact-adaptive-design.jpg" alt="Différents écrans de l'interface de l'appli Contacts à la fois sur ordinateur et sur mobile.">}}
+{{< img src="*contact-adaptive-design.jpg" link="100-contact-adaptive-design.jpg" alt="Différents écrans de l'interface de l'appli Contacts à la fois sur ordinateur et sur mobile.">}}
 
 ## Librem 5 & Fractal team hackfest à Strasbourg
 Cette semaine, certains membre de l'équipe Librem 5 (incluant moi-même) seront au [Fractal Hackfest 2018](https://wiki.gnome.org/Hackfests/Fractal2018) à Strasbourg dans le but d'aider l'[équipe Fractal](https://wiki.gnome.org/Apps/Fractal) à créer application basée sur [Matrix](https://matrix.org) à la fois jolie et sécurisée à la fois sur ordinateur que sur plateforme mobile.

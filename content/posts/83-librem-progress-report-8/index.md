@@ -38,7 +38,7 @@ Ceci amène son lot de redondance et de confusion en terme de fonctionnalité.
 Un exemple évident sont les applications de communication, où chacune possède sa façon de gérer les contacts, leur propre protocole de communication verrouillé et isolé et où une tonne d'application vous implémenter les mêmes choses dans le même but (passer des appels et envoyer des messages) en tentant d'être la plus flashy pour attirer et retenir le plus d'utilisateurs.
 Une image vaut mieux que mille mots :
 
-{{< img src="*3-diagram1.png" title="Écosystème d'applications en compétition" alt="Diagramme présentant la redondance des données et des fonctionnalité d'un écosystème d'application en compétition" link="/static/83-diagram1.png" >}}
+{{< img src="*3-diagram1.png" title="Écosystème d'applications en compétition" alt="Diagramme présentant la redondance des données et des fonctionnalité d'un écosystème d'application en compétition" link="83-diagram1.png" >}}
 
 ## Envisager un écosystème harmonieux d'applications
 Dans le monde réel, les écosystèmes durables sont fait d'entités biologiques interagissants ensembles en harmonie ou symbiose.
@@ -55,7 +55,7 @@ Cela permettra d'obtenir une expérience unifiée au travers des différents app
 Ces petites applications peuvent être vue comme des «fonctionnalités» du système.
 1 but = 1 fonctionnalité
 
-{{< img src="*83-diagram2.png" title="Écosystème d'applications en collaboration" alt="diagramme présentant la symbiose d'applications en collaboration" link="/static/83-diagram2.png" >}}
+{{< img src="*83-diagram2.png" title="Écosystème d'applications en collaboration" alt="diagramme présentant la symbiose d'applications en collaboration" link="83-diagram2.png" >}}
 
 Pour cela, les grandes lignes des Human Interface Guidelines (recommandation pour les interfaces avec les humains) concernant les fonctionnalités seraient :
 

@@ -17,7 +17,7 @@ I admit that i have a very volatile memory. I can't remember a thing I only do o
 ## Commands history
 Yous shell log every command you enter in a file. This file is *history* or *zhistory* somewhore in your */home*. Most of shells lets you search automatically in this file with **Ctrl-r** which is not bad. But that's far from optimal. We will add a script to ZSH the great.
 
-Put [this file](/static/zsh-history-substring-search.zsh) in */etc/zsh/zsh-history-substring-search.zsh* and we now need to tell ZSH how to use it. Go in */etc/zsh/zshrc* and add ```source /etc/zsh/zsh-history-substring-search.zsh``` in the beggining (where all other "sources" are (it's better sort them together). 
+Put [this file](zsh-history-substring-search.zsh) in */etc/zsh/zsh-history-substring-search.zsh* and we now need to tell ZSH how to use it. Go in */etc/zsh/zshrc* and add ```source /etc/zsh/zsh-history-substring-search.zsh``` in the beggining (where all other "sources" are (it's better sort them together). 
 
 Now we must bind a key to trigger the script. Stil il */etc/zsh/zshrc* but near the end of the file this time (with all your keybinds) : ```bindkey "^[[A" history-substring-search-up``` and ``` bindkey "^[[B" history-substring-search-down```. There you go. **^[[A** as you guess means the up arrow of your keyboard and **^[[B** the down one.
 

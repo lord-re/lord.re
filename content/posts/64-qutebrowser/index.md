@@ -25,7 +25,7 @@ Tout l'intéret de QuteBrowser est son interface utilisateur. Elle est inspirée
 
 Toutes vos interactions se feront donc au clavier. Le seul élément d'interface restant est la *status bar* en bas qui contient l'adresse de la page actuelle ainsi, que la position actuelle dans la page (en haut, à 10% du haut, tout en bas, bref pour savoir si vous pouvez descendre encore) ainsi que le numéro d'onglet de la page actuelle.
 
-{{< figure src="/static/qute1.png" title="Interface de qutebrowser" alt="capture d'écran de l'interface de qutebrowser" >}}
+{{< figure src="qute1.png" title="Interface de qutebrowser" alt="capture d'écran de l'interface de qutebrowser" >}}
 
 Comme vous pouvez le voir, c'est dépouillé.
 
@@ -33,8 +33,8 @@ Tout se fait donc avec des raccourcis claviers mimant le fonctionnement de **vim
 
 Un système très important c'est le ***f*** qui va vous permettre de *hinter* les liens. C'est à dire que chaque lien de la page va se voir attribuer un repère que vous aller taper pour l'ouvrir. Dans mon cas j'ai modifié le comportement par défaut pour utiliser le mode *number* (**:set hints.mode number**). Il me suffit donc d'appuyer sur **f** puis d'entrer quelques lettres du lien en question, s'il n'y a pas d'ambiguité, la page s'ouvre. Si plusieurs résultats sont possibles chaque résultant restant aura un numéro attribué qu'il me suffira d'écrire :
 
-{{< figure src="/static/qute2.png" title="Activation du hint" alt="capture d'écran de l'interface de qutebrowser" >}}
-{{< figure src="/static/qute3.png" title="Une fois tappé home" alt="capture d'écran de l'interface de qutebrowser" >}}
+{{< figure src="qute2.png" title="Activation du hint" alt="capture d'écran de l'interface de qutebrowser" >}}
+{{< figure src="qute3.png" title="Une fois tappé home" alt="capture d'écran de l'interface de qutebrowser" >}}
 
 
 Ça peut paraître lent et contre-intuitif au début mais au bout d'une heure ou deux c'est au final très rapide. Surtout si l'on est déjà vimiste.

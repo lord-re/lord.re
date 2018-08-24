@@ -39,26 +39,26 @@ Merci beaucoup !
 ## Avancées logicielles
 Comme expliqué [précédemment]({{< ref "/posts/71-librem-progress-report-3" >}}), nous avons reçu des i.MX 6 QuadPlus de test. Donc voilà quelques photos :
 
-{{< img src="*4-photo1.jpg" title="" alt="Photographie de la board raccordée à un écran" link="/static/74-photo1.jpg" >}}
+{{< img src="*4-photo1.jpg" title="" alt="Photographie de la board raccordée à un écran" link="74-photo1.jpg" >}}
 
 À droite, vous pouvez voir la *carte Nitrogen* avec la carte modem installée.
 Sur la gauche un écran affichant la page web Purism et en dessous une fenêtre de terminal d'où a été lancé le navigateur web.
 Remarquez la carte Micro SD pour une idée de la taille :
 
-{{< img src="*4-photo2.jpg" title="" alt="Photographie de l'écran avec une carte micro SD apposée dessus" link="/static/74-photo2.jpg" >}}
+{{< img src="*4-photo2.jpg" title="" alt="Photographie de l'écran avec une carte micro SD apposée dessus" link="74-photo2.jpg" >}}
 
 La fenêtre de terminal fait environ la taille de 3 cartes Micro SD !
 Ça démontre clairement le fait qu'il y a pas mal de travail nécessaire pour adapter les applications aux écrans à haute résolution et les rendre utilisabless avec les doigts.
 Dans la photo suivante on a posé 1 €uro et sommes passés sur l'affichage de la console :
 
-{{< img src="*4-photo3.jpg" title="" alt="L'écran avec une pièce d'un euro sur la console" link="/static/74-photo3.jpg" >}}
+{{< img src="*4-photo3.jpg" title="" alt="L'écran avec une pièce d'un euro sur la console" link="74-photo3.jpg" >}}
 
 Concernant le logiciel, nous travaillons à faire marcher la base du framework sur le matériel que nous avons à disposition.
 Une pièce essentielle est le middleware qui manipule le modem pour passer les appels et envoyer/recevoir les SMS.
 Pour cela nous nous appuyons sur [oFono](https://01.org/ofono) car c'est également utilisé par [KDE Plasma](https://plasma-mobile.org/).
 Nous avons un premier jalon à partager :
 
-{{< img src="*4-photo4.jpg" title="" alt="Capture d'écran montrant l'envoi d'un sms depuis le prototype" link="/static/74-photo4.jpg" >}}
+{{< img src="*4-photo4.jpg" title="" alt="Capture d'écran montrant l'envoi d'un sms depuis le prototype" link="74-photo4.jpg" >}}
 
 C'est le tout premier SMS envoyé via oFono depuis la carte iMX et le modem vers un smartphone classiques où la capture d'écran a été prise.
 Nous sommes donc sur le bon chemin ici avec un système qui commence à fonctionner sur de multiples systèmes comme Plasma Mobile ou un future environnement mobile [Gnome/GTK+](https://www.gnome.org/).

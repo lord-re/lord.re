@@ -71,8 +71,8 @@ C'est à dire que la partie graphique n'est plus calculée par votre CPU mais vo
 
 ## Améliorons le rendu
 
-{{< img src="*9-cb-orig.jpg" title="On va passer de ça" alt="capture d'écran de Crash Bandicoot en résolution d'origigne" link="/static/79-cb-orig.jpg" >}}
-{{< img src="*9-cb-enhanced.jpg" title="À ça" alt="capture d'écran de Crash Bandicoot avec des graphismes améliorés" link="/static/79-cb-enhanced.jpg" >}}
+{{< img src="*9-cb-orig.jpg" title="On va passer de ça" alt="capture d'écran de Crash Bandicoot en résolution d'origigne" link="79-cb-orig.jpg" >}}
+{{< img src="*9-cb-enhanced.jpg" title="À ça" alt="capture d'écran de Crash Bandicoot avec des graphismes améliorés" link="79-cb-enhanced.jpg" >}}
 
 Cet article n'est pas un tuto pour Retroarch mais juste une ptite aide pour trouver les bons réglages pour Beetle PSX HW.
 Si vous ne savez pas comment modifier les réglages et tout [RTFM](https://docs.libretro.com/).
@@ -90,7 +90,7 @@ Cette option est assez intensive en ressource mais est un must.
 Cette technique est relativement récente puisqu'elle a débarquée il y a près d'un an dans le monde de l'émulation playstation et apporte une sacré différence de rendu.
 Donc on le passe en *memory+cpu* et on active les deux options qui vont avec.
 On obtient un rendu proche de ce qu'on est habitué désormais.
-Je vous ai fait un petit [avant](/static/79-ctr-nopgxp.jpg)/[après](/static/79-ctr-pgxp.jpg) pour bien voir la différence.
+Je vous ai fait un petit [avant](79-ctr-nopgxp.jpg)/[après](79-ctr-pgxp.jpg) pour bien voir la différence.
 Admirez les lignes droites une fois activée.
 Et c'est franchement plus flagrant en mouvement.
 

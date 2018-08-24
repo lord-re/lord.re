@@ -75,7 +75,7 @@ Un compositeur Wayland agit en tant qu'intermédiaire entre les appareils et les
 Il définit comment les applications se partagent ces appareils.
 Imaginez le boxon que ce serait si toutes les applis écoutaient les clavier en même temps !
 
-{{< img src="*9-input-methods-diagram.png" alt="Diagramme montrant la relation entre les différents appareils d'entrée, le compositeur au centre, puis les applis à droite à qui le compositeur redirige les entrée" link="/static/109-input-methods-diagram.png" title="" >}}
+{{< img src="*9-input-methods-diagram.png" alt="Diagramme montrant la relation entre les différents appareils d'entrée, le compositeur au centre, puis les applis à droite à qui le compositeur redirige les entrée" link="109-input-methods-diagram.png" title="" >}}
 
 Voilà où la partie technique démarre.
 Wayland est un ensemble de protocole.

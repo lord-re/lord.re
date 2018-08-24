@@ -24,7 +24,7 @@ The main advantage of QuteBrowser (or just Qute or QB) is it's interface. It's i
 
 All your interactions will use the keyboard. The only remaining graphic interface is the *status bar* on the bottom where you have the actual URL, the scrolling percentage, and the tabs.
 
-{{< figure src="/static/qute1.png" title="Qutebrowser's interface showing the french version of my blog" alt="screenshot of qutebrowser" >}}
+{{< figure src="qute1.png" title="Qutebrowser's interface showing the french version of my blog" alt="screenshot of qutebrowser" >}}
 
 As you can see, it's quite minimalist.
 
@@ -32,8 +32,8 @@ All your interactions will be the same as in **vim**. You'll use the famous ***h
 
 One crucial thing is ***f*** which will let you *hint* all the links. It will add a small label on every links you'll have to type to open the corresponding link. In my case, i changed the mode to *number* (**:set hints.mode number**). I now just type **f** then i enter some letters of the link's text and if there is only one match it's done. If there is more than one, i just type the number of the label and it's good.
 
-{{< figure src="/static/qute2.png" title="Hint mode" alt="qutebrowser screenshot showing the hint mode" >}}
-{{< figure src="/static/qute3.png" title="After i typed home" alt="qutebrowser screenshot showing the hint mode" >}}
+{{< figure src="qute2.png" title="Hint mode" alt="qutebrowser screenshot showing the hint mode" >}}
+{{< figure src="qute3.png" title="After i typed home" alt="qutebrowser screenshot showing the hint mode" >}}
 
 It may seems slow and counter-intuitive at first but after a couple hours you'll never go back. It's way faster than the traditionnal system especially if you are already a vimist.
 
