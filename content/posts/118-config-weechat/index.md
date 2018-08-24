@@ -36,7 +36,7 @@ Les deux plugins de colorations sont purement esthétiques mais pourtant je pour
 Ça me permet de ne pas aller dans un buffer où il y a de l'activité pour rien.
 
 ## Layout
-{{< figure src="/static/118-weechat-vanilla.png" link="/static/118-weechat-vanilla.png" alt="capture d'écran de l'interface de Weechat" title="Par défaut c'est… meh" >}}
+{{< img src="*18-weechat-vanilla.png" link="/static/118-weechat-vanilla.png" alt="capture d'écran de l'interface de Weechat" title="Par défaut c'est… meh" >}}
 
 On va élaguer tout ça je vous préviens !
 
@@ -90,7 +90,7 @@ Bref ça tourne comme sur des disquettes.
 Mais mais !
 À quoi ça ressemble maintenant qu'on a tout trifouillé ?!
 
-{{< figure src="/static/118-weechat-tweakd.png" link="/static/118-weechat-tweakd.png" alt="Capture de Weechat une fois toutes les modifs effectuées" title="Beau comme un rognon !" >}}
+{{< img src="*18-weechat-tweakd.png" link="/static/118-weechat-tweakd.png" alt="Capture de Weechat une fois toutes les modifs effectuées" title="Beau comme un rognon !" >}}
 
 ## Vrac moins intéressant
 
