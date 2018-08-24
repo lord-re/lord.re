@@ -30,8 +30,8 @@ C'est enivrant de partir d'un morceau initial, de travailler dessus et soudain�
 Dans nos précédents articles nous avons décrit ce que nous avions commencé à faire et ces premiers efforts portent déjà leurs fruits lors de notre *hackfest* d'une semaine à Siegen en Allemagne où notre équipe logicielle s'est rendue.
 En plus de moi même (Nicole Faerber - Mobile Development Lead), nous ont rejoins Bob, Heather, Pedro, Dorota, Adrien, Guido et Todd.
 
-{{< figure src="/static/80-photo1.jpg"  alt="Photographie de l'équipe travaillant sur leurs ordinateurs" link="/static/80-photo1.jpg" >}}
-{{< figure src="/static/80-photo2.jpg"  alt="Photographie de l'équipe discutant" link="/static/80-photo2.jpg" >}}
+{{< img src="*0-photo1.jpg"  alt="Photographie de l'équipe travaillant sur leurs ordinateurs" link="/static/80-photo1.jpg" >}}
+{{< img src="*0-photo2.jpg"  alt="Photographie de l'équipe discutant" link="/static/80-photo2.jpg" >}}
 
 ## Compositor et Shell
 
@@ -54,9 +54,7 @@ Nous pouvons désormais nous atteler à compléter le shell et appliquer le trav
 ## Applications GTK+ adaptives (“responsives”)
 
 Un des challenges majeurs d'écrire des applications graphiques est de designer une UI de sorte à ce qu'elle puisse s'adapter à différentes tailles d'écran, géométries et résolutions.
-Le téléphone est un cas extrême car il a un grande résolution dans un tout petit format (environ 5 pouces) et est principalement utilisé en mode portrait "mais tu peux l'utiliser en paysage” et tu peux y raccorder un écran externes bien plus grand… mais tu veux utiliser les mêmes applications dans tous ces cas de figures. 
-
-Pour cela, les interfaces graphiques doivent s'adapter à leur environnement.
+Le téléphone est un cas extrême car il a un grande résolution dans un tout petit format (environ 5 pouces) et est principalement utilisé en mode portrait "mais tu peux l'utiliser en paysage” et tu peux y raccorder un écran externes bien plus grand… mais tu veux utiliser les mêmes applications dans tous ces cas de imgs. *la, les interfaces graphiques doivent s'adapter à leur environnement.
 On a vu ces principes adoptés dans le design des sites web ces dernières années sous le terme de “responsive design”.
 
 Cependant nous appelons ça **adaptive design**, ou **applications adaptives**.
@@ -116,7 +114,7 @@ Avant ça nous lanceront un site web complet dédié à PureOS et au Librem 5.
 Alors que notre équipe hardware n'a pas pu nous rejoindre à Siegen, nous avons reçus nos premiers kits d'évaluation à base d'i.MX 8M la semaine dernière et avons pu commencé à tester avec les logiciels et pilotes.
 Nous avons également une prometteuse source pour la fabrication, nous aurons une visite d'usine d'ici à la fin Mars.
 
-{{< figure src="/static/80-photo3.jpg"  alt="Photographie d'une dev board reliée à un oscilloscope." link="/static/80-photo3.jpg" >}}
+{{< img src="*0-photo3.jpg"  alt="Photographie d'une dev board reliée à un oscilloscope." link="/static/80-photo3.jpg" >}}
 
 
 ## Les pièces s'assemblent les unes aux autres
