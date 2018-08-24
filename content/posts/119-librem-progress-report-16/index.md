@@ -38,13 +38,13 @@ Au final, notre projet et sa vision semble bien reçu par la communauté GNOME.
 L'application étant nouvelle, nous sommes donc partit de zéro.
 Nous l'avons fait alors que Bob progressait dans [l'implémentation des fonctions basiques d'appels](https://puri.sm/posts/librem5-progress-report-12/).
 
-{{< figure src="/static/119-calls-app-1.png" link="/static/119-calls-app-1.png" alt="Les différents écrans visibles lors d'un appel" >}}
+{{< img src="*119-calls-app-1.png" link="/static/119-calls-app-1.png" alt="Les différents écrans visibles lors d'un appel" >}}
 
 *Calls* est supposé permettre à l'utiliateur d'utiliser les fonctions de base d'un téléphone classique mais n'est pas limité à cela.
 Elle est architecturé de façon telle qu'elle promet un haut niveau de sécurité et d'intimité (privacy) via du chiffrement de bout-en-bout de façon transparente.
 Les appels privés, entre deux appareils supportant cette fonction seront établis juste en sélectionnant un contact et en appuyant sur le bouton d'appel.
 
-{{< figure src="/static/119-calls-app-2.png" link="/static/119-calls-app-2.png" alt="Le numéroteur ainsi que les contacts de l'application Calls" >}}
+{{< img src="*119-calls-app-2.png" link="/static/119-calls-app-2.png" alt="Le numéroteur ainsi que les contacts de l'application Calls" >}}
 
 Le design complet de l'application peut être admiré dans notre propre [dépot](https://gitlab.gnome.org/Community/Design/app-mockups/tree/master/calls).
 
@@ -69,7 +69,7 @@ Il faudra cependant un peu de temps pour découper l'application existante.
 L'application simplifiée *Messages* que nous avons développée est basée sur le cas du "barbecue"; ce qui s'avère être l'utilisation majoritaire.
 Le but de *Messages* est d'être capable de gérer des SMS mais aussi des messages chiffrés de bout-en-bout de façon transparente entre deux appareils compatibles.
 
-{{< figure src="/static/119-messages-app.jpg" link="/static/119-messages-app.jpg" alt="Exemple de conversation dans Messages" >}}
+{{< img src="*119-messages-app.jpg" link="/static/119-messages-app.jpg" alt="Exemple de conversation dans Messages" >}}
 
 Le design global de *Messages* peut être reluqué dans son propre [dépot](https://gitlab.gnome.org/Community/Design/app-mockups/tree/master/messages).
 
