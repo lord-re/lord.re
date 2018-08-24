@@ -60,7 +60,7 @@ Nous avons suivi son conseil et notre dialer adopte donc cette approche.
 
 ## Bienvenue Calls
 
-{{< figure src="/static/102-call-screenshot-phone-0-small.png" link="/static/102-call-screenshot-phone-0-small.png" alt="Capture d'écran montrant l'interface du dialer.">}}
+{{< img src="*102-call-screenshot-phone-0-small.png" link="/static/102-call-screenshot-phone-0-small.png" alt="Capture d'écran montrant l'interface du dialer.">}}
 
 Notre programme s'appelle *Calls*.
 Il a une interface utilateur (UI) en GTK +3 et utilise oFono à travers une fine couche d'abstraction.
@@ -74,7 +74,7 @@ Oui, il peut ! 🙂
 ## Les rouages internes
 Le diagramme est représentation à la UML de la couche d'abstraction dans Calls :
 
-{{< figure src="/static/102-provider-abstraction-02.png" link="/static/102-provider-abstraction-02.png" alt="Diagramme UML de la couche d'abstraction" >}}
+{{< img src="*102-provider-abstraction-02.png" link="/static/102-provider-abstraction-02.png" alt="Diagramme UML de la couche d'abstraction" >}}
 
 Les classes sont des GInterfaces.
 Pour vous donner une meilleure idées de la sémantique derrière chaque interface, voici un tableau des objets que les implémentations pourront utiliser :
