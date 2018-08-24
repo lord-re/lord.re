@@ -81,21 +81,21 @@ Allez c'est parti pour une mini-sélection de démo que j'apprécie en tentant d
 Je ferai d'autres articles moins explicatifs avec plus de démos une prochaine fois.
 
 ### Thought Process - TMP
-{{< figure src="/static/77-01-thought-process.jpg" title="Un couloir sans fin mais coloré" alt="Capture d'écran de la demo Thought Process par TMP" link="https://www.youtube.com/watch?v=a6QlGknQrCM" >}}
+{{< img src="*7-01-thought-process.jpg" title="Un couloir sans fin mais coloré" alt="Capture d'écran de la demo Thought Process par TMP" link="https://www.youtube.com/watch?v=a6QlGknQrCM" >}}
 Elle est toute récente. Elle tient dans 4Ko. C'est une démo moderne sympatoche.
 On y retrouve des traits typiques actuel comme l'occlusion ambiante (les ombres dans les coins) et des effets de lumières à peu près réaliste.
 ### Logon's run - 
-{{< figure src="/static/77-02-logons-run.jpg" title="Logon's Run en Live durant la Revision 2017" alt="capture d'écran de Logon's Run on l'on voit des cubes multi-colores en 3D" link="https://www.youtube.com/watch?v=veWqxkTFs5w&t=10m58s" >}}
+{{< img src="*7-02-logons-run.jpg" title="Logon's Run en Live durant la Revision 2017" alt="capture d'écran de Logon's Run on l'on voit des cubes multi-colores en 3D" link="https://www.youtube.com/watch?v=veWqxkTFs5w&t=10m58s" >}}
 Profitez des réaction du publique lors de sa première présentation.
 Là c'est également du 2017 mais typé Old-School donc sur un Amstrad CPC avec de la 3D, ce qui, pour la machine, est un tour de force.
 ### We Stand Divided - Cocoon
-{{< figure src="/static/77-03-we-stand-divided.jpg" title="C'est ty pas mystique et intriguant ?" alt="capture d'écran de We Stand Divided montrant une sorte de ruban rectangulaire avec du texte dessus" link="https://www.youtube.com/watch?v=RbGj0frc93E" >}}
+{{< img src="*7-03-we-stand-divided.jpg" title="C'est ty pas mystique et intriguant ?" alt="capture d'écran de We Stand Divided montrant une sorte de ruban rectangulaire avec du texte dessus" link="https://www.youtube.com/watch?v=RbGj0frc93E" >}}
 C'est une de mes favorite.
 Elle date de 2015, tourne sur PC sans contrainte de taille. Elle a une très forte synesthésie et j'ai du mal à l'expliquer pourquoi mais me fascine toujours.
 Par rapport aux deux premières on est dans un style carrément différent, avec une grosse atmosphère et moins de contraintes donc un rendu plus poussé avec des modèles complexes.
 Le groupe Cocoon est français et a un sacré portfolio à son actif, je vous en posterai d'autres, soyez-en sûr.
 ### Lapsus - Maturefurk
-{{< figure src="/static/77-04-lapsus.jpg" title="On pourrait dater la démo approximativement rien qu'à ce screenshot" alt="capture montrant une image fixe très stylisée" link="https://www.youtube.com/watch?v=4nw5pj9ZUKM" >}}
+{{< img src="*7-04-lapsus.jpg" title="On pourrait dater la démo approximativement rien qu'à ce screenshot" alt="capture montrant une image fixe très stylisée" link="https://www.youtube.com/watch?v=4nw5pj9ZUKM" >}}
 Ici, je vous présente une démo de 2000 pour que vous goûtiez un peu la mode de l'époque.
 On sent un style très différent.
 Personnelement j'aime pas trop trop mais bon ça a tout de même un certain charme daté.
