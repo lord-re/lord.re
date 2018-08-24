@@ -21,7 +21,7 @@ Par contre je viens de modifier un peu la disposition du clavier et du coup c'es
 Bon donc ce clavier me sert constamment depuis tout ce temps.
 Il fonctionne superbement bien malgré son look… particulier.
 
-{{< figure src="/static/107-clavier-juin-2018.jpg" alt="Photo du clavier au 05/06/2018" link="/static/107-clavier-juin-2018.jpg" title="Le fameux clavier lors de la rédaction de l'article (admirez le repose poignet à base de SSD et de batterie)." >}}
+{{< img src="*107-clavier-juin-2018.jpg" alt="Photo du clavier au 05/06/2018" link="/static/107-clavier-juin-2018.jpg" title="Le fameux clavier lors de la rédaction de l'article (admirez le repose poignet à base de SSD et de batterie)." >}}
 
 J'ai déjà refait une soudure ou deux qui s'étaient pétées mais bon rien de bien méchant.
 Ça se refait en moins de cinq minutes montre en main.
@@ -184,7 +184,7 @@ On lui indique donc juste quel type de board on veux trifouiller dans le menu *T
 Ensuite pour démarrer la ptite applet d'upload on va dans *Sketch/Upload*
 Ce qui ouvrira une ptite fenêtre.
 
-{{< figure src="/static/107-teensy.png" alt="capture d'écran de la popup d'upload du binaire" title="Upload du binaire dans le Teensy" >}}
+{{< img src="*107-teensy.png" alt="capture d'écran de la popup d'upload du binaire" title="Upload du binaire dans le Teensy" >}}
 
 Là on ouvre *File/open hex* en allant chercher le fichier géneré précédemment.
 
