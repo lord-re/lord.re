@@ -19,7 +19,7 @@ Le jeu jouit d'une popularité certaine, d'une part pour ses qualités intrinsè
 
 *Quand on démarre Doom, on sait que dans les trente secondes qui suivent on sera dans la partie en train de s'amuser*. C'est un *plaisir instantané*, on se fait pas trop chier avec une histoire, des temps de chargements, des mécaniques de gameplay faussement poussées. Tout est fait pour s'amuser tout de suite. L'*action est frénétique* et le *feedback direct*. Avec l'âge j'ai de moins en moins de temps à consacrer aux jeux-vidéos du coup quand j'ai peu de temps j'aime pouvoir tout de suite me retrouver dans cet état d'esprit. Et avec l'opulence de contenu additionnel gratuit et de qualité c'est le summum.
 
-{{< figure src="/static/67-doom-0.jpg" title="Entrée de NERVE avec Project Brutality et l'UVD" alt="Entrée de NERVE avec Project Brutality et l'UVD" link="/static/67-doom-0.jpg" >}}
+{{< img src="*7-doom-0.jpg" title="Entrée de NERVE avec Project Brutality et l'UVD" alt="Entrée de NERVE avec Project Brutality et l'UVD" link="/static/67-doom-0.jpg" >}}
 
 ## Les moteurs
 Le moteur ayant été opensourcé, il y a eu des tas de réimplémentations du moteur. Certaines plus poussées que d'autres. Quelques-unes en ont profité pour pousser de nouvelles fonctionnalités d'autres s'évertuent à rester le plus près possible du moteur d'origine s'amusant même à reproduire les bugs. Petit tour non exhaustif des moteurs libres existants :
@@ -34,7 +34,7 @@ Le moteur ayant été opensourcé, il y a eu des tas de réimplémentations du m
 
 Voilà pour le tour, j'ai principalement choisi GZDoom. J'aime le fait qu'il tente de moderniser le feeling sans pour autant révolutionner les graphismes. On retrouve une sensation de FPS moderne dans les déplacements : le strafe, la visée libre, c'est vif tout en ayant les bons vieux graphismes qui ont un charme certain.
 
-{{< figure src="/static/67-doom-1.jpg" title="Malmené par un Overlord dans le second niveau de NERVE" alt="Malmené par un Overlord dans le second niveau de NERVE" link="/static/67-doom-1.jpg" >}}
+{{< img src="*7-doom-1.jpg" title="Malmené par un Overlord dans le second niveau de NERVE" alt="Malmené par un Overlord dans le second niveau de NERVE" link="/static/67-doom-1.jpg" >}}
 ## Les WAD
 Les WAD sont les fichiers que l'on donne à manger au moteur. Ils contiennent les assets du jeu, c'est à dire les textures, les sons, musiques, maps, campagne, ennemies, les armes… tout quoi. Il faut distinguer deux types de WAD : les IWAD et les PWAD.
 
@@ -43,7 +43,7 @@ Les WAD sont les fichiers que l'on donne à manger au moteur. Ils contiennent le
 
 Il faut bien voir que l'on peut cumuler les pwad simultannément et que l'ordre de chargement a une importance.
 
-{{< figure src="/static/67-doom-2.jpg" title="Petit aperçu de la map Starport de HellBound" alt="Capture d'écran d'une partie de Doom sur la map17 du mod Hellbound" link="/static/67-doom-2.jpg" >}}
+{{< img src="*7-doom-2.jpg" title="Petit aperçu de la map Starport de HellBound" alt="Capture d'écran d'une partie de Doom sur la map17 du mod Hellbound" link="/static/67-doom-2.jpg" >}}
 
 ## Les mods intéressants
 Un des plus populaire est le fameux [Brutal Doom](http://www.moddb.com/mods/brutal-doom]) qui se charge de moderniser le gameplay et de rajouter des armes, des ennemis et même désormais une campagne super sympa. Le jeu devient plus nerveux et encore plus amusant. La version 21 est sur le point de sortir avec des ajouts de véhicules (oui oui !). Vu le nom vous devez un peu vous douter mais le mod se targue de proposer *un peu* de gore. Ça démembre, déchiquète, mutile à tour de bras. Vous pourrez même prendre possession d'un démon pour plus de fun… Ce mod a gagné de nombreux prix depuis des années, son auteur continue de pousser son bijoux depuis des années. Il s'attèle à des variantes telles que [Brutal Doom 64](http://www.moddb.com/mods/brutal-doom-64) et évoque un éventuel Brutal Hexen !
@@ -54,7 +54,7 @@ Il existe des mods plus restreints ne cherchant qu'à modifier des détails plus
 
 Un peu de musique ? Ouai ! [Doom Metal Soundtrack vol 4](http://www.moddb.com/mods/brutal-doom/downloads/doom-metal-soundtrack-mod-volume-4). Des remix sympatoches des musiques originales.
 
-{{< figure src="/static/67-doom-3.jpg" title="Changement radical d'ambiance dans Pirate Doom" alt="Capture d'écran du mod Pirate Doom" link="/static/67-doom-3.jpg" >}}
+{{< img src="*7-doom-3.jpg" title="Changement radical d'ambiance dans Pirate Doom" alt="Capture d'écran du mod Pirate Doom" link="/static/67-doom-3.jpg" >}}
 
 ### Les campagnes
 Quelques campagnes plus ou moins sympa. Celles-ci sont jouables avec Brutal Doom ou Project Brutality ainsi qu'UVD.
