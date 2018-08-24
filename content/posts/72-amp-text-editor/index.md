@@ -20,7 +20,7 @@ La fiche technique me parle pas mal : léger, taillé pour la console, inspiré 
 
 Du coup ni une ni deux je git clone et je compile.
 
-{{< figure src="/static/72-amp-landing.png" title="Arrivée dans amp" alt="" link="/static/72-amp-landing.png" >}}
+{{< img src="*2-amp-landing.png" title="Arrivée dans amp" alt="" link="/static/72-amp-landing.png" >}}
 
 Austère comme j'aime :-)
 
@@ -41,7 +41,7 @@ Bon je pense que c'est un peu le minimum à savoir dans un tout premier temps.
 
 Et bien à ça :
 
-{{< figure src="/static/72-amp-article.png" title="L'article en cours de rédaction (remarquez les fautes)" alt="Capture d'écran de l'interface d'amp" link="/static/72-amp-article.png" >}}
+{{< img src="*2-amp-article.png" title="L'article en cours de rédaction (remarquez les fautes)" alt="Capture d'écran de l'interface d'amp" link="/static/72-amp-article.png" >}}
 
 Bon alors déjà ça ressemble plus à ce qu'on est habitué à voir. Des *lignes numérotés*, de la *coloration syntaxique* (hmmm on en reparle un peu plus loin), une *barre de status* en bas indiquant le mode, le fichier en cours et parfois même d'autres infos.
 
@@ -68,8 +68,8 @@ C'est à dire que lorsque vous êtes dans ce mode, amp va placer un peu partout 
 Vous entrez les deux lettres placées à l'endroit où vous voulez placer le curseur et hop le tour est joué.
 Une image ?
 
-{{< figure src="/static/72-amp-avant-jump.png" title="Avant le jump mode" alt="Capture d'écran illustrant le jump mode" link="/static/72-amp-avant-jump.png" >}}
-{{< figure src="/static/72-amp-pendant-jump.png" title="Une fois dans le jump mode" alt="Capture d'écran illustrant le jump mode 2" link="/static/72-amp-pendant-jump.png" >}}
+{{< img src="*2-amp-avant-jump.png" title="Avant le jump mode" alt="Capture d'écran illustrant le jump mode" link="/static/72-amp-avant-jump.png" >}}
+{{< img src="*2-amp-pendant-jump.png" title="Une fois dans le jump mode" alt="Capture d'écran illustrant le jump mode 2" link="/static/72-amp-pendant-jump.png" >}}
 
 Comme vous pouvez le constater il y a les lettres en jaune qui sont rajoutées un peu partout.
 Du coup il vous suffit de tapper celle qui vous intéresse et hop votre curseur s'y téléporte.
