@@ -23,7 +23,7 @@ Et cette équipe de sécurité publie les [GLSA](https://security.gentoo.org/gls
 
 Les GLSA sont publiées régulièrement et permettent d'être alerté assez rapidement de failles importantes.
 Pour les suivre il y a plusieurs moyens.
-Personnellement je suis [leur flux RSS](https://security.gentoo.org/glsa/feed.rss) via [Nib]({{< ref "/posts/66-nib-irc-bot.md" >}}).
+Personnellement je suis [leur flux RSS](https://security.gentoo.org/glsa/feed.rss) via [Nib]({{< ref "/posts/66-nib-irc-bot" >}}).
 
 ## GLSA-Check
 

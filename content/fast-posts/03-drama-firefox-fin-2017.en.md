@@ -12,7 +12,7 @@ title = "Last 2017 Firefox' Drama"
 +++
 Mozilla had a great year. Since Chrome's first release and its gigantic marketing (remember those video ads, giants billboards in all inhabited place, and all those links on Google's websites…), Firefox's market shares slowly diminished. But Mozilla is awakening and many of its efforts starts to show off.
 
-Now Mozilla release “oxidized” Firefox (it means they are implementing more and more code written in Rust (rust… oxide… it's not my idea, it's semi-official)) and rebuild all its infrastructure with some trade offs. The biggest one is the end of all the ancients addon's API and the adoption of a new one : webextension. It's a big loss but it's for better stability and security. Many users felt betrayed and choose to change their browser (mainly to adopt browsers with the same new addons api than firefox ([ironic](https://media.tenor.co/images/231e2f67bc42bbfcff592d58f0e9517e/raw))), [me included]({{< relref "/posts/64-qutebrowser.en.md" >}}). But finally the ultimate drama of 2017 is elsewhere.
+Now Mozilla release “oxidized” Firefox (it means they are implementing more and more code written in Rust (rust… oxide… it's not my idea, it's semi-official)) and rebuild all its infrastructure with some trade offs. The biggest one is the end of all the ancients addon's API and the adoption of a new one : webextension. It's a big loss but it's for better stability and security. Many users felt betrayed and choose to change their browser (mainly to adopt browsers with the same new addons api than firefox ([ironic](https://media.tenor.co/images/231e2f67bc42bbfcff592d58f0e9517e/raw))), [me included]({{< relref "/posts/64-qutebrowser" >}}). But finally the ultimate drama of 2017 is elsewhere.
 
 ## SpyGlass
 

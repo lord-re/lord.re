@@ -22,7 +22,7 @@ This team publish security reports called [GLSA](https://security.gentoo.org/gls
 
 These are regularly published and lets you being informed about new breaches in multiple softwares provided throught portage.
 To read them their are multiple ways.
-I follow [their RSS feed](https://security.gentoo.org/glsa/feed.rss) with [Nib]({{< ref "/posts/66-nib-irc-bot.en.md" >}}).
+I follow [their RSS feed](https://security.gentoo.org/glsa/feed.rss) with [Nib]({{< ref "/posts/66-nib-irc-bot" >}}).
 
 ## GLSA-Check
 
