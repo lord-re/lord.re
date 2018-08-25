@@ -21,7 +21,7 @@ Notre cher Mike a décidé de lancer un concours avec à la clé 5000$ de gain e
 
 Pour participer il faut envoyer 100$.
 
-## [La page en question](https://www.patrickcraig.co.uk/other/compression.php)-[cache local](https://lord.re/static/s-02-compression-challenge.html)
+## [La page en question](https://www.patrickcraig.co.uk/other/compression.php)-[cache local](original)
 Bon par contre cette fois aussi, c'est en anglais.
 
 ## TL;DR - Spoiler !

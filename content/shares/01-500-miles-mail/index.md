@@ -24,4 +24,4 @@ J'ai tout de même un doute sur la véracité mais au final c'est assez plausibl
 
 Bon par contre c'est en anglais…
 
-Allez sans plus attendre voilà [l'article en question](http://www.ibiblio.org/harris/500milemail.html) - [version en cache local](https://lord.re/static/s-01-500-miles-mail.html).
+Allez sans plus attendre voilà [l'article en question](http://www.ibiblio.org/harris/500milemail.html) - [version en cache local](original).

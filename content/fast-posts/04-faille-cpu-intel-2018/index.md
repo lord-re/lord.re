@@ -24,7 +24,7 @@ Les informations complètes seront diffusées un peu plus tard une fois que les 
 
 L'information comme quoi AMD ne serait pas impacté est arrivé dans un second temps (un [second patch](https://lkml.org/lkml/2017/12/27/2) à vrai dire).
 
-{{< figure src="/static/meltdown.min.svg" title="Logo officiel de l'attaque Meltdown" link="/static/meltdown.min.svg" >}}
+{{< img src="meltdown.min.svg" title="Logo officiel de l'attaque Meltdown" link="meltdown.min.svg" >}}
 
 ## Mais c'est grave ?
 Ouai vraiment grave. Cette faille serait exploitable à pleins de niveaux. Les systèmes virtualisés sont également impactés. Même du javascript dans un navigateur pourrait faire des saloperies apparemment.
@@ -33,7 +33,7 @@ Du coup bha même une machine perso serait exploitable via une page web. Tous le
 
 Comme dit précédemment pour l'instant on a pas tous les détails mais comme à chaque fois, on ne sait pas si la faille est déjà utilisée dans la nature.
 
-{{< figure src="/static/spectre.min.svg" title="Logo officiel de l'attaque Spectre" link="/static/spectre.min.svg" >}}
+{{< img src="spectre.min.svg" title="Logo officiel de l'attaque Spectre" link="spectre.min.svg" >}}
 
 ## Et du coup faut faire quoi ?
 Bha dès que le patch arrive pour votre OS, vous l'installez sans réfléchir.

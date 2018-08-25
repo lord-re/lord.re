@@ -21,6 +21,6 @@ A chairman contacting its sysadmin about mail which can't reach their destinatio
 
 I'm not sure this story is genuine but it is very good and well written.
 
-Here is your [webpage](http://www.ibiblio.org/harris/500milemail.html) - [local cached version](https://lord.re/static/s-01-500-miles-mail.html).
+Here is your [webpage](http://www.ibiblio.org/harris/500milemail.html) - [local cached version](original).
 
 Sorry for not translating all my french content but it takes a lot of work to produce such a great frenglish like i do…

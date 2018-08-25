@@ -44,7 +44,7 @@ Pas grand chose à faire.
 Mais il y a quand même moyen de rendre le truc invisible si un spamfilter a été mis côté serveur.
 Le but va être de planquer tout ce merdier de join/quit
 
-{{< figure src="/static/f-21-joinquit.png" link="/static/f-21-joinquit.png" alt="Une myriade infinie de Join/Quit sur le salon de La Brique Internet" title="C'est moche hein ?" >}}
+{{< img src="f-21-joinquit.png" link="f-21-joinquit.png" alt="Une myriade infinie de Join/Quit sur le salon de La Brique Internet" title="C'est moche hein ?" >}}
 
 *Weechat* possède un super truc appelés les **smartfilters** qui permettent de n'afficher les Join/Quit uniquement si la personne en question a parlé il y a quelques minutes (ce qui n'est pas le cas des bots).
 Les salons de discussions redeviennent agréables à utiliser.

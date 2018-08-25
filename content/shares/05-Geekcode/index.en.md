@@ -24,7 +24,7 @@ By the way, still there was a lot of different types of geeks.
 
 Beyond IT, *a geek is just a very passionate* so there is a lot of different types.
 
-{{< figure src="/static/s-05-types-of-geeks.jpg" link="/static/s-05-types-of-geeks.jpg" alt="drawing of 56 types of geeks by Scott Johnson" title="Can you find yourself in more than 2 of these ?" >}}
+{{< img src="s-05-types-of-geeks.jpg" link="s-05-types-of-geeks.jpg" alt="drawing of 56 types of geeks by Scott Johnson" title="Can you find yourself in more than 2 of these ?" >}}
 
 A dude named Robert A. Hayden decided to sort the geeks with a bunch of questions to establish the geekcode.
 

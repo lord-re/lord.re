@@ -23,7 +23,7 @@ Quoi qu'il en soit, déjà à l'époque une distinction existait entre les diff�
 
 Parcequ'au delà de l'informatique, en vrai, *un geek est juste une personne passionnée++* mais du coup de nombreux domaines existent et donc toute une pléthore de geeks différents !
 
-{{< figure src="/static/s-05-types-of-geeks.jpg" link="/static/s-05-types-of-geeks.jpg" alt="illustration de 56 sortes de geeks différents par Scott Johnson" title="Vous retrouvez-vous plus de deux fois là-dedans ?" >}}
+{{< img src="s-05-types-of-geeks.jpg" link="s-05-types-of-geeks.jpg" alt="illustration de 56 sortes de geeks différents par Scott Johnson" title="Vous retrouvez-vous plus de deux fois là-dedans ?" >}}
 
 Partant de ce constat, un certain Robert A. Hayden a entrepris la tâche de classer ces drôles de bêtes et de fournir un moyen d'afficher quel type de geek on est.
 Pour cela un grand questionnaire à choix multiples qui attribuent des lettres avec des symboles associés.
