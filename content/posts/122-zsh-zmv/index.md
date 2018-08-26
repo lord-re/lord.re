@@ -6,6 +6,7 @@ menu = "main"
 notoc = true
 PublishDate = 2018-08-23T17:43:55+02:00
 date = 2018-08-26T21:43:55+02:00
+lastedit = 2018-08-26T22:17:32+02:00
 title = "ZSH plus loin : ZMV"
 editor = "kakoune"
 jdh = "https://www.journalduhacker.net/s/ofg2pc/zsh_plus_loin_zmv"
@@ -45,3 +46,6 @@ L'extra-bonus vient du support des *modifiers* et du *globbing* de ZSH mais ça 
 Avec ces deux bidules supplémentaires, il est possible d'ajouter des critères pas mal du tout.
 ex : **<samp>zmv '* *' '$f:gs/ /_'</samp>** pour remplacer les espaces par des <abbr title="ça → _">underscores</abbr>.
 Bon j'arrive jamais à m'en rappeler, hein, mais au moins je sais où le retrouver.
+
+
+PS : Pour pouvoir l'utiliser il faut ajouter **<samp>autoload -U zmv</samp>** dans votre *~/.zshrc*.
