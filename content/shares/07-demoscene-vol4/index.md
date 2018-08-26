@@ -4,16 +4,15 @@ Description = "Quatrième excursion dans la demoscene pour une fournée de pc de
 Categories = ["demoscene", "art", "demo"]
 menu = "main"
 notoc = true
-draft = true
 PublishDate = 2018-08-24T13:33:19+02:00
-date = 2018-08-24T13:33:19+02:00
-title = "Demoscene Vol4"
+date = 2018-08-26T12:33:19+02:00
+title = "La demoscene vol.4"
 editor = "kakoune"
 +++
-Plus de trois mois depuis [la dernière fois]({{< ref "/posts/96-demoscene-vol3" >}}), réparrons de suite ce méfait !
+Plus de ~~trois~~  quatre mois depuis [la dernière fois]({{< ref "/posts/96-demoscene-vol3" >}}), réparrons de suite ce méfait !
 Et en plus maintenant c'est dans la section shares :-)
 
-Bon donc voici une sélection de démo sans contraintes sur du matos moderne.
+Bon donc voici une sélection de démo sans contraintes sur PC.
 
 ### Ziphead by CNCD & Fairlight
 Allez on commence direct par un sacré coup de cœur.
@@ -29,7 +28,6 @@ La synesthésie est totale, les couleurs pimpantes, techniquement sans contraint
 J'ai dit que je l'aimais ?
 Elle a fini première en pc demo compo à la *Revision 2015* et bon bha … ça le mérite quoi.
 
-
 ### Lifeforce by ASD
 Plus atmosphérique, posée, poêtique.
 Celle-ci est un classique, arrivée première lors de l'Assembly 2007 en pc demo compo.
@@ -38,7 +36,6 @@ Celle-ci est un classique, arrivée première lors de l'Assembly 2007 en pc demo
 
 Malgré les années qui commencent à s'accumuler elle est toujours bien même sur l'aspect technique.
 Le dézoom infini à la fin fait toujours son ptit effet !
-
 
 ### 1995 by Kewlers and MFX
 On remonte encore d'un an ce coup-ci pour une démo qui n'a finie que troisième lors de l'*Assembly 2006*.
@@ -51,16 +48,14 @@ La musique est génial en flirtant avec le chiptune avec par dessus un soupçon 
 Graphiquement on retrouve pas mal de motifs d'époque : des formes 3D simples, défilement d'étoiles, nuages de points, lumières volumétriques, des tunnels, des greetings, des images en surimpression avec du texte en "dessins bizarres" et des bouboules tout en raytracing.
 Bref un hommage aux anciennes démos.
 
-Je dois d'ailleurs avouer que les modèles 3D composés de ptits cubes de tailles différentes ce qui créer un effet "d'antialiasing volumétriques" (je sais pas trop comment l'expliquer) est vraiment classe.
+Je dois d'ailleurs avouer que les modèles 3D composés de ptits cubes de tailles différentes ce qui créer un effet "d'antialiasing volumétriques" (je sais pas trop comment l'expliquer) me laisse moite.
 
 J'ai toujours trouvé bizarre qu'elle ne soit pas parvenue à être première, la concurrence devait être sacrément rude cette année.
-
-
 
 ### Second Reality by Future Crew
 Bon là c'est la légende des démos.
 Une des plus connues.
-Mais je l'aime pas trop trop quand même.
+Mais je l'aime pas trop pour autant.
 
 {{< img src="*second-reality.jpg" link="https://www.youtube.com/watch?v=rFv7mHTf0nA" alt="capture d'écran de second reality d'un monstre avec une loupe devant" title="Second Reality by Future Crew" >}}
 
