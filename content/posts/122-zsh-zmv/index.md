@@ -8,6 +8,7 @@ PublishDate = 2018-08-23T17:43:55+02:00
 date = 2018-08-26T21:43:55+02:00
 title = "ZSH plus loin : ZMV"
 editor = "kakoune"
+jdh = "https://www.journalduhacker.net/s/ofg2pc/zsh_plus_loin_zmv"
 +++
 Les petites gens utilisent un environnement de bureau mais en tant que rustre, je préfère largement l'austérité d'un sombre terminal.
 
