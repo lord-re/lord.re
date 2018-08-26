@@ -5,7 +5,7 @@ Categories = ["cli", "shell"]
 menu = "main"
 notoc = true
 PublishDate = 2018-08-23T17:43:55+02:00
-date = 2018-08-25T17:43:55+02:00
+date = 2018-08-26T21:43:55+02:00
 title = "ZSH plus loin : ZMV"
 editor = "kakoune"
 +++
