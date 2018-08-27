@@ -6,6 +6,7 @@ menu = "main"
 notoc = true
 PublishDate = 2018-08-24T13:33:19+02:00
 date = 2018-08-26T12:33:19+02:00
+lastEdit = 2018-08-27T13:33:19+02:00
 title = "La demoscene vol.4"
 editor = "kakoune"
 +++
@@ -67,3 +68,4 @@ Du coup ouai pour l'époque, sortir une simili ville en 3D avec une caméra qui 
 Par contre qu'est-ce que ça manque de rythme… ce générique qui dure aussi longtemps que la démo…
 
 Bref il faut la voir une fois pour la culture mais désormais… c'est vieillot.
+Il existe un documentaire à son sujet [visible sur youtube](https://www.youtube.com/watch?v=JCVw8qQryiw).
