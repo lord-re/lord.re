@@ -1,6 +1,6 @@
 +++
 Author = "Lord"
-Description = ""
+Description = "TSMPCD est un ptit script bash fait maison pour avoir une playlist infinie sur MPD et des notifs"
 Categories = ["software", "script"]
 menu = "main"
 notoc = true
