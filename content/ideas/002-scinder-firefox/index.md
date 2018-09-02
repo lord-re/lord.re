@@ -1,7 +1,7 @@
 +++
 Author = "Lord"
 Description = "À la manière de chrome et chromium, avoir deux versions de firefox."
-Categories = ["firefox", ""]
+Categories = ["firefox"]
 menu = "main"
 notoc = true
 PublishDate = 2018-08-27T22:01:05+02:00

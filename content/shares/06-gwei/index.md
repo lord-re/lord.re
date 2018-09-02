@@ -1,7 +1,7 @@
 +++
 Author = "Lord"
 Description = "Acheter des actions Google en bourse avec le pognon gagné via Google AdSense"
-Categories = ["gafam", ""]
+Categories = ["gafam"]
 menu = "main"
 notoc = true
 PublishDate = 2018-08-23T15:17:56+02:00
