@@ -6,6 +6,7 @@ menu = "main"
 notoc = true
 PublishDate = 2018-09-02T09:35:41+02:00
 date = 2018-09-02T09:35:41+02:00
+lastEdit = 2018-09-02T18:25:41+02:00
 title = "Quelques sites/outils pour améliorer votre site"
 editor = "kakoune"
 jdf = "https://www.journalduhacker.net/s/rad4ru/quelques_sites_outils_pour_am_liorer"
@@ -19,6 +20,10 @@ Un peu de *gameification* (attribution du score) pour un *cercle vertueux*.
 En plus c'est généralement assez *rapide* et *pertinent*.
 
 Donc voilà une ptite liste de différents sites du genre :
+
+## Multiples
+  - [WebHint](https://sonarwhal.com/) : un peu de tout avec une très jolie interface et des conseils qu'on retrouve pas ailleurs. Plus poussé que les autres du genre.
+  - [Dareboost](https://www.dareboost.com/) : Très joli et assez moderne (il gère http2 par exemple), il analyse un peu la sécurité et le SEO également.
 
 ## Sécurité
 
@@ -46,6 +51,7 @@ Donc voilà une ptite liste de différents sites du genre :
   - [EcoIndex](http://www.ecoindex.fr/) : Celui-là vous jugera sur l'aspect plus environnemental de votre site.
   - [1and1 Website Checker](https://www.1and1.com/website-checker) : Bon ça vaut pas grand chose mais certains conseils sont toujours bons à prendre.
   - [PowerMapper](https://try.powermapper.com/Demo/SortSite) : Alors celui-là c'est qu'une démo mais est pas mal complet. Il fait un peu d'analyse de perf, de l'accessibilité, de l'utilisabilité, un peu de SEO, de la conformité de syntaxe…
+  - [NetRenderer](http://netrenderer.com/index.php) : Si jamais le rendu de votre site ouaib sur Internet Explorer vous intéresse…
 
 ## Pas du web mais du Mail
 
@@ -53,7 +59,18 @@ Donc voilà une ptite liste de différents sites du genre :
   - [Mail Tester](https://www.mail-tester.com/) : est pas mal pour tester un mail avant d'envoyer dans une newsletters voir à quelqu'un point il ressemble à du spam.
   - [SMTP STS Check](https://www.fraudmarc.com/smtp-mta-sts-policy-check-2/) : Pour tester votre implémentation de MTA-STS.
 
+## Pas du Mail mais du DNS
+
+  - [ViewDNS](https://viewdns.info/) : la trousse à outil classique qu'on retrouve sur d'autres sites du même genre.
+  - [ZoneMaster](https://www.zonemaster.net/) : outil de l'AFNIC très sympas si vous avez un serveur DNS pour vérifier que la conf soit correcte.
+  - [DNSSec-Analyzer](https://dnssec-analyzer.verisignlabs.com/) : Celui-là vous permettra de vérifier que votre conf DNSSec est correcte.
+  - [DNSViz](http://dnsviz.net/) : Assez similaire au précédent mais un peu plus graphique.
+ 
 -------------------------
 
 Bon avec ça, normalement vous avez très probablement de nombreuses pistes d'amélioration pour votre site et un peu aussi pour votre serveur mail.
 Je vais tenter de grappiller quelques points pour l'accessibilité encore.
+
+-------------------------
+**PS :**
+Merci à Pifyz, Pofilo et Cascador pour leur propositions !
