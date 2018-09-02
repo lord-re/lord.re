@@ -8,6 +8,7 @@ PublishDate = 2018-09-02T09:35:41+02:00
 date = 2018-09-02T09:35:41+02:00
 title = "Quelques sites/outils pour améliorer votre site"
 editor = "kakoune"
+jdf = "https://www.journalduhacker.net/s/rad4ru/quelques_sites_outils_pour_am_liorer"
 +++
 Il existe de plus en plus de sites promouvant de bonnes pratiques pour le web.
 Ça peut être à propos de l'accessibilité, ou bien de la sécurité ou des performances.
@@ -42,6 +43,7 @@ Donc voilà une ptite liste de différents sites du genre :
 
 ## Vrac
 
+  - [EcoIndex](http://www.ecoindex.fr/) : Celui-là vous jugera sur l'aspect plus environnemental de votre site.
   - [1and1 Website Checker](https://www.1and1.com/website-checker) : Bon ça vaut pas grand chose mais certains conseils sont toujours bons à prendre.
   - [PowerMapper](https://try.powermapper.com/Demo/SortSite) : Alors celui-là c'est qu'une démo mais est pas mal complet. Il fait un peu d'analyse de perf, de l'accessibilité, de l'utilisabilité, un peu de SEO, de la conformité de syntaxe…
 
