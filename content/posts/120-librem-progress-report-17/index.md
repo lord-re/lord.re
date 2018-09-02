@@ -67,7 +67,7 @@ Il y a également un début du support de l'internationalisation du coup des tra
 
 Quelques bugs ont également été éradiqués de phosh.
 Comme mentionné lors du [dernier article d'avancements](https://puri.sm/posts/librem5-progress-report-15/), des avancées ont été faites pour le support de [redshift](https://www.gnome.org/news/2017/03/gnome-3-24-released/attachment/night-light/).
-Le code est [inclus dans la branche principale](https://source.puri.sm/Librem5/phosh/merge_requests/58) ainsi qu'un correctif de bug concernant des <abbr title="situation de compétition selon wikipedia mais franchement…>races conditions</abbr> lors de l'énumération des modes vidéos.
+Le code est [inclus dans la branche principale](https://source.puri.sm/Librem5/phosh/merge_requests/58) ainsi qu'un correctif de bug concernant des <abbr title="situation de compétition selon wikipedia mais franchement…">races conditions</abbr> lors de l'énumération des modes vidéos.
 [Phosh/wlroots peuvent être démarrés par gnome-session](https://source.puri.sm/Librem5/phosh/merge_requests/83) et un [bouton accueil (logiciel) a été créé](https://source.puri.sm/Librem5/phosh/issues/27) en bas de l'écran.
 
 ### Wlroots
