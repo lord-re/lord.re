@@ -2,7 +2,7 @@
 <body>
   <div id="layout">
 {{ partial "sidebar.html" . }}
-  <div class="content">
+  <div id="content">
 {{ range where .Data.Pages "Section" "in" .Site.Params.sectionsInHomepage }}
 <!-- <section {{ if eq .Type "posts" }}class="post"{{ else if eq .Type "fast-posts" }}class="fast-post"{{ else if eq .Type "shares" }}class ="share"{{ end }}> -->
 <section class="{{.Type}}">

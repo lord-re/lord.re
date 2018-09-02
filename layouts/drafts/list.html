@@ -2,9 +2,9 @@
 <body>
   <div id="layout">
 {{ partial "sidebar.html" . }}
-    <div class="content">
-			<h1>Brouillons</h1>
-			<p>Ce qui suit sera peut-être publié, ou bien oublié.</p>
+    <div id="content">
+      <h1>Brouillons</h1>
+      <p>Ce qui suit sera peut-être publié, ou bien oublié.</p>
 {{ range .Data.Pages }}
         <section  class="posts">
           <header class="post-header">

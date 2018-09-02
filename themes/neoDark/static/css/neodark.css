@@ -60,8 +60,9 @@ aside p{
     border-right:2px solid #414;
     border-bottom:none;
   }
-  .content{
+  #content{
     margin-left:20rem;
+		color:red;
   }
   #sidebar{
     position:absolute;
@@ -90,7 +91,7 @@ aside p{
 .post-header,article{
   margin:2rem;
 }
-.content{
+#content{
   color:#757c82;
   color:#8a9199;
 }

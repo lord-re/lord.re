@@ -2,7 +2,7 @@
 <body>
   <div id="layout">
 {{ partial "sidebar.html" . }}
-    <div class="content">
+    <div id="content">
 {{ range .Data.Pages }}
       <section  class="{{.Section}}">
         <header class="post-header">
