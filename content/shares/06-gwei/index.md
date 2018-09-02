@@ -13,7 +13,7 @@ editor = "kakoune"
 Perdu au fin fond de ma mémoire impossible de remettre la main dessus.
 Et là pouf, une lueur venue de nulle part et pouf j'ai pu retrouver ce maudit site !
 
-GWEI est à *mi chemin entre la blagounette, l'œuvre artistique de génie et le plan <abbr title="porte-manteau">machiabolique</a>*.
+GWEI est à *mi chemin entre la blagounette, l'œuvre artistique de génie et le plan <abbr title="porte-manteau">machiabolique</abbr>*.
 Le concept est simple : ils ont monté quelques sites plus ou moins bidons avec des pubs <abbr title="la régie pub du gros G">AdSense</abbr>  dessus.
 Avec le pognon que Google leur donne (pour l'affichage et le clic sur les pubs), ils achètent des actions GOOG en bourse.
 
