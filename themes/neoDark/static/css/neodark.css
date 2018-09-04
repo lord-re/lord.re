@@ -1,289 +1,283 @@
 /*
 Creative Commons 4.0 BY-SA
-You can reuse it, and if you reuse it i'll be glad looking at your website :-)
+You can reuse it, and if you do i'll be glad looking at your website :-)
 */
 
 *{
-  box-sizing:border-box;
-  transition:all 0.1s ease;
-  margin:0;
+ box-sizing:border-box;
+ transition:all 0.1s ease;
+ margin:0;
 }
 html{
-  line-height:1.35em;
-  font-family:'Droid Sans';
-  background:#272b30;
+ line-height:1.35em;
+ font-family:'Droid Sans';
+ background:#272b30;
 }
 a{
-  text-decoration:none;
-  border-bottom:1px dotted;
-}
-article a{
-  text-decoration:none;
-  border-bottom:1px dashed;
-  outline:1px dotted rgba(255,255,255,0.3);
-  outline-offset:.2em;
+ text-decoration:none;
+ border-bottom:1px dotted;
+ color:#aa7c82;
 }
 a:hover{
-  outline:1px solid;
-  outline-offset:.3em;
-  border-bottom:1px dashed orangered;
+ outline:1px solid;
+ outline-offset:.3em;
+ border-bottom:1px dashed orangered;
+}
+article a{
+ text-decoration:none;
+ border-bottom:1px dashed;
+ outline:1px dotted rgba(255,255,255,0.3);
+ outline-offset:.2em;
 }
 aside{
-  padding:1rem;
-  color:#757c82;
-  text-align:center;
-  box-shadow:0 0 1em rgba(0,0,0,0.4);
-  border-bottom:2px solid #414;
+ padding:1rem;
+ text-align:center;
+ box-shadow:0 0 1em rgba(0,0,0,0.4);
+ border-bottom:2px solid #414;
 }
 .icons a{
-  display:inline-block;
-	margin:0.7rem;
+ display:inline-block;
+ margin:0.5rem;
 }
 .icons a:hover{
-	transform: scale(2);
+ transform:scale(2);
 }
 aside h1{
-  padding-bottom:1.5rem;
-  text-align:center;
+ text-align:center;
 }
 aside p{
-  font-size:.9rem;
+ font-size:.9rem;
 }
 @media (min-width:58em){
-  aside {
-    position:fixed;
-    top:0;
-    left:0;
-    bottom:0;
-    width:18rem;
-    text-align:left;
-    border-right:2px solid #414;
-    border-bottom:none;
-  }
-  #content{
-    margin-left:20rem;
-		color:red;
-  }
-  #sidebar{
-    position:absolute;
-    right:1rem;
-    bottom:1rem;
-    left:1rem;
-  }
+ aside {
+  position:fixed;
+  top:0;
+  left:0;
+  bottom:0;
+  width:18rem;
+  border-right:1px solid #414;
+  border-bottom:none;
+ }
+ #content{
+  margin-left:20rem;
+ }
+ #sidebar{
+  position:absolute;
+  right:1rem;
+  bottom:1rem;
+  left:1rem;
+ }
 }
 @media (min-width: 80em){
-  aside{
-    border-right:4px solid #414;
-  }
-  html{
-    font-size:18pt;
-  }
+ html{
+  font-size:18pt;
+ }
 }
 @media (min-width: 100em){
-  html{
-    font-size:20pt;
-  }
+ html{
+  font-size:20pt;
+ }
 }
 #drafturl{
-  color:#272b30;
-  font-size:0.5rem;
+ color:#272b30;
+ font-size:0.5rem;
 }
 .post-header,article{
-  margin:2rem;
+ margin:2rem;
 }
 #content{
-  color:#757c82;
-  color:#8a9199;
+ color:#8a9199;
 }
 main {
-  margin:2rem;
-}
-a{
-  color:#aa7c82;
+ margin:2rem;
 }
 h1 a{
-  font-size:1.7rem;
+ font-size:1.7rem;
 }
 h2{
-  font-size:1.5rem;
-  color:#8aa;
-  padding-top:1.2rem;
+ font-size:1.5rem;
+ color:#8aa;
+ padding-top:1.2rem;
 }
 h3{
-  font-size:1.3rem;
-  padding-top:1.1rem;
+ font-size:1.3rem;
+ padding-top:1.1rem;
 }
 .posts, .fast-posts, .shares, .ideas{
-  margin:1rem;
-  box-shadow:0 0 1em rgba(0,0,0,0.4);
-  text-align:justify;
-  max-width:50em;
+ margin:1rem;
+ box-shadow:0 0 1em rgba(0,0,0,0.4);
+ text-align:justify;
+ max-width:50em;
 }
 .posts:before,.shares:before,.fast-posts:before,.ideas:before{
-	font-size:0.8rem;
-	border-radius:0 0 0.4rem 0;
-	border-bottom:none;
-	border-left:none;
-	padding:0.2rem;
+ font-size:0.8rem;
+ border-radius:0 0 0.4rem 0;
+ border-bottom:none;
+ border-left:none;
+ padding:0.2rem;
 }
 .posts{
-  border-top:3px solid #547;
-  border-bottom:1px solid #436;
-  border-left:2px solid #436;
-  background:#2d2f34;
+ border-top:3px solid #547;
+ border-bottom:1px solid #436;
+ border-left:2px solid #436;
+ background:#2d2f34;
 }
 .posts:before{
-  content:"post";
-	background:#436;
-	border:solid #547;
+ content:"post";
+ background:#436;
+ border:solid #547;
 }
 .fast-posts{
-  border-top:3px solid #457;
-  border-bottom:1px solid #346;
-  border-left:2px solid #447;
-  color:#999;
-  background:#292f34;
+ border-top:3px solid #457;
+ border-bottom:1px solid #346;
+ border-left:2px solid #447;
+ color:#999;
+ background:#292f34;
 }
 .fast-posts:before{
-  content:"fast-post";
-	background:#346;
-	border:solid #457;
+ content:"fast-post";
+ background:#346;
+ border:solid #457;
 }
 .shares{
-  border-top:3px solid #d2c555;
-	border-bottom:1px solid #443;
-	border-left:2px solid #554;
-  background:#292e30;
+ border-top:3px solid #d2c555;
+ border-bottom:1px solid #443;
+ border-left:2px solid #554;
+ background:#292e30;
 }
 .shares:before{
-  content:"share";
-	background:#443;
-	border:solid #554;
+ content:"share";
+ background:#443;
+ border:solid #554;
 }
 .ideas{
-  border-top:3px solid #55c5d2;
-	border-bottom:1px solid #344;
-	border-left:2px solid #455;
-	background:#293034;
+ border-top:3px solid #55c5d2;
+ border-bottom:1px solid #344;
+ border-left:2px solid #455;
+ background:#293034;
 }
 .ideas:before{
-  content:"idées à la con";
-	background:#344;
-	border:solid #455;
+ content:"idées à la con";
+ background:#344;
+ border:solid #455;
 }
 .posts:before,.fast-posts:before,.shares:before,.ideas:before{
-	border-width:0 1px 1px 0;
+ border-width:0 1px 1px 0;
 }
 .posts h1 a{
-  color:#cac;
+ color:#cac;
 }
 .fast-posts h1 a{
-  color:#99C3D1;
+ color:#99C3D1;
 }
 .shares h1 a{
-  color:#ffa;
+ color:#ffa;
 }
 .ideas h1 a{
-  color:#aff;
+ color:#aff;
 }
 .post-category{
-	color:#aeb8f9;
-  margin-left:.6rem;
+ color:#aeb8f9;
+ margin-left:.6rem;
 }
 .post-edit-date{
-  color:#777;
+ color:#888;
 }
 .posts li{
-  margin-left:1rem;
-  list-style-position:outside;
-  list-style-type:disc;
+ margin-left:1rem;
+ list-style-position:outside;
+ list-style-type:disc;
 }
 ol li,ul li{
-  padding-top:0.4rem;
-  margin-left:2rem;
+ padding-top:0.4rem;
+ margin-left:2rem;
 }
 section p{
-  padding-top:1rem;
+ padding-top:1rem;
 }
 em{
-  color:#8a8;
+ color:#8a8;
 }
 strong{
-  color:#a8a;
+ color:#a8a;
 }
 pre, :not(pre) > code{
-  border:1px dashed black;
-  box-shadow:0 0 0.5em rgba(0,0,0,0.4) inset;
-  background:#1d2024;
-  margin-top:0.5rem;
-  font-size:0.7rem;
-  padding: 0.5rem;
-  line-height:0.9rem;
+ border:1px dashed black;
+ box-shadow:0 0 0.5em rgba(0,0,0,0.4) inset;
+ background:#1d2024;
+ margin-top:0.5rem;
+ font-size:0.7rem;
+ padding: 0.5rem;
+ line-height:0.9rem;
 }
 figure h4{
-  font-size:0.7rem;
-  text-align:center;
-  background:#67a4a8;
-  font-weight:100;
-  color:black;
+ font-size:0.7rem;
+ text-align:center;
+ background:#67a4a8;
+ font-weight:100;
+ color:black;
 }
 figure{
-  margin-top:0.5rem;
-  box-shadow:0 0 1em rgba(0,0,0,0.4);
-  outline: 3px solid black;
-  text-align:center;
+ margin-top:0.5rem;
+ box-shadow:0 0 1em rgba(0,0,0,0.4);
+ outline: 3px solid black;
+ text-align:center;
 }
 figure a img{
-  max-width:100%;
+ max-width:100%;
 }
 .post-meta{
-  margin-left:2rem;
-  margin-top:1rem;
-  font-size:.8rem;
+ margin-left:2rem;
+ margin-top:1rem;
+ font-size:.8rem;
 }
 .read-more-link , .read-more-link a{
-  text-align:right;
-  color:#2aa198;
-  margin-right:1rem;
-  margin-bottom:1.3rem;
+ text-align:right;
+ color:#2aa198;
+ margin-right:1rem;
+ margin-bottom:1.3rem;
 }
 .read-more-link a:hover{
-  color:#4ab1a8;
+ color:#4ab1a8;
 }
 hr{
-  margin-top: 1rem;
-  border: 1px dashed #555;
+ margin-top: 1rem;
+ border: 1px dashed #555;
 }
 table{
-  margin:1rem;
+ margin:1rem;
 }
 thead{
-  background-color:#333;
+ background-color:#333;
 }
 tr:nth-child(even){
-  background:#222;
+ background:#222;
 }
 tr:hover{
-  background:#333;
+ background:#333;
 }
 td{
-  padding:0.3rem;
+ padding:0.3rem;
 }
 footer{
-	position:relative;
-	left:-2rem;
-	width:100%;
-  background-color:#222;
-  padding:0 2rem 1rem 2rem;
-  color:#ccc;
+ position:relative;
+ left:-2rem;
+ width:100%;
+ background-color:#222;
+ padding:0 2rem 1rem 2rem;
+ color:#ccc;
 }
 
 @font-face{
-  src:local('Droid Sans'),local('DroidSans'),url(static/css/droidsans.woff) format('woff');
-  src:local('Droid Serif'),local('DroidSerif'),url(static/css/droidserif.woff) format('woff');
+ src:local('Droid Sans'),local('DroidSans'),url(static/css/droidsans.woff) format('woff');
+ src:local('Droid Serif'),local('DroidSerif'),url(static/css/droidserif.woff) format('woff');
 }
 
 samp::selection{
-	background-color:#111;
-	color:#ccc;
+ background-color:orangered;
+ color:#fff;
+}
+samp{
+ color:#aaa;
+ font-size:1.1rem;
 }
