@@ -6,7 +6,7 @@ menu = "main"
 notoc = true
 PublishDate = 2018-09-02T09:35:41+02:00
 date = 2018-09-02T09:35:41+02:00
-lastEdit = 2018-09-02T18:25:41+02:00
+lastEdit = 2018-09-04T22:25:41+02:00
 title = "Quelques sites/outils pour améliorer votre site"
 editor = "kakoune"
 jdf = "https://www.journalduhacker.net/s/rad4ru/quelques_sites_outils_pour_am_liorer"
@@ -28,7 +28,7 @@ Donc voilà une ptite liste de différents sites du genre :
 ## Sécurité
 
   - [SSLLabs](https://www.ssllabs.com/ssltest/analyze.html) : est probablement le plus connu pour juger votre mise en place de TLS. Visez au minimum du *A*, c'est vraiment pas compliqué et c'est gratuit et n'a aucun effet secondaire.
-  - [CryptCheck](https://tls.imirhil.fr/) : moins connu mais beaucoup plus rapide et tout aussi pertinent que le précédent. Il peut également vérifier votre serveur SMTP et XMPP.
+  - [CryptCheck](https://cryptcheck.fr/) : moins connu mais beaucoup plus rapide et tout aussi pertinent que le précédent. Il peut également vérifier votre serveur SMTP et XMPP.
 
 ## Accessibilité
 
@@ -52,6 +52,8 @@ Donc voilà une ptite liste de différents sites du genre :
   - [1and1 Website Checker](https://www.1and1.com/website-checker) : Bon ça vaut pas grand chose mais certains conseils sont toujours bons à prendre.
   - [PowerMapper](https://try.powermapper.com/Demo/SortSite) : Alors celui-là c'est qu'une démo mais est pas mal complet. Il fait un peu d'analyse de perf, de l'accessibilité, de l'utilisabilité, un peu de SEO, de la conformité de syntaxe…
   - [NetRenderer](http://netrenderer.com/index.php) : Si jamais le rendu de votre site ouaib sur Internet Explorer vous intéresse…
+  - [HTML Validator](http://validator.w3.org/) : le classique du W3C pour valider la syntaxe de votre HTML.
+  - [CSS Validator](http://jigsaw.w3.org/css-validator/) : la même mais pour le CSS.
 
 ## Pas du web mais du Mail
 
@@ -73,4 +75,4 @@ Je vais tenter de grappiller quelques points pour l'accessibilité encore.
 
 -------------------------
 **PS :**
-Merci à Pifyz, Pofilo et Cascador pour leur propositions !
+Merci à Pifyz, Pofilo, Cascador et Tuxi pour leur propositions !
