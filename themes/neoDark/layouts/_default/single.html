@@ -18,8 +18,7 @@
       <main>
         {{ .Content }}
       </main>
-
-      <footer class="post-meta">
+{{ if not .Params.nofooter}}      <footer class="post-meta">
 {{ with .Params.jdh }}<p><a href="{{ . }}">En discuter sur le Journal du Hacker !</a></p>{{ end }}
 {{ if not .Params.nopaging }}
         <div class="paging">
@@ -32,7 +31,7 @@
          <section id="isso-thread"></section>
         </div>
 {{ end }}
-      </footer>
+      </footer>{{end}}
 
     </section>
   </div>
