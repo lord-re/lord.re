@@ -15,7 +15,7 @@ Ceci est une traduction libre de [cet article](https://puri.sm/posts/librem5-pro
 L'article original est sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) tout comme ma traduction.
 
 
-Ce smartphone a bénéficié d'un crowdfunding et a pour but d'apporter une alternative à Android en proposant un OS basé sur Linux et toutes les briques logiciels opensource qui vont avec.
+Ce smartphone a bénéficié d'un crowdfunding et a pour but d'apporter une alternative à Android en proposant un OS basé sur Linux et toutes les briques logicielless opensource qui vont avec.
 Ils collaborent avec le projet [Gnome](https://www.gnome.org), le projet [KDE](https://www.kde.org), [UBPorts](https://ubports.com/) et le projet [Matrix](https://matrix.org).
 Ils sont assez transparents sur leurs avancées et sont reconnus pour leur ligne de laptops.
 
@@ -31,11 +31,11 @@ Mais tout d'abord un peu de contexte historique…
 Dans le monde d'aujourd'hui, toujours plus prompt au changement, de nouveaux produits propriétaires apparaissent chaque quart d'heure.
 Certains parviennent à attirer un grand nombres d'utilisateurs et survivent sur le marché pour deux années.
 Cependant, parfois ils disparaissent au profit d'un nouveau service plus attractif dans ses fonctionnalités ou juste par la force de leur campagne marketing.
-Dans le monde des médias sociaux, on a vu Myspace disparaitre dans l'indifférence lorsque les gens ont rejoins Facebook.
+Dans le monde des médias sociaux, on a vu Myspace disparaitre dans l'indifférence lorsque les gens ont rejoint Facebook.
 Mais il y a eu bien plus de fluctuation dans le monde des messageries instantanées ces deux dernières décennies.
-Vingts ans auparavant nous utilisions ICQ jusqu'à son acquisition par Yahoo.
-Puis pour quelques temps, MSN et Yahoo Messenger ont eu leur instants de gloire.
-Le premier s'éteint en 2013, alors que Yahoo débranche son service pour ses 20 ans le 17 Juillet de cette année.
+Vingt ans auparavant nous utilisions ICQ jusqu'à son acquisition par Yahoo.
+Puis pour quelque temps, MSN et Yahoo Messenger ont eu leur instants de gloire.
+Le premier s'éteint en 2013, alors que Yahoo débranche son service pour ses 20 ans le 17 juillet de cette année.
 
 Aujourd'hui WhatsApp et Facebook-messenger sont à leur pic.
 Mais comme les habitudes des utilisateurs changent, il est fort probable que ces services ne perdurent pas et que leur durée de vie soit similaire à leurs prédécesseurs.
@@ -46,19 +46,19 @@ Les services de messagerie instantanée sont majoritairement centralisés, non-f
 Puisque le protocole et/ou le logiciel serveur n'est pas du Logiciel Libre (où le code est disponible), les utilisateurs ne peuvent savoir comment leurs données sont utilisées.
 Même si le fournisseur de service ne peut pas forcément lire vos conversations lors de l'utilisation de chiffrement de bout-en-bout, il peut tout de même savoir avec qui vous discutez et à quels moments puisqu'ils gèrent vos comptes, votre liste de contacts avec toutes les métadonnées associées.
 
-Les alternatives aux systèmes mono-fournisseur sont les systèmes décentralisés, des structures fédérées faisant fonctionner une pile logiciel complètement Libre.
+Les alternatives aux systèmes mono-fournisseur sont les systèmes décentralisés, des structures fédérées faisant fonctionner une pile logicielle complètement Libre.
 De nombreux serveurs relaient les informations en utilisant un protocole commun, permettant aux gens inscrits chez différents fournisseurs de communiquer ensemble.
-Ce type de conversation fonctionnent à peu près comme les emails.
-Bien sûr, chacun doit avoir confiance envers son fournisseur de service pour gérer son compte mais en plus les données seront aussi manipulés par d'autres stations-relais où certaines métadonnées devront être partagées avec le serveur abritant vos amis.
+Ce type de conversation fonctionne à peu près comme les emails.
+Bien sûr, chacun doit avoir confiance envers son fournisseur de service pour gérer son compte mais en plus les données seront aussi manipulées par d'autres stations-relais où certaines métadonnées devront être partagées avec le serveur abritant vos amis.
 
 XMPP (Extensible Messaging and Presence Protocol) est l'un de ces systèmes fédérés ainsi qu'un standard maintenu à long terme et bien spécifié.
 Inventé en 1999 par la Jabber Open Source Community pour faire de la messagerie instantanée, de la présence, du chat de groupe, de la voix et aussi des appels vidéos.
 De nombreuses implémentations existent.
 N'importe qui peut faire tourner un serveur XMPP avec par exemple [Prosody](https://prosody.im).
-Débuté avec un client est assez simple car il existe une multitude de clients pour toutes les plateformes ([Pidgin](http://pidgin.im), [Gajim](https://gajim.org) ou [Dino](https://dino.im) pour Linux; [Adium](https://adium.im) et [Swift](https://swift.im) pour macOS;[Conversations](https://conversations.im) sur Android; [ChatSecure](https://chatsecure.org) sur iOS) et il existe de nombreux [serveurs XMPP publics](https://list.jabber.at) à choisir (lorsque vous voulez choisir un serveur de la liste, vérifiez sa sécurité avec [IM Observatory](https://xmpp.net/index.php). Il effectue quelques connexion pour tester et évaluer le chiffrement entre le client et le serveur ainsi que le chiffrement entre serveurs).
+Débuté avec un client est assez simple car il existe une multitude de clients pour toutes les plateformes ([Pidgin](http://pidgin.im), [Gajim](https://gajim.org) ou [Dino](https://dino.im) pour Linux; [Adium](https://adium.im) et [Swift](https://swift.im) pour macOS;[Conversations](https://conversations.im) sur Android; [ChatSecure](https://chatsecure.org) sur iOS) et il existe de nombreux [serveurs XMPP publics](https://list.jabber.at) à choisir (lorsque vous voulez choisir un serveur de la liste, vérifiez sa sécurité avec [IM Observatory](https://xmpp.net/index.php). Il effectue quelques connexions pour tester et évaluer le chiffrement entre le client et le serveur ainsi que le chiffrement entre serveurs).
 
 ## SMS : old but gold
-Aujourd'hui, la plupart d'entre nous utilisons notre banque en ligne avec [son authentification à deux facteurs via SMS](https://www.howtogeek.com/361244/sms-two-factor-auth-isn%E2%80%99t-perfect-but-you-should-still-use-it/). De *nombreux* services en ligne ont également recours à ce système.
+Aujourd'hui, la plupart d'entre nous utilisent notre banque en ligne avec [son authentification à deux facteurs via SMS](https://www.howtogeek.com/361244/sms-two-factor-auth-isn%E2%80%99t-perfect-but-you-should-still-use-it/). De *nombreux* services en ligne ont également recours à ce système.
 Les SMS semblent archaïque, mais la réalité veut qu'ils jouent un grand rôle dans les technologies modernes.
 Un sondage a montré que les SMS sont le meilleur moyen pour joindre une personne avec près de 90% de taux de lecture dans les minutes suivant l'envoi.
 Pourquoi ?
@@ -71,7 +71,7 @@ Et franchement, j'envoie régulièrement des SMS lorsque je veux être sûre d'�
 
 Donc, réellement, un téléphone comme le Librem 5 se doit d'avoir une application pour gérer les SMS.
 
-**Les SMS seront gérés par notre application au nom de code “Chatty”** (le nom définitif n'est pas encore attribué), en temps que plugin pour libpurple comme interface pour ModemManager.
+**Les SMS seront gérés par notre application au nom de code “Chatty”** (le nom définitif n'est pas encore attribué), en tant que plugin pour libpurple comme interface pour ModemManager.
 
   - La libpurple supporte de nombreux protocoles de messagerie via des [plugins](https://developer.pidgin.im/wiki/ThirdPartyPlugins) et permet aux utilisateurs de se connecter à divers services simultanément depuis une seule application. Le client de messagerie ayant recours à cette lib le plus connu est Pidgin puisqu'elle a été développée pour lui.
   - Libpurple permettra ainsi à d'autres devs de créer leur propre application de SMS.
@@ -80,7 +80,7 @@ Donc, réellement, un téléphone comme le Librem 5 se doit d'avoir une applicat
 Au tout début, “Chatty” devait simplement être l'appli des SMS pour le Librem 5 à cause de nos contraintes de temps et nos ressources limitées.
 
 À force d'en discuter dans l'équipe, l'idée d'intégrer le chiffrement de bout-en-bout et les SMS dans une seule application s'est imposée.
-C'est toujours un fardeau de devoir se rappeler quel écosystème de discussion choisir lorsqu'on veux discuter avec un ami avec qui l'on a pas discuté depuis un bail, nous nous sommes dit que l'idée d'avoir une seule appli pour gérer de nombreux services différents était une évidence, d'autant plus lorsque libpurple fait tout le boulot “gratuitement”.
+C'est toujours un fardeau de devoir se rappeler quel écosystème de discussion choisir lorsqu'on veut discuter avec un ami avec qui l'on a pas discuté depuis un bail, nous nous sommes dit que l'idée d'avoir une seule appli pour gérer de nombreux services différents était une évidence, d'autant plus lorsque libpurple fait tout le boulot “gratuitement”.
 
 Néanmoins, **Chatty supportera XMPP avec le chiffrement OMEMO ainsi que les SMS lors de la sortie**.
 D'autres protocoles comme Telegram *pourrait* arriver plus tard si la fonctionnalité peut s'intégrer correctement dans l'interface.
@@ -94,7 +94,7 @@ Pour le moment Chatty peut faire la base (ce qui est probablement le plus diffic
 <video class="wp-video-shortcode" id="video-57183-1" width="960" height="540" poster="https://puri.sm/wp-content/uploads/2018/08/2018-08-Chatty-demo-video-HDR-poster.jpg" preload="metadata" controls="controls"><source type="video/mp4" src="https://puri.sm/wp-content/uploads/2018/08/Chatty-Demo.mp4?_=1" /><a href="https://puri.sm/wp-content/uploads/2018/08/Chatty-Demo.mp4">https://puri.sm/wp-content/uploads/2018/08/Chatty-Demo.mp4</a></video>
 
 Pour le moment, les fonctions basiques de Chatty seront étendues par l'écriture de fonctions pour lier des objets GTK+ à libpurple.
-Ces fonctions de callback seront enregistrés dans les structures d'interface d'UI de libpurple pour que son noyaux gère les conversations, la liste de contacts ainsi que l'interface utilisateur.
+Ces fonctions de callback seront enregistrés dans les structures d'interface d'UI de libpurple pour que son noyau gère les conversations, la liste de contacts ainsi que l'interface utilisateur.
 
 Il reste un long chemin afin de rendre Chatty suffisamment utilisable pour le Librem 5.
 Voici certaines des tâches à accomplir en ce sens :
@@ -116,7 +116,7 @@ Des mythes persistent concernant les performances d'XMPP.
 [Cet article](https://xmpp.org/about/myths.html) les abordent.
 
 Daniel Gultsch a écrit [un long article concernant ses efforts à lui ainsi qu'Andreas Straub pour rendre le chiffrement OMEMO disponible pour de nombreux clients XMPP](https://gultsch.de/omemo_by_default.html).
-Alors qu'ils ont eu besoin de plus de deux ans, Whatsapp, par exemple, a pu déployé le chiffrement du jour au lendemain.
+Alors qu'ils ont eu besoin de plus de deux ans, Whatsapp, par exemple, a pu déployer le chiffrement du jour au lendemain.
 Mais rien ne pourra mieux décrire leur épopée que la conclusion de l'article de Daniel :
 
 “…Enabling end-to-end encryption in a homogenous environment is easier than introducing it in a heterogenous one like Jabber… However, if something is hard to achieve there are two possible approaches: Either try your best and don’t give up, or put your head in the sand and create yet another walled garden that is no different from other proprietary solutions.”
@@ -144,6 +144,6 @@ Au lieu de traverser l'océan Pacifique d'une traite, ils ont conquis les îles 
 Donc en gros au lieu de se taper un long et incertains voyage d'une traite, il est préférable de le découper en de multiples plus petits voyages pour arriver à ses fins.
 Scinder pour moins se décourager.
 
-Je me rend compte que j'ai vraiment du mal à traduire quand ça parle vraiment code.
+Je me rends compte que j'ai vraiment du mal à traduire quand ça parle vraiment code.
 Je ne connais que les termes anglais et du coup ne sait pas faire de phrases vraiment claires.
 Heureusement qu'il y en a assez peu dans ces articles…
