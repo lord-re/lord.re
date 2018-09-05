@@ -15,7 +15,7 @@ Tiens une autre idée que [j'ai tooté ce soir](https://octodon.social/@lord/100
 
 Un peu à la manière d'un Chromium et de son acolyte Chrome nous aurions donc deux versions.
 
-*Une version Made in Mozilla Corp.* avec toutes les décisions à la con : partenariat Google, partenariat Pocket (bon c'est racheté depuis mais bon), partenariat Laserlike, les DRM, … bref tous les trucs qui génère du pognon et qu'il faut absolument proposer à Madame Michu.
+*Une version Made in Mozilla Corp.* avec toutes les décisions à la con : partenariat Google, partenariat Pocket (bon c'est racheté depuis mais bon), partenariat Laserlike, les DRM … bref tous les trucs qui génère du pognon et qu'il faut absolument proposer à Madame Michu.
 Le Firefox actuel avec ses logos et tout.
 
 *Une version Made in Mozilla Foundation* sans les partenariats chiants, sans le branding, sans télémetrie, une version bien quoi.
