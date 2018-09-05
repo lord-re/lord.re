@@ -15,7 +15,7 @@ AV1 est un nouveau codec vidéo.
 Un de plus sauf que lui est fait par [AOMedia](https://aomedia.org/).
 
 ## AOMedia : Alliance for Open Media
-AOMedia est un organisme assez récent qui a pour but créer un codec sans royalties.
+AOMedia est un organisme assez récent qui a pour but de créer un codec sans royalties.
 Ça peut paraître con mais jusqu'à présent la grande majorité des codecs vidéos étaient sous la houlette de MPEG-LA, une entreprise faisant son beurre sur la revente de licence pour ses codecs.
 AOMedia regroupe de très nombreuses entreprises ayant ras-le-cul de payer pour ça.
 
@@ -30,7 +30,7 @@ Cisco bossait sur [Thor](https://blogs.cisco.com/collaboration/world-meet-thor-a
 
 Google était sur [VP10](https://www.webmproject.org/vp9/) (désolé c'est le lien pour VP9 mais croyez-moi, c'était un successeur à vp9).
 
-Et donc ils se sont tous entendu pour foutre la nique à MPEG-LA.
+Et donc, ils se sont tous entendu pour foutre la nique à MPEG-LA.
 Ce codec peut donc être utilisé sans débourser un radis gratuitement partout dans le monde.
 
 Si tout se passe bien ça va se démocratiser assez vite (vu les noms derrière ça devrait se faire sans trop de soucis).
