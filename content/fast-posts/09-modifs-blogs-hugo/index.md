@@ -10,13 +10,13 @@ PublishDate = 2018-02-11T10:34:48+01:00
 date = 2018-02-11T10:34:48+01:00
 title = "Méta-actu du blog"
 +++
-Bon bha voilà après deux mois je fait un petit retour sur les avancées du blog.
+Bon bha voilà après deux mois je fais un petit retour sur les avancées du blog.
 
 ## Rythme
 Je pense avoir réussi à prendre un bon rythme.
 Ce n'est plus du tout un effort.
 Ça me vient vraiment naturellement.
-Je prend vraiment du plaisir à rédiger pour le site.
+Je prends vraiment du plaisir à rédiger pour le site.
 
 Distinguer les posts classiques et les fast-posts a été une bonne décision qui m'offre plus de spontanéité.
 
@@ -24,11 +24,11 @@ Distinguer les posts classiques et les fast-posts a été une bonne décision qu
 J'ai un poil édité le layout du site.
 
 Premièrement j'ai ajouté *la date de dernière modification d'un article* (s'il y a eu modif).
-C'est manuel pour le moment mais peut-être qu'à terme je baserai ça sur la vrai date d'édition du fichier.
+C'est manuel pour le moment mais peut-être qu'à terme je baserai ça sur la vraie date d'édition du fichier.
 
 Ensuite j'ai *corrigé les couleurs des fast-posts dans les listes d'articles*.
 Pour celles et ceux ne l'ayant pas remarqué (ouai vous les lecteurs de rss par exemple), les fasts-posts ont une teinte légèrement bleutée.
-Et bien cette teinte n'était pas appliquée dans les listes d'articles.
+Hé bien cette teinte n'était pas appliquée dans les listes d'articles.
 
 Les listes ?
 Ouai c'était à moitié pété mais j'ai *réparé les listes*.
@@ -52,8 +52,8 @@ J'ai également *centré les images* qui ne l'était pas et qui du coup dés-har
 
 Et enfin j'ai *stylisé les \<table>* qui servira pour un très prochain article.
 
-## Comment je m'y prend ?
-J'ai *toujours un ou deux article sous le coude* en attente de modifs avant de parution.
+## Comment je m'y prends ?
+J'ai *toujours un ou deux articles sous le coude* en attente de modifs avant de parution.
 
 Ça me permet de *laisser quelques jours à froid l'article et d'y retourner avant de publier*.
 J'ai du coup, à mon goût, une meilleure finition des articles.
@@ -64,13 +64,13 @@ Et quelques heures/jours après je voulais toujours modifier des trucs bénins o
 Ça me permet de voir tout plein de fautes et de tournures de phrases foireuses.
 
 Je rajoute/enlève du contenu qui me convient que moyennement.
-Et tout ça sans pénaliser le rythme de sortie car je fait un roulement.
+Et tout ça sans pénaliser le rythme de sortie, car je fait un roulement.
 Bref c'est une ptite astuce qui améliore le contenu sans impact négatif.
 
 ## Et niveau outils ?
 Bon comment se présente une séance de rédaction ?
 
-  1. **cd ~/www** - c'est là où je stock mes fichiers sources
+  1. **cd ~/www** - c'est là où je stocke mes fichiers sources
   2. **hugo new posts/xx-titre-du-post.md** - pour créer le fichier avec les méta-données pré-remplies
   3. **amp** - pour démarrer [amp]({{< ref "/posts/72-amp-text-editor" >}}) et rajouter le texte
   4. **hugo server --navigateToChanged -F -D --disableFastRender** - en parallèle pour voir les modifs en live
