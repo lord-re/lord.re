@@ -40,4 +40,4 @@ Faut que je réflêchisse à comment agencer ça.
 
 Bref, j'ai poussé le CSS, avec les histoires de cache toussa vous verrez pas forcément les modifs tout de suite mais rien de bien grave.
 
-Et dans quelques jours je vous envoi un premier *share*.
+Et dans quelques jours je vous envoie un premier *share*.
