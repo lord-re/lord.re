@@ -24,7 +24,7 @@ Cette différence peut sembler mineure mais est en fait la force de ce réseau s
 On est donc sur un ensemble de serveurs parlant le même langages et **pouvant** donc communiquer entre eux.
 
 C'est un peu comme les mails.
-Il existe tout pleins de fournisseurs de mails qui acceptent de parler entre eux.
+Il existe tout plein de fournisseurs de mails qui acceptent de parler entre eux.
 Vous pouvez donc via votre adresse @gmail.com envoyer un mail à quelqu'un chez @yahoo.fr .
 Tout comme sur mastodon, sur votre instance @octodon.social vous pouvez tooter votre ami se trouvant sur @mamot.fr .
 
@@ -38,7 +38,7 @@ Bref maintenant qu'on a vu ce qu'est en gros la fédération voyons les quelques
 
 ## La mort d'une instance populaire
 Le Fediverse est donc peuplé d'environ 2000 instances Mastodon (mais pas que…).
-Les utilisateurs (Près de 1.5Millions) sont donc répartis entre ces instances.
+Les utilisateurs (Près de 1.5 Millions) sont donc répartis entre ces instances.
 
 Witches.town était l'une de ces instances.
 Pas la plus populaire mais pas non plus la plus petite des instances.
@@ -80,7 +80,7 @@ Tous les chans du monde accessibles en un point.
 Tout le monde au même point.
 
 Puis il y a eu mésentente et coups-bas, un nouveau réseau parallèle s'est formé pour ensuite tout refusionner.
-Et ensuite quelques temps après commencer à se fractionner de partout.
+Et ensuite quelque temp après, commencer à se fractionner de partout.
 En cinq ans on est passé d'un modèle décentralisé fédéré à un modèle multi-centralisé non fédéré.
 Trente ans plus tard l'IRC est toujours morcellé en de nombreux réseaux.
 
@@ -103,7 +103,7 @@ Parceque le succès d'un réseau social est directement lié à son nombre d'uti
 Pour virer ces crasses que sont Facebook, Twitter et tous les autres réseaux sociaux propriétaires, il faut une alternative crédible et fonctionnelle.
 Le Fediverse pourrait l'être.
 
-Bon sur ce je vous laisse, je retourne à [la fête du Fediverse](http://fediverse.party/).
+Bon sur ce, je vous laisse, je retourne à [la fête du Fediverse](http://fediverse.party/).
 
 *PS : Tiens wikipedia n'a pas d'article concernant le Fediverse.*
 
