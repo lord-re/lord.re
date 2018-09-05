@@ -30,11 +30,11 @@ Nous prenons le concept de «libre» et «liberté» sérieusement afin de colle
 Obtenir cette certification est important et un objectif capital pour nous.
 Les critères de la RYF interdissent un grand nombre de matériel ce qui rend la tâche de créer un smartphone certifiable par la RYF très compliqué.
 Il aurait été à peu près trivial de fabriquer un smartphone avec des drivers GPU non libres et un CPU intégrant le GPU et la radio en quelques mois, mais créer un smartphone classique n'est pas notre objectif.
-Nous avons des ambitions biens supérieures.
+Nous avons des ambitions bien supérieures.
 
 Nous avons choisi de fabriquer un appareil libre.
 Un appareil respectant la vie privée et la sécurité de ses utilisateurs.
-Nous l'avons choisi car c'est un challenge pour notre entreprise et pour fournir un produit se souciant réellement de la liberté logicielle et matérielle.
+Nous l'avons choisi car c'est un défi pour notre entreprise et pour fournir un produit se souciant réellement de la liberté logicielle et matérielle.
 C'est un point où nous ne ferons aucun compromis car nous savons pertinemment que c'est atteignable.
 
 Parlons donc de l'état actuel du projet.
@@ -48,10 +48,10 @@ Début 2017, lorsque nous avons commencé nos recherches pour trouver le bon SoC
 Le fait que le i.MX6 ne nécessite pas de firmware propriétaire pour une utilisation normale de smartphone combiné avec le driver libres «etnaviv» disponible étaient très attirant pour nous.
 Le fait que le SoC soit sur le marché depuis un certain temps signifie également que les drivers étaient stables et solides.
 
-À la fin de l'été 2017, nous étions alors au courant d'une nouvelle génération de Soc "i.MX 8" dont les rumeurs prédisaient la sortie prochaine.
+À la fin de l'été 2017, nous étions alors au courant d'une nouvelle génération de SoC "i.MX 8" dont les rumeurs prédisaient la sortie prochaine.
 À ce moment, nous avions déjà lancé notre campagne de crowdfunding et nous devions donc continuer sur les plans initiaux.
 La possibilité d'avoir un SoC bien plus récent suffisait pour que l'on contacte NXP et certains distributeurs pour avoir plus d'informations.
-Alors que nous continuions le travail pour les autres composants et sur l'aspect logiciel, nous avons continué de nous tenir au courant concernant les opportunité sur ce nouveau SoC pendant six mois.
+Alors que nous continuions le travail pour les autres composants et sur l'aspect logiciel, nous avons continué de nous tenir au courant concernant les opportunités sur ce nouveau SoC pendant six mois.
 Nous avons pu alors obtenir un début de documentation mais pas de date de disponibilité.
 
 Début 2018, nous avons appris que la famille d'i.MX 8 serait annoncé à l'«Embedded World» à Nürnberg en Allemagne.
@@ -66,7 +66,7 @@ Nous pensons que le compromis de changer de matériel vaut le coup.
 Le SoC n'est bien entendu pas la seule préoccupation pour le Librem 5.
 
 ## L'épreuve de fabriquer un smartphone Non-Android
-Fabriquer un téléphone non android faisant tourner un système d'exploitation approuvé par la FSF supportant toutes les fonctionnalités attendues (réseau cellulaire, Wifi, Bluetooth, écran tactile) requière de la recherche étant donné qu'aucun smartphone n'a obtenu la certification RYF et les découvertes impliques de trouver des solutions à de nouveaux problèmes.
+Fabriquer un téléphone non android faisant tourner un système d'exploitation approuvé par la FSF supportant toutes les fonctionnalités attendues (réseau cellulaire, Wifi, Bluetooth, écran tactile) requière de la recherche étant donné qu'aucun smartphone n'a obtenu la certification RYF et les découvertes impliquent de trouver des solutions à de nouveaux problèmes.
 
 L'industrie propose tout le matériel pour créer facilement un smartphone, puisque les fournisseurs de SoC incluent un modem (cellulaire et wifi) intégré.
 Une simple recette : prenez un SoC, Placez-le sur un <abbr title="un circuit imprimmé">PCB</abbr>, Ajoutez de la RAM et une puce de mémoire flash par dessus (ce sandwich s'appelle un PoP : Package on Package), Ajoutez des antennes et de l'énergie.
@@ -80,20 +80,20 @@ C'est le composant qui doit implémenter toute la famille de protocole de télé
 Il le fait en faisant tourner son propre système d'exploitation comme une boîte noire.
 Il est couverts pas des milliers de brevets détenus par des centaines d'entités différentes.
 Maintenant imaginez cela :  Le modem est situé sur le bus de la RAM du SoC !
-Du logiciel non-libre qui a non seulement accès aux données entrant et sortant du Soc, mais avec également la possibilité de les altérer.
-Parceque l'OS de ce modem est une boîte noire proprio, on a aucune idée de ce que ce composant fait et quelles sont ses vulnérabilités.
+Du logiciel non-libre qui a non seulement accès aux données entrant et sortant du SoC, mais avec également la possibilité de les altérer.
+Parce que l'OS de ce modem est une boîte noire proprio, on n'a aucune idée de ce que ce composant fait et quelles sont ses vulnérabilités.
 
 Revenons au design du Librem 5, nous estimons que ce n'est assurément pas une bonne solution.
 Le modem doit être isolé du SoC pour qu'il ne puisse pas accéder à la RAM.
-La situation s'est compliquée, lorsque lors de nos recherche pour un modem, nous avons réalisé qu'il y a très peu de fabricant et que la quasi totalité d'entres eux intègre leur modem dans un SoC.
+La situation s'est compliquée, lorsque lors de nos recherches pour un modem, nous avons réalisé qu'il y a très peu de fabricant et que la quasi totalité d'entres eux intègrent leur modem dans un SoC.
 Qui plus est, vous devez acquérir une licence pour faire tourner ces firmwares proprio dans un SoC.
 
-Cela nous a donc laissé qu'un choix : utiliser un «module» de modem tout prêt et notre propre arrangement pour isoler le modem du Soc.
+Cela nous a donc laissé qu'un choix : utiliser un «module» de modem tout prêt et notre propre arrangement pour isoler le modem du SoC.
 Il existe différents modems disponibles avec différents formats et différentes spécifications de vitesse, de fréquence radio, etc.
 En s'orientant vers un module, nous pouvons nous fournir auprès d'un fournisseur répondant à nos critères strictes et aussi permettre une isolation entre le modem et la RAM ainsi que le CPU.
 
 Pour isoler le modem, nous le placerons donc sur un (remarquablement rapide) bus USB et donc le téléphone interagira à travers l'USB au lieu de la RAM.
-Cela séparra le modem sur son propre bus sans qu'il voit d'autres données.
+Cela séparera le modem sur son propre bus sans qu'il voit d'autre données.
 
 ## Modem Wifi/Bluetooth
 Pour le Wifi et le Bluetooth nous collaborons étroitement avec Redpine Signal.
@@ -105,8 +105,8 @@ Ceci souligne l'attachement que porte Purism en tant qu'entreprise à but social
 
 ## EE, ID et MD (Electronics Engineering, Industrial Design et Mechanical Design)
 Pour trouver les bons partenaires pour fabriquer nos composants matériel, Todd et moi nous sommes rendu à Shenzhen en Chine il y a quelques temps.
-C'est l'endroit où sont fabriqués les deux tiers des smartphones sont fabriqués ; plus d'un milliard d'appareil y sont fabriqués chaque année.
-C'est ici que s'est développé une chaîne logistiques optimisée ces dernières décennies et où se retrouvent l'expertise électronique de nos jours.
+C'est l'endroit où sont fabriqués les deux tiers des smartphones ; plus d'un milliard d'appareil y sont fabriqués chaque année.
+C'est ici que s'est développé une chaîne logistique optimisée ces dernières décennies et où se retrouve l'expertise électronique de nos jours.
 Nous avons choisi cette zone car c'est ici que nous trouverions les compétences pour fabriquer les composants matériels que nous avons choisi.
 
 Sélectionner des partenaires pour la fabrication de nos designs fait maison était un exercice excitant de part les possibilités qui vont se concrétiser.
@@ -115,21 +115,21 @@ En accord avec notre planning originel nous avons commencé avec une maison de d
 
 ## État des devkits
 Si tous se passe comme prévu, nous enverrons les devkits en Octobre.
-nous avons conscience de l'impatience des centaines de developpeurs et sommes tout aussi pressé de vous permettre de travailler sur la plateforme PureOS du Librem 5.
+nous avons conscience de l'impatience des centaines de développeurs et sommes tout aussi pressé de vous permettre de travailler sur la plateforme PureOS du Librem 5.
 Nous avons pas mal mis la pression sur notre chaîne d'approvisionnement pour que tout aille aussi vite que possible.
 Ils seront équipés des SoC i.MX 8M.
 L'état actuel des choses est que nous avons terminé le design et nous travaillons vers les tests d'allumage.
-Nous sommes fiers de vous annoncés que les devkits seront assemblés et fabriqués aux USA, plus précisément à San Diego en Californie alors que la production finale des téléphone aura lieu elle en Chine.
+Nous sommes fiers de vous annoncer que les devkits seront assemblés et fabriqués aux USA, plus précisément à San Diego en Californie alors que la production finale des téléphone aura lieu elle en Chine.
 
 Avec ce nouveau SoC, les devkits auront un matériel plus récent, rapide, un GPU plus puissant (quatre cœurs au lieu de deux), 64bits ainsi qu'une consommation en baisse et moins de chauffe.
 Cela améliorera l'attractivité du téléphone pour ceux comparant avec la concurrence durant leur shopping.
 
 La documentation pour développeur des devkits est presque prête et nous pensons que ceux recevant leur kits pourront commencer à écrire des applications relativement vite.
 
-Ces trois/quatre derniers mois ont connus une grande activité ici chez Purism avec beaucoup de débrouissaillage, de négociation, de répartitions des tâches − une valse avec les différents partenaires pour travailler de concert dans un effort commun de concevoir le bon produit.
-Mais comme vous, nous sommes impatient du résultat : un téléphone fonctionnant au Libre que nous espérons voir disrupté le marché d'aujourd'hui avec des concepts innovants tout en ayant toutes les fonctionnalités d'un téléphone d'aujourd'hui.
+Ces trois/quatre derniers mois ont connus une grande activité ici chez Purism avec beaucoup de débroussaillage, de négociation, de répartitions des tâches − une valse avec les différents partenaires pour travailler de concert dans un effort commun de concevoir le bon produit.
+Mais comme vous, nous sommes impatient du résultat : un téléphone fonctionnant au Libre que nous espérons voir disrupter le marché d'aujourd'hui avec des concepts innovants tout en ayant toutes les fonctionnalités d'un téléphone d'aujourd'hui.
 
-{{< img src="devkits-parts-table.jpg" link="devkits-parts-table.jpg" alt="photographie d'une table jonché de sachets de composants electroniques" title="Des éléments du devkits dans nos bureaux Allemands. Le design des PCB que nous construisons comprennent plus de 700 composants" >}}
+{{< img src="devkits-parts-table.jpg" link="devkits-parts-table.jpg" alt="photographie d'une table jonché de sachets de composants électroniques" title="Des éléments du devkits dans nos bureaux Allemands. Le design des PCB que nous construisons comprennent plus de 700 composants" >}}
 
 ## État de la feuille de route du Librem 5
 Abordons le planning de sortie du Librem 5.
@@ -152,28 +152,28 @@ Nous souhaitons être réalistes dans nos projections en se basant sur quelques 
 
 Vous vous demandez probablement pourquoi les plans pour les devkits ne sont pas plus impactés que ça comparé aux Librem 5.
 Les devkits sont fait pour être branchés et ne sont donc pas impacté négativement par les bugs dans le silicium.
-Ils seront donc livrés avec les puces contenant ces bugs, mais cela n'affectera pas les développeurs (puisque c'est pas comme si vous vouliez vous balader avec le devkit avec une longue autonomie).
+Ils seront donc livrés avec les puces contenant ces bugs, mais cela n'affectera pas les développeurs (puisque ce n'est pas comme si vous vouliez vous balader avec le devkit avec une longue autonomie).
 
 Pour vous ouvrir l'appétit, admirez quelques schémas des devkits (ne les utilisez pas comme référence !) ainsi que quelques rendus 3D pour le plaisir des yeux.
 
 {{< img src="dev-kit-blueprint.jpg" link="dev-kit-blueprint.jpg" alt="un schéma de devkit assez joli où l'on voit quelques composants majeurs" title="Un des premiers schéma du devkit" >}}
-{{< img src="devkit-front-back-combined.png" link="devkit-front-back-combined.png" alt="un rendu 3D du devkit avant et arrière plutôt réaliste" title="Rendu 3D du devkit Librem 5 avant et arirère" >}}
+{{< img src="devkit-front-back-combined.png" link="devkit-front-back-combined.png" alt="un rendu 3D du devkit avant et arrière plutôt réaliste" title="Rendu 3D du devkit Librem 5 avant et arrière" >}}
 
-Au delà des devkits, un détails qui devrait tous vous plaire est l'utilisation d'une batterie remplaçable par l'utilisateur : contrairement à la majorité des smartphones sur le marché aujourd'hui, les notre n'auront pas leur batterie soudée sur la carte mère et la coque ne sera pas collée.
+Au delà des devkits, un détail qui devrait tous vous plaire est l'utilisation d'une batterie remplaçable par l'utilisateur : contrairement à la majorité des smartphones sur le marché aujourd'hui, les nôtres n'auront pas leur batterie soudée sur la carte mère et la coque ne sera pas collée.
 
 Les schémas du design du téléphone sont à peu près terminés et nous sommes actuellement concentré sur l'assemblage de l'appareil.
-Certaines pièces sont font encore défaut comme le modem, mais au delà de ça, il n'y a aucun soucis pour l'assemblage.
+Certaines pièces font encore défaut comme le modem, mais au delà de ça, il n'y a aucun soucis pour l'assemblage.
 
 Nous nous sommes également affairé pour qu'il y ait [aussi peu de branding que possible sur le téléphone](https://puri.sm/posts/librem5-progress-report-18/).
 
 ## L'épopée continue
-Une incroyable montage de travail a été nécessaire dans la création du Librem 5 et nous apprenons encore de nouvelles choses et faisons encore face à certains challenges.
-L'une des plus grande difficulté à été l'établissement d'une chaîne de fournisseurs et collaborer avec un grand nombres de partenaires à travers le monde, trouver les bons contacts pour obtenir ce que l'on veut.
-On ne doit pas sous-estimer la difficulté qu'à été de créer cette chaîne d'approvisionnement.
-L'autre challenge est de trouver du matériel compatible avec notre idéologie et la compatibilité avec le RYF de la FSF lorsque toute la chaîne d'approvisionnement est optimisée pour la réduction des coûts.
+Une incroyable montagne de travail a été nécessaire dans la création du Librem 5 et nous apprenons encore de nouvelles choses et faisons encore face à certains challenges.
+L'une des plus grande difficulté a été l'établissement d'une chaîne de fournisseurs et collaborer avec un grand nombres de partenaires à travers le monde, trouver les bons contacts pour obtenir ce que l'on veut.
+On ne doit pas sous-estimer la difficulté qu'a été de créer cette chaîne d'approvisionnement.
+L'autre défi est de trouver du matériel compatible avec notre idéologie et la compatibilité avec le RYF de la FSF lorsque toute la chaîne d'approvisionnement est optimisée pour la réduction des coûts.
 Trouver des fournisseurs permettant d'éviter tout blob dans le système d'exploitation s'est révélé, incroyablement, long et fastidieux.
 
-Nous continuerons d'avancer en comprenant mieux comme fonctionne cette partie de l'industrie.
+Nous continuerons d'avancer en comprenant mieux comment fonctionne cette partie de l'industrie.
 Le succès de notre téléphone est critique car il nous apportera une légitimité et nous donnera les moyens pour [orienter les fabricants de matériel vers notre façon de penser](https://puri.sm/about/business-model-and-vision/) en leur montrant que nous avons le potentiel d'être leader sur un marché de produits éthiques qui respectent leurs utilisateurs.
 
 Pour ceux qui ont investis en nous et continuent d'être patient avec nous : vous avez toute notre gratitude.
@@ -186,7 +186,7 @@ Original par Nicole Faerber.
 Et bha voilà !
 Ils annoncent enfin qu'ils auront du retard.
 Bon j'imagine que ça n'étonne personne mais bon, perso ça ne me gène pas du tout.
-Déjà parceque c'est que quatre mois et aussi parceque ça leur permettra de peaufiner un peu plus l'OS.
+Déjà parce que c'est que quatre mois et aussi parceque ça leur permettra de peaufiner un peu plus l'OS.
 
 En plus c'est un peu en grande partie la faute du fabricant du SoC qui a un bug matériel.
 Ça arrive assez fréquemment, surtout sur des designs complètement nouveaux.
