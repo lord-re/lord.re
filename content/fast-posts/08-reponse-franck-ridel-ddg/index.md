@@ -12,7 +12,7 @@ title = "Réponse à Franck Ridel concernant DuckDuckGo"
 jdh = "https://www.journalduhacker.net/s/cs6jnb/r_ponse_franck_ridel_concernant"
 +++
 Je viens de lire [cet article de Franck Ridel](http://franck-ridel.fr/duckduckgo-le-canard-aux-pratiques-boiteuses/).
-J'allais initialement commenter sur le JDH mais ma réponse commençait à être un poil long donc je le fais ici.
+J'allais initialement commenter sur le JDH mais ma réponse commençait à être un poil long, donc je le fais ici.
 
 -----
 
@@ -22,7 +22,7 @@ Google a un business plutôt efficace d'ammassage et de revente de données priv
 C'est un fait établi que je ne nierai pas.
 Il est également reproché à Google de collaborer avec la NSA (mais pas forcément de bon cœur).
 
-Le soucis de Google est sa position un peu trop omniprésente sur le mobile et l'Internet en général.
+Le souci de Google est sa position un peu trop omniprésente sur le mobile et l'Internet en général.
 Éviter Google sur Internet est un sport de haut niveau.
 
 ## Que propose DuckDuckGo ?
@@ -40,10 +40,10 @@ Il a annoncé que DDG hébergeait ses services sur Amazon et que par conséquent
 
 Mais ce qu'il ne dit pas c'est que pour Qwant c'est pas vraiment mieux.
 Les machines sont probablement hébergées en France.
-Il doit donc se plier aux lois Françaises et Européennes.
+Il doit donc se plier aux lois françaises et Européennes.
 *Est-ce vraiment mieux ?*
 
-Il pousse à l'amalgame pour discréditer DDG. DDG ne s'est jamais vanter de ne pas collaborer avec la NSA (/…) mais juste de respecter la vie privée.
+Il pousse à l'amalgame pour discréditer DDG. DDG ne s'est jamais vanté de ne pas collaborer avec la NSA (/…) mais juste de respecter la vie privée.
 
 ## Quelle menace ?
 
@@ -54,24 +54,24 @@ Il faut bien distinguer deux choses :
   - Collecter/analyser/recouper des données et les revendre pour du pognon à n'importe qui.
   - Se faire voler des données issues de recherche web par une organisation étatique.
 
-Ce sont deux concept diamétralement opposés qu'on ne peut pas faire passer pour la même chose.
+Ce sont deux concepts diamétralement opposés qu'on ne peut pas faire passer pour la même chose.
 
 Premièrement la portée des données n'est pas la même. DDG ne peut donner que quelques mots-clés de recherche, votre adresse IP, et les informations leakées par votre navigateur.
-Google pour sa part peut y ajouter des informations concernant votre appareil (surtout si c'est un android ou un chromebook), la localisation ultra précise via les AP wifi, les mails que vous avez lu juste avant cette recherche et que vous enverrez ensuite, le trajet que vous avez parcouru ensuite,… bref à peu tout.
+Google pour sa part peut y ajouter des informations concernant votre appareil (surtout si c'est un android ou un chromebook), la localisation ultra précise via les AP wifi, les mails que vous avez lu juste avant cette recherche et que vous enverrez ensuite, le trajet que vous avez parcouru ensuite, … bref à peu tout.
 
 Ensuite la personne qui récupère les données… Google se fera un plaisir de revendre vos infos pour quelques menus dollars.
-Ce qui est reproché à DDG c'est que les données seront récupérés par la CIA/NSA.
-Je veux pas vous faire peur mais vous passerez pas outre la CIA/NSA dès que vos paquets IP toucheront le sol étasuniens (voir un peu ailleurs aussi).
+Ce qui est reproché à DDG c'est que les données seront récupérées par la CIA/NSA.
+Je veux pas vous faire peur mais vous passerez pas outre la CIA/NSA dès que vos paquets IP toucheront le sol étasunien (voir un peu ailleurs aussi).
 
 Et je pose une vraie question :
 
 ## Est-ce plus grave que mes données soient interceptées par les US que par la France ?
 
 Réellement je ne sais pas quoi penser.
-Je suis pas spécialement sûr de préférer que mes données soient lus par des services français.
-Je ne pense pas être particulièrement que les services Français soient moins regardant que ceux US.
+Je suis pas spécialement sûr de préférer que mes données soient lues par des services français.
+Je ne pense pas être particulièrement que les services français soient moins regardants que ceux US.
 
-Parceque oui, en France aussi on surveille les Internets des français.
+Parceque oui, en France aussi on surveille les Internets des Français.
 
 ## Bref Qwant ou DDG ?
 
@@ -90,7 +90,7 @@ Voyons un peu les alternatives citées :
 
 ## DDG n'est pas qu'un méta-moteur
 
-Ils ont démarrés effectivement comme étant *juste* une surcouche de Bing le côté respect de la vie privée en plus.
+Ils ont démarré effectivement comme étant *juste* une surcouche de Bing le côté respect de la vie privée en plus.
 Ils ont depuis évolués et possèdent un bot crawler pour créer leur propre index désormais.
 Ils ont donc des résultats bien de chez eux désormais.
 
@@ -114,4 +114,4 @@ C'est le modèle utilisé par certains fournisseurs de VPN basés aux USA.
 Dans le cas de Qwant pour le moment ils jouent sur le fait que selon eux ils ne sont ni éditeur, ni hébergeur pour contourner l'obligation de collecter/conserver les données.
 Comme expliqué dans cette interview: https://www.nextinpact.com/news/97572-dans-coulisses-qwant-interview-deric-leandri.htm
 
-Aussi intéréssant à mentionner par rapport à la pique "duckduckgo c'est rien qu'un métamoteur pour bing", comme tu le fait remarquer ils ont leur propre crawler et ils utilisent aussi d'autres source mais surtout Qwant aussi utilise Bing https://www.nextinpact.com/news/103652-les-liens-moteur-qwant-avec-microsoft-bing.htm
+Aussi intéréssant à mentionner par rapport à la pique "duckduckgo c'est rien qu'un métamoteur pour bing", comme tu le fais remarquer ils ont leur propre crawler et ils utilisent aussi d'autres source mais surtout Qwant aussi utilise Bing https://www.nextinpact.com/news/103652-les-liens-moteur-qwant-avec-microsoft-bing.htm
