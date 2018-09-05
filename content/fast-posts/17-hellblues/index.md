@@ -31,7 +31,7 @@ Une ptite centaine de photos et vidéos pour tenter d'en ramener un peu plus à 
 
 Tu repenses à ces gens que tu as rencontré quelques secondes/heures.
 Les gars complètement déquerres trop bourré pour profiter des concerts.
-Les espagnols un peu bruyants de la tente d'à côté.
+Les Espagnols un peu bruyants de la tente d'à côté.
 Les meufs à trois quarts à poils avec des coups de soleil de la mort qui te font mal rien qu'en les regardant.
 Les quelques punks au loin en train de pisser dans le Kingdom of Muscadet.
 [L](https://lord.re/tmp/foot_lover.mp4)e mec à moitié amoureux de tes chaussures pendant sa petite sieste lors d'un concert de Black Metal…
