@@ -20,13 +20,13 @@ Cela va sans dire que ces blogs ne sont pas les blogs du staff Freenode mais ont
 L'attaque utilise donc une belle armada de bots, tout d'abord hébergés sur le Google Cloud, puis l'Amazon Cloud, puis juste dispersés à droite à gauche désormais.
 Les bots prennent des pseudos d'utilisateurs légitimes en ajoutant parfois quelques chiffres en fin et hop.
 
-Maintenant l'attaque se poursuit également en discussion privées.
+Maintenant l'attaque se poursuit également en discussions privées.
 
 Chouette -____-
 
 ## La défense
 ### Par les serveurs
-Pour bloquer tout ce spam côté serveur, le mieux est de mettre en place des *spamfilters* mais tous les ircd ne possèdent pas cette fonctionnalité (comme par exemple ceux qu'utilise Freenode).
+Pour bloquer tout ce spam côté serveur, le mieux est de mettre en place des *spamfilters* mais tous les ircd ne possèdent pas cette fonctionnalité (comme, par exemple, ceux qu'utilise Freenode).
 Cette technique permettra de virer les bots au moment où ils envoient les fameuses phrases qui du coup ne seront pas relayées aux utilisateurs.
 Il ne reste alors que les *join/quit* qui malheureusement ne peuvent pas être distinguées de ceux légitimes.
 
@@ -35,11 +35,11 @@ Plusieurs possibilités avec chacunes leurs inconvénients.
 
   - Voicer tous les utilisateurs légitimes et passer le salon en *<samp>+m</samp>* : il faut voicer tous les nouveaux arrivants.
   - Restreindre le salon aux utilisateurs enregistrés avec *<samp>+R</samp>* : les utilisateurs doivent avoir enregistré leur pseudo auprès des services.
-  - Restreindre le salon aux utilisateurs avec une connexion sécurisé (tls) *<samp>+z</samp>* : les utilisateurs doivent se connecter via TLS.
+  - Restreindre le salon aux utilisateurs avec une connexion sécurisée (tls) *<samp>+z</samp>* : les utilisateurs doivent se connecter via TLS.
   - Mettre en place une liste de *badwords* (la façon de faire varie beaucoup) : il faut se tapper la liste à la main et que le serveur le gère.
 
 ### Côté clients
-Pas grand chose à faire.
+Pas grand-chose à faire.
 
 Mais il y a quand même moyen de rendre le truc invisible si un spamfilter a été mis côté serveur.
 Le but va être de planquer tout ce merdier de join/quit
