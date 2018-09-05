@@ -32,6 +32,6 @@ Quelques fonctions à venir :
   - Le private mode sera boosté aux hormones
 
 Bref avec un peu de chance ça sera une très bonne chose pour tout le monde.
-Avec un peu de bol ils gagneront quelques part de marché histoire de mieux résister au vilain Chrome.
+Avec un peu de bol ils gagneront quelques parts de marché histoire de mieux résister au vilain Chrome.
 
 Voilà l'[annonce officielle](https://trac.torproject.org/projects/tor/wiki/org/meetings/2018Rome/Notes/FusionProject) de la part de Tor.
