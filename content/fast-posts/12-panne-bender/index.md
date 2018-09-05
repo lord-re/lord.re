@@ -34,7 +34,7 @@ Mais par contre j'ai pu y foutre que le skeudur de backup en usb dessus…
 
 J'espère que les autres disques durs sont intacts.
 D'ailleurs j'hésite à chopper une nouvelle alim pour refaire fonctionner Bender ou bien trouver un moyen de foutre les skeudurs sur le ptit odroid qui est largement suffisant niveau perfs…
-Je trouve pas grand chose pour branche 5 skeudurs (voir 6) sur un seul USB et qui ne fasse pas de trucs chelou genre du RAID et autre.
+Je trouve pas grand-chose pour branche 5 skeudurs (voir 6) sur un seul USB et qui ne fasse pas de trucs chelou genre du RAID et autre.
 
 Bref j'y pense et je vous tiens au courant.:w
 
