@@ -21,7 +21,7 @@ Bon je vais pas me fâcher même si c'est un peu vexant de pas avoir de réponse
 J'ai encore un peu retravaillé **NeoDark** (ouai le nom est bidon) mon thème Hugo.
 Le but est d'enfin le partager proprement avec vous pour que vous puissiez le réutiliser.
 
-Avant de vous le partager, bha il fallait virer les saloperies que j'avais fait.
+Avant de vous le partager, bha il fallait virer les saloperies que j'avais faites.
 
 Par exemple au lieu d'avoir un template spécifique pour les *posts*, un autre pour les *fast-posts* et un troisième pour les *shares*, j'ai tout viré et fait un seul template générique où juste une *class* css est modifiée.
 Du coup maintenant tout a la même gueule, juste des ptites modifs de couleurs mais c'est plus rationnel.
