@@ -30,12 +30,12 @@ Et voilà !
 Et bha non.
 Ça marchait pas.
 
-Le soucis vient du fait que Isso se protège en acceptant les commentaires que du site que vous définissez dans la config.
+Le souci vient du fait que Isso se protège en acceptant les commentaires que du site que vous définissez dans la config.
 Or le site et isso se trouvent sur la même machine mais tous deux derrière un reverse proxy où se trouve du NAT.
 Donc isso ne pouvait pas se connecter à https://lord.re/ nativement (via l'ip publique).
 
 Il me manquait un peu de **Hairpinning** sur le routeur.
-En gros dans mon LAN mes machines discutent entres elles avec des adresses *IP locales en 10.0.0.0/8*.
+En gros dans mon LAN mes machines discutent entre elles avec des adresses *IP locales en 10.0.0.0/8*.
 Par contre quand sur mon LAN je tente de me connecter à lord.re les machines tentent de se connecter à *92.167.84.9*.
 Or, depuis mon LAN cette IP n'est pas renatté vers l'intérieur…
 Un ptit coup de **<samp>/usr/bin/iptables -t nat -A POSTROUTING -s 10.0.0.0/8 -d 10.2.0.51 -p tcp --dport 443 -j MASQUERADE</samp>** et le tour est joué.
