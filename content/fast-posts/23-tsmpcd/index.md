@@ -10,7 +10,7 @@ title = "Client MPD : TSMPCD"
 editor = "kakoune"
 +++
 Il y a trois mois je vous parlait de ma migration de Groovebasin vers MPD dans [cet article]({{< ref "/posts/103-remplacer-groovebasin"  >}}).
-Et je vous avait parlé de mon Frankenscript qui me sert de *client MPD*.
+Et je vous avais parlé de mon Frankenscript qui me sert de *client MPD*.
 Entre temps il a changé de nom, maintenant c'est **TSMPCD** pour *Tiny Shell Music Player Client Daemon*.
 
 C'est donc un script bash (pas pur sh)
