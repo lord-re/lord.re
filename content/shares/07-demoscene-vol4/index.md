@@ -23,7 +23,7 @@ Allez on commence direct par un sacré coup de cœur.
 Rien que pour la musique celle-là vaut le détour.
 Elle peut passer en boucle sans soucis.
 
-Et graphiquement elle en fout plein les mirettes bon par contre ça clignote pas mal, si vous y êtes sensibles évitez ptet.
+Et graphiquement elle en fout plein les mirettes, bon par contre ça clignote pas mal, si vous y êtes sensibles évitez ptet.
 La synesthésie est totale, les couleurs pimpantes, techniquement sans contraintes (en dehors du temps réel bien entendu) et du coup ils y sont allé à fond.
 
 J'ai dit que je l'aimais ?
@@ -39,17 +39,17 @@ Malgré les années qui commencent à s'accumuler elle est toujours bien même s
 Le dézoom infini à la fin fait toujours son ptit effet !
 
 ### 1995 by Kewlers and MFX
-On remonte encore d'un an ce coup-ci pour une démo qui n'a finie que troisième lors de l'*Assembly 2006*.
+On remonte encore d'un an ce coup-ci pour une démo qui n'a fini que troisième lors de l'*Assembly 2006*.
 
 {{< img src="*1995*" link="https://www.youtube.com/watch?v=XH3mu80MpWE" alt="Capture d'écran de 1995 montrant des boules avec du raytracing" title="1995 by MFX & Kewlers" >}}
 
 C'est une démo hommage à l'année 1995.
-La musique est génial en flirtant avec le chiptune avec par dessus un soupçon de vocoder.
+La musique est géniale en flirtant avec le chiptune avec par-dessus un soupçon de vocoder.
 
 Graphiquement on retrouve pas mal de motifs d'époque : des formes 3D simples, défilement d'étoiles, nuages de points, lumières volumétriques, des tunnels, des greetings, des images en surimpression avec du texte en "dessins bizarres" et des bouboules tout en raytracing.
 Bref un hommage aux anciennes démos.
 
-Je dois d'ailleurs avouer que les modèles 3D composés de ptits cubes de tailles différentes ce qui créer un effet "d'antialiasing volumétriques" (je sais pas trop comment l'expliquer) me laisse moite.
+Je dois d'ailleurs avouer que les modèles 3D composés de ptits cubes de tailles différentes ce qui crée un effet "d'antialiasing volumétriques" (je sais pas trop comment l'expliquer) me laisse moite.
 
 J'ai toujours trouvé bizarre qu'elle ne soit pas parvenue à être première, la concurrence devait être sacrément rude cette année.
 
@@ -60,10 +60,10 @@ Mais je l'aime pas trop pour autant.
 
 {{< img src="*second-reality.jpg" link="https://www.youtube.com/watch?v=rFv7mHTf0nA" alt="capture d'écran de second reality d'un monstre avec une loupe devant" title="Second Reality by Future Crew" >}}
 
-Elle a un peu trop vieillie à mon goût.
+Elle a un peu trop vieilli à mon goût.
 Il y a toujours quelques effets sympathiques, mais la musique m'est difficilement supportable.
 
-Bon faut remettre ça dans le contexte de l'époque, Windows 95 n'était pas encore sorti, Linux n'étais pas l'ombre de ce qu'il est maintenant.
+Bon faut remettre ça dans le contexte de l'époque, Windows 95 n'était pas encore sorti, Linux n'était pas l'ombre de ce qu'il est maintenant.
 Du coup ouai pour l'époque, sortir une simili ville en 3D avec une caméra qui virevolte, un ptit effet de raytracing, une simulation de flotte 3D ça devait effectivement être assez impressionnant.
 Par contre qu'est-ce que ça manque de rythme… ce générique qui dure aussi longtemps que la démo…
 
