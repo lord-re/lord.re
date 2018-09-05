@@ -15,7 +15,7 @@ Ceci est une traduction libre de [cet article](https://puri.sm/posts/librem5-pro
 L'article original est sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) tout comme ma traduction.
 
 
-Ce smartphone a bénéficié d'un crowdfunding et a pour but d'apporter une alternative à Android en proposant un OS basé sur Linux et toutes les briques logiciels opensource qui vont avec.
+Ce smartphone a bénéficié d'un crowdfunding et a pour but d'apporter une alternative à Android en proposant un OS basé sur Linux et toutes les briques logicielles opensource qui vont avec.
 Ils collaborent avec le projet [Gnome](https://www.gnome.org), le projet [KDE](https://www.kde.org), [UBPorts](https://ubports.com/) et le projet [Matrix](https://matrix.org).
 Ils sont assez transparents sur leurs avancées et sont reconnus pour leur ligne de laptops.
 
@@ -35,18 +35,18 @@ Même si certaines ne sont pas encore montées, en voilà certaines à regarder 
   - [Making a Phone Call with GNOME](https://www.youtube.com/watch?v=3Zd_pYu-1r4&feature=youtu.be) par Bob Ham (aller directement à [la démo](https://www.youtube.com/watch?v=3Zd_pYu-1r4&t=17m31s)
   - [Librem 5 BoF session notes](https://wiki.gnome.org/GUADEC/2018/Hacking%20days/Librem5BoF/Notes)
 
-D'autres confs ont eu lieux concernant la sécurité et l'implémentation de l'interface de téléphonie avec GTK+.
+D'autres confs ont eu lieu concernant la sécurité et l'implémentation de l'interface de téléphonie avec GTK+.
 Nous vous fournirons les liens lorsque leurs montages seront terminées.
 
 ## Design
 Le Librem5 sera beau mais cela ne se fait pas sans effort.
 Dernièrement, notre équipe design s'est acharné sur la création d'un nouveau pack d'icônes pour GNOME 3.30 qui sera utilisé par le téléphone.
-Ils ont aussi créés de nouvelles maquettes pour les réglages propres à la téléphonie avec plus de réglages avancées en peaufinant également le shell.
+Ils ont aussi créé de nouvelles maquettes pour les réglages propres à la téléphonie avec plus de réglages avancées en peaufinant également le shell.
 
 ## Travail logiciel
 
 ### Images
-Les images prenaient trop de temps à être créées mais nous sommes parvenus à accélérer la procédure en faisant quelques ajustements.
+Les images prenaient trop de temps à être créées, mais nous sommes parvenus à accélérer la procédure en faisant quelques ajustements.
 Cela simplifie le dev et les tests.
 Les images ne sont pas encore complètement basées sur PureOS (toujours sur Debian buster) mais ça arrivera bientôt.
 Si vous avez utilisé la [machine virtuelle x86_64](https://developer.puri.sm/Boards/qemu.html), vous serez heureux d'apprendre que les nouvelles images permettent de [redimensionner la partition racine](https://source.puri.sm/Librem5/image-builder/issues/8) pour s'accommoder de plus d'espace (31Go).
@@ -71,11 +71,11 @@ Le code est [inclus dans la branche principale](https://source.puri.sm/Librem5/p
 [Phosh/wlroots peuvent être démarrés par gnome-session](https://source.puri.sm/Librem5/phosh/merge_requests/83) et un [bouton accueil (logiciel) a été créé](https://source.puri.sm/Librem5/phosh/issues/27) en bas de l'écran.
 
 ### Wlroots
-Du côté de wlroots de nombreux changements ont eu lieux.
-Quelques [patchs pour le supports de modes vidéos personnalisés a été inclus upstream](https://github.com/swaywm/wlroots/pull/1095).
+Du côté de wlroots de nombreux changements ont eu lieu.
+Quelques [patchs pour le support de modes vidéos personnalisés a été inclus upstream](https://github.com/swaywm/wlroots/pull/1095).
 Puisque le Librem5 ne supportera pas <abbr title="Le protocole X11 utilisé depuis des lustres sur les Unix">X</abbr>, nous devions virer les dépendances à xwayland.
 Désormais [wlroots est compilé avec ET sans le support de xwayland](https://source.puri.sm/Librem5/wlroots/merge_requests/11).
-Un [freeze de wlroots](https://source.puri.sm/Librem5/wlroots/issues/6) s'avère être causé par la déconnexion de la session ssh ayant lancé wlroots ce qui est est [débattu upstream](https://github.com/systemd/systemd/issues/9674) pour savoir comment gérer ce cas.
+Un [freeze de wlroots](https://source.puri.sm/Librem5/wlroots/issues/6) s'avère être causé par la déconnexion de la session ssh ayant lancé wlroots ce qui est [débattu upstream](https://github.com/systemd/systemd/issues/9674) pour savoir comment gérer ce cas.
 
 ### Clavier
 Le clavier ([virtboard](https://source.puri.sm/Librem5/virtboard)) bénéficiera de l'important travail ayant lieu sur le protocole text-input.
@@ -86,7 +86,7 @@ Pour le support wlroots, [une implémentation a été prototypé](https://source
 ### Calls
 Afin d'intégrer [Calls](https://source.puri.sm/Librem5/calls) dans gnome-settings-daemon et gnome-control-center, il nous est apparu évident lors des discussions au GUADEC que la meilleure façon de faire est d'utiliser [ModemManager](https://www.freedesktop.org/wiki/Software/ModemManager/) au lieu d'[oFono](https://01.org/ofono).
 Bien que jusqu'à présent tous les essais a été fait pour l'implémentation d'oFono, c'est un changement inévitable.
-L'implémentation initiale du backend ModemManager pour Calls est complète et les tests ont commencés.
+L'implémentation initiale du backend ModemManager pour Calls est complète et les tests ont commencé.
 
 L'interface de Calls s'est grandement amélioré pour ressembler aux maquettes de l'équipe design.
 En dessous vous pouvez voir l'implémentation (gauche) et sa maquette (droite).
@@ -94,7 +94,7 @@ En dessous vous pouvez voir l'implémentation (gauche) et sa maquette (droite).
 {{< img src="*120-calls-call-display.png" link="120-calls-call-display.png" alt="La maquette et l'application se ressemble comme deux gouttes d'eau" >}}
 
 ### Libhandy
-Quelques bugs ont aussi été corrigé dans [libhandy](https://source.puri.sm/Librem5/libhandy/) ainsi que du travail pour préparer l'arrivée prochaine de GTK+4.
+Quelques bugs ont aussi été corrigés dans [libhandy](https://source.puri.sm/Librem5/libhandy/) ainsi que du travail pour préparer l'arrivée prochaine de GTK+4.
 Un des problèmes réglé est une [fuite de mémoire](https://source.puri.sm/Librem5/libhandy/merge_requests/83).
 Également, un [bug trouvé et corrigé dans HdyColumn](https://source.puri.sm/Librem5/libhandy/merge_requests/82) où une mauvaise largeur était utilisée pour les calculs de la hauteur de colonne.
 
@@ -107,15 +107,15 @@ Personne n'aime les pubs donc [Better](https://better.fyi/) le bloqueur de pub [
 Les technologies de messagerie vont être séparées en deux applis distinctes.
 Une dédiée aux conversations à deux personnes ou pour les petits groupes (Chatty) et l'autre pour les discussions publiques comme sur les salons IRC (Fractal).
 
-L'application Chatty est développé par Purism, s'appuie sur libpurble et permettra des communications E2EE par messages XMPP via OMEMO dès la sortie (lorsque les Librem seront livrés en Janvier), ainsi que les SMS non chiffrés.
-Puisque nous nous sommes rendus compte qu'il nous fallait utiliser ModemManager en lieu et place d'Ofono, un handler D-BUS a été créé pour le backend ModemManager de l'application.
+L'application Chatty est développé par Purism, s'appuie sur libpurble et permettra des communications E2EE par messages XMPP via OMEMO dès la sortie (lorsque les Librem seront livrés en janvier), ainsi que les SMS non chiffrés.
+Puisque nous nous sommes rendu compte qu'il nous fallait utiliser ModemManager en lieu et place d'Ofono, un handler D-BUS a été créé pour le backend ModemManager de l'application.
 Avec cette installation de ModemManager, envoyer et recevoir des SMS fonctionne.
 
-Le client Fractal ne permettra pas forcément les communications E2EE dès la sortie mais nous travaillerons pour que cela arrive.
+Le client Fractal ne permettra pas forcément les communications E2EE dès la sortie, mais nous travaillerons pour que cela arrive.
 
 ### Sécurité
 La sécurité est l'un de nos aspects favoris (vous l'avez peut-être remarqué) donc des recherches ont été commencés à propos de TrustZone, TPM et autres.
-Nous avons eu quelques discussions internes à propos d'un boot anti-sabotage, Heads et la sortie vidéos par les modes alternatifs de l'USB.
+Nous avons eu quelques discussions internes à propos d'un boot anti-sabotage, Heads et la sortie vidéo par les modes alternatifs de l'USB.
 Nous envisageons sérieusement l'implémentation de mesures de sécurité dans le Librem 5.
 
 ### Kernel
@@ -144,7 +144,7 @@ Voici donc ce que vous trouverez à coup-sûr sur les cartes de devs :
 Il y a une nouvelle [FAQ](https://developer.puri.sm/FAQ.html) sur le site de documentation basés sur les questions reçues sur [le salon de discussion matrix community/librem-5](https://matrix.to/#/%23community-librem-5:talk.puri.sm).
 Nous n'y mettrons pas TOUTES les questions car cela nécessiterait trop de temps mais certainement les plus fréquentes.
 
-Un grand merci à toutes les équipes externes qui ont évalués et inclus les patchs dans les différents projets upstreams.
+Un grand merci à toutes les équipes externes qui ont évalué et inclus les patchs dans les différents projets upstreams.
 Le temps et les contributions de tout le monde sont fortement appréciées.
 
 C'est tout pour le moment les amis.
@@ -159,7 +159,7 @@ C'est agréable de voir plusieurs communautés collaborer (plus ou moins indirec
 
 D'un point de vue matos ils ont l'air d'avoir la majeure partie des composants arrêté, ce qui est bon signe.
 
-Ils semblent toujours confiant pour Janvier 2019.
+Ils semblent toujours confiants pour janvier 2019.
 
 Ils commencent à aborder les aspects de sécurité et ça semble plutôt encourageant.
 On peut s'attendre à avoir un truc qui les différencie des habituels Android/IOS.
