@@ -14,7 +14,7 @@ jdh = "https://www.journalduhacker.net/s/ofg2pc/zsh_plus_loin_zmv"
 Les petites gens utilisent un environnement de bureau mais en tant que rustre, je préfère largement l'austérité d'un sombre terminal.
 
 Vous connaissez probablement la commande **<samp>mv</samp>** qui permet de **m**o**v**e un fichier.
-C'est bien dans 90% des cas mais il arrive des fois que vous ayez pleins de fichiers à bouger avec juste une partie à renommer.
+C'est bien dans 90% des cas, mais il arrive des fois que vous ayez plein de fichiers à bouger avec juste une partie à renommer.
 Et là c'est pas mal galère.
 
 Vous allez pouvoir renommer les fichiers en masse avec quelques options sympatoches grâce à notre cher **ZMV** !
@@ -40,7 +40,7 @@ Tout simplement.
 Pour être safe, on peut rajouter **<samp>-n</samp>** qui affichera les modifs devant être effectuées sans les faire.
 Et sinon il y a le mode interactif avec **<samp>-i</samp>** qui nécessitera que vous validiez chacune des modifs.
 
-Bien entendu il y a d'autres options qui sont [documentées](http://zsh.sourceforge.net/Doc/Release/User-Contributions.html#index-zmv) mais celles-là devrait vous suffire.
+Bien entendu il y a d'autres options qui sont [documentées](http://zsh.sourceforge.net/Doc/Release/User-Contributions.html#index-zmv) mais celles-là devraient vous suffire.
 
 L'extra-bonus vient du support des *modifiers* et du *globbing* de ZSH mais ça c'est pour une prochaine fois.
 Avec ces deux bidules supplémentaires, il est possible d'ajouter des critères pas mal du tout.
