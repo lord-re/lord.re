@@ -28,7 +28,7 @@ Bon par contre cette fois aussi, c'est en anglais.
 Pour ceux que l'anglais rebute ou qui n'ont pas la patience de lire l'histoire voilà un ptit résumé et quelques explications.
 
 Le fichier que va génèrer Mike Goldman sera un fichier aléatoire bien foutu.
-Ça veux donc dire qu'en théorie, il n'est pas compressible efficacement.
+Ça veut donc dire qu'en théorie, il n'est pas compressible efficacement.
 Même si ce fait n'est énoncé à l'avance il n'y a rien d'étonnant à cela.
 
 Notre cher Patrick Craig est très probablement bien au fait de tout cela mais avant de participer pose une question faussement innoncente :
@@ -50,10 +50,10 @@ Donc *oui les fichiers compressés + le décompresseur sont plus petits que le f
 Mais *non ils ne prennent pas moins de place*.
 
 ### Pourquoi ?
-L'astuce a réside donc dans le fait d'utiliser plus de méta-données afin de réduire la taille des données.
+L'astuce réside donc dans le fait d'utiliser plus de méta-données afin de réduire la taille des données.
 
 Le système de fichier, pour chaque fichier doit stocker des méta-données dans sa base de données.
-Donc au lieu d'avoir 1 fois des méta-données pour 1 fichier, il y a désormais 218 fois des méta-données pour 218 fichiers (+1 pour le décompresseur) mais comme le système de fichier ne les affichent pas.
+Donc au lieu d'avoir 1 fois des méta-données pour 1 fichier, il y a désormais 218 fois des méta-données pour 218 fichiers (+1 pour le décompresseur) mais comme le système de fichier ne les affiche pas.
 
 Bref il y a eu filouterie :-)
 
