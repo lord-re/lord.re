@@ -37,19 +37,19 @@ Donc voilà une ptite liste de différents sites du genre :
 
 ## Performance
 
-  - [Pingdom](https://tools.pingdom.com/) : Joliment fait et permet de tester depuis plusieurs coins du globes.
+  - [Pingdom](https://tools.pingdom.com/) : Joliment fait et permet de tester depuis plusieurs coins du globe.
   - [GTMetrix](https://gtmetrix.com/) : Très connu aussi celui-là et complet. 
   - [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) : forcément c'est made in Google donc si vous voulez être bien vu, il faut avoir un bon score sur celui-là.
 
 ## SEO
 
-  - [SEOSiteCheckup](https://seositecheckup.com/) : J'imagine qu'il est pertinent. Perso je m'en fout un peu…
-  - [WooRank](https://www.woorank.com/) : À peu près pareil qu'au dessus.
+  - [SEOSiteCheckup](https://seositecheckup.com/) : J'imagine qu'il est pertinent. Perso je m'en fous un peu…
+  - [WooRank](https://www.woorank.com/) : À peu près pareil qu'au-dessus.
 
 ## Vrac
 
   - [EcoIndex](http://www.ecoindex.fr/) : Celui-là vous jugera sur l'aspect plus environnemental de votre site.
-  - [1and1 Website Checker](https://www.1and1.com/website-checker) : Bon ça vaut pas grand chose mais certains conseils sont toujours bons à prendre.
+  - [1and1 Website Checker](https://www.1and1.com/website-checker) : Bon ça vaut pas grand-chose mais certains conseils sont toujours bons à prendre.
   - [PowerMapper](https://try.powermapper.com/Demo/SortSite) : Alors celui-là c'est qu'une démo mais est pas mal complet. Il fait un peu d'analyse de perf, de l'accessibilité, de l'utilisabilité, un peu de SEO, de la conformité de syntaxe…
   - [NetRenderer](http://netrenderer.com/index.php) : Si jamais le rendu de votre site ouaib sur Internet Explorer vous intéresse…
   - [HTML Validator](http://validator.w3.org/) : le classique du W3C pour valider la syntaxe de votre HTML.
@@ -58,7 +58,7 @@ Donc voilà une ptite liste de différents sites du genre :
 ## Pas du web mais du Mail
 
   - [MXToolBox](https://mxtoolbox.com/) : Il fait un peu tout concernant le mail.
-  - [Mail Tester](https://www.mail-tester.com/) : est pas mal pour tester un mail avant d'envoyer dans une newsletters voir à quelqu'un point il ressemble à du spam.
+  - [Mail Tester](https://www.mail-tester.com/) : est pas mal pour tester un mail avant d'envoyer dans une newsletter voir à quelqu'un point il ressemble à du spam.
   - [SMTP STS Check](https://www.fraudmarc.com/smtp-mta-sts-policy-check-2/) : Pour tester votre implémentation de MTA-STS.
 
 ## Pas du Mail mais du DNS
@@ -75,4 +75,4 @@ Je vais tenter de grappiller quelques points pour l'accessibilité encore.
 
 -------------------------
 **PS :**
-Merci à Pifyz, Pofilo, Cascador et Tuxi pour leur propositions !
+Merci à Pifyz, Pofilo, Cascador et Tuxi pour leurs propositions !
