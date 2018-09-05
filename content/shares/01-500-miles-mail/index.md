@@ -12,7 +12,7 @@ editor = "kakoune"
 
 Pour inaugurer cette section je vais vous vous mettre un lien vers une histoire assez cocasse :
 
-*Débugguer le soucis des mails qui ne peuvent dépasser les 500miles.*
+*Débugguer le souci des mails qui ne peuvent dépasser les 500miles.*
 
 Un adminsys reçoit un appel d'un directeur de son organisation qui ne parvient plus à envoyer de mails à des destinataires à plus de 500 miles.
 Forcément l'adminsys va devoir trouver comment démerdouiller le tout.
