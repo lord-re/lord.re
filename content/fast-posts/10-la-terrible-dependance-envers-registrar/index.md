@@ -20,17 +20,17 @@ Après investigation leur infra DNS était pourtant nickel.
 
 ## Chez le registrar
 
-Le soucis provenait de leur *registrar*.
+Le souci provenait de leur *registrar*.
 Pour info le registrar c'est l'entité qui vous loue votre nom de domaine (non non ça ne s'achète pas).
 En téléphonant à leur prestataire ils n'ont rien appris de plus : leur domaine utilisant le TLD (la partie la plus à droite du domaine) *.sm*, il faut attendre la disponibilité de l'expert *.sm*…
 
 La panne a eu lieu au milieu de la nuit californienne, il a fallu attendre le petit matin que l'expert *.sm* du registrar américain débarque.
 
-Une fois celui-ci arrivé, il a vérifié et pu déclarer que chez le registrar tout était OK et que du coup il faut remonter au cran au dessus.
+Une fois celui-ci arrivé, il a vérifié et pu déclarer que chez le registrar tout était OK et que du coup il faut remonter au cran au-dessus.
 
 ## Chez le registre
 
-Au dessus de registrar il y a le *registry* ou registre dans la langue de Yann Le Pentrec.
+Au-dessus de registrar il y a le *registry* ou registre dans la langue de Yann Le Pentrec.
 
 *.sm* est donc le TLD de [Saint Marin](https://fr.wikipedia.org/wiki/Saint-Marin) qui se trouve donc en Europe.
 Le registrar doit donc attendre les heures d'ouverture européenne du registry…
@@ -50,7 +50,7 @@ Bref, retour de flamme chez le registrar et tout rentre dans l'ordre.
 Vous aurez beau avoir de la redondance de partout via du RAID, des VM en haute disponibilité, toute une infra réseau multi-homée, dans de multiples datacenter, votre nom de domaine et votre registrar seront toujours un *SPOF* (single point of failure) inévitable.
 
 
-Purism a fait le choix de prendre un second nom de domaine chez un autre registrar sur un second TLD malheureusement c'est pas parfait : si les gens se connectent à votre domaine principale sans essayer le domaine de secours… bha vous avez pas de secours.
+Purism a fait le choix de prendre un second nom de domaine chez un autre registrar sur un second TLD malheureusement c'est pas parfait : si les gens se connectent à votre domaine principal sans essayer le domaine de secours… bha vous avez pas de secours.
 
 **Le choix du registry a des conséquences direct sur la disponibilité de votre infra réseau.**
 
