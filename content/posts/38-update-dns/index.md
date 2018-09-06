@@ -9,7 +9,9 @@ title = "Updater dynamiquement ses zones DNS"
 
 +++
 
-Bon un court article à mon intention. Comment updater ses zone DNS dynamiquement avec cette syntaxe de merde que j'oublie constamment ? Donc pour mettre à jour un champs A c'est simple :
+Bon un court article à mon intention.
+Comment updater ses zones DNS dynamiquement avec cette syntaxe de merde que j'oublie constamment ?
+Donc pour mettre à jour un champ A c'est simple :
 ```
 server 127.0.0.1
 zone lord.re.
@@ -17,7 +19,9 @@ delete lord.re A
 update add lord.re. 600 A a.b.c.d
 send
 ```
-et voilà c'est pas compliqué mais toujours chiant à retrouver. C'est possible de fouttre le tout dans un fichier texte et de le donner à bouffer direct à knsupdate. Et si on le fait pas en local il est même possible de fournir une clé pour authentifier le truc.
+Et voilà c'est pas compliqué mais toujours chiant à retrouver.
+C'est possible de foutre le tout dans un fichier texte et de le donner à bouffer direct à knsupdate.
+Et si on le fait pas en local il est même possible de fournir une clé pour authentifier le truc.
 Pour les autres champs chiants à gérer voilà la syntaxe : les NS
 ```
 server 127.0.0.1
