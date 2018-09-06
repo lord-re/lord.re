@@ -18,7 +18,8 @@ Bon j'ose espérer qu'en vrai le capteur d'empreinte ne stocke pas l'empreinte e
 
 D'ailleurs utiliser les empreintes digitales pour ça me pose quelques soucis :
 
-	- Inconsciemment on laisse nos empreintes digitales un peu partout.
+
+  - Inconsciemment on laisse nos empreintes digitales un peu partout.
   - On ne peut pas changer ses empreintes digitales.
   - On ne peut pas prêter ses empreintes digitales (il y a quand même quelques cas légitimes de partage de mot de passe (avec son conjoint en cas de mort de l'un ou l'autre)).
   - On peut très facilement récupérer l'empreinte de quelqu'un.
