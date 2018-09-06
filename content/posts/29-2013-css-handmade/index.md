@@ -8,25 +8,27 @@ Description = "Et encore un article sur le changement de design du site… Mais 
 
 +++
 
-Mais quel indécis ! Ouais je change **encore** mon site. Bon en fait [bootstrap]({{< ref "/posts/23-boostrapper-le-site" >}}) c'est bien sympa mais au final déléguer toute la partie fun bha c'est pas fun.
-Autant j'ai toujours du mal à créer du contenu pour le site, autant j'adore faire mumuse avec le css.
+Mais quel indécis !
+Ouais je change **encore** mon site. Bon en fait [bootstrap]({{< ref "/posts/23-boostrapper-le-site" >}}) c'est bien sympa mais au final déléguer toute la partie fun bha c'est pas fun.
+Autant j'ai toujours du mal à créer du contenu pour le site, autant j'adore faire mumuse avec le CSS.
 Du coup, bha ouais j'ai refait encore le site.
 J'ai quasiment pas touché au fond.
-J'ai simplifié le menu tout de même et supprimé quelques lourdeurs de bootstrap pour avoir presque que du contenu.
-Quelques ajustements par çi par là **et paf un nouveau css**.
+J'ai simplifié le menu tout de même et supprimé quelques lourdeurs de Bootstrap pour avoir presque que du contenu.
+Quelques ajustements par-ci par-là **et paf un nouveau CSS**.
 
-En fait j'ai changé le style parce que j'ai un écran 16/9 et bootstrap n'en utilise qu'un gros tiers.
+En fait j'ai changé le style parce que j'ai un écran 16/9 et Bootstrap n'en utilise qu'un gros tiers.
 Je passe mon temps à pester contre ce genre de design qui néglige nos chers écrans.
-Du coup j'ai pris mon courage à deux mains et j'ai expérimentés deux trois trucs.
-Premièrement, utiliser le plus possible les balises html5. Donc j'utilise du nav, de l'article toussa.
-C'est un poil plus sémantique (si avec ça je trust pas toutes les premières places des résultats google pour linux et livebox…).
+Du coup j'ai pris mon courage à deux mains et j'ai expérimenté deux trois trucs.
+Premièrement, utiliser le plus possible les balises HTML5.
+Donc j'utilise du *nav*, de l'*article* toussa.
+C'est un poil plus sémantique (si avec ça je truste pas toutes les premières places des résultats Google pour Linux et Livebox…).
 
-Pour le css, j'ai fait un menu vertical.
+Pour le CSS, j'ai fait un menu vertical.
 C'est ce qui me semble le plus normal avec les écrans larges : on passe notre temps à scroller vers le bas alors qu'on a trop de place horizontal.
 Donc autant foutre sur les côtés les éléments dispensables et privilégier le placement du contenu.
 On se retrouve avec 85% de l'écran pour le contenu.
 On rajoute quelques marges tout de même pour aérer.
-Le soucis immédiat c'est qu'on se retrouve avec des lignes de texte si longue que le changement de ligne devient compliqué.
+Le souci immédiat c'est qu'on se retrouve avec des lignes de texte si longue que le changement de ligne devient compliqué.
 Plusieurs études rapportent que la lisibilité optimale d'une ligne se retrouve en deçà des 80 caractères.
 Je ne suis pas parfaitement d'accord sur le chiffre mais la logique est avérée. Du coup pour chaque article, si la fenêtre est assez large, le contenu est découpé en colonne.
 Le rendu est vraiment pas dégueu et très agréable à lire.
