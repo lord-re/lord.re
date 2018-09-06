@@ -2,8 +2,7 @@
 Author = "Lord"
 Categories = ["adminsys","réseau","tips"]
 Tags = ["adminsys","réseau","tips"]
-Description = "Tutorial pour virer une livebox pour la remplacer par un vrai routeur.
-Le but du jeu est de conserver le service de télévision fonctionnel"
+Description = "Tutorial pour virer une livebox pour la remplacer par un vrai routeur. Le but du jeu est de conserver le service de télévision fonctionnel"
 date = "2012-12-09T22:45:36+02:00"
 title = "Dégager une livebox tout en conservant le service de téloche"
 menu = "main"

@@ -2,8 +2,7 @@
 Author = "Lord"
 menu = "main"
 Categories = ["libre","linux","ux","Gentoo","i3"]
-Description = "Des réflexions sur un bureau moderne sous Linux.
-Quelle philosophie et quels outils pour atteindre ces objectifs."
+Description = "Des réflexions sur un bureau moderne sous Linux. Quelle philosophie et quels outils pour atteindre ces objectifs."
 date = "2012-07-22T22:17:39+02:00"
 title = "Un bureau moderne sous Linux"
 
