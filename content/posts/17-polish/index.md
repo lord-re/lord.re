@@ -9,7 +9,9 @@ nodate = true
 
 +++
 
-Et voilà une petite modernisation du site web. Un design tout en dégradé toussa vive le css3. On peut enfin faire des trucs dynamique simplement et des designs plus travaillés sans aucunes images.
+Et voilà une petite modernisation du site web.
+Un design tout en dégradé toussa vive le CSS3.
+On peut enfin faire des trucs dynamiques simplement et des designs plus travaillés sans aucunes images.
 
 *update 2017 :*
 c'est toujours presque aussi vrai !
