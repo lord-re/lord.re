@@ -251,6 +251,37 @@ Le tout entremêlé de procrastination sur IRC.
 Bref il marche déjà suffisamment bien.
 Et je sais pas si c'est le fait de plancher dessus depuis quelque temps mais j'arrive déjà à écrire pas trop mal !
 
+{{< highlight C "linenos=table" >}}
+#include "keymap_common.h"
+const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
+    /* 0: BÉPO */
+    KEYMAP(GRV,    1,    2,    3,    4,   5, FN2,   6,   7,   8,   9,   0,MINS, \
+           EQL,    Q,    W,    E,    R,   T,RSFT,   Y,   U,   I,   O,   P,LBRC, \
+           TAB,    A,    S,    D,    F,   G, DEL,   H,   J,   K,   L,SCLN,QUOT, \
+           LSFT,   Z,    X,    C,    V,   B,BSPC,   N,   M,COMM, DOT,SLSH,RBRC, \
+           LCTL,RGUI, BSLS, LGUI, LALT, SPC,RALT, ENT,LEFT,  UP,DOWN,RGHT,FN1),
+    /* 1: Fn0 */
+    KEYMAP(TRNS,  F1,  F2,  F3,  F4,  F5, ESC,  F6,  F7,  F8,  F9, F10, F11, \
+           TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS, \
+           TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS, \
+           TRNS,TRNS,TRNS,TRNS,TRNS,MPRV,MPLY,MNXT,TRNS,TRNS,TRNS,TRNS,TRNS, \
+           TRNS,TRNS,TRNS,TRNS,TRNS,VOLD,MUTE,VOLU,HOME,PGUP,PGDN, END,TRNS),
+    /* 2: Fn0 test */
+    KEYMAP(  NO,   A,   B,   C,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO, \
+             NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO, \
+             NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO, \
+             NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO, \
+             NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO,  NO),
+};
+const uint16_t PROGMEM fn_actions[] = {
+    [0] = ACTION_LAYER_TAP_KEY(1, KC_ESC), // Vers Fn1
+    [1] = ACTION_LAYER_TAP_KEY(1, KC_ESC), // Vers Fn1
+    [2] = ACTION_MODS_KEY(MOD_LSFT, KC_INS), // Coller
+    [3] = ACTION_MODS_KEY(MOD_LSFT | MOD_LCTL | MOD_LALT | MOD_LGUI, KC_NO),
+};
+{{< / highlight >}}
+Le truc juste au dessus est ce qu'il faut modifier pour bouger une touche, rien de bien méchant.
+
 *Bon la touche Fn marche pas, la touche coller non plus mais c'est pas vraiment innatendu en fait.*
 En moins de quatre heures le firmware est en place et l'ancien clavier ne sert plus qu'à décorer.
 Je peux utiliser le nouveau pour trifouiller le firmware.
