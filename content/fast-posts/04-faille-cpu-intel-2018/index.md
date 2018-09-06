@@ -7,16 +7,17 @@ noread = true
 notoc = true
 PublishDate = 2018-01-02T22:05:14+01:00
 date = 2018-01-02T22:05:14+01:00
+lastEdit = 2018-01-05T13:32:31+01:00
 title = "Une faille de sécurité béante touchant tous les cpu Intel"
 jdh = "https://www.journalduhacker.net/s/i7aoje/une_faille_de_s_curit_b_ante_touchant_tous"
 +++
-Les monocultures ont de nombreuses fois prouvées qu'elles étaient un risque et pas uniquement dans l'informatique. En agriculture c'est pareil… faire pousser uniquement une seule espèce de plante est risqué. Le jour où une maladie ou bien un insecte/animal un peu gourmand s'abat sur vous, vous perdez absolument tout. Bha là c'est pour les processeurs qui prennent cher.
+Les monocultures ont de nombreuses fois prouvé qu'elles étaient un risque et pas uniquement dans l'informatique. En agriculture c'est pareil… faire pousser uniquement une seule espèce de plante est risqué. Le jour où une maladie ou bien un insecte/animal un peu gourmand s'abat sur vous, vous perdez absolument tout. Bha là c'est pour les processeurs qui prennent cher.
 
 ## Monopole d'Intel
 Depuis plusieurs décennies Intel a une position de leader qui par moment ressemble à un monopole. C'est le cas depuis dix ans. Alors qu'AMD sort enfin la tête de l'eau en 2017 avec sa nouvelle architecture Ryzen après près de dix ans de désert, Intel est quasiment seul sur le marché des serveurs (gamme Xeon) et ne laisse que des miettes à AMD sur le laptop/desktop. Et d'ailleurs depuis 6 ans, les gains de perfs des CPU Intel sont vraiment faibles. Mon ordinateur actuel a déjà 7 ans et n'est toujours pas vraiment dépassé (mais bon c'est un autre débat). Mais du coup ce monopole est donc une monoculture des cpu à architecture amd64.
 
 ## Et donc ?
-Bha apparemment il y aurait une faille de sécurité assez sévère trouvée très récemment. Les informations ne sont pas encore complètement publiée de partout, il y a un embargo. En gros elle **impacterait tous les ordinateurs embarquant un cpu Intel** récent (de ces dix dernières années).
+Bha apparemment il y aurait une faille de sécurité assez sévère trouvée très récemment. Les informations ne sont pas encore complètement publiées de partout, il y a un embargo. En gros elle **impacterait tous les ordinateurs embarquant un cpu Intel** récent (de ces dix dernières années).
 
 Cette faille serait carrément dans l'architecture même du cpu. Un correctif logiciel pour le kernel Linux existe mais le fix ne serait pas sans conséquences. On parle de **pertes de performances de 5 à 50%** sur certains *syscalls*.
 
@@ -56,14 +57,14 @@ Quelques liens pour approfondir le sujet. Pas de français pour le moment.
   - [Mozilla explique ce qu'ils ont mis en place pour réduire le risque (EN)](https://blog.mozilla.org/security/2018/01/03/mitigations-landing-new-class-timing-attack/)
 
 ## PS :
-Ha bha visiblement il y a des **soupçons de délit d'initiés chez Intel** qui monte : le PDG d'Intel aurait revendu le maximum d'actions il y deux semaines alors que l'affaire n'était pas encore médiatisé. Il y a des risques qu'aujourd'hui Wall Street soit mis au courant de l'histoire et que l'action Intel baisse considérablement.
+Ha bha visiblement il y a des **soupçons de délit d'initiés chez Intel** qui monte : le PDG d'Intel aurait revendu le maximum d'actions il y deux semaines alors que l'affaire n'était pas encore médiatisée. Il y a des risques qu'aujourd'hui Wall Street soit mis au courant de l'histoire et que l'action Intel baisse considérablement.
 
 Pour info, **Windows est également touché et va être patché aussi**.
 
 Pour l'instant ce ne sont que des suppositions de failles mais de nombreux indices étayent l'histoire. L'embargo sera levé ce jeudi midi.
 
 ## PS2 :
-*4 Janvier 2018 :* Bon bha on a un nom et un site : L'attaque se nomme ***Meltdown*** et ***Spectre*** et [son site](https://spectreattack.com/) confirme à peu près tout ce qu'on savait sauf que c'est toujours vague concernant les processeurs affectés. Apparemment AMD **pourrait** être victime de la faille ansi qu'ARM. En fait la plus grande surprise vient du fait que c'est deux failles.
+*4 janvier 2018 :* Bon bha on a un nom et un site : L'attaque se nomme ***Meltdown*** et ***Spectre*** et [son site](https://spectreattack.com/) confirme à peu près tout ce qu'on savait sauf que c'est toujours vague concernant les processeurs affectés. Apparemment AMD **pourrait** être victime de la faille ansi qu'ARM. En fait la plus grande surprise vient du fait que c'est deux failles.
 
 ## PS3 :
-*5 Janvier 2018 :* On sait également que c'est effectivement **exploitable via javascript** et que les navigateurs s(er)ont patchés pour limiter les risques mais pas complètement supprimmer le risque. Bref, c'est la merde.
+*5 janvier 2018 :* On sait également que c'est effectivement **exploitable via javascript** et que les navigateurs s(er)ont patchés pour limiter les risques mais pas complètement supprimmer le risque. Bref, c'est la merde.
