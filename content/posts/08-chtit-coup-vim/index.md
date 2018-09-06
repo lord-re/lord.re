@@ -9,7 +9,10 @@ Categories = ["tips","vim"]
 nodate = true
 
 +++
-Ce coup-ci j'ai voulu faire un truc tout con : colorer le syslog dans vim. Donc je vais sur vim.org, je cherche un script de coloration de syslog. Je télécharge le fichier dans **~/.vim/after/syntax/syslog.vim** . Ensuite il ne reste plus qu'à éditer/créer le fichier **~/.vim/filetype.vim** avec dedans :
+Ce coup-ci j'ai voulu faire un truc tout con : colorer le syslog dans vim.
+Donc je vais sur vim.org, je cherche un script de coloration de syslog.
+Je télécharge le fichier dans **~/.vim/after/syntax/syslog.vim** .
+Ensuite il ne reste plus qu'à éditer/créer le fichier **~/.vim/filetype.vim** avec dedans :
 ```
 augroup filetypedetect
 au! BufRead,BufNewFile /var/log/syslog set filetype=syslog
