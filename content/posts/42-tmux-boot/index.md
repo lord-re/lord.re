@@ -5,8 +5,7 @@ title = "Démarrer des applis dans tmux au boot"
 menu = "main"
 Categories = ["adminsys","software","linux","tips","cli"]
 Tags = ["adminsys","software","linux","tips","cli"]
-Description = "Une ruse de sioux pour bypasser l'init et démmarrer des applis dans tmux. Super pratique.
-Mieux qu'un init classique"
+Description = "Une ruse de sioux pour bypasser l'init et démmarrer des applis dans tmux. Super pratique. Mieux qu'un init classique"
 
 +++
 En voilà une chose triviale mais qui n'est pas si simple que ça.
