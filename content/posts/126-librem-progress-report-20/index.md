@@ -104,7 +104,7 @@ Un [article concernant Chatty](https://puri.sm/posts/librem5-progress-report-19/
 
 ### Kernel
 D'importants efforts ont été faits pour faire tourner le kernel 4.18 sur le devkit SoM.
-Afin de simplifier le débuggage des freezes du kernel, nous avons contribué à [openocd](http://openocd.org/) pour ajouter la configuration de la carte pour le devkit and [alerter quand le CPU n'est pas stoppé par l'appel phys2virt](http://openocd.zylin.com/#/c/4647/).
+Afin de simplifier le débuggage des freezes du kernel, nous avons contribué à [openocd](http://openocd.org/) pour ajouter la configuration de la carte pour le devkit et [alerter quand le CPU n'est pas stoppé par l'appel phys2virt](http://openocd.zylin.com/#/c/4647/).
 Les gens d'OpenOCD nous ont grandement aidés pour cela !
 
 Les efforts continuent dans le kernel concernant les autres morceaux.
