@@ -1,8 +1,7 @@
 +++
 Author = "Lord"
 Tags = ["hardware","meta","software"]
-Description = "Remplacement de mom par zoid.
-Un serveur qui prend sa retraite et un nouveau vient le remplacer."
+Description = "Remplacement de mom par zoid. Un serveur qui prend sa retraite et un nouveau vient le remplacer."
 menu = "main"
 date = "2013-04-14T23:14:01+02:00"
 title = "Mom part en retraite"
