@@ -1,11 +1,1 @@
-<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title"
-aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <title>Full Display</title>
-  <desc>A line styled icon from Orion Icon Library.</desc>
-  <path d="M18 21h28v22H18z"
-  stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke="#3bf0b5"
-  fill="none" data-name="layer2" stroke-linejoin="round"></path>
-  <path d="M10 19v26M2 15v34m52-30v26m8-30v34" stroke-width="2" stroke-miterlimit="10"
-  stroke-linecap="round" stroke="#3bf0b5" fill="none" data-name="layer1"
-  stroke-linejoin="round"></path>
-</svg>
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g style="stroke-width:2;stroke-miterlimit:10;stroke-linecap:round;stroke:#3bf0b5;fill:none;stroke-linejoin:round"><path d="m18 21h28v22h-28z"/><path d="m10 19v26m-8-30v34m52-30v26m8-30v34"/></g></svg>
