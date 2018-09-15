@@ -23,7 +23,7 @@ Apple ayant perdu les droits de diffusion en question, au lieu d'enlever la poss
 Quelle idée d'acheter du dématérialisé ?!
 Et ils s'en sont pas vantés ni n'ont prévenu les clients impactés.
 
-[L'article de presse vous donnera plus de détails](https://www.reddit.com/r/GooglePixel/comments/9fkrvw/is_anyone_elses_power_saving_mode_turning_itself/e5xl907/).
+[L'article de presse vous donnera plus de détails](https://theoutline.com/post/6167/apple-can-delete-the-movies-you-purchased-without-telling-you).
 
 ## Google
 Ensuite, continuons ce coup-ci avec une démonstration de bonnes intentions.
