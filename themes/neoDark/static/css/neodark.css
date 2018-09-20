@@ -16,7 +16,7 @@ html{
 a{
  text-decoration:none;
  border-bottom:1px dotted;
- color:#aa7c82;
+ color:#ea872d;
 }
 a:hover{
  outline:1px solid;
@@ -246,6 +246,7 @@ hr{
 }
 table{
  margin:1rem;
+ color:#aaa;
 }
 thead{
  background-color:#333;
@@ -280,4 +281,16 @@ samp::selection{
 samp{
  color:#aaa;
  font-size:1.1rem;
+}
+blockquote{
+	color:#aaa;
+	border:0.1rem solid #444;
+	border-left:1rem solid #444;
+	background-color:#333;
+	box-shadow:0 0 1rem rgba(0,0,0,0.4);
+	margin-top:1rem;
+	margin-left:1rem;
+	padding-left:1rem;
+	padding-bottom:1rem;
+	padding-right:1rem;
 }
