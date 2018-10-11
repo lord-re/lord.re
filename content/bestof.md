@@ -50,6 +50,23 @@ Une sélection d'articles passés toujours pertinents.
 ## 2018
 
   - [Multi-claviers sous Xorg]({{< ref "posts/70-multi-keyboard-layout" >}})
+  - La série concernant la création du Librem 5
+	- [Partie 3]({{< ref "posts/71-librem-progress-report-3/" >}})
+	- [Partie 5]({{< ref "posts/74-librem-progress-report-5/" >}})
+	- [Partie 7]({{< ref "posts/80-librem-progress-report-6/" >}})
+	- [Partie 8]({{< ref "posts/83-librem-progress-report-8/" >}})
+	- [Partie 9]({{< ref "posts/84-librem-progress-report-9/" >}})
+	- [Partie 10]({{< ref "posts/95-librem-progress-report-10/" >}})
+	- [Partie 11]({{< ref "posts/100-librem-progress-report-11/" >}})
+	- [Partie 11.5]({{< ref "posts/102-librem-progress-report-11-5/" >}})
+	- [Partie 13]({{< ref "posts/109-librem-progress-report-13/" >}})
+	- [Partie 14]({{< ref "posts/110-librem-progress-report-14/" >}})
+	- [Partie 15]({{< ref "posts/115-librem-progress-report-15/" >}})
+	- [Partie 16]({{< ref "posts/119-librem-progress-report-16/" >}})
+	- [Partie 17]({{< ref "posts/120-librem-progress-report-17/" >}})
+	- [Partie 19]({{< ref "posts/123-librem-progress-report-19/" >}})
+	- [Partie 20]({{< ref "posts/125-librem-progress-report-20/" >}})
+	- [Partie 20.5]({{< ref "posts/126-librem-progress-report-20/" >}})
   - [Améliorer l'émulation Playstation]({{< ref "posts/79-emu-psx" >}})
   - [Web ≠ Internet]({{< ref "posts/90-web≠internet" >}})
   - [Ce qu'il se passe quand on ouvre une page Web]({{< ref "posts/99-ce-quil-se-passe-quand-on-ouvre-une-page-web" >}})
