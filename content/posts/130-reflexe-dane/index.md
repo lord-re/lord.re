@@ -101,7 +101,7 @@ Sur votre serveur DNS hébergeant la zone DNS vous pouvez : **<samp>knsupdate <b
 
 Et voilà :-)
 
-Et maintenant on le teste sur [Le webtest de sidnlabs](https://check.sidnlabs.nl/dane) si c'est pour un serveur web ou sur bien sur [le webtest de sys4](https://dane.sys4.de/smtp/) si c'est pour du mail.
+Et maintenant on le teste sur [Le webtest de sidnlabs](https://check.sidnlabs.nl/dane) si c'est pour un serveur web ou sur bien sur [le webtest de sys4](https://dane.sys4.de/) si c'est pour du mail.
 
 ## Le réflexe
 Bon c'est franchement pas dur.
