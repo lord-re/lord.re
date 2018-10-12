@@ -10,7 +10,6 @@ You can reuse it, and if you do i'll be glad looking at your website :-)
 }
 html{
  line-height:1.35em;
- font-family:'Droid Sans';
  background:#272b30;
 }
 a{
@@ -41,12 +40,6 @@ aside{
 }
 .icons a:hover{
  transform:scale(2);
-}
-aside h1{
- text-align:center;
-}
-aside p{
- font-size:.9rem;
 }
 @media (min-width:58em){
  aside {
@@ -80,7 +73,6 @@ aside p{
 }
 #drafturl{
  color:#272b30;
- font-size:0.5rem;
 }
 .post-header,article{
  margin:2rem;
@@ -93,6 +85,7 @@ main {
 }
 h1 a{
  font-size:1.7rem;
+ line-height:2.2rem;
 }
 h2{
  font-size:1.5rem;
@@ -110,6 +103,8 @@ h3{
  max-width:50em;
 }
 .posts:before,.shares:before,.fast-posts:before,.ideas:before{
+ position:relative;
+ top:-1px;
  font-size:0.8rem;
  border-radius:0 0 0.4rem 0;
  border-bottom:none;
@@ -267,11 +262,6 @@ footer{
  background-color:#222;
  padding:0 2rem 1rem 2rem;
  color:#ccc;
-}
-
-@font-face{
- src:local('Droid Sans'),local('DroidSans'),url(static/css/droidsans.woff) format('woff');
- src:local('Droid Serif'),local('DroidSerif'),url(static/css/droidserif.woff) format('woff');
 }
 
 samp::selection{
