@@ -4,6 +4,7 @@ Categories = ["dns","réseau","adminsys","knot","dane","dnssec"]
 Description = "Le guide ultime concernant le DNS. On y voit comment monter le bousin, comment le tenir à jour, comment avoir un truc moderne. Gérer le DNSSEC. Faire du DANE. "
 date = "2017-10-27T13:05:06+02:00"
 PublishDate = "2017-10-27T13:05:06+02:00"
+lastedit = "2018-10-12T17:23:07+02:00"
 menu = "main"
 notoc = false
 title = "Guide ultime du serveur DNS v1"
@@ -29,14 +30,14 @@ Bon maintenant on va aller beaucoup plus loin par la pratique. On va donc monter
 
 ## Se prendre un nom de domaine et lancer son serveur
 
-Bon déjà on achète pas un nom de domaine mais on le loue pour un à dix ans auprès d'un registrar (revendeur autorisé). La plupart des registrars proposent d'héberger le service DNS chez eux mais franchement… on préfère le faire soit même !
+Bon déjà on achète pas un nom de domaine, mais on le loue pour un à dix ans auprès d'un registrar (revendeur autorisé). La plupart des registrars proposent d'héberger le service DNS chez eux mais franchement… on préfère le faire soit-même !
 
 Auprès de votre registrar vous aurez donc à remplir les **Glue Records**. C'est ce qui lie votre serveur DNS à votre domaine auprès du niveau supérieur. En gros c'est ce qui va permettre aux gens de contacter votre serveur DNS. Donc il va falloir indiquer le nom du serveur DNS ayant autorité sur la zone ainsi que son adresse IP. Une fois fait vous n'aurez quasiment plus rien à faire auprès de votre registrar. Dans mon cas le serveur DNS est *zapp.lord.re* qui a pour IP : *62.210.201.160* .
 
 Bon maintenant installer son serveur DNS… Débrouillez-vous. Dans mon cas j'ai non pas choisis le vénérable Bind mais le brave **Knot** que je trouve bien plus sympa. Il vous simplifiera la vie au niveau de la configuration et gère **DNSSEC** tout seul comme un grand. Knot est fait par les gens de *Nic.cz* qui gèrent donc les noms de domaine tchèques .cz . Ce sont les mêmes gens qui ont fait le logiciel **Bird** qui est un logiciel de routage libre. Ils ont aussi fait les **Turris** dont l'[Omnia](https://lord.re/posts/44-turris-omnia/) qui est mon routeur actuel. Ce sont des fanas du réseau et de l'Opensource. Des gens biens. Ils poussent à fond la démocratisation de **DNSSEC** car ils ont fait des extensions pour les navigateurs afin de vérifier le [**DANE**](#tlsa) des sites que vous consultez.
 
 ## Confer Knot DNS
-Bon déjà on l'installe et ensuite on créer le fichier de conf. Il est ultra simple et logique je vous le met dans sa quasi intégralité ici :
+Bon déjà on l'installe et ensuite on créer le fichier de conf. Il est ultra simple et logique je vous le mets dans sa quasi-intégralité ici :
 
 	server:
 	    user: knot:knot
@@ -91,7 +92,7 @@ On peut mettre tout un tas de truc, commençons par l'indispensable :
 
 		lord.re.          3600    IN      SOA     zapp.lord.re. lord.lord.re. 2015033233 3600 7200 3600 180
 
-Donc le serveur master (ayant autorité) est *zapp.lord.re.*, le mail de contact est *lord.lord.re.* (remarquez la syntaxe étrange car l'arobase est remplacé par un point (il y a surement moyen d'avoir des adresse mail non parseable)). Vient ensuite le serial *2015033233* qui doit être incrémenté à chaque modification (vous oublierez et aurez des surprises) et les valeurs d'expirations.
+Donc le serveur master (ayant autorité) est *zapp.lord.re.*, le mail de contact est *lord.lord.re.* (remarquez la syntaxe étrange car l'arobase est remplacée par un point (il y a surement moyen d'avoir des adresse mail non parseable)). Vient ensuite le serial *2015033233* qui doit être incrémenté à chaque modification (vous oublierez et aurez des surprises) et les valeurs d'expirations.
 
 - ***MX*** : Le Mail eXchange indique le(s) serveur(s) de réception des emails. On peut en mettre plusieurs et indiquer des priorités c'est pas mal. Vous pouvez bien entendu faire pointer ça vers d'autres domaines que le votre (héberger vos mails sur mx.truc.machin et pas forcément dans votre zone).
 
@@ -134,10 +135,44 @@ On lance **knsupdate** ce qui va vous ouvrir un shell interactif.
 
 		server 127.0.0.1 (ouai on pourrait l'utiliser à distance avec un peu de crypto)
 		zone lord.re.
-		update add|del lechamps 600 A 1.2.3.4 (selon si on veux ajouter ou supprimmer)
+		update add|del lechamps 600 A 1.2.3.4 (selon si on veut ajouter ou supprimmer)
 		send
 
-Et voilà. C'est assez simple. On peut fouttre les commandes dans un fichier texte à donner à manger à nsupdate également. Ça permet de scripter le truc même si la troisième méthode est meilleure pour scripter.
+Et voilà. C'est assez simple. On peut foutre les commandes dans un fichier texte à donner à manger à nsupdate également. Ça permet de scripter le truc même si la troisième méthode est meilleure pour scripter.
+
+Et si vous voulez le faire à distance il va falloir d'abord sécuriser le truc :
+
+  - 1) Créer une clé pour authentifier
+  - 2) Renseigner cette clé dans la conf
+  - 3) Donner les droits à cette clé de modifier la zone
+  - 4) Utiliser cette clé à distance
+  - 5) Profit
+
+Voilà le détail des étapes:
+
+  - 1) **<samp>keymgr -t nom-de-la-clé</samp>**
+  - 2) À mettre dans votre */etc/knot/knot.conf*
+{{< highlight yaml >}}  
+	key:
+  - id: nom-de-la-clé
+    algorithm: hmac-sha384
+    secret: euisrneuisrnesuinesunresuirnesiaunesiaurentauisretauisr
+{{< / highlight >}}
+
+  - 3) On donne le droit à cette clé de modifier votre zone :
+{{< highlight yaml >}}  
+  acl:
+  - id: update-via-ma-cle
+    key: nom-de-la-clé
+    action: update
+	zone:
+  - domaine: lord.re.
+    …
+    acl: update-via-ma-cle
+{{< / highlight >}}
+
+  - 4) **<samp>nsupdate -y hmac-sha384:nom-de-la-clé:euisrneuisrnesuinesunresuirnesiaunesiaurentauisretauisr</samp>**
+  - 5) Voilà voilà
 
 ### 3 : knotc à l'authentique
 
@@ -170,26 +205,26 @@ Bon l'outil pour envoyer des requêtes et lire les réponses DNS le plus sympa e
 	;; WHEN: Wed Oct 11 19:03:54 CEST 2017
 	;; MSG SIZE  rcvd: 52
 
-Bon ça raconte quoi tout ça ? Les trucs importants sont le ***status: NOERROR*** qui vous indique dans ce cas que c'est bon. Vous trouverez souvent du ***NXDOMAIN*** qui veux dire Non eXistant Domain, bref ça n'existe pas (l'erreur 404 http quoi) et également le ***SERVFAIL*** qui indique un soucis du serveur.
+Bon ça raconte quoi tout ça ? Les trucs importants sont le ***status: NOERROR*** qui vous indique dans ce cas que c'est bon. Vous trouverez souvent du ***NXDOMAIN*** qui veut dire Non eXistant Domain, bref ça n'existe pas (l'erreur 404 http quoi) et également le ***SERVFAIL*** qui indique un souci du serveur.
 
 Ensuite les flags sont sympa surtout le ***ad*** qui indique que la chaîne DNSSEC est valide.
 
-On trouve ensuite la ***QUESTION SECTION*** qui montre quelle était votre requête et la ***ANSWER SECTION*** qui est la réponse obtenue. On voit ensuite le temps qu'à mis la réponse à arriver ainsi que le serveur consulté.
+On trouve ensuite la ***QUESTION SECTION*** qui montre quelle était votre requête et la ***ANSWER SECTION*** qui est la réponse obtenue. On voit ensuite le temps qu'a mis la réponse à arriver ainsi que le serveur consulté.
 
 Vous pouvez indiquer quel serveur utiliser en ajoutant ***@8.8.8.8*** par exemple. Vous pouvez également demander un autre type d'enregistrement en le spécifiant et vous pouvez également demander une réponse validée par DNSSEC. exemple : **dig lord.re @8.8.8.8 +dnssec MX** ou **dig @8.8.8.8 +dnssec lord.re MX** (c'est plus logique dans cet ordre je trouve).
 
 Avec ça vous couvrez la majeure partie des utilisations.
 
 ## Les utilisations moins conventionelles
-Traditionnelement on utilise donc plus souvent le DNS comme un simple annuaire pour traduire des noms en adresse IP. Mais on peut également se servir du DNS pour d'autres choses.
+Traditionnellement on utilise donc plus souvent le DNS comme un simple annuaire pour traduire des noms en adresse IP. Mais on peut également se servir du DNS pour d'autres choses.
 
-Un usage assez courant est le système de DNSBL : DNS Black List. C'est un système qui consiste à créer une liste noire de machines. C'est très utilisé dans les systèmes antispam. En gros on consulte un serveur DNS spécifique, en lui demandant *quel est l'adresse de machine.qui.spamme.com ?* et il répond avec une adresse IP de la forme ***127.a.b.c*** avec *a*, *b* et *c* qui correspondent à des valeurs prédifinies. Si c'est différent de 0 il y a des chances que ce soit du spammeur. C'est un système au final très basique mais rapide et très léger à implémenter.
+Un usage assez courant est le système de DNSBL : DNS Black List. C'est un système qui consiste à créer une liste noire de machines. C'est très utilisé dans les systèmes antispam. En gros on consulte un serveur DNS spécifique, en lui demandant *quel est l'adresse de machine.qui.spamme.com ?* et il répond avec une adresse IP de la forme ***127.a.b.c*** avec *a*, *b* et *c* qui correspondent à des valeurs prédéfinies. Si c'est différent de 0 il y a des chances que ce soit du spammeur. C'est un système au final très basique mais rapide et très léger à implémenter.
 
 Voyons plutôt voir comment _nous_ on peut s'en servir. Petit à petit on a rajouté pas mal de nouveaux types d'enregistrements dans le DNS dont certains vraiment très utiles voir indispensables.
 
 ## Les enregistrements concernant SSH : SSHFP
 
-Lorsque vous vous connectez à un serveur ***SSH***, il envoi son empreinte lors de la connexion. Cela vous permet de vous assurer que vous vous connectez à la bonne machine : si l'empreinte a changé par rapport à une session précédente votre client SSH va vous l'afficher. Le soucis est donc lors de la première connexion : *Comment être sûr que la première connexion est sûre ?* Et bien en publiant l'empreinte dans votre zone DNS par exemple ?
+Lorsque vous vous connectez à un serveur ***SSH***, il envoie son empreinte lors de la connexion. Cela vous permet de vous assurer que vous vous connectez à la bonne machine : si l'empreinte a changé par rapport à une session précédente votre client SSH va vous l'afficher. Le souci est donc lors de la première connexion : *Comment être sûr que la première connexion est sûre ?* Et bien en publiant l'empreinte dans votre zone DNS par exemple ?
 
 L'empreinte SSH de votre serveur peut donc être collée dans un enregistrement ***SSHFP***. Pour la générer, sur le serveur SSH lancez la commande **ssh-keygen -r lord.re**.
 
@@ -202,7 +237,7 @@ L'empreinte SSH de votre serveur peut donc être collée dans un enregistrement 
 	lord.re IN SSHFP 4 1 493848772bcb5b6225424e58e5274984d825f01a
 	lord.re IN SSHFP 4 2 335d5e9ec2d901b7ffd693fe614f73e4ad0afa40c72d9867dadfd155016c0029
 
-Vous obtiendrez les enregistrement tout bien formatté à coller dans votre zone. Maintenant il est conseillé de dire à votre client SSH de vérifier la présence de SSHFP, donc dans */etc/ssh/ssh_config* ajoutez l'option ***VerifyHostKeyDns yes*** (ou ask). Voilà un bon moyen simple d'améliorer un chouilla la sécurité de SSH. Faites le pour tous vos serveurs SSH.
+Vous obtiendrez les enregistrements tout bien formatté à coller dans votre zone. Maintenant il est conseillé de dire à votre client SSH de vérifier la présence de SSHFP, donc dans */etc/ssh/ssh_config* ajoutez l'option ***VerifyHostKeyDns yes*** (ou ask). Voilà un bon moyen simple d'améliorer un chouilla la sécurité de SSH. Faites le pour tous vos serveurs SSH.
 
 ## Les enregistrements concernant TLS : CAA et TLSA
 
@@ -234,26 +269,26 @@ Et pouf le bouton *generate* vous filera la jolie ligne à ajouter à votre zone
 
 ## Les enregistrements concernant les mails : SPF, DKIM, DMARC, STS et OPENPGPKEY
 
-Ici c'est la folie. Le mail étant un des plus vieux protocole d'Internet, il y a pas mal de trucs qui s'y sont greffés pour combattre le spam et aussi améliorer l'authenticité des mails. Commençons gentiement.
+Ici c'est la folie. Le mail étant un des plus vieux protocoles d'Internet, il y a pas mal de trucs qui s'y sont greffés pour combattre le spam et aussi améliorer l'authenticité des mails. Commençons gentiement.
 
 ### SPF
 
 C'est le plus simple de la bande. Celui-là spécifie quelles sont les machines/ip qui sont autorisées à envoyer des mails en provenance de votre domaine. En théorie si vous avez une configuration classique, les seules machines qui enverront du mail en provenance de votre domaines seront les machines déclarées en MX.
 
-Il existe un champs de type ***SPF*** mais il est [consideré obsolète](https://tools.ietf.org/html/rfc7208) (dommage), il faut placer ça dans un champs TXT.
+Il existe un champ de type ***SPF*** mais il est [consideré obsolète](https://tools.ietf.org/html/rfc7208) (dommage), il faut placer ça dans un champs TXT.
 
 	lord.re.				600	IN	TXT	"v=spf1 mx -all"
 
-Ça veux dire les MX sont autorisés et tout le reste doit être jeté (le boulot de l'antispam). Rien d'autre à faire pour ça.
+Ça veut dire les MX sont autorisés et tout le reste doit être jeté (le boulot de l'antispam). Rien d'autre à faire pour ça.
 
 ### DKIM
-Le ***Domain Keys Identified Mail*** est un système de signatures cryptographiques qui va signer le mail et ses entêtes. Les serveurs SMTP traitant le mail vont donc devoir vérifier que ça coïncide avec la clé publiée dans le DNS. En gros ça empêche que le messages et ses entêtes soient modifiés et cela atteste que c'est bien votre serveur qui sont à l'origine de ce mail.
+Le ***Domain Keys Identified Mail*** est un système de signatures cryptographiques qui va signer le mail et ses entêtes. Les serveurs SMTP traitant le mail vont donc devoir vérifier que ça coïncide avec la clé publiée dans le DNS. En gros ça empêche que le message et ses entêtes soient modifiés et cela atteste que c'est bien votre serveur qui sont à l'origine de ce mail.
 
 Ce coup-ci il va falloir configurer votre pile mail pour qu'elle signe vos mails. Je vous laisse vous débrouiller pour ça (hors scope de cet article, mais sachez que rspamd sait très bien faire cela). Bref vous allez donc avoir une clé publique que vous allez publier dans un TXT avec cette allure :
 
 	default._domainkey.lord.re.     3600    IN      TXT     "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC06MC2/9/YtSn9BS09oMN26UdKO6DMGlCWYsodQ8P+t2CzsSzqUJxaszJmWZglqZyXRjaCMAFUoOF7GiyhXhqM4rSLGxaPHfrLK7f9YlJYAnqdhzEJdEjP8/vkJoMTJxINP9gEBi+wGSGEhoha514NHHtZ4g+QbJZliahwAjl0BQIDAQAB"
 
-Donc les serveurs mails qui recevront vos mails avec les entêtes DKIM vérifieront votre champs DNS qui va bien pour vérifier que c'est ok. Mais rien n'indique ce qu'ils doivent faire si ça ne correspond pas.
+Donc les serveurs mails qui recevront vos mails avec les entêtes DKIM vérifieront votre champ DNS qui va bien pour vérifier que c'est ok. Mais rien n'indique ce qu'ils doivent faire si ça ne correspond pas.
 
 ### DMARC
 Ha bha le voilà le truc qui va indiquer aux autres serveurs que faire de vos mails si le SPF et/ou le DKIM déconne. ***DMARC*** est donc complémentaire aux deux précédents. C'est encore un enregistrement de type TXT qui a cette gueule
@@ -264,14 +299,14 @@ C'est plutôt explicite :
 
 - le ***p=none*** indique la politique que doivent adopter les autres serveurs vis-à-vis de vos mails. Avec ***none***, c'est indifférent. Si vous êtes absolument sûr de vos règlages vous pouvez mettre ***quarantine*** voir ***reject*** pour que ça soit carrément rejeté.
 - Le ***rua*** et ***ruf*** vous permet d'être contacté par les serveurs mails pour recevoir des rapports
-- Et enfin ***adkim=s*** et ***aspf=s*** indique que vous voulez une vérif stricte du spf et dkim, c'est à dire que le nom doit être parfaitement le même (le mode r pour ***relaxed*** permet d'émettre depuis un sous-domaine contrairement au ***strict***).
+- Et enfin ***adkim=s*** et ***aspf=s*** indique que vous voulez une vérif stricte du spf et dkim, c'est-à-dire que le nom doit être parfaitement le même (le mode r pour ***relaxed*** permet d'émettre depuis un sous-domaine contrairement au ***strict***).
 
 Mon conseil c'est de commencer pépère avec une politique à none et si dans six mois vous avez pas de soucis, de monter d'un cran en passant à quarantine et pourquoi pas plus tard à reject. Si c'est pas bon, vous risqueriez de vous tirer une balle dans le panard !
 
 ### STS
-Celui-là c'est un ptit nouveau. Il est pas encore vraiment sorti de l'œuf à vrai dire mais il est prometteur mais un peu chiant à mettre en place car il dépend du DNS mais aussi d'un serveur web… Ouai il va falloir mettre du json dans *.well-known* de votre serveur web. C'est pour ça que je l'ai pas encore mis en place mais je pense le faire à terme.
+Celui-là c'est un ptit nouveau. Il est pas encore vraiment sorti de l'œuf à vrai dire, mais il est prometteur mais un peu chiant à mettre en place car il dépend du DNS mais aussi d'un serveur web… Ouai il va falloir mettre du json dans *.well-known* de votre serveur web. C'est pour ça que je l'ai pas encore mis en place mais je pense le faire à terme.
 
-Donc en gros celui-là permet de spécifier comment doivent réagir les serveurs mails se connectant aux votre concernant la crypto : vous pouvez exiger de refuser la connexion si ce n'est pas chiffré. C'est donc vraiment très intéressant d'un point de vue protection de la vie privée de vos mails.
+Donc en gros celui-là permet de spécifier comment doivent réagir les serveurs mails se connectant aux votres concernant la crypto : vous pouvez exiger de refuser la connexion si ce n'est pas chiffré. C'est donc vraiment très intéressant d'un point de vue protection de la vie privée de vos mails.
 
 Ça a cette allure ```_mta-sts.lord.re.  IN TXT "v=STSv1; id=20160831085700Z;"```. En gros ça donne un numéro de politique à suivre. Ensuite il faudra aller piocher dans le json à quoi correspond la politique correspondant à cet id. À mon avis ça aurait pu tenir dans le DNS toussa mais bon…
 
@@ -279,7 +314,7 @@ Donc en gros celui-là permet de spécifier comment doivent réagir les serveurs
 Celui-là non plus je ne l'utilise pas (en fait je ne chiffre pas du tout mes mails). Mais il permet de publier sa clé publique dans sa zone DNS. C'est un peu mieux que d'utiliser un serveur de clé publique. N'utilisant pas le truc j'approfondierai pas plus mais il existe [ce générateur](https://www.huque.com/bin/openpgpkey).
 
 ### Conclusion des mails
-Pour résumer on se protège du spoof grâce à DKIM et SPF. On s'assure de l'intégrité des ses mails via DKIM et DMARC. On s'assure(ra) que personne ne puisse lire les mails grâce à STS (en dehors des serveurs émission/réception) et on s'assure même que les serveurs eux-mêmes ne puissent lire le contenu grâce à PGP. Voilà notre stack mail est blindée.
+Pour résumer on se protège du spoof grâce à DKIM et SPF. On s'assure de l'intégrité de ses mails via DKIM et DMARC. On s'assure(ra) que personne ne puisse lire les mails grâce à STS (en dehors des serveurs émission/réception) et on s'assure même que les serveurs eux-mêmes ne puissent lire le contenu grâce à PGP. Voilà notre stack mail est blindée.
 
 ## Conclusion globale ?
 Ouai vite fait une ptite conclusion. Le DNS contient des données qui sont publiques mais dont l'authenticité est de plus en plus critique. Modifier des requêtes DNS (enfin les réponses) à la volée pour modifier une clé PGP ou SSHFP ça pourrait avoir des conséquences assez désastreuses. C'est pour ça qu'il est indispensable de déployer ***DNSSEC*** sur votre domaine. Avec knot c'est vraiment simple. D'ailleurs est-ce que votre résolveur DNS actuel valide DNSSEC ?
