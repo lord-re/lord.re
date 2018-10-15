@@ -178,7 +178,7 @@ h3{
 .post-edit-date{
  color:#888;
 }
-.posts li{
+.posts ul li{
  margin-left:1rem;
  list-style-position:outside;
  list-style-type:disc;
