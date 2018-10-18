@@ -30,12 +30,12 @@ Et quel meilleur endroit pour récupérer les sources que d'aller à la source ?
 
 Gogo **https://kernel.org**
 
-Et là je me fait pas chier je prend le lien du *Latest Stable Kernel* en cours.
+Et là je me fais pas chier je prends le lien du *Latest Stable Kernel* en cours.
 
 ## 2. Décompression et Mise à jour du lien symbolique
 
 **<samp>cd /usr/src/</samp>**
-Je me fout dans le bon dossier.
+Je me fous dans le bon dossier.
 
 **<samp>wget le latest</samp>**
 Je télécharge donc le lien choppé précédemment.
@@ -44,15 +44,15 @@ Je télécharge donc le lien choppé précédemment.
 Je détarre le bousin.
 
 **<samp>unlink linux</samp>**
-Je supprimme le lien symbolique pointant vers les sources du kernel précédent (on peut utiliser rm mais ça impressionne plus d'utiliser unlink !).
+Je supprime le lien symbolique pointant vers les sources du kernel précédent (on peut utiliser rm mais ça impressionne plus d'utiliser unlink !).
 
 **<samp>ln -s linux-votre-latest linux</samp>**
-Je créer un lien symbolique vers les nouvelles sources.
+Je crée un lien symbolique vers les nouvelles sources.
 
 ## 3. Config
 
 **<samp>zcat /proc/config.gz > linux/.config</samp>**
-Je récupère la conf du kernel qui tourne actuellement et je la fout dans les sources du nouveau.
+Je récupère la conf du kernel qui tourne actuellement et je la fous dans les sources du nouveau.
 
 **<samp>make oldconfig</samp>**
 Et c'est parti pour voir toutes les nouveautés du kernel et à chaque nouvelle option il demande si je veux ou pas l'ajouter (généralement non, j'aime les kernels minimaux).
@@ -82,13 +82,13 @@ J'y copie le kernel tout juste sorti de la calculette.
 Le reboot indispensable.
 
 **<samp>e</samp>**
-Pour interompre Grub et éditer la ligne de boot, j'y change la version du kernel qui boot.
+Pour interrompre Grub et éditer la ligne de boot, j'y change la version du kernel qui boot.
 
 ## 6. Mise à jour du bootloader
 Si ça boot sans encombre il reste plus qu'à passer ça en dur.
 
 **<samp>su</samp>**
-Je remet mon cosplay de patron.
+Je remets mon cosplay de patron.
 
 **<samp>mount /dev/sda1 /boot</samp>**
 Je remonte la partoche de boot.
