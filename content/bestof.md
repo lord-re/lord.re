@@ -67,6 +67,7 @@ Une sélection d'articles passés toujours pertinents.
 	- [Partie 19]({{< ref "posts/123-librem-progress-report-19/" >}})
 	- [Partie 20]({{< ref "posts/125-librem-progress-report-20/" >}})
 	- [Partie 20.5]({{< ref "posts/126-librem-progress-report-20/" >}})
+	- [Partie 21]({{< ref "posts/132-librem-progress-report-21/" >}})
   - [Améliorer l'émulation Playstation]({{< ref "posts/79-emu-psx" >}})
   - [Web ≠ Internet]({{< ref "posts/90-web≠internet" >}})
   - [Ce qu'il se passe quand on ouvre une page Web]({{< ref "posts/99-ce-quil-se-passe-quand-on-ouvre-une-page-web" >}})
