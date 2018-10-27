@@ -2,10 +2,10 @@
 <body>
   <a href="#content" title="skip to content" aria-label="skip to content"></a>
   <div id="layout">
-  {{ partial "sidebar.html" . }}
+{{ partial "sidebar.html" . }}
 
   <div id="content">
-		<section  class="{{.Section}}">
+    <section  class="{{.Section}}">
       <header class="post-header">
         <h1 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
         <p class="post-meta"><em>
