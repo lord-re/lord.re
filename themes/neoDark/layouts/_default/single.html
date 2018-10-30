@@ -27,7 +27,7 @@
           {{if .Next }}{{ i18n "paging-older" }}<a class="paging-link" href="{{ .Next.RelPermalink }}">{{.Next.Title}}</a>{{ end }}
           </p>
           <p>Un article aléatoire : {{ range first 1 (shuffle (.Site.RegularPages ))  }} <a href="{{ .Permalink }}">{{ .Title }}</a> {{ end }}</p>
-         <script data-isso="https://isso.lord.re/" src="https://isso.lord.re/js/embed.min.js" data-isso-css="false" data-isso-avatar-bg="#222"></script>
+         <script data-isso="https://isso.lord.re/" src="https://isso.lord.re/js/embed.min.js" data-isso-css="false" data-isso-avatar-bg="#222" defer></script>
          <section id="isso-thread"></section>
         </div>
 {{ end }}
