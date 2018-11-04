@@ -114,5 +114,5 @@ Bref, *j'ai pas perdu de contenu et je n'ai pas changé mes habitudes* : j'utili
 Par contre j'ai perdu tous mes followers… pas un drame, si les gens aimaient ce que je publiais avant, ils aimeront ce que je publie maintenant et me followeront à nouveau.
 
 Si vous débutez dans le Fediverse et que vous voulez avoir un minimum d'indépendance, il est probablement préferrable de vous monter une instance Pleroma plutôt qu'une instance Mastodon.
-C'est plus simple et plus léger tout en étant quasi identique (voir mieux) à l'utilisation.
+C'est plus simple et plus léger tout en étant quasi identique (voire mieux) à l'utilisation.
 Par contre je ne sais pas comment ça se comporte avec de multiples utilisateurs, peut-être que ça monte moins en charge que Mastodon…
