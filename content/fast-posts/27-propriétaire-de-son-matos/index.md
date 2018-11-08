@@ -1,7 +1,7 @@
 +++
 Author = "Lord"
 Description = "En une semaine seulement, les géants de la tech nous ont montré qu'ils controllent le matériel qu'ils nous vendent. Est-on en mesure de dire que l'on maîtrise encore nos possessions ?"
-Categories = ["actu", ""]
+Categories = ["actu"]
 menu = "main"
 notoc = true
 PublishDate = 2018-09-14T11:03:38+02:00
