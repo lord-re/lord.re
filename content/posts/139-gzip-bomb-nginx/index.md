@@ -6,6 +6,7 @@ menu = "main"
 notoc = true
 PublishDate = 2018-11-09T15:29:10+01:00
 date = 2018-11-09T15:29:10+01:00
+lastEdit = 2018-11-09T17:50:10+01:00
 title = "Gzip-bombe avec Nginx sans PHP"
 editor = "kakoune"
 +++
@@ -36,28 +37,24 @@ Sauf que je vais pas foutre PHP juste pour ça…
 
 Il va donc falloir ruser.
 
-### 1. .php == text/html
-Bon premièrement il faut faire en sorte que nginx envoi le bon **Content-Type** pour les fichiers avec l'extension php.
-Si vous le faites pas, votre navigateur web va tenter de télécharger le fichier au lieu de tenter de l'afficher.
 
-Donc pour faire ça il faut éditer */etc/nginx/mime.types* où il faut rajouter **<samp>text/html		php;</samp>**.
-Tout simplement.
-
-### 2. Créer la bombe
+### 1. Créer la bombe
 On va créer un fichier de 10Go avec uniquement des zéros.
 Et on va le gziper et ça va faire 10Mo.
 
-**<samp>dd if=/dev/zero bs=1M count=10240 | gzip -9 > 10G.gz</samp>**
+**<samp>dd if=/dev/zero bs=1M count=10240 | gzip -9 > 10G.php</samp>**
 
 Ça prend un peu de temps, vous inquiétez pas.
 Vous le placez à la racine de votre site ouaib.
 
-### 3. Mise en place du piège
+### 2. Mise en place du piège
 On édite la conf de votre vhost nginx : */etc/nginx/conf.d/lord.re.conf*
 
 {{< highlight nginx >}}
-location ~* /10G.php {
+location ~* \.php(/|$) {
 	root /home/nginx/lord.re;
+	try_files $uri /10G.php;
+	types { text/html php; }
 	add_header Expires "Wed, 11 Jan 1984 05:00:00 GMT";
 	add_header Content-Encoding gzip;
 }
@@ -67,19 +64,12 @@ Voilà on ajoute deux entêtes HTTP.
 Le premier sert pas à grand chose mais visiblement il est défini sur deux installations Wordpress que j'ai testé.
 
 Le second entête indique que ce sont des données gzippés et que donc le client va devoir les décompresser.
+Si vous le faites pas, votre navigateur web va tenter de télécharger le fichier au lieu de tenter de l'afficher.
 
-### 4. CatchAll php
-Ensuite il faut dire à Nginx que toutes les requêtes pour les fichiers php il faut leur balancer le piège.
+On redéfini le type du fichier php en tant que *text/html* pour indiquer au client que c'est une page web classique.
 
-{{< highlight nginx >}}
-location ~* \.php(/|$) {
-	try_files $uri /10G.php;
-	add_header Expires "Wed, 11 Jan 1984 05:00:00 GMT";
-	add_header Content-Encoding gzip;
-}
-{{< / highlight >}}
+### 3. Profit !
 
-Et voilà vous recharchez votre Nginx et c'est parti.
 
 ## Vous voulez tester ?
 
@@ -87,3 +77,5 @@ Et bha [venez](https://lord.re/wp-login.php).
 Les navigateurs réagissent tous un peu différemment.
 Certains bouffent du CPU mais pas trop de RAM, d'autres bouffent à mort de RAM…
 
+---------
+Merci à Fol pour les modifs qui rendent le truc un peu plus simple encore !
