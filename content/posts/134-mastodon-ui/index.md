@@ -1,7 +1,7 @@
 +++
 Author = "Lord"
 Description = "L'interface web de Mastodon est excellente : elle est très personnalisable mais en plus est pratique. Cerise sur le gâteau : elle est jolie."
-Categories = ["web", "ux", "fediverse"]
+Categories = ["web", "ux", "fedivers","mastodon"]
 menu = "main"
 notoc = true
 draft = false
