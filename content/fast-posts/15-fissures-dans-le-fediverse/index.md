@@ -1,7 +1,7 @@
 +++
 Author = "Lord"
 Description = "Le Fediverse est fragile. Aimez-le, aidez-le."
-Categories = ["actu", "fediverse"]
+Categories = ["actu", "fediverse","mastodon"]
 menu = "fast"
 noread = true
 notoc = true
