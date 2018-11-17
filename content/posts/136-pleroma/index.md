@@ -1,7 +1,7 @@
 +++
 Author = "Lord"
 Description = "Pleroma est une alternative super intéressante à Mastodon surtout si vous souhaitez vous héberger votre instance à vous. Plus léger et plus simple à administrer que Mastodon, ça peut aisément tourner sur un ptit SBC."
-Categories = ["fedivers", "mastodon","pleroma"]
+Categories = ["fediverse", "mastodon","pleroma"]
 menu = "main"
 notoc = true
 PublishDate = 2018-11-04T10:30:58+02:00
