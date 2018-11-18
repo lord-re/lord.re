@@ -6,7 +6,7 @@ menu = "main"
 notoc = true
 PublishDate = 2018-11-18T17:02:14+01:00
 date = 2018-11-18T17:02:14+01:00
-title = "Updater le cache nginx lorsque portage utilise git"
+title = "Updater le cache des méta-données lorsque Portage utilise git"
 editor = "kakoune"
 +++
 Gentoo se modernise et depuis quelques années l'arbre Portage peut-être transmis non plus uniquement via *rsync* mais aussi par *git* maintenant.
