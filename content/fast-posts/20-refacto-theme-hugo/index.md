@@ -34,7 +34,7 @@ Bon et zavez-vu ?
 Il y a des ptites icônes SVG à gauche maintenant.
 Ça enlève un peu de texte et ajoute un peu de couleur…
 
-Et donc voilà un [targz du thème Hugo](https://lord.re/tmp/neodark-03-08-2018.tar.gz). 
+Et donc voilà un [tar du thème Hugo](https://lord.re/tmp/neodark-18112018.tar). 
 
 J'espère que ça vous plaît !
 
