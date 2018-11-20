@@ -6,6 +6,7 @@ menu = "main"
 notoc = true
 PublishDate = 2018-11-04T10:30:58+02:00
 date = 2018-11-04T10:30:58+02:00
+LastEdit = 2018-11-20T20:30:58+02:00
 title = "Pleroma : L'alternative à Mastodon"
 editor = "kakoune"
 +++
@@ -87,17 +88,17 @@ stop() {
 {{< / highlight >}}
 
 Il vous reste plus qu'à copier (et adapter un peu) la conf nginx fournie : **<samp>cp installation/pleroma.nginx /etc/nginx/conf.d/pleroma.conf</samp>**.
-Là il faut changer le *server_name* (à deux endroits), l'emplacement des clés *ssl_trusted_certificate* et *ssl_certificate* et enfin *ssl_certificate_key* et enfin le *connect-src 'self' wss://example.tld* et à reload votre nginx.
+Là il faut changer le *server_name* (à deux endroits), l'emplacement des clés *ssl_trusted_certificate* et *ssl_certificate* et enfin *ssl_certificate_key* ~~et enfin le *connect-src 'self' wss://example.tld*~~ et à reload votre nginx.
 
 Ça y est, vous avez votre instance prête à démarrer.
 Vous allez pouvoir créer votre utilisateur et commencer à follow vous amis du Fediverse !
 
 Bon ça prend rien en CPU, concernant le skeudur par contre ça augmente (enfin uniquement la base de donnée).
 
-| |   29/10/2018 |   04/11/2018 |
-|:-:|:-:|:-:|
-| DB postgres | 26Mo | 88Mo |
-| /home/pleroma | 144.5Mo | 144.9Mo |
+| |   29/10/2018 |   04/11/2018 |  20/11/2018 |
+|:-:|:-:|:-:|:-:|
+| DB postgres | 26Mo | 88Mo | 320Mo |
+| /home/pleroma | 144.5Mo | 144.9Mo | 161.5Mo |
 
 ## Migration de Mastodon vers Pleroma
 Par défaut *la limite de caractères est de 5000* ce qui est au moins dix fois mieux que les 500 de Mastodon.
@@ -116,3 +117,6 @@ Par contre j'ai perdu tous mes followers… pas un drame, si les gens aimaient c
 Si vous débutez dans le Fediverse et que vous voulez avoir un minimum d'indépendance, il est probablement préferrable de vous monter une instance Pleroma plutôt qu'une instance Mastodon.
 C'est plus simple et plus léger tout en étant quasi identique (voire mieux) à l'utilisation.
 Par contre je ne sais pas comment ça se comporte avec de multiples utilisateurs, peut-être que ça monte moins en charge que Mastodon…
+
+--------------------
+EDIT : 20/11/2018 : Pleroma envoie les bons headers HTTP de lui même donc plus la peine de faire ça via Nginx. Merci *Tetsumaki*.
