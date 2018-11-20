@@ -64,7 +64,7 @@ Mais surtout ses fractaux en 3D sont vraiment superbes.
 Et on finit par la plus petite de la fournée : **1Ko**.
 C'est ridiculement petit.
 
-Présentée en compet lors de l'*Assembly 2015*, celle-ci est vraiment mignone avec une petite musique (mais ce sont des sons externes qui ne sont donc pas décomptés).
+Présentée en compet lors de l'*Assembly 2015*, celle-ci est vraiment mignonne avec une petite musique (mais ce sont des sons externes qui ne sont donc pas décomptés).
 
 Un tour de force magistral.
 
