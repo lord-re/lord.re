@@ -6,6 +6,11 @@ theme = "neoDark"
 publishDir = "/home/lord/www/public"
 #staticDir = ["static","themes/neoDark/static"]
 paginate = 20
+[blackfriday]
+  fractions = false
+  smartypants = false
+
+
 [params]
   sidebartitle = "/home/lord"
   sectionsInHomepage = ["posts","fast-posts","shares","ideas"]
