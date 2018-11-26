@@ -12,16 +12,16 @@ J'aime le Fédiverse.
 Mais si vous savez, c'est le web 3.0.
 Mais contrairement aux annonces précédentes, il existe déjà et vous pouvez l'utiliser dès maintenant !
 
-Donc le Fédiverse c'est tout un ensemble de différents services qui savent parler entre eux.
+Donc *le Fédiverse c'est tout un ensemble de différents services qui savent parler entre eux*.
 Du coup, sur le même principe que les mails, un utilisateur sur le service X peut interagir avec un utilisateur du service Y.
 
-Fini les silos de données qui vous enferment et vous retiennent prisonnier.
+*Fini les silos de données qui vous enferment et vous retiennent prisonnier*.
 C'est également un outil pour combattre l'effet réseau : si votre service est dans le Fédiverse, même si vous êtes que deux utilisateurs de votre service, c'est pas grave, vous êtes dans le Fédiverse et avez accès à des millions d'autres utilisateurs !
 
 Le fonctionnement de la fédération ressemble à un mélange des mails et du RSS : vous vous créez un compte sur un serveur dans le Fédiverse et ensuite vous vous abonnez à des émetteurs de contenu (une personne qui blog, une chaîne de vidéo, un hashtag d'une instance, une galerie photo…) et ensuite vous n'avez plus qu'à attendre que le contenu vous soit envoyé dès sa création.
 Mais vous n'êtes pas seulement consommateur, vous pouvez également réagir, mettre en favoris, commenter, publier du contenu.
 
-Le Web 2.0 c'est le web participatif où l'utilisateur est captif des plateformes, le Web 3.0 c'est l'utilisateur qui redevient maître de ses données et qui peut participer à toute une myriade de services interconnectés.
+Le Web 2.0 c'est le web participatif où l'utilisateur est captif des plateformes, *le Web 3.0 c'est l'utilisateur qui redevient maître de ses données et qui peut participer à toute une myriade de services interconnectés*.
 
 Allez c'est parti pour un petit tour du Fédiverse en cette fin 2018.
 Si j'oublie un service m'insultez-pas mais parlez-m'en pour que le je rajoute à la liste.
@@ -43,7 +43,7 @@ L'avantage est que c'est beaucoup plus simple à héberger que Mastodon et donc 
 
 Il y a plusieures interfaces utilisateurs, soit PleromaFE qui ressemble à Twitter avec deux colonnes, une avec les mentions et de quoi écrire et une seconde avec la timeline.
 {{< img src="mastofe.thumb.jpg" link="mastofe.png" alt="L'interface MastoFE est un copié collé de celle de Mastodon" title="Non, ce n'est pas Mastodon mais bien Pleroma mais avec MastoFE" >}}
-La seconde interface est celle de Mastodon (inspirée de Twidere).
+La seconde interface est celle de Mastodon (inspirée de TweetDeck).
 
 Le rythme de dev est assez élevé mais pour l'instant il n'y a pas de sorties officielles, du coup c'est via git uniquement.
 En plus de se fédérer via ActivityPub, il parle le *OStatus* ce qui permet de se raccorder à pas mal d'autres services.
