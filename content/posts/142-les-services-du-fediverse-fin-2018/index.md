@@ -6,6 +6,7 @@ menu = "main"
 notoc = true
 PublishDate = 2018-11-26T17:23:55+02:00
 date = 2018-11-26T17:23:55+02:00
+LastEdit = 2018-11-27T18:57:55+02:00
 title = "Les services du Fédiverse fin 2018"
 +++
 J'aime le Fédiverse.
@@ -108,7 +109,22 @@ Le projet est surement bien trop jeune pour le moment mais à surveiller, il ado
 
 Pour monter une instance ça sera encore du *PHP* et du *MySQL* ou *PostgreSQL*.
 
+*Plus d'infos [dans les commentaires](https://lord.re/posts/142-les-services-du-fediverse-fin-2018/#isso-182) grâce à [eSquid](https://hub.g3l.org/profile/eSquid).*
+
 ----------------------
+
+## Hubzilla
+[Hubzilla](https://project.hubzilla.org) ressemble un peu à Osada : il est compatible un peu avec tous les protocoles du Fediverse *Zot*, *ActivityPub*, *Diaspora* et *OStatus*.
+Le fourre-tout.
+{{< img src="hubzilla.thumb.jpg" link="hubzilla.png" alt="Encore une capture d'écran de réseau social, rien de bien différent" title="La home de Hubzilla | Lascapi" >}}
+Je ne l'ai pas testé mais visiblement il tente de se fédérer le plus possible.
+Merci [Lascapi](https://mastodon.zaclys.com/@lascapi) pour l'image.
+
+Si vous voulez monter votre instance c'est le classique *PHP* et *MySQL*.
+
+*Plus d'infos [dans les commentaires](https://lord.re/posts/142-les-services-du-fediverse-fin-2018/#isso-182) grâce à [eSquid](https://hub.g3l.org/profile/eSquid).*
+
+------------------
 
 ## Friendica
 [Friendica](https://friendi.ca/)([RSS](https://friendi.ca/feed/)) est une implémentation de *Diaspora* (ça tire du côté de Facebook) mais est en passe d'ajouter le support d'*ActivityPub* (en plus de Diaspora et *OStatus*) et donc se fédère déjà avec les services précédemment cités.
@@ -120,17 +136,6 @@ C'est moins orienté **microblog** et plus **partage de photos/d'évènements et
 J'ai pas testé, mais ça ne m'attire pas dans le concept, c'est pas ce que j'affectionne dans les réseaux sociaux.
 Il propose le moyen de communiquer via *IMAP* ce qui est unique pour l'instant.
 C'est propulsé par le classique *PHP*+*MySQL*.
-
-------------------
-
-## Hubzilla
-[Hubzilla](https://project.hubzilla.org) ressemble un peu à Osada : il est compatible un peu avec tous les protocoles du Fediverse *Zot*, *ActivityPub*, *Diaspora* et *OStatus*.
-Le fourre-tout.
-{{< img src="hubzilla.thumb.jpg" link="hubzilla.png" alt="Encore une capture d'écran de réseau social, rien de bien différent" title="La home de Hubzilla | Lascapi" >}}
-Je ne l'ai pas testé mais visiblement il tente de se fédérer le plus possible.
-Merci [Lascapi](https://mastodon.zaclys.com/@lascapi) pour l'image.
-
-Si vous voulez monter votre instance c'est le classique *PHP* et *MySQL*.
 
 ------------------
 
