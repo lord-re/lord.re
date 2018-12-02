@@ -15,7 +15,7 @@ Si vous avez un nom de domaine à vous (et j'espère que si vous êtes sensibili
   - soit vous l'hébergez vous-même.
 
 Bon, personnellement *je pense qu'il vaut mieux que vous l'hébergiez vous-même*.
-Soit dit en passant, je vous ai déjà concocté un [joli guide concernant DNS]({{ ref "posts/67-dns-mega-guide" }}) plutôt complet.
+Soit dit en passant, je vous ai déjà concocté un [joli guide concernant DNS]({{< ref "/posts/63-dns-mega-guide" >}}) plutôt complet.
 J'ai rien contre le fait de laisser un prestataire le faire.
 Je n'ai, à vraie dire, jamais vraiment entendu d'histoire de magouille/mauvaise gestion/d'usurpation ou autre saloperie à ce propos.
 **Mais héberger son domaine est vraiment super simple, ça demande peu de ressource, pas vraiment contraignant.**
