@@ -6,7 +6,7 @@ menu = "main"
 notoc = true
 PublishDate = 2018-09-02T09:35:41+02:00
 date = 2018-09-02T09:35:41+02:00
-lastEdit = 2018-09-04T22:25:41+02:00
+lastEdit = 2018-12-03T21:09:41+02:00
 title = "Quelques sites/outils pour améliorer votre site"
 editor = "kakoune"
 jdf = "https://www.journalduhacker.net/s/rad4ru/quelques_sites_outils_pour_am_liorer"
@@ -54,6 +54,7 @@ Donc voilà une ptite liste de différents sites du genre :
   - [NetRenderer](http://netrenderer.com/index.php) : Si jamais le rendu de votre site ouaib sur Internet Explorer vous intéresse…
   - [HTML Validator](http://validator.w3.org/) : le classique du W3C pour valider la syntaxe de votre HTML.
   - [CSS Validator](http://jigsaw.w3.org/css-validator/) : la même mais pour le CSS.
+  - [Down or Not](https://www.websiteplanet.com/fr/webtools/down-or-not) : permet de tester si un site déconne pour tout le monde ou juste pour vous.
 
 ## Pas du web mais du Mail
 
@@ -75,4 +76,4 @@ Je vais tenter de grappiller quelques points pour l'accessibilité encore.
 
 -------------------------
 **PS :**
-Merci à Pifyz, Pofilo, Cascador et Tuxi pour leurs propositions !
+Merci à Anna, Pifyz, Pofilo, Cascador et Tuxi pour leurs propositions !
