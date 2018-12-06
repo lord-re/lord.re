@@ -75,3 +75,5 @@ Une sélection d'articles passés toujours pertinents.
   - [Vacances aux Royaumes-unis]({{< ref "posts/121-voyage-uk" >}})
   - [Weboutils pour site ouaib/DNS/mails]({{< ref "posts/124-site-outils-amelioration-sites" >}})
   - [Savoir décortiquer une URL]({{< ref "fast-posts/25-decortiquer-une-url" >}})
+  - [Couper l'accès au réseau d'un logiciel sous Linux]({{< ref "posts/137-linux-nonet-app/" >}})
+  - [Les services du Fediverse fin 2018]({{< ref "posts/142-les-services-du-fediverse-fin-2018/" >}})
