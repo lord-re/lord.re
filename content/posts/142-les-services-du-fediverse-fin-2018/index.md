@@ -193,7 +193,7 @@ C'est aussi du *Go* et *MySQL*.
 ------------------
 
 ## Prismo
-[Prismo](FIXME) est un simili HackerNews/Journal du Hacker/Reddit, bref, un **aggrégateur de liens**. 
+[Prismo](https://gitlab.com/mbajur/prismo) est un simili HackerNews/Journal du Hacker/Reddit, bref, un **aggrégateur de liens**. 
 
 Du *Ruby*, du *NodeJS* et du *PostgreSQL* ici.
 {{< img src="prismo.thumb.jpg" link="prismo.png" alt="L'interface web de Prismo ressemble énormément aux alternatives" title="On reste sur une interface standard, la partie fédérée ne transparait pas." >}}
