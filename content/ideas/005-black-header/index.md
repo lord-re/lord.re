@@ -6,6 +6,7 @@ menu = "main"
 notoc = true
 PublishDate = 2018-11-29T16:53:15+01:00
 date = 2018-11-29T16:53:15+01:00
+lastEdit = 2018-12-12T21:05:10+01:00
 title = "Le HTTP Black Header"
 editor = "kakoune"
 +++
@@ -27,3 +28,8 @@ Bref ça changerait pas la face du monde mais ça serait pas dégueulasse comme 
 *Il aura quand même fallu dix ans à Google pour se rendre compte qu'afficher une interface sombre peut épargner un ptit chouilla de batterie* (d'autant plus maintenant avec les écrans oled), donc on va ptet ravoir une vague d'interface sombre comme à l'époque d'holo.
 Croisons les yeux.
 
+
+## PS :
+Ça va peut-être exister bientôt !
+*Gabriel* de #LDN m'informe qu'il existe un brouillon des **Media Queries Level 5** dans lequel il y a la [prefers-color-scheme](https://drafts.csswg.org/mediaqueries-5/#descdef-media-prefers-color-scheme) ce qui permet de spécifier si l'on souhaite un thême plutôt clair ou sombre.
+Bref dans un futur incertain on aura probablement cette option.
