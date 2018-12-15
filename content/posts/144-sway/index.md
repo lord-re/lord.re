@@ -112,7 +112,7 @@ Le keycode est donc 25.
 
 Après la conversion c'est bon pour Sway.
 
-## Quelques ajustements dans l'environnement
+## Quelques ajustements dans l'environnement ?
 
 Bon premier truc à savoir, par défaut Sway (si configuré avec le use <samp>X</samp>) fera tourner vos applis X11 via XWayland sans rien faire à tel point que vous ne vous rendrez pas compte si une appli est native ou non.
 Et c'est le cas même pour des applis qui semblerait difficilement compatible (genre **xclip** fonctionne bien) mais pourtant…
@@ -132,3 +132,11 @@ Bon c'est aussi pour aider à essuyer les plâtres en reportant les bugs.
 Mais il y a quand même un avantage non négligeable pour l'utilisateur de base : **Plus de processus tournant avec les droits root**.
 D'un point de vue sécurité c'est excellent.
 Qui plus est, il me semble que contrairement à X11, les risques de keylogger sont bien moindres.
+
+## PS : et tout roule ?
+Tout.
+Sauf, les jeux.
+
+  - **GzDoom** ne sait pas gérer la souris comme il faut.
+  - **Quake3** ne sait pas locker la souris même avec des builds issues de git.
+  - **RetroArch** tourne nickel.
