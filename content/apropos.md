@@ -109,4 +109,8 @@ Ce lien est généré par Hugo et donc ne change qu'une fois le site régénér�
 
 Comme déjà dit, c'est hébergé sur ma ptite connexion perso donc ça peut arriver qu'il y ait des downtimes plus ou moins conséquents mais bon… c'est pas trop grave.
 
-Si vous voulez me contacter le mieux est de passer par IRC et dans le pire des cas par mail mais je peux passer plusieurs jours/semaines sans les consulter.
+Les sources du site web sont disponibles dans [ce repo](https://git.lord.re/lord/lord.re) (uniquement dispo via IPv6).
+
+## Contact
+Si vous voulez me contacter le mieux est de passer par IRC ou de me tooter sur le Fédiverse.
+Dans le pire des cas par mail mais je peux passer plusieurs jours/semaines sans les consulter.
