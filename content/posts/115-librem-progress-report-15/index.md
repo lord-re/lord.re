@@ -124,7 +124,7 @@ L'équipe Purism réfléchie activement à la création d'image Plasma pour les 
 Nous étions récemment au GUADEC en Espagne où nous avons pu interagir avec beaucoup de personnes attendant le Librem 5.
 Nous communiquerons plus sur cet évènement lors d'un prochain article de progression.
 
-{{< img src="*115-guadec.jpg" link="guadec.jpg" alt="Photographie de tous les participants au Guadec 2018" >}}
+{{< img src="*115-guadec.jpg" link="115-guadec.jpg" alt="Photographie de tous les participants au Guadec 2018" >}}
 
 Un grand Merci à toutes les équipes extérieures nous ayant aidé en révisant et intégrant nos modifications dans les différents projets upstreams.
 Le temps et les contributions de chacun sont grandement appréciés.

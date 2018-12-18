@@ -60,7 +60,7 @@ Bref si vous voulez en savoir plus j'ai déjà écrit [un article rien qu'à lui
 Parti d'Identi.ca pour finir en GnuSocial après moults forks et merges…
 
 C'est encore du **microblog** à l'ancienne (comprendre Twitter) mais souvent les instances ont viré la limitation du nombre de caractères.
-{{< img src="gnusocial.thumb.jpg" link="gnuscocial.png" alt="L'interface ressemble comme deux gouttes d'eau à Twitter" title="Le microblog approuvé par RMS" >}}
+{{< img src="gnusocial.thumb.jpg" link="gnusocial.png" alt="L'interface ressemble comme deux gouttes d'eau à Twitter" title="Le microblog approuvé par RMS" >}}
 L'interface principale de Pleroma était à la base une interface pour GnuSocial.
 La montée en puissance de Mastodon lui a redonné un sursaut d'activité.
 
