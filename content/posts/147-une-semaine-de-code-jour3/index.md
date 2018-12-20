@@ -1,7 +1,7 @@
 +++
 Author = "Lord"
 Description = ""
-Categories = ["", ""]
+Categories = ["golang", "code"]
 menu = "main"
 notoc = true
 PublishDate = 2018-12-19T13:57:25+01:00
