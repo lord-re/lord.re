@@ -6,7 +6,7 @@ menu = "main"
 notoc = true
 PublishDate = 2019-01-01T16:14:19+01:00
 date = 2019-01-01T16:14:19+01:00
-title = "Meta fin 2018"
+title = "Meta : récap 2018"
 editor = "kakoune"
 +++
 
