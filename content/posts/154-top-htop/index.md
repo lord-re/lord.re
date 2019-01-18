@@ -6,6 +6,7 @@ menu = "main"
 notoc = true
 PublishDate = 2019-01-10T19:04:28+01:00
 date = 2019-01-10T19:04:28+01:00
+lastEdit = 2019-01-18T18:18:12+01:00
 title = "Top et Htop"
 editor = "kakoune"
 +++
@@ -121,8 +122,10 @@ Contrairement à **top** on peut lui faire des trucs en plus sur les processus m
 
 Un premier truc c'est *strace* qui permet d'observer ce que fait un processus qui tourne (les syscalls qu'il lance permet de savoir s'il dort où s'il attend les io ou autre).
 Pour ça une fois que vous êtes sur le processus incriminé, appuyez sur **<samp>s</samp>**.
+À noter que vous ne pouvez stracer que les processus lancés par votre utilisateur à moins d'être root.
 
 Les descripteurs de fichiers utilisés par un processus peuvent être vu avec **<samp>l</samp>**.Ça vous lancera donc un *lsof* sur le processus.
+Tout comme pour strace, pour des raisons de droits, vous ne pouvez le faire que sur vos processus à moins d'être root.
 
 Un ptit **<samp>L</samp>** vous affichera tous les appels aux libs que fait un processus.
 Pour ça il faut que vous ayez *ltrace* d'installé.
