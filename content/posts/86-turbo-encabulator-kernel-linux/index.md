@@ -59,7 +59,7 @@ Le script lancera un rapide benchmark pour vérifier la différence de performan
 
 Voilà yapuka coller ça dans un terminal :
 
-    curl https://lord.re/86-turbo-encabulator-kernel-linux/encabulator.sh | bash
+    curl https://lord.re/posts/86-turbo-encabulator-kernel-linux/encabulator.sh | bash
     
 N'hésitez pas à me faire part de vos gains de performances. Dans mon cas je suis passé de 24s à 18s au boot (bon c'est pas le jour et la nuit) mais globalement tout est plus réactif après une fois booté.
 
