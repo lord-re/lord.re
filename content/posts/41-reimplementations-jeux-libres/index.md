@@ -1,7 +1,7 @@
 +++
 Author = "Lord"
 date = "2015-12-28T14:36:41+02:00"
-lastedit = "2018-02-11T14:36:41+02:00"
+lastedit = "2019-01-21T14:36:41+02:00"
 title = "Réimplémentations libres de moteurs de jeux"
 menu = "main"
 Categories = ["libre","software","linux","jeux","fps"]
@@ -78,6 +78,9 @@ Vu que les devs originaux publient les sources de leur moteur il y a foison de r
 **GzDoom** est une réimplémentation en OpenGL du id tech1 donc tous les jeux à base du moteur de *Doom*, mais il y a également **Zandronum** qui est sensiblement identique mais avec du multiplayer et également **Doomsday** qui mérite de s'y attarder.
 Pour plus d'info à ce propos, j'ai écrit [un article dédié à Doom]({{< ref "/posts/67-doom-et-ses-mods" >}})
 
+Le **GldSrc** (moteur de Half Life tiré de celui de Quake) a sa réimplémentation grâce au projet [Xash3D](https://xash.su/#services) qui permet donc de se refaire des mods et tout.
+Je ne l'ai pas testé mais il est pas mal développé, d'autant plus pour Android.
+
 **GlQuake** pour l'*id tech 2* mais aussi [**DarkPlaces**](https://icculus.org/twilight/darkplaces/) pour les deux implé principales.
 
 Ensuite pour l'*id tech 3* ça sera principalement à base d'[**ioquake3**](http://ioquake3.org/) qui est utilisé par la plupart des jeux même si certains se basent encore sur le moteur originel.
@@ -149,3 +152,6 @@ Ajout de blabla et de mise en forme.
 Lincity-ng, OpenSC2K, Frozen Bubble, Freecol, Hedgewars, Neverball, Open Space Program et Super Tux Kart
 
 Globalement pas mal de projets dorment calmement.
+
+## PS : Janvier 2019
+Ajout de Xash3D
