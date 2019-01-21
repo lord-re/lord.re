@@ -50,7 +50,7 @@ Le design complet de l'application peut être admiré dans notre propre [dépot]
 
 ## L'application Messages
 
-<a href="119-fractal-hackfest.jpg"><img src="119-fractal-hackfest.jpg" alt="Photo des devs lors du hackfest fractal" style="float:right;max-width:40%;margin:1rem;"></a>
+{{< img src="119-fractal-hackfest.jpg" alt="Photo des devs lors du hackfest fractal" >}}
 
 Au début de l'été, certains de nos employés (Dorota, Adrien, Tobias et <abbr title="François Téchené, pas moi, hein">moi-même</abbr>) avons participé au [Fractal](https://wiki.gnome.org/Apps/Fractal) hackfest à Strasbourg.
 Le but était d'analyser et discuter des possibilité d'utiliser Fractal comme appli par défaut pour la messagerie dans PureOS et le Librem5.
