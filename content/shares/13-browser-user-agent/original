@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>WebAIM: History of the browser user-agent string</title>
+	<link rel="shortcut icon" href="https://webaim.org/media/favicon.ico">
+	<link rel="home" href="https://webaim.org/">
+	<link rel="search" href="https://webaim.org/search/">
+	<link rel="alternate" href="https://webaim.org/blog/feed" type="application/rss+xml" title="WebAIM Blog">
+	
+	<link href="https://webaim.org/styles/main.css" rel="stylesheet">
+	<link href="https://webaim.org/styles/print.css" rel="stylesheet" type="text/css" media="print">
+	<script src="https://webaim.org/media/scripts/jquery.js"></script>
+	<script src="https://webaim.org/media/scripts/main.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Kameron:400,700' rel='stylesheet' type='text/css'>
+	<link href="https://webaim.org/styles/documents.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700" rel="stylesheet">
+
+<!--[if lt IE 9]>
+	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+<div id="headcontainer" class="clearfix" style="background-image: url(https://webaim.org/media/banners/community.jpg)">
+<header role="banner">
+	<div id="skiptocontent"><a href="index.html#maincontent">skip to main content</a></div>
+	
+	<h2><a href="https://webaim.org/"><img src="https://webaim.org/media/logo.png" width="302" height="80" alt="WebAIM - Web Accessibility In Mind"></a></h2>
+
+	<nav role="navigation">
+		<h2 class="hidden">Main Navigation</h2>
+		<ul>
+			<li><a href="https://webaim.org/services/">Services</a></li>
+			<li><a href="https://webaim.org/articles/">Articles</a></li>
+			<li><a href="https://webaim.org/resources/">Resources</a></li>
+			<li class="current"><a href="https://webaim.org/community/">Community</a></li>
+		</ul>
+	</nav>
+	<div id="search">
+		<form method="get" role="search" action="https://webaim.org/search/" id="sitesearch">
+			<p class="search"><label for="q" class="hidden">Search Terms</label> <input type="text" name="q" id="q" placeholder="Search WebAIM"><input type="image" src="https://webaim.org/media/template/search.png" alt="Submit Search"></p>
+		</form>
+		
+		<p class="intro"><a href="https://webaim.org/intro">Introduction to Web Accessibility</a></p>
+		
+		<p class="training"><a href="https://webaim.org/training">WebAIM Training</a></p>
+	</div>
+
+</header>
+</div>
+
+<main id="maincontainer" role="main" class="clearfix">
+
+<article id="maincontent">
+
+<h1>History of the browser user-agent string</h1>
+
+<p id="breadcrumbs"><span class="hidden">You are here: </span><a href="https://webaim.org/">Home</a> &gt; <a href="https://webaim.org/blog/">Blog</a> > History of the browser user-agent string</p>
+
+
+
+
+	<div class="section post" id="post-68">
+		<div class="entry">
+			<p><img src="https://webaim.org/blog/media/useragents/mosaic.jpg" alt="" style="float:right;padding:4px">In the beginning there was <a href="http://www.ncsa.illinois.edu/Projects/mosaic.html">NCSA Mosaic</a>, and Mosaic called itself <i>NCSA_Mosaic/2.0 (Windows 3.1)</i>, and Mosaic displayed pictures along with text, and there was much rejoicing.</p>
+<p><img src="https://webaim.org/blog/media/useragents/netscape.jpg" alt="" style="float:right;padding:4px">And behold, then came a new web browser known as <a href="http://en.wikipedia.org/wiki/Mozilla">&#8220;Mozilla&#8221;</a>, being short for &#8220;Mosaic Killer,&#8221; but Mosaic was not amused, so the public name was changed to Netscape, and Netscape called itself <i>Mozilla/1.0 (Win3.1)</i>, and there was more rejoicing. And Netscape supported frames, and frames became popular among the people, but Mosaic did not support frames, and so came &#8220;user agent sniffing&#8221; and to &#8220;Mozilla&#8221; webmasters sent frames, but to other browsers they sent not frames.</p>
+<p>And Netscape said, let us make fun of Microsoft and refer to Windows as &#8220;poorly debugged device drivers,&#8221; and Microsoft was angry. And so Microsoft made their own web browser, which they called Internet Explorer, hoping for it to be a &#8220;Netscape Killer&#8221;. <img src="https://webaim.org/blog/media/useragents/ie.png" alt="" style="float:left;padding:4px">And Internet Explorer supported frames, and yet was not Mozilla, and so was not given frames. And Microsoft grew impatient, and did not wish to wait for webmasters to learn of IE and begin to send it frames, and so Internet Explorer declared that it was &#8220;Mozilla compatible&#8221; and began to impersonate Netscape, and called itself <i>Mozilla/1.22 (compatible; MSIE 2.0; Windows 95)</i>, and Internet Explorer received frames, and all of Microsoft was happy, but webmasters were confused.</p>
+<p>And Microsoft sold IE with Windows, and made it better than Netscape, and the first browser war raged upon the face of the land. <img src="https://webaim.org/blog/media/useragents/mozilla.png" alt="" style="float:left;padding:4px">And behold, Netscape was killed, and there was much rejoicing at Microsoft. But Netscape was reborn as Mozilla, and Mozilla built Gecko, and called itself <i>Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.1) Gecko/20020826</i>, and Gecko was the rendering engine, and Gecko was good. <img src="https://webaim.org/blog/media/useragents/firefox.jpg" alt="" style="float:right;padding:4px"> And Mozilla became Firefox, and called itself <i>Mozilla/5.0 (Windows; U; Windows NT 5.1; sv-SE; rv:1.7.5) Gecko/20041108 Firefox/1.0</i>, and Firefox was very good. And Gecko began to multiply, and other browsers were born that used its code, and they called themselves <i>Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.7.2) Gecko/20040825 Camino/0.8.1</i> the one, and <i>Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.8.1.8) Gecko/20071008 SeaMonkey/1.0</i> another, each pretending to be Mozilla, and all of them powered by Gecko.</p>
+<p>And Gecko was good, and IE was not, and sniffing was reborn, and Gecko was given good web code, and other browsers were not. <img src="https://webaim.org/blog/media/useragents/konqueror.jpg" alt="" style="float:right;padding:4px">And the followers of Linux were much sorrowed, because they had built Konqueror, whose engine was KHTML, which they thought was as good as Gecko, but it was not Gecko, and so was not given the good pages, and so Konquerer began to pretend to be &#8220;like Gecko&#8221; to get the good pages, and called itself <i>Mozilla/5.0 (compatible; Konqueror/3.2; FreeBSD) (KHTML, like Gecko)</i> and there was much confusion.</p>
+<p><img src="https://webaim.org/blog/media/useragents/opera.jpg" alt="" style="float:right;padding:4px">Then cometh Opera and said, &#8220;surely we should allow our users to decide which browser we should impersonate,&#8221; and so Opera created a menu item, and Opera called itself <i>Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; en) Opera 9.51</i>, or <i>Mozilla/5.0 (Windows NT 6.0; U; en; rv:1.8.1) Gecko/20061208 Firefox/2.0.0 Opera 9.51</i>, or <i>Opera/9.51 (Windows NT 5.1; U; en)</i> depending on which option the user selected.</p>
+<p><img src="https://webaim.org/blog/media/useragents/safari.jpg" alt="" style="float:left;padding:4px">And Apple built Safari, and used KHTML, but added many features, and forked the project, and called it WebKit, but wanted pages written for KHTML, and so Safari called itself <i>Mozilla/5.0 (Macintosh; U; PPC Mac OS X; de-de) AppleWebKit/85.7 (KHTML, like Gecko) Safari/85.5</i>, and it got worse.</p>
+<p>And Microsoft feared Firefox greatly, and Internet Explorer returned, and called itself <i>Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0)</i> and it rendered good code, but only if webmasters commanded it to do so.</p>
+<p><img src="https://webaim.org/blog/media/useragents/chrome.jpg" alt="" style="float:right;padding:4px">And then Google built <a href="http://www.google.com/chrome">Chrome</a>, and Chrome used Webkit, and it was like Safari, and wanted pages built for Safari, and so pretended to be Safari. And thus Chrome used WebKit, and pretended to be Safari, and WebKit pretended to be KHTML, and KHTML pretended to be Gecko, and all browsers pretended to be Mozilla, and Chrome called itself <i>Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.13 (KHTML, like Gecko) Chrome/0.2.149.27 Safari/525.13</i>, and the user agent string was a complete mess, and near useless, and everyone pretended to be everyone else, and confusion abounded.</p>
+		</div>
+	</div>
+
+
+	<div class="navigation">
+		<div class="floatleft"></div>
+		<div class="floatright"></div>
+	</div>
+
+		
+<!-- You can start editing here. -->
+<div id="blogcomments">
+
+	<h2 id="comments">Comments</h2>
+
+	<div class="navigation">
+		<div class="alignleft"><a href="https://webaim.org/blog/user-agent-string-history/comment-page-4/#comments" >&laquo; Older Comments</a></div>
+		<div class="alignright"></div>
+	</div>
+
+	<ol class="commentlist">
+		<li class="comment even thread-even depth-1" id="comment-64041">
+		<img alt='' src='https://secure.gravatar.com/avatar/d0cd2bb23da785d96f543f69df84578a?s=70&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/d0cd2bb23da785d96f543f69df84578a?s=140&#038;d=mm&#038;r=r 2x' class='avatar avatar-70 photo' height='70' width='70' />		<cite class="fn">KevMc</cite>	<div class="commentdate"><a href="https://webaim.org/blog/user-agent-string-history/comment-page-1/#comment-64041">
+		September 23, 2010</a></div>
+		<div class="comment-content"><p>And lo, IE8 was too powerful for some and made their old fashioned portals crumble, so to buy time while they rebuilt their homepages they crippled their customers IE8 so that it pretended to be the lowly IE6 and could be forced to inhabit the depths that are known as Quirksmode</p>
+<p>Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; GTB6.5; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; .NET CLR 3.0.30729; .NET4.0C; .NET4.0E; Alexa Toolbar)</p>
+</div>
+	</li>
+    </li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-71396">
+		<img alt='' src='https://secure.gravatar.com/avatar/231eb6f6232d78d80c21bf3fbd5750f7?s=70&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/231eb6f6232d78d80c21bf3fbd5750f7?s=140&#038;d=mm&#038;r=r 2x' class='avatar avatar-70 photo' height='70' width='70' />		<cite class="fn"><a href='http://www.droukas.org' rel='external nofollow' class='url'>Steven Shippee</a></cite>	<div class="commentdate"><a href="https://webaim.org/blog/user-agent-string-history/comment-page-1/#comment-71396">
+		January 24, 2011</a></div>
+		<div class="comment-content"><p>Any way one can change this string to something more meaningful?  Rather than:<br />
+HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+6.0;+Trident/4.0;+MathPlayer+2.20;+SLCC1;+.NET+CLR+2.0.50727;+.NET+CLR+3.5.30729;+.NET+CLR+3.0.30729;+.NET4.0C;+.NET4.0E;+InfoPath.3;+MS-RTC+LM+8)</p>
+<p>I really, really don&#8217;t need to let others know I have MathPlayer or Infopath, etc., do I?</p>
+</div>
+	</li>
+    </li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1" id="comment-79308">
+		<img alt='' src='https://secure.gravatar.com/avatar/dd2d4bb31eadef64e87a7556bbcf070a?s=70&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/dd2d4bb31eadef64e87a7556bbcf070a?s=140&#038;d=mm&#038;r=r 2x' class='avatar avatar-70 photo' height='70' width='70' />		<cite class="fn">TeMc</cite>	<div class="commentdate"><a href="https://webaim.org/blog/user-agent-string-history/comment-page-1/#comment-79308">
+		March 18, 2011</a></div>
+		<div class="comment-content"><p>Thanks for this article man, I laughed my ass off multiple times (gotta see the docter ;-D )</p>
+<p>btw, got here because it was linked from <a href="http://css-tricks.com/browser-detection-is-bad/" rel="nofollow">http://css-tricks.com/browser-detection-is-bad/</a> which was linked from <a href="http://css-tricks.com/new-poll-conditional-tags-for-all-browsers/#comment-90341" rel="nofollow">http://css-tricks.com/new-poll-conditional-tags-for-all-browsers/#comment-90341</a> which was recently published.</p>
+</div>
+	</li>
+    </li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-87299">
+		<img alt='' src='https://secure.gravatar.com/avatar/4aa9e6f7f26cb9412e09b3966e8727e3?s=70&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/4aa9e6f7f26cb9412e09b3966e8727e3?s=140&#038;d=mm&#038;r=r 2x' class='avatar avatar-70 photo' height='70' width='70' />		<cite class="fn">Nivek</cite>	<div class="commentdate"><a href="https://webaim.org/blog/user-agent-string-history/comment-page-1/#comment-87299">
+		April 28, 2011</a></div>
+		<div class="comment-content"><p>Great article, man. Now I have some insight into that LONG confusing string name each browser is using&#8230;</p>
+</div>
+	</li>
+    </li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1" id="comment-87305">
+		<img alt='' src='https://secure.gravatar.com/avatar/052476fcf48a6c1a7d30daa217606bbc?s=70&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/052476fcf48a6c1a7d30daa217606bbc?s=140&#038;d=mm&#038;r=r 2x' class='avatar avatar-70 photo' height='70' width='70' />		<cite class="fn">Alex</cite>	<div class="commentdate"><a href="https://webaim.org/blog/user-agent-string-history/comment-page-1/#comment-87305">
+		April 29, 2011</a></div>
+		<div class="comment-content"><p>I did never understand, why meanwhile none of them get rid of it. Everything would be so simple:<br />
+Firefox/4.0 (Windows NT 6.0; Gecko/2.0.1)<br />
+MSIE/9.0 (Windows NT 6.0; Trident/5.0)<br />
+Chrome/12.0.706.0 (Windows NT 6.0; AppleWebKit/534.25)<br />
+Safari/5.0.4 (Windows NT 6.0; AppleWebKit/533.20.27)<br />
+Konqueror/4.5 (Windows NT 6.0; KHTML/4.5.4)</p>
+</div>
+	</li>
+    </li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-87721">
+		<img alt='' src='https://secure.gravatar.com/avatar/15f111b4e413a12de6dd05745e674199?s=70&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/15f111b4e413a12de6dd05745e674199?s=140&#038;d=mm&#038;r=r 2x' class='avatar avatar-70 photo' height='70' width='70' />		<cite class="fn">Dylan</cite>	<div class="commentdate"><a href="https://webaim.org/blog/user-agent-string-history/comment-page-1/#comment-87721">
+		May 20, 2011</a></div>
+		<div class="comment-content"><p>Everything would be so simple:<br />
+<i>Mozilla/5.0</i></p>
+</div>
+	</li>
+    </li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1" id="comment-87723">
+		<img alt='' src='https://secure.gravatar.com/avatar/c92b97c2824864b32f63d6c773e1a2a7?s=70&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/c92b97c2824864b32f63d6c773e1a2a7?s=140&#038;d=mm&#038;r=r 2x' class='avatar avatar-70 photo' height='70' width='70' />		<cite class="fn">Igoreso</cite>	<div class="commentdate"><a href="https://webaim.org/blog/user-agent-string-history/comment-page-1/#comment-87723">
+		May 20, 2011</a></div>
+		<div class="comment-content"><p>^ This.</p>
+</div>
+	</li>
+    </li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-87805">
+		<img alt='' src='https://secure.gravatar.com/avatar/4c18e9b291372501efae9d32f836e635?s=70&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/4c18e9b291372501efae9d32f836e635?s=140&#038;d=mm&#038;r=r 2x' class='avatar avatar-70 photo' height='70' width='70' />		<cite class="fn">Dan.</cite>	<div class="commentdate"><a href="https://webaim.org/blog/user-agent-string-history/comment-page-1/#comment-87805">
+		May 26, 2011</a></div>
+		<div class="comment-content"><p>WHAhahahahahahaaa&#8230;..</p>
+<p>&#8220;&#8230;&#8230;and the user agent string was a complete mess, and near useless, and everyone pretended to be everyone else, and confusion abounded&#8230;&#8230;.&#8221;</p>
+</div>
+	</li>
+    </li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1" id="comment-88264">
+		<img alt='' src='https://secure.gravatar.com/avatar/01822efaf66e4b81d6f947cba7e0613a?s=70&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/01822efaf66e4b81d6f947cba7e0613a?s=140&#038;d=mm&#038;r=r 2x' class='avatar avatar-70 photo' height='70' width='70' />		<cite class="fn">anonymous</cite>	<div class="commentdate"><a href="https://webaim.org/blog/user-agent-string-history/comment-page-1/#comment-88264">
+		August 9, 2011</a></div>
+		<div class="comment-content"><p>And Opera 10 pretends to be Opera 9.8 (but not Mozilla anymore)<br />
+<a href="http://my.opera.com/chooseopera/blog/2009/05/29/changes-in-operas-user-agent-string-format" rel="nofollow">http://my.opera.com/chooseopera/blog/2009/05/29/changes-in-operas-user-agent-string-format</a></p>
+</div>
+	</li>
+    </li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-88331">
+		<img alt='' src='https://secure.gravatar.com/avatar/ff8bed0b7c403d01ce706e8983019426?s=70&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/ff8bed0b7c403d01ce706e8983019426?s=140&#038;d=mm&#038;r=r 2x' class='avatar avatar-70 photo' height='70' width='70' />		<cite class="fn">Ice</cite>	<div class="commentdate"><a href="https://webaim.org/blog/user-agent-string-history/comment-page-1/#comment-88331">
+		August 31, 2011</a></div>
+		<div class="comment-content"><p>I just wish people would add a new, revised user-agent string in form of:</p>
+<p>: (:; ; ðŸ™‚</p>
+<p>Then instead of<br />
+&#8220;Mozilla/5.0 (Windows NT 6.1) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.107 Safari/535.1&#8221;<br />
+we&#8217;d have<br />
+&#8220;Chrome/13.0.782.107 (Windows NT 7.0; Mozilla:5.0/KHTML/AppleWebKit:535.1; AppleWebKit:531.1;)<br />
+which would be much simpler to extract desired data from.</p>
+</div>
+	</li>
+    </li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1" id="comment-88332">
+		<img alt='' src='https://secure.gravatar.com/avatar/ff8bed0b7c403d01ce706e8983019426?s=70&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/ff8bed0b7c403d01ce706e8983019426?s=140&#038;d=mm&#038;r=r 2x' class='avatar avatar-70 photo' height='70' width='70' />		<cite class="fn">Ice</cite>	<div class="commentdate"><a href="https://webaim.org/blog/user-agent-string-history/comment-page-1/#comment-88332">
+		August 31, 2011</a></div>
+		<div class="comment-content"><p>I see the placeholders inside &gt; and &lt; were stripped away..</p>
+<p>Meant to say:<br />
+[Browser name]:[Browser version] ([OS name]:[OS version]; [Engine inheritance path]; [Engine name]:[Engine version])</p>
+</div>
+	</li>
+    </li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-88675">
+		<img alt='' src='https://secure.gravatar.com/avatar/dcb0b2795eb625e7afa1402514b9b069?s=70&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/dcb0b2795eb625e7afa1402514b9b069?s=140&#038;d=mm&#038;r=r 2x' class='avatar avatar-70 photo' height='70' width='70' />		<cite class="fn">Petah</cite>	<div class="commentdate"><a href="https://webaim.org/blog/user-agent-string-history/comment-page-1/#comment-88675">
+		September 27, 2011</a></div>
+		<div class="comment-content"><p>Two words, feature detection!</p>
+</div>
+	</li>
+    </li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1" id="comment-90611">
+		<img alt='' src='https://secure.gravatar.com/avatar/8e9093059816c93e7b9db064a9240d5c?s=70&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/8e9093059816c93e7b9db064a9240d5c?s=140&#038;d=mm&#038;r=r 2x' class='avatar avatar-70 photo' height='70' width='70' />		<cite class="fn"><a href='http://blog.elitamedicala.ro' rel='external nofollow' class='url'>gion</a></cite>	<div class="commentdate"><a href="https://webaim.org/blog/user-agent-string-history/comment-page-1/#comment-90611">
+		January 30, 2012</a></div>
+		<div class="comment-content"><p>Very funny stuff.<br />
+It&#8217;s actually kind of sad, but presented in this manner I laughed my brains out.<br />
+The conclusion is that every browser&#8217;s user agent starts with &#8220;Mozilla&#8221; which makes it quite insignificant.<br />
+freaky stuff</p>
+</div>
+	</li>
+    </li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-90651">
+		<img alt='' src='https://secure.gravatar.com/avatar/6ee06363ff5a3883cf80421b340fe348?s=70&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/6ee06363ff5a3883cf80421b340fe348?s=140&#038;d=mm&#038;r=r 2x' class='avatar avatar-70 photo' height='70' width='70' />		<cite class="fn">tomexsans</cite>	<div class="commentdate"><a href="https://webaim.org/blog/user-agent-string-history/comment-page-1/#comment-90651">
+		February 7, 2012</a></div>
+		<div class="comment-content"><p>Hahahah so funny, i wish that a team of programmers give time to straighten up this chaotic masquerade of web-browsers. But that is a Mission Impossible ;3</p>
+</div>
+	</li>
+    </li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1" id="comment-95075">
+		<img alt='' src='https://secure.gravatar.com/avatar/6e42645b8eec1439a04102bc72193ce5?s=70&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/6e42645b8eec1439a04102bc72193ce5?s=140&#038;d=mm&#038;r=r 2x' class='avatar avatar-70 photo' height='70' width='70' />		<cite class="fn">Janemann</cite>	<div class="commentdate"><a href="https://webaim.org/blog/user-agent-string-history/comment-page-1/#comment-95075">
+		April 25, 2012</a></div>
+		<div class="comment-content"><p>Read this <a href="http://thedailywtf.com/Articles/The-Enterprise-User-Agent.aspx" rel="nofollow">daily WTF</a> to see what a senior enterprise java programmer can make out of this &#8230; a living! ðŸ˜‰</p>
+</div>
+	</li>
+    </li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-95083">
+		<img alt='' src='https://secure.gravatar.com/avatar/f82bc512e3d2916c76c9be68ac6235f6?s=70&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/f82bc512e3d2916c76c9be68ac6235f6?s=140&#038;d=mm&#038;r=r 2x' class='avatar avatar-70 photo' height='70' width='70' />		<cite class="fn"><a href='http://nodicegame.com' rel='external nofollow' class='url'>Gip</a></cite>	<div class="commentdate"><a href="https://webaim.org/blog/user-agent-string-history/comment-page-1/#comment-95083">
+		April 25, 2012</a></div>
+		<div class="comment-content"><p>And in 2012 the user-agent string is completely useless.</p>
+</div>
+	</li>
+    </li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1" id="comment-95490">
+		<img alt='' src='https://secure.gravatar.com/avatar/f1e3ab214a976a39cfd713bc93deb10f?s=70&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/f1e3ab214a976a39cfd713bc93deb10f?s=140&#038;d=mm&#038;r=r 2x' class='avatar avatar-70 photo' height='70' width='70' />		<cite class="fn">TJ</cite>	<div class="commentdate"><a href="https://webaim.org/blog/user-agent-string-history/comment-page-1/#comment-95490">
+		April 30, 2012</a></div>
+		<div class="comment-content"><p>meh I&#8217;ll take Safari or Chrome over FF any day. FF still has a broken setTimeout() which is just unacceptable</p>
+</div>
+	</li>
+    </li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-96086">
+		<img alt='' src='https://secure.gravatar.com/avatar/e7c60f5245595e1ce93b741af71379dc?s=70&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/e7c60f5245595e1ce93b741af71379dc?s=140&#038;d=mm&#038;r=r 2x' class='avatar avatar-70 photo' height='70' width='70' />		<cite class="fn">kni</cite>	<div class="commentdate"><a href="https://webaim.org/blog/user-agent-string-history/comment-page-1/#comment-96086">
+		June 9, 2012</a></div>
+		<div class="comment-content"><p>W3 should revise the User-Agent tag. Instead of this uncomprehensive user agents, we should have adapted user agents which say both browser and features compatible:</p>
+<p>Chrome/19.0 Windows/5.2 HTML/5 Flash/10.0 CSS/3; JS; Java/4; Webm; Mp4; Canvas; Video; Audio</p>
+<p>Would be longer, but at least easy to understand.</p>
+</div>
+	</li>
+    </li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1" id="comment-96296">
+		<img alt='' src='https://secure.gravatar.com/avatar/c2d1cf6ea1c78e886cb6e17a5246444c?s=70&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/c2d1cf6ea1c78e886cb6e17a5246444c?s=140&#038;d=mm&#038;r=r 2x' class='avatar avatar-70 photo' height='70' width='70' />		<cite class="fn"><a href='http://tech.navarr.me/' rel='external nofollow' class='url'>Navarr</a></cite>	<div class="commentdate"><a href="https://webaim.org/blog/user-agent-string-history/comment-page-1/#comment-96296">
+		July 15, 2012</a></div>
+		<div class="comment-content"><p>While reading the comments, I came upon the complete and utter conclusion that several of the users here haven&#8217;t put 2 and 2 together to realize why browsers are <b>still pretending to be each other</b>.</p>
+<p>This is the internet, my friends, where content continues to exist for as long as possible, and sometimes even longer.  Browsers continue to send horrid user agent strings like this because there are still websites that use user agent sniffing (even modern ones that do it) and some of these may never be updated.</p>
+<p>The browsers, desiring to support all content on the internet, must then have this horrid user agent in order to do so.</p>
+<p>Because &#8220;Legacy Code&#8221;</p>
+<p>We should not make user agents simpler, we should not add compatible features to them (history <b>WILL</b> repeat itself), we should ignore them entirely and code feature detection into the JavaScript itself with the use of tools like Modernizr.</p>
+</div>
+	</li>
+    </li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-96297">
+		<img alt='' src='https://secure.gravatar.com/avatar/658bb5d580685a515ec49edb71eecac7?s=70&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/658bb5d580685a515ec49edb71eecac7?s=140&#038;d=mm&#038;r=r 2x' class='avatar avatar-70 photo' height='70' width='70' />		<cite class="fn"><a href='http://mylesbefore.com' rel='external nofollow' class='url'>Miles.</a></cite>	<div class="commentdate"><a href="https://webaim.org/blog/user-agent-string-history/comment-page-1/#comment-96297">
+		July 15, 2012</a></div>
+		<div class="comment-content"><p>The &#8220;begates&#8221; have become &#8220;becames&#8221;, and linear progression turned into the timeline for &#8216;Primer&#8217; as cut by Quentin Tarantino.</p>
+</div>
+	</li>
+    </li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1" id="comment-96304">
+		<img alt='' src='https://secure.gravatar.com/avatar/0533211ac83852c60dd9b14eb44d4265?s=70&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/0533211ac83852c60dd9b14eb44d4265?s=140&#038;d=mm&#038;r=r 2x' class='avatar avatar-70 photo' height='70' width='70' />		<cite class="fn"><a href='http://chien-noir.com/maze.shtml' rel='external nofollow' class='url'>Pat</a></cite>	<div class="commentdate"><a href="https://webaim.org/blog/user-agent-string-history/comment-page-1/#comment-96304">
+		July 16, 2012</a></div>
+		<div class="comment-content"><p>Umm&#8230; User Agent Switcher (add-on for firefox) anyone?  Now you can REALLY mess with the web app developer&#8217;s minds (at the risk of royally screwing up the rendition of some sites).</p>
+<p>Seriously, there&#8217;s at least one site where I use this so the dang thing actually works with Firefox 13 (with a &#8220;generified Mozilla&#8221; setting).  And it can be used to hide details of what plugins/addons you have, if you want.</p>
+</div>
+	</li>
+    </li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-96312">
+		<img alt='' src='https://secure.gravatar.com/avatar/6fc1aec3f9fc6ac34d698e446981893d?s=70&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/6fc1aec3f9fc6ac34d698e446981893d?s=140&#038;d=mm&#038;r=r 2x' class='avatar avatar-70 photo' height='70' width='70' />		<cite class="fn">Ard</cite>	<div class="commentdate"><a href="https://webaim.org/blog/user-agent-string-history/comment-page-1/#comment-96312">
+		July 17, 2012</a></div>
+		<div class="comment-content"><p>This sounds a modern interpretation of the story of the tower of babel.</p>
+</div>
+	</li>
+    </li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1" id="comment-96318">
+		<img alt='' src='https://secure.gravatar.com/avatar/7e8ce06e948e3ee26280ed6d1d41aaff?s=70&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/7e8ce06e948e3ee26280ed6d1d41aaff?s=140&#038;d=mm&#038;r=r 2x' class='avatar avatar-70 photo' height='70' width='70' />		<cite class="fn"><a href='http://www.zichicas.com' rel='external nofollow' class='url'>juegos de niñas</a></cite>	<div class="commentdate"><a href="https://webaim.org/blog/user-agent-string-history/comment-page-1/#comment-96318">
+		July 17, 2012</a></div>
+		<div class="comment-content"><p>And in 2012 the user-agent string is completely useless.</p>
+</div>
+	</li>
+    </li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-96320">
+		<img alt='' src='https://secure.gravatar.com/avatar/cb7c371146108bd4abc3c00e20ad1137?s=70&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/cb7c371146108bd4abc3c00e20ad1137?s=140&#038;d=mm&#038;r=r 2x' class='avatar avatar-70 photo' height='70' width='70' />		<cite class="fn">someone</cite>	<div class="commentdate"><a href="https://webaim.org/blog/user-agent-string-history/comment-page-1/#comment-96320">
+		July 17, 2012</a></div>
+		<div class="comment-content"><p>Lets&#8217; clear the decks. &#8216;HTML5&#8217;.</p>
+</div>
+	</li>
+    </li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1" id="comment-96361">
+		<img alt='' src='https://secure.gravatar.com/avatar/0e0e9e24dbbc45b788b93a9b22ef7a3c?s=70&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/0e0e9e24dbbc45b788b93a9b22ef7a3c?s=140&#038;d=mm&#038;r=r 2x' class='avatar avatar-70 photo' height='70' width='70' />		<cite class="fn"><a href='http://www.itoctopus.com' rel='external nofollow' class='url'>Fadi (itoctopus)</a></cite>	<div class="commentdate"><a href="https://webaim.org/blog/user-agent-string-history/comment-page-1/#comment-96361">
+		July 18, 2012</a></div>
+		<div class="comment-content"><p>There are two problems with the user agent that urge us to find a replacement:</p>
+<p>&#8211; It can be faked<br />
+&#8211; Users can hide it</p>
+<p>The above demonstrate that it&#8217;s an unreliable way to guess what browser the user is using. We really need a method that definitely tells us which browser the user is using.</p>
+</div>
+	</li>
+    </li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-98021">
+		<img alt='' src='https://secure.gravatar.com/avatar/62fa27246606f4d16565d5c65481ad8b?s=70&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/62fa27246606f4d16565d5c65481ad8b?s=140&#038;d=mm&#038;r=r 2x' class='avatar avatar-70 photo' height='70' width='70' />		<cite class="fn"><a href='http://www.mineisbroke.com' rel='external nofollow' class='url'>Why so geeky</a></cite>	<div class="commentdate"><a href="https://webaim.org/blog/user-agent-string-history/comment-page-1/#comment-98021">
+		August 13, 2012</a></div>
+		<div class="comment-content"><p>You know I been wondering since I took up this web thing, why the whole process needs to be so much trouble. Everything is so geeky, user agent strings? Why, why not just safari, chrome who needs a version? Firefox forces its automatic updates anyway. Just call it this unfinished thingy. It amazes me how this development thing works. Everyone just produces unfinished works, that are built on top of unfinished frameworks etc&#8230; </p>
+<p>In the real (physical world) if you deliver an unfinished product you are not getting paid, simple as that. </p>
+<p>Not on the WWW, you send it and work out the &#8220;bugs&#8221; later. Bugs, nice name for broken software or poor craftsmanship. In the real world you would of lost your job. </p>
+<p>I don&#8217;t need to know your versions, I don&#8217;t care if you are a lion, snow leopard or what every you are. I got an idea, lets just add some OOP Javscript to the mix. But you need to use this or that or the other wacky method to use an OOP like style etc.. </p>
+<p>Lets stop making all these programming languages on top of other ones and instead make on that syntax is like English instead. Place this in that directory, add an darn slider here because they are so fancy. Tell this browser to crash because it totally not cool or not like every other one. </p>
+<p>Anyway that is my little rant. Everything is so overcomplicated it hurts, when will the internet world wake up and work on making all this fancy jazz simple. well simple-1.3.45rc</p>
+</div>
+	</li>
+    </li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1" id="comment-98124">
+		<img alt='' src='https://secure.gravatar.com/avatar/3ba3330f57a7ece6ebe4906a38e26e24?s=70&#038;d=mm&#038;r=r' srcset='https://secure.gravatar.com/avatar/3ba3330f57a7ece6ebe4906a38e26e24?s=140&#038;d=mm&#038;r=r 2x' class='avatar avatar-70 photo' height='70' width='70' />		<cite class="fn"><a href='http://5fonts.net' rel='external nofollow' class='url'>5fonts</a></cite>	<div class="commentdate"><a href="https://webaim.org/blog/user-agent-string-history/comment-page-1/#comment-98124">
+		September 9, 2012</a></div>
+		<div class="comment-content"><p>There are two problems with the user agent that urge us to find a replacement:</p>
+<p>&#8211; It can be faked<br />
+&#8211; Users can hide it</p>
+<p>The above demonstrate that it’s an unreliable way to guess what browser the user is using. We really need a method that definitely tells us which browser the user is using.</p>
+</div>
+	</li>
+    </li><!-- #comment-## -->
+ 
+	</ol>
+
+	<div class="navigation">
+		<div class="alignleft"></div>
+		<div class="alignright"><a href="https://webaim.org/blog/user-agent-string-history/comment-page-2/#comments" >Newer Comments &raquo;</a></div>
+	</div>
+ </div>
+
+
+</article>
+<aside id="articlemeta" role="complementary">
+
+			<div id="updated">September 3, 2008<br><br>
+		<img src="https://webaim.org/blog/authors/5.jpg" alt="" /><br>Aaron Andersen<br><br>
+		<a href="index.html#comments"><span class="comments">233 Comments</span><br /></a>		</div>
+		<div class="sidebox">
+	<h2>Search the blog</h2>
+	<form role="search" method="get" id="searchform" class="searchform" action="https://webaim.org/blog/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" />
+				</div>
+			</form>	</div>
+	<div class="sidebox">
+	<h2>Blog Archives</h2>
+	<ul>
+		<li><a href='https://webaim.org/blog/2018/10/'>October 2018</a></li>
+	<li><a href='https://webaim.org/blog/2018/09/'>September 2018</a></li>
+	<li><a href='https://webaim.org/blog/2018/05/'>May 2018</a></li>
+	<li><a href='https://webaim.org/blog/2018/02/'>February 2018</a></li>
+	<li><a href='https://webaim.org/blog/2017/12/'>December 2017</a></li>
+	<li><a href='https://webaim.org/blog/2018/'>2018</a></li>
+	<li><a href='https://webaim.org/blog/2017/'>2017</a></li>
+	<li><a href='https://webaim.org/blog/2016/'>2016</a></li>
+	<li><a href='https://webaim.org/blog/2015/'>2015</a></li>
+	<li><a href='https://webaim.org/blog/2014/'>2014</a></li>
+	<li><a href='https://webaim.org/blog/2013/'>2013</a></li>
+	<li><a href='https://webaim.org/blog/2012/'>2012</a></li>
+	<li><a href='https://webaim.org/blog/2011/'>2011</a></li>
+	<li><a href='https://webaim.org/blog/2010/'>2010</a></li>
+	<li><a href='https://webaim.org/blog/2009/'>2009</a></li>
+	<li><a href='https://webaim.org/blog/2008/'>2008</a></li>
+	<li><a href='https://webaim.org/blog/2007/'>2007</a></li>
+	<li><a href='https://webaim.org/blog/2006/'>2006</a></li>
+	</ul>
+	<p><a href="https://webaim.org/community/rss">RSS Feeds</a></p>
+	</div>
+	
+		
+		
+</aside>
+</main>
+
+<footer role="contentinfo">
+	<div id="footerresources">
+		<div class="footerblock">
+			<p id="copyright"><span class="hidden">&copy; </span>2019 WebAIM</p>
+			<p id="contact">Center for Persons with Disabilities<br>
+			Utah State University<br>
+			6807 Old Main Hill<br>
+			Logan, UT 84322-6807<br>
+			<a class="phone" href="tel:4357977024">435.797.7024</a></p>
+		</div>
+		<div class="footerblock">
+			<h2 id="blog">From the Blog</h2>
+			<ul><li><a href="https://webaim.org/blog/low-vision-survey2-results/">Survey of Users with Low Vision #2 Results</a></li><li><a href="https://webaim.org/blog/dinolytics-release-wave-roadmap/">Dinolytics Release and WAVE Roadmap</a></li><li><a href="https://webaim.org/blog/practitionersurvey2/">Web Accessibility Practitioners Survey #2 Results</a></li><li><a href="https://webaim.org/blog/overly-accessible/">Overly Accessible?</a></li></ul>		</div>
+		<div class="footerblock">
+			<h2 id="popular">Popular Resources</h2>
+			<ul>
+				<li><a href="https://webaim.org/training/">WebAIM Training</a></li>
+				<li><a href="https://webaim.org/standards/wcag/checklist">WCAG 2 Checklist</a></li>
+				<li><a href="https://webaim.org/standards/508/checklist">Section 508 Checklist</a></li>
+				<li><a href="https://webaim.org/resources/contrastchecker">Color Contrast Checker</a></li>
+				<li><a href="https://webaim.org/resources/designers/">Web Accessibility for Designers</a></li>
+				<li><a href="http://wave.webaim.org/">WAVE Web Accessibility Evaluation Tool</a></li>
+			</ul>
+		</div>
+		
+		<div class="footerblock" id="checkpage">
+						<h2>Check Your Accessibility</h2>
+			<p>Visit <a href="http://wave.webaim.org/">wave.webaim.org</a></p>
+				</div>
+		
+		<div id="footerlinks">
+			<ul>
+				<li><a id="footercontact" href="https://webaim.org/contact">Contact Us</a></li>
+				<li><a id="footerabout" href="https://webaim.org/about">About</a></li>
+				<li><a id="footerrss" href="https://webaim.org/community/rss">RSS Feeds</a></li>
+				<li><a id="footertwit" href="http://twitter.com/webaim">Twitter</a></li>
+				<li><a id="footercopyright" href="https://webaim.org/copyright">Copyright &amp; Terms of Use</a></li>
+			</ul>
+		</div>
+		
+		<div class="clear"></div>
+	</div>
+
+</footer>
+
+<script>
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-302059-1']);
+	_gaq.push(['_trackPageview']);
+	
+	(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+
+</body>
+</html>
