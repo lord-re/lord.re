@@ -14,7 +14,7 @@ editor = "kakoune"
 Dans la vie il y a **2 types de VPN** :
 
   - *Le VPN strictement commercial*. Lui c'est le VPN, il vous sert de passerelle à vous mais aussi à tous pleins d'autres clients qui vont se partager cette connexion.
-  - *Le VPN made in la FFDN*. Lui c'est le gentil VPN, il vous sert de passerelle mais vous garantie un net neutre à vous et rien qu'à vous. Il n'est pas partagé.
+  - *Le VPN made in la FFDN*. Lui c'est le gentil VPN, il vous sert de passerelle mais vous garantit un net neutre à vous et rien qu'à vous. Il n'est pas partagé.
 
 De ça il découle donc une très grande différence mais avant de voir déjà faisons un ptit peu de vulgarisation sur ce qu'est un VPN.
 Tout le monde en parle mais pas grand monde sort une bonne définition de la chose donc c'est partit pour un ptit cours de réseau !
@@ -40,7 +40,7 @@ La box, en vrai, c'est un routeur (mais le nom est bien moins sexy) qu'on appell
 
 *Chaque appareil a donc une adresse IP privée locale sur votre réseau* (souvent en 192.168.1.x) avec lequel il discute avec la box pour aller sur Internet.
 
-### Comment la box répartie les données ?
+### Comment la box répartit les données ?
 Pour savoir quel est le destinataire local, il faut savoir que **l'utilisation d'Internet est dans la très grande majorité des cas des réponses à des sollicitations de votre part.**
 
 Donc quand votre machine sollicite une machine sur Internet :
