@@ -13,11 +13,11 @@
   <link href="{{ .Site.RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
   <link rel="icon" type="image/x-icon" href="{{ .Site.BaseURL }}favicon.ico" />
 
-	<meta property="og:title" name="og:title" content="{{.Title }}">
-	<meta property="og:type" name="og:type" content="{{cond (eq .Kind "page") "article" "website" }}">
-	<meta property="og:url" name="og:url" content="{{ .Permalink }}">
-	<meta property="og:description" name="og:description" content="{{.Summary}}">
-	<meta property="og:site_name" name="og:site_name" content="{{.Site.Title}}">
-	<meta property="og:image" name="og:image" content="{{.Site.BaseURL}}favicon.ico">
+  <meta property="og:title" name="og:title" content="{{.Title }}">
+  <meta property="og:type" name="og:type" content="{{cond (eq .Kind "page") "article" "website" }}">
+  <meta property="og:url" name="og:url" content="{{ .Permalink }}">
+  <meta property="og:description" name="og:description" content="{{.Summary}}">
+  <meta property="og:site_name" name="og:site_name" content="{{.Site.Title}}">
+  <meta property="og:image" name="og:image" content="{{.Site.BaseURL}}favicon.ico">
 
 </head>
