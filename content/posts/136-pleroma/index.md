@@ -6,7 +6,7 @@ menu = "main"
 notoc = true
 PublishDate = 2018-11-04T10:30:58+02:00
 date = 2018-11-04T10:30:58+02:00
-LastEdit = 2018-11-20T20:30:58+02:00
+LastEdit = 2019-02-02T14:22:58+02:00
 title = "Pleroma : L'alternative à Mastodon"
 editor = "kakoune"
 +++
@@ -95,10 +95,10 @@ Vous allez pouvoir créer votre utilisateur et commencer à follow vous amis du 
 
 Bon ça prend rien en CPU, concernant le skeudur par contre ça augmente (enfin uniquement la base de donnée).
 
-| |   29/10/2018 |   04/11/2018 |  20/11/2018 |
-|:-:|:-:|:-:|:-:|
-| DB postgres | 26Mo | 88Mo | 320Mo |
-| /home/pleroma | 144.5Mo | 144.9Mo | 161.5Mo |
+| |   29/10/2018 |   04/11/2018 |  20/11/2018 | 02/02/2018 |
+|:-:|:-:|:-:|:-:|:-:|
+| DB postgres | 26Mo | 88Mo | 320Mo | 1212 Mo |
+| /home/pleroma | 144.5Mo | 144.9Mo | 161.5Mo | 256.4Mo |
 
 ## Migration de Mastodon vers Pleroma
 Par défaut *la limite de caractères est de 5000* ce qui est au moins dix fois mieux que les 500 de Mastodon.
