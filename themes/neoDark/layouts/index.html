@@ -11,11 +11,12 @@
       <h1 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
     </header>
     <p class="post-meta"><em>{{ if not .Params.nodate }}<span class="post-date">{{ .Date.Format "02/01/2006" }}</span> - {{ end }}{{ if not .Params.noread }}<span class="post-reading-time">{{ i18n "readingTime" .ReadingTime }}</span>{{ end }}</em>{{ if .Params.categories }}<span class="post-categories">{{ $Site := .Site }}{{ range .Params.categories }}<a class="post-category post-category-{{ . | urlize }}" href="{{ $Site.BaseURL}}categories/{{ . | urlize }}">{{ . }}</a> {{ end }}</span>{{ end }}</p>
-{{ if .Truncated  }}            <article class="post-summary">{{ .Summary }}
+{{ if .Truncated  }}    <article class="post-summary">{{ .Summary }}
     </article>
-		<footer>
+    <footer>
     <div class="read-more-link"><a href="{{ .RelPermalink }}">{{ i18n "more" }}</a>{{ range .Translations }}− <a href="{{ .Permalink}}">{{i18n "lire"}}</a>{{end}}</div>
-		{{ else }}<article class="post-summary">{{ .Content }}</footer></article>
+    </footer>
+{{ else }}    <article class="post-summary">{{ .Content }}</article>
 {{ end }}</section>
 {{ end }}
 {{ template "partials/pagination.html" . }}
