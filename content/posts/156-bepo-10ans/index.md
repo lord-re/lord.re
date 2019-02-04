@@ -123,7 +123,7 @@ Si le sujet vous intéresse, **je recommande clairement**.
 Si vous êtes tombé par hasard sur cette page web et que vous ne lisez que cette phrase… nope.
 
 Apprendre le bépo est difficile.
-Il faut perdre des (mauvais) réflexes bien encrés dans la mémoire musculaire (inconsciente) et ça c'est très compliqué.
+Il faut perdre des (mauvais) réflexes bien ancrés dans la mémoire musculaire (inconsciente) et ça c'est très compliqué.
 Vouloir le faire parcequ'il y a un peu de hype autour de bépo sans plus de volonté vous fera perdre du temps pour que dalle.
 
 C'est par contre un investissement rentable.
