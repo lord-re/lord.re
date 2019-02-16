@@ -57,7 +57,7 @@ Vous êtes encore jeune et même si c'est pas le chemin naturel, il est encore f
 Demandez pas "Pourquoi on m'a enseigné ça ?", ça fait pas avancer le débat et si alors que vous êtes encore étudiant vous refusez de remettre en question le peu de savoir que vous avez, qu'est-ce que ce sera dans cinq ans/dix ans ?
 L'informatique est un milieu qui évolue constamment et pour pas être largué vous allez vous aussi devoir évoluer avec.
 Donc quand on vous annonce "ifconfig est déprécié depuis 18 ans" ne répondez pas un "ouai mais j'ai appris comme ça, ip je comprends rien".
-Vous n'avez pas encore des habitudes fortement encrées, c'est maintenant qu'il faut réapprendre et pas après dix ans de mauvaises habitudes solidement imprégnez dans votre cerveau.
+Vous n'avez pas encore des habitudes fortement ancrées, c'est maintenant qu'il faut réapprendre et pas après dix ans de mauvaises habitudes solidement imprégnées dans votre cerveau.
 N'abordez pas votre apprentissage par de la méfiance (encore une fois, si je vous le dis c'est pas pour vous faire chier, c'est pour que vous soyez plus à l'aise, plus performant, plus à jour).
 Si vous êtes en apprentissage avec des vieux briscards adminsys, ne pompez pas leurs défauts mais soyez prêt à leur apporter un nouveau savoir à eux aussi.
 
@@ -73,7 +73,7 @@ Ensuite avec **<samp>n</samp>** vous irez à la prochaine occurence du mot reche
 C'est tout con mais rien que le fait de connaître ça rend le truc utilisable.
 
 ### Comment c'est rangé
-Tous les *man* ont un ordre assez similaire : d'abord le *nom* de la commande, ensuite le *synopsis* qui donne un résumé bref, ensuite la *description* qui va indiquer toutes les options possibles avec leur intéret, ensuite des *précisions* en fonction du programme (dans le cas de ssh ça explique le fonctionnement de l'authentification, les caractères d'échappements, le tunneling, la gestion des clés d'hôte, bref des trucs spécifique qui apportent pas mal de complément d'information), ensuite le *voir aussi* qui cite d'autres pages man en rapport pour compléter et enfin les *auteurs*.
+Tous les *man* ont un ordre assez similaire : d'abord le *nom* de la commande, ensuite le *synopsis* qui donne un résumé bref, ensuite la *description* qui va indiquer toutes les options possibles avec leur intéret, ensuite des *précisions* en fonction du programme (dans le cas de ssh ça explique le fonctionnement de l'authentification, les caractères d'échappements, le tunneling, la gestion des clés d'hôte, bref des trucs spécifiques qui apportent pas mal de complément d'information), ensuite le *voir aussi* qui cite d'autres pages man en rapport pour compléter et enfin les *auteurs*.
 
 Il y a parfois une section *exemple* qui regroupe les utilisations communes des logiciels ce qui peut vous faire gagner pas mal de temps, pensez-y, le man c'est pas un tuto mais c'est bien mieux une fois outrepassé la laideur du bousin.
 
@@ -93,7 +93,7 @@ Revenons à l'exemple, au début il y a le gros pâté <samp>[-46AaCfGgKkMNnqsTt
 
 ### Les messages d'erreur sont précieux
 C'est con de devoir le dire, mais les messages d'erreurs sont pas faits pour être ignorés.
-Les logiciels biens faits ont des messages d'erreurs qui veulent dire quelque chose et assez explicite.
+Les logiciels bien faits ont des messages d'erreurs qui veulent dire quelque chose et assez explicites.
 
 Et quand c'est pas le cas, il faut parfois rajouter un **<samp>-v</samp>** pour activer le mode verbeux qui détaille un peu plus ce que fait le programme ce qui peut être précieux.
 
