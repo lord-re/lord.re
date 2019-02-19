@@ -1,18 +1,18 @@
 +++
 Author = "Lord"
-Description = "Top est une commande Posix permettant de chopper tout un tas d'infos sur les processus qui tournent sur votre machine. Son plus célèbre concurrent est htop qui permet d'avoir les mêmes infos et mêmes quelques autres en plus d'une jolie ptite interface."
+Description = "Top est une commande omniprésente permettant de chopper tout un tas d'infos sur les processus qui tournent sur votre machine. Son plus célèbre concurrent est htop qui permet d'avoir les mêmes infos et mêmes quelques autres en plus d'une jolie ptite interface."
 Categories = ["linux", "adminsys","tips"]
 menu = "main"
 notoc = true
 PublishDate = 2019-01-10T19:04:28+01:00
 date = 2019-01-10T19:04:28+01:00
-lastEdit = 2019-01-18T18:18:12+01:00
+lastEdit = 2019-02-19T18:18:12+01:00
 title = "Top et Htop"
 editor = "kakoune"
 +++
 Lors d'un récent post je vous ai montré un ptit screenshot d'**htop** et certains étaient intéressés donc voilà un mini article à ce propos.
 
-Le vénérable **top** est bien il est Posix, dispo dans busybox toussa toussa mais htop est quand même bien mieux.
+Le vénérable **top** est bien ~~<abbr title="En fait je croyais qu'il était Posix mais pas du tout Haelwenn me l'a signalé">il est Posix</abbr>~~, dispo dans busybox toussa toussa mais htop est quand même bien mieux.
 
 Mais avant de partir direct dans htop, je vais m'attarder sur top parce qu'il est quand même pas trop mal.
 
