@@ -22,12 +22,6 @@ a:hover{
  outline-offset:.3em;
  border-bottom:1px dashed orangered;
 }
-article a{
- text-decoration:none;
- border-bottom:1px dashed;
- outline:1px dotted rgba(255,255,255,0.3);
- outline-offset:.2em;
-}
 aside{
  padding:1rem;
  text-align:center;
@@ -74,14 +68,11 @@ aside{
 #drafturl{
  color:#272b30;
 }
-.post-header,article{
- margin:2rem;
+article{
+ margin-top:2rem;
 }
 #content{
  color:#8a9199;
-}
-main {
- margin:2rem;
 }
 h1 a{
  font-size:1.7rem;
@@ -99,66 +90,39 @@ h3{
 .posts, .fast-posts, .shares, .ideas{
  margin:1rem;
  box-shadow:0 0.3rem 1rem rgba(0,0,0,0.4);
- border-radius:0 1rem;
+ border-radius:0.6rem 0.6rem 1rem 1rem;
  text-align:justify;
  max-width:50em;
-}
-.posts:before,.shares:before,.fast-posts:before,.ideas:before{
- position:relative;
- top:-1px;
- font-size:0.8rem;
- border-radius:0 0 0.4rem 0;
- border-bottom:none;
- border-left:none;
- padding:0.2rem;
+ overflow:hidden;
 }
 .posts{
- border-top:3px solid #547;
+ border-top:4px solid #547;
  border-bottom:1px solid #436;
  border-left:2px solid #436;
+ border-right:2px solid #436;
  background:#2d2f34;
 }
-.posts:before{
- content:"post";
- background:#436;
- border:solid #547;
-}
 .fast-posts{
- border-top:3px solid #457;
+ border-top:4px solid #457;
  border-bottom:1px solid #346;
  border-left:2px solid #447;
+ border-right:2px solid #447;
  color:#999;
  background:#292f34;
 }
-.fast-posts:before{
- content:"fast-post";
- background:#346;
- border:solid #457;
-}
 .shares{
- border-top:3px solid #d2c555;
+ border-top:4px solid #d2c555;
  border-bottom:1px solid #443;
  border-left:2px solid #554;
+ border-right:2px solid #554;
  background:#292e30;
 }
-.shares:before{
- content:"share";
- background:#443;
- border:solid #554;
-}
 .ideas{
- border-top:3px solid #55c5d2;
+ border-top:4px solid #55c5d2;
  border-bottom:1px solid #344;
  border-left:2px solid #455;
+ border-right:2px solid #455;
  background:#293034;
-}
-.ideas:before{
- content:"idées à la con";
- background:#344;
- border:solid #455;
-}
-.posts:before,.fast-posts:before,.shares:before,.ideas:before{
- border-width:0 1px 1px 0;
 }
 .posts h1 a{
  color:#cac;
@@ -224,17 +188,13 @@ figure a img{
  max-width:100%;
 }
 .post-meta{
- margin-left:2rem;
- margin-top:1rem;
  font-size:.8rem;
+ padding-left:2rem;
 }
 .read-more-link , .read-more-link a{
  text-align:right;
- padding-top:1rem;
+ margin-top:0.5rem;
  color:#3bb2a9;
-}
-.read-more-link a:hover{
- color:#4ab1a8;
 }
 hr{
  margin-top: 1rem;
@@ -256,16 +216,17 @@ tr:hover{
 td{
  padding:0.3rem;
 }
-footer{
- width:100%;
- background-color:#222;
- border-radius:0 0 0 1rem ;
- padding:0 2rem 1rem 2rem;
- color:#ccc;
+header{
+ margin:2rem;
 }
-footer.post-meta{
- position:relative;
- left:-2rem;
+main,article {
+ padding:0 2rem 0 2rem;
+}
+footer{
+ color:#ccc;
+ margin-top:1rem;
+ padding:1rem;
+ background-color:#222;
 }
 samp::selection{
  background-color:orangered;
