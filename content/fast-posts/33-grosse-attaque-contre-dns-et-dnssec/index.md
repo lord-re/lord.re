@@ -66,4 +66,4 @@ On a beau faire tout comme il faut dans les règles de l'Art, bha **si ça pète
 Bref, déployer DNSSEC est toujours aussi important et à ne pas sousestimer.
 Par contre, vous ne serez pas pour autant immunisé contre ce genre d'attaque !
 
-Je rajoute une couche mais [le choix du registrar est capital]g{{< ref "/fast-posts/10-la-terrible-dependance-envers-registrar" >}}) et malheureusement il est très difficile de savoir quel registrar a une bonne sécurité à priori.
+Je rajoute une couche mais [le choix du registrar est capital]({{< ref "/fast-posts/10-la-terrible-dependance-envers-registrar" >}}) et malheureusement il est très difficile de savoir quel registrar a une bonne sécurité à priori.
