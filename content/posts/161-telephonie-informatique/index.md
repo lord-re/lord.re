@@ -37,8 +37,8 @@ C'est d'autant plus vrai que désormais *les PABX sont de plus en plus proches d
 
 D'ailleurs soit dit en passant, on voit souvent l'appelation IPBX qui ne veut pas dire grand-chose selon moi.
 Les PABX existent depuis des décennies et se sont toujours adaptés aux évolutions technologiques des lignes et des téléphones.
-Ils sont passés du bon vieu RTC à du trunk SIP en passant par du Numéris avec des téléphones RTC, des DECT et des softphones.
-Donc pourquoi changer le nom appart pour faire plaisir aux informaticiens ?
+Ils sont passés du bon vieux RTC à du trunk SIP en passant par du Numéris avec des téléphones RTC, des DECT et des softphones.
+Donc pourquoi changer le nom à part pour faire plaisir aux informaticiens ?
 
 ## Les lignes
 
