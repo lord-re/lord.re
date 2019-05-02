@@ -15,7 +15,7 @@ Dans [l'épisode précédent]({{< ref "/posts/82-hugo-tutorial" >}}), on a cré�
 Élément capital de votre blog !
 
 ### Se prendre un nom de domaine
-**Avoir un nom de domaine à soit est à mon sens essentiel pour maîtriser un minimum son identité numérique.**
+**Avoir un nom de domaine à soi est à mon sens essentiel pour maîtriser un minimum son identité numérique.**
 Ça ne coûte pas bien cher.
 On peut s'en tirer dans les environs de 10€ par an.
 Bref s'en priver serait dommage surtout que c'est techniquement très simple désormais.
@@ -30,7 +30,7 @@ Bref il y a de quoi faire.
 Mais méfiez-vous, le choix du registrar [peut s'avérer fatal]({{< ref "/fast-posts/10-la-terrible-dependance-envers-registrar" >}}).
 
 ### Squatter un nom de domaine
-À défaut d'investir dans votre propre nom de domaine, vous pouvez squatter un *sous-domaine*.
+À défaut d'investir dans votre propre nom de domaine, vous pouvez squatter un *<abbr title="Techniquement ce concept n'existe pas, mais il est d'usage de parler de sous-domaine, désolé, c'est de la vulgarisation approximative. Désolé ;-)">sous-domaine</abbr>*.
 
 Il existe pas mal de gentils fournisseurs de sous-domaine gratuits qui seront plus ou moins flexibles.
 Vous trouverez par exemple [netlib.re](http://netlib.re/), [eu.org](https://nic.eu.org/register.html).
