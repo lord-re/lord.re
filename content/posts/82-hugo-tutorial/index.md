@@ -19,6 +19,7 @@ Je vais vous montrer comment faire ses premiers pas pour se monter un blog simpl
 
 ## Facts
 Tout d'abord voilà un ensemble de facts que j'ai accumulé.
+
   - Hugo n'est pas un moteur de blog mais un générateur de site web statique.
 Vous pouvez en faire autre chose qu'un blog.
 Et du coup par défaut il ne fait pas forcément un blog.
