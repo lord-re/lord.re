@@ -100,7 +100,10 @@ except ImportError:
 Rien de bien exotique si ce n'est le *try* à la fin.
 
 ## JBlock
+<<<<<<< HEAD
 JBlock est codé par [Jay Kamat](https://jgkamat.gitlab.io).
+=======
+>>>>>>> 267ae572937b3a8c89dedbe696bfa31de9063b94
 Cet add-on en Python doit être installé via un ptit coup de <samp>git clone https://gitlab.com/jgkamat/jblock</samp> directement depuis le dossier *~/.config/qutebrowser/* .
 
 Une fois cloné, il vous faut ajouter le bout de *config.py* de la fin.
