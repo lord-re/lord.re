@@ -51,7 +51,7 @@ Tant pis, on jarte et on installe le bon vieux dhclient.
 On planque le fichier de conf qui va bien où on veut (ça peut être malin de le planquer dans /etc/dhcp, par exemple).
 Et on créer un script init simpliste genre
 
-```
+{{< highlight "sh" >}}
 #!/bin/sh /etc/rc.common
 START=35
 STOP=85
@@ -62,7 +62,7 @@ service_start /usr/sbin/dhclient -cf /etc/dhcp/dhclient4.conf eth1.832 -lf /var/
 stop(){
 service_stop /usr/sbin/dhclient
 }
-```
+{{< / highlight >}}
 et on le fout au boot (voir dans /etc/rc.d).
 Là normalement une fois le service lancé le Turris se retrouvera propulsé sur les autoroutes de l'information.
 
@@ -76,7 +76,7 @@ En deux minutes c'est réglé.
 Le serveur DHCP, allez celui-là on le laisse géré via l'interface web d'OpenWRT.
 C'est un *dnsmasq* classique.
 Par contre je sais pas si c'est moi qui n'ais pas de bol ou autre mais ce couillon me pousse pas de DNS… c'est un peu dommage pour un serveur DHCP.
-Il a fallu tripoter la conf manuellement dans */var/etc/dnsmasq.conf* pour rajouter l'option de balancer du DNS… étrange mais soit.
+Il a fallu tripoter la conf manuellement dans <samp>/var/etc/dnsmasq.conf</samp> pour rajouter l'option de balancer du DNS… étrange mais soit.
 Ptet juste un ptit bug.
 Passons.
 
