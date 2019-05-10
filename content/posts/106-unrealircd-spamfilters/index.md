@@ -59,16 +59,16 @@ Mais si vous faites **<samp>/spamfilter del</samp>** vous aurez un listing mieux
 
     10:41:56   geeknode  -- │ F simple cpnNPq kill 0 9843733 86400 "supernets" Lord!Lord@geeknode.fuckyeah :iяс.sцреяиетs.ояg сни
                             │ sцреявоwl
-                            10:41:56   geeknode  -- │ To delete this spamfilter, use /SPAMFILTER del 0x7f7421b79b40
-                            10:41:56   geeknode  -- │ -
-                            10:41:56   geeknode  -- │ F posix cpnNPq tempshun 0 25184976 86400 racisme Lord!Lord@geeknode.fuckyeah :*vap0r*freenode*
-                            10:41:56   geeknode  -- │ To delete this spamfilter, use /SPAMFILTER del 0x7f74216e0080
-                            10:41:56   geeknode  -- │ -
-                            10:41:56   geeknode  -- │ F posix cpnNPq kill 0 25697921 86400 supernets Lord!Lord@geeknode.fuckyeah :*SUPERNETS*
-                            10:41:56   geeknode  -- │ To delete this spamfilter, use /SPAMFILTER del 0x7f74216dfe00
-                            10:41:56   geeknode  -- │ -
-                            10:41:56   geeknode  -- │ F posix cpnN tempshun 0 26142577 60 spam Lord!Lord@geeknode.fuckyeah :*www.icq-net.eu*
-                            10:41:56   geeknode  -- │ To delete this spamfilter, use /SPAMFILTER del 0x7f74216dfd30
+    10:41:56   geeknode  -- │ To delete this spamfilter, use /SPAMFILTER del 0x7f7421b79b40
+    10:41:56   geeknode  -- │ -
+    10:41:56   geeknode  -- │ F posix cpnNPq tempshun 0 25184976 86400 racisme Lord!Lord@geeknode.fuckyeah :*vap0r*freenode*
+    10:41:56   geeknode  -- │ To delete this spamfilter, use /SPAMFILTER del 0x7f74216e0080
+    10:41:56   geeknode  -- │ -
+    10:41:56   geeknode  -- │ F posix cpnNPq kill 0 25697921 86400 supernets Lord!Lord@geeknode.fuckyeah :*SUPERNETS*
+    10:41:56   geeknode  -- │ To delete this spamfilter, use /SPAMFILTER del 0x7f74216dfe00
+    10:41:56   geeknode  -- │ -
+    10:41:56   geeknode  -- │ F posix cpnN tempshun 0 26142577 60 spam Lord!Lord@geeknode.fuckyeah :*www.icq-net.eu*
+    10:41:56   geeknode  -- │ To delete this spamfilter, use /SPAMFILTER del 0x7f74216dfd30
 
 Et surtout ils donnent une commande avec un *id* pour le supprimer facilement \o/.
 
