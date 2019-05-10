@@ -165,8 +165,10 @@ pre, :not(pre) > code{
  border:1px dashed black;
  box-shadow:0 0 0.5em rgba(0,0,0,0.4) inset;
  background:#1d2024;
+ background: repeating-linear-gradient(-30deg, #1d2024, #1d2024 20px, #202529 20px, #252529 40px);
  margin-top:0.5rem;
- font-size:0.7rem;
+ font-size:0.8rem;
+ color:#bbb;
  padding: 0.5rem;
  line-height:0.9rem;
  overflow:auto;
@@ -260,6 +262,7 @@ details[open]{
 summary{
  cursor:pointer;
  background:#333;
+ background: repeating-linear-gradient(-45deg, #333,#333 10px,#353535 10px, #353535 20px);
  color:#aaa;
  padding:0.3rem;
  border:0.1rem solid #444;
