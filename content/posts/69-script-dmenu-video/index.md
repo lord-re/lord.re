@@ -13,6 +13,7 @@ Un ptit article rapide aujourd'hui pour vous présenter **filmmenu**. J'ai un NA
 
 Toutes les données sont bien rangées dans un disque différent sauf les films qui sont répartis sur plusieurs partitions. Du coup quand je cherche un fichier particulier je sais jamais trop où le chercher. Je me suis donc fait un ptit script.
 
+{{< highlight "bash" >}}
 	#! /bin/sh
 	DB="/var/db/filmmenu"
 	if [ $(mountpoint -q /mnt/bender) ]
@@ -34,8 +35,9 @@ Toutes les données sont bien rangées dans un disque différent sauf les films 
 	        find /mnt/bender/stockage/*/films/ > "$DB"
 	        timeout 3 i3-nagbar -t warning -m "$DB créé, c'est tout bon. Vous pouvez relancer la commande"
 	fi
+{{< / highlight >}}
 
-Je lance ce script avec un ptit ***Alt è*** dans i3. Voilà ce qu'il fait :
+Je lance ce script avec un ptit <samp>**Alt-è**</samp> dans i3. Voilà ce qu'il fait :
 
 *Mountpoint* vérifie tout d'abord que le NAS est bien mount au bon endroit. Si c'est pas le cas il pond un *i3-nagbar* qui est un programme lié à i3 qui met une barre en haut de l'écran contenant le message qu'on lui donne.
 
