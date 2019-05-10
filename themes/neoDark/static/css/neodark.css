@@ -17,7 +17,7 @@ a{
  border-bottom:1px dotted;
  color:#ea872d;
 }
-a:hover{
+a:hover, a:focus{
  outline:1px solid;
  outline-offset:.3em;
  border-bottom:1px dashed orangered;
@@ -32,7 +32,7 @@ aside{
  display:inline-block;
  margin:0.5rem;
 }
-.icons a:hover{
+.icons a:hover, .icons a:focus{
  transform:scale(2);
 }
 @media (min-width:58em){
@@ -248,17 +248,24 @@ blockquote{
  padding-bottom:1rem;
  padding-right:1rem;
 }
+details{
+ margin-top:0.5rem;
+ margin-bottom:0.5rem;
+ border: 1px solid black;
+ box-shadow:0 0.2rem 1rem rgba(0,0,0,0.3);
+}
+details[open]{
+ border:1px solid #ea872d;
+}
 summary{
  cursor:pointer;
  background:#333;
  color:#aaa;
- margin-top:0.5rem;
- margin-bottom:0.5rem;
  padding:0.3rem;
  border:0.1rem solid #444;
  box-shadow: 0 0.3rem 1rem #222;
 }
-summary:hover{
+summary:hover, summary:focus{
  border:0.1rem solid #665;
  box-shadow:0 0.5rem 1rem #111;
 }
