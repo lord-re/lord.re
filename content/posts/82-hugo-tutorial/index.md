@@ -7,6 +7,7 @@ notoc = true
 draft = false
 PublishDate = 2018-03-09T17:46:32+01:00
 date = 2018-03-09T17:46:32+01:00
+lastEdit = 2019-05-15T00:06:32+01:00
 title = "Créer un blog statique Hugo de A à Y"
 editor = "kakoune"
 jdh = "https://www.journalduhacker.net/s/zvd6u9/cr_er_un_blog_statique_hugo_de_y"
@@ -66,7 +67,7 @@ Bon après ces quelques remarques globales, attaquons nous à la création d'un 
 
 ## Créer la structure de votre site
 Bon, sur votre machine personnelle, on va créer un dossier blog et maintenant tout se fera à partir de ce dossier.
-**hugo new site ./** Et voilà votre dossier peuplé de nouveaux dossiers.
+**<samp>hugo new site ./</samp>** Et voilà votre dossier peuplé de nouveaux dossiers.
 
   - *archetypes* : contient les éléments qui seront automatiquement rajouté quand vous créerez un nouvel article
   - *config.toml* : fichier texte où se trouve la configuration de votre site
@@ -78,14 +79,14 @@ Bon, sur votre machine personnelle, on va créer un dossier blog et maintenant t
 ## Créer un article
 Afin de pouvoir expérimenter au plus vite, on va déjà créer un article bidon pour votre site.
 
-Au préalable, on va créer une section blog : **mkdir content/blog**.
+Au préalable, on va créer une section blog : **<samp>mkdir content/blog</samp>**.
 Désormais tous vos articles de blog on les rangera dans ce dossier.
 
-Créons l'article : **hugo new blog/welcome.md** .
+Créons l'article : **<samp>hugo new blog/welcome.md</samp>** .
 La chose à prendre en compte c'est que vous ne placez pas explicitement votre nouvel article dans *content*, il le fait de lui même.
 Quand vous utilisez la commande *hugo new*, ça sera automatiquement dans *content*.
 
-Maintenant ajoutons du contenu à l'article : **vim content/blog/welcome.md**
+Maintenant ajoutons du contenu à l'article : **<samp>vim content/blog/welcome.md</samp>**
 Et là vous devriez vous retrouver avec déjà quelques lignes dans votre article.
 
     ---
@@ -107,7 +108,7 @@ Vous pouvez rédiger en dessous votre article en utilisant la [syntaxe MarkDown]
 Bon après avoir ajouté un peu de contenu à cet article on va commencer les choses sérieuses : générer une page web !
 
 ## Configuration
-Donc pour générer votre site web, il vous suffit de taper : **hugo**
+Donc pour générer votre site web, il vous suffit de taper : **<samp>hugo</samp>**
 ```
                     | EN
 +-------------------+----+
@@ -126,13 +127,15 @@ Bon alors premièrement, votre site est probablement pas en anglais donc va fall
 
 Allez, voyons le *config.toml*
 
-    baseURL = "http://adresse.de.votre.site/"
-    languageCode = "fr-fr"
-    DefaultContentLanguage = "fr"
-    title = "le nom de votre site"
+{{< highlight "toml" >}}
+baseURL = "http://adresse.de.votre.site/"
+languageCode = "fr-fr"
+DefaultContentLanguage = "fr"
+title = "le nom de votre site"
+{{< / highlight >}}
   
 On pourra se contenter de ces réglages pour le moment.
-Et du coup si vous relancez la commande **hugo** vous verrez que vous générez désormais du français !
+Et du coup si vous relancez la commande **<samp>hugo</samp>** vous verrez que vous générez désormais du français !
 
 ### Paramètres fait maison
 
@@ -178,13 +181,14 @@ En gros c'est le squelette HTML de vos pages que vous allez demander à Hugo de 
 On va commencer par le minimum absolu.
 
 Dans *layouts/index.html* :
-```
+
+{{< highlight "html" >}}
 <html>
   <body>
     Yoplaboum !
   </body>
-</htm>
-```
+</html>
+{{< / highlight >}}
 
 Je vous avais prévenu c'est vraiment peu.
 Maintenant on régénère via **hugo** et on voit qu'on a désormais *public/index.html* qui existe.
@@ -193,7 +197,7 @@ Et comme par hasard il contient exactement la même chose que définie dans le *
 Ajoutons la magie d'Hugo : 
 Toujours dans *layouts/index.html* :
 
-```
+{{< highlight "html" >}}
 <html>
   <body>
 {{ range .Data.Pages }}
@@ -202,18 +206,19 @@ Toujours dans *layouts/index.html* :
 {{ end }}
   </bdy>
 </html>
-```
+{{< / highlight >}}
 
 
 Et maintenant refaites un ptit coup de **hugo** et observez votre nouvel *public/index.html*
-```
+{{< highlight "html" >}}
 <html>
   <body>
     <h1>Welcome</h1>
     <p>coucou</p>
   </body>
 </html>
-```
+{{< / highlight >}}
+
 Voilà, votre tout premier résultat tangible.
 Voyons ce qu'il s'est passé.
 
@@ -229,8 +234,8 @@ C'est pas bien compliqué.
 ## Partials
 Hugo vous permet d'utiliser des morceaux de HTML que vous allez pouvoir inclure par la suite.
 
-**mkdir layouts/partials** et ensuite éditons *layouts/partials/header.html*
-```
+**<samp>mkdir layouts/partials</samp>** et ensuite éditons *layouts/partials/header.html*
+{{< highlight "html" >}}
 <!DOCTYPE html>
 <html lang='{{ .Site.Language.Lang }}'>
   <head>
@@ -238,14 +243,14 @@ Hugo vous permet d'utiliser des morceaux de HTML que vous allez pouvoir inclure 
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta name="description" content="{{ .Desription }}">
-    <meta name="keywords" content="{{ range .Params.Tags }}{{   }},{{ end }}">
+    <meta name="keywords" content="{{ range .Params.Tags }}{{ . }},{{ end }}">
     <meta name="author" content="{{ .Params.author }}">
     {{ .HugoGenerator }}
     <link rel="stylesheet" href="{{ .Site.BaseURL}}css/style.css">
     <link href="{{ .Site.RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}">
     <link rel="icon" type="image/x-icon" href="{{ .Site.BaseURL }}favicon.ico">
   </head>
-```
+{{< / highlight >}}
 *{{ .Site.Language.Lang }}* sera remplacé par la langue de la page en question.
 Si vous avez la même page dans différentes langues cette variable sera ajustée en fonction.
 
@@ -257,7 +262,7 @@ Bref maintenant yapuka inclure ça dans votre layout : *layouts/index.html* en a
 ```
 {{ partial "header.html" . }}
 ```
-Un ptit coup de **hugo** et on observe le résultat.
+Un ptit coup de **<samp>hugo</samp>** et on observe le résultat.
 Le *partial* est inclus dans votre page web avec ses variables qui sont bien remplacées.
 Il nous reste encore un détail à voir et vous serez à même de vous débrouillez comme de grandes personnes.
 
@@ -270,8 +275,9 @@ Les *list pages* sont les pages listant les items d'une section (tous les articl
 Jusqu'à présent, dans notre exemple, nous n'avons travaillé que la home page du site en bidouillant *layouts/index.html*.
 On va donc générer la page pour un article de blog.
 
-**mkdir layouts/blog** puis éditons *layouts/blog/single.html*
-```
+**<samp>mkdir layouts/blog</samp>** puis éditons *layouts/blog/single.html*
+
+{{< highlight "html" >}}
 {{ partial "header.html" . }}
 <body
   <header>
@@ -283,13 +289,14 @@ On va donc générer la page pour un article de blog.
   </main>
 </body>
 </html>
-```
+{{< / highlight >}}
+
 Bon ça reste assez simple (notez comme j'amène de nouveaux éléments que progressivement…).
 *{{ .RelPermaLink }}* est le lien vers l'article.
 *{{ .Date.Format }}* lit le paramètre *date* de l'article et le met au format *"02/01/2006"*.
 J'avoue que cette désignation est assez étrange mais bon vous trouverez [ici](http://gohugo.io/functions/format/) plus d'explication sur les formats possibles.
 
-Impatients de voir le résultat ? **hugo** puis là vous aurez encore plus de fichiers \o/
+Impatients de voir le résultat ? **<samp>hugo</samp>** puis là vous aurez encore plus de fichiers \o/
 ```
 public
 ├── blog
@@ -311,7 +318,8 @@ Vous y trouverez comme prévu ce que vous avez mis dans *layouts/blog/single.htm
 Il ne reste donc plus qu'à faire la *list page* de la section blog :-)
 
 *layouts/blog/list.html*
-```
+
+{{< highlight "html" >}}
 {{ partial "header.html" . }}
 <body>
   <main>
@@ -327,7 +335,8 @@ Il ne reste donc plus qu'à faire la *list page* de la section blog :-)
   </main>
 </body>
 </html>
-```
+{{< / highlight >}}
+
 Peu de nouveauté.
 *{{ .Summary }}* ne vous sortira pas l'article en entier mais juste le début.
 Une fois votre site généré vous aurez désormais un *public/blog/index.html*.
@@ -336,7 +345,7 @@ Une fois votre site généré vous aurez désormais un *public/blog/index.html*.
 Bon on a un truc qui marche pas trop mal.
 Plus qu'à raffiner.
 
-Déjà pour se simplifier la vie, dans un autre terminal lancez **hugo server --navigateToChanged -F -D**.
+Déjà pour se simplifier la vie, dans un autre terminal lancez **<samp>hugo server --navigateToChanged -F -D</samp>**.
 Cette commande lance le ptit serveur web interne d'Hugo en générant les article avec une date dans le futur (-F) et les articles en brouillons (-D).
 Une fois lancée, ils vous indiquera quelle adresse ouvrir dans votre navigateur (généralement http://localhost:1313).
 À chaque modification, vous serez redirigé vers la page éditée.
@@ -357,7 +366,7 @@ Voilà, la description vous permettra de remplir la balise *<meta>* correspondan
 
 Bon on test ?
 
-Créez un second article sur votre blog avec **hugo new blog/le-second-article.md** puis éditez-le pour y mettre un peu de contenu.
+Créez un second article sur votre blog avec **<samp>hugo new blog/le-second-article.md</samp>** puis éditez-le pour y mettre un peu de contenu.
 
 Si tout va bien, votre *frontmatter* (les métadonnées en haut du fichier contenant votre article) devrait être pré-rempli.
 
@@ -372,12 +381,14 @@ Le plus simple est de juste copier *layouts/blog/list.html* et de le mettre à l
 ### Liens vers les articles suivant/précédent
 C'est assez simple à ajouter automatiquement.
 On édite *layouts/blog/single.html* pour rajouter après l'article :
-```
+
+{{< highlight "html" >}}
   <footer>
     {{ if .PrevInSection }}article précédent : <a href="{{ .PrevInSection.RelPermalink }}">{{ .PrevInSection.Title }}</a>{{ end }}
     {{ if .NextInSection }}article suivant : <a href="{{ .NextInSection.RelPermalink }}">{{ .NextInSection.Title }}</a>{{ end }}
   </footer>
-```
+{{< / highlight >}}
+
 Le *if* n'affichera que s'il existe un article précédent/suivant.
 
 ### Un peu de style 
@@ -390,8 +401,8 @@ Vous pouvez vous contenter de peu de règles écrites à la main plutôt que de 
 
 ### Un flux RSS complet
 Le template de génération de flux RSS par défaut ne place que le *{{ .Summary }}* d'un article.
-Pour le modifier il va falloir modifier le layout par défaut : **mkdir layouts/_default/** et éditer *layouts/_default/rss.xml*
-```
+Pour le modifier il va falloir modifier le layout par défaut : **<samp>mkdir layouts/_default/</samp>** et éditer *layouts/_default/rss.xml*
+{{< highlight "xml" >}}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
@@ -418,7 +429,7 @@ Pour le modifier il va falloir modifier le layout par défaut : **mkdir layouts/
     {{ end }}
   </channel>
 </rss>
-```
+{{< / highlight >}}
 
 ### Faire un lien entre articles
 C'est un peu une base du web de faire des liens entre les pages.
