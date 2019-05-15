@@ -30,7 +30,7 @@ Je l'ai beaucoup aimé mais quand je le re-teste un peu maintenant… je support
 
 Quand on a goûté au mécanique, c'est assez difficile de revenir sur ces merdes.
 
-{{< img src="microsoft_front.th.jpg" link="microsoft_front.jpg" alt="Un clavier scindé en deux de chez Microsoft il y a vingt ans" title="Mon premier clavier acheté avec volontairement" >}}
+{{< img src="microsoft_front.th.jpg" link="microsoft_front.jpg" alt="Un clavier scindé en deux de chez Microsoft il y a vingt ans" title="Mon premier clavier acheté volontairement" >}}
 
 C'est un clavier en *PS2* qui a connu des nouvelles versions.
 
