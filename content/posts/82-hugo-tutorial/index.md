@@ -279,7 +279,7 @@ On va donc générer la page pour un article de blog.
 
 {{< highlight "html" >}}
 {{ partial "header.html" . }}
-<body
+<body>
   <header>
     <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a><h1>
     <p class="meta">{{ .Date.Format "02/01/2006" }}</p>
