@@ -93,7 +93,7 @@ Bref je l'ai jamais fait fonctionné sur un ordi à la maison.
 ## Alcatel ??
 Ouai un autre Alcatel mais en *PS2* et *switchs noirs*
 
-On retourne sur du plas classique.
+On retourne sur du plus classique.
 
 {{< img src="alcatel_front.th.jpg" link="alcatel_front.jpg" alt="Un clavier basique." title="Il ressemble beaucoup au Siemens, hein ?">}}
 
