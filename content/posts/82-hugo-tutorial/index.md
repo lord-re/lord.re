@@ -242,10 +242,10 @@ Hugo vous permet d'utiliser des morceaux de HTML que vous allez pouvoir inclure 
     <title>{{ .Title }}</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta name="description" content="{{ .Desription }}">
+    <meta name="description" content="{{ .Description }}">
     <meta name="keywords" content="{{ range .Params.Tags }}{{ . }},{{ end }}">
     <meta name="author" content="{{ .Params.author }}">
-    {{ .HugoGenerator }}
+    {{ .Hugo.Generator }}
     <link rel="stylesheet" href="{{ .Site.BaseURL}}css/style.css">
     <link href="{{ .Site.RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}">
     <link rel="icon" type="image/x-icon" href="{{ .Site.BaseURL }}favicon.ico">
