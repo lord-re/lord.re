@@ -1,7 +1,7 @@
 +++
 Author = "Lord"
 date = "2015-12-28T14:36:41+02:00"
-lastedit = "2019-01-21T14:36:41+02:00"
+lastedit = "2019-05-27T14:36:41+02:00"
 title = "Réimplémentations libres de moteurs de jeux"
 menu = "main"
 Categories = ["libre","software","linux","jeux","fps"]
@@ -63,6 +63,8 @@ Du coup bha Flare tente de faire un moteur pour ce genre de jeu sans toutefois m
 Par contre il existe [**Freeablo**](https://freeablo.org/).
 Le dev commençait bien vite et fort et malheureusement ça patine un peu.
 Dommage.
+
+Et vous trouverez également [**OpenD2**](https://github.com/eezstreet/OpenD2) qui débute pour l'illustre Diablo 2.
 
 Toujours dans les RPG, on peut jouer à [**OpenMW**](http://openmw.org/en/) qui s'entête à refaire le bon vieux *Morrowind*.
 Le projet est en super forme et commence même à proposer quelques améliorations par-ci par-là et n'a pas oublié l'éditeur de niveau !
@@ -154,4 +156,7 @@ Lincity-ng, OpenSC2K, Frozen Bubble, Freecol, Hedgewars, Neverball, Open Space P
 Globalement pas mal de projets dorment calmement.
 
 ## PS : Janvier 2019
-Ajout de Xash3D
+Ajout de Xash3D.
+
+## PS : Mai 2019
+Ajout de OpenD2.
