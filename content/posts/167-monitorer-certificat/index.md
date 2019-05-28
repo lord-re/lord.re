@@ -27,7 +27,7 @@ Il s'agit d'un journal public, où toutes les CA consignent les certificats qu'e
 Il est donc très intéressant de consulter ces logs publics afin de vérifier que personne n'a émis de certif dans votre dos.
 
 Tout ce qui est manuel tombe à la trappe.
-Heureusement [Cert.Sh](https://cert.sh) propose \*roulement de tambour\* … un **flux RSS** !
+Heureusement [Crt.Sh](https://crt.sh) propose \*roulement de tambour\* … un **flux RSS** !
 C'est basique, mais ça fonctionne.
 
 Ça vous permet à la fois de *voir si votre renouvellement s'est bien passé, mais aussi que personne d'autre n'en a fait un*.
