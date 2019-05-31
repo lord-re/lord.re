@@ -5,7 +5,7 @@ You can reuse it, and if you do i'll be glad looking at your website :-)
 
 *{
  box-sizing:border-box;
- transition:all 0.1s ease;
+ transition:all 0.2s ease;
  margin:0;
 }
 html{
@@ -70,6 +70,7 @@ aside{
 }
 article{
  margin-top:2rem;
+ margin-bottom:2rem;
 }
 #content{
  color:#8a9199;
@@ -254,7 +255,10 @@ details{
  margin-top:0.5rem;
  margin-bottom:0.5rem;
  border: 1px solid black;
+ border-radius:0.5rem;
  box-shadow:0 0.2rem 1rem rgba(0,0,0,0.3);
+ padding:1rem;
+ margin:0.5rem;
 }
 details[open]{
  border:1px solid #ea872d;
