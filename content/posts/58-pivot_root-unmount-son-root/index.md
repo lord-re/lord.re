@@ -1,6 +1,7 @@
 +++
 Author = "Lord"
 date = "2017-09-16T17:01:10+02:00"
+lastedit = "2019-06-10T13:44:23+02:00"
 title = "Unmount son root sans reboot"
 notoc = true
 menu = "main"
@@ -46,3 +47,10 @@ Vous pouvez faire ce que vous vouliez faire désormais. C'est beau, hein ? Au fi
 
 ## Revenir
 Vous voulez revenir sans rebooter ? Easy vous n'avez qu'à **mount /dev/sda2 /oldroot** et enfin **pivot_root /oldroot /oldroot/ramroot** et pouf vous voilà hors de votre ramdisk de retour sur votre partoche.
+
+## Troubleshoot
+Il est possible que le **pivot_root** échoue en sortant un maigre *invalid argument*.
+Cela peut venir non pas de la commande elle même mais du montage de votre racine initiale.
+
+Pour voir si ça vient bien de là un petit <samp>grep -iP '/ /\s' /proc/$$/mountinfo</samp>.
+Si vous voyez un petit *shared* qui apparait, il faut lancer la commande **<samp>unshare -m</samp>** et c'est bon le pivot_root passera.
