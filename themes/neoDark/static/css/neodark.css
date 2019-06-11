@@ -11,6 +11,7 @@ You can reuse it, and if you do i'll be glad looking at your website :-)
 html{
  line-height:1.35em;
  background:#272b30;
+ background: repeating-linear-gradient(-21deg, #1d2024, #1d2024 15px, #202529 15px, #151519 30px);
 }
 a{
  text-decoration:none;
@@ -25,7 +26,8 @@ a:hover, a:focus{
 aside{
  padding:1rem;
  text-align:center;
- box-shadow:0 0 1em rgba(0,0,0,0.4);
+ box-shadow:0 0 2em rgba(0,0,0,0.4);
+ background: repeating-linear-gradient(-30deg, #1d2024, #1d2024 20px, #202529 20px, #252529 40px);
  border-bottom:2px solid #414;
 }
 .icons a{
@@ -42,7 +44,6 @@ aside{
   left:0;
   bottom:0;
   width:18rem;
-  border-right:1px solid #414;
   border-bottom:none;
  }
  #content{
@@ -276,3 +277,15 @@ summary:hover, summary:focus{
  border:0.1rem solid #665;
  box-shadow:0 0.5rem 1rem #111;
 }
+.spin{
+ animation:spin 120s infinite linear;
+}
+@keyframes spin{
+ 0%{
+	transform: rotate(0 turn);
+ }
+ 100%{
+  transform:rotate(1turn);
+ }
+}
+
