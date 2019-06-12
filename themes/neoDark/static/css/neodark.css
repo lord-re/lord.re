@@ -98,33 +98,29 @@ h3{
  overflow:hidden;
 }
 .posts{
- border-top:4px solid #547;
- border-bottom:1px solid #436;
- border-left:2px solid #436;
- border-right:2px solid #436;
  background:#2d2f34;
+ border:2px solid hsl(258,33%,30%);
+ border-top:4px solid hsl(258,58%,58%);
+ box-shadow:0 0 5rem 0.5rem hsl(258,58%,58%,0.3);
 }
 .fast-posts{
- border-top:4px solid #457;
- border-bottom:1px solid #346;
- border-left:2px solid #447;
- border-right:2px solid #447;
  color:#999;
  background:#292f34;
+ border:2px solid hsl(210,33%,30%);
+ border-top:4px solid hsl(210,58%,58%);
+ box-shadow:0 0 5rem 0.5rem rgb(86,148,210,0.3);
 }
 .shares{
- border-top:4px solid #d2c555;
- border-bottom:1px solid #443;
- border-left:2px solid #554;
- border-right:2px solid #554;
  background:#292e30;
+ border:2px solid hsl(54,33%,30%);
+ border-top:4px solid hsl(54,58%,58%);
+ box-shadow:0 0 5rem 0.5rem rgb(210,197,85,0.3);
 }
 .ideas{
- border-top:4px solid #55c5d2;
- border-bottom:1px solid #344;
- border-left:2px solid #455;
- border-right:2px solid #455;
  background:#293034;
+ border:2px solid hsl(186,33%,30%);
+ border-top:4px solid hsl(186,58%,58%);
+ box-shadow:0 0 5rem 0.5rem rgb(85,197,210,0.3);
 }
 .posts h1 a{
  color:#cac;
@@ -197,7 +193,6 @@ figure a img{
 }
 .read-more-link , .read-more-link a{
  text-align:right;
- margin-top:0.5rem;
  color:#3bb2a9;
 }
 hr{
