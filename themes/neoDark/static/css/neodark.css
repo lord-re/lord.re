@@ -23,7 +23,7 @@ a:hover, a:focus{
  outline-offset:.3em;
  border-bottom:1px dashed orangered;
 }
-aside{
+nav{
  padding:1rem;
  text-align:center;
  box-shadow:0 0 2em rgba(0,0,0,0.4);
@@ -38,7 +38,7 @@ aside{
  transform:scale(2);
 }
 @media (min-width:58em){
- aside {
+ nav {
   position:fixed;
   top:0;
   left:0;
@@ -283,4 +283,3 @@ summary:hover, summary:focus{
   transform:rotate(1turn);
  }
 }
-
