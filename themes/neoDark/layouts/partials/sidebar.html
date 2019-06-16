@@ -1,4 +1,4 @@
-  <aside>
+  <nav>
     <div id="sidebar">
     <h1 class="brand-title"><a href="{{ .Site.BaseURL }}">/home/lord</a></h1>
 		<!--<p>{{ i18n "sidebar-description"}}</p>-->
@@ -16,4 +16,4 @@
 {{ range .Translations }}    <p><a href="{{ .Permalink }}">{{i18n "dispo"}} : {{ .Title }}{{ if .IsPage }} {{ end }}</a></p>{{ end}}
     <p><a id="drafturl" href="{{ .Site.BaseURL }}drafts">.</a></p>
     </div>
-  </aside>
+  </nav>

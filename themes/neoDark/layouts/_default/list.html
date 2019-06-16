@@ -3,7 +3,7 @@
   <a href="#content" title="skip to content" aria-label="skip to content"></a>
   <div id="layout">
 {{ partial "sidebar.html" . }}
-    <div id="content">
+    <main>
 {{ range .Data.Pages }}
       <section  class="{{.Section}}">
         <header class="post-header">
@@ -19,7 +19,7 @@
         </footer>
       </section>
 {{ end }}
-    </div>
+    </main>
   </div>
 </body>
 </html>

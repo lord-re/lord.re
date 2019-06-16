@@ -4,7 +4,7 @@
   <div id="layout">
 {{ partial "sidebar.html" . }}
 
-  <div id="content">
+  <main id="content">
     <section  class="{{.Section}}">
       <header class="post-header">
         <h1 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
@@ -15,9 +15,9 @@
           {{ if .Params.lastEdit }}<span class="post-edit-date">Dernière mise à jour le : {{ dateFormat "02/01/2006" .Params.lastEdit }}</span>{{ end }}
         </p>
       </header>
-      <main>
+      <article>
         {{ .Content }}
-      </main>
+      </article>
 {{ if not .Params.nofooter}}      <footer class="post-meta">
 {{ with .Params.jdh }}<p><a href="{{ . }}">En discuter sur le Journal du Hacker !</a></p>{{ end }}
 {{ if not .Params.nopaging }}
@@ -34,7 +34,7 @@
       </footer>{{end}}
 
     </section>
-  </div>
+  </main>
   </div>
 </body>
 </html>

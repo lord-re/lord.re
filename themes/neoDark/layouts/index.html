@@ -1,9 +1,8 @@
 {{ partial "header.html" . }}
 <body>
   <a href="#content" title="skip to content" aria-label="skip to content"></a>
-  <div id="layout">
 {{ partial "sidebar.html" . }}
-  <div id="content">
+  <main>
 {{ $paginator := .Paginate (where .Data.Pages "Type" "in" .Site.Params.sectionsInHomepage ) }}
 {{ range $paginator.Pages }}
   <section class="{{.Type}}">
@@ -20,7 +19,7 @@
 {{ end }}</section>
 {{ end }}
 {{ template "partials/pagination.html" . }}
-  </div>
-</div>
+  </main>
+{{ partial "openring.html" . }}
 </body>
 </html>
