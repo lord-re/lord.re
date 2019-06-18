@@ -231,6 +231,8 @@ footer{
  margin-top:1rem;
  padding:1rem;
  background-color:#222;
+ /*petit hack pour que le fond du footer s'applique jusqu'au bout. Me demandez pas, ça marche. */
+ border-bottom:1px dotted rgba(0,0,0,0);
 }
 samp::selection{
  background-color:orangered;
