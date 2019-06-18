@@ -1,25 +1,24 @@
 {{ partial "header.html" . }}
 <body>
   <a href="#content" title="skip to content" aria-label="skip to content"></a>
-  <div id="layout">
 {{ partial "sidebar.html" . }}
-    <main>
+  <main>
 {{ range .Data.Pages }}
-      <section class="{{.Section}}"{{ if eq .Type "posts" }}class="post"{{ else }}class="fast-post"{{ end}}>
-        <header class="post-header">
-          <h1 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
-        </header>
-        <p class="post-meta"><em>{{ if not .Params.nodate }}<span class="post-date">{{ .Date.Format "02/01/2006" }}</span> - {{ end }}{{ if not .Params.noread }}<span class="post-reading-time">{{ i18n "readingTime" .ReadingTime }}</span>{{ end }}</em>{{ if .Params.categories }}<span class="post-categories">{{ $Site := .Site }}{{ range .Params.categories }}<a class="post-category post-category-{{ . | urlize }}" href="{{ $Site.BaseURL}}categories/{{ . | urlize }}">{{ . }}</a> {{ end }}</span>{{ end }}</p>
+    <section class="{{.Section}}"{{ if eq .Type "posts" }}class="post"{{ else }}class="fast-post"{{ end}}>
+      <header class="post-header">
+        <h1 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+      </header>
+      <p class="post-meta"><em>{{ if not .Params.nodate }}<span class="post-date">{{ .Date.Format "02/01/2006" }}</span> - {{ end }}{{ if not .Params.noread }}<span class="post-reading-time">{{ i18n "readingTime" .ReadingTime }}</span>{{ end }}</em>{{ if .Params.categories }}<span class="post-categories">{{ $Site := .Site }}{{ range .Params.categories }}<a class="post-category post-category-{{ . | urlize }}" href="{{ $Site.BaseURL}}categories/{{ . | urlize }}">{{ . }}</a> {{ end }}</span>{{ end }}</p>
 {{ if .Truncated  }}            <article class="post-summary">{{ .Description}}
-        </article>
-				<footer>
-          <div class="read-more-link"><a href="{{ .RelPermalink }}">{{ i18n "more" }}</a></div>
+      </article>
+		<footer>
+        <div class="read-more-link"><a href="{{ .RelPermalink }}">{{ i18n "more" }}</a></div>
 {{ else }}{{ .Content }}
 {{ end }}
-        </footer>
-      </section>
+    </footer>
+   </section>
 {{ end }}
-    </main>
-  </div>
+  </main>
+{{ partial "openring.html" . }}
 </body>
 </html>
