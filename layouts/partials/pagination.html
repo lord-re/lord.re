@@ -1,7 +1,7 @@
 <div class="pagination" style="text-align:right;">{{ $paginator := .Paginator }}{{ $.Scratch.Set "CurrentPage" .Paginator.PageNumber}}
 {{ if gt $paginator.TotalPages 1 }}{{ if gt $paginator.TotalPages 4 }}<a href="{{$paginator.First.URL}}" aria-label="First">««</a>{{end}}
 {{ if $paginator.HasPrev}}<a href="{{$paginator.Prev.URL}}" aria-label="Previous">«</a>{{end}}
-{{ range $paginator.Pagers}} <a {{if eq ($.Scratch.Get "CurrentPage") .PageNumber}}style="font-size:1.3rem;font-weight:900;"{{end}}href="{{.URL}}">{{.PageNumber}}</a> {{end}}
+{{ range $paginator.Pagers}} <a {{if eq ($.Scratch.Get "CurrentPage") .PageNumber}}style="font-size:1.3rem;font-weight:900;"{{end}} href="{{.URL}}">{{.PageNumber}}</a> {{end}}
 {{ if $paginator.HasNext}}<a href="{{$paginator.Next.URL}}" aria-label="Next">»</a>{{end}}
 {{ if gt $paginator.TotalPages 4 }}<a href="{{$paginator.Last.URL}}" aria-label="Last">»»</a>{{end}}{{ end }}
 </div>
