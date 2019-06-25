@@ -28,3 +28,6 @@ other = "EN"
 
 [aria_lire]
 other = "English version"
+
+[skip_content]
+other = "Passer directement au contenu"
