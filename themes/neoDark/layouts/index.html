@@ -13,7 +13,7 @@
 {{ if .Truncated  }}    <article class="post-summary">{{ .Summary }}
     </article>
     <footer>
-			<div class="read-more-link"><a href="{{ .RelPermalink }}">{{ i18n "more" }}</a>{{ range .Translations }} − <a href="{{ .Permalink}}" aria-label="{{i18n "aria_lire"}}">{{i18n "lire"}}</a>{{end}}</div>
+			<div class="read-more-link"><a href="{{ .RelPermalink }}">{{ i18n "more" }}</a>{{ range .Translations }} − <a href="{{ .Permalink}}" aria-label="{{i18n "aria_lire"}}" lang="{{.Language}}">{{i18n "lire"}}</a>{{end}}</div>
     </footer>
 {{ else }}    <article class="post-summary">{{ .Content }}</article>
 {{ end }}</section>

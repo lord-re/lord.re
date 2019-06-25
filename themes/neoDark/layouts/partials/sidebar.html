@@ -13,7 +13,7 @@
     <a href="{{ .Site.BaseURL}}apropos/" title="À propos" style="line-height:2.3rem;font-size:2.3rem;color:orangered;border-bottom:1px dotted #ea872d;">?</a>
     </p>
     <br>
-{{ range .Translations }}    <p><a href="{{ .Permalink }}">{{i18n "dispo"}} : {{ .Title }}{{ if .IsPage }} {{ end }}</a></p>{{ end}}
+{{ range .Translations }}    <p lang="{{ .Language }}"><a href="{{ .Permalink }}">{{i18n "dispo"}} : {{ .Title }}{{ if .IsPage }} {{ end }}</a></p>{{ end}}
     <p><a id="drafturl" href="{{ .Site.BaseURL }}drafts">.</a></p>
     </div>
   </nav>
