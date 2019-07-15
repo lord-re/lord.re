@@ -21,7 +21,7 @@ nav{
  padding:1rem;
  text-align:center;
  box-shadow:0 0 2em rgba(0,0,0,0.4);
- background: repeating-linear-gradient(-30deg, #1d2024, #1d2024 20px, #202529 20px, #252529 40px);
+ background: #222;
  border-bottom:2px solid #414;
 }
 main{
@@ -42,7 +42,7 @@ aside{
  }
  aside{
 	display:block;
-  background: repeating-linear-gradient(30deg, #1d2024, #1d2024 20px, #202529 20px, #252529 40px);
+	background: #222;
   box-shadow:0 0 2em rgba(0,0,0,0.4);
  }
 }
