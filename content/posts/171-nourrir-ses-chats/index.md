@@ -77,10 +77,9 @@ Bref c'est un budget assez conséquent mais au moins ils mangent pas de la merde
 
 ## Verdict
 
-<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-<script src="https://code.highcharts.com/stock/highstock.js"></script>
-<script type="text/javascript" src="https://code.highcharts.com/stock/highstock.js"></script>
-<script type="text/javascript" src="https://code.highcharts.com/modules/data.js"></script>
+<script src="jquery-3.1.1.min.js"></script>
+<script src="highstock.js"></script>
+<script type="text/javascript" src="data.js"></script>
 <script type="text/javascript" src="dark-unica.js"></script>
 
 <script type="text/javascript">
