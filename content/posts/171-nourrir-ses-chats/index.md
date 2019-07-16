@@ -191,4 +191,4 @@ Et en trois mois, **le gros est passé de 9.6Kg à 8.3Kg** sans avoir l'air de d
 Ils réclament bien moins à manger et sont en bonne santé.
 
 Bref pourvu que ça dure !
-Je vous referai un poids dans quelques mois quand il aura stabilisé son poids.
+Je vous referai un point dans quelques mois quand il aura stabilisé son poids.
