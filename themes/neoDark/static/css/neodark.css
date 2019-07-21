@@ -323,7 +323,6 @@ summary:hover, summary:focus{
  color:hsl(300,58%,58%);
 }
 .webring .article{
- background-color:rgba(30,30,30,0.8);
  color:#bbb;
  padding: 0.5rem;
  border-bottom:1px solid #555;
