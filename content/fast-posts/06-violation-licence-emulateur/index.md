@@ -1,7 +1,7 @@
 +++
 Author = "Lord"
 Description = "Coup de gueule devant la performance des journalistes du CES 2018"
-Categories = ["actu", "news", "opensource"]
+Categories = ["actu", "news", "opensource","émulation"]
 menu = "fast"
 noread = true
 notoc = true
