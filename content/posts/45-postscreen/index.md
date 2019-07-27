@@ -73,7 +73,7 @@ Gogo.
 <details open>
 <summary>Alors on va commencer par le *master.cf*</summary>
 ```
-smtp	   inet n -	n	n	1	postscreen
+smtp     inet n - n n 1 postscreen
 smtpd    pass - - n - - smtpd
 dnsblog  unix - - n - 0 dnsblog
 tlsproxy unix - - n - 0 tlsproxy
