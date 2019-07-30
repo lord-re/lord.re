@@ -5,13 +5,13 @@ You can reuse it, and if you do i'll be glad looking at your website :-)
 
 *{
  box-sizing:border-box;
- transition:all 0.2s ease;
+ transition: box-shadow 0.2s ease, outline-offset 0.2s ease, transform 0.2s ease, background 0.4s ease;
  margin:0;
 }
 html{
  line-height:1.35em;
  background:#272b30;
- background: repeating-linear-gradient(-21deg, #1d2024, #1d2024 15px, #202529 15px, #151519 30px);
+ color:#bbb;
 }
 body{
  display:flex;
@@ -25,7 +25,6 @@ nav{
  border-bottom:2px solid #414;
 }
 main{
- color:#bbb;
  margin:auto;
 }
 aside{
@@ -254,19 +253,27 @@ blockquote{
  padding-bottom:1rem;
  padding-right:1rem;
 }
+details *{
+ max-width:100%;
+ color:red;
+}
 details{
+ max-width:100%;
+ overflow:auto;
  margin-top:0.5rem;
  margin-bottom:0.5rem;
  border: 1px solid black;
- border-radius:0.5rem;
  box-shadow:0 0.2rem 1rem rgba(0,0,0,0.3);
- padding:1rem;
- margin:0.5rem;
 }
 details[open]{
+ overflow:auto;
+ max-width:100%;
  border:1px solid #ea872d;
+ padding:1px;
 }
 summary{
+ max-width:100%;
+ overflow:auto;
  cursor:pointer;
  background:#333;
  background: repeating-linear-gradient(-45deg, #333,#333 10px,#353535 10px, #353535 20px);
