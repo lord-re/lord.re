@@ -4,7 +4,7 @@
 {{ partial "sidebar.html" . }}
   <main>
 {{ range .Data.Pages }}
-    <section  class="{{.Section}}">
+    <section  class="{{.Type}}">
       <header class="post-header">
         <h1 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
       </header>
