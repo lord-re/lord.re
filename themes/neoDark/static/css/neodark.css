@@ -14,10 +14,14 @@ html{
  color:#bbb;
 }
 body{
- display:flex;
- flex-direction:column;
+ display:grid;
+ grid-template-areas: "a a a"
+ 											"b b b"
+											"c c c";
+ grid-template-columns: 1fr 4fr 1fr;
 }
 nav{
+ grid-area:a;
  padding:1rem;
  text-align:center;
  box-shadow:0 0 2em rgba(0,0,0,0.4);
@@ -25,18 +29,22 @@ nav{
  border-bottom:2px solid #414;
 }
 main{
+ grid-area:b;
  margin:auto;
+ max-width:80ch;
 }
 aside{
+ grid-area:c;
  display:none;
 }
 
 @media (min-width:120ch){
  body{
-  flex-direction:row;
+  grid-template-areas:  "a b c"
+												"a b c"
+												"a b c";
  }
  nav {
-  width:20em;
   border-bottom:none;
  }
  aside{
@@ -98,7 +106,7 @@ h3{
  box-shadow:0 0.3rem 1rem rgba(0,0,0,0.4);
  border-radius:0.6rem 0.6rem 1rem 1rem;
  text-align:justify;
- max-width:50em;
+ max-width:50cw;
  overflow:hidden;
 }
 .posts{
@@ -223,7 +231,7 @@ header{
  margin:2rem;
 }
 main,article {
- padding:0 2rem 0 2rem;
+ padding:0 0.8rem 0 0.8rem;
 }
 footer{
  color:#ccc;
@@ -253,27 +261,19 @@ blockquote{
  padding-bottom:1rem;
  padding-right:1rem;
 }
-details *{
- max-width:100%;
- color:red;
-}
 details{
  max-width:100%;
- overflow:auto;
  margin-top:0.5rem;
  margin-bottom:0.5rem;
  border: 1px solid black;
  box-shadow:0 0.2rem 1rem rgba(0,0,0,0.3);
 }
 details[open]{
- overflow:auto;
  max-width:100%;
  border:1px solid #ea872d;
  padding:1px;
 }
 summary{
- max-width:100%;
- overflow:auto;
  cursor:pointer;
  background:#333;
  background: repeating-linear-gradient(-45deg, #333,#333 10px,#353535 10px, #353535 20px);
@@ -301,7 +301,9 @@ summary:hover, summary:focus{
  font-size:0.8em;
  color:#bbb;
  padding:1ch;
- width:60ch;
+}
+.webring h1{
+ text-align:center;
 }
 .webring .articles{
  display: flex;
