@@ -1,6 +1,6 @@
 /*
 Creative Commons 4.0 BY-SA
-You can reuse it, and if you do i'll be glad looking at your website :-)
+You can reuse it, and if you do i'll gladly take a look at your website, don't hesitate to ping me ! :-)
 */
 
 *{
@@ -102,34 +102,27 @@ h3{
  padding-top:1.1rem;
 }
 .posts, .fast-posts, .shares, .ideas{
- margin:1rem;
- box-shadow:0 0.3rem 1rem rgba(0,0,0,0.4);
  border-radius:0.6rem 0.6rem 1rem 1rem;
- text-align:justify;
- max-width:50cw;
  overflow:hidden;
+ text-align:justify;
+ margin-top:1rem;
 }
 .posts{
- background:#2d2f34;
  border:2px solid hsl(258,33%,30%);
  border-top:4px solid hsl(258,58%,58%);
  box-shadow:0 0 5rem 0.5rem hsl(258,58%,58%,0.3);
 }
 .fast-posts{
- color:#999;
- background:#292f34;
  border:2px solid hsl(210,33%,30%);
  border-top:4px solid hsl(210,58%,58%);
  box-shadow:0 0 5rem 0.5rem rgb(86,148,210,0.3);
 }
 .shares{
- background:#292e30;
  border:2px solid hsl(54,33%,30%);
  border-top:4px solid hsl(54,58%,58%);
  box-shadow:0 0 5rem 0.5rem rgb(210,197,85,0.3);
 }
 .ideas{
- background:#293034;
  border:2px solid hsl(186,33%,30%);
  border-top:4px solid hsl(186,58%,58%);
  box-shadow:0 0 5rem 0.5rem rgb(85,197,210,0.3);
@@ -230,7 +223,7 @@ td{
 header{
  margin:2rem;
 }
-main,article {
+article {
  padding:0 0.8rem 0 0.8rem;
 }
 footer{
