@@ -175,6 +175,7 @@ pre, :not(pre) > code{
  padding: 0.5rem;
  line-height:0.9rem;
  overflow:auto;
+ white-space:pre-wrap;
 }
 figure h4{
  font-size:0.7rem;
