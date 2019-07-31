@@ -90,9 +90,7 @@ Et voilà ça fait un script bash un petit peu tordu de 400 lignes mais au final
 
 ## Voilà le monstre
 
-```
-
-
+{{< highlight bash  >}}
 #! /bin/bash
 
 ircnetwork=""
@@ -518,7 +516,7 @@ main(){
 }
 
 main $*
-```
+{{< / highlight >}}
 *Partout où vous voyez XXXX j'ai planqué des infos sensibles.*
 
 

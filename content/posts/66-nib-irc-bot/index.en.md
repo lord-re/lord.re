@@ -7,7 +7,7 @@ menu = "main"
 notoc = true
 PublishDate = 2017-12-08T16:21:40+01:00
 date = 2017-12-08T16:21:40+01:00
-title = "NIB : Mon assistant personnel IRC"
+title = "NIB : My personal IRC assistant"
 jdh = "https://www.journalduhacker.net/s/r9mhms/nib_mon_assistant_personnel_irc"
 +++
 ***NIB*** is my personnal assistant.
@@ -100,9 +100,7 @@ Et voilà ça fait un script bash un petit peu tordu de 400 lignes mais au final
 
 ## Voilà le monstre
 
-```
-
-
+{{< highlight bash >}}
 #! /bin/bash
 
 ircnetwork=""
@@ -528,7 +526,7 @@ main(){
 }
 
 main $*
-```
+{{< / highlight >}}
 *Partout où vous voyez XXXX j'ai planqué des infos sensibles.*
 
 
