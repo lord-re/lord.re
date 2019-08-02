@@ -116,3 +116,6 @@ D'ailleurs j'imagine que pour metter à jour le kernel (ça sera rare tant qu'il
 Voilà voilà pour le début des aventures de cette ptite SBC.
 
 
+---------
+**PS :** On me signale dans l'oreillette qu'ArchLinux ARM et ArchLinux sont en fait [deux projets proches mais distincts](https://wiki.archlinux.org/index.php/ARM).
+Merci Breizh pour la remarque ;-)
