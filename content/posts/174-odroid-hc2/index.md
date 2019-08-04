@@ -213,6 +213,4 @@ Un vrai Die&Retry.
 
 Va falloir backup la microSD pour ne pas avoir à refaire tout ça la prochaine fois.
 Je pense que je passerai la carte en *read-only* par la suite histoire d'éviter qu'elle ne s'use trop vite.
-
 :wq
-
