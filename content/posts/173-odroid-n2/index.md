@@ -111,7 +111,7 @@ Les modules sont planqués dans *usr/lib/modules/$version_du_kernel*.
 On copie ça dans */lib/modules* de la n2 et c'est bon.
 On peut modprobe l'un des modules (par hasard ipv6) et ça fonctionne \o/
 
-D'ailleurs j'imagine que pour metter à jour le kernel (ça sera rare tant qu'il n'y aura pas de kernel mainline (on croise les doigts, ça arrivera peut-être)), il suffira de récupérer le fichier *image* qui se trouve dans *boot*.
+D'ailleurs j'imagine que pour mettre à jour le kernel (ça sera rare tant qu'il n'y aura pas de kernel mainline (on croise les doigts, ça arrivera peut-être)), il suffira de récupérer le fichier *image* qui se trouve dans *boot*.
 
 Voilà voilà pour le début des aventures de cette ptite SBC.
 
