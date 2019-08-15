@@ -84,3 +84,7 @@ Pour l'instant il tourne depuis quelques mois sans bronché et plus le temps pas
 
 Voilà on a pas touché la conf de Postfix/Dovecot/Rspamd et pourtant ça fonctionne.
 
+## PS Aout 2019 :
+Je ne l'utilise plus.
+Il marchait bien mais au final j'ai drastiquement réduit mon usage des mails et bha du coup je reçois bien moins de mails donc aussi moins de spam.
+Couplé à un réglage plus aggressif de Postscreen, bref il servait plus à rien dans mon cas.
