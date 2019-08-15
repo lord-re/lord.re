@@ -235,7 +235,7 @@ finish_boot || rescue_shell
 Bon je ne vous cache pas qu'en ce moment je le bidouille pas mal et donc qu'il est assez mouvant.
 J'ajoute des trucs j'en retire.
 Il y a moyen d'enlever des trucs si vous voulez vraiment le strict minimum.
-Dans mon cas le but est **scanner les devices pour le btrfs** et **proposer le choix entre Gentoo et Alpine et un Resue**.
+Dans mon cas le but est **scanner les devices pour le btrfs** et **proposer le choix entre Gentoo et Alpine et un Rescue**.
 Et le rescue c'est en fait *busybox* plus quelques logiciels en plus pour pouvoir démerdouiller ce qui arrive.
 
 ### Assemblage
