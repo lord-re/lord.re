@@ -40,7 +40,7 @@ Du coup je me suis créé une liste *Bots*, une liste *Fr* et une liste *En*.
 Et par contre là, bha… faut se les faire manuellement.
 Va falloir prendre chacun de vos abonnements et les classer dans telle ou telle liste.
 
-{{< img src="masto-full.png" link="masto-full.png" alt="capture d'écran de mastodon avec les 3 colonnes de listes" title="Pas mal le résultat, non ?" >}}
+{{< img src="masto-full.thumb.png" link="masto-full.png" alt="capture d'écran de mastodon avec les 3 colonnes de listes" title="Pas mal le résultat, non ?" >}}
 ## Tuto ?
 Allez voyons ça vite fait.
 
@@ -48,7 +48,7 @@ Pour créer une liste il faut cliquer sur l'**Hamburger Menu** en haut à gauche
 
 Dans la colonne *Getting started* tout à droite, vous avez maintenant **Lists**
 
-{{< img src="mastodon-getting-started.png" link="mastodon-getting-started.png" alt="capture d'écran de la colonne en question" title="là" >}}
+{{< img src="mastodon-getting-started.thumb.png" link="mastodon-getting-started.png" alt="capture d'écran de la colonne en question" title="là" >}}
 
 Vous entrez un **titre** pour la colonne et vous cliquez le chtit **+** puis vous cliquez sur la liste qui vient d'apparaitre juste en dessous.
 

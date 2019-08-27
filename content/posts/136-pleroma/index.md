@@ -49,8 +49,8 @@ En interne, Pleroma fonctionne nativement en ActivityPub et suit plus les spéci
 Du coup *si vous suivez un blog Plume parlant ActivityPub, vous voyez les articles complets avec leur formattage.*
 *Pleroma arrive à se fédérer à plus de services différents que Mastodon.*
 
-{{< img src="plume-from-masto.png" link="plume-from-masto.png" alt="Un article du blog Funkwhale vu depuis Mastodon." title="Vu depuis Mastodon c'est pas la joie." >}}
-{{< img src="plume-from-pleroma.png" link="plume-from-pleroma.png" alt="Un article du blog Funkwhale vu depuis Pleroma avec le formattage et l'article complet." title="Vu depuis Pleroma c'est bien plus joli." >}}
+{{< img src="plume-from-masto.thumb.png" link="plume-from-masto.png" alt="Un article du blog Funkwhale vu depuis Mastodon." title="Vu depuis Mastodon c'est pas la joie." >}}
+{{< img src="plume-from-pleroma.thumb.png" link="plume-from-pleroma.png" alt="Un article du blog Funkwhale vu depuis Pleroma avec le formattage et l'article complet." title="Vu depuis Pleroma c'est bien plus joli." >}}
 
 Le souci c'est que Mastodon étant devenu le mastodonte du Fedivers (facile celle-là), il faut se plier à ses façons de faire et être compatible avec lui.
 Mais la communauté étant plutôt bienveillante tout s'arrange assez vite et tout progresse dans la bonne direction.

@@ -37,7 +37,7 @@ Bref voilà comment il faut faire.
   - L'*Algorithm* est … l'algorithme de la clé. Knot par défaut vous sort l'algorithme *13* qui est *ECDSAP256SHA256*.
   - Et enfin la *Public key* est la partie chiante à récupérer avec **<samp>knotc zone-read votre.domaine @ DNSKEY</samp>** qui vous listera les différentes clés dont une de type *257* qui est votre KSK, il faut donc foutre le champ assez long qui se fini par *==*
 
-{{< img src="ovh.png" alt="capture d'écran montrant le résultat sur l'interface d'OVH" title="Et voilà le résultat chez OVH" link="ovh.png" >}}
+{{< img src="ovh.thumb.png" alt="capture d'écran montrant le résultat sur l'interface d'OVH" title="Et voilà le résultat chez OVH" link="ovh.png" >}}
 
 Une fois confirmé, ça créer une tâche planifiée que vous pouvez accélérer histoire de gagner 24h.
 
@@ -57,7 +57,7 @@ Les modifs sont quasi instantannées.
   - Pour le *Digest Type* c'est comme l'étape précédente, reportez-vous au [tableau IANA](https://www.iana.org/assignments/ds-rr-types/ds-rr-types.xhtml) pour faire correspondre la valeur du cinquième champs avec le type demandé.
   - Et enfin *Digest* vous mettez le sixième champ.
 
-{{< img src="online.png" alt="capture d'écran de l'interface d'administration d'Online" title="C'est un chouilla plus simple et plus beau que chez OVH, non ?" link="online.png" >}}
+{{< img src="online.thumb.png" alt="capture d'écran de l'interface d'administration d'Online" title="C'est un chouilla plus simple et plus beau que chez OVH, non ?" link="online.png" >}}
 
 -----------------
 Knot gérant toute la génération de clé tout seul, les registrars étant de plus en plus au fait de DNSSEC, il n'y a plus d'excuse de ne pas le mettre en service en 2018.

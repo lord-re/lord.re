@@ -15,11 +15,11 @@ L'une d'elle est le *nombre de processus qui tournent sur mes machines*.
 Franchement c'est con et je l'écris avec une touche d'humour mais ça me travaille réellement.
 Du coup quand je lance htop j'ai ça je suis content :
 
-{{< img src="htop.png" alt="capture d'écran de htop montrant seulement 29 processus" link="htop.png" title="Seuls 30 processus qui tournent et 5 en root" >}}
+{{< img src="htop.thumb.png" alt="capture d'écran de htop montrant seulement 29 processus" link="htop.png" title="Seuls 30 processus qui tournent et 5 en root" >}}
 
 Mais dès lors que je tombe sur un Debian/RedHat … je pleure et j'ai peur :
 
-{{< img src="ubuntu.png" alt="le Htop d'ubuntu est interminable avec 247 tâches tournant." link="ubuntu.png" title="Quand je vois ça j'étouffe. Merci Simon ;-)" >}}
+{{< img src="ubuntu.thumb.png" alt="le Htop d'ubuntu est interminable avec 247 tâches tournant." link="ubuntu.png" title="Quand je vois ça j'étouffe. Merci Simon ;-)" >}}
 
 *Un programme contient forcément des bugs.*
 Plus un programme est gros plus il en contient.

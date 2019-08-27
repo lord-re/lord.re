@@ -39,7 +39,7 @@ Décroissons !
 À peine sortie de l'emballage, cette démo est sortie pour la *Revision 2018* et a gagné la première place de sa catégorie (pc 8K).
 
 Une balade à ski bien rythmée avec un ptit tunnel psychédélique et enfin un bonhomme de neige.
-{{< img link="https://www.youtube.com/watch?v=8T_Um-cw0Wc" src="*one-of-those-days*" alt="capture d'écran de one of those days par Loonies" title="C'est de saison" >}}
+{{< img link="https://www.youtube.com/watch?v=8T_Um-cw0Wc" src="*one-of-those-days.thumb.*" alt="capture d'écran de one of those days par Loonies" title="C'est de saison" >}}
 
 
 ## Monarchahedron by Fulcris
@@ -48,7 +48,7 @@ Celle-ci aussi n'est pas bien vieille.
 De la géométrie avec des effets d'ombres diffuses, de réflexions et vraiment bien foutue techniquement.
 
 Elle fait son ptit effet du haut de ses 6Ko.
-{{< img link="https://www.youtube.com/watch?v=YzprGc3MvjY" src="*monarchahedron*" alt="Un sol orangé un ciel bleu et des octahèdres réflêchissants. très abstrait" title="Combien de face sur un Monarchahedron ?" >}}
+{{< img link="https://www.youtube.com/watch?v=YzprGc3MvjY" src="*monarchahedron.thumb.*" alt="Un sol orangé un ciel bleu et des octahèdres réflêchissants. très abstrait" title="Combien de face sur un Monarchahedron ?" >}}
 
 ## Hartverdrahtet by Akronyme Analogiker
 
@@ -57,7 +57,7 @@ Elle mérite largement sa place avec sa musique électro, ses couleurs et ses pt
 
 Mais surtout ses fractaux en 3D sont vraiment superbes.
 
-{{< img link="https://www.youtube.com/watch?v=0w_xEUoK79o" src="*hartverdrahtet*" alt="On est à l'intérieur d'un fractal 3D extremement complexe. C'est légèrement brumeux, très atmosphérique." title="C'est sûr que pour créer des modèles 3D très poussé le mieux c'est de pondre un fractal." >}}
+{{< img link="https://www.youtube.com/watch?v=0w_xEUoK79o" src="*hartverdrahtet.thumb.*" alt="On est à l'intérieur d'un fractal 3D extremement complexe. C'est légèrement brumeux, très atmosphérique." title="C'est sûr que pour créer des modèles 3D très poussé le mieux c'est de pondre un fractal." >}}
 
 ## Gravity Haze by Traction and Fit
 
@@ -68,4 +68,4 @@ Présentée en compet lors de l'*Assembly 2015*, celle-ci est vraiment mignonne 
 
 Un tour de force magistral.
 
-{{< img link="https://www.youtube.com/watch?v=Sdw0zAZuuR0" src="*gravity-haze*" alt="complètement abstrait des formes colorés." title="Ça ferait un joli screensaver :-þ" >}}
+{{< img link="https://www.youtube.com/watch?v=Sdw0zAZuuR0" src="*gravity-haze.thumb.*" alt="complètement abstrait des formes colorés." title="Ça ferait un joli screensaver :-þ" >}}

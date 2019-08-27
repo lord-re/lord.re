@@ -129,7 +129,7 @@ La documentation pour développeur des devkits est presque prête et nous penson
 Ces trois/quatre derniers mois ont connus une grande activité ici chez Purism avec beaucoup de débroussaillage, de négociation, de répartitions des tâches − une valse avec les différents partenaires pour travailler de concert dans un effort commun de concevoir le bon produit.
 Mais comme vous, nous sommes impatients du résultat : un téléphone fonctionnant au Libre que nous espérons voir disrupter le marché d'aujourd'hui avec des concepts innovants tout en ayant toutes les fonctionnalités d'un téléphone d'aujourd'hui.
 
-{{< img src="devkits-parts-table.jpg" link="devkits-parts-table.jpg" alt="photographie d'une table jonché de sachets de composants électroniques" title="Des éléments du devkits dans nos bureaux allemands. Le design des PCB que nous construisons comprennent plus de 700 composants" >}}
+{{< img src="devkits-parts-table.thumb.jpg" link="devkits-parts-table.jpg" alt="photographie d'une table jonché de sachets de composants électroniques" title="Des éléments du devkits dans nos bureaux allemands. Le design des PCB que nous construisons comprennent plus de 700 composants" >}}
 
 ## État de la feuille de route du Librem 5
 Abordons le planning de sortie du Librem 5.
@@ -156,8 +156,8 @@ Ils seront donc livrés avec les puces contenant ces bugs, mais cela n'affectera
 
 Pour vous ouvrir l'appétit, admirez quelques schémas des devkits (ne les utilisez pas comme référence !) ainsi que quelques rendus 3D pour le plaisir des yeux.
 
-{{< img src="dev-kit-blueprint.jpg" link="dev-kit-blueprint.jpg" alt="un schéma de devkit assez joli où l'on voit quelques composants majeurs" title="Un des premiers schémas du devkit" >}}
-{{< img src="devkit-front-back-combined.png" link="devkit-front-back-combined.png" alt="un rendu 3D du devkit avant et arrière plutôt réaliste" title="Rendu 3D du devkit Librem 5 avant et arrière" >}}
+{{< img src="dev-kit-blueprint.thumb.jpg" link="dev-kit-blueprint.jpg" alt="un schéma de devkit assez joli où l'on voit quelques composants majeurs" title="Un des premiers schémas du devkit" >}}
+{{< img src="devkit-front-back-combined.thumb.png" link="devkit-front-back-combined.png" alt="un rendu 3D du devkit avant et arrière plutôt réaliste" title="Rendu 3D du devkit Librem 5 avant et arrière" >}}
 
 Au-delà des devkits, un détail qui devrait tous vous plaire est l'utilisation d'une batterie remplaçable par l'utilisateur : contrairement à la majorité des smartphones sur le marché aujourd'hui, les nôtres n'auront pas leur batterie soudée sur la carte mère et la coque ne sera pas collée.
 

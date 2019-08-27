@@ -30,8 +30,8 @@ C'est enivrant de partir d'un morceau initial, de travailler dessus et soudain�
 Dans nos précédents articles nous avons décrit ce que nous avions commencé à faire et ces premiers efforts portent déjà leurs fruits lors de notre *hackfest* d'une semaine à Siegen en Allemagne où notre équipe logicielle s'est rendue.
 En plus de moi même (Nicole Faerber - Mobile Development Lead), nous ont rejoins Bob, Heather, Pedro, Dorota, Adrien, Guido et Todd.
 
-{{< img src="*0-photo1.jpg"  alt="Photographie de l'équipe travaillant sur leurs ordinateurs" link="80-photo1.jpg" >}}
-{{< img src="*0-photo2.jpg"  alt="Photographie de l'équipe discutant" link="80-photo2.jpg" >}}
+{{< img src="*0-photo1.thumb.jpg"  alt="Photographie de l'équipe travaillant sur leurs ordinateurs" link="80-photo1.jpg" >}}
+{{< img src="*0-photo2.thumb.jpg"  alt="Photographie de l'équipe discutant" link="80-photo2.jpg" >}}
 
 ## Compositor et Shell
 
@@ -114,7 +114,7 @@ Avant ça nous lanceront un site web complet dédié à PureOS et au Librem 5.
 Alors que notre équipe hardware n'a pas pu nous rejoindre à Siegen, nous avons reçus nos premiers kits d'évaluation à base d'i.MX 8M la semaine dernière et avons pu commencé à tester avec les logiciels et pilotes.
 Nous avons également une prometteuse source pour la fabrication, nous aurons une visite d'usine d'ici à la fin Mars.
 
-{{< img src="*0-photo3.jpg"  alt="Photographie d'une dev board reliée à un oscilloscope." link="80-photo3.jpg" >}}
+{{< img src="*0-photo3.thumb.jpg"  alt="Photographie d'une dev board reliée à un oscilloscope." link="80-photo3.jpg" >}}
 
 
 ## Les pièces s'assemblent les unes aux autres

@@ -27,7 +27,7 @@ L'ANSI est un autre jeu de 128 caractères (qui en vrai est le codepage 437 mais
 Le but du jeu est donc de créer des images/animations juste avec ce jeu de caractères.
 Il faut donc ruser pour parvenir à “dessiner” avec cela mais vous verrez que le résultat est plus que surprenant.
 
-{{< img src="*5-ascii-mania-by-waveriders.jpg" title="ASCII Mania par la team Wavedriders sortie en 1995 sur Amiga AGA" alt="Capture d'écran de la demo" link="https://www.youtube.com/watch?v=Z4BdpWdArYc"  >}}
+{{< img src="*5-ascii-mania-by-waveriders.thumb.jpg" title="ASCII Mania par la team Wavedriders sortie en 1995 sur Amiga AGA" alt="Capture d'écran de la demo" link="https://www.youtube.com/watch?v=Z4BdpWdArYc"  >}}
 
 ## Greetings
 
@@ -37,7 +37,7 @@ Il s'agit d'un élément récurrent dans pas mal de démos.
 Il faut prendre en compte que dans demoscene il y a le mot *scene*.
 C'est toute une communauté qui participe à des compétitions par équipe.
 
-{{< img src="*5-litterae-finis-by-trauma.jpg" title="Litterae Finis par la team Trauma vainqueur en 2012 de la TMDC15" alt="" link="https://www.youtube.com/watch?v=Kjknm6wKsrU" >}} 
+{{< img src="*5-litterae-finis-by-trauma.thumb.jpg" title="Litterae Finis par la team Trauma vainqueur en 2012 de la TMDC15" alt="" link="https://www.youtube.com/watch?v=Kjknm6wKsrU" >}} 
 
 *La demoparty se déroule en deux temps.*
 
@@ -59,7 +59,7 @@ C'est tout de même plus ragoutant que ce qu'on voit dans le foot… (ce tacle e
 
 Les équipes établissent des liens d'amitiés et de respect mutuel.
 
-{{< img src="*5-clockwerck-by-northern-dragons-and-xplsv.jpg" title="Clockwerck par les teams Northern Dragons et Xplsv, sortie en 2007. Une de mes préférées." alt="" link="https://www.youtube.com/watch?v=-_gUI6Y_zhs" >}}
+{{< img src="*5-clockwerck-by-northern-dragons-and-xplsv.thumb.jpg" title="Clockwerck par les teams Northern Dragons et Xplsv, sortie en 2007. Une de mes préférées." alt="" link="https://www.youtube.com/watch?v=-_gUI6Y_zhs" >}}
 
 
 Et du coup ?
@@ -78,7 +78,7 @@ Bref il y a eu pas mal de modes mais la tradition s'est instaurée et est encore
 Quand une équipe de warez sortait un Crack/Keygen il était courant de voir passer quelques fuckings d'équipes concurrentes.
 Cependant cette tradition n'a pas persisté dans l'actuelle demoscene.
 
-{{< img src="*5-bb-final-by-aa-group.jpg" title="BB-final par AA-group est sortie en 1997 avec des effets inédits à l'époque. Celle-ci tourne également sous Linux !" alt="" link="https://www.youtube.com/watch?v=FLlDt_4EGX4" >}}
+{{< img src="*5-bb-final-by-aa-group.thumb.jpg" title="BB-final par AA-group est sortie en 1997 avec des effets inédits à l'époque. Celle-ci tourne également sous Linux !" alt="" link="https://www.youtube.com/watch?v=FLlDt_4EGX4" >}}
 
 Voilà, maintenant vous savez pourquoi on voit pleins de noms de teams dans les démos.
 

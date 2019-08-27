@@ -21,7 +21,7 @@ Par contre je viens de modifier un peu la disposition du clavier et du coup c'es
 Bon donc ce clavier me sert constamment depuis tout ce temps.
 Il fonctionne superbement bien malgré son look… particulier.
 
-{{< img src="*107-clavier-juin-2018.jpg" alt="Photo du clavier au 05/06/2018" link="107-clavier-juin-2018.jpg" title="Le fameux clavier lors de la rédaction de l'article (admirez le repose poignet à base de SSD et de batterie)." >}}
+{{< img src="*107-clavier-juin-2018.thumb.jpg" alt="Photo du clavier au 05/06/2018" link="107-clavier-juin-2018.jpg" title="Le fameux clavier lors de la rédaction de l'article (admirez le repose poignet à base de SSD et de batterie)." >}}
 
 J'ai déjà refait une soudure ou deux qui s'étaient pétées mais bon rien de bien méchant.
 Ça se refait en moins de cinq minutes montre en main.

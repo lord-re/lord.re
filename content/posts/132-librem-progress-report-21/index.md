@@ -57,11 +57,11 @@ Des efforts ont également été fait concernant les traductions : l'allemand et
 
 Un [premier app switcher a été ajouté](https://source.puri.sm/Librem5/phosh/merge_requests/109) ainsi [qu'un premier app switcher tactile](https://source.puri.sm/Librem5/wlroots/merge_requests/16).
 
-{{< img src="app-switcher.png" alt="Capture d'écran de l'app switcher" link="app-switcher.png" >}}
+{{< img src="app-switcher.thumb.png" alt="Capture d'écran de l'app switcher" link="app-switcher.png" >}}
 
 Le [panneau de tête a été nettoyé](https://source.puri.sm/Librem5/phosh/merge_requests/129) ce qui le rend plus joli et le rapprochant un peu plus des maquettes.
 
-{{< img src="top-panel.png" link="top-panel.png" alt="Capture d'écran montrant le fameux panneau ainsi que des terminaux." >}}
+{{< img src="top-panel.thumb.png" link="top-panel.png" alt="Capture d'écran montrant le fameux panneau ainsi que des terminaux." >}}
 
 Si cela ne suffisait pas, la [première version (0.0.1) de phosh a été libellé](https://source.puri.sm/Librem5/phosh/tags/v0.0.1) !
 
@@ -76,7 +76,7 @@ Un [premier plugin WWAN](https://gitlab.gnome.org/GNOME/gnome-settings-daemon/me
 
 Ce gnome-settings-daemon a [été ajouté aux images](https://source.puri.sm/Librem5/deb-build-jobs/merge_requests/25) en attendant qu'il soit intégré upstream afin de déjà pouvoir gérer le déverrouillage de la SIM.
 
-{{< img src="unlock.png" link="unlock.png" alt="capture d'écran du vérrouillage de l'OS demandant un code PIN" >}}
+{{< img src="unlock.thumb.png" link="unlock.png" alt="capture d'écran du vérrouillage de l'OS demandant un code PIN" >}}
 
 ### Wlroots/Keyboard
 De nombreuses améliorations ont eu lieu au niveau de [virtboard](https://source.puri.sm/Librem5/virtboard).

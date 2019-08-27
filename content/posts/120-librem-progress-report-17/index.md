@@ -91,7 +91,7 @@ L'implémentation initiale du backend ModemManager pour Calls est complète et l
 L'interface de Calls s'est grandement amélioré pour ressembler aux maquettes de l'équipe design.
 En dessous vous pouvez voir l'implémentation (gauche) et sa maquette (droite).
 
-{{< img src="*120-calls-call-display.png" link="120-calls-call-display.png" alt="La maquette et l'application se ressemble comme deux gouttes d'eau" >}}
+{{< img src="*120-calls-call-display.thumb.png" link="120-calls-call-display.png" alt="La maquette et l'application se ressemble comme deux gouttes d'eau" >}}
 
 ### Libhandy
 Quelques bugs ont aussi été corrigés dans [libhandy](https://source.puri.sm/Librem5/libhandy/) ainsi que du travail pour préparer l'arrivée prochaine de GTK+4.

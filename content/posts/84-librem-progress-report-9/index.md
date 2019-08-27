@@ -41,7 +41,7 @@ $ kwin_wayland --drm plasma-phone
 Lorsqu'on a lancé l'interface pour la première fois, le rendu n'était pas … correct.
 En plus de cela, la pop-up de KDE wallet apparait (voir l'image).
  
-{{< img src="*4-glitch.jpg" link="84-glitch.jpg" title="Léger bug d'affichage" alt="Photo de l'écran qui bug de partout." >}}
+{{< img src="*4-glitch.thumb.jpg" link="84-glitch.jpg" title="Léger bug d'affichage" alt="Photo de l'écran qui bug de partout." >}}
 
 Séance de débuggage en perspective en dégainant gdb.
 On s'est vite rendu compte qu'en commentant la ligne *QT_QPA_PLATFORM=wayland* dans le script plasma-phone, que le soucis disparaissait.
@@ -56,8 +56,8 @@ Il existait déjà un rapport de bug upstream à ce sujet, avec des patchs pour 
 Nous avons incorporé les patchs upstreams sur notre version de kwin et kwayland et voilà !
 Nous sommes désormais capable d'exporter la variable QT_QPA_PLATFORM et d'avoir un joli Plasma tout propre.
 
-{{< img src="*4-display-full.jpg" link="84-display-full.jpg" alt="Capture d'écran de Plasma Mobile sans son bug" title="Plasma Mobile sans son bug" >}}
-{{< img src="*4-screenlock.jpg" link="84-screenlock.jpg" alt="Capture d'écran de l'écran de verrouillage de Plasma Mobile" title="L'écran de verouillage de Plasma Mobile" >}}
+{{< img src="*4-display-full.thumb.jpg" link="84-display-full.jpg" alt="Capture d'écran de Plasma Mobile sans son bug" title="Plasma Mobile sans son bug" >}}
+{{< img src="*4-screenlock.thumb.jpg" link="84-screenlock.jpg" alt="Capture d'écran de l'écran de verrouillage de Plasma Mobile" title="L'écran de verouillage de Plasma Mobile" >}}
 
 ## Challenge à surmonter n°2 : La souris invisible
 Il était évident que le clavier fonctionnait, puisque nous avons pu taper notre mot de passe pour se connecter depuis l'écran de verrouillage.
@@ -78,7 +78,7 @@ D'abord, la carte SIM doit être reconnue et les informations de l'opérateur mo
 Ceci nécessite des paquets supplémentaires dont certains ont dû se compiler hors dépôt.
 Pour que le Sierra Wireless MC7455 reconnaisse la carte SIM, il a fallu envoyer un code PIN, connecter le modem, raccorder les antennes.
 Puis, quand Plasma Mobile a démarré, on a pu voir le nom de l'opérateur et la force du signal dans le coin en haut à gauche !
-{{< img src="*4-operateur.jpg" link="84-operateur.jpg" alt="Photo de l'écran montrant l'opérateur et la puissance du signal affiché dans le coin" title="La fierté d'afficher le nom de l'opérateur et la puissance du signal dans le coin !" >}}
+{{< img src="*4-operateur.thumb.jpg" link="84-operateur.jpg" alt="Photo de l'écran montrant l'opérateur et la puissance du signal affiché dans le coin" title="La fierté d'afficher le nom de l'opérateur et la puissance du signal dans le coin !" >}}
 
 À cause du modem installé actuellement sur notre board i.MX 6, nous n'avons pas pu passer d'appels.
 Mais pas de panique, le Librem 5 aura un modem capable de téléphoner ;-)

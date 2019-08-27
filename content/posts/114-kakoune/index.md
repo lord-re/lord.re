@@ -17,7 +17,7 @@ Une mise à jour était nécessaire mais du coup je suis allé voir un peu aille
 J'ai été tenté par [Xi](https://github.com/google/xi-editor) mais je me suis rappelé d'un autre qui me faisait de l'œil depuis quelques années : [Kakoune](http://kakoune.org/).
 
 ## C'est pas du Vi mais c'en est pas loin non plus
-{{< img link="114-welcome-to-kakoune.png" title="Welcome to Kakoune" src="*14-welcome-to-kakoune.png" alt="Capture d'écran de l'accueil de Kakoune avec Clippy indiquant le changelog important" >}}
+{{< img link="114-welcome-to-kakoune.thumb.png" title="Welcome to Kakoune" src="*14-welcome-to-kakoune.png" alt="Capture d'écran de l'accueil de Kakoune avec Clippy indiquant le changelog important" >}}
 Donc ce cher petit est modal (ouai j'essaye que ce genre d'éditeur mais j'aime beaucoup ce principe).
 Il se base également sur des actions (ou verbes) comme par exemple supprimer/remplacer… mais contrairement à Vi, la syntaxe est dans l'autre sens : *d'abord on sélectionne le texte sur lequel on veut effectuer une action puis on choisi l'action.*
 C'est le ptit détail qui a l'air assez insignifiant mais qui permet de mieux borner ses actions puisqu'*avant même d'effectuer une action je vois la sélection sur laquelle elle sera appliquée.*
@@ -39,7 +39,7 @@ Et mine de rien ça aide vachement et évite d'aller voir la doc pour des ptits 
 
 Un exemple ?
 Pour sauvegarder il faut taper <samp>**:w**</samp> puis <samp>Entrée</samp>, mais si vous n'appuyez pas tout de suite sur <samp>Entrée</samp>, vous verrez alors en bas de la fenêtre ceci :
-{{< img link="114-clippy.png" title="Clippy the Almighty" src="*114-clippy.png" alt="capture d'écran de l'interface de Kakoune montrant la status bar et Clippy" >}}
+{{< img link="114-clippy.thumb.png" title="Clippy the Almighty" src="*114-clippy.png" alt="capture d'écran de l'interface de Kakoune montrant la status bar et Clippy" >}}
 Tout en bas il y a la status bar que je détaillerai plus loin.
 Et juste au dessus sur fond jaune (le thême de couleur par défaut est pas des plus seyant) vous avez le Clippy qui vous indique à quoi correspond l'action en cours et les options possibles.
 
