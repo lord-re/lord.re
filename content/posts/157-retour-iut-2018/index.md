@@ -20,7 +20,7 @@ Par contre la très grande majorité est en fait un TP qui aborde pas mal de poi
 Je pense qu'assommer les pauvres étudiants n'est clairement pas la bonne façon de faire et qu'il faut les balancer à la flotte au plus tôt pour qu'ils apprennent à nager.
 Et du coup, je lâche très vite les élèves avec tout un tas de questions qui sont un peu orientées mais pas trop, d'abord assez limitées dans leur scope puis de plus en plus ouvertes.
 
-{{< img src="fly_you_bitch.png" alt="comic présentant 4 façons de prendre soin de ses petits. Gentoo préconise de balancer ses petits pour qu'ils apprennent à voler" title="Merci TheSquareComics pour la graine de ce meme que j'affectionne particulièrement" link="fly_you_bitch.png" >}}
+{{< img src="fly_you_bitch.jpg" alt="comic présentant 4 façons de prendre soin de ses petits. Gentoo préconise de balancer ses petits pour qu'ils apprennent à voler" title="Merci TheSquareComics pour la graine de ce meme que j'affectionne particulièrement" link="fly_you_bitch.jpg" >}}
 
 Et force est de constater, qu'ils n'ont pas l'habitude de rédiger autre chose que des réponses bêtes et méchantes.
 

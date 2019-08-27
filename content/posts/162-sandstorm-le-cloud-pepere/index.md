@@ -31,7 +31,7 @@ Et c'est là l'un des intérets majeur de la chose.
 Au lieu d'avoir tous vos pads sur le même service, chaque pad sera une instance indépendante des autres.
 Alors certe, quand vous en ouvrirez un, ça sera un peu plus long (on parle de dix secondes tout au plus).
 
-{{< img src="sandstorm.png" alt="Capture d'écran d'un etherpad dans l'interface de Sandstorm" link="sandstorm.png" title="Voilà sur quoi on tombe lorsqu'on l'utilise" >}}
+{{< img src="sandstorm.thumb.png" alt="Capture d'écran d'un etherpad dans l'interface de Sandstorm" link="sandstorm.png" title="Voilà sur quoi on tombe lorsqu'on l'utilise" >}}
 
 
 Si jamais votre pad se fait trouer, les autres pads ne le seront pas.
