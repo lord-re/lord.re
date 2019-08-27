@@ -70,7 +70,7 @@ Par chance ça tourne super bien dans wine et ça s'adapte aussi aux écrans HiD
 
 Bref voici le lien pour l'[installer](btrix100.exe).
 
-{{< img src="blocktrix.thumb.jpg" link="blocktrix.png" alt="Le terrain de jeu de blocktrix" title="C'est pas joli, mais c'est très fonctionnel !" >}}
+{{< img src="blocktrix.thumb.jpg" link="blocktrixjpg" alt="Le terrain de jeu de blocktrix" title="C'est pas joli, mais c'est très fonctionnel !" >}}
 
 Si seulement le code était ouvert pour créer un portage plus moderne :-/
 J'ai pas un excellent niveau mais je sais me défendre tout de même.
