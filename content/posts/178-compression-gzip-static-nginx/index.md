@@ -24,8 +24,8 @@ Dans les entêtes de la requête, il indique quels sont les formats d'encodage q
 Par exemple mon navigateur indique <samp>Accept-encoding: gzip, deflate, br</samp>.
 Ce qui signifie que les réponses peuvent être compressées selon les algorithmes **gzip**, **deflate** ou bien **brotli**.
 
-*Ces systèmes de compression sont très efficace pour les documents textuels* mais pour ce qui est images/vidéos/sons ça sert à peu près à rien (les données sont déjà compressées avec des algos largement plus efficaces).
-Un site ouaib est très souvent remplis de texte même si on va pas se le cacher, c'est tous les média qui sont des centaines de fois plus gros que du texte.
+*Ces systèmes de compression sont très efficaces pour les documents textuels* mais pour ce qui est images/vidéos/sons ça sert à peu près à rien (les données sont déjà compressées avec des algos largement plus efficaces).
+Un site ouaib est très souvent rempli de texte même si on va pas se le cacher, c'est tous les média qui sont des centaines de fois plus gros que du texte.
 Mais c'est pas pour autant que ça ne vaut pas le coup de compresser les textes.
 
 *En compressant le texte de mon site, j'ai presque divisé par deux la taille de la page d'accueil puisque je n'ai quasiment pas d'images.*
