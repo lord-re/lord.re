@@ -101,7 +101,7 @@ h3{
  font-size:1.3rem;
  padding-top:1.1rem;
 }
-.posts, .fast-posts, .shares, .ideas{
+.posts, .fast-posts, .shares, .ideas, .recap{
  border-radius:0.6rem 0.6rem 1rem 1rem;
  overflow:hidden;
  text-align:justify;
@@ -127,6 +127,11 @@ h3{
  border-top:4px solid hsl(186,58%,58%);
  box-shadow:0 0 5rem 0.5rem rgb(85,197,210,0.3);
 }
+.recap{
+ border:2px solid hsl(86,33%,30%);
+ border-top:4px solid hsl(86,58%,58%);
+ box-shadow:0 0 5rem 0.5rem hsla(86,33%,30%,0.3);
+}
 .posts h1 a{
  color:#cac;
 }
@@ -138,6 +143,9 @@ h3{
 }
 .ideas h1 a{
  color:#aff;
+}
+.recap h1 a{
+ color:hsl(86,58%,58%);
 }
 .post-category{
  color:#aeb8f9;
