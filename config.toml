@@ -10,10 +10,31 @@ paginate = 20
   fractions = false
   smartypants = false
 
+[related]
+	includeNewer = true
+	[[related.indices]]
+    name = "Actors"
+	  weight = 10
+	[[related.indices]]
+	  name = "Director"
+		weight = 20
+	[[related.indices]]
+	  name = "categories"
+		weight = 10
 
 [params]
   sidebartitle = "/home/lord"
   sectionsInHomepage = ["posts","fast-posts","shares","ideas","recap"]
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+	Director = "directors"
+	Actor = "actors"
+	years = "year"
+	Saga = "saga"
+	Avis = "avis"
+
 
 [Languages]
   [Languages.fr]

@@ -31,3 +31,6 @@ other = "English version"
 
 [skip_content]
 other = "Passer directement au contenu"
+
+[similaire]
+other = "Similaire : "
