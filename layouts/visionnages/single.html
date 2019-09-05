@@ -1,0 +1,40 @@
+{{ partial "header.html" . }}
+<body>
+	<a href="#content" title="{{ i18n "skip_content" }}" class="sr-only"></a>
+{{ partial "sidebar.html" . }}
+
+  <main id="content">
+    <section  class="recap">
+      <header class="post-header">
+        <h1 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+        <p class="post-meta"><em>
+          {{ if not .Params.nodate }}<span class="post-date">{{ .Date.Format "02/01/2006" }}</span> - {{ end }}
+          {{ if not .Params.noread }}<span class="post-reading-time">{{ i18n "readingTime" .ReadingTime}}</span>{{ end }}</em>
+          {{ if .Params.categories }}<span class="post-categories">{{ $Site := .Site }}{{ range .Params.categories }}<a class="post-category post-category-{{ . | urlize }}" href="{{ $Site.BaseURL}}categories/{{ . | urlize }}">{{ . }}</a> {{ end }}</span>{{ end }}
+          {{ if .Params.lastEdit }}<span class="post-edit-date">Dernière mise à jour le : {{ dateFormat "02/01/2006" .Params.lastEdit }}</span>{{ end }}
+        </p>
+      </header>
+      <article>
+        {{ .Content }}
+      </article>
+{{ if not .Params.nofooter}}      <footer class="post-meta">
+<table>
+	{{ if .Params.Avis }}{{ $Site := .Site }}<tr><td>Avis</td>{{range .Params.Avis}}<td><a href="{{$Site.BaseURL}}avis/{{. | urlize}}">{{ . }}</a></td>{{end}}</tr>{{end}}
+	{{ if .Params.Directors }}{{ $Site := .Site }}<tr><td>Réal</td>{{range .Params.Directors}}<td><a href="{{$Site.BaseURL}}directors/{{. | urlize}}">{{ . }}</a></td>{{end}}</tr>{{end}}
+	{{ if .Params.Actors }}{{$Site := .Site}}<tr><td>Acteur(s)</td>{{ range .Params.Actors }}<td><a href="{{$Site.BaseURL}}actors/{{ . |urlize }}">{{ . }}</a></td>{{end}}</tr>{{end}}
+	{{ if .Params.Saga }}{{$Site := .Site}}<tr><td>Saga</td>{{ range .Params.Saga }}<td><a href="{{$Site.BaseURL}}saga/{{ . |urlize }}">{{ . }}</a></td>{{end}}</tr>{{end}}
+	{{ if .Params.year }}{{$Site := .Site}}<tr><td>Année</td>{{ range .Params.year }}<td><a href="{{$Site.BaseURL}}year/{{ . |urlize }}">{{ . }}</a></td>{{end}}</tr>{{end}}
+	<tr><td>liens</td><td><a href="{{ .Params.Wikipedia}}">Wikipedia</a> — <a href="{{ .Params.Imdb}}">Imdb</a></td></tr>
+	{{ if .Params.VisionnageDate }}{{$Site := .Site}}<tr><td>Visionnage</td>{{ range .Params.VisionnageDate }}<td>{{ . }}</td>{{end}}</tr>{{end}}
+</table>
+{{ $related := .Site.RegularPages.Related . | first 5 }}
+{{ with $related }}
+Similaire : {{ range . }}<a href="{{.Permalink}}">{{.Title}}</a> — {{end}}
+{{ end }}
+      </footer>{{end}}
+
+    </section>
+  </main>
+{{ partial "openring" . }}
+</body>
+</html>

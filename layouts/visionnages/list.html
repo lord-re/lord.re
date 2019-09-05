@@ -1,0 +1,28 @@
+{{ partial "header.html" . }}
+<body>
+	<a href="#content" title="{{ i18n "skip_content" }}" class="sr-only"></a>
+{{ partial "sidebar.html" . }}
+  <main>
+  <section class="shares" style="padding:1rem;">
+  <h1>Mes visionnages</h1>
+  <p>Une petite liste des films que j'ai vu avec une mini-critique sur mon ressenti.</p>
+  <p>C'est également classé par <a href="">réalisateurs</a> et <a href="">acteurs</a>.</p>
+  <p>C'est pas exhaustif du tout mais j'y travaille petit à petit.</p>
+{{ range .Data.Pages }}
+    <section  class="recap">
+      <header class="post-header">
+        <h1 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+      </header>
+{{ if .Truncated  }}            <article class="post-summary">{{ .Summary }}
+      </article>
+      <footer>
+        <div class="read-more-link"><a href="{{ .RelPermalink }}">{{ i18n "more" }}</a></div>
+{{ else }}{{ .Content }}
+{{ end }}
+      </footer>
+    </section>
+{{ end }}
+  </main>
+{{ partial "openring.html" . }}
+</body>
+</html>
