@@ -60,6 +60,15 @@ Je poste au gré de mes envies donc avec un rythme potentiellement instable.
   </article>
 </section>
 
+<section class="recap">
+  <header class="post-header"><h1><a href="https://lord.re/recap/">Les récaps mensuels</a></h1></header>
+  <article>
+    <p>Le log du blog.
+    Faire un ptit point chaque mois de ce que j'ai vu/fait/matté/écouté.
+    Un journal pas vraiment intime quoi.</p>
+  </article>
+</section>
+
 Parfois vous verrez du texte avec des ptits <abbr title="voilà ce genre là">zigouigouis</abbr>, passez la souris dessus histoire d'avoir un peu de complément d'infos (pas toujours pertinent).
 Et si je mets des <samp>commandes à copier</samp> (comme là)la police est différente pour distinguer ce qu'il faut copier ou non.
 

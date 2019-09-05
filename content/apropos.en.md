@@ -60,6 +60,15 @@ There are 4 different types of content each with its colour and a small label in
   </article>
 </section>
 
+<section class="recap">
+  <header class="post-header"><h1><a href="https://lord.re/en/recap/">Summary</a></h1></header>
+  <article>
+    <p>The log in blog.
+    I'll try to summarize each month what happened.
+    What did I do|watch|listen.
+  </article>
+</section>
+
 You may sometime encounter texte with small <abbr title="exactly this">thingies</abbr>, you just need to hover it with your mouse to have some infos (not always interesting).
 
 If I put some <samp>commands to copy</samp> (like here), the font is a bit different and the background change to easily distinguish where to select text. 
