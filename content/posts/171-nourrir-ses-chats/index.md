@@ -132,7 +132,7 @@ $.get('poids.csv', function(csv) {
 							}
 						},{
 							from: Date.UTC(2019,03,18),
-							to: Date.UTC(2019,06,11),
+							to: Date.UTC(2025,06,11),
 							color: '#122112',
 							label: {
 								text: '<em>Bon régime</em>',
