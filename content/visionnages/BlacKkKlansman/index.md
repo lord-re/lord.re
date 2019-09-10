@@ -1,7 +1,6 @@
 +++
 Author = "Lord"
 Description = ""
-Categories = ["", ""]
 notoc = true
 draft = false
 VisionnageDate = ["",""]

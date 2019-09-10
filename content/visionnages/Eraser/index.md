@@ -1,7 +1,6 @@
 +++
 Author = "Lord"
 Description = ""
-Categories = ["", ""]
 notoc = true
 VisionnageDate = ["2019-09-06",""]
 date = 2019-09-06T18:08:08+02:00
