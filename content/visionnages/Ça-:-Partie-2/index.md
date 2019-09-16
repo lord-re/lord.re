@@ -2,8 +2,7 @@
 Author = "Lord"
 Description = ""
 notoc = true
-draft = true
-VisionnageDate = ["",""]
+VisionnageDate = ["2019-09-14",""]
 date = 2019-09-13T22:49:40+02:00
 editor = "kakoune"
 Wikipedia = "https://fr.wikipedia.org/wiki/%C3%87a_:_Chapitre_2"
