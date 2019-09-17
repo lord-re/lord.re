@@ -77,3 +77,12 @@ Une sélection d'articles passés toujours pertinents.
   - [Savoir décortiquer une URL]({{< ref "fast-posts/25-decortiquer-une-url" >}})
   - [Couper l'accès au réseau d'un logiciel sous Linux]({{< ref "posts/137-linux-nonet-app/" >}})
   - [Les services du Fediverse fin 2018]({{< ref "posts/142-les-services-du-fediverse-fin-2018/" >}})
+
+## 2019
+
+  - [10 ans de Bépo]({{< ref "posts/156-bepo-10ans/">}})
+  - [La téléphonie c'est pas si compliqué]({{< ref "posts/161-telephonie-informatique/">}})
+  - [Ma collection de claviers]({{< ref "posts/166-keyboard-collection/">}})
+  - [Nourrir ses gentils ptits chats]({{< ref "posts/171-nourrir-ses-chats/">}})
+  - [Pinguez-moi pour jouer !]({{< ref "posts/172-jeux-multi-pinguez-moi/">}})
+  - [Se créer un initramfs manuellement]({{< ref "posts/176-creer-initramfs-manuellement/">}})
