@@ -5,6 +5,7 @@ Categories = ["android"]
 menu = "main"
 notoc = true
 WritingDate = 2019-09-10T23:40:02+02:00
+lastedit = 2019-09-17T15:45:30+02:00
 date = 2019-09-16T10:40:02+02:00
 title = "Mes applis Android"
 editor = "kakoune"
@@ -98,7 +99,7 @@ Et le pire c'est que l'interface reste simple.
 Il paraît que c'est mieux que l'appli officielle.
 
 ## IRC
-J'utilise l'appli **Weechat Android** qui n'est pas dispo sur fdroid mais chopable direct depuis github.
+J'utilise l'appli **Weechat Android** ~~qui n'est pas dispo sur fdroid~~ mais chopable direct depuis github.
 Elle se raccorde à une instance weechat tournant ailleurs et permet de retrouver tous ses buffers sur le téléphone.
 L'interface est bien adaptée au téléphone ce qui lui confère un avantage certain par rapport à un client ssh pour récupérer une session tmux avec weechat.
 
@@ -121,3 +122,5 @@ Voilà tout.
 Globalement c'est les applis de téléphonie qui sont les plus pauvres en alternatives.
 Triste monde.
 Pas d'appli de téléphonie sur fdroid, deux pauvres dialers, niveau contacts c'est pas reluisant non plus.
+
+
