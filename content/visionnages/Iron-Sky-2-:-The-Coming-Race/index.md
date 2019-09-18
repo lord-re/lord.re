@@ -2,7 +2,6 @@
 Author = "Lord"
 Description = ""
 notoc = true
-draft = true
 VisionnageDate = ["2019-09-17",""]
 date = 2019-09-17T22:18:15+02:00
 editor = "kakoune"
