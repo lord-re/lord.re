@@ -35,7 +35,7 @@ Du coup à chaque fois que je rédige un nouvel article voilà ce qu'il y a à f
 Bon c'est des ptits trucs simples mais en gros les étapes 6 à 13 sont toujours les mêmes avec aucune intervention nécessaire.
 Du coup j'ai automatisé tout ça.
 
-Dans **git**, on peut lancer des scripts automatiquement lors de certaines actions, on apelle ça un *hook*.
+Dans **git**, on peut lancer des scripts automatiquement lors de certaines actions, on appelle ça un *hook*.
 Du coup, dans le *hook* qui s'exécute lors d'un push j'ai mis toutes les actions de 7 à 13.
 Comme ça, lors du <samp>git push</samp> elles sont toutes lancées, je n'ai plus rien à faire.
 
