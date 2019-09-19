@@ -30,7 +30,7 @@ Du coup à chaque fois que je rédige un nouvel article voilà ce qu'il y a à f
   10. Compression des fichiers textes en gzip : <samp>static-compress -c zopfli -e gz …</samp>
   11. Compression des fichiers textes en brotli : <samp>static-compress -c zopfli -e br …</samp>
   12. Transfert du site fr vers le serveur web : <samp>rsync -av ~/www/public/fr/ user@serveur:/destination/fr</samp>
-  13. Transfert du site en vers le serveur web : <samp>rsync -av ~/www/public/fr/ user@serveur:/destination/en</samp>
+  13. Transfert du site en vers le serveur web : <samp>rsync -av ~/www/public/en/ user@serveur:/destination/en</samp>
 
 Bon c'est des ptits trucs simples mais en gros les étapes 6 à 13 sont toujours les mêmes avec aucune intervention nécessaire.
 Du coup j'ai automatisé tout ça.
