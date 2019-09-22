@@ -3,7 +3,7 @@ languageCode = "fr-fr"
 DefaultContentLanguage = "fr"
 title = "/home/lord"
 theme = "neoDark"
-publishDir = "/home/lord/www/public"
+publishDir = "/tmp/www/public"
 #staticDir = ["static","themes/neoDark/static"]
 paginate = 20
 [blackfriday]
