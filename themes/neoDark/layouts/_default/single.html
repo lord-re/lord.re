@@ -22,8 +22,8 @@
 {{ if not .Params.nopaging }}
         <div class="paging">
           <p>{{ i18n "paging-start" }}
-          {{if .NextPage }}{{ i18n "paging-fresher" }}<a class="paging-link" href="{{ .NextPage.RelPermalink }}">{{.NextPage.Title}}</a>{{ end }}
-          {{if .PrevPage }}{{ i18n "paging-older" }}<a class="paging-link" href="{{ .PrevPage.RelPermalink }}">{{.PrevPage.Title}}</a>{{ end }}
+          {{if .NextPage }}{{ i18n "paging-fresher" }}<a class="paging-link" rel="next" href="{{ .NextPage.RelPermalink }}">{{.NextPage.Title}}</a>{{ end }}
+          {{if .PrevPage }}{{ i18n "paging-older" }}<a class="paging-link" rel="prev"  href="{{ .PrevPage.RelPermalink }}">{{.PrevPage.Title}}</a>{{ end }}
           </p>
           <p>Un article aléatoire : {{ range first 1 (shuffle (.Site.RegularPages ))  }} <a href="{{ .Permalink }}">{{ .Title }}</a> {{ end }}</p>
 
