@@ -1,7 +1,7 @@
 +++
 Author = "Lord"
 Description = "Et alors que le Hellfest s'achève c'est le coup de blues habituel."
-Categories = ["perso", ""]
+Categories = ["perso", "hellfest"]
 menu = "fast"
 noread = true
 notoc = true
