@@ -16,8 +16,8 @@ html{
 body{
  display:grid;
  grid-template-areas: "a a a"
- 											"b b b"
-											"c c c";
+ "b b b"
+ "c c c";
  grid-template-columns: 1fr 4fr 1fr;
 }
 nav{
@@ -41,15 +41,15 @@ aside{
 @media (min-width:120ch){
  body{
   grid-template-areas:  "a b c"
-												"a b c"
-												"a b c";
+ "a b c"
+ "a b c";
  }
  nav {
   border-bottom:none;
  }
  aside{
-	display:block;
-	background: #222;
+  display:block;
+  background: #222;
   box-shadow:0 0 2em rgba(0,0,0,0.4);
  }
 }
@@ -296,16 +296,24 @@ summary:hover, summary:focus{
  border:0.1rem solid #665;
  box-shadow:0 0.5rem 1rem #111;
 }
+.rainbowverse{
+ background-image: repeating-linear-gradient(to left, #64ff00, #00a3ff, #9500ff, red, #ffca00, #64ff00);
+ background-size: 200% ;
+ background-clip: text;
+ -webkit-background-clip: text;
+ color:transparent;
+ animation:rainbow 80s infinite linear; 
+}
+@keyframes rainbow{
+ 0%{   background-position:0% 50%;}
+ 100%{ background-position:200% 50%;}
+}
 .spin{
- animation:spin 120s infinite linear;
+ animation:spin 80s infinite linear;
 }
 @keyframes spin{
- 0%{
-	transform: rotate(0 turn);
- }
- 100%{
-  transform:rotate(1turn);
- }
+ 0%{   transform:rotate(0 turn);}
+ 100%{ transform:rotate(1turn);}
 }
 .webring{
  font-size:0.8em;
