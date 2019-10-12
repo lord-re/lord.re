@@ -1,11 +1,12 @@
 {{ $img := $.Page.Resources.GetMatch (.Get "src")}}
+{{ $test := $img.Permalink }}
 {{ $name_splitted := split $img.RelPermalink "." }}
 {{ $name_base := index $name_splitted 0 }}
 <figure>
   {{ with .Get "link" }}<a href="{{ . }}">{{ end }}
   <picture>
     <source srcset="{{$name_base}}.thumb.webp" type="image/webp">
-	  <img src="{{ $img.RelPermalink }}" alt="{{.Get "alt" }}" />
+    <img src="{{ $img.RelPermalink }}" alt="{{.Get "alt" }}" />
   </picture>
   {{ with .Get "link" }}</a>{{ end }}
   <figcaption><h4>{{.Get "title"}}</h4></figcaption>
