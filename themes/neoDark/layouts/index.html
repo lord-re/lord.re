@@ -3,7 +3,7 @@
 	<a href="#content" title="{{ i18n "skip_content"}}" class="sr-only"></a>
 {{ partial "sidebar.html" . }}
   <main>
-{{ $paginator := .Paginate (where .Data.Pages "Type" "in" .Site.Params.sectionsInHomepage ) }}
+{{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.sectionsInHomepage ) }}
 {{ range $paginator.Pages }}
   <section class="{{.Type}}">
     <header class="post-header">

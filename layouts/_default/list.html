@@ -7,7 +7,7 @@
 		<section class="shares" style="padding:1rem;">
 		<h1>{{.Title}}</h1>
 {{ end }}
-{{ range .Data.Pages }}
+{{ range .Pages }}
     <section  class="{{.Type}}">
       <header class="post-header">
         <h1 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>

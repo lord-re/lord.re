@@ -3,7 +3,7 @@
 	<a href="#content" title="{{ i18n "skip_content"}}" class="sr-only"></a>
 {{ partial "sidebar.html" . }}
   <main>
-{{ range where .Site.Pages "Section" "in" .Site.Params.sectionsInHomepage }}
+{{ range where .Site.RegularPages "Section" "in" .Site.Params.sectionsInHomepage }}
       <section class="{{.Type}}">
         <header class="post-header">
           <h1 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
