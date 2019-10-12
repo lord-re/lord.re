@@ -69,6 +69,14 @@ Je poste au gré de mes envies donc avec un rythme potentiellement instable.
   </article>
 </section>
 
+<section class="visionnages">
+  <header class="post-header"><h1><a href="https://lord.re/visionnages/">Visionnages</a></h1></header>
+  <article>
+    <p>Je tente de noter à chaud (si possible) mon ressenti sur les films.
+    Ce ne sont pas des critiques ni des analyses, hein.</p>
+  </article>
+</section>
+
 Parfois vous verrez du texte avec des ptits <abbr title="voilà ce genre là">zigouigouis</abbr>, passez la souris dessus histoire d'avoir un peu de complément d'infos (pas toujours pertinent).
 Et si je mets des <samp>commandes à copier</samp> (comme là)la police est différente pour distinguer ce qu'il faut copier ou non.
 
