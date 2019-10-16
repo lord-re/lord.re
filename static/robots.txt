@@ -1,3 +1,11 @@
 User-agent : *
 Disallow: /files/
 Disallow: /tmp/
+Sitemap: https://lord.re/sitemap.xml
+Host: lord.re
+Indexpage : https://lord.re/posts/
+Indexpage : https://lord.re/visionnages/
+Indexpage : https://lord.re/fast-posts/
+Indexpage : httpss://lord.re/shares/
+Indexpage : httpss://lord.re/ideas/
+Indexpage : httpss://lord.re/recap/
