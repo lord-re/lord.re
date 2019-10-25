@@ -11,19 +11,19 @@ paginate = 20
   smartypants = false
 
 [related]
-	includeNewer = true
-	[[related.indices]]
-    name = "Actors"
-	  weight = 10
-	[[related.indices]]
-	  name = "Director"
-		weight = 20
-	[[related.indices]]
-	  name = "Saga"
-		weight = 30
-	[[related.indices]]
-	  name = "categories"
-		weight = 10
+  includeNewer = true
+  [[related.indices]]
+     name = "Actors"
+     weight = 10
+  [[related.indices]]
+    name = "Director"
+    weight = 20
+  [[related.indices]]
+    name = "Saga"
+    weight = 30
+  [[related.indices]]
+    name = "categories"
+    weight = 20
 
 [params]
   sidebartitle = "/home/lord"
@@ -32,11 +32,11 @@ paginate = 20
 [taxonomies]
   category = "categories"
   tag = "tags"
-	Director = "directors"
-	Actor = "actors"
-	years = "year"
-	Saga = "saga"
-	Avis = "avis"
+  Director = "directors"
+  Actor = "actors"
+  years = "year"
+  Saga = "saga"
+  Avis = "avis"
 
 
 [Languages]
