@@ -17,6 +17,7 @@ Des gens gueulent parce que bon c'est quand même chiant de plus pouvoir utilise
 
 Hey !
 Mais réveillez-vous !
+
 *Vous utilisez le navigateur par la plus grosse boîte de pub au monde !*
 
 *Faut pas s'étonner qu'ils se démènent pas trop pour faire tourner un truc qui nique leur business.*
@@ -24,9 +25,9 @@ Mais réveillez-vous !
 En utilisant Chrome vous jouez le jeu de la **stratégie Google**.
 Leur but est de se rendre partout indispensable en adoptant la fameuse **Embrace, Extend, Extinguish**.
 
-Tout d'abord ils ont aidé le web en proposant un nouveau navigateur innovant.
-Ensuite ils ont poussé tout un tas de standards et pratiques avec Chrome.
-Et on passe ensuite dans la troisième phase où ils deviennent clairement hostiles en bridant les fonctionnalités permettant de bloquer les pubs, en tentant d'imposer un sous-ensemble du web qu'ils hébergent eux-mêmes (AMP) et autres saloperies qui sortent régulièrement.
+  - Tout d'abord ils ont aidé le web en proposant un nouveau navigateur innovant.
+  - Ensuite ils ont poussé tout un tas de standards et pratiques avec Chrome.
+  - Et on passe ensuite dans la troisième phase où ils deviennent clairement hostiles en bridant les fonctionnalités permettant de bloquer les pubs, en tentant d'imposer un sous-ensemble du web qu'ils hébergent eux-mêmes (AMP) et autres saloperies qui sortent régulièrement.
 
 :wq
 
