@@ -6,6 +6,7 @@ menu = "main"
 notoc = true
 PublishDate = 2019-01-04T10:55:01+01:00
 date = 2019-01-04T10:55:01+01:00
+LastEdit = 2019-11-01T18:12:03+01:00
 title = "Messagease : un clavier android efficace"
 editor = "kakoune"
 +++
@@ -124,3 +125,9 @@ Allez vite fait :
 Voilà voilà.
 
 {{< img src="global.png" link="global.png" alt="une vue globale d'android avec le clavier pour avoir une idée de la taille" title="Voilà le clavier en action." >}}
+
+PS : Voici une petite démo vidéo en action :
+
+<video controls>
+ <source src="demo.webm">
+</video>
