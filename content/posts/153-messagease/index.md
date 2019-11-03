@@ -131,3 +131,5 @@ PS : Voici une petite démo vidéo en action :
 <video controls>
  <source src="demo.webm">
 </video>
+
+Si vous voulez approfondir un peu le sujet, j'ai écrit une [suite tournant autour de 7 vidéos pour découvrir un peu plus en profondeur ce clavier]({{< ref "/posts/183-video-messagease" >}}).
