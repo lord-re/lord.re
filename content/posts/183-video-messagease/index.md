@@ -24,7 +24,7 @@ Voilà le fonctionnement ultra basique pour les *lettres*.
 Les <samp>lettres jaunes</samp> sont en accès direct : on appuie dessus et c'est bon.
 Pour les <samp>lettres blanches</samp> il faut appuyer sur la case puis glisser la direction de la lettre voulue.
 <figure>
-<video controls preload="metadata" height="1496" width="720" poster="vid.png">
+<video controls preload="metadata" height="900" poster="vid.png">
  <source type="video/webm" src="partie1.webm">
  <source type="video/mp4" src="partie1.mp4">
 </video>
@@ -37,7 +37,7 @@ Vous pouvez soit appuyer sur <samp>123</samp> pour passer tout le clavier en mod
 Soit vous pouvez faire des cercles anti-horaires sur les cases où se trouveraient les chiffres si vous étiez en mode chiffres.
 
 <figure>
-<video controls preload="metadata" height="1496" width="720" poster="vid.png">
+<video controls preload="metadata" height="900" poster="vid.png">
  <source src="partie2.webm">
  <source src="partie2.mp4">
 </video>
@@ -51,7 +51,7 @@ Vous pouvez *afficher plus de caractères* en glissant vers le haut depuis la <s
 Et si vous avez besoin de vos *émojis* vous les trouverez dans le coin tout en bas à droite.
 
 <figure>
-<video controls preload="metadata" height="1496" width="720" poster="vid.png">
+<video controls preload="metadata" height="900" poster="vid.png">
  <source src="partie3.webm">
  <source src="partie3.mp4">
 </video>
@@ -67,7 +67,7 @@ Pour la gestion du *copié collé* c'est en glissant depuis la touche <samp>123<
 Pour *sélectionner tout le texte*, un cercle sur <samp>123</samp>.
 
 <figure>
-<video controls preload="metadata" height="1496" width="720" poster="vid.png">
+<video controls preload="metadata" height="900" poster="vid.png">
  <source src="partie4.webm">
  <source src="partie4.mp4">
 </video>
@@ -83,7 +83,7 @@ Le fait d'avoir un texte sélectionné remplacera le texte existant par le nouve
 Et d'ailleurs en passant, si les 9 de base ne vous suffise pas, en appuyant au préalable sur <samp>123</samp> vous aurez accès à 9 de plus.
 
 <figure>
-<video controls preload="metadata" height="1496" width="720" poster="vid.png">
+<video controls preload="metadata" height="900" poster="vid.png">
  <source src="partie5.webm">
  <source src="partie5.mp4">
 </video>
@@ -96,7 +96,7 @@ Mais pour aller plus loin on peut altérer sa taille pour mieux s'*adapter à vo
 Pour ça il faut glisser sur le bouton de la <samp>main</samp> de haut en bas pour changer la taille ou bien de gauche à droite pour décaler le clavier.
 
 <figure>
-<video controls preload="metadata" height="1496" width="720" poster="vid.png">
+<video controls preload="metadata" height="900" poster="vid.png">
  <source src="partie6.webm">
  <source src="partie6.mp4">
 </video>
@@ -110,7 +110,7 @@ Vous pouvez également faire des accents et autres symboles en entrant une lettr
 Bon vous remarquerez que je suis pas très doué pour ça… je ne m'en sert pas.
 
 <figure>
-<video controls preload="metadata" height="1496" width="720" poster="vid.png">
+<video controls preload="metadata" height="900" poster="vid.png">
  <source src="partie7.webm">
  <source src="partie7.mp4">
 </video>
