@@ -77,15 +77,15 @@ Bref c'est un budget assez conséquent mais au moins ils mangent pas de la merde
 
 ## Verdict
 
-<script src="jquery-3.1.1.min.js"></script>
-<script src="highstock.js"></script>
-<script type="text/javascript" src="data.js"></script>
-<script type="text/javascript" src="dark-unica.js"></script>
+<script src="https://lord.re/posts/171-nourrir-ses-chats/jquery-3.1.1.min.js"></script>
+<script src="https://lord.re/posts/171-nourrir-ses-chats/highstock.js"></script>
+<script type="text/javascript" src="https://lord.re/posts/171-nourrir-ses-chats/data.js"></script>
+<script type="text/javascript" src="https://lord.re/posts/171-nourrir-ses-chats/dark-unica.js"></script>
 
 <script type="text/javascript">
 $(document).ready(function() {
 
-$.get('poids.csv', function(csv) {
+$.get('https://lord.re/posts/171-nourrir-ses-chats/poids.csv', function(csv) {
 				$('#poids').highcharts({
 					chart: {
 						type: 'spline',
