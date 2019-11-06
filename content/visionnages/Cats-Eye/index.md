@@ -20,7 +20,7 @@ Aoutch…
 “Comme Creepshow…”
 Hmm
 
-Dans les deux premières minutes ça te balance des wink wink références à [Cujo]({{< ref "/visionnage/Cujo" >}}) et [Christine]({{< ref "/visionnages/Christine" >}}) des moins subtiles.
+Dans les deux premières minutes ça te balance des wink wink références à [Cujo]({{< ref "/visionnages/Cujo" >}}) et [Christine]({{< ref "/visionnages/Christine" >}}) des moins subtiles.
 Là je commence à avoir peur.
 
 Et au final bha…
