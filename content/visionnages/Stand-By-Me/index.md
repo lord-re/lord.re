@@ -3,7 +3,7 @@ Author = "Lord"
 Description = ""
 notoc = true
 draft = false
-VisionnageDate = ["2019-08-26",""]
+VisionnageDate = ["2019-08-26","2019-11-14"]
 date = 2019-09-02T12:15:07+02:00
 editor = "kakoune"
 Imdb = "https://www.imdb.com/title/tt0092005/"
@@ -22,3 +22,15 @@ En plus c'est tiré d'une nouvelle de Stephen King.
 Ça ressemble un peu à **Ça** dans l'ambiance gamins-entre-potes.
 Il se passe pas de trucs foufous, pas de grandes scènes d'actions, mais on ne s'y ennuie pas pour autant.
 J'adore Stephen King (enfin ses adaptations, parce-que je lis pas).
+
+-----------
+Je viens de le revoir 3 mois plus tard dans le cadre d'un marathon des adaptations de Stephen King.
+Et ouai *il est vraiment super*.
+
+Cette petite épopée des gamins où il ne se passe rien mais où tout est dans les interactions et les dialogues des gosses.
+Tout comme dans **Ça** (ouai j'arrive pas à ne pas en parler), on est dans un monde où le monde des adultes est cruel.
+Les adultes sont détestables, voir de pures raclures alors que les gamins sont insouciants, se moquent joyeusement mais tout en se pardonnant et restant au final bienveillant.
+
+En se lançant le défi d'aller trouver le cadavre afin de grandir, ils vont grandir de par leurs interactions.
+C'est typiquement le genre de film où tu te retrouves dans la situation du narrateur qui comprend mieux son passé en y repensant avec des années de recul.
+C'est vraiment un film touchant.
