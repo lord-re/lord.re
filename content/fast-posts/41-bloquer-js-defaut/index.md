@@ -88,7 +88,7 @@ Bon, c'est pas idéal non plus mais ça fonctionne pour l'instant mais nécessit
 Perso, je le ferai pas car je me tiens aussi loin que possible des avocats mais si l'envie vous prend ça sera pour le bien de l'Europe entière.
 
 ### Boycotter les sites clients des boîtes qui ont ce genre de pratique ?
-Faut taper là où ça fait mail mais bon ça reste illusoire.
+Faut taper là où ça fait mal mais bon ça reste illusoire.
 Pour l'instant une des boîtes qui s'adonne à cette pratique affiche fièrement sa liste de client mais il y a fort à parier que lorsque le bad buzz se répandra un peu cette liste disparaisse.
 
 Le seul moyen de détecter un site employant cette technique nécessite de pas mal fouiller, c'est difficilement automatisable (si ça l'est, mais ils ont la capacité de brouiller les pistes en changeant très régulièrement les noms utilisés).
