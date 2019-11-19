@@ -47,7 +47,7 @@ Ce nouveau site ayant un but assez éducatif, plus on sera nombreux à y rédige
 **Si jamais, vous souhaitez contribuer, je serai râvi de vous y aider.**
 
 Que vous teniez déjà un blog ou tout juste écrit deux phrases dans un bloc-note, vous pourrez contribuer à ce site.
-La façon de le faire importe peu (envoi par mail, ouverture d'une Pull Request ou d'une issue sur [le dépot github](https://github.com/lord-re/GoogHell.fr).
+La façon de le faire importe peu (envoi par mail, ouverture d'une Pull Request ou d'une issue sur [le dépot github](https://github.com/lord-re/GoogHell.fr)).
 Bref, que l'aspect technique ne vous rebute pas.
 
 Si vous avez la moindre idée pour améliorer le site, n'hésitez-pas non plus.
