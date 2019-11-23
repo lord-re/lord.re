@@ -51,7 +51,7 @@ Bien entendu ce n'est pas ultra exhaustif et c'est très mouvant (Pleroma et Mas
 |Content Warning           |            X |              X |           X |            |
 |Restriction de visibilité |            X |              X |           X |(global, pas listé, followers seulement, privé |
 |Recherche d'utilisateurs  |            X |              X |           X |            |
-|Recherche de hashtag      |            X |              X |           M |            |
+|Recherche de hashtag      |            X |              X |           X |            |
 |Recherche intégrale       |            X |              X |           X |            |
 
 |                          |   Mastodon   |   Glitch.soc   |   Pleroma   |            |
@@ -62,7 +62,7 @@ Bien entendu ce n'est pas ultra exhaustif et c'est très mouvant (Pleroma et Mas
 |Thême graphique           |            X |              X |           X |            |
 |Personnalisation de thême |              |                |           X |[galerie](https://plthemes.vulpes.one/) |
 |Emojis                    |            X |              X |           X |            |
-|Liste d'émoji             |            X |              X |             |            |
+|Liste d'émoji             |            X |              X |           X |            |
 |Édition de toot envoyé    |            X |              X |           M |            |
 |Suppression de toot       |            X |              X |           X |            |
 |Silence d'un fil de disc. |              |              X |           M |            |
@@ -73,7 +73,7 @@ Bien entendu ce n'est pas ultra exhaustif et c'est très mouvant (Pleroma et Mas
 |Silence                   |            X |              X |           X |            |
 |Block                     |            X |              X |           X |            |
 |Report                    |            X |              X |           X |            |
-|Favoris                   |              |              X |           M |Marquer un toot comme favoris |
+|Marque-page               |              |              X |           M |Marquer un toot comme favoris |
 |Épinglage de toot         |            X |              X |           X |Pour s'afficher en haut dans le profil |
 |Création de listes        |            X |              X |           M |Ranger des utilisateurs dans des listes |
 |Interface BBS             |              |                |           X |Gadget de poisson d'avril |
@@ -89,7 +89,7 @@ Bien entendu ce n'est pas ultra exhaustif et c'est très mouvant (Pleroma et Mas
 |Transparence de la modér. |              |                |           X |Les MRF peuvent être publiques dans le NodeInfo |
 |API d'administration      |              |                |           X |[voir doc](https://docs.pleroma.social/admin_api.html#content) |
 |API de modération         |            X |              X |           X |            |
-|Support de OStatus        |              |                |             |raîchement supprimé de Mastodon et Pleroma |
+|Support de OStatus        |              |                |             |Fraîchement supprimé de Mastodon et Pleroma |
 
 
 ### Pour les devs
