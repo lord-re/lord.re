@@ -53,6 +53,9 @@ Bien entendu ce n'est pas ultra exhaustif et c'est très mouvant (Pleroma et Mas
 |Recherche d'utilisateurs  |            X |              X |           X |            |
 |Recherche de hashtag      |            X |              X |           M |            |
 |Recherche intégrale       |            X |              X |           X |            |
+
+|                          |   Mastodon   |   Glitch.soc   |   Pleroma   |            |
+|--------------------------|:------------:|:--------------:|:-----------:|------------|
 |Photo de profil           |            X |              X |           X |            |
 |Bannière de profil        |            X |              X |           X |            |
 |Fond d'écran              |              |                |           X |            |
@@ -63,6 +66,9 @@ Bien entendu ce n'est pas ultra exhaustif et c'est très mouvant (Pleroma et Mas
 |Édition de toot envoyé    |            X |              X |           M |            |
 |Suppression de toot       |            X |              X |           X |            |
 |Silence d'un fil de disc. |              |              X |           M |            |
+
+|                          |   Mastodon   |   Glitch.soc   |   Pleroma   |            |
+|--------------------------|:------------:|:--------------:|:-----------:|------------|
 |Follow                    |            X |              X |           X |            |
 |Silence                   |            X |              X |           X |            |
 |Block                     |            X |              X |           X |            |
