@@ -135,7 +135,11 @@ Les applis Mastodon sont nativement compatibles avec Pleroma.
 À la vue de tout cela, *je ne vois pas vraiment d'intéret d'héberger un nœud Mastodon plutôt que Pleroma*.
 Donc au final Mastodon't.
 
+L'an dernier je vous ai publié un [petit tour des services du Fédiverse]({{< ref "posts/142-les-services-du-fediverse-fin-2018" >}}) si jamais vous voulez voir les autres challengers.
+
 ----------------
 
 Merci à tous les gentils contributeurs du [framacalc](https://lite.framacalc.org/masto-plero) pour leur coup de main.
 Ça traîne depuis juillet mais ça arrive enfin !
+
+
