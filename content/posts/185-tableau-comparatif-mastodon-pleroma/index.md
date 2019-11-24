@@ -38,7 +38,7 @@ Bien entendu ce n'est pas ultra exhaustif et c'est très mouvant (Pleroma et Mas
 |local timeline            |            X |              X |           X |            |
 |global timeline           |            X |              X |           X |            |
 |Nombre de caractères      |          500 |            500 |        5000 |configurable|
-|formattage du texte       |              |              X |           X |source de tension|
+|formattage du texte       |              |              X |           X |<abbr title="Dans la communauté il y a le camps des partisans du formattage et le camps des partisans du microblog 'pur' de texte pure.">source de tensions</abbr>|
 |formattage des liens      |              |              X |           X |pour intégrer un lien dans du texte |
 |Affichage du texte formatté|             |              X |           X |            |
 |Affichage des articles    |      tronqué |              X |           X |Sur Glitch et Pleroma : configurable|
