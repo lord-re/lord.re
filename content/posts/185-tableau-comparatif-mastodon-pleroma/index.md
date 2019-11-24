@@ -45,7 +45,7 @@ Bien entendu ce n'est pas ultra exhaustif et c'est très mouvant (Pleroma et Mas
 |Envoi d'images            |            X |              X |           X |            |
 |Envoi d'audio             |            X |              X |           X |Arrivé récemment sur Mastodon |
 |Envoi de vidéos           |            X |              X |           X |            |
-|Dessiner                  |              |              X |           M |            |
+|Dessiner                  |              |              X |           <abbr title="Interface Mastodon Uniquement">M</abbr> |            |
 |Sondages                  |            X |              X |           X |Arrivé récemment sur Pleroma |
 |Limite choix sondage      |            4 |              4 |         20+ |            |
 |Content Warning           |            X |              X |           X |            |
@@ -63,9 +63,9 @@ Bien entendu ce n'est pas ultra exhaustif et c'est très mouvant (Pleroma et Mas
 |Personnalisation de thême |              |                |           X |[galerie](https://plthemes.vulpes.one/) |
 |Emojis                    |            X |              X |           X |            |
 |Liste d'émoji             |            X |              X |           X |            |
-|Édition de toot envoyé    |            X |              X |           M |            |
+|Édition de toot envoyé    |            X |              X |           <abbr title="Interface Mastodon Uniquement">M</abbr> |            |
 |Suppression de toot       |            X |              X |           X |            |
-|Silence d'un fil de disc. |              |              X |           M |            |
+|Silence d'un fil de disc. |              |              X |           <abbr title="Interface Mastodon Uniquement">M</abbr> |            |
 
 |                          |   Mastodon   |   Glitch.soc   |   Pleroma   |            |
 |--------------------------|:------------:|:--------------:|:-----------:|------------|
@@ -73,9 +73,9 @@ Bien entendu ce n'est pas ultra exhaustif et c'est très mouvant (Pleroma et Mas
 |Silence                   |            X |              X |           X |            |
 |Block                     |            X |              X |           X |            |
 |Report                    |            X |              X |           X |            |
-|Marque-page               |            X |              X |           M |Marquer un toot comme favoris |
+|Marque-page               |            X |              X |           <abbr title="Interface Mastodon Uniquement">M</abbr> |Marquer un toot comme favoris |
 |Épinglage de toot         |            X |              X |           X |Pour s'afficher en haut dans le profil |
-|Création de listes        |            X |              X |           M |Ranger des utilisateurs dans des listes |
+|Création de listes        |            X |              X |           <abbr title="Interface Mastodon Uniquement">M</abbr> |Ranger des utilisateurs dans des listes |
 |Interface BBS             |              |                |           X |Gadget de poisson d'avril |
 |Interface Gopher          |              |                |           X |Gadget de poisson d'avril |
 |Chat integré              |              |                |           X |Permet de discuter avec l'instance locale |
