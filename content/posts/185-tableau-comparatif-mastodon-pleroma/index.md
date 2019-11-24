@@ -73,7 +73,7 @@ Bien entendu ce n'est pas ultra exhaustif et c'est très mouvant (Pleroma et Mas
 |Silence                   |            X |              X |           X |            |
 |Block                     |            X |              X |           X |            |
 |Report                    |            X |              X |           X |            |
-|Marque-page               |              |              X |           M |Marquer un toot comme favoris |
+|Marque-page               |            X |              X |           M |Marquer un toot comme favoris |
 |Épinglage de toot         |            X |              X |           X |Pour s'afficher en haut dans le profil |
 |Création de listes        |            X |              X |           M |Ranger des utilisateurs dans des listes |
 |Interface BBS             |              |                |           X |Gadget de poisson d'avril |
