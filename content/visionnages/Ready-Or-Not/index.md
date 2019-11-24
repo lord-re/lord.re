@@ -35,5 +35,5 @@ La marriée est jouée par la nièce de *Hugo Weaving* (mais si c'est l'Agent Sm
 
 Il y a fort à parier que l'on écope de suites : avec un budget de 6myions de dollars, il a rapporté près de dix fois la mise juste au cinoche.
 
-C'est un joli ptit mélange d'une partie de *Cluédo*, de *You're Next*, un soupçon de fantastique, une marriée sanguinolante et d'un final explosif.
+C'est un joli ptit mélange d'une partie de *Cluédo*, de *You're Next*, un soupçon de fantastique à la *Hellraiser*, une marriée sanguinolante à la *Rec 3* et d'un final explosif.
 
