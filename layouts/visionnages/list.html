@@ -1,7 +1,7 @@
-{{ partial "header.html" . }}
+{{ partialCached "header.html" . }}
 <body>
   <a href="#content" title="{{ i18n "skip_content" }}" class="sr-only"></a>
-{{ partial "sidebar.html" . }}
+{{ partialCached "sidebar.html" . }}
   <main>
   <section class="shares" style="padding:1rem;">
   <h1>Mes visionnages</h1>
@@ -23,6 +23,6 @@
     </section>
 {{ end }}
   </main>
-{{ partial "openring.html" . }}
+{{ partialCached "openring.html" . }}
 </body>
 </html>

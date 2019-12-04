@@ -1,7 +1,7 @@
-{{ partial "header.html" . }}
+{{ partialCached "header.html" . }}
 <body>
 	<a href="#content" title="{{ i18n "skip_content" }}" class="sr-only"></a>
-{{ partial "sidebar.html" . }}
+{{ partialCached "sidebar.html" . }}
 
   <main id="content">
     <section  class="recap">
@@ -35,6 +35,6 @@ Similaire : {{ range . }}<a href="{{.Permalink}}">{{.Title}}</a> — {{end}}
 
     </section>
   </main>
-{{ partial "openring" . }}
+{{ partialCached "openring" . }}
 </body>
 </html>

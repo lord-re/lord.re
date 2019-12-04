@@ -1,7 +1,7 @@
-{{ partial "header.html" . }}
+{{ partialCached "header.html" . }}
 <body>
 	<a href="#content" title="{{ i18n "skip_content" }}" class="sr-only"></a>
-{{ partial "sidebar.html" . }}
+{{ partialCached "sidebar.html" . }}
   <main>
 {{ range .Data.Pages }}
     <section  class="{{.Type}}">
@@ -19,6 +19,6 @@
     </section>
 {{ end }}
   </main>
-{{ partial "openring.html" . }}
+{{ partialCached "openring.html" . }}
 </body>
 </html>
