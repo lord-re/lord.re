@@ -17,34 +17,41 @@ Oui oui une seconde suffit. Bon dans mon cas c'est overkill car mon site est sta
 
 Mais au delà de ça, si on rajoute deux trois options de configuration, vous pourrez vous prémunir des downtime (ce que je recherchais surtout).
 
-Bon on va définir **le_cache** qui va être l'endroit où seront stockées nos données en cache : ```proxy_cache_path /var/www/cache keys_zone=le_cache:1m max_size=20m inactive=10d use_temp_path=off;```
+Bon on va définir **le_cache** qui va être l'endroit où seront stockées nos données en cache :
+{{< highlight "nginx" >}}
+proxy_cache_path /var/www/cache keys_zone=le_cache:1m max_size=20m inactive=10d use_temp_path=off;
+{{< / highlight >}}
 
 Bon sur la machine qui va vous servir de proxy vous allez dans la conf du bel nginx */etc/conf/nginx/nginx.conf* vous ajoutez la conf du vhost:
-```
+
+{{< highlight "nginx" >}}
 server {
-        listen 80;
-        listen 443 ssl http2;
-        server_name www.lordtoniok.com lordtoniok.com bender.lordtoniok.com www.lord.re lord.re bender.lord.re _;
-        include ssl.conf;
-        ssl_certificate /etc/ssl/acme/lord.re/fullchain.pem;
-        ssl_certificate_key /etc/ssl/acme/private/lord.re/privkey.pem;
-        location /.well-known/acme-challenge {
-            alias /var/www/acme;
-        }
-        location / {
-                proxy_cache le_cache;
-                proxy_pass http://10.0.0.1;
-								proxy_cache_lock on;
-                proxy_cache_use_stale updating error timeout http_502 http_503;
-                proxy_cache_valid 200 1s;
-                add_header X-Cache-Status $upstream_cache_status;
-                proxy_set_header Host $host;
-                proxy_set_header X-Real-IP $remote_addr;
-                proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-							#	proxy_buffering off;
-        }
+    listen 80;
+    listen 443 ssl http2;
+    server_name www.lordtoniok.com lordtoniok.com bender.lordtoniok.com www.lord.re lord.re bender.lord.re _;
+    include ssl.conf;
+    ssl_certificate /etc/ssl/acme/lord.re/fullchain.pem;
+    ssl_certificate_key /etc/ssl/acme/private/lord.re/privkey.pem;
+
+    location /.well-known/acme-challenge {
+        alias /var/www/acme;
+    }
+
+    location / {
+        proxy_cache le_cache;
+        proxy_pass http://10.0.0.1;
+        proxy_cache_lock on;
+        proxy_cache_use_stale updating error timeout http_502 http_503;
+        proxy_cache_valid 200 1s;
+        add_header X-Cache-Status $upstream_cache_status;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        #	proxy_buffering off;
+    }
 }
-```
+{{< / highlight >}}
+
 La magie se trouve dans le ***proxy_cache_use_stale*** qui fait en sorte d'envoyer le cache si le serveur upstream ne répond pas.
 
 Désormais je peux couper le serveur sans que ça ne se voit. Ça peut permettre de mettre à jour l'esprit libre. Sur un site dynamique ça peut énormément booster les perfs sans trop de détriments (surtout avec juste 1s de cache).

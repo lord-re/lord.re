@@ -16,35 +16,40 @@ Yes yes, only one second is enough. In my use case it's a bit overkill but on he
 
 If on top of that you add two/three options more you'll be able to prevent downtime (what i was looking for).
 
-So, on the proxy server let's define **le_cache** which will be where we will store cached content : ```proxy_cache_path /var/www/cache keys_zone=le_cache:1m max_size=20m inactive=10d use_temp_path=off;```
+So, on the proxy server let's define **le_cache** which will be where we will store cached content : 
+{{< highlight "nginx" >}}
+proxy_cache_path /var/www/cache keys_zone=le_cache:1m max_size=20m inactive=10d use_temp_path=off;
+{{< / highlight >}}
 
 Now on the proxy nginx we add the vhost in */etc/nginx/nginx.conf* :
-```
+{{< highlight "nginx" >}}
 server {
-        listen 80;
-        listen 443 ssl http2;
-        server_name www.lordtoniok.com lordtoniok.com bender.lordtoniok.com www.lord.re lord.re bender.lord.re _;
-        include ssl.conf;
-        ssl_certificate /etc/ssl/acme/lord.re/fullchain.pem;
-        ssl_certificate_key /etc/ssl/acme/private/lord.re/privkey.pem;
-        location /.well-known/acme-challenge {
-            alias /var/www/acme;
-        }
-        location / {
-                proxy_cache le_cache;
-                proxy_pass http://10.0.0.1;
-								proxy_cache_lock on;
-                proxy_cache_use_stale updating error timeout http_502 http_503;
-                proxy_cache_valid 200 1s;
-                add_header X-Cache-Status $upstream_cache_status;
-                proxy_set_header Host $host;
-                proxy_set_header X-Real-IP $remote_addr;
-                proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-							#	proxy_buffering off;
-        }
+    listen 80;
+    listen 443 ssl http2;
+    server_name www.lordtoniok.com lordtoniok.com bender.lordtoniok.com www.lord.re lord.re bender.lord.re _;
+    include ssl.conf;
+    ssl_certificate /etc/ssl/acme/lord.re/fullchain.pem;
+    ssl_certificate_key /etc/ssl/acme/private/lord.re/privkey.pem;
+
+    location /.well-known/acme-challenge {
+        alias /var/www/acme;
+    }
+
+    location / {
+        proxy_cache le_cache;
+        proxy_pass http://10.0.0.1;
+        proxy_cache_lock on;
+        proxy_cache_use_stale updating error timeout http_502 http_503;
+        proxy_cache_valid 200 1s;
+        add_header X-Cache-Status $upstream_cache_status;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        #	proxy_buffering off;
+    }
 }
-```
-All the magic happens in ***proxy_cache_use_stale** which tolds your proxy to serve cached content when the upstream server is down or updating.
+{{< / highlight >}}
+All the magic happens in **proxy_cache_use_stale** which tolds your proxy to serve cached content when the upstream server is down or updating.
 
 Now i can shut nginx off from the upstream server without no one noticing it. A bit liberating. The performance boost on dynamic site can also be measured with your favorite http load tester.
 
