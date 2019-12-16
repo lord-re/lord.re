@@ -1,7 +1,7 @@
 +++
 Author = "Lord"
 date = "2015-12-28T14:36:41+02:00"
-lastedit = "2019-05-27T14:36:41+02:00"
+lastedit = "2019-12-16T14:36:41+02:00"
 title = "Réimplémentations libres de moteurs de jeux"
 menu = "main"
 Categories = ["libre","software","linux","jeux","fps"]
@@ -63,6 +63,9 @@ Du coup bha Flare tente de faire un moteur pour ce genre de jeu sans toutefois m
 Par contre il existe [**Freeablo**](https://freeablo.org/).
 Le dev commençait bien vite et fort et malheureusement ça patine un peu.
 Dommage.
+
+La meilleure option est en fait [**Devilution**](https://github.com/diasurgical/devilutionX) qui a reverse engineeré le code et l'a porté sur de nouvelles plateformes.
+Ça marche très bien mais nécessite bien entendu les assets qui se trouvent chez archive.org ;-)
 
 Et vous trouverez également [**OpenD2**](https://github.com/eezstreet/OpenD2) qui débute pour l'illustre Diablo 2.
 
@@ -160,3 +163,6 @@ Ajout de Xash3D.
 
 ## PS : Mai 2019
 Ajout de OpenD2.
+
+## PS : Décembre 2019
+Ajout de Devilution.
