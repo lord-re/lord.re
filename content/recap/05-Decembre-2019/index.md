@@ -2,7 +2,6 @@
 Author = "Lord"
 Description = "Le cinquième et dernier récap de l'année. Un mois de Décembre avec ses fêtes et compagnie. C'est parti pour une nouvelle année !"
 notoc = true
-draft = true
 WritingDate = 2019-12-04T15:57:54+01:00
 date = 2020-01-01T01:57:54+01:00
 editor = "kakoune"
