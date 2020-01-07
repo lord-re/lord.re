@@ -1,7 +1,7 @@
 +++
 Author = "Lord"
 Description = "Las de me répéter concernant les switchs voici un ptit topo sur leur fonctionnement. Les switchs réseaux sont un élément de base de tous les réseaux informatique."
-Categories = ["réseau", "culture"]
+Categories = ["réseau", "culture","vulgarisation"]
 menu = "main"
 notoc = true
 WritingDate = 2020-01-07T11:55:20+01:00
