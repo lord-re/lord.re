@@ -6,6 +6,10 @@ theme = "neoDark"
 publishDir = "/tmp/www/public"
 #staticDir = ["static","themes/neoDark/static"]
 paginate = 20
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 [blackfriday]
   fractions = false
   smartypants = false
