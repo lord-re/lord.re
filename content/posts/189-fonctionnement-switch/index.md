@@ -8,6 +8,7 @@ WritingDate = 2020-01-07T11:55:20+01:00
 date = 2020-01-07T11:55:20+01:00
 title = "Le fonctionnement d'un switch réseau"
 editor = "kakoune"
+lastEdit = 2020-01-08T23:39:11+01:00
 +++
 Le *commutateur réseau* ou *switch* est un appareil de base de tout réseau informatique.
 C'est la multiprise réseau qui permet de raccorder un peu tous vos appareils à votre réseau local pour avoir accès à l'Internet !
@@ -126,7 +127,7 @@ Ils font beaucoup plus que simplement switcher.
 
  - Certains sont de véritables routeurs
  - Certains font un peu de pare-feu.
-  - Ils peuvent avoir plein de fonctionnalités de switchs supplémentaire (les VLAN, la QoS…) permettant d'avoir de meilleures performances ou surtout plus de sécurité en segmantant le réseau en différents réseaux plus petits et plus hermétiques.
+  - Ils peuvent avoir plein de fonctionnalités de switchs supplémentaire (les VLAN, la QoS…) permettant d'avoir de meilleures performances ou surtout plus de sécurité en segmentant le réseau en différents réseaux plus petits et plus hermétiques.
   - Ils peuvent faire des statistiques.
   - Ils peuvent être configurés à distance et monitoré.
   - Ils peuvent transformer un port en Hub (pour du débug et plus si affinité).
