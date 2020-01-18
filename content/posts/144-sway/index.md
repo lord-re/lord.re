@@ -6,6 +6,7 @@ menu = "main"
 notoc = true
 PublishDate = 2018-12-13T15:44:10+01:00
 date = 2018-12-13T15:44:10+01:00
+lastEdit = 2020-01-18T01:26:00+01:00
 title = "Sway la suite spirituelle de i3"
 editor = "kakoune"
 +++
@@ -140,3 +141,12 @@ Sauf, les jeux.
   - **GzDoom** ne sait pas gérer la souris comme il faut.
   - **Quake3** ne sait pas locker la souris même avec des builds issues de git.
   - **RetroArch** tourne nickel.
+
+## PS 2020 : petite update
+Alors tout roule encore mieux.
+
+Les applis Qt tournent vraiment bien mieux désormais.
+Plus de ptits bugs relous, le copier/coller fonctionne comme on l'attend.
+
+Concernant les jeux plus de soucis.
+Les jeux natifs tournent bien et au final j'utilise de moins en moins XWayland.
