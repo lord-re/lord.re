@@ -19,7 +19,7 @@ Un petit film sans prétention très très typé années 90.
 On oscille entre le film fantastique, le film d'horreur, le film d'action et le bon gros nanar qui tâche et c'est tout ce qu'on en retiendra.
 
 Sérieux, c'est vraiment mauvais.
-*L'histoire est vraiment mauvaise, la musique insipide quand elle est là, le jeu des acteurs est à côté de la plaque, les lumiè,res criardes dégueulasses, seule la machine a un minimum de gueule.*
+*L'histoire est vraiment mauvaise, la musique insipide quand elle est là, le jeu des acteurs est à côté de la plaque, les lumières criardes dégueulasses, seule la machine a un minimum de gueule.*
 Le méchant, mais tu le vois un quart de seconde, tu sais que c'est le méchant, on le croirait tout droit issu d'un dessin animé Disney.
 
 J'ai rarement vu un truc aussi mal branlé.
@@ -90,7 +90,7 @@ Ou alors ils coupent court à un moment qui mériterait plus d'attention tout ç
 Et puis encore une fois on sait pas ce qu'il fait cet inspecteur.
 Il est censé empêcher des meurtres et compagnie ?
 
-Je sais pas moi, mais quand lundi, une employée meurt broyer dans une machine.
+Je sais pas moi, mais quand lundi, une employée meurt broyée dans une machine.
 Que mardi trois employées sont brulées au visage et emmenées à l'hôpital.
 Je pense que mercredi l'usine est fermée pour des ptits soucis de sécurité et que si c'est pas le cas, toi en qu'inspecteur tu fais tout pour cela.
 
