@@ -16,7 +16,7 @@ J'ai quand même deux trois idées d'articles dans la todo (dont un depuis plus 
 
 Mais bon si ma prose vous manque n'hésitez pas à vous rendre dans les [visionnages]({{< ref "/visionnages" >}}) c'est là où j'écris le plus en ce moment.
 
-En bref ce mois-ci : 3 articles, X commentaires, 15 visionnages, X requêtes, X visiteurs uniques pour X Go de trafic.
+En bref ce mois-ci : 3 articles, 10 commentaires, 15 visionnages, 573039 requêtes, 50596 visiteurs uniques pour 19.28 Go de trafic.
 
 ## Films
 
