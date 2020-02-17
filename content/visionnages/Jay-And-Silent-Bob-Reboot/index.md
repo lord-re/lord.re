@@ -15,7 +15,7 @@ Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfa
 Avis = ["cool"] 
 Saga = ["Jay & Silent Bob"]
 +++
-Rhaaa quel film cahotique.
+Rhaaa quel film chaotique.
 On retrouve quasiment tous les acteurs ayant déjà bossés avec Kevin Smith.
 Ce film est un petit cadeau pour les spectateurs mais aussi pour le réalisateur.
 Si vous avez déjà vu un de ses films vous allez forcément reconnaitre des têtes, des références, des caméos…
