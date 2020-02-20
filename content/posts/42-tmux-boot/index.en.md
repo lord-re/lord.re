@@ -3,7 +3,7 @@ Author = "Lord"
 date = "2016-03-08T14:52:04+02:00"
 title = "Start services in tmux at boot times"
 menu = "main"
-Categories = ["adminsys","software","linux","tips","cli"]
+Categories = ["adminsys","software","linux","tips","cli","tmux"]
 Tags = ["adminsys","software","linux","tips","cli"]
 Description = "A trick to bypass your init in order to start applications in tmux at boot times. Really handy and better than a classic init."
 
