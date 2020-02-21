@@ -24,13 +24,13 @@ C'est pas un écrivain à grand succès non plus mais suffisamment vendu pour en
 
 Il croit pas du tout aux esprits/fantômes et compagnie même s'il écrit sur le sujet.
 Ce n'est qu'un job pour lui et du coup il va aller dans une énième "chambre hantée".
-Le mec est loin d'être sympas avec les autres toussa globalement.
+Le mec est loin d'être sympa avec les autres toussa globalement.
 Mais dans la chambre il va vivre un enfer psychologique à base de malaise, de désespoirs et d'hallucinations plus ou moins dangeureuses.
 
 On en apprend un peu plus sur lui et sa relation avec sa femme.
 Bref l'histoire est assez simple mais bonne.
 
-L'ambiance du début est bien classe et d'ailleurs l'hotel est vraiment joli et Samuel L Jackson est parfait dans le rôle.
+L'ambiance du début est bien classe et d'ailleurs l'hôtel est vraiment joli et Samuel L Jackson est parfait dans le rôle.
 John Cusack est très bon aussi dans le rôle du mec pôli mais pas gentil.
 
 Le film est sympa car il fait flipper sans avoir recours ni au jump-scare ni au gore ni à des monstres grotesques.

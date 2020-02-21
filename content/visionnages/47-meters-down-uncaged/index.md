@@ -31,7 +31,7 @@ Bon, les gamines font les sérieuses et savent parfaitement s'équiper toute seu
 
 Donc nos chères donzelles arrivent dans une salle avec de jolies décos, des statues, un autel à sacrifice et des gros piliers en terre de plusieurs tonnes.
 C'est là qu'elles rencontrent un cousin éloigné de Némo qui s'avère être translucide et aveugle.
-Elles comprennent vite qu'il a alors dévellopé son ouïe.
+Elles comprennent vite qu'il a alors dévelopé son ouïe.
 Et c'est là que ça va devenir assez problématique.
 
 Bon autant, je veux bien croire que pour un film, ce soit pas la joie de faire du muet pendant 1h30 et donc faire en sorte que nos protagonistes aient des casques de plongée leur permettant de se parler entre elles.

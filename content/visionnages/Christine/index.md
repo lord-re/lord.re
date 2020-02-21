@@ -22,7 +22,7 @@ Franchement qu'est-ce qui pourrait arriver de mal ?
 Le film commence avec *Bad To The Bone*, c'est cliché mais finalement est-ce vraiment cliché en 83 alors que le morceau est paru l'année précédente ?
 Ça en impose sévère.
 
-On a bien les composants d'un Stephen King : un loser maltraité, une machine pas si inerte, un revirement de personnalité, une once de surnaturel, un vieu mystérieu (wink wink).
+On a bien les composants d'un Stephen King : un loser maltraité, une machine pas si inerte, un revirement de personnalité, une once de surnaturel, un vieux mystérieux (wink wink).
 
 L'histoire est cool, les persos aussi, les acteurs biens dans le ton, la musique bien synthé de Carpenter fait toujours plaisir.
 Ce film est vraiment génial.

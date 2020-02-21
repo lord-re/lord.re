@@ -16,13 +16,13 @@ Avis = ["cool"]
 Saga = [""]
 +++
 
-Troisième adaptation d'un récit de Stephen King par Franck Darabont qui a pour l'instant réalisé un sans-faute.
+Troisième adaptation d'un récit de *Stephen King* par *Franck Darabont* qui a pour l'instant réalisé un sans-faute.
 Et je dis bien pour l'instant.
 
 On retrouve des acteurs de ses précédents films d'ailleurs mais ce coup-ci on est dans un registre bien différent.
 On est ici dans un film bien plus horrifique et surnaturel.
 
-J'aime beaucoup l'histoire, c'est basique mais efficace : une brume étrange tombe sur un blaid du Maine (le seul indice que j'ai perçu c'est le titre du journal local le Castle Rock Times).
+J'aime beaucoup l'histoire, c'est basique mais efficace : une brume étrange tombe sur un bled du Maine (le seul indice que j'ai perçu c'est le titre du journal local le Castle Rock Times).
 C'est une bonne grosse brume ultra épaisse empêchant de voir à 10  mètres.
 Et apparemment il y a des choses dedans qui ne sont pas très amicales.
 Nos personnages se sont réfugiés dans la supérette du coin.
@@ -30,7 +30,7 @@ Nos personnages se sont réfugiés dans la supérette du coin.
 J'adore les films où les personnages sont coincés dans un lieu et tentent de survivre.
 C'est assez paradoxal parce-qu’à chaque fois je suis frustré et énervé des prises de décision des personnages.
 Ils font toujours les trucs qu'il faut pas faire.
-Mais j'aime bien quand même ces films (ouai même l'armée des morts de Zack Snyder).
+Mais j'aime bien quand même ces films (ouai même l'armée des morts de *Zack Snyder*).
 
 Et là on a le droit à tout un lot de décision hautement contestable mais bon j'imagine que sans ça le film perdrait de l'intéret.
 

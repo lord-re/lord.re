@@ -16,8 +16,8 @@ Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfa
 Avis = ["excellent"] 
 Saga = [""]
 +++
-Un ptit film d'horreur de Jordan Peele.
-Il avait déjà fait l'excellent Get Out, bha là il revient avec Us.
+Un ptit film d'horreur de *Jordan Peele*.
+Il avait déjà fait l'excellent **Get Out**, bha là il revient avec **Us**.
 Et *c'est franchement super*.
 
 Les acteurs sont bons, les décors cools, l'ambiance bien stressante et les acteurs vraiment bons !
