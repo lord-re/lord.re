@@ -8,6 +8,7 @@ WritingDate = 2019-10-09T22:11:19+02:00
 date = 2019-10-09T22:11:19+02:00
 title = "La galère pour les billets du Hellfest 2020"
 editor = "kakoune"
+TopWords = [  "onglet", "onglets", "billet", "billets", "attente","hellfest"]
 +++
 Et voilà, aujourd'hui à 12h tapante, le Hellfest a mis en vente ses billets.
 Autant dire que ça a été la cohue.

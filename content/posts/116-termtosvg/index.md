@@ -9,6 +9,7 @@ date = 2018-07-18T22:36:48+02:00
 title = "Termtosvg : capturer la cli dans un svg"
 editor = "kakoune"
 jdh = "https://www.journalduhacker.net/s/cvvxef/termtosvg_capturer_la_cli_dans_un_svg"
+TopWords = [  "encoding", "termtosvg", "svgz","term"]
 +++
 
 {{< img src="*16-termtosvg.svgz" link="116-termtosvg.svgz" title="L'article en cours de rédaction ~3min" alt="Capture faites lors de la rédaction de cet article ! Peut prendre un peu de temps pour charger." >}}

@@ -8,6 +8,7 @@ date = 2018-04-02T19:51:09+01:00
 Publishdate = 2018-03-15T13:51:09+01:00
 title = "Qutebrowser per Domain Settings"
 editor = "kakoune"
+TopWords = [  "javascript", "réglages"]
 +++
 Dans sa version 1.2, Qutebrowser a ajouté une fonctionnalité toute sympa :
 

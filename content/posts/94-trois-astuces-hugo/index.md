@@ -8,6 +8,7 @@ PublishDate = 2018-03-25T22:07:29+02:00
 date = 2018-04-11T16:07:29+02:00
 title = "Trois astuces pour Hugo"
 editor = "kakoune"
+TopWords = [  "drafts", "layouts", "fonction", "hugo", "range", "brouillons", "section","aléatoire","article"]
 +++
 J'ai apporté encore quelques modifs sur mon thême Hugo (ouai j'en cause un peu trop souvent désolé mais ce coup-ci c'est plus une astuce qu'autre chose !).
 Une des modifs récente est l'ajout d'un lien vers un article aléatoire.

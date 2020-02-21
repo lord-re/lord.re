@@ -6,7 +6,7 @@ title = "Devtmpfs et Udev sont dans un bateau"
 menu = "main"
 Categories = ["meta","www","gentoo","linux","software"]
 Tags = ["meta","www","gentoo","linux","software"]
-
+TopWords = [  "kernel", "openrc", "udev"]
 +++
 Et voilà qu'une coupure de courant m'a réveillé de mauvais poil ce matin.
 Un dimanche à 6h entendre le gazouillis des onduleurs.

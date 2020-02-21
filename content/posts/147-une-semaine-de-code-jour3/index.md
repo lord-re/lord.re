@@ -8,6 +8,7 @@ PublishDate = 2018-12-19T13:57:25+01:00
 date = 2018-12-19T13:57:25+01:00
 title = "Une semaine pour coder par soi même : Jour 3"
 editor = "kakoune"
+TopWords = [  "print", "incoming", "func", "rouge", "writestring", "channel", "conn", "ircconn", "strings", "elements"]
 +++
 Je piétine.
 J'ai un peu lu à droite à gauche, je sais toujours pas trop comment m'en sortir de ces histoires de "variables globales".

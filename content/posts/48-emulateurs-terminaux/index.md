@@ -7,7 +7,7 @@ menu = "main"
 Categories = ["software","libre","linux","cli"]
 Tags = ["software","libre","linux","cli"]
 jdh = "https://www.journalduhacker.net/s/1blcpe/tour_dhorizon_des_mulateurs_de_terminal"
-
+TopWords = [  "gui", "léger", "rxvt", "alacritty", "xterm", "dépendances", "rapide", "term", "terms"]
 +++
 
 Coucou 2017 o/ .

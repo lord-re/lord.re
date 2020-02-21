@@ -9,6 +9,7 @@ PublishDate = 2018-10-18T21:01:39+02:00
 date = 2018-10-21T10:01:39+02:00
 title = "L'UI de notre cher Mastodon"
 editor = "kakoune"
+TopWords = [  "fédiverse", "colonne", "listes", "mastodon","pleroma"]
 +++
 *J'aime pas vraiment les réseaux sociaux web* (parceque le mail et irc sont aussi des réseaux sociaux, mais je déteste le mail aussi).
 J'ai jamais ouvert de compte Facebook.

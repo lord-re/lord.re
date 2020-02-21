@@ -9,6 +9,7 @@ date = 2018-03-15T12:25:28+01:00
 title = "Turbo Encabulator dans votre kernel Linux"
 editor = "kakoune"
 jdh = "https://www.journalduhacker.net/s/rjc69g/turbo_encabulator_dans_votre_kernel"
+TopWords = [  "module", "turbo", "performances", "script", "encabulator", "kernel"]
 +++
 Aujourd'hui on va installer un **nouveau module kernel pour améliorer les perfs de votre cher nunux**.
 On verra comment une toute nouvelle technologie va nous permettre de gagner jusqu'à 20% de performances (varie selon les types de workloads et les registres de votre CPU) avec un nouveau module kernel.

@@ -10,6 +10,8 @@ lastEdit = 2018-12-03T21:09:41+02:00
 title = "Quelques sites/outils pour améliorer votre site"
 editor = "kakoune"
 jdf = "https://www.journalduhacker.net/s/rad4ru/quelques_sites_outils_pour_am_liorer"
+TopWords = [  "accessibilité", "complet", "validator", "tester"]
+
 +++
 Il existe de plus en plus de sites promouvant de bonnes pratiques pour le web.
 Ça peut être à propos de l'accessibilité, ou bien de la sécurité ou des performances.

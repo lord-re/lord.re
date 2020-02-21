@@ -8,6 +8,7 @@ PublishDate = 2019-08-04T16:28:13+02:00
 date = 2019-08-04T16:28:13+02:00
 title = "Adoption d'une Odroid HC2"
 editor = "kakoune"
+TopWords = [  "alpine", "bash", "hc2", "installer", "sbc", "openssh", "ssh", "log", "sbin", "microsd"]
 +++
 Après les galères habituelles de livraison Made in Colissimo (grrrrr) j'ai enfin pû recueillir une ptite nouvelle à la maison.
 

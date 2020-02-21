@@ -9,6 +9,7 @@ date = 2018-04-07T18:41:29+02:00
 title = "Verrouiller le fichier /etc/resolv.conf sur Openwrt"
 editor = "kakoune"
 jdh = "https://www.journalduhacker.net/s/kpl0as/verrouiller_le_fichier_etc_resolv_conf"
+TopWords = [  "chattr", "resolv"]
 +++
 OpenWRT me gonfle !
 

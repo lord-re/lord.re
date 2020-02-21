@@ -9,6 +9,7 @@ date = 2018-08-04T13:39:56+02:00
 title = "17ème article d'avancement du Librem 5"
 editor = "kakoune"
 jdh = "https://www.journalduhacker.net/s/eityvw/17_me_article_davancement_du_librem_5"
+TopWords = [  "sécurité", "upstream", "calls", "implémentation", "support", "librem", "wlroots", "merge_requests", "phosh"]
 +++
 
 Ceci est une traduction libre de [cet article](https://puri.sm/posts/librem5-progress-report-17/) concernant les avancées de la société Purism concernant le smartphone **Librem 5**.

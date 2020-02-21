@@ -9,6 +9,7 @@ date = 2018-03-20T15:33:09+01:00
 title = "Sisyphus l'antispam mignonnet"
 editor = "kakoune"
 jdh = "https://www.journalduhacker.net/s/osyrcs/sisyphus_lantispam_mignonnet"
+TopWords = [  "configurer", "postfix", "antispam", "postscreen", "maildir", "rspamd", "sisyphus", "spam"]
 +++
 Je vous ai déjà fait part à maintes reprises de ma stack mail.
 J'ai rajouté il y a quelques mois un antispam supplémentaire.

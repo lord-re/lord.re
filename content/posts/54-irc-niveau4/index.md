@@ -7,7 +7,7 @@ Categories = ["irc","tips","réseau"]
 Tags = ["irc","tips","réseau"]
 Description = "Bon suite à l'article précédent vous êtes devenu un usager de niveau 3 sur IRC. Et si vous voulez lvl up faut se pencher vers la gestion des salons pour savoir être un bon op. Allez on suit le guide."
 notoc = true
-
+TopWords = [ "irc", "chan", "modes", "op", "salon"]
 +++
 
 ## Guide pour op : Protéger son salon

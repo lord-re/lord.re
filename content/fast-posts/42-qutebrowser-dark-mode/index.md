@@ -8,6 +8,7 @@ WritingDate = 2020-01-30T22:57:13+01:00
 date = 2020-01-30T22:57:13+01:00
 title = "Dark Mode pour Qutebrowser"
 editor = "emacs"
+TopWords = [  "changer", "qutebrowser", "couleur","dark"]
 +++
 
 Je viens de découvrir qu'il est possible d'avoir un mode sombre pour **Qutebrowser**.

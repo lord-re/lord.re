@@ -8,6 +8,7 @@ PublishDate = 2019-04-28T12:15:33+02:00
 date = 2019-04-28T12:15:33+02:00
 title = "Tous les protocoles réseaux ne sont pas synchrones"
 editor = "kakoune"
+TopWords = [  "fédiverse", "protocoles"]
 +++
 
 ## Message de service

@@ -8,6 +8,7 @@ PublishDate = 2018-08-05T10:20:59+02:00
 date = 2018-08-05T10:20:59+02:00
 title = "Contrer la vague de spam touchant IRC"
 editor = "kakoune"
+TopWords = [  "bots", "join", "quit", "blogs", "salon","irc"]
 +++
 Bon ça fait plus de deux semaines qu'un bande de péquenots s'amuse à spammer joyeusement à peu près tous les réseaux IRC existants (enfin s'ils sont suffisamment gros).
 

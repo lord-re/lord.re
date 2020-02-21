@@ -9,6 +9,7 @@ date = 2018-04-19T10:06:06+02:00
 title = "Facebook Algo Complot"
 editor = "kakoune"
 jdh= "https://www.journalduhacker.net/s/sdbcg4/facebook_algo_complot"
+TopWords = [ "ia", "facebook"]
 +++
 Bon si vous êtes ici, j'imagine que vous n'êtes pas sans savoir que **Facebook n'est pas une plateforme neutre dans la distribution de "son" contenu**.
 

@@ -8,6 +8,7 @@ PublishDate = 2018-06-03T10:47:28+02:00
 date = 2018-06-03T10:47:28+02:00
 title = "Gérer les spamfilters sur UnrealIrcd"
 editor = "kakoune"
+TopWords = [  "posix", "supernets", "fuckyeah", "spamfilter", "geeknode","unrealircd"]
 +++
 Unrealircd est un <abbr title="serveur IRC, c'est à dire un serveur de chat">ircd</abbr> très populaire qui a près de vingt ans désormais mais à connu un sursaut d'activité ces dernières années pour arriver en version 4.
 On l'utilise notamment chez [Geeknode](http://geeknode.org/) sur les quelques serveurs du réseau.

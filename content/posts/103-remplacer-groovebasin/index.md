@@ -9,6 +9,7 @@ date = 2018-05-27T21:38:11+02:00
 title = "Remplacer Groovebasin par MPD"
 editor = "kakoune"
 jdh = "https://www.journalduhacker.net/s/whdrdq/remplacer_groovebasin_par_mpd"
+TopWords = [  "i3", "musique", "raccourcis", "morceau", "player", "mpd", "mpc", "playlist", "dmenu"]
 +++
 Voilà maintenant des années que j'utilise le logiciel **Groovebasin** pour écouter de la musique.
 C'est un lecteur audio web. Ça veux dire qu'il faut utiliser un serveur web, et un navigateur web pour pouvoir l'utiliser.

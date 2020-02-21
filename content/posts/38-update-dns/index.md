@@ -6,7 +6,7 @@ Tags = ["adminsys","réseau","tips","dns"]
 Description = "Comment mettre à jour dynamiquement ses enregistrements DNS sans trifouiller le fichier de zone en local ou à distance"
 date = "2015-03-31T12:10:30+02:00"
 title = "Updater dynamiquement ses zones DNS"
-
+TopWords = [ "dns", "update", "nsupdate","protocole"]
 +++
 
 Bon un court article à mon intention.

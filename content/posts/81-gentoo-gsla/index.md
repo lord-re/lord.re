@@ -9,6 +9,7 @@ date = 2018-03-06T23:02:14+01:00
 title = "Les GLSA de chez Gentoo"
 editor = "kakoune"
 jdh = "https://www.journalduhacker.net/s/xyt4aq/les_glsa_de_chez_gentoo"
+TopWords = [  "outil", "rss", "sécurité", "security", "check", "gentoo", "glsa"]
 +++
 J'ai réalisé que je parlais pas assez Gentoo sur ce blog.
 C'est pourtant de loin la meilleure de toutes les distributions Linux.

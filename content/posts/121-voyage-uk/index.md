@@ -8,6 +8,7 @@ PublishDate = 2018-08-21T09:56:47+02:00
 date = 2018-08-21T18:56:47+02:00
 title = "Vacances en Angleterre"
 editor = "kakoune"
+TopWords = [  "droit", "intérieur", "london", "londres", "boutiques", "oxford", "photo", "musée"]
 +++
 Je viens de passer deux semaines sur le territoire de notre chère Grande Bretagne.
 Pas de programme bien établi : l'hôtel pour les quatre premières nuits réservées deux jours avant et c'est tout ce qui était prévu.

@@ -6,6 +6,7 @@ Categories = ["software","libre","tips"]
 Tags = ["software","libre","tips"]
 Description = "Petit tour de Password-store un des meilleurs gestionnaire de mots de passe."
 date = "2014-04-25T00:47:41+02:00"
+TopWords = [  "prefix", "agent", "dmenu", "init", "passmenu", "i3", "password_files", "gpg", "pass"]
 
 +++
 

@@ -9,6 +9,7 @@ notoc = true
 PublishDate = 2018-02-13T17:12:32+01:00
 date = 2018-02-13T17:12:32+01:00
 title = "Virer les cookies d'un site précis dans Qutebrowser"
+TopWords = [  "rss", "table", "webengine", "champs", "from", "tiny", "cookie", "qutebrowser", "cookies"]
 +++
 Je vous ai déjà chanté [les louanges de mon cher Qutebrowser]({{< ref "/posts/64-qutebrowser" >}}) mais ce coup-ci on va passer sous le capot.
 

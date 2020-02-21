@@ -8,6 +8,7 @@ PublishDate = 2019-05-28T12:13:58+02:00
 date = 2019-05-28T12:13:58+02:00
 title = "Monitorer ses certificats TLS"
 editor = "kakoune"
+TopWords = [  "tls", "ca","rss","sécurité"]
 +++
 Pour une fois je vais essayer de pas parler de SSL (les habitudes toussa toussa) mais de certificat TLS (parceque <abbr title="sisi c'est le vrai nom !">x509</abbr> ça parle pas à grand monde).
 

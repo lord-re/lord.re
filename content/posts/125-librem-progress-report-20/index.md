@@ -9,6 +9,7 @@ notoc = true
 title = "20ème article d'avancement du Librem 5"
 editor = "kakoune"
 jdh = ""
+TopWords = [  "libre", "mx", "matériel", "smartphone", "librem", "devkits", "modem", "soc"]
 +++
 
 Ceci est une traduction libre de [cet article](https://puri.sm/posts/librem5-2018-09-hardware-report/) concernant les avancées de la société Purism concernant le smartphone **Librem 5**.

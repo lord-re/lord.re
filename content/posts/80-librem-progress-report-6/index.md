@@ -9,6 +9,7 @@ date = 2018-03-04T10:39:02+01:00
 title = "7ème article d'avancement du Librem 5"
 editor = "kakoune"
 jdh = "https://www.journalduhacker.net/s/yfi0zb/7_me_article_davancement_du_librem_5"
+TopWords = [  "controls", "compositor", "librem_phone", "shell", "hackfest", "webm"]
 +++
 Ceci est une traduction libre de [cet article](https://puri.sm/posts/librem5-progress-report-7/) concernant les avancées de la société Purism concernant le smartphone **Librem 5**.
 L'article original est sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) tout comme ma traduction.

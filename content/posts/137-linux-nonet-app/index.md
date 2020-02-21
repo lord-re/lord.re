@@ -8,6 +8,7 @@ PublishDate = 2018-11-05T22:06:32+01:00
 date = 2018-11-05T22:06:32+01:00
 title = "Bloquer l'accès au net à un soft sous Nunux"
 editor = "kakoune"
+TopWords = [  "application", "ip", "nonet","sécurité"]
 +++
 Suite à une ptite question sur le Fédivers voilà une petite astuce pour votre nunux favoris.
 

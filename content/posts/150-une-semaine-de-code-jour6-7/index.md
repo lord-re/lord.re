@@ -8,6 +8,7 @@ PublishDate = 2018-12-23T16:23:01+01:00
 date = 2018-12-23T16:23:01+01:00
 title = "Une semaine pour coder par soi même : Jour 6 et 7"
 editor = "kakoune"
+TopWords = [  "counter", "writestring", "time", "case", "go", "channel", "elements", "ircconnection", "func", "conn"]
 +++
 Bon aujourd'hui je groupe le week-end dans un seul post.
 Hier ?

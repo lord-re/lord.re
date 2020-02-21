@@ -8,6 +8,7 @@ PublishDate = 2018-10-01T22:20:11+02:00
 date = 2018-10-01T22:20:11+02:00
 title = "La fin Septembre 2018"
 editor = "kakoune"
+TopWords = [  "youtube", "backup"]
 +++
 Ouai le titre est nul (en vrai je l'ai pas encore écrit mais je sais pas quoi mettre donc ça sera probablement nul quand je publierai).
 

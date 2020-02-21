@@ -8,6 +8,7 @@ WritingDate = 2019-12-04T19:57:19+01:00
 date = 2019-12-04T19:57:19+01:00
 title = "Quelques tips concernant la conf Nginx"
 editor = "kakoune"
+TopWords = [  "cert", "ecdhe", "ssl", "sécurité", "tls", "nginx"]
 +++
 Il arrive régulièrement de filer des coups de main à propos de serveur web et surtout Nginx.
 Et parmi les erreurs classiques il y a les soucis dans les fichiers de conf.

@@ -8,6 +8,7 @@ WritingDate = 2019-12-11T17:17:56+01:00
 date = 2019-12-11T20:17:56+01:00
 title = "Restreindre des clés SSH pour du backup via rsync"
 editor = "kakoune"
+TopWords = [  "ed25519", "rsync", "rrsync", "forwarding", "restreindre", "ssh", "clé","sécurité"]
 +++
 Bon alors d'un point de vue sécurité utiliser SSH avec des clés c'est très bien.
 Le problème c'est que si vous automatisez le backup (ce que vous devez absolument faire) c'est que votre clé privée ne peut pas avoir de passphrase (ça ne peut pas s'automatiser et être sécure ça).

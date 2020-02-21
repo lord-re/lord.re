@@ -9,6 +9,7 @@ date = 2018-04-04T22:32:16+02:00
 title = "Le deal derrière 1.1.1.1"
 editor = "kakoune"
 jdh = "https://www.journalduhacker.net/s/tp6npn/le_deal_derri_re_1_1_1_1"
+TopWords = [  "trafic", "google", "cloudflare", "adresses", "dns", "ip", "apnic"]
 +++
 Cloudflare a réussi sa communication concernant le lancement de son service de Résolveur DNS ouvert.
 Ils proposent donc désormais aux Internets de récupérer les adresses IP associés à un nom de domaine.

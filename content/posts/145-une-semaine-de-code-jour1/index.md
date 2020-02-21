@@ -8,6 +8,7 @@ PublishDate = 2018-12-18T00:39:37+01:00
 date = 2018-12-18T00:39:37+01:00
 title = "Une semaine pour coder par soi même : Jour 1"
 editor = "kakoune"
+TopWords = [  "pratique", "strings", "nil", "time", "writestring", "os", "go", "println", "bab", "conn"]
 +++
 
 *J'ai toujours été frustré de pas savoir coder.*

@@ -9,6 +9,7 @@ date = 2018-11-09T15:29:10+01:00
 lastEdit = 2018-11-09T17:50:10+01:00
 title = "Gzip-bombe avec Nginx sans PHP"
 editor = "kakoune"
+TopWords = [  "zip", "nginx", "php","sécurité"]
 +++
 
 Bon je matais un ptit coup GoAccess et dans la section *404*.

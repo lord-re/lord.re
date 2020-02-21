@@ -8,7 +8,7 @@ menu = "main"
 notoc = true
 title = "Qutebrowser"
 jdh = "https://www.journalduhacker.net/s/lzm6ml/qutebrowser"
-
+TopWords = [  "webkit", "mpv", "navigateur", "recherche", "rendu", "moteur", "vim", "qute", "qutebrowser","qtwebengine","webengine"]
 +++
 
 Voilà quelques mois maintenant, j'ai migré sur Qutebrowser. C'est un ptit navigateur peu connu qui ne se démarque pas par son moteur de rendu (encore qu'en fait si !). Il a la particularité de pouvoir tourner avec plusieurs moteurs de rendu différents. Il se distingue surtout par son interface utilisateur qui se veux absolument pas intuitive mais c'est clairement sa force.

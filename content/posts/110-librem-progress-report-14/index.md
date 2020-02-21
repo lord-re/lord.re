@@ -9,6 +9,7 @@ Categories = ["traduction","software","librem","purism"]
 title = "14ème article d'avancement du Librem 5"
 editor = "kakoune"
 jdh = ""
+TopWords = [  "keyboard", "matrix", "progress", "protocole", "report", "wayland", "librem", "travail", "tester", "wlroots"]
 +++
 Ceci est une traduction libre de [cet article](https://puri.sm/posts/librem5-progress-report-14/) concernant les avancées de la société Purism concernant le smartphone **Librem 5**.
 L'article original est sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) tout comme ma traduction.

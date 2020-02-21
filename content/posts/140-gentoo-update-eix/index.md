@@ -8,6 +8,7 @@ PublishDate = 2018-11-18T17:02:14+01:00
 date = 2018-11-18T17:02:14+01:00
 title = "Updater le cache des méta-données lorsque Portage utilise git"
 editor = "kakoune"
+TopWords = ["gentoo","portage"]
 +++
 Gentoo se modernise et depuis quelques années l'arbre Portage peut-être transmis non plus uniquement via *rsync* mais aussi par *git* maintenant.
 D'un point de vue réseau c'est bien plus rapide : au lieu de parcourir toute l'arborescence pour voir ce qui doit être mis à jour ou non, vous allez juste récupérer les commits depuis la dernière mise à jour.

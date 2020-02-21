@@ -8,6 +8,7 @@ PublishDate = 2019-02-25T15:12:52+01:00
 date = 2019-02-25T15:12:52+01:00
 title = "Grosse attaque du weekend contre le DNS : et DNSSEC ?"
 editor = "kakoune"
+TopWords = [  "attaque", "registrar", "dns", "dnssec","sécurité"]
 +++
 Bon bha ça y est le weekend est passé et tout le monde a publié son ptit truc concernant **la grosse attaque des Internets** !
 

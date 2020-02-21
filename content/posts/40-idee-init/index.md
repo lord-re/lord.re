@@ -6,7 +6,7 @@ Description = "Pistes de réflexion pour faire un init"
 date = "2015-09-12T12:19:40+02:00"
 title = "Une idée d'init"
 menu = "main"
-
+TopWords = [  "choix", "démarrer", "distros", "sysv", "techniques", "unit", "kernel", "init", "systemd"]
 +++
 
 Ces derniers temps, les inits ont la côte.

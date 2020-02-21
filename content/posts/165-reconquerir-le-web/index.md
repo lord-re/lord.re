@@ -8,6 +8,7 @@ PublishDate = 2019-05-09T11:49:38+02:00
 date = 2019-05-09T11:49:38+02:00
 title = "Reconquérir le web"
 editor = "kakoune"
+TopWords = [  "facebook", "google", "style", "css"]
 +++
 Si vous me lisez, j'imagine que vous êtes déjà pas mal sensibilisé aux histoires de vie privée et d'indépendances numérique et des soucis que posent les GAFAM mais je vais quand même en remettre une couche.
 Je ne vise pas tous les GAFAM mais principalement Google et Facebook qui sont à mon avis ceux qui font le plus de tort au web.

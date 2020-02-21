@@ -9,6 +9,7 @@ date = 2018-06-05T22:40:20+02:00
 title = "Trifouillage de firmware de clavier"
 editor = "kakoune"
 jdh = "https://www.journalduhacker.net/s/apzt6c/trifouillage_de_firmware_de_clavier"
+TopWords = [ "tmk", "upload", "keymap", "fn1", "pjrc", "arduino", "firmware", "teensy", "clavier"]
 +++
 Je vous ai déjà parlé de mon clavier fait maison il y a bientôt trois ans dans [ce premier article]({{< ref "/posts/39-clavier-handmade" >}}).
 Il est ptet temps de faire la partie 2 ?

@@ -10,6 +10,7 @@ lastedit = 2018-08-26T22:17:32+02:00
 title = "ZSH plus loin : ZMV"
 editor = "kakoune"
 jdh = "https://www.journalduhacker.net/s/ofg2pc/zsh_plus_loin_zmv"
+TopWords = [ "zsh", "terminal", "cli","term" ]
 +++
 Les petites gens utilisent un environnement de bureau mais en tant que rustre, je préfère largement l'austérité d'un sombre terminal.
 

@@ -8,6 +8,7 @@ PublishDate = 2018-12-01T17:55:34+01:00
 date = 2018-12-01T17:55:34+01:00
 title = "Monter un server esclave Dns"
 editor = "kakoune"
+TopWords = [  "knot", "maître", "remote", "master", "yaml", "acl", "slave", "esclave"]
 +++
 Si vous avez un nom de domaine à vous (et j'espère que si vous êtes sensibilisé à votre identité numérique vous en avez un) il y a deux possibilités :
 

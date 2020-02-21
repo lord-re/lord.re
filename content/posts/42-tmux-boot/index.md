@@ -6,7 +6,7 @@ menu = "main"
 Categories = ["adminsys","software","linux","tips","cli","tmux"]
 Tags = ["adminsys","software","linux","tips","cli"]
 Description = "Une ruse de sioux pour bypasser l'init et démmarrer des applis dans tmux. Super pratique. Mieux qu'un init classique"
-
+TopWords = [  "sh", "tmuxboot", "init", "tmux"]
 +++
 En voilà une chose triviale mais qui n'est pas si simple que ça.
 Démarrer une appli au boot, généralement c'est le boulot de l'init, ça devrait être easy (hein systemd).

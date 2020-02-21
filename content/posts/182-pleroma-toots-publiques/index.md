@@ -8,6 +8,7 @@ WritingDate = 2019-10-29T21:22:49+01:00
 date = 2019-10-30T11:22:49+01:00
 title = "Pleroma : problèmes de toots publiques"
 editor = "kakoune"
+TopWords = [  "elixir", "enum", "postgresql", "publisher", "activity_pub", "activitypub", "fediverse", "pleroma"]
 +++
 Je viens de passer une semaine avec mon instance Pleroma à moitié petée.
 Enfin même pas la moitié juste un petit morceau : je pouvais plus envoyer de toots publics.

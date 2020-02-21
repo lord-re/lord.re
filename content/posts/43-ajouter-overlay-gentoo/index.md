@@ -6,7 +6,7 @@ title = "Ajouter un overlay Gentoo sans layman"
 menu = "main"
 Categories = ["adminsys","software","linux","gentoo","cli"]
 Tags = ["adminsys","software","linux","gentoo","cli"]
-
+TopWords = [  "portage", "gentoo", "sync"]
 +++
 Les overlays sous Gentoo sont des surcouches à l'arbre Portage.
 Portage est en fait une grande collection de scripts pour installer des logiciels.

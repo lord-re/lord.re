@@ -10,6 +10,7 @@ lastEdit = 2018-06-04T23:09:17+02:00
 title = "Ce qu'il se passe quand on envoie un mail"
 editor = "kakoune"
 jdh = "https://www.journalduhacker.net/s/yuyuhb/ce_quil_se_passe_quand_on_envoi_un_mail"
+TopWords = [  "signature", "spam", "envoi", "google", "mx", "smtp", "réception", "dns", "émission", "gmail"]
 +++
 On m'a soufflotté dans l'oreille que ce sujet pourrait être intéressant.
 Et effectivement ça l'est.

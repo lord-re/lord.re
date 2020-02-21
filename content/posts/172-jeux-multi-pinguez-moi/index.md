@@ -8,6 +8,7 @@ PublishDate = 2019-07-21T19:29:58+02:00
 date = 2019-07-21T19:29:58+02:00
 title = "Pinguez-moi pour jouer !"
 editor = "kakoune"
+TopWords = [  "brutal", "brutality", "factorio", "multi", "openttd", "project", "blocktrix", "mods", "cpma", "doom"]
 +++
 Après discussion sur IRC, je me suis dit qu'il serait intéressant de lister ici les quelques jeux multi que j'affectionne suffisamment pour être partant pour faire une ptite partie avec vous un peu n'importe quand.
 

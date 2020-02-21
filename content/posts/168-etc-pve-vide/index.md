@@ -8,6 +8,7 @@ PublishDate = 2019-06-03T12:42:30+02:00
 date = 2019-06-03T12:42:30+02:00
 title = "/etc/pve vide sur Proxmox"
 editor = "kakoune"
+TopWords = [  "cluster", "erreur", "pve","proxmox","adminsys","linux","container"]
 +++
 J'ai filé un ptit coup de main aujourd'hui sur une ptite install Proxmox un peu à l'agonie.
 

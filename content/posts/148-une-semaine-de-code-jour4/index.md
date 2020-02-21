@@ -8,6 +8,7 @@ PublishDate = 2018-12-20T23:42:31+01:00
 date = 2018-12-20T23:42:31+01:00
 title = "Une semaine pour coder par soi même : Jour 4"
 editor = "kakoune"
+TopWords = [  "case", "incoming", "writestring", "func", "strings", "ircconn", "channel", "conn", "elements"]
 +++
 Allez je vais être franc, j'y ai pas trop trop touché aujourd'hui, j'étais occupé par ailleurs.
 J'ai presque pas lurker sur le Fédiverse et à peine sur les IRC.

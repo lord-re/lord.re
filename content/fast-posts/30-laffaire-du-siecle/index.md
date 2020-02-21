@@ -8,6 +8,7 @@ PublishDate = 2018-12-18T23:22:34+01:00
 date = 2018-12-18T23:22:34+01:00
 title = "L'affaire du Siècle"
 editor = "kakoune"
+TopWords = [ "co2", "réduire", "terme", "nucléaire"]
 +++
 Attention je risque de dire des conneries, je serai râvis d'entendre votre avis à ce sujet !
 

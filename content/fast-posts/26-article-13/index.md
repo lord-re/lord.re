@@ -8,6 +8,7 @@ PublishDate = 2018-09-12T22:28:15+02:00
 date = 2018-09-12T22:28:15+02:00
 title = "L'article 11 et 13"
 editor = "kakoune"
+TopWords = [  "amp", "facebook", "presse", "google"]
 +++
 Le web est en émoi : l'Europe prend la direction d'une loi qui va amocher l'Internet.
 

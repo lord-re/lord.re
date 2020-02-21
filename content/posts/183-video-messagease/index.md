@@ -8,6 +8,7 @@ WritingDate = 2019-11-03T09:22:49+01:00
 date = 2019-11-03T09:22:49+01:00
 title = "Messagease en vidéos"
 editor = "kakoune"
+TopWords = [  "vid", "clavier", "messagease","android"]
 +++
 Je vous ai déjà fait [un article concernant Messagease]({{< ref "/posts/153-messagease" >}}) mais j'ai eu quelques retours.
 Souvent les gens sont assez convaincu par l'article mais une fois devant la bête se retrouvent un peu perdu.

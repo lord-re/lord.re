@@ -8,6 +8,8 @@ PublishDate = 2018-10-14T19:00:28+02:00
 date = 2018-10-15T22:00:28+02:00
 title = "Recompresser ses photos et ses vidéos"
 editor = "kakoune"
+TopWords = [  "bash", "mogrify", "qualité", "script", "jpeg", "photos"]
+
 +++
 Ces derniers temps je suis en pleine migration de serveurs et donc je bouge pas mal de données.
 Je vous en ai parlé, j'ai recompressé tout plein de photos persos mais également les vidéos.

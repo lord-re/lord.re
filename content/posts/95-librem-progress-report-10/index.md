@@ -9,6 +9,7 @@ Categories = ["traduction","software","librem","purism"]
 title = "10ème article d'avancement du Librem 5"
 editor = "kakoune"
 jdh = "https://www.journalduhacker.net/s/bn09lh/10_me_article_davancement_du_librem_5"
+TopWords = [  "exemples", "flatpak", "outils", "smartphone", "doc"]
 +++
 Ceci est une traduction libre de [cet article](https://puri.sm/posts/librem5-progress-report-10/) concernant les avancées de la société Purism concernant le smartphone **Librem 5**.
 L'article original est sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) tout comme ma traduction.

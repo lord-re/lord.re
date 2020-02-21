@@ -9,6 +9,7 @@ PublishDate = 2018-04-30T15:37:53+02:00
 date = 2018-04-30T15:37:53+02:00
 title = "Des fissures dans le Fediverse"
 editor = "kakoune"
+TopWords = [  "protocole", "irc", "pleroma", "wikipedia", "fédération", "instances", "social", "mastodon", "fediverse"]
 +++
 La popularité récente de Mastodon mais plus largement du **Fédiverse** est intéressante.
 Mais.

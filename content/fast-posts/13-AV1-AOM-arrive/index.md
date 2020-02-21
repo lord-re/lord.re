@@ -9,6 +9,7 @@ PublishDate = 2018-03-28T15:48:38+02:00
 date = 2018-03-28T15:48:38+02:00
 title = "AV1 est de sortie"
 editor = "kakoune"
+TopWords = [  "av1", "vp9", "xiph", "codec", "aomedia"]
 +++
 Vous l'attendiez pas et pourtant [il arrive](https://aomedia.org/the-alliance-for-open-media-kickstarts-video-innovation-era-with-av1-release/) quand même.
 AV1 est un nouveau codec vidéo.

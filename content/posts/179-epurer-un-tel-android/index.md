@@ -8,6 +8,7 @@ WritingDate = 2019-08-27T13:13:57+02:00
 date = 2019-09-10T19:13:57+02:00
 title = "Épurer un téléphone Android"
 editor = "kakoune"
+TopWords = [  "applis", "bixby", "merdes", "sec", "app", "google", "samsung", "android"]
 +++
 J'ai récemment changé de téléphone pour le boulot.
 Me voilà donc avec un Samsung Galaxy A50.

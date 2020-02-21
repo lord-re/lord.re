@@ -8,6 +8,7 @@ PublishDate = 2018-10-02T16:24:00+02:00
 date = 2018-10-03T12:24:00+02:00
 title = "Youtube : La menace des Youtubeurs"
 editor = "kakoune"
+TopWords = [  "produire", "public", "peertube", "communauté", "vidéastes", "pub", "commentaires", "youtubeur", "youtubeurs", "youtube"]
 +++
 Comme je vous l'ai dit précédemment, je reviens du [Festival Frames](http://framesfestival.fr/) qui s'est déroulé à Avignon et où de nombreux Youtubeurs sont venus.
 Et du coup j'ai pas mal réflêchi à leurs soucis qui commencent à revenir de plus en plus dans l'actualité : *les problèmes psychologiques liés à leur «profession»*.

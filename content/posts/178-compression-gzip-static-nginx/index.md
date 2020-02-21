@@ -8,6 +8,7 @@ PublishDate = 2019-08-15T22:16:24+02:00
 date = 2019-08-27T22:16:24+02:00
 title = "Compresser ses fichiers statiques pour son site ouaib"
 editor = "kakoune"
+TopWords = [  "compression", "gzip", "compresser", "nginx","blog","static","statique"]
 +++
 La mode actuelle des sites statiques n'est pas qu'une … heu … mode.
 Les sites statiques ont en effet énormément d'avantages dont les excellentes performances.

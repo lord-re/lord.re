@@ -8,6 +8,7 @@ PublishDate = 2018-08-30T21:19:54+02:00
 date = 2018-08-30T21:19:54+02:00
 title = "Ecometer : De mauvais à plutôt bon en paginant."
 editor = "kakoune"
+TopWords = [  "flux", "label", "rss", "score", "pagination", "url", "paginator"]
 +++
 J'ai de loin maté [une conf concernant le GreenIT](https://www.paris-web.fr/2016/conferences/eco-conception-mon-site-web-au-regime.php) appliqué au web.
 Habituellement le GreenIT est assez pipeau mais étonnamment j'ai trouvé ça plutôt cohérent.

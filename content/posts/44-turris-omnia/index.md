@@ -6,7 +6,7 @@ title = "Nouveau routeur Turris Omnia"
 menu = "main"
 Categories = ["hardware","software","réseau","tips"]
 jdh = "https://www.journalduhacker.net/s/mgijdu/retour_dexp_rience_routeur_turris_omnia"
-
+TopWords = [  "cz", "nic", "résolveur", "turris", "wifi", "dhclient", "dns", "routeur", "dhcp", "openwrt"]
 +++
 
 Après pas loin d'un an d'attente le kickstarter du **Turris Omnia** est arrivé à la maison \o/.

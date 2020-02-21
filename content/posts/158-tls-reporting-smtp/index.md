@@ -8,6 +8,7 @@ PublishDate = 2019-02-21T17:36:50+01:00
 date = 2019-02-21T17:36:50+01:00
 title = "TLS RePorTing sur votre serveur mail"
 editor = "kakoune"
+TopWords = [  "tls", "txt","sécurité","dns","mail"]
 +++
 Hey, je suis tombé sur une RFC assez récente l'autre soir.
 La [8460 de septembre 2018](https://tools.ietf.org/html/rfc8460) qui permet de rajouter encore un ptit truc à votre stack mail.

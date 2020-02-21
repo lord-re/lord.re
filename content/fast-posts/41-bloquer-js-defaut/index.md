@@ -8,6 +8,7 @@ WritingDate = 2019-11-15T15:59:57+01:00
 date = 2019-11-15T15:59:57+01:00
 title = "Les trackers 1st-party : quelles solutions ?"
 editor = "kakoune"
+TopWords = [  "bloquer", "js", "drop", "forward", "party", "pubs", "sbin", "iptables"]
 +++
 Bon bha voilà qu'on est en train de se rendre compte que *non le RGPD ne nous protège pas tant que ça des violeurs de vie privée*.
 Ptet même qu'au contraire ça a d'autant plus poussé les marketeux à dévelloper de nouvelles armes plus pernicieuses.

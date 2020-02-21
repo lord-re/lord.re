@@ -5,7 +5,7 @@ date = "2013-10-27T23:21:23+02:00"
 title = "IP Proxy Logs Nginx Reverse"
 Description = "Comment afficher l'adresse du client dans les logs lorsque son ptit nginx est derrière un reverse proxy ? Vous le découvrirez vite"
 menu = "main"
-
+TopWords = [  "proxy", "requête", "nginx", "ip"]
 +++
 Le titre ne pourrait être plus explicite ! Vous avez remarqué comme lorsqu'on fait du reverse proxy, le backend ne voit plus que l'ip du frontend ?
 C'est tout à fait logique puisque les requêtes proviennent exclusivement du serveur frontal qui fait son boulot.

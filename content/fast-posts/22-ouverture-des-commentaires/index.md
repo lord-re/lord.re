@@ -8,6 +8,7 @@ PublishDate = 2018-08-22T19:28:10+02:00
 date = 2018-08-22T19:28:10+02:00
 title = "Ouverture Des Commentaires"
 editor = "kakoune"
+TopWords = [  "lan", "commentaires", "isso"]
 +++
 Ceux qui lisent jusqu'en bas des articles ont dû voir que depuis hier, ça y est, il y a moyen de commenter.
 

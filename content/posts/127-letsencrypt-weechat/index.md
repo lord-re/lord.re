@@ -8,6 +8,7 @@ PublishDate = 2018-09-25T19:01:54+02:00
 date = 2018-09-25T19:01:54+02:00
 title = "Sécuriser le relay Weechat avec LetsEncrypt"
 editor = "kakoune"
+TopWords = [  "interfaces", "letsencrypt", "pem", "vhost", "irc", "nginx", "ssl", "acme", "relay", "weechat"]
 +++
 Weechat (le meilleur client IRC de tous les temps et de loin) possède un fonction super sympa : *le relay*.
 Il permet soit à un autre client IRC de se connecter à Weechat comme un bouncer soit à des interfaces de Weechat de se connecter.

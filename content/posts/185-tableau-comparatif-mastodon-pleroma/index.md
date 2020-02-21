@@ -8,6 +8,7 @@ WritingDate = 2019-07-21T21:41:41+02:00
 date = 2019-11-23T21:41:41+02:00
 title = "Comparatif entre Mastodon et Pleroma"
 editor = "kakoune"
+TopWords = [  "blog", "postgres", "recherche", "api", "toot", "soc", "glitch", "pleroma", "mastodon"]
 +++
 Je traîne un peu sur le Fédiverse.
 C'est un amalgame de services différents constituant un réseau social assez différent de ce qu'on trouve ailleurs.

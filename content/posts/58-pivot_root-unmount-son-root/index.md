@@ -9,7 +9,7 @@ Categories = ["software","tips","linux","cli","adminsys","fs","btrfs"]
 Description = "Comment faire pour démonter sa partition racine alors que votre OS tourne dessus ? Allez suivez le guide."
 publishDate = "2017-09-16T17:03:12+02:00"
 jdh = "https://www.journalduhacker.net/s/bq5ezx/unmount_son_root_sans_reboot"
-
+TopWords = [  "ramdisk", "mkdir", "pivot_root", "mount", "oldroot", "partition", "proc", "racine", "ram", "ramroot"]
 +++
 
 Vous avez jamais voulu démonter la partition racine de votre ptit nunux ? Non ? Pourquoi faire ?! Bhaa je sais pas moi, par exemple faire des opérations sur votre partition racine (redimensionner/changer le filesystem/réparer le fs). Sauf que bon en temps normal vous ne pouvez pas démonter la partition racine puisque votre OS est sur cette partition.

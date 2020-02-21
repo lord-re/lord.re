@@ -8,6 +8,7 @@ PublishDate = 2019-06-11T18:23:39+02:00
 date = 2019-06-11T18:23:39+02:00
 title = "Maintenance de la DB de Pleroma"
 editor = "kakoune"
+TopWords = [  "2018", "2019", "pleroma", "adminsys","postgresql","postgres"]
 +++
 
 Le Fédiverse c'est vraiment génial.

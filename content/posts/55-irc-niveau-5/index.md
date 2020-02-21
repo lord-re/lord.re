@@ -7,7 +7,7 @@ date = "2017-08-25T09:54:59+02:00"
 title = "Guide d'utilisation d'IRC : niveau 5"
 notoc = true
 menu = "main"
-
+TopWords = [  "gline","irc","modes","salon"]
 +++
 ## Guide pour ircop : Protéger son réseau
 Cette partie est plus un mémo personnel qu'un guide général. C'est très spécifique à l'ircoperie de Geeknode…

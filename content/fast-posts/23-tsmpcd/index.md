@@ -8,6 +8,7 @@ PublishDate = 2018-08-27T17:16:54+02:00
 date = 2018-08-28T17:19:54+02:00
 title = "Client MPD : TSMPCD"
 editor = "kakoune"
+TopWords = [ "mpd", "input", "mpc","script","musique"]
 +++
 Il y a trois mois je vous parlait de ma migration de Groovebasin vers MPD dans [cet article]({{< ref "/posts/103-remplacer-groovebasin"  >}}).
 Et je vous avais parlé de mon Frankenscript qui me sert de *client MPD*.

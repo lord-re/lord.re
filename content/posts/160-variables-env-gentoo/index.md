@@ -8,6 +8,7 @@ PublishDate = 2019-04-16T18:12:17+02:00
 date = 2019-04-16T18:12:17+02:00
 title = "Les variables d'environnement chez Gentoo"
 editor = "kakoune"
+TopWords = [  "sway", "qt", "variables", "bug","gentoo","qutebrowser"]
 +++
 ## Pourquoi j'ai eu besoin d'y toucher ?
 TL;DR passez au chapitre suivant

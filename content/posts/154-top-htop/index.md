@@ -9,6 +9,7 @@ date = 2019-01-10T19:04:28+01:00
 lastEdit = 2019-02-19T18:18:12+01:00
 title = "Top et Htop"
 editor = "kakoune"
+TopWords = [ "linux", "cpu", "processus", "htop", "top"]
 +++
 Lors d'un récent post je vous ai montré un ptit screenshot d'**htop** et certains étaient intéressés donc voilà un mini article à ce propos.
 

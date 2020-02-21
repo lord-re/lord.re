@@ -8,6 +8,7 @@ PublishDate = 2018-10-29T12:33:50+01:00
 date = 2018-10-29T12:33:50+01:00
 title = "Confer un ONT alcatel"
 editor = "kakoune"
+TopWords = [  "slid","internet","fibre"]
 +++
 Une panne de connexion Internet à la maison est l'un des plus grand cataclysme des temps modernes.
 Pour parer à toute éventualité (enfin à mon niveau), j'ai choppé un ONT de rabe.

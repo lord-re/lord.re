@@ -9,6 +9,7 @@ notoc = true
 PublishDate = 2018-02-11T10:34:48+01:00
 date = 2018-02-11T10:34:48+01:00
 title = "Méta-actu du blog"
+TopWords = [  "blog", "hugo", "modifs", "post", "listes"]
 +++
 Bon bha voilà après deux mois je fais un petit retour sur les avancées du blog.
 

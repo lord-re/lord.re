@@ -8,6 +8,7 @@ PublishDate = 2019-01-22T22:17:39+01:00
 date = 2019-01-23T22:14:39+01:00
 title = "Deux grands types de VPN"
 editor = "kakoune"
+TopWords = [  "appareil", "commercial", "trafic", "privé", "ffdn", "passerelle", "box", "publique", "ip", "vpn","internet","routeur"]
 +++
 Ça a commencé autour d'une [discussion sur le Fédiverse](https://framapiaf.org/users/Troupier/statuses/101461668076007826) et comme visiblement ça a plu, je me suis dit qu'en parler ici un peu plus longuement pourrait le faire.
 

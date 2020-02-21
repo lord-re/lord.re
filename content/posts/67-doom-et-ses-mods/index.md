@@ -7,6 +7,7 @@ notoc = true
 PublishDate = 2017-12-22T11:44:50+01:00
 date = 2017-12-22T11:44:50+01:00
 title = "Doom et ses Mods"
+TopWords = [  "share", "brutality", "moddb", "project", "campagne", "wad", "moteur", "mods", "brutal", "doom"]
 +++
 
 Voilà Noël approche et du coup probablement quelques jours de congé/wacances. Quel est le meilleur passe-temps en ces périodes de mièvreries et chansons ringardes ?

@@ -8,6 +8,7 @@ PublishDate = 2019-08-01T17:48:08+02:00
 date = 2019-08-02T09:48:08+02:00
 title = "Adoption d'une Odroid N2"
 editor = "kakoune"
+TopWords = [  "arch", "usb", "clavier", "emmc", "modules", "odroid", "archlinux", "board", "alpine", "n2","sbc"]
 +++
 Après les galères habituelles de livraison Made in Colissimo (grrrrr) j'ai enfin pû recueillir une ptite nouvelle à la maison.
 

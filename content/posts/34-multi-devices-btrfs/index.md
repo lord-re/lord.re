@@ -5,7 +5,7 @@ menu = "main"
 date = "2014-02-16T23:28:35+02:00"
 title = "Multi devices BTRFS"
 Categories = ["linux","software","adminsys","tips","fs","btrfs"]
-
+TopWords = [  "magique", "partitions", "device", "mount", "raid1", "mnt", "test", "disque", "raid", "btrfs"]
 +++
 Étant malade ce week-end, quoi de mieux qu'un peu de machines virtuelles de BTRFS et de temps pour guérir ?
 Donc voilà en vue de la rénovation de mon système de stockage actuel j'ai commencé à faire mumuse avec BTRFS en mode multi-devices.

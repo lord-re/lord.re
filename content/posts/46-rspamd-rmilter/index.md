@@ -6,7 +6,7 @@ date = "2016-10-18T15:17:19+02:00"
 title = "Dégageons opendkim et spamassassin pour Rspamd et Rmilter"
 menu = "main"
 jdh = "https://www.journalduhacker.net/s/vtv4an/d_gageons_opendkim_et_spammassassin_pour"
-
+TopWords = [  "postscreen", "spam", "air", "dkim", "fout", "tiens", "postfix", "opendkim", "rspamd", "rmilter"]
 +++
 Après ce suspens insoutenable voilà la suite tant attendu.
 Petit résumé pour les adeptes du tldr de l'article précédent : bon j'ai foutu du postscreen sur les deux mx tout va bien sauf qu'en fait je me suis rendu compte que mes mails ne sont plus signés par opendkim et spamassassin ne me satisfait plus trop trop.

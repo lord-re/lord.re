@@ -8,6 +8,7 @@ PublishDate = 2019-08-03T18:22:31+02:00
 date = 2019-08-07T16:22:31+02:00
 title = "Automount des partitions par leur label sous Alpine avec mdev"
 editor = "kakoune"
+TopWords = [  "storage_dir", "disk", "label", "target_symlink", "mount", "partition", "mdev"]
 +++
 Bon maintenant que j'ai une Alpine sur l'Odroid HC2 il faut y mettre les données.
 J'ai donc un bon gros disque dur sur le port sata et un dock USB pour le disque dur des backup.

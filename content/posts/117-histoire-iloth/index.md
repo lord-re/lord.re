@@ -8,6 +8,7 @@ PublishDate = 2018-07-18T23:25:22+02:00
 date = 2018-07-22T12:45:22+02:00
 title = "L'Histoire d'Iloth"
 editor = "kakoune"
+TopWords = [ "membre", "montpellier", "assos", "rmll", "iloth", "membres", "asso","fdn","ffdn","internet"]
 +++
 
 J'en ai jamais vraiment parlé sur mon blog et pourtant Iloth représente une page de ma vie.
@@ -164,7 +165,7 @@ Le cinéma peut maintenant recevoir certains de ces films sans passer par des di
 
 Juillet arrive et nous voilà donc en train de grimper dans les arbres de l'esplanade avec une grande échelle et un touret de fibre optique au milieu des passants.
 {{< img src="*rmll-arbre-1.thumb.jpg" link="117-rmll-arbre-1.jpg" alt="Les premiers petits arbres de l'esplanade" title="Les premiers petits arbres de l'esplanade" >}}
-{{< img src="*rmll-arbre-2.thumb.jpg" link="117-rmll-arbre-2.jpg" alt="Les premiers petits arbres de l'esplanade" title="Les premiers petits arbres de l'esplanade" >}}
+{{< img src="*rmll-arbre-2.thumb.jpg" link="117-rmll-arbre-2.jpg" alt="Les moins petits arbres de l'esplanade" title="Les premiers petits arbres de l'esplanade" >}}
 On tire près de 1250m de fibre dans les arbres en espérant qu'elle survivra une semaine.
 C'est en partie réussie (une seule fibre pétée paralysant qu'un tiers des stands, on comblera avec un peu de wifi).
 Malgré quelques soucis de MTU et compagnie le réseau fonctionnera sur le campus.

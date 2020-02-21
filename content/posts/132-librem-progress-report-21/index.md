@@ -9,6 +9,7 @@ notoc = true
 title = "21ème article d'avancement du Librem 5"
 editor = "kakoune"
 jdh = ""
+TopWords = [  "application", "mesa", "wlroots", "phosh", "2018", "gtk", "upstream", "gitlab", "libhandy", "merge_requests"]
 +++
 
 Ceci est une traduction libre de [cet article](https://puri.sm/posts/librem5-progress-report-21/) concernant les avancées de la société Purism concernant le smartphone **Librem 5**.

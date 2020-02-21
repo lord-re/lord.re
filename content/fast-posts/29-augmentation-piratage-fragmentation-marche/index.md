@@ -8,6 +8,7 @@ PublishDate = 2018-10-03T13:05:35+02:00
 date = 2018-10-04T13:05:35+02:00
 title = "Ré-Augmentation du piratage suite à la fragmentation du marché"
 editor = "kakoune"
+TopWords = [  "globale", "licence", "netflix", "piratage"]
 +++
 Hahahahahaha j'adore [cette news](https://motherboard.vice.com/en_us/article/d3q45v/bittorrent-usage-increases-netflix-streaming-sites).
 

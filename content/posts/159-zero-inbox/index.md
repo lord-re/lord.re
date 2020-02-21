@@ -8,6 +8,7 @@ PublishDate = 2019-04-06T11:38:19+02:00
 date = 2019-04-06T12:38:19+02:00
 title = "Le Zéro Inbox pour vous soulager"
 editor = "kakoune"
+TopWords = [  "boîte", "dossier", "dossiers", "inbox", "viré","mail","organisation"]
 +++
 J'ai eu quelques boîtes mails durant ma vie comme probablement tout le monde.
 Les plus importantes c'était celle de **Hotmail** avec ses *2Mo de stockage* qui paraissaient pas immense mais au final largement suffisant pour l'époque.

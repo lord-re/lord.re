@@ -5,7 +5,7 @@ date = "2017-08-16T15:49:41+02:00"
 title = "Empêcher rsync de pourrir une partoche si c'est pas mount"
 menu = "main"
 Categories = ["linux","software","tips","cli","fs"]
-
+TopWords = [  "backup", "partoche", "script","rsync","mount"]
 +++
 
 Rhaaa Linux et son arboressence unique. Qu'est-ce que c'est bien !

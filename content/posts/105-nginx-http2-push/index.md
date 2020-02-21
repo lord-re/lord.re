@@ -9,6 +9,7 @@ date = 2018-06-01T16:10:17+02:00
 title = "Utiliser HTTP2 et le PUSH avec Nginx"
 editor = "vi"
 jdh = "https://www.journalduhacker.net/s/ph2eh1/utiliser_http2_et_le_push_avec_nginx"
+TopWords = [  "protocole", "ressource", "ressources", "requête", "nginx", "http2", "push"]
 +++
 HTTP2 est une nouvelle version du protocole <abbr title="Hyper Text Transport Protocol">HTTP</abbr> qui améliore pas mal de points de l'original.
 

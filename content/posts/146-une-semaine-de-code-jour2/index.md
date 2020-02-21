@@ -8,6 +8,8 @@ PublishDate = 2018-12-18T10:36:12+01:00
 date = 2018-12-18T10:36:12+01:00
 title = "Une semaine pour coder par soi même : Jour 2"
 editor = "kakoune"
+TopWords = [  "break", "func", "strings", "writestring", "os", "elements", "go", "channel", "println", "conn"]
+
 +++
 Contrairement à hier, j'écris l'article au fil de l'eau.
 

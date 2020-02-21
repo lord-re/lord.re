@@ -5,7 +5,7 @@ date = "2014-03-11T23:36:06+02:00"
 title = "Monter un hébergement de site web propre et performant."
 menu = "main"
 Categories = ["software","libre","tips","www","nginx"]
-
+TopWords = [  "include", "javascript", "log", "vhosts", "php", "vhost", "nginx"]
 +++
 ***Update 2017 :*** *Avec un peu de recul c'est pas mal depuis la conf de nginx a subtilement changé, c'est globalement compatible mais pas optimal.
 Qui plus est j'aborde pas le ssl, http2, …*

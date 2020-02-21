@@ -9,6 +9,7 @@ date = 2018-04-27T22:07:29+02:00
 title = "Mon environnement auto-hébergé"
 editor = "kakoune"
 jdh = "https://www.journalduhacker.net/s/kxcyrd/mon_environnement_auto_h_berg"
+TopWords = [  "musique", "backup", "rss", "sandstorm"]
 +++
 Ça fait un ptit moment que je voulais faire un point des services autoheberge que j'utilise.
 

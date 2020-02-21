@@ -8,6 +8,7 @@ PublishDate = 2018-07-16T12:53:23+02:00
 date = 2018-07-25T11:53:23+02:00
 title = "Configuration Weechat 2018"
 editor = "kakoune"
+TopWords = [  "buffer", "pseudo", "barre", "chanmon", "plugins", "bar", "weechat","term","irc"]
 +++
 
 [Weechat](https://weechat.org/) 2.2 vient de sortir et c'est l'occasion de lui faire un ptit article.

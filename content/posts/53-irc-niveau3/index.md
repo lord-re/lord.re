@@ -7,7 +7,7 @@ title = "Guide d'utilisation d'IRC : niveau 3"
 Categories = ["irc","tips","réseau"]
 Tags = ["irc","tips","réseau"]
 notoc = true
-
+TopWords = [  "geeknode", "ircop", "set", "modes", "protéger", "irc", "pseudo"]
 +++
 ## Guide perso : Se protéger des relous
 Alors la toute première des choses à faire pour se protéger c'est d'**enregistrer son pseudo auprès des services**. Ça évitera que quelqu'un le prenne et se fasse passer pour vous. Pour cela il faut voir avec les services : ***/msg C nick register unmotdepasse uneadressemail***. Désormais à chaque fois que vous vous connecterez au serveur, il faudra vous identifier auprès de C via ***/msg C nick identify unmotdepasse***

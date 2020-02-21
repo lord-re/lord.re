@@ -10,6 +10,7 @@ title = "La demoscene vol.1"
 editor = "kakoune"
 draft = "false"
 jdh = "https://www.journalduhacker.net/s/itfjbs/la_demoscene_vol_1"
+TopWords = [  "image", "run", "wiki", "wikipedia", "watch", "démo", "demoscene", "youtube", "démos"]
 +++
 Connaissez-vous la demoscene ?
 

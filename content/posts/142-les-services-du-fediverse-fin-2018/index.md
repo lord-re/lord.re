@@ -8,6 +8,7 @@ PublishDate = 2018-11-26T17:23:55+02:00
 date = 2018-11-26T17:23:55+02:00
 LastEdit = 2018-11-27T18:57:55+02:00
 title = "Les services du Fédiverse fin 2018"
+TopWords = [  "plume", "rss", "pleroma", "blog", "pixelfed", "fédiverse", "fediverse", "mastodon", "microblog"]
 +++
 J'aime le Fédiverse.
 Mais si vous savez, c'est le web 3.0.

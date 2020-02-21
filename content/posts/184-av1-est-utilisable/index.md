@@ -8,6 +8,7 @@ WritingDate = 2019-11-06T23:12:52+01:00
 date = 2019-11-07T16:12:52+01:00
 title = "AV1 est utilisable !"
 editor = "kakoune"
+TopWords = [  "svt", "codec", "ffmpeg", "rapide", "webm", "av1"]
 +++
 Hey vous avez vu ?!
 Dans mon précédent post j'ai mis des vidéos !

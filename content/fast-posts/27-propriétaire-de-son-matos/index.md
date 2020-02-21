@@ -8,6 +8,7 @@ PublishDate = 2018-09-14T11:03:38+02:00
 date = 2018-09-14T11:03:38+02:00
 title = "Être propriétaire de son matos"
 editor = "kakoune"
+TopWords = [  "apple", "microsoft", "clients"]
 +++
 J'ai toujours voulu être proprio de mon appart.
 Pouvoir faire les trous comme je veux dans le mur, peindre de la couleur que je préfère, avoir son ptit coin à soit.

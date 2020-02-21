@@ -8,6 +8,7 @@ PublishDate = 2019-06-25T22:01:16+02:00
 date = 2019-06-25T22:01:16+02:00
 title = "Se débarasser des firmwares en rabe dans Alpine"
 editor = "kakoune"
+TopWords = [  "linux"]
 +++
 Allez un micro-article des plus rapides.
 

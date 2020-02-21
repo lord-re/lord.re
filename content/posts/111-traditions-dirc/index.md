@@ -1,7 +1,7 @@
 +++
 Author = "Lord"
 Description = "Comprendre et découvrir les us et coutûmes des réseaux IRC."
-Categories = ["irc", ""]
+Categories = ["irc", "culture","geek"]
 menu = "main"
 notoc = true
 PublishDate = 2018-06-18T16:58:21+02:00
@@ -9,6 +9,7 @@ date = 2018-06-20T11:58:21+02:00
 title = "Les us et coutumes d'IRC"
 editor = "kakoune"
 jdh = ""
+TopWords = [  "ask", "discussions", "messages", "question", "salons", "hl", "irc","culture"]
 +++
 
 IRC est l'un des plus anciens protocoles de chat sur Internet encore très activement utilisé.

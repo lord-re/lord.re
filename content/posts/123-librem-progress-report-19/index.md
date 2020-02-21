@@ -9,6 +9,7 @@ notoc = true
 title = "19ème article d'avancement du Librem 5"
 editor = "kakoune"
 jdh = ""
+TopWords = [  "messagerie", "plugin", "walled", "application", "im", "chiffrement", "chatty", "libpurple", "xmpp", "sms"]
 +++
 
 Ceci est une traduction libre de [cet article](https://puri.sm/posts/librem5-progress-report-19/) concernant les avancées de la société Purism concernant le smartphone **Librem 5**.

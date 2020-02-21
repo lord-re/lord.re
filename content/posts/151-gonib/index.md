@@ -8,6 +8,7 @@ PublishDate = 2019-01-01T21:43:01+01:00
 date = 2019-01-02T16:43:01+01:00
 title = "Gonib et ce qu'il y a autour"
 editor = "kakoune"
+TopWords = [  "go", "irc", "tmux", "container", "nib", "gonib"]
 +++
 J'ai mis en service GoNib hier soir et il tourne désormais.
 

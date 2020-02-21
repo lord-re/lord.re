@@ -9,6 +9,7 @@ date = 2018-04-15T22:00:50+02:00
 title = "La demoscene vol.3"
 editor = "kakoune"
 jdh = "https://www.journalduhacker.net/s/0wbokx/demoscene_vol3"
+TopWords = [  "born", "capture", "medium", "mind", "revision", "watch", "youtube", "démo"]
 +++
 C'est parti pour notre troisième excursion dans le monde de la demoscene après [un ptit tour sur les textmodes]({{< ref "/posts/85-demoscene-vol2" >}}).
 

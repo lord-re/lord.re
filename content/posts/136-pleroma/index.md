@@ -9,6 +9,7 @@ date = 2018-11-04T10:30:58+02:00
 LastEdit = 2019-05-31T11:22:58+02:00
 title = "Pleroma : L'alternative à Mastodon"
 editor = "kakoune"
+TopWords = [  "postgresql", "mix", "fediverse", "nginx", "plume", "mastodon", "pleroma"]
 +++
 
 Je me suis monté une instance Pleroma perso.

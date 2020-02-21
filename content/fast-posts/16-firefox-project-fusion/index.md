@@ -9,6 +9,7 @@ PublishDate = 2018-06-01T22:20:50+02:00
 date = 2018-06-01T22:20:50+02:00
 title = "Firefox : Project Fusion - Remplacer le Tor Browser"
 editor = "kakoune"
+TopWords = [  "firefox", "tor"]
 +++
 Ha bha enfin une bonne décision de la part de Mozilla concernant Firefox !
 

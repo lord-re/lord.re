@@ -6,7 +6,7 @@ Description = "Il est possible de commander son écran via l'ordi. C'est super p
 menu = "main"
 date = "2017-08-04T15:42:01+02:00"
 jdh = "https://www.journalduhacker.net/s/ugvwin/controller_son_cran_depuis_lordi"
-
+TopWords = [  "ddccontrol", "luminosité", "nuit", "règlages", "ddc", "i2c", "ddcutil","écran"]
 +++
 
 Rhaaa ce que c'est chiant de devoir tripoter les boutons de son écran pour y modifier les règlages. Vous voulez voir ce qu'il se passe sur une autre entrée vidéo sans pour autant décoller votre dos de votre cher siège ? Et bha en fait c'est pas si compliqué. Toutes les sorties vidéos depuis le VGA dispose de plusieures broches dont cernaines servent non pas à envoyer le signal vidéo mais plutôt des données. On va utiliser ça. C'est facile et rapide.

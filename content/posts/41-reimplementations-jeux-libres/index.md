@@ -6,7 +6,7 @@ title = "Réimplémentations libres de moteurs de jeux"
 menu = "main"
 Categories = ["libre","software","linux","jeux","fps"]
 Description = "Petite collection de jeux libres issus de jeux proprios. Des heures de glandage en perspectives."
-
+TopWords = [  "doom", "droit", "opensource", "refaire", "vieux", "assets", "github", "moteur", "jeux"]
 +++
 
 C'est nowel 2015.

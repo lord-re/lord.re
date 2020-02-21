@@ -9,6 +9,7 @@ date = 2018-07-31T22:36:26+02:00
 title = "16ème article d'avancement du Librem 5"
 editor = "kakoune"
 jdh="https://www.journalduhacker.net/s/siodxa/16_me_article_davancement_du_librem_5"
+TopWords = [  "librem", "tobias", "matrix", "app", "calls", "fractal", "application", "design", "messages"]
 +++
 
 Ceci est une traduction libre de [cet article](https://puri.sm/posts/librem5-progress-report-16/) concernant les avancées de la société Purism concernant le smartphone **Librem 5**.

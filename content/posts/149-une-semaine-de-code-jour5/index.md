@@ -8,6 +8,7 @@ PublishDate = 2018-12-21T10:27:36+01:00
 date = 2018-12-21T10:27:36+01:00
 title = "Une semaine pour coder par soi même : Jour 5"
 editor = "kakoune"
+TopWords = [  "case", "strings", "writestring", "time", "channel", "elements", "func", "ircconnection", "conn"]
 +++
 J'ai cogité toute la nuit à cette histoire.
 Je pense que mon subconscient est allé puiser au fin fond de souvenirs anciens et il m'a resorti deux trucs : *les pointeurs*, les *getters/setters*.

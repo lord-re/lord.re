@@ -8,6 +8,7 @@ PublishDate = 2019-05-02T10:53:49+01:00
 date = 2019-05-02T10:53:49+01:00
 title = "Héberger un site statique"
 editor = "kakoune"
+TopWords = [  "serveur", "blog", "héberger","autohebergement"]
 +++
 Dans [l'épisode précédent]({{< ref "/posts/82-hugo-tutorial" >}}), on a créé un blog mais maintenant il reste des étapes avant d'avoir vos premiers visiteurs.
 

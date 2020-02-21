@@ -8,6 +8,7 @@ PublishDate = 2019-08-22T19:55:39+02:00
 date = 2019-09-18T10:55:39+02:00
 title = "Déploiement Hugo"
 editor = "kakoune"
+TopWords = [  "extension", "hugo", "sh", "thumbnail", "thumbname", "openring", "script", "web","autohebergement"]
 +++
 Je génère mon blog avec le logiciel **Hugo** directement sur mon ordi.
 Un site ouaib c'est au final qu'un ensemble de fichiers textes et des images en plus.

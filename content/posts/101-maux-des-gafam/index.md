@@ -9,6 +9,7 @@ date = 2018-05-15T11:23:29+01:00
 title = "Les maux des GAFAM"
 editor = "kakoune"
 jdh = "https://www.journalduhacker.net/s/k9yfxi/les_maux_des_gafam"
+TopWords = [  "reproche", "cloud", "facebook", "produit", "privée", "pub", "google", "apple"]
 +++
 Il est de bon ton de critiquer les GAFAM.
 C'est un sport assez commun.

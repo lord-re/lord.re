@@ -9,6 +9,7 @@ notoc = true
 title = "20ème article d'avancement du Librem 5, le vrai"
 editor = "kakoune"
 jdh = ""
+TopWords = [  "calls", "wayland", "gitlab", "issues", "libhandy", "plasma", "2018", "phosh", "gtk", "merge_requests"]
 +++
 
 *Ouai je me suis merdé la fois d'avant, c'était pas le 20ème… mais je vous jure, ce coup-ci c'est le cas !*

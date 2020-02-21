@@ -9,6 +9,7 @@ draft = false
 PublishDate = 2017-12-23T17:50:32+01:00
 date = 2019-08-14T15:50:32+01:00
 title = "Se créer un initramfs manuellement"
+TopWords = [  "btrfs", "root", "echo", "mount", "dir", "initramfs", "file", "755", "kernel","linux", "lib64"]
 +++
 ou
 

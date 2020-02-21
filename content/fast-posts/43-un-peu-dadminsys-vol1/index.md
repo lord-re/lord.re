@@ -8,6 +8,7 @@ WritingDate = 2020-02-07T19:53:40+01:00
 date = 2020-02-09T19:53:40+01:00
 title = "Un peu d'adminsys vol.1 : Alpine 2020, Acme, Knot"
 editor = "kakoune"
+TopWords = [  "dns", "postfix", "sort", "alpine", "knotc", "nginx", "upgrade", "acme", "apk"]
 +++
 En ce tout début de weekend, je sais pas trop pourquoi j'ai eu envie de faire un peu d'adminsys.
 Du coup je vais vous partager ce petit vrac.

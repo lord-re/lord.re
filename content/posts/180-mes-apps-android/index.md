@@ -9,6 +9,7 @@ lastedit = 2019-09-17T15:45:30+02:00
 date = 2019-09-16T10:40:02+02:00
 title = "Mes applis Android"
 editor = "kakoune"
+TopWords = [  "launcher", "moteur", "applis", "recherche", "appli", "fdroid","android"]
 +++
 Après avoir [épuré le téléphone]({{< ref "/posts/179-epurer-un-tel-android" >}}) il est temps de le peupler convenablement.
 

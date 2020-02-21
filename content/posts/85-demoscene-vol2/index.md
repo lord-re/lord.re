@@ -10,6 +10,7 @@ date = 2018-03-14T11:30:30+01:00
 title = "La demoscene vol.2"
 editor = "kakoune"
 jdh = "https://www.journalduhacker.net/s/mh1wis/la_demoscene_vol_2"
+TopWords = [ "art", "ascii", "démos", "équipes", "youtube"]
 +++
 Lors de l'[article précédent]({{< ref "/posts/77-demoscene-v1" >}}), on a découvert de loin ce qu'était la Démoscene.
 Continuons un peu cette exploration.

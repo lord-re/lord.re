@@ -8,6 +8,7 @@ PublishDate = 2019-02-12T19:14:47+01:00
 date = 2019-02-12T19:14:47+01:00
 title = "Debunkage de Debunkage des mythes de Wayland"
 editor = "kakoune"
+TopWords = [  "commentaires", "nvidia", "graphique", "devs", "xorg", "protocole", "wayland","fud","debunk"]
 +++
 DrewDevault s'est lancé dans [un blog post pour débunker les mythes autours de Wayland](https://drewdevault.com/2019/02/10/Wayland-misconceptions-debunked.html).
 Bon pour info ce gars est un des devs de **Wlroots** et **Sway**.

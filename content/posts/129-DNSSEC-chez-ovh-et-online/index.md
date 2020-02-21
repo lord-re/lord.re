@@ -8,6 +8,7 @@ PublishDate = 2018-10-05T12:10:03+02:00
 date = 2018-10-05T12:10:03+02:00
 title = "Gestion de l'enregistrement DS chez OVH et Online pour votre DNSSEC"
 editor = "kakoune"
+TopWords = [  "champ", "enregistrement", "iana", "dnssec", "ksk", "online", "ovh", "dns", "ds"]
 +++
 Étant actuellement en pleine migration de serveur, je fais pas mal d'adminsys ces derniers jours.
 

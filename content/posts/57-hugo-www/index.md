@@ -7,7 +7,7 @@ title = "Refonte complète du site"
 menu = "main"
 Categories = ["www","meta","adminsys","cli","git","hugo","blog"]
 publishDate = "2017-09-08T17:03:12+02:00"
-
+TopWords = [  "blog", "go","sidebar", "rss", "hugo"]
 +++
 
 Ça faisait un bail que j'avais pas trop touché au site (blog ?). Ça fait depuis quelques années qu'il ne s'agissait que d'un simple fichier *index.html* que j'éditais à la mano dans vim. Une seule et unique page avec tout le contenu. C'était plutôt élégant techniquement et pratique. Mais ça a aussi quelques limites. La première c'est que j'avais pas de flux rss. C'est un peu la honte. Étant moi même présentement présent un très grand utilisateur des reusseusseu ça me tiraillait. D'autant plus que je ne publie absolument pas régulièrement sur le site.

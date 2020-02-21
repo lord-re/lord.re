@@ -8,6 +8,7 @@ PublishDate = 2019-01-02T20:50:45+01:00
 date = 2019-01-03T13:50:45+01:00
 title = "Mon TOC des processus"
 editor = "kakoune"
+TopWords = [  "programme", "htop", "linux", "processus"]
 +++
 Je dois vous avouer que j'ai quelques obsessions.
 L'une d'elle est le *nombre de processus qui tournent sur mes machines*.

@@ -8,7 +8,7 @@ title = "Enregistrement DNS de type CAA pour protéger votre TLS"
 Categories = ["adminsys","sécu","knot","dns","tls"]
 Description = "Comment améliorer un chouilla sa sécurité TLS"
 jdh = "https://www.journalduhacker.net/s/cft5mk/enregistrement_dns_de_type_caa_pour_prot"
-
+TopWords = [  "certificate", "transparency", "certificat", "dns", "letsencrypt", "signer", "caa", "certificats", "ca"]
 +++
 
 La mouvance actuelle de chiffrer de plus en plus de contenu est vraiment une bonne chose. Un peu plus de sécurité pour tout le monde c'est parfait. Surtout si c'est bien fait sinon c'est complètement contre-productif. Letsencrypt a énormément contribué à la démocratisation des certifs x509 pour le ***TLS*** grâce à son protocole bien efficace et aussi ses tarifs imbattables.

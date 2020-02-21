@@ -8,6 +8,7 @@ draft = false
 PublishDate = 2018-07-27T11:43:00+02:00
 date = 2018-10-18T16:43:00+02:00
 title = "Rituel à chaque nouveau kernel"
+TopWords = [  "modules", "symbolique", "lien", "linux", "sources", "kernel"]
 +++
 Dans plus très longtemps maintenant, on va passer à Linux 5.0.
 Bon c'est pas une version plus majeure qu'une autre… c'est juste que … c'est chiant de compter à plus de 20, donc autant repartir au dessus à zéro.

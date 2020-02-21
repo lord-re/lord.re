@@ -9,6 +9,7 @@ date = 2020-01-07T11:55:20+01:00
 title = "Le fonctionnement d'un switch réseau"
 editor = "kakoune"
 lastEdit = 2020-01-08T23:39:11+01:00
+TopWords = [  "performances", "hub", "ordinateur", "raccorder", "mac", "ports", "switchs", "switch","internet","réseau"]
 +++
 Le *commutateur réseau* ou *switch* est un appareil de base de tout réseau informatique.
 C'est la multiprise réseau qui permet de raccorder un peu tous vos appareils à votre réseau local pour avoir accès à l'Internet !

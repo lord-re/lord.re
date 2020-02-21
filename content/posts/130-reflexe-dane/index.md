@@ -8,6 +8,7 @@ PublishDate = 2018-10-08T22:35:56+02:00
 date = 2018-10-11T15:35:56+02:00
 title = "Reflexe Dane"
 editor = "kakoune"
+TopWords = [ "ksk", "tlsa", "dane", "certificat", "dns", "dnssec"]
 +++
 J'ai déjà plusieurs fois abordé DNSSEC et une fois survolé DANE mais je vais en remettre une couche.
 

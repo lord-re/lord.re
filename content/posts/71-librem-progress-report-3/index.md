@@ -8,6 +8,7 @@ PublishDate = 2018-02-02T21:35:38+01:00
 date = 2018-02-02T21:35:38+01:00
 title = "3ème article d'avancement du Librem 5"
 jdh = "https://www.journalduhacker.net/s/brdjj4/3_me_article_davancement_du_librem_5"
+TopWords = [  "design", "mx", "puces", "purism", "kde", "librem", "qualcomm", "nxp"]
 +++
 Ceci est une traduction libre de [cet article](https://puri.sm/posts/librem5-progress-report-3/) concernant les avancées de la société Purism concernant le smartphone **Librem 5**.
 L'article original est sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) tout comme ma traduction.

@@ -8,6 +8,7 @@ PublishDate = 2019-05-05T20:47:08+02:00
 date = 2019-05-05T20:47:08+02:00
 title = "Qutebrowser : config.py et Jblock"
 editor = "kakoune"
+TopWords = [  "easylist", "pub", "url", "bind", "jblock", "fonts", "qutebrowser"]
 +++
 Hahaha vous avez vu ?
 Firefox a cassé son système d'add-ons à cause d'un certificat expiré.

@@ -8,6 +8,7 @@ notoc = true
 PublishDate = 2018-01-10T11:51:39+01:00
 date = 2018-01-10T11:51:39+01:00
 title = "La mort de Vimperator : comment meurt un logiciel opensource"
+TopWords = [  "vimperator"]
 +++
 Et voilà que Vimperator vie ses derniers instants. Le changement d'API de firefox lui aura été fatal. Je sais pas pourquoi mais il y a un (tout) petit pincement au cœur quand je vois [cette fermeture de l'issue github](https://github.com/vimperator/vimperator-labs/issues/705#event-1416604816) qui aurait pu le sauver.
 

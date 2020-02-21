@@ -8,6 +8,7 @@ PublishDate = 2018-01-27T12:57:33+01:00
 date = 2018-01-27T12:57:33+01:00
 title = "Filmmenu, un ptit script pour lancer un film"
 jdh = "https://www.journalduhacker.net/s/fjailj/filmmenu_un_ptit_script_pour_lancer_un"
+TopWords = [  "mnt", "partitions", "timeout", "nagbar", "i3", "db","script"]
 +++
 Un ptit article rapide aujourd'hui pour vous présenter **filmmenu**. J'ai un NAS à la maison avec pas mal de disques durs et du coup pas mal de partitions. J'ai pas fait de RAID dessus (pas besoin) ce qui fait que mes données sont éparpillées entre les différentes partitions.
 

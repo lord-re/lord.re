@@ -9,6 +9,7 @@ date = 2018-12-13T15:44:10+01:00
 lastEdit = 2020-01-18T01:26:00+01:00
 title = "Sway la suite spirituelle de i3"
 editor = "kakoune"
+TopWords = [  "gestionnaire", "protocole", "wlc", "fenêtre", "fenêtres", "xdg_runtime_dir", "i3", "x11", "wayland", "sway"]
 +++
 J'utilise **i3** depuis bientôt dix ans maintenant et ça fait maintenant près d'un mois que j'ai migré sur **Sway**.
 

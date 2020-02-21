@@ -8,6 +8,7 @@ WritingDate = 2019-12-20T19:11:00+01:00
 date = 2019-12-22T11:11:00+01:00
 title = "IRC se meurt"
 editor = "kakoune"
+TopWords = [  "communauté", "google", "matrix", "salon", "weechat", "xmpp", "mort", "protocole", "réseaux", "irc"]
 +++
 Je suis **Team IRC** depuis très longtemps.
 

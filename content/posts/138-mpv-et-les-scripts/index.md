@@ -8,6 +8,7 @@ PublishDate = 2018-11-08T17:53:27+01:00
 date = 2018-11-08T17:53:27+01:00
 title = "MPV et les scripts"
 editor = "kakoune"
+TopWords = [  "github", "youtube", "scripts", "mpv"]
 +++
 **MPV est de loin le meilleur lecteur vidéo** toute plateforme confondue à l'heure actuelle.
 Et pas la peine de venir pleurnicher, VLC c'est bien gentil mais non merci : c'est largement moins bien foutu même si ça a des fonctionnalités exotiques utiles à moins de 1% des utilisateurs.

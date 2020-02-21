@@ -10,6 +10,7 @@ PublishDate = 2017-12-17T10:43:22+01:00
 date = 2017-12-17T10:43:22+01:00
 title = "Le drama Firefox de la fin 2017 : SpyGlass"
 jdh = "https://www.journalduhacker.net/s/fwjhmj/le_drama_firefox_de_la_fin_2017_spyglass"
+TopWords = [  "firefox", "extension", "navigateur", "mozilla"]
 +++
 Mozilla aura eu une sacrée année. Depuis l'arrivée de Chrome et son marketing sauvage (rappelez vous les spots vidéos, les pubs physique dans tous les coins un peu civilisés, sans parler des pubs sur toute la panoplie de site ouaib de Google…) les parts de marché de Firefox se sont peu à peu étiolées. Mais *Mozilla commence visiblement à se réveiller et ses efforts portent leurs fruits*.
 

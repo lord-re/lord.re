@@ -8,6 +8,7 @@ PublishDate = 2018-02-20T11:24:31+01:00
 date = 2018-02-20T11:24:31+01:00
 title = "Le calendrier fixe ou CAL13"
 editor = "kakoune"
+TopWords = [ "semaines", "actuel", "jours", "wiki", "wikipedia", "calendrier"]
 +++
 Le **Calendrier Fixe** ou **Calendrier positiviste** voir **CAL13** est un système système calendaire différent de notre système actuel.
 

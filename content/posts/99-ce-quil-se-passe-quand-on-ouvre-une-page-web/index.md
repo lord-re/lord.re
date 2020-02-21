@@ -9,6 +9,7 @@ date = 2018-05-08T23:12:50+02:00
 title = "Ce qu'il se passe quand on ouvre une page web"
 editor = "kakoune"
 jdh = "https://www.journalduhacker.net/s/vntd5d/ce_quil_se_passe_quand_on_ouvre_une_page_web"
+TopWords = [  "réception", "javascript", "protocole", "paquet", "ordinateur", "paquets", "tcp", "document", "ip", "navigateur"]
 +++
 Vous ouvrez très probablement des dizaines voir des centaines de pages web tous les jours.
 C'est devenu naturel à tel point qu'on ne se rend pas compte de toute la magie à l'œuvre pour nous afficher notre drogue moderne.

@@ -6,7 +6,7 @@ title = "Redondons les archives du net"
 menu = "main"
 Categories = ["libre","adminsys","communs","git"]
 jdh = "https://www.journalduhacker.net/s/mwco7z/redonder_les_backup_darchive_org"
-
+TopWords = [  "annex", "bak", "stockage", "volontaires", "archive", "shard"]
 +++
 J'imagine que vous connaissez de près ou de très loin le site [archive.org](https://archive.org).
 Il s'agit d'un site tenu par une poignée de volontaires très passionnés s'étant donné pour mission d'archiver.

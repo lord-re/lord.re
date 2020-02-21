@@ -8,6 +8,7 @@ PublishDate = 2018-07-04T22:36:52+02:00
 date = 2018-07-06T12:36:52+02:00
 title = "La Renaissance Des RSS"
 editor = "kakoune"
+TopWords = [  "époque", "reader", "renaissance", "rss"]
 +++
 Ça y est \o/
 En ce moment on assiste à la renaissance des RSS et c'est pas moi qui le dit !

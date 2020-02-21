@@ -8,6 +8,7 @@ PublishDate = 2019-02-04T15:31:44+01:00
 date = 2019-02-04T15:31:44+01:00
 title = "10 ans de bépo"
 editor = "kakoune"
+TopWords = [  "raccourcis", "réfléchir", "symboles", "vitesse", "disposition", "azerty", "écrire", "clavier", "bépo"]
 +++
 J'ai réalisé il y a peu que j'utilisais la disposition **bépo** depuis plus de dix ans maintenant.
 Et je voulais faire un bref rapide retour sur le sujet.

@@ -8,6 +8,7 @@ WritingDate = 2020-02-17T13:59:32+01:00
 date = 2020-02-19T13:59:32+01:00
 title = "Scripter une session Tmux"
 editor = "kakoune"
+TopWords = [  "alyve", "pane", "keys", "blog", "script", "shell", "window", "session", "tmux"]
 +++
 Cette semaine [Alyve](https://hostux.social/@Alyve) a publié [un chouette article sur son blog pour créer des sessions Tmux avec Tmuxinator](https://www.alyve.be/informatique/2020/02/16/tmuxinator.html).
 Et là au milieu de l'article il est écrit :

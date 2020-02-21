@@ -9,6 +9,7 @@ PublishDate = 2018-06-28T22:41:39+02:00
 date = 2018-06-28T22:41:39+02:00
 title = "Hellblues"
 editor = "kakoune"
+TopWords = [  "ambiance", "mood","hellfest","musique"]
 +++
 Ce week-end se tenait le [Hellfest](http://www.hellfest.fr/) à Clisson.
 4 jours dans une ambiance *extra-ordinaire*.

@@ -10,6 +10,7 @@ date = 2018-01-14T13:34:23+01:00
 title = "Le respect des licences logicielles est moins fort que le buzz nostalgique du rétro gaming"
 lastEdit = 2018-03-08T21:18:23+01:00
 jdh = "https://www.journalduhacker.net/s/nnyjq6/le_respect_des_licences_logicielles_est"
+TopWords = [  "higan", "news", "opensource", "retro", "gameboy", "2018", "hyperkin", "ultra", "boy", "game"]
 +++
 Pouwah ! Quel titre !
 

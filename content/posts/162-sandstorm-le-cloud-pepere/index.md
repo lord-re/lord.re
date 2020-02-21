@@ -8,6 +8,7 @@ PublishDate = 2019-04-30T12:25:41+02:00
 date = 2019-04-30T12:25:41+02:00
 title = "Sandstorm : plateforme web-cloud libre auto-hébergeable"
 editor = "kakoune"
+TopWords = [  "etherpad", "pad", "grains", "sandstorm","cloud","autohebergement","web"]
 +++
 [Sandstorm](https://sandstorm.io) est un logiciel super.
 Et en plus d'être super il est très sécurisé.

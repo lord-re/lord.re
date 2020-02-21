@@ -8,6 +8,7 @@ PublishDate = 2019-04-25T13:15:12+02:00
 date = 2019-04-25T19:15:12+02:00
 title = "La téléphonie c'est pas si compliqué !"
 editor = "kakoune"
+TopWords = [  "chiffres", "sip", "t0", "ip", "numéros", "téléphonie", "lignes", "numéro", "pabx", "téléphones"]
 +++
 En voilà un sujet étrange !
 Ouai j'en ai jamais parlé auparavant, mais je m'aperçois que c'est finalement assez peu compris même par les informaticiens.

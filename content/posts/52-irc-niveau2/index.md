@@ -6,7 +6,7 @@ Description = "C'est un quoi donc l'irc ? Petit survol des trucs de l'irc"
 date = "2017-08-24T15:54:15+02:00"
 title = "Guide d'utilisation d'IRC : niveau 2"
 menu = "main"
-
+TopWords = [  "connectent", "owner", "unrealircd", "chan", "geeknode", "help", "op", "salon", "irc", "modes"]
 +++
 Bon bha après la première partie (non je l'ai pas encore écrite et je ne m'y attelerai probablement pas… on trouve déjà tout ce qu'il faut sur le sujet sur le wouaib), on va s'attaquer au niveau du dessus. On va s'attaquer aux modes. On va voir comment se protéger et protéger son chan voir son réseau. Cette série d'articles est rédigée suite à l'attaque des relous traditionnels de l'été qui sévit pas mal sur Geeknode où j'officie.
 

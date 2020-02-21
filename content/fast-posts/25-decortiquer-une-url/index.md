@@ -8,6 +8,7 @@ PublishDate = 2018-09-07T12:02:24+02:00
 date = 2018-09-09T10:02:24+02:00
 title = "Décortiquer une URL"
 editor = "kakoune"
+TopWords = [  "gentoo", "machin", "url","span"]
 +++
 Un débat sur le web est en train d'éclater.
 

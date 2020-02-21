@@ -7,7 +7,7 @@ date = "2016-10-17T15:09:31+02:00"
 lastEdit = "2019-07-28T00:10:12+02:00"
 title = "Soulager son serveur mail du traitement du spam avec Postscreen"
 jdh = "https://www.journalduhacker.net/s/xkorqz/soulager_son_serveur_mail_du_traitement"
-
+TopWords = [  "dnsbl", "enforce", "perso", "backup", "protocole", "smtp", "mx", "postfix", "postscreen", "spam"]
 +++
 
 Quel titre sérieux !

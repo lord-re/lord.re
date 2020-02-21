@@ -8,6 +8,7 @@ PublishDate = 2019-01-01T16:14:19+01:00
 date = 2019-01-01T16:14:19+01:00
 title = "Meta : récap 2018"
 editor = "kakoune"
+TopWords = [ "blog", "année", "2018"]
 +++
 
 Bon bha voilà le moment de faire un petit récap de l'année concernant le blog.

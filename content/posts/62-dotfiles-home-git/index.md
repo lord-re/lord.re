@@ -8,7 +8,7 @@ menu = "main"
 notoc = true
 title = "Gérer ses dotfiles simplement avec git"
 jdh = "https://www.journalduhacker.net/s/42brsu/g_rer_ses_dotfiles_simplement_avec_git"
-
+TopWords = [ "gogs", "master", "origin", "commits", "known_hosts", "commit", "ssh"]
 +++
 Ça fait plusieurs fois que je vous tease sur ce sujet donc voilà je me lance. Je vais vous expliquer ma façon de gérer mes dotfiles. C'est un sujet assez récurrent chez les linuxiens et visiblement tout le monde à sa ptite façon de faire.
 

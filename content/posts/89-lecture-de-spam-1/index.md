@@ -8,6 +8,7 @@ PublishDate = 2018-03-26T19:14:44+02:00
 date = 2018-03-26T19:14:44+02:00
 title = "Examen d'un spam #1"
 editor = "kakoune"
+TopWords = [  "received", "spam", "with", "from", "spotify", "sendgrid"]
 +++
 Il y a quelques astuces pour reconnaitre un bon vieux spam tentant de vous arnaquer de l'ivraie mail (ouai pas le meilleur jeu de mot mais je le garde tout de même).
 

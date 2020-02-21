@@ -8,6 +8,7 @@ PublishDate = 2019-05-14T18:27:14+02:00
 date = 2019-05-14T18:27:14+02:00
 title = "Ma collection de claviers"
 editor = "kakoune"
+TopWords = [  "siemens", "mx", "ordi", "ps2", "basique", "usb", "cherry", "glamshot", "clavier"]
 +++
 Ça fait un bail que je voulais vous présenter ma collection de claviers.
 Je n'en suis pas peu fier !

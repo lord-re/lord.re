@@ -6,7 +6,7 @@ menu = "main"
 Categories = ["software","cli","tips","linux","shell"]
 Description = "Une petite astuce qui devient très vite indispensable pour changer la couleur de fond du terminal à la volée. Super pour distinguer les terminaux avec une session ssh."
 jdh = "https://www.journalduhacker.net/s/vcqj7d/changer_la_couleur_de_fond_de_son_terminal"
-
+TopWords = [  "couleur", "echo", "terminal", "zsh", "ssh","term"]
 +++
 
 Ça vous arrive combien de fois de plus savoir si vous êtes sur une session SSH distante ou si vous êtes sur un terminal local ? Pour moi ça m'arrive constamment.

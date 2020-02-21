@@ -8,6 +8,7 @@ PublishDate = 2019-02-16T16:26:26+01:00
 date = 2019-02-16T16:26:26+01:00
 title = "Retour suites aux cours 2018"
 editor = "kakoune"
+TopWords = [  "année", "clairement", "messages", "destination", "ssh", "man"]
 +++
 Bon c'est un ptit article de vrac.
 

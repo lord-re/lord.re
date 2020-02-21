@@ -9,6 +9,7 @@ date = 2019-01-04T10:55:01+01:00
 LastEdit = 2019-11-01T18:12:03+01:00
 title = "Messagease : un clavier android efficace"
 editor = "kakoune"
+TopWords = [  "réglages", "glissant", "claviers", "caractères", "lettres", "clavier","android"]
 +++
 Une question qui revient souvent sur les réseaux sociaux : *Quel clavier utiliser sur smartphone ?*
 

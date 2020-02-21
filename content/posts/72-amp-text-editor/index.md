@@ -10,6 +10,7 @@ PublishDate = 2018-02-07T13:11:07+01:00
 date = 2018-02-07T13:11:07+01:00
 title = "Amp : un ptit éditeur de texte à la vi"
 jdh = "https://www.journalduhacker.net/s/lvxmmx/amp_un_ptit_diteur_de_texte_la_vi"
+TopWords = [  "raccourcis", "bugs", "command", "search", "commandes", "jump", "vi", "amp"]
 +++
 
 J'utilise vi et ses dérivés depuis si longtemps que j'ai désormais une petite partie de ses commandes inscrits dans la mémoire musculaire.

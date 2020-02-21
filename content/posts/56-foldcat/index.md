@@ -8,7 +8,7 @@ Description = "Voilà un nouveau script qui me sert à me rappeler de trucs impo
 date = "2017-08-27T20:14:47+02:00"
 title = "Foldcat : se rappeler de quelque chose quand on rentre dans un dossier"
 jdh = "https://www.journalduhacker.net/s/oixhwz/foldcat_se_rappeler_de_quelque_chose"
-
+TopWords = [  "oldpwd", "pwd", "reset_color", "db", "prompt", "timer", "zsh", "foldcat"]
 +++
 
 Vous avez une mémoire de poisson rouge comme moi ? Ça vous arrive d'installer des trucs un peu exotiques et de pas vous souvenir comment ça fonctionne. Du coup vous allez dans le dossier en question et là vous fouillez à coup de ls / tree / --help. Pas mal mais et si on avait un ptit truc qui venait nous aider.
