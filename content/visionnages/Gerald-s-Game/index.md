@@ -22,7 +22,7 @@ Ce film est vraiment cool.
 Un couple tente de raviver la flamme et partent dans leur maison secondaire au milieu de nul part pour un week-end coquin.
 Mais le viagra aidant, le mari fait un AVC.
 
-Le hic, c'est qu'il venait de menotter sa femme au lit, elle se retrouve coincer devant le cadavre de son mari.
+Le hic, c'est qu'il venait de menotter sa femme au lit, elle se retrouve coincée devant le cadavre de son mari.
 
 C'est tout bête, ça pourrait être plié en dix minutes mais le film parvient à rendre le truc super.
 Notre chère petite dame commence à avoir quelques hallucinations qui matérialisent ses pensées.
@@ -32,14 +32,14 @@ Et… wow.
 C'est du génie.
 
 On découvre petit à petit le background et le malaise de la situation évolue perpétuellement.
-C'est subtile et les acteurs sont vraiment bons.
+C'est subtil et les acteurs sont vraiment bons.
 C'est d'autant plus vrai pour *Carla Gugino* qui dans sa double présence montre tous ses talents.
 
 C'est bien un *Stephen King*, ça référence **Cujo**, ça rapelle **Carie**, il y des mentions plus ou moins claires de **Dolores Claiborne** (et d'ailleurs des similitudes dans l'histoire).
 C'est angoissant, psychologique.
 
 *Mike Flanagan* le réalisateur s'est hissé en un Master of Horror.
-C'est lui qui a aussi réalisé **The Haunting Of Hillhouse**.
+C'est lui qui a aussi réalisé **The Haunting Of Hill House**.
 On y retrouve d'ailleurs un peu le même casting.
 C'est aussi à voir.
 
