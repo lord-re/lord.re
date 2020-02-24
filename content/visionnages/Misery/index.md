@@ -14,6 +14,7 @@ title = "Misery"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["parfait"] 
 Saga = [""]
+TopWords = ["stephen king","écrivain","piège","vengeance","lit","accident"]
 +++
 Première adaptation de Stephen King des années 90.
 Ça ressemble un peu à un téléfilm à cause d'une image assez particulière, un éclairage assez cheapos et très peu de décor.
