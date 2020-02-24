@@ -14,6 +14,7 @@ title = "Carrie"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["meh","oneshot"] 
 Saga = ["Carrie"]
+TopWords = [  "70s", "règles", "religion", "gamin", "bal", "surnaturel","stephen king","sang","culte"]
 +++
 C'est la toute première adaptation ciné d'un bouquin de Stephen King et ce film est devenu culte.
 Et pourtant *j'aime pas spécialement*.
