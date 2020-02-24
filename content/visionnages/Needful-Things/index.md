@@ -14,6 +14,7 @@ title = "Needful Things"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["cool"]
 Saga = [""]
+TopWords=["daté","stephen king","castle rock","démon","surnaturel","magasin","malédiction"]
 +++
 Nous revoilà à *Castle Rock* pour une histoire fantastique avec notre cher *Shériff Alan Pangborn*.
 Aujourd'hui dans notre paisible (keuf keuf) ville une nouvelle boutique ouvre !
