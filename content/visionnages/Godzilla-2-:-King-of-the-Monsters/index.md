@@ -15,6 +15,7 @@ title = "Godzilla 2 : King of the Monsters"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["meh","long"] 
 Saga = ["Godzilla"]
+TopWords = [ "décevant", "godzilla", "hydre", "monstre"]
 +++
 Je suis pas super fan de film de monstre.
 J'apprécie quand j'en vois un, mais je vais rarement en voir.
