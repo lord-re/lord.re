@@ -14,6 +14,7 @@ title = "Airplane ! | Y-a-t-il un pilote dans l'avion ?"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
 Saga = ["Airplane !"]
+TopWords = [  "gags", "zucker", "zaz","pilote","comique","culte"]
 +++
 Un classique de la comédie américaine.
 Réalisé par le fameux trio ZAZ, il enchaîne les gags plus ou moins loufoques.
