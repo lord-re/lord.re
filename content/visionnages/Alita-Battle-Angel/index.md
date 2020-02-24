@@ -15,6 +15,7 @@ title = "Alita : Battle Angel"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["cool","oneshot"] 
 Saga = [""]
+TopWords = [  "sombre", "souvenir", "animé", "manga", "ville"]
 +++
 Je ne connais pas du tout le manga ni l'animé.
 
