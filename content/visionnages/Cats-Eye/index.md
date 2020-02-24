@@ -14,6 +14,7 @@ title = "Cat's Eye"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
 Saga = [""]
+TopWords = [  "chat", "creepshow", "sketch", "gamin", "horreur", "stephen king","surnaturel"]
 +++
 J'avais un peu peur ce film, surtout quand on m'a dit “Comme [Creepshow]({{< ref "/visionnages/Creepshow" >}}) c'est un film à histoires multiples”.
 Aoutch…
@@ -45,7 +46,7 @@ Il est sacrément bon, comment ont-ils réussi à lui faire faire tout ça ? O__
 C'est ahurissant.
 
 La première histoire est plus comique et absurde que terrifiante.
-Une histoire de compagnie dont le but est de faire arrêter la clope à ses clients avec des méthode assez hardcore.
+Une histoire de compagnie dont le but est de faire arrêter la clope à ses clients avec des méthodes assez hardcores.
 C'est assez amusant avec un bon twist.
 On y retrouve un James Woods beaucoup moins badass que dans *Vampires*.
 
@@ -55,7 +56,7 @@ J'ai pas pu m'empêcher de penser à *Grim Fandango* avec les enfianteurs de cor
 Ce coup-ci c'est *Robert Hays* qui s'y colle dans un rôle bien plus sérieux que dans *Y-A-T-Il Un Pilote Dans L'Avion ?*.
 Et il est plutôt bon acteur le gugusse, c'est presque dommage qu'il se soit coltiné l'étiquette de loser traumatisé ridicule.
 
-La dernière histoire nous met une couche de *Drew Barrymore* en gentillette gamine qui trouve un chat et qui veux le garder (normal, non ?).
+La dernière histoire nous met une couche de *Drew Barrymore* en gentillette gamine qui trouve un chat et qui veut le garder (normal, non ?).
 Mais c'est sans compter sur une mère reloue au possible (elle prend la tête au mari, au chat, à la gamine) mais surtout sur une incarnation de *Pillow Pants* (tout du moins je me le visualise bien comme ça).
 Bref, il y a ptit troll qui hante la gamine dans sa chambre.
 Et là il y a de la baston et des effets spéciaux pour simuler la chambre d'enfant et tout.
