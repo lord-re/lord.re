@@ -15,6 +15,7 @@ title = "Die Hard 2 : 58 minutes pour vivre"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["cool"] 
 Saga = ["Die Hard"]
+TopWords = [  "twist", "action", "classique", "culte", "noel","aéroport","avion"]
 +++
 John McClane vient de changer son réalisateur mais tout se passe bien dans cet épisode.
 *Il est un poil moins bien que le premier mais se laisse passer quand même*.
