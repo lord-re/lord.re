@@ -14,6 +14,7 @@ title = "Dolan's Cadillac"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["meh","long"] 
 Saga = [""]
+TopWords = [  "vengeance", "femmes", "prostitution", "cliché", "stephen king"]
 +++
 C'était chiant.
 C'était longuet.
