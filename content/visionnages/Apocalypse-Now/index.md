@@ -14,6 +14,7 @@ title = "Apocalypse Now"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"]
 Saga = [""]
+TopWords = [  "attente", "z", "culte","rivière","bateau","guerre","vietnam"]
 +++
 Pour fêter les 40ans de la sortie du film (un peu en avance) j'ai voulu découvrir ce film.
 
