@@ -14,6 +14,7 @@ title = "Mad Max : Fury Road"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["parfait"] 
 Saga = ["Mad Max"]
+TopWords = [ "désert","voiture","culte","action","aventure"]
 +++
 **C'est à mon goût le meilleur film des années 2010.**
 Il est vraiment génialissime.
