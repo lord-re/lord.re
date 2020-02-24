@@ -14,6 +14,7 @@ title = "La Ligne Verte"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
 Saga = [""]
+TopWords = [ "surnaturel","stephen king","prison","religion","mort","castle rock"]
 +++
 Un sacré tire-larme ce film.
 Mais qu'est-ce qu'il est bien.
