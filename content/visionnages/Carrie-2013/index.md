@@ -14,6 +14,7 @@ title = "Carrie (2013)"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["cool"] 
 Saga = [""]
+TopWords = [  "gamin","horreur","religion","surnaturel", "sang", "stephen king", "règles", "remake", "usa"]
 +++
 Remake du film culte (surtout aux US) de l'année 76, il s'est attelé à moderniser un peu le film afin de lui faire gagner un public plus djeuns.
 Faut dire que du haut de ses 40 ans les nouvelles générations pouvaient probablement moins se sentir proche de ces ados.
