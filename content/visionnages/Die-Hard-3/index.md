@@ -15,6 +15,7 @@ title = "Die Hard 3 : Une journée en Enfer"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
 Saga = ["Die Hard"]
+TopWords = [  "action", "voiture", "usa", "culte"]
 +++
 John McClane fait équipe avec Samuel “Motherfucker” L. Jackson pour la vengeance de Jeremy Irons.
 
