@@ -15,7 +15,7 @@ title = "Conan Le Barbare"
 Avis_possibles = ["nul","long","court","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
 Saga = ["Conan"]
-TopWords = [ "tholsadum", "contrées","aventure"]
+TopWords = [ "tholsadum", "contrées","aventure","schwarzy"]
 +++
 *J'aime beaucoup* ce film.
 Il est dans son jus et pourtant il fait pas non plus rire à ses dépens.

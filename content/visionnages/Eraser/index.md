@@ -14,6 +14,7 @@ title = "Eraser"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["cool","oneshot"] 
 Saga = ""
+TopWords = [ "action", "boom", "cliché", "schwarzy" ]
 +++
 Les punchlines super clichées.
 Le petit solo de guitare électrique toujours au bon moment.
