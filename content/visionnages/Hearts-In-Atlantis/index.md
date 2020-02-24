@@ -14,6 +14,8 @@ title = "Hearts In Atlantis"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["meh","oneshot"] 
 Saga = [""]
+TopWords = [ "souvenir", "stephen king", "flashback","écrivain"]
+
 +++
 On retrouve pas mal de thêmes récurrent des histoires de **Stephen King** ici.
 C'est un écrivain, nostalgique ressassant de vieux souvenirs d'enfance des années 60 avec de légers dons de télépathies qui rencontre un ancien ayant manifestement aussi des dons et étant bienveillant avec lui.
