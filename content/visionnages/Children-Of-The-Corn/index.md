@@ -14,6 +14,7 @@ title = "Children Of The Corn"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["meh"] 
 Saga = ["Children Of The Corn"]
+TopWords = [  "surnaturel", "gamin", "bande","religion", "horreur","stephen king"]
 +++
 La [musique à écouter pour lire](https://invidio.us/watch?v=mMDWjDue2lo).
 Et bhé… je ne connaissais pas du tout ce film, mais je savais qu'il avait eu des suites, bref c'est un signe que ça doit être plutôt cool.
