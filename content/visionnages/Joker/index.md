@@ -14,6 +14,7 @@ title = "Joker"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
 Saga = [""]
+TopWords = [ "origin","culte","mental"]
 +++
 Probablement l'un des films le plus marquant de 2019.
 La bande annonce voulait jeter le doute (et ça a fonctionné) : Est-ce un drame français comme on sait si bien les faire ?
