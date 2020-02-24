@@ -14,6 +14,7 @@ title = "Apt Pupil"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["meh"] 
 Saga = [""]
+TopWords = [ "gamin", "nazi","stephen king"]
 +++
 J'ai trouvé le film assez meh.
 Le postulat de base d'un gamin qui en un clin d'œil reconnais un nazis 50 ans plus tard me semble déjà farfelu.
