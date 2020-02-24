@@ -14,6 +14,7 @@ title = "Firestarter"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["meh"] 
 Saga = [""]
+TopWords = [  "synthé", "gamin", "surnaturel", "stephen king","pouvoir"]
 +++
 [Fond sonore](https://invidio.us/watch?v=xOHpXiDFlbA)
 
