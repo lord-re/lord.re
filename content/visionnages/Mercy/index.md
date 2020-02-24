@@ -14,6 +14,7 @@ title = "Mercy"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["meh"] 
 Saga = [""]
+TopWords = ["stephen king","surnaturel","démon"]
 +++
 Une grand-mère qui se fait virer de la maison de retraite de part son comportement particulier.
 Une mère seule avec ses deux gamins qui retourne dans la maison de la grand-mère pour s'occuper d'elle.
