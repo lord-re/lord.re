@@ -15,6 +15,7 @@ title = "Die Hard 5 : A Good Day to Die Hard"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["nul","long"] 
 Saga = ["Die Hard"]
+TopWords = [ "too much", "action","décevant"]
 +++
 Ha tiens il y a un 5ème !
 Et bha c'est gentil mais *fallait pas*, hein.
