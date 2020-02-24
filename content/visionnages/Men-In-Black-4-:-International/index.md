@@ -15,6 +15,7 @@ title = "Men In Black 4 : International"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["cool"] 
 Saga = ["Men In Black"]
+TopWords = [ "alien","décevant","sidekick"]
 +++
 Le quatrième épisode de Men In Black signe le début de la fin visiblement.
 Le casting des précédents épisodes a disparu (sauf Emma Thompson mais c'est un ptit rôle).
