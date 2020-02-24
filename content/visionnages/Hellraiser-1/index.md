@@ -14,6 +14,7 @@ title = "Hellraiser 1 : Le Pacte"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
 Saga = ["Hellraiser"]
+TopWords = [ "ambiance", "horreur", "monstre", "surnaturel","oppressant","sang","vengeance"]
 +++
 Le meilleur épisode d'une saga maudite.
 Cet épisode fondateur pose les bases d'une mythologie que j'affectionne particulièrement.
