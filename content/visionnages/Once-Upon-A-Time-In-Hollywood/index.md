@@ -14,6 +14,7 @@ Actors = ["Leonardo DiCaprio","Bradd Pitt","Margot Robbie"]
 title = "Once Upon A Time In Hollywood"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
+TopWords = ["twist","70s"]
 +++
 Well well well, le tout nouveau Tarantino !
 *Sans surprise c'était bien.*
