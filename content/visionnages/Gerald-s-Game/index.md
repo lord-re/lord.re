@@ -14,6 +14,7 @@ title = "Gerald's Game"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
 Saga = [""]
+TopWords = [ "lit", "hallucination", "viagra", "isolement", "piège", "stephen king"]
 +++
 Sacré film.
 Un concept tout simple mais une réal au top, un scénar tout bien foutu, des références en veux-tu en voilà, des musiques… ha non il n'y a pas de musique.
