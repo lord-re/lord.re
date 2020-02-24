@@ -14,6 +14,7 @@ title = "Christine"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
 Saga = [""]
+TopWords = [ "voiture", "carpenter", "cliché", "stephen king", "surnaturel"]
 +++
 Dernière adaptation d'une œuvre de Stephen King de 1983 et non des moindres.
 Aux manettes, le grand John Carpenter.
