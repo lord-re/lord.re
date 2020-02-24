@@ -15,6 +15,7 @@ title = "Kiss Kiss Bang Bang"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["cool"] 
 Saga = ""
+TopWords = [ "enquête", "détective"]
 +++
 Une enquête alambiquée avec une bonne dose d'humour (malgré des blagues légèrement homophobes).
 J'ai du mal avec Robert Downey Jr, parcequequ'Ironman…
