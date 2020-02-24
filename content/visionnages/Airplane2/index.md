@@ -14,6 +14,7 @@ title = "Airplane 2"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["cool"] 
 Saga = ["Airplane"]
+TopWords = [  "redites", "sauver", "pilote", "végétarianisme", "zucker", "airplane","zaz"]
 +++
 La suite de la fameuse comédie.
 C'est pas fait par les mêmes réalisateurs et ça se ressent un peu.
