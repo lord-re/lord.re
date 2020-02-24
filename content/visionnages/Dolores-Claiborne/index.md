@@ -14,6 +14,7 @@ title = "Dolores Claiborne"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
 Saga = [""]
+TopWords = [  "éclipse", "inceste", "badass","stephen king"]
 +++
 Wow super découverte.
 Je n'avais jamais entendu parlé de ce film.
