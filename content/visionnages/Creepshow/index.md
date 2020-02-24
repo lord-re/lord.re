@@ -14,6 +14,7 @@ title = "Creepshow"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["meh"] 
 Saga = ["Creepshow"]
+TopWords = [  "simplet", "twist", "creepshow", "stephen king", "sketch", "surnaturel"]
 +++
 Un film composé de six histoires.
 Et bha c'est très mouaif.
