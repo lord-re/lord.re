@@ -14,6 +14,7 @@ title = "Jay & Silent Bob : Reboot"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["cool"] 
 Saga = ["Jay & Silent Bob"]
+TopWords= [ "askewniverse", "parodie","référence" ]
 +++
 Rhaaa quel film chaotique.
 On retrouve quasiment tous les acteurs ayant déjà bossés avec Kevin Smith.
