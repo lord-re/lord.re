@@ -14,6 +14,7 @@ title = "Ça : Partie 2"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
 Saga = ["Ça"]
+TopWords = [ "clown", "adulte", "enfants", "bande", "traumatisme","mémoire","souvenir","stephen king","horreur"]
 +++
 Cette deuxième partie est vraiment bien.
 On revoit les gosses (pfiouuu j'avais peur qu'ils ne soient que survolés dans cette seconde partie).
