@@ -15,6 +15,8 @@ title = "Die Hard 1 : Piège de Crystal"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
 Saga = ["Die Hard"]
+TopWords = [  "boom", "action", "classique", "culte", "policier", "attentat", "tour"]
+
 +++
 Un classique de John McTiernan.
 De l'action, un Bruce Willis cheveulu, des panpans du Boom boom.
