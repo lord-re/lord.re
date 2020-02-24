@@ -15,6 +15,7 @@ title = "Die Hard 4 : Live Free or Die Hard"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["meh","long"] 
 Saga = ["Die Hard"]
+TopWords = [ "too much", "action", "décevant"]
 +++
 Rhaaa l'épisode de trop.
 C'est too much de partout.
