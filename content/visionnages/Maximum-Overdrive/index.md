@@ -14,6 +14,7 @@ title = "Maximum Overdrive"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["meh"] 
 Saga = [""]
+TopWords=["survie","apocalypse","voiture","camion","stephen king","surnaturel","décevant"]
 +++
 Stephen King est un excellent écrivain.
 Il est super prolifique en parvenant à sortir plusieurs livres dans une seule année.
