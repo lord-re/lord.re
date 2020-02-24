@@ -14,6 +14,7 @@ title = "47 Meters Down : Uncaged"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["meh"] 
 Saga = ["47 Meters Down"]
+TopWords = [  "gamines", "panique", "bateau", "bouffer", "flotte", "requin", "tomber", "eau", "grotte", "plongée","oxygène","respirer","bateau","squale"]
 +++
 J'avais une heure à tuer sans trop savoir quoi faire du coup je me suis mis ce film.
 C'est un bon gros nanard merdique avec des adolescentes en maillot de bain dans des décors magnifiques.
