@@ -15,10 +15,11 @@ title = "Kalidor / Red Sonja"
 Ressenti_possibles = ["nul","long","court","meh","cool","excellent","parfait"]
 Ressenti = ["meh","oneshot"] 
 Saga = ["Conan"]
+TopWords = [ "schwarzy", "daté", "nanar","aventure"]
 +++
 La suite qui n'en est pas une de Conan.
-Bon, là on flirte avec le nanard.
-Mais le nanard avec quand même un sacré budget pour les canassons les décors et compagnie.
+Bon, là on flirte avec le nanar.
+Mais le nanar avec quand même un sacré budget pour les canassons les décors et compagnie.
 
 Il a bien plus mal vieilli que ses confrères.
 Premier film que je découvre ce mois-ci.
