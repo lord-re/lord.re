@@ -14,6 +14,8 @@ title = "Empire Of The Sun"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["cool"] 
 Saga = [""]
+TopWords = [  "guerre", "chine", "survie", "enfant"]
+
 +++
 Je ne connaissais pas ce film et je ne savais pas du tout à quoi m'attendre.
 J'ai plutôt apprécié, voir la guerre du point de vue d'un enfant n'ayant connu que l'opulence dans une colonie est original.
