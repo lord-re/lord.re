@@ -14,6 +14,7 @@ title = "Iron Sky 2 : The Coming Race"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["oneshot","cool"] 
 Saga = ["Iron Sky"]
+TopWords = [ "too much", "ridicule","parodie", "nazi", "dinosaure","alien","monstre"]
 +++
 Le un était sympa à flirter avec le nanard, lui donner une suite était risqué.
 
