@@ -14,7 +14,7 @@ title = "Hereditary"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
 Saga = [""]
-TopWords = [ "tension", "oppressant", "horreur", "viscérale", "effrayant", "drame", "famille", "enfant"]
+TopWords = [ "tension", "oppressant", "horreur", "viscérale", "effrayant", "drame", "famille", "enfant","malaise"]
 +++
 J'ai vraiment beaucoup aimé *Midsommar* du coup il me fallait voir le premier film d'**Ari Aster**.
 Et bha il est encore mieux.

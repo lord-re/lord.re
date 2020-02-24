@@ -14,6 +14,7 @@ title = "Midsommar"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
 Saga = [""]
+TopWords = [ "tradition", "horreur", "oppressant", "malaise", "soleil","scandinavie","suicide"]
 +++
 Quel film intriguant.
 
