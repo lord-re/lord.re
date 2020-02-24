@@ -15,7 +15,9 @@ title = "Dunkerque"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
 Saga = [""]
+TopWords = [ "guerre", "bateau", "avion" ]
 +++
+
 J'adore Christopher Nolan et pourtant j'avais pas encore vu ce film car j'apprécie pas trop les films de guerre.
 Et bah c'était *vraiment super*.
 Les images sont magnifiques.
