@@ -14,6 +14,7 @@ title = "Anna"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["cool"] 
 Saga = [""]
+TopWords = [  "twist", "nikita", "besson", "femme","badass"]
 +++
 Un film de *Luc Besson* donc avec une héroïne loin d'être moche, qui va se transcender, qui est badass et qui va se faire malmener par les bonhommes.
 On est en plein dedans.
