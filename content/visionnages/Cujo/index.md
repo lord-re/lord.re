@@ -14,6 +14,7 @@ title = "Cujo"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
 Saga = [""]
+TopWords = [ "voiture", "chien", "castle rock", "stephen king", "oppressant"]
 +++
 Le pitch est assez simple : un bon gros Saint-Bernard se fait becter par une chauve-souris et contracte la rage.
 Et là, il est pas très content et assez sensible aux sons.
@@ -23,8 +24,9 @@ Le film prend son temps pour poser son histoire.
 On voit bien le background des persos, les décors toussa, c'est même un poil long à démarrer.
 Mais, c'est ce qui permet de mieux profiter des scènes de tension par la suite.
 
-Même s'il fait dater, il reste vraiment bien.
+Même s'il fait daté, il reste vraiment bien.
 Le chien joue pas trop mal en plus !
+Non je déconne pas en disant ça !
 
 L'histoire se déroule dans la bourgade de Castle Rock dans le Maine.
 Jolie baraque au bord de la mer visiblement (alors que bon, si je ne m'abuse, il n'est pas censé y avoir de mer à Castle Rock).
