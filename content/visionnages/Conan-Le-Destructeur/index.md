@@ -15,6 +15,7 @@ title = "Conan Le Destructeur"
 Ressenti_possibles = ["nul","long","court","meh","cool","excellent","parfait"]
 Ressenti = ["cool"] 
 Saga = ["Conan"]
+TopWords = [  "revanche", "schwarzenegger", "surjeu"]
 +++
 *C'est une suite plutôt fidèle mais quand même un peu moins bien*.
 Les décors sont toujours aussi classe.
