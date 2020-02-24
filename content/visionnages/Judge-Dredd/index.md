@@ -14,7 +14,7 @@ Actors = ["Sylvester Stallone","Armand Assante","Rob Schneider"]
 title = "Judge Dredd"
 Avis_possibles = ["nul","long","court","meh","cool","excellent","parfait"]
 Avis = ["meh"]
-
+TopWords = [ "sidekick", "vengeance", "comics","daté","action","science"]
 +++
 Je n'avais pas revu ce film depuis au moins 20 ans.
 Et bha … ça a mal vieilli.
