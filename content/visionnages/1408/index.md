@@ -14,6 +14,7 @@ title = "1408"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
 Saga = [""]
+TopWords = [  "chambre", "écrivain", "angoisse", "hallucination","effrayant","hotel"]
 +++
 Bien qu'assez peu connu, c'est un très bon film.
 
