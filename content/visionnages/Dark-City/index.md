@@ -14,6 +14,7 @@ title = "Dark City"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
 Saga = [""]
+TopWords = [  "oppressant", "nuit", "alien", "ville","glauque","surnaturel","sombre","enquête"]
 +++
 Un sacré film assez méconnu et pourtant avec une palanquée d'atout.
 Comment se fait-il qu'il ne soit pas plus connu et reconnu ?
