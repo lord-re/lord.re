@@ -14,6 +14,7 @@ title = "Graveyard Shift"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["nul","long"] 
 Saga = [""]
+TopWords = [ "stephen king", "surnaturel", "monstre","horreur"]
 +++
 Une tannée ce film.
 Pas mal d'élément Kingesque : une grosse machine, du surnaturel, des personnages un poil fou mais c'est vraiment nul.
