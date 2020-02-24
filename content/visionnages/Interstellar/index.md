@@ -14,6 +14,7 @@ title = "Interstellar"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["parfait"] 
 Saga = [""]
+TopWords = [  "vaisseaux", "voyage", "science", "apocalypse", "ambiance", "planète", "espace"]
 +++
 Ce film est magistral.
 
