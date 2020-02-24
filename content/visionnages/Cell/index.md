@@ -14,11 +14,12 @@ title = "Cell"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["meh"] 
 Saga = [""]
+TopWords = [ "survie", "décevant", "usa", "zombie", "stephen king"]
 +++
 Ce film de zombie c'est la douche froide.
 Les effets spéciaux … spéciaux (cheap) n'aident pas à faire passer la pilule.
 
-Autant il y a le ptit côté survie en milieux urbain rempli de zombies.
+Autant il y a le ptit côté survie en milieu urbain rempli de zombies.
 Et de l'autre… bha … on rencontre des personnages auxquels on parvient pas à s'attacher.
 
 Le scénar est vraiment pas terrible.
