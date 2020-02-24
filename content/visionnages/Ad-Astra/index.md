@@ -14,6 +14,7 @@ title = "Ad Astra"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
 Saga = [""]
+TopWords = [ "z", "science","fiction", "espace","fusée","planète"]
 +++
 James Gray est un réalisateur mal aimé et qui peine à produire des succès commerciaux.
 Et pourtant il arrive à sortir des films avec de gros budgets et des gros castings.
