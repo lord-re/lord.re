@@ -15,6 +15,7 @@ title = "Under The Silver Lake"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["parfait"] 
 Saga = [""]
+TopWords = [  "mystère","ambiance","morse","code","easter egg", "korbak"]
 +++
 L'affiche m'avait intriguée à là sortie puis je l'avais oublié.
 Le vil Korbak m'a poussé à le matter et WOW.
