@@ -14,6 +14,7 @@ title = "X-Men : Dark Phoenix"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["meh"] 
 Saga = ["X-Men"]
+TopWords = [ "héro","prévisible", "surnaturel", "pouvoir"]
 +++
 J'aime bien les personnages des X-Men même si certains sont un peu nunuches ou sous-exploités.
 Cet opus est vraiment pas terrible.
