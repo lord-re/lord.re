@@ -14,6 +14,7 @@ title = "The Shining"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["parfait"] 
 Saga = ["Shining"]
+TopWords = [ "horreur", "ambiance", "salle de bain","voiture","neige","labyrinthe","hôtel", "pouvoir","surnaturel","stephen king"]
 +++
 Rhaaalalala mais quel film !
 Tout est génial.
