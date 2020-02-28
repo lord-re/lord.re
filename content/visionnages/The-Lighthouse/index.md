@@ -14,6 +14,7 @@ title = "The Lighthouse"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
 Saga = [""]
+TopWords = [  "dieux", "mouette","météo", "phare", "proteus", "référence", "noir et blanc"]
 +++
 On a là un film bien singulier.
 C'est un film en noir et blanc avec un format d'image presque carré et un son en mono.
