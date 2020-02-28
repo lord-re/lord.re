@@ -14,6 +14,7 @@ title = "The Mist"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["cool"] 
 Saga = [""]
+TopWords = [ "brume", "monstre","stephen king","surnaturel","alien"]
 +++
 
 Troisième adaptation d'un récit de *Stephen King* par *Franck Darabont* qui a pour l'instant réalisé un sans-faute.
