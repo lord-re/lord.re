@@ -14,6 +14,7 @@ title = "Ready Or Not"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["cool"] 
 Saga = [""]
+TopWords = [ "hasard","fun", "marriée", "sérieux", "sort", "jeux", "innatendu", "famille"]
 +++
 Ce film est arrivé un peu comme un cheveux sur la soupe : “Tiens un film d'horeur, allez ça fait longtemps et vue le casting ça doit être une ptite daube habituelle.”
 Et bien non !
