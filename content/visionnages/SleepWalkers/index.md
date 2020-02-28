@@ -14,6 +14,7 @@ title = "Sleepwalkers"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["meh"] 
 Saga = [""]
+TopWords = [  "90s","moche","cheap","inceste", "castle rock", "stephen king", "navet","alien","surnaturel"]
 +++
 Attention !
 */!\ Alerte au navet /!\*
