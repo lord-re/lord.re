@@ -14,6 +14,7 @@ title = "Scanners"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["cool"] 
 Saga = [""]
+TopWords = [ "enquête", "boum", "surnaturel", "daté","pouvoir"]
 +++
 Scanners a vieilli.
 C'est triste à dire mais c'est dur de le regarder sans se le dire malheureusement.
