@@ -13,6 +13,7 @@ Directors = ["Guillermo Del Toro"]
 Actors = ["Sally Hawkins","Octavia Spencer","Michael Shannon"]
 Wikipedia = "https://fr.wikipedia.org/wiki/La_Forme_de_l%27eau"
 Avis = ["excellent"]
+TopWords = [ "sourd","laboratoire", "scientifique", "expérience", "50s", "amour", "eau", "monstre"]
 +++
 Je l'avais pas encore vu et là aussi c'est une bonne découverte.
 C'est joli, l'histoire est pas si gentillette et les acteurs sont encore une fois cool.
