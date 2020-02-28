@@ -15,6 +15,7 @@ title = "Us"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
 Saga = [""]
+TopWords = [ "double", "tension", "stress", "horreur", "noir","mystère","surnaturel"]
 +++
 Un ptit film d'horreur de *Jordan Peele*.
 Il avait déjà fait l'excellent **Get Out**, bha là il revient avec **Us**.
