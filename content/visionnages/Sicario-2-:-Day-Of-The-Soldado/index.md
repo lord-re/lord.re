@@ -14,6 +14,7 @@ Actors = ["Josh Brolin","Bénicio Del Toro"]
 title = "Sicario 2 : Day Of The Soldado"
 Sagas = ["Sicario"]
 Avis = ["Excellent"]
+TopWords = [ "flic", "drogue","cartel","méxique"]
 +++
 Le premier a été réalisé par Denis Villeneuve et wow il m'a scié dès le premier visionnage.
 La mise en scène en jette et tout, ça a beau être un film avec pas mal d'action, il y a pleins de moments plutôt posés.
