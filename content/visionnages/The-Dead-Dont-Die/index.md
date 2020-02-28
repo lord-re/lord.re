@@ -15,6 +15,7 @@ title = "The Dead Don't Die"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["meh","long"] 
 Saga = ""
+TopWords = [  "tombe","meh", "zombie", "zomboid", "lent","mou"]
 +++
 Ça commence lentement.
 Et puis vers la moitié du film ça continue lentement.
