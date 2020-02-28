@@ -14,6 +14,7 @@ title = "The Mangler"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["nul"] 
 Saga = ["The Mangler"]
+TopWords = [ "cadavre", "photographe", "usine", "inspecteur", "monstre","stephen king","surnaturel","nanar","90s"]
 +++
 Un petit film sans prétention très très typé années 90.
 On oscille entre le film fantastique, le film d'horreur, le film d'action et le bon gros nanar qui tâche et c'est tout ce qu'on en retiendra.
