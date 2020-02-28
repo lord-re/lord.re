@@ -15,6 +15,7 @@ title = "Panic Room"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
 Saga = [""]
+TopWords = [ "thriller", "maison", "voleur", "piège", "bunker"]
 +++
 Un autre David Fincher.
 Celui-là est *super aussi* (Fincher quoi).
