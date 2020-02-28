@@ -14,6 +14,7 @@ title = "Thinner"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["oneshot"] 
 Saga = [""]
+TopWords = [  "nanar","obèse", "poids", "twist", "manouche", "ville", "gypsie", "bangor", "malédiction"]
 +++
 Ce film est assez peu connu.
 Et en fait ça on le comprends assez vite.
