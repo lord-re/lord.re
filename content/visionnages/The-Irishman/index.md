@@ -14,6 +14,7 @@ title = "The Irishman"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["cool"] 
 Saga = [""]
+TopWords = [  "famille", "mort", "truand", "vieux","gangster","mafia","70s"]
 +++
 Je viens tout juste de finir le film (le générique tourne en fond) et en fait je sais pas.
 Autant j'ai vraiment adoré l'histoire et tout mais de savoir que Scorcese a 76 ans, que tous les acteurs du film ont la même tranche d'âge et de voir que la fin du film ils sont tous mort…
