@@ -14,6 +14,7 @@ title = "Terminator : Dark Fate (6)"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["cool"] 
 Saga = ["Terminator"]
+TopWords = [  "futur", "robot","science fiction","schwarzy","too much","action","barrage"]
 +++
 Annoncé comme étant l'opus qui doit relancer la licence suite à la perte progressive de l'amour du public (lié à la qualité des films) et bha pas tant que ça.
 Le réalisateur a été un peu aidé au niveau du scénar par James Cameron mais sans plus.
