@@ -14,6 +14,7 @@ Actors = ["Sylvester Stallone","Richard Crenna","Brian Dennehy"]
 title = "Rambo 1 : First Blood"
 Sagas = ["Rambo"]
 Avis = ["excellent"]
+TopWords = [  "vietnam","militaire","vétéran", "flics", "fôret", "survie"]
 +++
 C'est le seul film Rambo que je connais.
 Je ne sais pas comment sont les autres mais celui-là est vraiment super je trouve.
