@@ -14,6 +14,7 @@ Actors = ["Wil Wheaton","River Phoenix","Corey Feldman"]
 title = "Stand By Me"
 Ressenti_possibles = ["nul","long","court","meh","cool","excellent","parfait"]
 Avis = ["cool"] 
+TopWords = [ "bande", "adultes", "ambiance", "grandir", "stephen king", "gamins","50s"]
 +++
 J'ai presque honte, j'avais jamais vu ce film culte.
 En plus c'est tiré d'une nouvelle de Stephen King.
