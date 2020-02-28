@@ -14,6 +14,7 @@ title = "Riding The Bullet"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["nul"] 
 Saga = [""]
+TopWords = [  "train","mauvais","stephen king","navet"]
 +++
 Rhaaalalala ce que c'est à la ramasse.
 C'est chiant, moche lent, mal joué.
