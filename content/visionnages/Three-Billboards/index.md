@@ -15,6 +15,7 @@ title = "Three Billboards"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
 Saga = [""]
+TopWords = [ "flic","panneaux","enquête", "usa"]
 +++
 *Excellente découverte de ce mois*.
 La bande annonce m'avait tenté, mais je n'avais pas eu l'occasion et bha franchement pas déçu.
