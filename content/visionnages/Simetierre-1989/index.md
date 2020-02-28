@@ -14,6 +14,7 @@ title = "Simetierre"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["cool"] 
 Saga = [""]
+TopWords = [ "animaux","voisin","cimetière", "sombre", "stephen king", "torturé", "triste", "vieillot"]
 +++
 Cette adaptation d'un livre de Stephen King est très fidèle.
 Ce film est vraiment sympa avec son ptit charme de film un peu vieillot avec un peu de budget mais pas trop.
