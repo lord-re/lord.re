@@ -14,6 +14,7 @@ title = "The Dead Zone"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
 Saga = [""]
+TopWords = [ "surnaturel", "voiture", "stephen king","castle rock","pouvoir","80s","enquête"]
 +++
 Nous voilà encore à *Castle Rock* pour une histoire assez surnaturelle.
 Suite à un accident de voiture (ou ptet même un peu avant, c'est étrange), notre cher Christopher Walken se retrouve doté d'un pouvoir lui permettant de voir le futur ou le passé en d'une personne en la touchant.
