@@ -14,6 +14,7 @@ title = "Seul Sur Mars"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
 Saga = [""]
+TopWords = [  "patate","survie", "crédible", "mars","espace", "science fiction"]
 +++
 À sa sortie il m'avait fait vraiment de l'œil : Ridley Scott qui repart dans l'espace mais pour de la science pas trop fiction.
 Pas d'alien ici mais de la survie crédible.
