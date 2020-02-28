@@ -14,6 +14,7 @@ Actors = ["Michael Douglas","Sean Penn","Deborah Kara Unger"]
 title = "The Game"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
+TopWords = [  "ambiance","parano","jeu", "suspens", "tension"]
 +++
 Un ptit Fincher des familles.
 *Il est propre, efficace, réussi.*
