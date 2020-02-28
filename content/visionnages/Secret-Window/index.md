@@ -14,6 +14,7 @@ title = "Secret Window"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["cool"] 
 Saga = [""]
+TopWords = [  "surprise", "twist","trouble","psychologique","maison","lac", "stephen king", "écrivain"]
 +++
 Un écrivain (ouai c'est une histoire de Stephen King donc c'est un écrivain le protagoniste) vivant reclus dans sa baraque de campagne telle une loque car en instance de divorce va être accusé de plagiat.
 Notre pauvre *Johnny Depp* va se faire harceler par *John Turturro*.
