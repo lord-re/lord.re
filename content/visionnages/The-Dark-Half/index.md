@@ -14,6 +14,7 @@ title = "The Dark Half"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["cool"] 
 Saga = [""]
+TopWords = [  "90s", "psychologique", "pseudonyme", "stephen king", "écrivain","castle rock","alcool"]
 +++
 Un film assez méconnu pas excellent mais pas pourri non plus.
 Il est pas mal typé années 90 mais il reste regardable quand même.
