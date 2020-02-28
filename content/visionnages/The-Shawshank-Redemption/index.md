@@ -14,6 +14,7 @@ title = "The Shawshank Redemption"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["parfait"] 
 Saga = [""]
+TopWords = [  "banquier","impot", "taulard", "évasion", "prison", "stephen king","poster"]
 +++
 Voilà un film que j'adore tout particulièrement.
 L'histoire prend place à la fin des années 40 dans la prison de Shawshank.
