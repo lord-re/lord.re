@@ -14,6 +14,7 @@ title = "Rock'n Rolla"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["parfait"] 
 Saga = [""]
+TopWords = [  "gangster","braquage","casse","truand","rockeur", "londres", "humour",]
 +++
 Guy Ritchie est un réalisateur qui m'impressionne beaucoup.
 Il a commencé sa carrière en sortant **Arnaques Crimes & Botanique** de nul part. 
