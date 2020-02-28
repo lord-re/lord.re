@@ -14,6 +14,7 @@ title = "Silver Bullet"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["cool"] 
 Saga = [""]
+TopWords = [ "fauteuil roulant", "handicapé","loup garou","monstre","stephen king","surnaturel"]
 +++
 Un film assez basique.
 Pas mauvais ni brillant, au final il se laisse voir même aujourd'hui.
