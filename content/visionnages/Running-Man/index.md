@@ -14,6 +14,7 @@ title = "Running Man"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["cool"] 
 Saga = [""]
+TopWords = [  "castagne","télé","émission", "schwarzy","punchline","futur","science fiction","80s","stephen king"]
 +++
 Derrière des allures de film bourrin des années 80 (j'ai un gros faible pour ces films qui m'ont bercés) on retrouve quand même un film plutôt intéressant.
 Notre cher *Schwarzy* fanfaronne dans ce film avec des punchline qui tâchent en collant des pains comme il en a le secret.
