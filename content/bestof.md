@@ -86,3 +86,8 @@ Une sélection d'articles passés toujours pertinents.
   - [Nourrir ses gentils ptits chats]({{< ref "posts/171-nourrir-ses-chats/">}})
   - [Pinguez-moi pour jouer !]({{< ref "posts/172-jeux-multi-pinguez-moi/">}})
   - [Se créer un initramfs manuellement]({{< ref "posts/176-creer-initramfs-manuellement/">}})
+
+## 2020
+
+  - [Le fonctionnement d'un switch réseau]({{< ref "posts/189-fonctionnement-switch" >}})
+  - [Scripter une session Tmux]({{< ref "posts/190-scripter-une-session-tmux" >}})
