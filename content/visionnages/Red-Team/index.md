@@ -14,6 +14,7 @@ title = "Red Team - Double Détente"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["meh","oneshot"] 
 Saga = [""]
+TopWords = [  "castagne","russe","schwarzy","buddy movie", "boum", "gueule", "pan"]
 +++
 Un buddy movie un peu pataud voir lourdingue par moment.
 Il échoue largement au [test de Bechdel](https://fr.wikipedia.org/wiki/Test_de_Bechdel) (et pas qu'un peu), l'époque n'aidant pas…
