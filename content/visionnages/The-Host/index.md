@@ -14,6 +14,7 @@ title = "The Host"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["cool"] 
 Saga = [""]
+TopWords = [  "gaz", "catastrophe", "égout", "rivière", "monstre", "séoul", "corée"]
 +++
 Un scientifique américain ordonne à son grouillot coréen de vider des produits dégueulasses bien toxiques dans l'évier alors que c'est formellement interdit.
 Quelques années plus tard, une créature bien massive et plutôt véner en a marre de se planquer dans le fleuve de Séoul.
