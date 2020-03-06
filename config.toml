@@ -34,7 +34,7 @@ paginate = 20
 
 [params]
   sidebartitle = "/home/lord"
-  sectionsInHomepage = ["posts","fast-posts","shares","ideas","recap"]
+  sectionsInHomepage = ["posts","fast-posts","shares","ideas","recap","visionnages"]
 
 [taxonomies]
   category = "categories"
