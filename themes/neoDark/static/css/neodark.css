@@ -82,7 +82,7 @@ a:hover, a:focus{
  margin:0.5rem;
 }
 .icons a:hover, .icons a:focus{
- transform:scale(2);
+ transform:scale(1.2);
 }
 article{
  margin-top:2rem;
@@ -209,12 +209,18 @@ figure{
 figure a img{
  max-width:100%;
 }
-.post-meta{
+.post-meta {
  font-size:.8rem;
  padding:0 2rem 0 2rem;
 }
+.post-meta-list{
+ font-size:.8rem;
+ padding:0 1rem 0 1rem;
+ display:flex;
+ flex-direction:row;
+ justify-content:space-between;
+}
 .read-more-link , .read-more-link a{
- text-align:right;
  color:#3bb2a9;
 }
 hr{
@@ -351,14 +357,12 @@ summary:hover, summary:focus{
  color:hsl(300,58%,58%);
 }
 .webring .article{
- color:#bbb;
  padding: 0.5rem;
  border-bottom:1px solid #555;
 }
 .webring .summary{
  font-size:0.7rem;
- text-align:justify;
- line-height:1rem;
+ line-height:1.1rem;
 }
 .webring .attribution{
  text-align:right;
