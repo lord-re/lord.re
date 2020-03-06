@@ -1,6 +1,6 @@
 [readingTime]
-one = "Une seule belle minute de plaisir"
-other = "{{.Count}} minutes de plaisir"
+one = "~1min"
+other = "~{{.Count}}mins"
 
 [more]
 other = "Lire en entier …"
