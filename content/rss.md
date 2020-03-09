@@ -11,7 +11,7 @@ editor = "kakoune"
 +++
 Ce soir le chef vous propose différents flux RSS.
 
-  - [Gastronomique](https://lord.re/index.xml) : *tout* (sauf les visionnages)
+  - [Gastronomique](https://lord.re/index.xml) : *tout*
   - [Les posts](https://lord.re/posts/index.xml) : uniquement les articles un peu longs
   - [Les fast-posts](https://lord.re/fast-posts/index.xml) : les ptits articles d'actualité
   - [Les partages](https://lord.re/shares/index.xml) : des trouvailles, des liens, des trucs qui me plaisent
