@@ -30,7 +30,7 @@ nav{
 }
 main{
  grid-area:b;
- margin:auto;
+ margin:0.5rem;
  max-width:80ch;
 }
 aside{
