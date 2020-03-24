@@ -309,14 +309,14 @@ summary:hover, summary:focus{
  background-clip: text;
  -webkit-background-clip: text;
  color:transparent;
- animation:rainbow 80s infinite linear; 
+/* animation:rainbow 80s infinite linear;*/
 }
 @keyframes rainbow{
  0%{   background-position:0% 50%;}
  100%{ background-position:200% 50%;}
 }
 .spin{
- animation:spin 80s infinite linear;
+/* animation:spin 80s infinite linear;*/
 }
 @keyframes spin{
  0%{   transform:rotate(0 turn);}
