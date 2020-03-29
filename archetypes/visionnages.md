@@ -2,8 +2,7 @@
 Author = "Lord"
 Description = ""
 notoc = true
-draft = true
-VisionnageDate = ["",""]
+VisionnageDate = ["{{ .Date }}",""]
 date = {{ .Date }}
 editor = "kakoune"
 Wikipedia = ""
@@ -11,6 +10,7 @@ Imdb = ""
 year = [""]
 Directors = [""]
 Actors = ["",""]
+RssTag = ["visionnage"]
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = [""] 
