@@ -10,6 +10,11 @@ paginate = 20
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+    [markup.goldmark.extensions]
+      linkify = false
+      strikethrough = true
+      typographer = false
+      
 [blackfriday]
   fractions = false
   smartypants = false
