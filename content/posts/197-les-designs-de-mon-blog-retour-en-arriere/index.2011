@@ -1,0 +1,213 @@
+<html><!-- 
+ single html processed by https://github.com/zTrix/webpage2html
+ title: Mon site perso
+ url: ./index.2011.html
+ date: Tue Apr 14 00:53:08 2020
+-->
+<head>
+<title>Mon site perso</title>
+<style data-href="style.2011.css" media="screen" rel="stylesheet" title="Design" type="text/css">#header{
+	background-color:blue;
+	display:none;
+}
+#menu{
+	top:0px;
+	background-color:#333;
+	border-top:4px #333 solid;
+	border-bottom: solid 4px #333;
+	height:24px;
+	-webkit-transition:border 2s ease-out,background-color 2s ease;
+	-o-transition:border 2s ease-out,background-color 2s ease;
+}
+#menu:hover{
+	background-color:#222;
+	border-top:15px solid #222;
+}
+#menu:hover *{
+	//top:10px;
+	opacity:0.6;
+}
+#menu *{
+	color:white;
+	position:relative;
+	top:-3px;
+	font-size:7pt;
+	margin-left:7%;
+	font-weight:bold;
+	opacity:0.4;
+	text-decoration:none;
+	-webkit-transition:font-size 0.6s,text-decoration 2s, top 0.3s ease-out, color 2s, opacity 0.2s;
+	-o-transition:font-size 0.6s,text-decoration 2s, top 0.3s ease-out, color 2s, opacity 0.2s;
+}
+
+#menu *:hover{
+	text-decoration:underline;
+	text-shadow:0px 0px 20px white;
+	text-outline: 1px 1px red;
+	top:-5px;
+	opacity:1;
+	color:#ddd;
+}
+body{
+	margin:0px;
+}
+
+.contenu{
+	position:relative;
+	top:5px;
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	width:90%;
+	text-align:justify;
+	background-color:rgba(0,0,0,0.4);
+	border-radius:12px;
+}
+.news{
+	margin:1px;
+	padding:2px;
+	position:relative;
+	overflow:hidden;
+	max-height:1000px;
+	font-size:13pt;
+	color:#aaaaaa;
+	top:1px;
+	border:1px solid black;
+	border-radius:12px;
+	-webkit-transition:border 3s,max-height 1s,color 3s, top 3s, left 10s, background-color 5s;
+	-o-transition:border 3s,max-height 1s,color 3s, top 3s, left 10s, background-color 5s;
+}
+.news:nth-child(1n+1){
+	max-height:50px;
+}
+.news h2{
+	text-shadow:1px 4px 5px black;
+	text-outline:10px 10px red;
+}
+.news:nth-child(2n+1){
+	background-color:#333;
+}
+.news:nth-child(2n+0){
+	background-color:#222;
+}
+.news:hover{
+	top:-10px;
+	text-shadow:1px 3px 3px black;
+	color:dddddd;
+	max-height:1000px;
+	border: 1px dashed #fff;
+}
+.news:active {
+	color:white;
+	top:-10px;
+}
+
+html{
+	margin:0px;
+	padding:0px;
+	background-color:#222;
+	color:#bbbbdd;
+}
+</style>
+</head>
+<body>
+<div id="header">
+<p style="font-family:monospace;">
+		-----------------------------------------------------------------------<br/>
+		-<strong>-</strong>LLL<strong>-</strong>------------<strong>-</strong>OOOOO<strong>-</strong>---------<strong>-</strong>RRRRRRRRRRRR<strong>-</strong>-------<strong>-</strong>DDDDDDDDDD<strong>-</strong>----<br/>
+		-<strong>-</strong>LLL<strong>-</strong>----------<strong>-</strong>OOO<strong>-</strong>-<strong>-</strong>OOO<strong>-</strong>-------<strong>-</strong>RRRRRRRRRRRRR<strong>-</strong>-------<strong>-</strong>DDD<strong>-</strong>--<strong>-</strong>DDD<strong>-</strong>---<br/>
+		-<strong>-</strong>LLL<strong>-</strong>---------<strong>-</strong>OOO<strong>-</strong>---<strong>-</strong>OOO<strong>-</strong>------<strong>-</strong>RRR<strong>-</strong>-----<strong>-</strong>RRR<strong>-</strong>-------<strong>-</strong>DDD<strong>-</strong>----<strong>-</strong>DDD<strong>-</strong>-<br/>
+		-<strong>-</strong>LLL<strong>-</strong>---------<strong>-</strong>OOO<strong>-</strong>---<strong>-</strong>OOO<strong>-</strong>------<strong>-</strong>RRRRRRRRRRRRR<strong>-</strong>-------<strong>-</strong>DDD<strong>-</strong>----<strong>-</strong>DDD<strong>-</strong>-<br/>
+		-<strong>-</strong>LLL<strong>-</strong>---------<strong>-</strong>OOO<strong>-</strong>---<strong>-</strong>OOO<strong>-</strong>------<strong>-</strong>RRRRRRRRRRR<strong>-</strong>---------<strong>-</strong>DDD<strong>-</strong>----<strong>-</strong>DDD<strong>-</strong>-<br/>
+		-<strong>-</strong>LLLLLLLL<strong>-</strong>-----<strong>-</strong>OOO<strong>-</strong>-<strong>-</strong>OOO<strong>-</strong>-------<strong>-</strong>RRR<strong>-</strong>----<strong>-</strong>RRR<strong>-</strong>--------<strong>-</strong>DDD<strong>-</strong>--<strong>-</strong>DDD<strong>-</strong>---<br/>
+		-<strong>-</strong>LLLLLLLL<strong>-</strong>-------<strong>-</strong>OOOOO<strong>-</strong>---------<strong>-</strong>RRR<strong>-</strong>-----<strong>-</strong>RRR<strong>-</strong>------<strong>-</strong>DDDDDDDDDD<strong>-</strong>----<br/>
+		-----------------------------------------------------------------------<br/>
+</p>
+</div>
+<div id="menu">
+<a data-href="" href="./index.2011.html" title="Homepage">Home</a> <a data-href="" href="./index.2011.html">MoM</a> <a data-href="" href="./index.2011.html" title="tiny tiny RSS perso">RSS</a> <a data-href="" href="./index.2011.html" title="Webmail perso">Mail</a> <a data-href="" href="./index.2011.html" title="trucs qui servent de temps à autres">Memos</a> <a data-href="" href="./index.2011.html" title="Upload d'images et de torrent">Upload</a> <a data-href="" href="./index.2011.html" title="Page de contact">Contact</a> <a data-href="" href="./index.2011.html" title="Monitoring de lordtoniok.com">Munin</a> <a data-href="" href="./index.2011.html" title="QG secret">Admin</a><br/>
+</div>
+<div class="contenu">
+<div id="contenu">
+<div class="news">
+<h2>Un ptit coucou</h2>
+<p>Non je ne suis pas mort ! Et d'ailleurs je viens de résoudre un problème que j'ai depuis toujours sur ce laptop : faire sortir du son depuis la prise jack. En fait c'était tout con. Il suffisait de rajouter <em>options snd-hda-intel model=m51va position_fix=0</em> dans le modprobe.conf. Bon j'avoue ce message est destiné à mon moi du futur qui réinstallera surement un nunux et se fera chier avec ce bug à la con.</p>
+</div>
+<div class="news">
+<h2>Migration</h2>
+<p>Et voilà j'ai changé d'hébergement, enfin la machine qui me sert un peu pour tout. Donc je suis passé d'une config qui fût jadis mon PC principal. Un Opteron 165 dual core overclocké et watercoolé dans un boitier Antec Twelve Hundred. Je suis passé à un petit PC sur base d'atom D510. Globalement je pense que j'ai perdu en perf mais j'ai casé ça dans un boitier Fract Design Array R2. Je passe d'un boitier grande tour à un boitier mini ITX. Sympa le gain de place et ce coup-ci en fanless (enfin presque) et sans watercooling (plus de petits glouglous). La config est vraiment très très silencieuse. J'ai migré les disques durs (et rajouté un petit à la famille). Ce PC sert donc principalement de routeur et de NAS (avec une capacité de six disques durs). La migration a été simple. Il a suffit de dire à grub de booter sur le bon disque (au bout du troisième essai soit près de deux minutes) et me voili voilà avec ma gentoo up and running.</p>
+</div>
+<div class="news">
+<h2>MSN aurevoir</h2>
+<p>Ça y est je me suis barré de msn … il me semble que c'était mon seul truc encore sur un réseau proprio. Je suis très proche d'un écosystème parfaitement libre. De tête, il me reste plus que les drivers nvidia et Intel sur mon laptop ( et Team Fortress² ) sur l'autre PC.</p>
+</div>
+<div class="news">
+<h2>Jabber me voilà</h2>
+<p>Dans ma quête d'indépendance numérique, de liberté et de maîtrise de ma vie privée je viens de me monter un serveur jabber (ejabberd) pour à terme me débarasser d'msn, icq et companies. Donc maintenant vous pourrez me joindre par jabber à la même adresse que mon mail… C'est très propre et bien mieux que merdsn. Tiens j'ai aussi fait un chtit wiki pour me faire une petite "GED". Bon allez bouffez pas trop de bande passante et HF.</p>
+</div>
+<div class="news">
+<h2>Nouveau kernel not for fun</h2>
+<p>Et voilà je viens de passer d'un kernel 2.27 patché pour openvz vers un tout neuf 2.33.1 .J'en ai profité pour ajouter des petits trucs indispensables qui me faisait défaut : le redirect de netfilter (et ouai je l'avait oublié), le support de nfs en mode serveur (pour améliorer mon pxe) l'ajout du support de kvm (à défaut d'openvz…). Bon sur ce amusez-vous bien cher lectorat et préparez-vous à une nouvelle version de mon CMS encore plus optimisé pour tourner sur moins d'un Mo !:wq</p>
+</div>
+<div class="news">
+<h2>Monitorons ce qui traine sur son réseau</h2>
+<p>Lors de mon passage de Debian vers Gentoo, je n'ai pas réinstallé Munin. Je ne m'y prends que maintenant. Munin permet de faire de petits graphs très pratique concernant à peu près tout et n'importe quoi… C'est encore une fois un système de clients/serveur. Commençons par un petit emerge munin. Et là c'est quasiment finit pour le serveur. Il ne reste qu'à ajouter les clients à interroger dans /etc/munin/munin-node.conf sejon la syntaxe décrite en exemple.<br/>
+		Sur la partie cliente, il faut définir les plugins utilisés par le biais de liens symbolique. Par exemple : ln -s /usr/libexec/munin/plugins/if_ /etc/munin/plugins/if_<strong>eth0</strong><br/>Certains plugins nécessite un argument comme celui-ci dessus mais pour d'autre non… Il existe un clients windows avec quelques plugins intéressant. Pour les unix, sachez que les plugins ne sont que de simples scriptent renvoyant des valeurs dans une syntaxe relativement simple. Sur ce bonne nuit et à la prochaine.</p>
+</div>
+<div class="news">
+<h2>Mumuse avec OpenVZ</h2>
+<p>OpenVZ est un système de virtualisation pour linux particulier. En bref la machine hôte possède un kernel spécifiquement compilé et partage ce kernel avec les machines virtuelles. On est donc limité dans les OS mais par contre on obtient des performances impressionnantes. Pour plus de renseignements →→ wikipedia &amp; google ←←<br/>Bon en fait j'ai voulu faire mumuse avec ma ptite gentoo. C'est une machine qui me sert typiquement de serveur. C'est une machine headless. Mais j'avait besoin d'application graphiques nunux pendant que j'utilise des softs uniquements windows sur mon laptop. J'ai donc créé un container openvz (machine virtuelle) avec une bonne vieille lenny où j'ai installé un Xorg. Sur le windows j'ai installé Xming (un serveur X11 très bien foutu). Puis un simple ForwardX11 dans putty et le tour est joué. Le but de ce ptit article c'est surtout de mettre les commandes nécessaires à l'utilisation d'OpenVZ (ouai je sais on le trouve un peu partout mais c'est mon site, je fait ce que je veux).<br/>
+		Donc dans /vz/template/cache on fout le template qu'on veut.<br/>
+		vzctl create 101 --ostemplate distrib-version-arch --config<br/>
+		vzctl set 101 --hostname bla --ipadd a.b.c.d --nameserver a.b.c.d --diskspace 2G:3G --cpulimit 125 --save<br/>
+		vzctl start 101<br/>
+		vzctl enter 101<br/>
+		vzctl exec 101 htop<br/>
+		Bon je crois que c'est à peu près tout. Avec ca on peut bien faire mumuse.</p>
+</div>
+<div class="news">
+<h2>Optimisation du serveur web</h2>
+<p>N'ayant qu'une tite connexion ordinaire de français en ADSL, mon upload est très limité. Du coup, lors de la visite de ce merveilleux site web, le chargement des pages est assez longs. Pour tenter d'améliorer la situation je viens d'activer la compression gzip des pages. Pour mon site web la différence est ahurissante. Je diminue par 4 la taille de la page. Donc pour cela j'ai édité le fichier /etc/lighttpd/lighttpd.conf . J'ai décommenté la ligne de server.modules pour mod_compress. Puis j'ai rajouté deux lignes :<br/>compress.cache-dir = "/tmp/lighttpdcompress"<br/>compress.filetype = ("text/plain", "text/css", "text/xml")<br/>J'en ai également profité pour activer la compression pour les fichiers générés par php. Donc dans /etc/php/cgi-php5/php.ini il faut ajouter ces lignes:<br/>zlib.output_compression = On<br/>zlib.output_handler = On<br/>Et voilà vous avez un site tout allegé en Ko.</p>
+</div>
+<div class="news">
+<h2>Un chtit coup de ViM pour changer</h2>
+<p>Ce coup-ci j'ai voulu faire un truc tout con : colorer le syslog dans vim. Donc je vais sur vim.org, je cherche un script de coloration de syslog. Je télécharge le fichier dans ~/.vim/after/syntax/syslog.vim . Ensuite il ne reste plus qu'à éditer/créer le fichier ~/.vim/filetype.vim avec dedans :<br/>augroup filetypedetect<br/> au! BufRead,BufNewFile /var/log/syslog set filetype=syslog<br/>augroup END<br/>Et voilà la prochaine fois que vous lirez vos logs vous aurez de zolies couleurs :-D</p>
+</div>
+<div class="news">
+<h2>Ajout de PostGrey et ...</h2>
+<p>Wow la classe ! Mon premier titre avec des points de suspensions ! Bon alors voilà j'en ai un peu marre de la masse de spam que je reçoit. Mon installation de mail est quelque peu bancale. J'ai en fait un ptit postfix, procmail, dovecot, roundcube. Ca fait un combo qui fait un tit gmail like tout ca auto hébergé. Mais j'aimerait pouvoir m'y connecter avec thunderbird pour faire mumuse avec le plugin lightning qui permet de gérer l'agenda, calendrier, les tâches, tout cela dans le but de synchroniser avec mon téléphone portable par le biais d'un serveur funambol que je me suis installé. Bon ca commence à faire un sacré bastringue. Donc chaque chose en son temps. Je n'arrive pas à me connecter depuis Thunderbird ni même Opera à mon serveur de mail en imap. Donc j'essai de voir pour gérer ca. J'en ai profité pour ajouter du greylisting pour virer un peu de spam. Qui plus est mon procmail est légèrement foireux. J'ai tenté d'ajouter des règles pour classer automatiquement les mails mais malheureusement ce n'est pas pris en compte. Encore un truc louche donc bref. J'ai du pain sur la planche pour 2010. (Bha vi faut en parler aussi).</p>
+</div>
+<div class="news">
+<h2>Unicodisation</h2>
+<p>Houllla je poste de plus en plus souvent ! Je vais finir en blogueur influent d'ici peu ! Bon en fait comme annoncé précédemment j'ai fait en sorte de ne plus avoir de soucis de charset. En bref j'ai modifiées mes locales pour n'avoir au final que "en_US.UTF-8 UTF-8". J'ai créé le fichier /etc/env.d/02locale où j'y force mes variables de locales et le tour est joué. Je n'ai plus qu'à reconfigurer vim et putty pour qu'ils fassent du bel utf-8. Et maintenant je peux me la péter avec de beaux trucs incompréhensibles : Ϣ о҉ ۩ ༄  ←↓→↑ ↙↓↘ ↖↑↗ </p>
+</div>
+<div class="news">
+<h2>Degooglisation</h2>
+<p>Bon allez je vais suivre un peu la mode de la degooglisation en commencant a migrer ma principale boite mail de gmail vers une boite autohebergee sur un postfix dovecot roundcube procmail. Je ne peux pas dire que c'eut ete simple mais en tout cas c'est gratifiant et je regagne un peu de liberte (c'est fichtrement plus agreable quand c'est heberge a la main). Bon c'est peut-etre pas aussi fiable (va me falloir un onduleur) mais bon. Prochaine etape ca sera de regler le soucis d'utf8 de la gentoo. Ca merde de droite et de gauche ce bastringue. Allez j'arrete de vous emmerder avec mes fautes.</p>
+</div>
+<div class="news">
+<h2>Passage en full SSL</h2>
+<p>Juste un petit passage pour dire que je viens de passer le serveur web en SSL obligatoirement. Comme ça je montre mon côté anarchiste anti hadopiste et puis ca fait plaisir à certains de me faire bouffer plus de CPU pour afficher des pages pleines de blabla chiants.</p>
+</div>
+<div class="news">
+<h2>Monter un ircd Unreal avec services Anope</h2>
+<p>Bon je viens de me pencher sur le problème de l'install et de la config d'un ircd. J'ai d'abord tenté hybrid couplé à hybserv. L'ircd marche parfaitement et rapidement mais quelle galère pour les services. J'ai donc pris un peu plus de temps et fait un truc plus propre avec Unrealircd et les services Anope. Il s'agit d'un système assez répandu. Donc voici les étapes de bases.</p>
+<p>D'abord télécharger les sources, les (dé)gunzipper et detarer. Ensuite faire un beau petit ./Configure et là,  répondre aux questions intelligemment. Ensuite un ptit make et zouuu. Ensuite on récupère l'exemple de fichier de conf se trouvant dans le répertoire doc et le placer à la racine d'unreal et le nommer unrealircd.conf et là on remonte ses manches. 800 belles lignes à lire. Je tiens à preciser que ce fichier de conf est vraiment très bien foutu. Des commentaires partout, un chouilla d'humour et des exemples. Que peut-on faire de plus ? D'abord on décommente les modules que l'on souhaite charger (les deux par défaut c'est le minimum). Dans le block me, il faut bien adapter les renseignements ainsi que dans admin. Ensuite il faut configurer le block oper (au moins un). Dedans vous faites gaffe à bien renseigner le host. Bon ensuite viens le petit truc vicieu, le block listen. C'est là que vous configuré les ip/ports d' écoute. Pour chaque ip/port vous devez choisir le type de connexion attendue : s'il s'agit d'un client classique, ou bien d'une connexion ssl ou bien encore d'un autre serveur (les services sont un serveur). Donc un truc genre listen *:6666;{options{serversonly;};}; puis listen *:6667;{options{standard;};}; ca vous permettra de vous connecter par le port 6667 et vos services par le port 6666 (à noter ^^). Allez une dernière section importante et le plus dur sera fait. Dans le block link vous devez bien choisir le port destiné au serveur des services (6666) et mettre des pitites nétoiles au reste sauf aux passwords et à la class (servers). Le block ulines, on rentres bien le nom du serveur de services. Bon maintenant il ne reste que quelques broutilles et des options que l'on préfère configurer une fois que tout marche déjà plus ou moins.</p>
+<p>Bon ensuite on télécharge anope, on fait un beau petit ./Config , on répond Ã  la petite interview. Ensuite on copie l'exemple de fichier de conf et on le renommes services.conf et on le passe à la viminette. Et là  c'est une double ration de près de 1500 lignes de conf :-D . C'est encore le même genre de syntaxe (en bloc), c'est vraiment bien commenté et tout. Bon on commence par choisir le type de serveur irc sur lequel on va se connecter (dans mon cas unreal32. La ligne pour configurer le RemoteServer doit pointer sur localhost le port 6666 et le mot de passe que l'on a mis dans le bloc link de unrealircd.conf . Ensuite on adapte les noms de réseau, serveur et tout ... rien de bien méchant. On décommente et modifie la ligne ServicesRoot avec les noms des super users. Et bha voilà pour les trucs indispensables. Après c'est juste du tweaking ;-) .</p>
+</div>
+<div class="news">
+<h2>Changement de serveur</h2>
+<p>Et voilà  je viens de migrer du bon gros Apache au chtit Lighty. Franchement sympas ce serv. Il est plus léger et bien plus claire dans la syntaxe de sa config. Quelle facilité pour faire des vhosts. Bon allez sur ce je vais tenter de diminuer la conso ram de lighty/mysql ...</p>
+</div>
+<div class="news">
+<h2>Allez parceque je suis gentil je vous fait de la lecture.</h2>
+<p>Bon bha je suis passé de Debian à Gentoo et j'ai enfin transformer ce pc en serveur... j'ai viré X. De suite beaucoup plus léger. Sans serveur web ca ne bouffe qu'une trentaine de Mo de ram. C'est déjà bien mieux que les 250 de la debian. Et puis c'est tout bien fait aux petits gnongnons. Bon c'est fini pour la lecture. A la prochaine.</p>
+</div>
+<div class="news">
+<h2>Encore une fois un nouveau site !</h2>
+<p>Et ouai pour la X ième fois je refais un site de zéro ce coup-ci avec un CMS fait maison. Comme d'hab je me fais un point d'honneur à avoir un site valide et qui soit lisible partout (même les navigateurs console ce coup-ci). J'espère que le nouveau design (web 3.0 certified) vous plaira autant qu'à moi.</p>
+</div>
+</div>
+</div>
+</body>
+</html>

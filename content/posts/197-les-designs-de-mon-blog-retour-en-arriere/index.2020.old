@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="fr"><!-- 
+ single html processed by https://github.com/zTrix/webpage2html
+ title: /home/lord
+ url: https://lord.re/
+ date: Tue Apr 14 00:48:57 2020
+-->
+<head>
+<title>/home/lord</title>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<meta content="width=device-width, initial-scale=1.0, shrink-to-fit=no" name="viewport"/>
+<meta content="Un blog perso parlant adminsys Linux et autres trucs de geeks" name="description"/>
+<meta content="linux,geek,adminsys,blog," name="keywords"/>
+<meta content="Lord" name="author"/>
+<meta content="Hugo 0.63.0-DEV" name="generator"/>
+<style data-href="https://lord.re/css/neodark.css" rel="stylesheet" title="NeoDark" type="text/css">/*
+Creative Commons 4.0 BY-SA
+You can reuse it, and if you do i'll gladly take a look at your website, don't hesitate to ping me ! :-)
+*/
+
+*{
+ box-sizing:border-box;
+ transition: box-shadow 0.2s ease, outline-offset 0.2s ease, transform 0.2s ease, background 0.4s ease;
+ margin:0;
+}
+html{
+ line-height:1.35em;
+ background:#272b30;
+ color:#bbb;
+}
+body{
+ display:grid;
+ grid-template-areas: "a a a"
+ "b b b"
+ "c c c";
+ grid-template-columns: 1fr 4fr 1fr;
+}
+nav{
+ grid-area:a;
+ padding:1rem;
+ text-align:center;
+ box-shadow:0 0 2em rgba(0,0,0,0.4);
+ background: #222;
+ border-bottom:2px solid #414;
+}
+main{
+ grid-area:b;
+ margin:0.5rem;
+ max-width:80ch;
+}
+aside{
+ grid-area:c;
+ display:none;
+}
+
+@media (min-width:120ch){
+ body{
+  grid-template-areas:  "a b c"
+ "a b c"
+ "a b c";
+ }
+ nav {
+  border-bottom:none;
+ }
+ aside{
+  display:block;
+  background: #222;
+  box-shadow:0 0 2em rgba(0,0,0,0.4);
+ }
+}
+
+@media (min-width: 160ch){
+ html{
+  font-size:18pt;
+ }
+}
+@media (min-width: 220ch){
+ html{
+  font-size:20pt;
+ }
+}
+#drafturl{
+ color:#272b30;
+}
+a{
+ text-decoration:none;
+ border-bottom:1px dotted;
+ color:#ea872d;
+}
+a:hover, a:focus{
+ outline:1px solid;
+ outline-offset:.3em;
+ border-bottom:1px dashed orangered;
+}
+.icons a{
+ display:inline-block;
+ margin:0.5rem;
+}
+.icons a:hover, .icons a:focus{
+ transform:scale(1.2);
+}
+article{
+ margin-top:2rem;
+ margin-bottom:2rem;
+}
+h1 a{
+ font-size:1.7rem;
+ line-height:2.2rem;
+}
+h2{
+ font-size:1.5rem;
+ color:#8aa;
+ padding-top:1.2rem;
+}
+h3{
+ font-size:1.3rem;
+ padding-top:1.1rem;
+}
+.posts, .fast-posts, .shares, .ideas, .recap, .visionnages, .docs{
+ border-radius:0.6rem 0.6rem 1rem 1rem;
+ overflow:hidden;
+ text-align:justify;
+ margin-top:1rem;
+}
+.posts{
+ border:2px solid hsl(258,33%,30%);
+ border-top:4px solid hsl(258,58%,58%);
+ box-shadow:0 0 5rem 0.5rem hsl(258,58%,58%,0.3);
+}
+.fast-posts{
+ border:2px solid hsl(210,33%,30%);
+ border-top:4px solid hsl(210,58%,58%);
+ box-shadow:0 0 5rem 0.5rem rgb(86,148,210,0.3);
+}
+.shares{
+ border:2px solid hsl(54,33%,30%);
+ border-top:4px solid hsl(54,58%,58%);
+ box-shadow:0 0 5rem 0.5rem rgb(210,197,85,0.3);
+}
+.ideas,.docs{
+ border:2px solid hsl(186,33%,30%);
+ border-top:4px solid hsl(186,58%,58%);
+ box-shadow:0 0 5rem 0.5rem rgb(85,197,210,0.3);
+}
+.recap{
+ border:2px solid hsl(86,33%,30%);
+ border-top:4px solid hsl(86,58%,58%);
+ box-shadow:0 0 5rem 0.5rem hsla(86,33%,30%,0.3);
+}
+.visionnages{
+ border:2px solid hsl(0,33%,30%);
+ border-top:4px solid hsl(0,58%,58%);
+ box-shadow:0 0 5rem 0.5rem hsla(0,33%,30%,0.3);
+}
+.posts h1 a{
+ color:#cac;
+}
+.fast-posts h1 a{
+ color:#99C3D1;
+}
+.shares h1 a{
+ color:#ffa;
+}
+.ideas h1 a{
+ color:#aff;
+}
+.recap h1 a{
+ color:hsl(86,58%,58%);
+}
+.visionnages h1 a{
+ color:hsl(0,58%,58%);
+}
+.post-category{
+ color:#aeb8f9;
+ margin-left:.6rem;
+}
+.post-edit-date{
+ color:#888;
+}
+.posts ul li{
+ margin-left:1rem;
+ list-style-position:outside;
+ list-style-type:disc;
+}
+ol li,ul li{
+ padding-top:0.4rem;
+ margin-left:2rem;
+}
+section p{
+ padding-top:1rem;
+}
+em{
+ color:#8a8;
+}
+strong{
+ color:#a8a;
+}
+pre, :not(pre) > code{
+ border:1px dashed black;
+ box-shadow:0 0 0.5em rgba(0,0,0,0.4) inset;
+ background:#1d2024;
+ background: repeating-linear-gradient(-30deg, #1d2024, #1d2024 20px, #202529 20px, #252529 40px);
+ margin-top:0.5rem;
+ font-size:0.8rem;
+ color:#bbb;
+ padding: 0.5rem;
+ line-height:0.9rem;
+ overflow:auto;
+ white-space:pre-wrap;
+}
+figure h4{
+ font-size:0.7rem;
+ text-align:center;
+ background:#67a4a8;
+ font-weight:100;
+ color:black;
+}
+figure{
+ margin-top:0.5rem;
+ box-shadow:0 0 1em rgba(0,0,0,0.4);
+ outline: 3px solid black;
+ text-align:center;
+}
+figure a img{
+ max-width:100%;
+}
+.post-meta {
+ font-size:.8rem;
+ padding:0 2rem 0 2rem;
+}
+.post-meta-list{
+ font-size:.8rem;
+ padding:0 1rem 0 1rem;
+ display:flex;
+ flex-direction:row;
+ justify-content:space-between;
+}
+.read-more-link , .read-more-link a{
+ color:#3bb2a9;
+}
+hr{
+ margin-top: 1rem;
+ border: 1px dashed #555;
+}
+table{
+ margin:1rem;
+ color:#aaa;
+ text-align:left;
+}
+thead{
+ background-color:#333;
+}
+tr:nth-child(even){
+ background:#222;
+}
+tr:hover{
+ background:#333;
+}
+td{
+ padding:0.3rem;
+}
+header{
+ margin:2rem;
+}
+article {
+ padding:0 0.8rem 0 0.8rem;
+}
+footer{
+ color:#ccc;
+ margin-top:1rem;
+ padding:1rem;
+ background-color:#222;
+ /*petit hack pour que le fond du footer s'applique jusqu'au bout. Me demandez pas, Ã§a marche. */
+ border-bottom:1px dotted rgba(0,0,0,0);
+}
+samp::selection{
+ background-color:orangered;
+ color:#fff;
+}
+samp{
+ color:#caf;
+ font-size:1.1rem;
+}
+blockquote{
+ color:#aaa;
+ border:0.1rem solid #444;
+ border-left:1rem solid #444;
+ background-color:#333;
+ box-shadow:0 0.3rem 1rem rgba(0,0,0,0.4);
+ margin-top:1rem;
+ margin-left:1rem;
+ padding-left:1rem;
+ padding-bottom:1rem;
+ padding-right:1rem;
+}
+details{
+ max-width:100%;
+ margin-top:0.5rem;
+ margin-bottom:0.5rem;
+ border: 1px solid black;
+ box-shadow:0 0.2rem 1rem rgba(0,0,0,0.3);
+}
+details[open]{
+ max-width:100%;
+ border:1px solid #ea872d;
+ padding:1px;
+}
+summary{
+ cursor:pointer;
+ background:#333;
+ background: repeating-linear-gradient(-45deg, #333,#333 10px,#353535 10px, #353535 20px);
+ color:#aaa;
+ padding:0.3rem;
+ border:0.1rem solid #444;
+ box-shadow: 0 0.3rem 1rem #222;
+}
+summary:hover, summary:focus{
+ border:0.1rem solid #665;
+ box-shadow:0 0.5rem 1rem #111;
+}
+.rainbowverse{
+ background-image: repeating-linear-gradient(to left, #64ff00, #00a3ff, #9500ff, red, #ffca00, #64ff00);
+ background-size: 200% ;
+ background-clip: text;
+ -webkit-background-clip: text;
+ color:transparent;
+/* animation:rainbow 80s infinite linear;*/
+}
+@keyframes rainbow{
+ 0%{   background-position:0% 50%;}
+ 100%{ background-position:200% 50%;}
+}
+.spin{
+/* animation:spin 80s infinite linear;*/
+}
+@keyframes spin{
+ 0%{   transform:rotate(0 turn);}
+ 100%{ transform:rotate(1turn);}
+}
+.webring{
+ font-size:0.8em;
+ color:#bbb;
+ padding:1ch;
+}
+.webring h1{
+ text-align:center;
+}
+.webring .articles{
+ display: flex;
+ flex-direction:column;
+}
+.webring .title{
+ padding:0;
+ font-size:1.2em;
+}
+.webring .article:nth-child(1) a{
+ color:hsl(0,58%,58%);
+}
+.webring .article:nth-child(2) a{
+ color:hsl(60,58%,58%);
+}
+.webring .article:nth-child(3) a{
+ color:hsl(120,58%,58%);
+}
+.webring .article:nth-child(4) a{
+ color:hsl(180,58%,58%);
+}
+.webring .article:nth-child(5) a{
+ color:hsl(240,58%,58%);
+}
+.webring .article:nth-child(6) a{
+ color:hsl(300,58%,58%);
+}
+.webring .article{
+ padding: 0.5rem;
+ border-bottom:1px solid #555;
+}
+.webring .summary{
+ font-size:0.7rem;
+ line-height:1.1rem;
+}
+.webring .attribution{
+ text-align:right;
+ font-size: 0.6rem;
+}
+.svg2{
+ width:2em;
+}
+</style>
+<style data-href="https://lord.re/css/isso.css" rel="stylesheet" type="text/css">#isso-thread * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#isso-thread .isso-comment-header a {
+    text-decoration: none;
+}
+
+#isso-thread {
+    padding: 0;
+    margin: 0;
+}
+#isso-thread > h4 {
+    color: #555;
+    font-weight: bold;
+}
+#isso-thread > .isso-feedlink {
+    float: right;
+    padding-left: 1em;
+}
+#isso-thread > .isso-feedlink > a {
+    font-size: 0.8em;
+    vertical-align: bottom;
+}
+#isso-thread .textarea {
+    min-height: 58px;
+    outline: 0;
+}
+#isso-thread .textarea.placeholder {
+    color: #e1cb86;
+}
+#isso-thread input::placeholder{
+		color:rgba(225,203,134,0.6);
+}
+
+#isso-root .isso-comment {
+    max-width: 68em;
+    padding-top: 0.95em;
+    margin: 0.95em auto;
+}
+#isso-root .preview .isso-comment {
+    padding-top: 0;
+    margin: 0;
+}
+#isso-root .isso-comment:not(:first-of-type),
+.isso-follow-up .isso-comment {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.isso-comment > div.avatar {
+    display: block;
+    float: left;
+    width: 7%;
+    margin: 3px 15px 0 0;
+}
+.isso-comment > div.avatar > svg {
+    max-width: 48px;
+    max-height: 48px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.isso-comment > div.text-wrapper {
+    display: block;
+}
+.isso-comment .isso-follow-up {
+    padding-left: calc(7% + 20px);
+}
+.isso-comment > div.text-wrapper > .isso-comment-header, .isso-comment > div.text-wrapper > .isso-comment-footer {
+    font-size: 0.95em;
+}
+.isso-comment > div.text-wrapper > .isso-comment-header {
+    font-size: 0.85em;
+}
+.isso-comment > div.text-wrapper > .isso-comment-header .spacer {
+    padding: 0 6px;
+}
+.isso-comment > div.text-wrapper > .isso-comment-header .spacer,
+.isso-comment > div.text-wrapper > .isso-comment-header a.permalink,
+.isso-comment > div.text-wrapper > .isso-comment-header .note,
+.isso-comment > div.text-wrapper > .isso-comment-header a.parent {
+    color: gray !important;
+    font-weight: normal;
+    text-shadow: none !important;
+}
+.isso-comment > div.text-wrapper > .isso-comment-header .spacer:hover,
+.isso-comment > div.text-wrapper > .isso-comment-header a.permalink:hover,
+.isso-comment > div.text-wrapper > .isso-comment-header .note:hover,
+.isso-comment > div.text-wrapper > .isso-comment-header a.parent:hover {
+    color: #606060 !important;
+}
+.isso-comment > div.text-wrapper > .isso-comment-header .note {
+    float: right;
+}
+.isso-comment > div.text-wrapper > .isso-comment-header .author {
+    font-weight: bold;
+    color: #555;
+}
+.isso-comment > div.text-wrapper > .textarea-wrapper .textarea,
+.isso-comment > div.text-wrapper > .textarea-wrapper .preview {
+    margin-top: 0.2em;
+}
+.isso-comment > div.text-wrapper > div.text p {
+    margin-top: 0.2em;
+}
+.isso-comment > div.text-wrapper > div.text p:last-child {
+    margin-bottom: 0.2em;
+}
+.isso-comment > div.text-wrapper > div.text h1,
+.isso-comment > div.text-wrapper > div.text h2,
+.isso-comment > div.text-wrapper > div.text h3,
+.isso-comment > div.text-wrapper > div.text h4,
+.isso-comment > div.text-wrapper > div.text h5,
+.isso-comment > div.text-wrapper > div.text h6 {
+    font-size: 130%;
+    font-weight: bold;
+}
+.isso-comment > div.text-wrapper > div.textarea-wrapper .textarea,
+.isso-comment > div.text-wrapper > div.textarea-wrapper .preview {
+    width: 100%;
+    border: 1px solid #f0f0f0;
+    border-radius: 2px;
+    box-shadow: 0 0 2px #888;
+}
+.isso-comment > div.text-wrapper > .isso-comment-footer {
+    font-size: 0.80em;
+    color: gray !important;
+    clear: left;
+}
+.isso-feedlink,
+.isso-comment > div.text-wrapper > .isso-comment-footer a {
+    font-weight: bold;
+    text-decoration: none;
+}
+.isso-feedlink:hover,
+.isso-comment > div.text-wrapper > .isso-comment-footer a:hover {
+    color: #111111 !important;
+    text-shadow: #aaaaaa 0 0 1px !important;
+}
+.isso-comment > div.text-wrapper > .isso-comment-footer > a {
+    position: relative;
+    top: .2em;
+}
+.isso-comment > div.text-wrapper > .isso-comment-footer > a + a {
+    padding-left: 1em;
+}
+.isso-comment > div.text-wrapper > .isso-comment-footer .votes {
+    color: gray;
+}
+.isso-comment > div.text-wrapper > .isso-comment-footer .upvote svg,
+.isso-comment > div.text-wrapper > .isso-comment-footer .downvote svg {
+    position: relative;
+    top: .2em;
+}
+.isso-comment .isso-postbox {
+    margin-top: 0.8em;
+}
+.isso-comment.isso-no-votes span.votes {
+    display: none;
+}
+
+.isso-postbox {
+    max-width: 68em;
+    margin: 0 auto 2em;
+    clear: right;
+}
+.isso-postbox > .form-wrapper {
+    display: block;
+    padding: 0;
+}
+.isso-postbox > .form-wrapper > .auth-section,
+.isso-postbox > .form-wrapper > .auth-section .post-action {
+    display: block;
+}
+.isso-postbox > .form-wrapper .textarea,
+.isso-postbox > .form-wrapper .preview {
+    padding: 1em 1em;
+    border-radius: 0.4em;
+		color:#e1cb86;
+    background-color: #3e5b51;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.8) inset;
+}
+#isso-thread .textarea:hover,
+#isso-thread input:hover {
+    border-color: rgba(225,203,134,0.4);
+		color:#ffcb86;
+}
+#isso-thread .textarea:focus,
+#isso-thread input:focus {
+    border-color: #e1cb86;
+		color:#f2dc97;
+    outline: 0;
+}
+.isso-postbox > .form-wrapper > .auth-section .input-wrapper {
+    display: inline-block;
+    position: relative;
+    max-width: 25%;
+    margin: 0;
+}
+.isso-postbox > .form-wrapper > .auth-section .input-wrapper input {
+    padding: .3em 10px;
+    max-width: 100%;
+    border-radius: 3px;
+    background-color: #3e5b51;
+		color:#e1cb86;
+    line-height: 1.4em;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.isso-postbox > .form-wrapper > .auth-section .post-action {
+    display: inline-block;
+    float: right;
+    margin: 0 0 0 5px;
+}
+.isso-postbox > .form-wrapper > .auth-section .post-action > input {
+    padding: .3em 10px;
+    max-width: 100%;
+    border-radius: 3px;
+    background-color: #3e5b51;
+		color:#e1cb86;
+    line-height: 1.4em;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.isso-postbox > .form-wrapper > .auth-section .post-action > input:hover {
+    box-shadow: 0 3px 5px rgba(255, 255, 255, 0.4)inset;
+}
+.isso-postbox > .form-wrapper > .auth-section .post-action > input:active {
+    background-color: #BBB;
+}
+.isso-postbox > .form-wrapper .preview,
+.isso-postbox > .form-wrapper input[name="edit"],
+.isso-postbox.preview-mode > .form-wrapper input[name="preview"],
+.isso-postbox.preview-mode > .form-wrapper .textarea {
+    display: none;
+}
+.isso-postbox.preview-mode > .form-wrapper .preview {
+    display: block;
+}
+.isso-postbox.preview-mode > .form-wrapper input[name="edit"] {
+    display: inline;
+}
+.isso-postbox > .form-wrapper .preview {
+    background-color: #334;
+    background: repeating-linear-gradient(
+        -45deg,
+        #222,
+        #222 10px,
+        #334 10px,
+        #334 20px
+    );
+}
+.isso-postbox > .form-wrapper > .notification-section {
+    display: none;
+    padding-bottom: 10px;
+}
+@media screen and (max-width:600px) {
+    .isso-postbox > .form-wrapper > .auth-section .input-wrapper {
+        display: block;
+        max-width: 100%;
+        margin: 0 0 .3em;
+    }
+    .isso-postbox > .form-wrapper > .auth-section .input-wrapper input {
+        width: 100%;
+    }
+}
+</style>
+<link data-href="https://lord.re/index.xml" href="https://lord.re/index.xml" rel="alternate" title="/home/lord" type="application/rss+xml"/>
+<meta content="#272B30" name="theme-color"/>
+<link data-href="https://lord.re/favicon.ico" href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAUkQ0AAAAAAAD/ewAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAEQACACIgIgARAAIAIAAAIBEAAgAgACIAEQACACACAAARACIgIAAiABEAAAAAAAAAEQAAAAAAAAAREAEREREQAREQARERERABERAAERERAAEREQAREREAERERAAEREAAREREQAAAAAREREREQAAERERERERERERERGAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAM/zAADP8wAAx+MAAOfnAADjxwAA8A8AAPw/AAD//wAA" rel="icon" type="image/x-icon"/>
+<meta content="/home/lord" name="og:title" property="og:title"/>
+<meta content="website" name="og:type" property="og:type"/>
+<meta content="https://lord.re/" name="og:url" property="og:url"/>
+<meta content="" name="og:description" property="og:description"/>
+<meta content="/home/lord" name="og:site_name" property="og:site_name"/>
+<meta content="https://lord.re/favicon.ico" name="og:image" property="og:image"/>
+</head>
+<body>
+<a class="sr-only" href="#content" title="Passer directement au contenu"></a>
+<nav>
+<div id="sidebar">
+<h1 class="brand-title"><a data-href="https://lord.re/" href="https://lord.re/">/home/lord</a></h1>
+<br/>
+<p class="icons">
+<a data-href="mailto:lord-blog@lord.re" href="mailto:lord-blog@lord.re" style="color:#d25555" title="Contact par mail"><img class="svg2" data-src="https://lord.re/svg/mail.svg" src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNjQgNjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgc3R5bGU9ImZpbGw6bm9uZTtzdHJva2U6I2QyNTU1NTtzdHJva2UtbWl0ZXJsaW1pdDoxMDtzdHJva2Utd2lkdGg6MjtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLWxpbmVjYXA6cm91bmQiPjxwYXRoIGQ9Im02MiAxNmgtMzguNGwtNy42IDMyaDM4LjR6Ii8+PHBhdGggZD0ibTIzLjYgMTYgMTQuOSAyMiAyMy41LTIybS00NiAzMiAxOS4yLTE0LjhtMTkuMiAxNC44LTExLjUtMTQuMiIvPjxwYXRoIGQ9Im0yIDI0aDExLjltLTExLjkgOGgxMG0tMTAgOGg4Ii8+PC9nPjwvc3ZnPg=="/> Mail</a>
+<a data-href="ircs://irc.geeknode.org" href="ircs://irc.geeknode.org" style="color:#3b95f0" title="Contact via IRC possible sur Geeknode, Freenode, Evolunet, EFnet, OFTC"><img class="svg2" data-src="https://lord.re/svg/chat.svg" src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNjQgNjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjM2I5NWYwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiI+PHBhdGggZD0ibTI4LjQgMzUuOWExMSAxMSAwIDAgMCAxMC42IDE0aDUuOWw5LjEgOS4xdi05LjVhMTEgMTEgMCAwIDAgLTMtMjEuNmgtLjciLz48cGF0aCBkPSJtMzcgNS45aC0yMGExNSAxNSAwIDAgMCAtNSAyOS4xdjExLjlsMTEtMTFoMTRhMTUgMTUgMCAwIDAgMC0zMHoiLz48L2c+PC9zdmc+"/> Chat</a>
+<a data-href="https://lord.re/rss" href="https://lord.re/rss" rel="alternate" style="color:#d2c555" title="Les RSS c'est le bien ! Par contre pas la peine d'updater plus de deux fois par jours ;-)" type="application/rss+xml"><img class="svg2" data-src="https://lord.re/svg/rss.svg" src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNjQgNjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZDJjNTU1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLXdpZHRoPSIyIj48cGF0aCBkPSJtMTAuMDYzIDQ1LjgyNGE4LjA4OCA4LjA4OCAwIDEgMCA4LjA2MyA4LjA4OCA4LjA3NSA4LjA3NSAwIDAgMCAtOC4wNjMtOC4wODh6Ii8+PHBhdGggZD0ibTIuNjU2IDIyLjIxOWgtLjQ2OXYxMS4xOTJoLjQ2OWEyNy45NzEgMjcuOTcxIDAgMCAxIDI3LjkzOCAyNy45MzF2LjY1OGgxMS4xNTZ2LS42NThhMzkuMTExIDM5LjExMSAwIDAgMCAtMzkuMDk0LTM5LjEyM3oiLz48cGF0aCBkPSJtMi42NTYgMmgtLjQ2OXYxMS4xOTFoLjQ2OWE0OC4xODggNDguMTg4IDAgMCAxIDQ4LjA5NCA0OC4xNTF2LjY1OGgxMS4yNXYtLjY1OGE1OS40MDggNTkuNDA4IDAgMCAwIC01OS4zNDQtNTkuMzQyeiIvPjwvZz48L3N2Zz4="/> RSS</a>
+<a data-href="https://pleroma.lord.re/users/1" href="https://pleroma.lord.re/users/1" rel="me" style="color:violet" title="Mon ptit compte sur le Fediverse"><img class="spin svg2" data-src="https://lord.re/svg/fediverse.svg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOTcgMTk3IiB2ZXJzaW9uPSIxIj48ZyBjb2xvcj0iIzAwMCIgZm9udC13ZWlnaHQ9IjQwMCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIHdoaXRlLXNwYWNlPSJub3JtYWwiPjxwYXRoIHN0eWxlPSJsaW5lLWhlaWdodDpub3JtYWw7Zm9udC12YXJpYW50LWxpZ2F0dXJlczpub3JtYWw7Zm9udC12YXJpYW50LXBvc2l0aW9uOm5vcm1hbDtmb250LXZhcmlhbnQtY2Fwczpub3JtYWw7Zm9udC12YXJpYW50LW51bWVyaWM6bm9ybWFsO2ZvbnQtdmFyaWFudC1hbHRlcm5hdGVzOm5vcm1hbDtmb250LWZlYXR1cmUtc2V0dGluZ3M6bm9ybWFsO3RleHQtaW5kZW50OjA7dGV4dC1hbGlnbjpzdGFydDt0ZXh0LWRlY29yYXRpb24tbGluZTpub25lO3RleHQtZGVjb3JhdGlvbi1zdHlsZTpzb2xpZDt0ZXh0LWRlY29yYXRpb24tY29sb3I6IzAwMDt0ZXh0LXRyYW5zZm9ybTpub25lO3RleHQtb3JpZW50YXRpb246bWl4ZWQ7c2hhcGUtcGFkZGluZzowO2lzb2xhdGlvbjphdXRvO21peC1ibGVuZC1tb2RlOm5vcm1hbCIgZD0iTTQ4IDczYTE4IDE4IDAgMCAxLTggOGw0MyA0MyAxMC02em01NiA1NmwtMTAgNiAyMiAyMWExOCAxOCAwIDAgMSA4LTd6IiBvdmVyZmxvdz0idmlzaWJsZSIgZmlsbD0iI2E3MzBiOCIvPjxwYXRoIHN0eWxlPSJsaW5lLWhlaWdodDpub3JtYWw7Zm9udC12YXJpYW50LWxpZ2F0dXJlczpub3JtYWw7Zm9udC12YXJpYW50LXBvc2l0aW9uOm5vcm1hbDtmb250LXZhcmlhbnQtY2Fwczpub3JtYWw7Zm9udC12YXJpYW50LW51bWVyaWM6bm9ybWFsO2ZvbnQtdmFyaWFudC1hbHRlcm5hdGVzOm5vcm1hbDtmb250LWZlYXR1cmUtc2V0dGluZ3M6bm9ybWFsO3RleHQtaW5kZW50OjA7dGV4dC1hbGlnbjpzdGFydDt0ZXh0LWRlY29yYXRpb24tbGluZTpub25lO3RleHQtZGVjb3JhdGlvbi1zdHlsZTpzb2xpZDt0ZXh0LWRlY29yYXRpb24tY29sb3I6IzAwMDt0ZXh0LXRyYW5zZm9ybTpub25lO3RleHQtb3JpZW50YXRpb246bWl4ZWQ7c2hhcGUtcGFkZGluZzowO2lzb2xhdGlvbjphdXRvO21peC1ibGVuZC1tb2RlOm5vcm1hbCIgZD0iTTE1NCA5MGwtMjQgMTIgMSAxMiAyOC0xNGExOCAxOCAwIDAgMS01LTEwem0tMzggMTlsLTU4IDI5YTE4IDE4IDAgMCAxIDUgMTBsNTQtMjd6IiBvdmVyZmxvdz0idmlzaWJsZSIgZmlsbD0iIzU0OTZiZSIvPjxwYXRoIHN0eWxlPSJsaW5lLWhlaWdodDpub3JtYWw7Zm9udC12YXJpYW50LWxpZ2F0dXJlczpub3JtYWw7Zm9udC12YXJpYW50LXBvc2l0aW9uOm5vcm1hbDtmb250LXZhcmlhbnQtY2Fwczpub3JtYWw7Zm9udC12YXJpYW50LW51bWVyaWM6bm9ybWFsO2ZvbnQtdmFyaWFudC1hbHRlcm5hdGVzOm5vcm1hbDtmb250LWZlYXR1cmUtc2V0dGluZ3M6bm9ybWFsO3RleHQtaW5kZW50OjA7dGV4dC1hbGlnbjpzdGFydDt0ZXh0LWRlY29yYXRpb24tbGluZTpub25lO3RleHQtZGVjb3JhdGlvbi1zdHlsZTpzb2xpZDt0ZXh0LWRlY29yYXRpb24tY29sb3I6IzAwMDt0ZXh0LXRyYW5zZm9ybTpub25lO3RleHQtb3JpZW50YXRpb246bWl4ZWQ7c2hhcGUtcGFkZGluZzowO2lzb2xhdGlvbjphdXRvO21peC1ibGVuZC1tb2RlOm5vcm1hbCIgZD0iTTk3IDM4TDcwIDkybDggOCAyOS01N2ExOCAxOCAwIDAgMS0xMC01em0tMzUgNjhsLTE0IDI3YTE4IDE4IDAgMCAxIDEwIDVsMTMtMjR6IiBvdmVyZmxvdz0idmlzaWJsZSIgZmlsbD0iI2NlM2QxYSIvPjxwYXRoIHN0eWxlPSJsaW5lLWhlaWdodDpub3JtYWw7Zm9udC12YXJpYW50LWxpZ2F0dXJlczpub3JtYWw7Zm9udC12YXJpYW50LXBvc2l0aW9uOm5vcm1hbDtmb250LXZhcmlhbnQtY2Fwczpub3JtYWw7Zm9udC12YXJpYW50LW51bWVyaWM6bm9ybWFsO2ZvbnQtdmFyaWFudC1hbHRlcm5hdGVzOm5vcm1hbDtmb250LWZlYXR1cmUtc2V0dGluZ3M6bm9ybWFsO3RleHQtaW5kZW50OjA7dGV4dC1hbGlnbjpzdGFydDt0ZXh0LWRlY29yYXRpb24tbGluZTpub25lO3RleHQtZGVjb3JhdGlvbi1zdHlsZTpzb2xpZDt0ZXh0LWRlY29yYXRpb24tY29sb3I6IzAwMDt0ZXh0LXRyYW5zZm9ybTpub25lO3RleHQtb3JpZW50YXRpb246bWl4ZWQ7c2hhcGUtcGFkZGluZzowO2lzb2xhdGlvbjphdXRvO21peC1ibGVuZC1tb2RlOm5vcm1hbCIgZD0iTTQwIDgxYTE4IDE4IDAgMCAxLTkgMiAxOCAxOCAwIDAgMS0yLTFsOCA1M2ExOCAxOCAwIDAgMSA5LTIgMTggMTggMCAwIDEgMiAweiIgb3ZlcmZsb3c9InZpc2libGUiIGZpbGw9IiNkMDE4OGYiLz48cGF0aCBzdHlsZT0ibGluZS1oZWlnaHQ6bm9ybWFsO2ZvbnQtdmFyaWFudC1saWdhdHVyZXM6bm9ybWFsO2ZvbnQtdmFyaWFudC1wb3NpdGlvbjpub3JtYWw7Zm9udC12YXJpYW50LWNhcHM6bm9ybWFsO2ZvbnQtdmFyaWFudC1udW1lcmljOm5vcm1hbDtmb250LXZhcmlhbnQtYWx0ZXJuYXRlczpub3JtYWw7Zm9udC1mZWF0dXJlLXNldHRpbmdzOm5vcm1hbDt0ZXh0LWluZGVudDowO3RleHQtYWxpZ246c3RhcnQ7dGV4dC1kZWNvcmF0aW9uLWxpbmU6bm9uZTt0ZXh0LWRlY29yYXRpb24tc3R5bGU6c29saWQ7dGV4dC1kZWNvcmF0aW9uLWNvbG9yOiMwMDA7dGV4dC10cmFuc2Zvcm06bm9uZTt0ZXh0LW9yaWVudGF0aW9uOm1peGVkO3NoYXBlLXBhZGRpbmc6MDtpc29sYXRpb246YXV0bzttaXgtYmxlbmQtbW9kZTpub3JtYWwiIGQ9Ik02MyAxNDhhMTggMTggMCAwIDEgMSA0IDE4IDE4IDAgMCAxLTIgN2w1MiA5YTE4IDE4IDAgMCAxIDAtNCAxOCAxOCAwIDAgMSAyLTd6IiBvdmVyZmxvdz0idmlzaWJsZSIgZmlsbD0iIzViMzZlOSIvPjxwYXRoIHN0eWxlPSJsaW5lLWhlaWdodDpub3JtYWw7Zm9udC12YXJpYW50LWxpZ2F0dXJlczpub3JtYWw7Zm9udC12YXJpYW50LXBvc2l0aW9uOm5vcm1hbDtmb250LXZhcmlhbnQtY2Fwczpub3JtYWw7Zm9udC12YXJpYW50LW51bWVyaWM6bm9ybWFsO2ZvbnQtdmFyaWFudC1hbHRlcm5hdGVzOm5vcm1hbDtmb250LWZlYXR1cmUtc2V0dGluZ3M6bm9ybWFsO3RleHQtaW5kZW50OjA7dGV4dC1hbGlnbjpzdGFydDt0ZXh0LWRlY29yYXRpb24tbGluZTpub25lO3RleHQtZGVjb3JhdGlvbi1zdHlsZTpzb2xpZDt0ZXh0LWRlY29yYXRpb24tY29sb3I6IzAwMDt0ZXh0LXRyYW5zZm9ybTpub25lO3RleHQtb3JpZW50YXRpb246bWl4ZWQ7c2hhcGUtcGFkZGluZzowO2lzb2xhdGlvbjphdXRvO21peC1ibGVuZC1tb2RlOm5vcm1hbCIgZD0iTTE1OSAxMDBsLTI0IDQ3YTE4IDE4IDAgMCAxIDEwIDVsMjQtNDdhMTggMTggMCAwIDEtMTAtNXoiIG92ZXJmbG93PSJ2aXNpYmxlIiBmaWxsPSIjMzBiODczIi8+PHBhdGggc3R5bGU9ImxpbmUtaGVpZ2h0Om5vcm1hbDtmb250LXZhcmlhbnQtbGlnYXR1cmVzOm5vcm1hbDtmb250LXZhcmlhbnQtcG9zaXRpb246bm9ybWFsO2ZvbnQtdmFyaWFudC1jYXBzOm5vcm1hbDtmb250LXZhcmlhbnQtbnVtZXJpYzpub3JtYWw7Zm9udC12YXJpYW50LWFsdGVybmF0ZXM6bm9ybWFsO2ZvbnQtZmVhdHVyZS1zZXR0aW5nczpub3JtYWw7dGV4dC1pbmRlbnQ6MDt0ZXh0LWFsaWduOnN0YXJ0O3RleHQtZGVjb3JhdGlvbi1saW5lOm5vbmU7dGV4dC1kZWNvcmF0aW9uLXN0eWxlOnNvbGlkO3RleHQtZGVjb3JhdGlvbi1jb2xvcjojMDAwO3RleHQtdHJhbnNmb3JtOm5vbmU7dGV4dC1vcmllbnRhdGlvbjptaXhlZDtzaGFwZS1wYWRkaW5nOjA7aXNvbGF0aW9uOmF1dG87bWl4LWJsZW5kLW1vZGU6bm9ybWFsIiBkPSJNMTI2IDMzYTE4IDE4IDAgMCAxLTggOGwzOCAzN2ExOCAxOCAwIDAgMSA4LTd6IiBvdmVyZmxvdz0idmlzaWJsZSIgZmlsbD0iI2ViZTMwNSIvPjxwYXRoIHN0eWxlPSJsaW5lLWhlaWdodDpub3JtYWw7Zm9udC12YXJpYW50LWxpZ2F0dXJlczpub3JtYWw7Zm9udC12YXJpYW50LXBvc2l0aW9uOm5vcm1hbDtmb250LXZhcmlhbnQtY2Fwczpub3JtYWw7Zm9udC12YXJpYW50LW51bWVyaWM6bm9ybWFsO2ZvbnQtdmFyaWFudC1hbHRlcm5hdGVzOm5vcm1hbDtmb250LWZlYXR1cmUtc2V0dGluZ3M6bm9ybWFsO3RleHQtaW5kZW50OjA7dGV4dC1hbGlnbjpzdGFydDt0ZXh0LWRlY29yYXRpb24tbGluZTpub25lO3RleHQtZGVjb3JhdGlvbi1zdHlsZTpzb2xpZDt0ZXh0LWRlY29yYXRpb24tY29sb3I6IzAwMDt0ZXh0LXRyYW5zZm9ybTpub25lO3RleHQtb3JpZW50YXRpb246bWl4ZWQ7c2hhcGUtcGFkZGluZzowO2lzb2xhdGlvbjphdXRvO21peC1ibGVuZC1tb2RlOm5vcm1hbCIgZD0iTTkyIDI4TDQ1IDUyYTE4IDE4IDAgMCAxIDUgOWw0Ny0yNGExOCAxOCAwIDAgMS01LTl6IiBvdmVyZmxvdz0idmlzaWJsZSIgZmlsbD0iI2Y0NzYwMSIvPjxwYXRoIHN0eWxlPSJsaW5lLWhlaWdodDpub3JtYWw7Zm9udC12YXJpYW50LWxpZ2F0dXJlczpub3JtYWw7Zm9udC12YXJpYW50LXBvc2l0aW9uOm5vcm1hbDtmb250LXZhcmlhbnQtY2Fwczpub3JtYWw7Zm9udC12YXJpYW50LW51bWVyaWM6bm9ybWFsO2ZvbnQtdmFyaWFudC1hbHRlcm5hdGVzOm5vcm1hbDtmb250LWZlYXR1cmUtc2V0dGluZ3M6bm9ybWFsO3RleHQtaW5kZW50OjA7dGV4dC1hbGlnbjpzdGFydDt0ZXh0LWRlY29yYXRpb24tbGluZTpub25lO3RleHQtZGVjb3JhdGlvbi1zdHlsZTpzb2xpZDt0ZXh0LWRlY29yYXRpb24tY29sb3I6IzAwMDt0ZXh0LXRyYW5zZm9ybTpub25lO3RleHQtb3JpZW50YXRpb246bWl4ZWQ7c2hhcGUtcGFkZGluZzowO2lzb2xhdGlvbjphdXRvO21peC1ibGVuZC1tb2RlOm5vcm1hbCIgZD0iTTExOCA0MWExOCAxOCAwIDAgMS05IDIgMTggMTggMCAwIDEtMiAwbDUgMjcgMTEgMXptLTQgNDRsMTAgNjRhMTggMTggMCAwIDEgOS0yIDE4IDE4IDAgMCAxIDIgMGwtMTAtNjB6IiBvdmVyZmxvdz0idmlzaWJsZSIgZmlsbD0iIzU3YzExNSIvPjxwYXRoIHN0eWxlPSJsaW5lLWhlaWdodDpub3JtYWw7Zm9udC12YXJpYW50LWxpZ2F0dXJlczpub3JtYWw7Zm9udC12YXJpYW50LXBvc2l0aW9uOm5vcm1hbDtmb250LXZhcmlhbnQtY2Fwczpub3JtYWw7Zm9udC12YXJpYW50LW51bWVyaWM6bm9ybWFsO2ZvbnQtdmFyaWFudC1hbHRlcm5hdGVzOm5vcm1hbDtmb250LWZlYXR1cmUtc2V0dGluZ3M6bm9ybWFsO3RleHQtaW5kZW50OjA7dGV4dC1hbGlnbjpzdGFydDt0ZXh0LWRlY29yYXRpb24tbGluZTpub25lO3RleHQtZGVjb3JhdGlvbi1zdHlsZTpzb2xpZDt0ZXh0LWRlY29yYXRpb24tY29sb3I6IzAwMDt0ZXh0LXRyYW5zZm9ybTpub25lO3RleHQtb3JpZW50YXRpb246bWl4ZWQ7c2hhcGUtcGFkZGluZzowO2lzb2xhdGlvbjphdXRvO21peC1ibGVuZC1tb2RlOm5vcm1hbCIgZD0iTTUwIDYyYTE4IDE4IDAgMCAxIDAgMyAxOCAxOCAwIDAgMS0yIDhsMjcgNCA1LTEwem00NiA3bC02IDEwIDY0IDEwYTE4IDE4IDAgMCAxIDAtMyAxOCAxOCAwIDAgMSAyLTd6IiBvdmVyZmxvdz0idmlzaWJsZSIgZmlsbD0iI2RiYjIxMCIvPjwvZz48ZyB0cmFuc2Zvcm09InJvdGF0ZSgzIDYwMCAxMDYpIj48Y2lyY2xlIGN4PSIxMDYiIGN5PSI1MiIgcj0iMTciIGZpbGw9IiNmZmNhMDAiLz48Y2lyY2xlIGN4PSIxNzEiIGN5PSIxMTAiIHI9IjE3IiBmaWxsPSIjNjRmZjAwIi8+PGNpcmNsZSBjeD0iMTM2IiBjeT0iMTkwIiByPSIxNyIgZmlsbD0iIzAwYTNmZiIvPjxjaXJjbGUgY3g9IjQ5IiBjeT0iMTgxIiByPSIxNyIgZmlsbD0iIzk1MDBmZiIvPjxjaXJjbGUgY3g9IjMwIiBjeT0iOTUiIHI9IjE3IiBmaWxsPSJyZWQiLz48L2c+PC9zdmc+"/><span class="rainbowverse">Fediverse</span></a>
+<br/>
+<a data-href="https://lord.re/mono/" href="https://lord.re/mono/" style="color:#2bf0b5" title="Le site en version monopage"><img class="svg2" data-src="https://lord.re/svg/mono.svg" src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNjQgNjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgc3R5bGU9InN0cm9rZS13aWR0aDoyO3N0cm9rZS1taXRlcmxpbWl0OjEwO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZTojM2JmMGI1O2ZpbGw6bm9uZTtzdHJva2UtbGluZWpvaW46cm91bmQiPjxwYXRoIGQ9Im0xOCAyMWgyOHYyMmgtMjh6Ii8+PHBhdGggZD0ibTEwIDE5djI2bS04LTMwdjM0bTUyLTMwdjI2bTgtMzB2MzQiLz48L2c+PC9zdmc+"/> Monopage</a>
+<a data-href="https://lord.re/visionnages/" href="https://lord.re/visionnages/" style="color:white" title="Les films que j'ai mattés"><img class="svg2" data-src="https://lord.re/svg/cinema.svg" src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OSIgaGVpZ2h0PSI0OCI+PGcgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIxLjUiPjxwYXRoIGQ9Ik00NCA4bC0zIDEgMi03IDItMUwwIDEzbDEgNCAyLTQgMy0xLTIgN0gydjFMNDcgOGwtMS01LTIgNXpNNyAxOGwzLTcgMy0xLTMgNy0zIDF6bTctMmwyLTcgNC0xLTMgNy0zIDF6bTctMmwyLTcgMy0xLTIgNy0zIDF6bTYtMmwzLTdoM2wtMyA2LTMgMXptNy0ybDMtNiAzLTEtMyA3aC0zek00NiAyNmwtNC02aDNsMyA0di00SDJoMmw0IDZINWwtMy00djI2aDQ3VjI2aC0zem0tMzQgMGwtNS02aDRsNCA2aC0zem03IDBsLTUtNmg0bDQgNmgtM3ptNyAwbC01LTZoNGw0IDZoLTN6bTcgMGwtNS02aDRsNCA2aC0zem03IDBsLTUtNmgzbDUgNmgtM3oiLz48L2c+PC9zdmc+Cg=="/> Cinoche</a>
+<a data-href="https://lord.re/bestof/" href="https://lord.re/bestof/" style="color:yellow" title="Le Best-Of"><span style="line-height:2.3rem;font-size:2.3em;">★</span> Best-Of</a>
+<a data-href="https://lord.re/apropos/" href="https://lord.re/apropos/" style="color:orangered" title="À propos"><span style="line-height:2.3rem;font-size:2.3rem;">?</span> À propos</a>
+</p>
+<br/>
+<p lang="en"><a data-href="https://lord.re/en/" href="https://lord.re/en/">Available in Frenglish : /home/lord</a></p>
+<p><a data-href="https://lord.re/drafts" href="https://lord.re/drafts" id="drafturl">.</a></p>
+</div>
+</nav>
+<main>
+<section class="visionnages">
+<header class="post-header">
+<h1 class="post-title"><a data-href="/visionnages/birds-of-prey/" href="https://lord.re/visionnages/birds-of-prey/">Birds of Prey</a></h1>
+</header>
+<footer>
+<div class="post-meta-list"><em><span>13/04/2020</span> <span>~3mins</span></em>
+<span class="read-more-link"><a data-href="/visionnages/birds-of-prey/" href="https://lord.re/visionnages/birds-of-prey/">Lire en entier …</a></span></div>
+</footer>
+</section>
+<section class="visionnages">
+<header class="post-header">
+<h1 class="post-title"><a data-href="/visionnages/the-platform/" href="https://lord.re/visionnages/the-platform/">The Platform (El Hoyo)</a></h1>
+</header>
+<footer>
+<div class="post-meta-list"><em><span>13/04/2020</span> <span>~2mins</span></em>
+<span class="read-more-link"><a data-href="/visionnages/the-platform/" href="https://lord.re/visionnages/the-platform/">Lire en entier …</a></span></div>
+</footer>
+</section>
+<section class="visionnages">
+<header class="post-header">
+<h1 class="post-title"><a data-href="/visionnages/the-hunt/" href="https://lord.re/visionnages/the-hunt/">The Hunt</a></h1>
+</header>
+<footer>
+<div class="post-meta-list"><em><span>12/04/2020</span> <span>~2mins</span></em>
+<span class="read-more-link"><a data-href="/visionnages/the-hunt/" href="https://lord.re/visionnages/the-hunt/">Lire en entier …</a></span></div>
+</footer>
+</section>
+<section class="visionnages">
+<header class="post-header">
+<h1 class="post-title"><a data-href="/visionnages/guns-akimbo/" href="https://lord.re/visionnages/guns-akimbo/">Guns Akimbo</a></h1>
+</header>
+<footer>
+<div class="post-meta-list"><em><span>12/04/2020</span> <span>~3mins</span></em>
+<span class="read-more-link"><a data-href="/visionnages/guns-akimbo/" href="https://lord.re/visionnages/guns-akimbo/">Lire en entier …</a></span></div>
+</footer>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="/posts/196-croc-transfert-fichier-chiffre-rapide-simple/" href="https://lord.re/posts/196-croc-transfert-fichier-chiffre-rapide-simple/">Croc : un outil méconnu mais surpuissant</a></h1>
+</header>
+<article class="post-summary">Il y a fort longtemps, j'avais mis dans wishlist de logiciel à inventer le magic pipe pour passer des données d'une machine à une autre malgré les frontières…
+Et bhé en fait ça existe.
+Croc Ouai c'est un poil miteux comme mise en scène mais pardonnez-moi s'il vous plaît.
+Donc je reprends. Croc est un petit logiciel en Go donc sans dépendances (fusil de Tchekhov) qui tourne sur un peu tous les OS du bien (Linux, Linux et aussi Linux entre autres, même s'il parait qu'il tourne aussi sur des OS moins biens).
+    </article>
+<footer>
+<div class="post-meta-list"><em><span>04/04/2020</span> <span>~3mins</span></em><span><a class="post-category post-category-cli" data-href="https://lord.re/categories/cli" href="https://lord.re/categories/cli">cli</a> <a class="post-category post-category-software" data-href="https://lord.re/categories/software" href="https://lord.re/categories/software">software</a> </span>
+<span class="read-more-link"><a data-href="/posts/196-croc-transfert-fichier-chiffre-rapide-simple/" href="https://lord.re/posts/196-croc-transfert-fichier-chiffre-rapide-simple/">Lire en entier …</a></span></div>
+</footer>
+</section>
+<section class="visionnages">
+<header class="post-header">
+<h1 class="post-title"><a data-href="/visionnages/the-final-member/" href="https://lord.re/visionnages/the-final-member/">The Final Member</a></h1>
+</header>
+<footer>
+<div class="post-meta-list"><em><span>01/04/2020</span> <span>~2mins</span></em>
+<span class="read-more-link"><a data-href="/visionnages/the-final-member/" href="https://lord.re/visionnages/the-final-member/">Lire en entier …</a></span></div>
+</footer>
+</section>
+<section class="recap">
+<header class="post-header">
+<h1 class="post-title"><a data-href="/recap/08-mars-2020/" href="https://lord.re/recap/08-mars-2020/">Récap 08 : Mars 2020</a></h1>
+</header>
+<article class="post-summary">Quel mois étrange n'est-il pas ? Avec cette pandémie Covid19 tout est chamboulé. J'ai tenté de m'occuper et de vous occuper aussi un peu en écrivant un peu plus qu'à l'accoutumée (tout du moins au début).
+Blog Bon bha voilà, après pas mal de mois d'hésitation, j'ai pris mon courage à deux mmains et j'ai enfin ajouté les visionnages avec le reste du blog. Du coup, pour ceux qui n'y étaient jamais allé avant ça va surprendre un peu mais bon.
+    </article>
+<footer>
+<div class="post-meta-list"><em><span>01/04/2020</span> <span>~9mins</span></em>
+<span class="read-more-link"><a data-href="/recap/08-mars-2020/" href="https://lord.re/recap/08-mars-2020/">Lire en entier …</a></span></div>
+</footer>
+</section>
+<section class="visionnages">
+<header class="post-header">
+<h1 class="post-title"><a data-href="/visionnages/la-cit%C3%A9-des-enfants-perdus/" href="https://lord.re/visionnages/la-cit%C3%A9-des-enfants-perdus/">La Cité Des Enfants Perdus</a></h1>
+</header>
+<footer>
+<div class="post-meta-list"><em><span>30/03/2020</span> <span>~3mins</span></em>
+<span class="read-more-link"><a data-href="/visionnages/la-cit%C3%A9-des-enfants-perdus/" href="https://lord.re/visionnages/la-cit%C3%A9-des-enfants-perdus/">Lire en entier …</a></span></div>
+</footer>
+</section>
+<section class="visionnages">
+<header class="post-header">
+<h1 class="post-title"><a data-href="/visionnages/the-greasy-strangler/" href="https://lord.re/visionnages/the-greasy-strangler/">The Greasy Strangler</a></h1>
+</header>
+<footer>
+<div class="post-meta-list"><em><span>29/03/2020</span> <span>~2mins</span></em>
+<span class="read-more-link"><a data-href="/visionnages/the-greasy-strangler/" href="https://lord.re/visionnages/the-greasy-strangler/">Lire en entier …</a></span></div>
+</footer>
+</section>
+<section class="fast-posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="/fast-posts/48-alias-ssh/" href="https://lord.re/fast-posts/48-alias-ssh/">Les alias SSH</a></h1>
+</header>
+<article class="post-summary">Désolé désolé, j'ai oublié de vous écrire pendant ce confinement ces quelques jours. Me revoilà \o/
+Bon je vous avoue que j'ai pas grand-chose pour vous occuper. J'ai fouillé fouillé (en vrai j'ai démarré l'ordi). Et comme d'hab quand il est démarré, j'ai lancé ma connexion ssh vers mon client IRC, démarré mon ptit script pour la musique et lancé mon navigateur web.
+Et là, PAF ! Je me suis dit que je pourrai vous écrire à propos des alias SSH.
+    </article>
+<footer>
+<div class="post-meta-list"><em><span>25/03/2020</span> <span>~4mins</span></em><span><a class="post-category post-category-tips" data-href="https://lord.re/categories/tips" href="https://lord.re/categories/tips">tips</a> <a class="post-category post-category-ssh" data-href="https://lord.re/categories/ssh" href="https://lord.re/categories/ssh">ssh</a> </span>
+<span class="read-more-link"><a data-href="/fast-posts/48-alias-ssh/" href="https://lord.re/fast-posts/48-alias-ssh/">Lire en entier …</a></span></div>
+</footer>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="/posts/195-kernel-mainline-odroid-n2-vol2/" href="https://lord.re/posts/195-kernel-mainline-odroid-n2-vol2/">Kernel Mainline sur Odroid N2 vol.2</a></h1>
+</header>
+<article class="post-summary">Suite de l'épisode précédent
+Il y a un TL;DR à la fin.
+UART Bon, je me suis armé d'un câble UART &gt; USB. Ce petit câble va me permettre d'avoir un accès console dès le démarrage de la ptite SBC. Je vais donc pouvoir voir ce qu'elle fait réellement quand elle ne boot pas.
+Bon du coup je m'installe minicom et je lui crée un ptit fichier de conf qui va bien.
+    </article>
+<footer>
+<div class="post-meta-list"><em><span>20/03/2020</span> <span>~7mins</span></em><span><a class="post-category post-category-sbc" data-href="https://lord.re/categories/sbc" href="https://lord.re/categories/sbc">sbc</a> <a class="post-category post-category-kernel" data-href="https://lord.re/categories/kernel" href="https://lord.re/categories/kernel">kernel</a> <a class="post-category post-category-linux" data-href="https://lord.re/categories/linux" href="https://lord.re/categories/linux">linux</a> <a class="post-category post-category-odroid" data-href="https://lord.re/categories/odroid" href="https://lord.re/categories/odroid">odroid</a> </span>
+<span class="read-more-link"><a data-href="/posts/195-kernel-mainline-odroid-n2-vol2/" href="https://lord.re/posts/195-kernel-mainline-odroid-n2-vol2/">Lire en entier …</a></span></div>
+</footer>
+</section>
+<section class="fast-posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="/fast-posts/47-confinement-recabler-la-tani%C3%A8re/" href="https://lord.re/fast-posts/47-confinement-recabler-la-tani%C3%A8re/">Confinement : Recâbler sa tanière</a></h1>
+</header>
+<article class="post-summary">Bon en ces temps de confinement, faut parvenir à s'occuper (et si en plus ça peut aussi vous divertir un peu, tant mieux). Du coup j'ai entrepris (au bout de deux ans) d'améliorer un peu mon câblage réseau à la maison.
+J'ai deux gros câbles dans le salon qui font le tout le tour le long du mur. Le but est de relier les deux datacenter du salon :
+ Le premier est un meuble contenant la fibre, le routeur, un switch (où sont raccordés les ordis).
+    </article>
+<footer>
+<div class="post-meta-list"><em><span>19/03/2020</span> <span>~3mins</span></em><span><a class="post-category post-category-cable" data-href="https://lord.re/categories/cable" href="https://lord.re/categories/cable">cable</a> <a class="post-category post-category-bricolage" data-href="https://lord.re/categories/bricolage" href="https://lord.re/categories/bricolage">bricolage</a> </span>
+<span class="read-more-link"><a data-href="/fast-posts/47-confinement-recabler-la-tani%C3%A8re/" href="https://lord.re/fast-posts/47-confinement-recabler-la-tani%C3%A8re/">Lire en entier …</a></span></div>
+</footer>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="/posts/194-kernel-mainline-odroid-n2/" href="https://lord.re/posts/194-kernel-mainline-odroid-n2/">Kernel Mainline sur Odroid N2 vol.1</a></h1>
+</header>
+<article class="post-summary">L'odroid N2 est une petite SBC très puissante. C'est mon ptit serveur à la maison qui héberge une bonne partie de mes services.
+Elle utilise de base un vieux kernel blobbé. C'est un kernel linux qui a déjà pas mal de versions de retard et qui utilise des drivers proprios pour certains morceaux. C'est cool ça fonctionne et tout, mais d'un point de vue évolutivité c'est vraiment pas cool. Et niveau sécurité c'est pas top.
+    </article>
+<footer>
+<div class="post-meta-list"><em><span>19/03/2020</span> <span>~3mins</span></em><span><a class="post-category post-category-sbc" data-href="https://lord.re/categories/sbc" href="https://lord.re/categories/sbc">sbc</a> <a class="post-category post-category-odroid" data-href="https://lord.re/categories/odroid" href="https://lord.re/categories/odroid">odroid</a> <a class="post-category post-category-kernel" data-href="https://lord.re/categories/kernel" href="https://lord.re/categories/kernel">kernel</a> </span>
+<span class="read-more-link"><a data-href="/posts/194-kernel-mainline-odroid-n2/" href="https://lord.re/posts/194-kernel-mainline-odroid-n2/">Lire en entier …</a></span></div>
+</footer>
+</section>
+<section class="visionnages">
+<header class="post-header">
+<h1 class="post-title"><a data-href="/visionnages/uncut-gems/" href="https://lord.re/visionnages/uncut-gems/">Uncut Gems</a></h1>
+</header>
+<footer>
+<div class="post-meta-list"><em><span>18/03/2020</span> <span>~2mins</span></em>
+<span class="read-more-link"><a data-href="/visionnages/uncut-gems/" href="https://lord.re/visionnages/uncut-gems/">Lire en entier …</a></span></div>
+</footer>
+</section>
+<section class="ideas">
+<header class="post-header">
+<h1 class="post-title"><a data-href="/ideas/009-sondage-generation-entropie/" href="https://lord.re/ideas/009-sondage-generation-entropie/">Collaborer à l'aveugle sur un sondage</a></h1>
+</header>
+<article class="post-summary">Bon maintenant qu'une bonne partie de la France est confinée, il faut s'occuper. Je ne vous cache pas que mon activité sur IRC et le Fédiverse s'est pas mal intensifiée :-°
+Sur le Fediverse, on peut créer des ptits sondages où les gens votent. Et du coup j'ai eu envie de voir si le peuple du Fédiverse pouvait collaborer aveuglément sur deux idées à la con :
+Votez pour la suggestion ayant le moins de vote !
+    </article>
+<footer>
+<div class="post-meta-list"><em><span>18/03/2020</span> <span>~3mins</span></em><span><a class="post-category post-category-fediverse" data-href="https://lord.re/categories/fediverse" href="https://lord.re/categories/fediverse">fediverse</a> <a class="post-category post-category-al%C3%A9atoire" data-href="https://lord.re/categories/al%C3%A9atoire" href="https://lord.re/categories/al%C3%A9atoire">aléatoire</a> <a class="post-category post-category-sondage" data-href="https://lord.re/categories/sondage" href="https://lord.re/categories/sondage">sondage</a> </span>
+<span class="read-more-link"><a data-href="/ideas/009-sondage-generation-entropie/" href="https://lord.re/ideas/009-sondage-generation-entropie/">Lire en entier …</a></span></div>
+</footer>
+</section>
+<section class="visionnages">
+<header class="post-header">
+<h1 class="post-title"><a data-href="/visionnages/la-nuit-a-d%C3%A9vor%C3%A9-le-monde/" href="https://lord.re/visionnages/la-nuit-a-d%C3%A9vor%C3%A9-le-monde/">La nuit a dévoré le monde</a></h1>
+</header>
+<footer>
+<div class="post-meta-list"><em><span>15/03/2020</span> <span>~2mins</span></em>
+<span class="read-more-link"><a data-href="/visionnages/la-nuit-a-d%C3%A9vor%C3%A9-le-monde/" href="https://lord.re/visionnages/la-nuit-a-d%C3%A9vor%C3%A9-le-monde/">Lire en entier …</a></span></div>
+</footer>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="/posts/193-mon-ptit-backup-avec-rsync/" href="https://lord.re/posts/193-mon-ptit-backup-avec-rsync/">Mon ptit backup avec Rsnapshot</a></h1>
+</header>
+<article class="post-summary">J'ai raté le coche mais voilà : il est important d'avoir un backup de ses données. D'autant plus pour les données que vous ne pourrez par retrouver ailleurs.
+D'ailleurs le RAID, ce n'est pas un backup. Voilà ça c'est dit. Et aussi testez la restauration de vos données régulièrement histoire d'être sûr de vous. Ça aussi c'est dit.
+Dans mon cas j'ai différents types de données à backupper à la maison.
+    </article>
+<footer>
+<div class="post-meta-list"><em><span>14/03/2020</span> <span>~8mins</span></em><span><a class="post-category post-category-backup" data-href="https://lord.re/categories/backup" href="https://lord.re/categories/backup">backup</a> <a class="post-category post-category-alpine" data-href="https://lord.re/categories/alpine" href="https://lord.re/categories/alpine">alpine</a> <a class="post-category post-category-rsync" data-href="https://lord.re/categories/rsync" href="https://lord.re/categories/rsync">rsync</a> </span>
+<span class="read-more-link"><a data-href="/posts/193-mon-ptit-backup-avec-rsync/" href="https://lord.re/posts/193-mon-ptit-backup-avec-rsync/">Lire en entier …</a></span></div>
+</footer>
+</section>
+<section class="visionnages">
+<header class="post-header">
+<h1 class="post-title"><a data-href="/visionnages/countdown/" href="https://lord.re/visionnages/countdown/">Countdown</a></h1>
+</header>
+<footer>
+<div class="post-meta-list"><em><span>14/03/2020</span> <span>~1min</span></em>
+<span class="read-more-link"><a data-href="/visionnages/countdown/" href="https://lord.re/visionnages/countdown/">Lire en entier …</a></span></div>
+</footer>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="/posts/192-encore-une-hc2-/" href="https://lord.re/posts/192-encore-une-hc2-/">Encore une odroid HC2 !</a></h1>
+</header>
+<article class="post-summary">Encore une ?! Je vais encore ajouter une ptite odroid dans mon harem. Ce coup-ci elle ne sera pas à la maison mais un peu éloignée à la campagne. Le but est de remplacer un disque dur externe mal en point. Et tant qu'à remplacer un disque dur à l'agonie autant en mettre un vrai, plus robuste en réseau.
+Mais pourquoi toute une Odroid ? Le disque dur externe ne servait à peu près jamais en mobilité mais à 95% pour du backup.
+    </article>
+<footer>
+<div class="post-meta-list"><em><span>09/03/2020</span> <span>~7mins</span></em><span><a class="post-category post-category-alpine" data-href="https://lord.re/categories/alpine" href="https://lord.re/categories/alpine">alpine</a> <a class="post-category post-category-sbc" data-href="https://lord.re/categories/sbc" href="https://lord.re/categories/sbc">sbc</a> <a class="post-category post-category-linux" data-href="https://lord.re/categories/linux" href="https://lord.re/categories/linux">linux</a> </span>
+<span class="read-more-link"><a data-href="/posts/192-encore-une-hc2-/" href="https://lord.re/posts/192-encore-une-hc2-/">Lire en entier …</a></span></div>
+</footer>
+</section>
+<section class="visionnages">
+<header class="post-header">
+<h1 class="post-title"><a data-href="/visionnages/doctor-sleep/" href="https://lord.re/visionnages/doctor-sleep/">Doctor Sleep</a></h1>
+</header>
+<footer>
+<div class="post-meta-list"><em><span>08/03/2020</span> <span>~4mins</span></em>
+<span class="read-more-link"><a data-href="/visionnages/doctor-sleep/" href="https://lord.re/visionnages/doctor-sleep/">Lire en entier …</a></span></div>
+</footer>
+</section>
+<div class="pagination" style="text-align:right;">
+<a aria-label="First" data-href="/" href="https://lord.re/">««</a>
+
+ <a data-href="/" href="https://lord.re/" style="font-size:1.3rem;font-weight:900;">1</a>  <a data-href="/page/2/" href="https://lord.re/page/2/">2</a>  <a data-href="/page/3/" href="https://lord.re/page/3/">3</a>  <a data-href="/page/4/" href="https://lord.re/page/4/">4</a>  <a data-href="/page/5/" href="https://lord.re/page/5/">5</a>  <a data-href="/page/6/" href="https://lord.re/page/6/">6</a>  <a data-href="/page/7/" href="https://lord.re/page/7/">7</a>  <a data-href="/page/8/" href="https://lord.re/page/8/">8</a>  <a data-href="/page/9/" href="https://lord.re/page/9/">9</a>  <a data-href="/page/10/" href="https://lord.re/page/10/">10</a>  <a data-href="/page/11/" href="https://lord.re/page/11/">11</a>  <a data-href="/page/12/" href="https://lord.re/page/12/">12</a>  <a data-href="/page/13/" href="https://lord.re/page/13/">13</a>  <a data-href="/page/14/" href="https://lord.re/page/14/">14</a>  <a data-href="/page/15/" href="https://lord.re/page/15/">15</a>  <a data-href="/page/16/" href="https://lord.re/page/16/">16</a>  <a data-href="/page/17/" href="https://lord.re/page/17/">17</a>  <a data-href="/page/18/" href="https://lord.re/page/18/">18</a>  <a data-href="/page/19/" href="https://lord.re/page/19/">19</a>  <a data-href="/page/20/" href="https://lord.re/page/20/">20</a> 
+<a aria-label="Next" data-href="/page/2/" href="https://lord.re/page/2/">»</a>
+<a aria-label="Last" data-href="/page/20/" href="https://lord.re/page/20/">»»</a>
+</div>
+</main>
+<aside class="webring">
+<h1>Blogroll</h1>
+<p><abbr title="Ceci est du contenu externe que je ne maîtrise pas à 100%, n'hésitez pas à me contacter à ce propos.">Petite sélection d'articles de blog francophones :</abbr></p>
+<section class="articles">
+<div class="article">
+<h2 class="title"><a data-href="http://blog.doshi.re/2020/04/css-naked-day-2020/" href="http://blog.doshi.re/2020/04/css-naked-day-2020/" rel="noopener" target="_blank">CSS Naked Day</a></h2>
+<p class="summary">Aujourd’hui, le 9 avril, c’est le CSS Naked Day !
+
+
+
+Je viens d’apprendre son existence je l’avoue. Grâce à ce toot :
+
+
+  My website is naked of CSS for the day (for the first time in YEARS.) Inspired this year by Eric Meyer.
+
+  https://laurakalbag.com/css-naked-d…</p>
+<small class="source">via <a data-href="http://blog.doshi.re/" href="http://blog.doshi.re/">blog de doshirae</a></small> <small class="date">April 9, 2020</small>
+</div>
+<div class="article">
+<h2 class="title"><a data-href="https://von.zone/comment-taper-au-clavier-tuto-complet/" href="https://von.zone/comment-taper-au-clavier-tuto-complet/" rel="noopener" target="_blank">Comment taper au clavier ? - Tuto complet</a></h2>
+<p class="summary">Bonjour les zouzous, j'espère que vous allez bien ! Alors aujourd'hui on va apprendre comment taper au clavier, vous verrez c'est très très simple.Etape 1 - Le débutPensez à allumer votre ordinateur. Il a été statistiquement prouvé que 30% des…</p>
+<small class="source">via <a data-href="https://von.zone/" href="https://von.zone/">Von.Zone | blog de l'internet</a></small> <small class="date">March 26, 2020</small>
+</div>
+<div class="article">
+<h2 class="title"><a data-href="https://hyakosm.net/articles/2019/09/07/serveur-nouvelle-connexion.html" href="https://hyakosm.net/articles/2019/09/07/serveur-nouvelle-connexion.html" rel="noopener" target="_blank">J'ai déménagé mon serveur et j'aime pas IPv6</a></h2>
+<p class="summary">Voilà plusieurs années que mon vaillant petit serveur était branché tranquilou sur le 82.64.33.242. Je l’ai mis en service à l’été 2016 : le kit de connexion était simple : un Raspberry, une Freebox, une IP fixe gratuite (un luxe indécent, presque autant …</p>
+<small class="source">via <a data-href="https://hyakosm.net/" href="https://hyakosm.net/">hyakosm.net</a></small> <small class="date">September 7, 2019</small>
+</div>
+<div class="article">
+<h2 class="title"><a data-href="https://www.lacaveatonton.ovh/article/842-Changement-de-systeme-de-geolocalisation/" href="https://www.lacaveatonton.ovh/article/842-Changement-de-systeme-de-geolocalisation/" rel="noopener" target="_blank">Changement de systeme de geolocalisation</a></h2>
+<p class="summary">J'ai changé le systeme de géolocalisation pour le site. Avant je passais par </p>
+<small class="source">via <a data-href="https://www.lacaveatonton.ovh/rss.xml" href="https://www.lacaveatonton.ovh/rss.xml">La Cave a Tonton</a></small> <small class="date">January 1, 0001</small>
+</div>
+</section>
+<p class="attribution">Generated by <a data-href="https://git.sr.ht/~sircmpwn/openring" href="https://git.sr.ht/~sircmpwn/openring">openring</a></p>
+</aside>
+</body>
+</html>

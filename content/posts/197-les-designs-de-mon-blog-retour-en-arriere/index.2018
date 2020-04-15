@@ -1,0 +1,1784 @@
+<html><!-- 
+ single html processed by https://github.com/zTrix/webpage2html
+ title: /home/lord
+ url:
+ date: Tue Apr 14 00:55:59 2020
+-->
+<head>
+<title>/home/lord</title>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<meta content="width=device-width, initial-scale=1.0, shrink-to-fit=no" name="viewport"/>
+<meta content="Un blog perso parlant adminsys Linux et autres trucs de geeks" name="description"/>
+<meta content="linux,geek,adminsys,blog," name="keywords"/>
+<meta content="Lord" name="author"/>
+<meta content="Hugo 0.45.1" name="generator"/>
+<style data-href="style.2018.css" rel="stylesheet" type="text/css">/*
+Creative Commons 4.0 BY-SA
+You can reuse it, and if you reuse it i'll be glad looking at your website :-)
+*/
+
+*{
+  box-sizing:border-box;
+  transition:all 0.1s ease;
+  margin:0;
+}
+html{
+  line-height:1.35em;
+  font-family:'Droid Sans';
+  background:#272b30;
+}
+a{
+  text-decoration:none;
+  border-bottom:1px dotted;
+}
+article a{
+  text-decoration:none;
+  border-bottom:1px dashed;
+  outline:1px dotted rgba(255,255,255,0.3);
+  outline-offset:.2em;
+}
+a:hover{
+  outline:1px solid;
+  outline-offset:.3em;
+  border-bottom:1px dashed orangered;
+}
+aside{
+  padding:1rem;
+  color:#757c82;
+  text-align:center;
+  box-shadow:0 0 1em rgba(0,0,0,0.4);
+  border-bottom:2px solid #414;
+}
+.icons a{
+  display:inline-block;
+	margin:0.7rem;
+}
+.icons a:hover{
+	transform: scale(2);
+}
+aside h1{
+  padding-bottom:1.5rem;
+  text-align:center;
+}
+aside p{
+  font-size:.9rem;
+}
+@media (min-width:58em){
+  aside {
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    width:18rem;
+    text-align:left;
+    border-right:2px solid #414;
+    border-bottom:none;
+  }
+  .content{
+    margin-left:20rem;
+  }
+  #sidebar{
+    position:absolute;
+    right:1rem;
+    bottom:1rem;
+    left:1rem;
+  }
+}
+@media (min-width: 80em){
+  aside{
+    border-right:4px solid #414;
+  }
+  html{
+    font-size:18pt;
+  }
+}
+@media (min-width: 100em){
+  html{
+    font-size:20pt;
+  }
+}
+#drafturl{
+  color:#272b30;
+  font-size:0.5rem;
+}
+.post-header,article{
+  margin:2rem;
+}
+.content{
+  color:#757c82;
+  color:#8a9199;
+}
+main {
+  margin:2rem;
+}
+a{
+  color:#aa7c82;
+}
+h1 a{
+  font-size:1.7rem;
+}
+h2{
+  font-size:1.5rem;
+  color:#8aa;
+  padding-top:1.2rem;
+}
+h3{
+  font-size:1.3rem;
+  padding-top:1.1rem;
+}
+.posts, .fast-posts, .shares, .ideas{
+  margin:1rem;
+  box-shadow:0 0 1em rgba(0,0,0,0.4);
+  text-align:justify;
+  max-width:50em;
+}
+.posts:before,.shares:before,.fast-posts:before,.ideas:before{
+	font-size:0.8rem;
+	border-radius:0 0 0.4rem 0;
+	border-bottom:none;
+	border-left:none;
+	padding:0.2rem;
+}
+.posts{
+  border-top:3px solid #547;
+  border-bottom:1px solid #436;
+  border-left:2px solid #436;
+  background:#2d2f34;
+}
+.posts:before{
+  content:"post";
+	background:#436;
+	border:solid #547;
+}
+.fast-posts{
+  border-top:3px solid #457;
+  border-bottom:1px solid #346;
+  border-left:2px solid #447;
+  color:#999;
+  background:#292f34;
+}
+.fast-posts:before{
+  content:"fast-post";
+	background:#346;
+	border:solid #457;
+}
+.shares{
+  border-top:3px solid #d2c555;
+	border-bottom:1px solid #443;
+	border-left:2px solid #554;
+  background:#292e30;
+}
+.shares:before{
+  content:"share";
+	background:#443;
+	border:solid #554;
+}
+.ideas{
+  border-top:3px solid #55c5d2;
+	border-bottom:1px solid #344;
+	border-left:2px solid #455;
+	background:#293034;
+}
+.ideas:before{
+  content:"idées à la con";
+	background:#344;
+	border:solid #455;
+}
+.posts:before,.fast-posts:before,.shares:before,.ideas:before{
+	border-width:0 1px 1px 0;
+}
+.posts h1 a{
+  color:#cac;
+}
+.fast-posts h1 a{
+  color:#99C3D1;
+}
+.shares h1 a{
+  color:#ffa;
+}
+.ideas h1 a{
+  color:#aff;
+}
+.post-category{
+  color:#757cab;
+  margin-left:.6rem;
+}
+.post-edit-date{
+  color:#777;
+}
+.posts li{
+  margin-left:1rem;
+  list-style-position:outside;
+  list-style-type:disc;
+}
+ol li,ul li{
+  padding-top:0.4rem;
+  margin-left:2rem;
+}
+section p{
+  padding-top:1rem;
+}
+em{
+  color:#8a8;
+}
+strong{
+  color:#a8a;
+}
+pre, :not(pre) > code{
+  border:1px dashed black;
+  box-shadow:0 0 0.5em rgba(0,0,0,0.4) inset;
+  background:#1d2024;
+  margin-top:0.5rem;
+  font-size:0.7rem;
+  padding: 0.5rem;
+  line-height:0.9rem;
+}
+figure h4{
+  font-size:0.7rem;
+  text-align:center;
+  background:#67a4a8;
+  font-weight:100;
+  color:black;
+}
+figure{
+  margin-top:0.5rem;
+  box-shadow:0 0 1em rgba(0,0,0,0.4);
+  outline: 3px solid black;
+  text-align:center;
+}
+figure a img{
+  max-width:100%;
+}
+.post-meta{
+  margin-left:2rem;
+  margin-top:1rem;
+  font-size:.8rem;
+}
+.read-more-link , .read-more-link a{
+  text-align:right;
+  color:#2aa198;
+  margin-right:1rem;
+  margin-bottom:1.3rem;
+}
+.read-more-link a:hover{
+  color:#4ab1a8;
+}
+hr{
+  margin-top: 1rem;
+  border: 1px dashed #555;
+}
+table{
+  margin:1rem;
+}
+thead{
+  background-color:#333;
+}
+tr:nth-child(even){
+  background:#222;
+}
+tr:hover{
+  background:#333;
+}
+td{
+  padding:0.3rem;
+}
+footer{
+	position:relative;
+	left:-2rem;
+	width:100%;
+  background-color:#222;
+  padding:0 2rem 1rem 2rem;
+  color:#ccc;
+}
+
+samp::selection{
+	background-color:#111;
+	color:#ccc;
+}
+
+</style>
+<link href="" rel="icon" type="image/x-icon"/>
+</head>
+<body>
+<div id="layout">
+<aside>
+<div id="sidebar">
+<h1 class="brand-title"><a data-href="" href="">/home/lord</a></h1>
+<p>Geek libriste, addict à IRC, gentoo¡ste convaincu, amateur de joli matos, troll averti à tendance ironico-sarcastico pas-si-méchant, fan de metal mais pas que. HF.</p>
+<br/>
+<p class="icons"><a data-href="" href="" title="En gros c'est lord@lesitequevousvisitez"><img alt="Mail" data-src="mail.svg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgYXJpYS1sYWJlbGxlZGJ5PSJ0aXRsZSIKYXJpYS1kZXNjcmliZWRieT0iZGVzYyIgcm9sZT0iaW1nIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgPHRpdGxlPlNlbmQgRW1haWw8L3RpdGxlPgogIDxkZXNjPkEgbGluZSBzdHlsZWQgaWNvbiBmcm9tIE9yaW9uIEljb24gTGlicmFyeS48L2Rlc2M+CiAgPHBhdGggZGF0YS1uYW1lPSJsYXllcjIiCiAgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZDI1NTU1IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS13aWR0aD0iMiIgZD0iTTYyIDE2SDIzLjZMMTYgNDhoMzguNEw2MiAxNnoiCiAgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIj48L3BhdGg+CiAgPHBhdGggZGF0YS1uYW1lPSJsYXllcjIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2QyNTU1NSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIgogIHN0cm9rZS13aWR0aD0iMiIgZD0iTTIzLjYgMTZsMTQuOSAyMkw2MiAxNk0xNiA0OGwxOS4yLTE0LjhNNTQuNCA0OEw0Mi45IDMzLjgiCiAgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIj48L3BhdGg+CiAgPHBhdGggZGF0YS1uYW1lPSJsYXllcjEiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2QyNTU1NSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIgogIHN0cm9rZS13aWR0aD0iMiIgZD0iTTIgMjRoMTEuOU0yIDMyaDEwTTIgNDBoOCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIKICBzdHJva2UtbGluZWNhcD0icm91bmQiPjwvcGF0aD4KPC9zdmc+" width="35em"/></a>
+<a data-href="" href="" title="Je suis présent sur Geeknode, Freenode, Evolunet, EFnet, OFTC"><img alt="IRC" data-src="chat.svg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgYXJpYS1sYWJlbGxlZGJ5PSJ0aXRsZSIKYXJpYS1kZXNjcmliZWRieT0iZGVzYyIgcm9sZT0iaW1nIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgPHRpdGxlPkNvbnZlcnNhdGlvbnM8L3RpdGxlPgogIDxkZXNjPkEgbGluZSBzdHlsZWQgaWNvbiBmcm9tIE9yaW9uIEljb24gTGlicmFyeS48L2Rlc2M+CiAgPHBhdGggZGF0YS1uYW1lPSJsYXllcjIiCiAgZD0iTTI4LjQgMzUuOWExMSAxMSAwIDAgMCAxMC42IDE0aDUuOUw1NCA1OXYtOS41YTExIDExIDAgMCAwLTMtMjEuNmgtLjciCiAgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjM2I5NWYwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiCiAgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+CiAgPHBhdGggZGF0YS1uYW1lPSJsYXllcjEiIGQ9Ik0zNyA1LjlIMTdBMTUgMTUgMCAwIDAgMTIgMzV2MTEuOWwxMS0xMWgxNGExNSAxNSAwIDAgMCAwLTMweiIKICBmaWxsPSJub25lIiBzdHJva2U9IiMzYjk1ZjAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIKICBzdHJva2Utd2lkdGg9IjIiPjwvcGF0aD4KPC9zdmc+" width="35rem"/></a>
+<a data-href="" href="" rel="alternate" title="Les RSS c'est le bien ! Par contre pas la peine d'updater plus de deux fois par jours ;-)" type="application/rss+xml"><img alt="RSS" data-src="rss.svg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgYXJpYS1sYWJlbGxlZGJ5PSJ0aXRsZSIKYXJpYS1kZXNjcmliZWRieT0iZGVzYyIgcm9sZT0iaW1nIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgPHRpdGxlPlJTUzwvdGl0bGU+CiAgPGRlc2M+QSBsaW5lIHN0eWxlZCBpY29uIGZyb20gT3Jpb24gSWNvbiBMaWJyYXJ5LjwvZGVzYz4KICA8cGF0aCBkYXRhLW5hbWU9ImxheWVyMiIKICBkPSJNMTAuMDYzIDQ1LjgyNGE4LjA4OCA4LjA4OCAwIDEgMCA4LjA2MyA4LjA4OCA4LjA3NSA4LjA3NSAwIDAgMC04LjA2My04LjA4OHoiCiAgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZDJjNTU1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIKICBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiPjwvcGF0aD4KICA8cGF0aCBkYXRhLW5hbWU9ImxheWVyMSIgZD0iTTIuNjU2IDIyLjIxOWgtLjQ2OXYxMS4xOTJoLjQ2OWEyNy45NzEgMjcuOTcxIDAgMCAxIDI3LjkzOCAyNy45MzFWNjJINDEuNzV2LS42NThBMzkuMTExIDM5LjExMSAwIDAgMCAyLjY1NiAyMi4yMTl6IgogIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2QyYzU1NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiCiAgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWpvaW49Im1pdGVyIj48L3BhdGg+CiAgPHBhdGggZGF0YS1uYW1lPSJsYXllcjEiIGQ9Ik0yLjY1NiAyaC0uNDY5djExLjE5MWguNDY5QTQ4LjE4OCA0OC4xODggMCAwIDEgNTAuNzUgNjEuMzQyVjYySDYydi0uNjU4QTU5LjQwOCA1OS40MDggMCAwIDAgMi42NTYgMnoiCiAgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZDJjNTU1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIKICBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiPjwvcGF0aD4KPC9zdmc+" width="30rem"/></a>
+<a data-href="" href="" title="Mon ptit compte Mastodon"><img alt="Mastodon" data-src="mastodon.svg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MS4wNzY5NTRtbSIgaGVpZ2h0PSI2NS40NzgzMW1tIiB2aWV3Qm94PSIwIDAgMjE2LjQxNDQgMjMyLjAwOTc2Ij4KICA8cGF0aCBmaWxsPSIjMmI5MGQ5IiBkPSJNMjExLjgwNzM0IDEzOS4wODc1Yy0zLjE4MTI1IDE2LjM2NjI1LTI4LjQ5MjUgMzQuMjc3NS01Ny41NjI1IDM3Ljc0ODc1LTE1LjE1ODc1IDEuODA4NzUtMzAuMDgzNzUgMy40NzEyNS00NS45OTg3NSAyLjc0MTI1LTI2LjAyNzUtMS4xOTI1LTQ2LjU2NS02LjIxMjUtNDYuNTY1LTYuMjEyNSAwIDIuNTMzNzUuMTU2MjUgNC45NDYyNS40Njg3NSA3LjIwMjUgMy4zODM3NSAyNS42ODYyNSAyNS40NyAyNy4yMjUgNDYuMzkxMjUgMjcuOTQyNSAyMS4xMTYyNS43MjI1IDM5LjkxODc1LTUuMjA2MjUgMzkuOTE4NzUtNS4yMDYyNWwuODY3NSAxOS4wOXMtMTQuNzcgNy45MzEyNS00MS4wODEyNSA5LjM5Yy0xNC41MDg3NS43OTc1LTMyLjUyMzc1LS4zNjUtNTMuNTA2MjUtNS45MTg3NUM5LjIzMjM0IDIxMy44MiAxLjQwNjA5IDE2NS4zMTEyNS4yMDg1OSAxMTYuMDkxMjVjLS4zNjUtMTQuNjEzNzUtLjE0LTI4LjM5Mzc1LS4xNC0zOS45MTg3NSAwLTUwLjMzIDMyLjk3NjI1LTY1LjA4MjUgMzIuOTc2MjUtNjUuMDgyNUM0OS42NzIzNCAzLjQ1Mzc1IDc4LjIwMzU5LjI0MjUgMTA3Ljg2NDg0IDBoLjcyODc1YzI5LjY2MTI1LjI0MjUgNTguMjExMjUgMy40NTM3NSA3NC44Mzc1IDExLjA5IDAgMCAzMi45NzUgMTQuNzUyNSAzMi45NzUgNjUuMDgyNSAwIDAgLjQxMzc1IDM3LjEzMzc1LTQuNTk4NzUgNjIuOTE1Ii8+CiAgPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE3Ny41MDk4NCA4MC4wNzd2NjAuOTQxMjVoLTI0LjE0Mzc1di01OS4xNWMwLTEyLjQ2ODc1LTUuMjQ2MjUtMTguNzk3NS0xNS43NC0xOC43OTc1LTExLjYwMjUgMC0xNy40MTc1IDcuNTA3NS0xNy40MTc1IDIyLjM1MjV2MzIuMzc2MjVIOTYuMjA3MzRWODUuNDIzMjVjMC0xNC44NDUtNS44MTYyNS0yMi4zNTI1LTE3LjQxODc1LTIyLjM1MjUtMTAuNDkzNzUgMC0xNS43NCA2LjMyODc1LTE1Ljc0IDE4Ljc5NzV2NTkuMTVIMzguOTA0ODRWODAuMDc3YzAtMTIuNDU1IDMuMTcxMjUtMjIuMzUyNSA5LjU0MTI1LTI5LjY3NSA2LjU2ODc1LTcuMzIyNSAxNS4xNzEyNS0xMS4wNzYyNSAyNS44NS0xMS4wNzYyNSAxMi4zNTUgMCAyMS43MTEyNSA0Ljc0ODc1IDI3Ljg5NzUgMTQuMjQ3NWw2LjAxMzc1IDEwLjA4MTI1IDYuMDE1LTEwLjA4MTI1YzYuMTg1LTkuNDk4NzUgMTUuNTQxMjUtMTQuMjQ3NSAyNy44OTc1LTE0LjI0NzUgMTAuNjc3NSAwIDE5LjI4IDMuNzUzNzUgMjUuODUgMTEuMDc2MjUgNi4zNjg3NSA3LjMyMjUgOS41NCAxNy4yMiA5LjU0IDI5LjY3NSIvPgo8L3N2Zz4K" width="30rem"/></a>
+<a data-href="" href="" title="Le site en version monopage"><img alt="Monopage" data-src="mono.svg" src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNjQgNjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgYXJpYS1sYWJlbGxlZGJ5PSJ0aXRsZSIKYXJpYS1kZXNjcmliZWRieT0iZGVzYyIgcm9sZT0iaW1nIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgPHRpdGxlPkZ1bGwgRGlzcGxheTwvdGl0bGU+CiAgPGRlc2M+QSBsaW5lIHN0eWxlZCBpY29uIGZyb20gT3Jpb24gSWNvbiBMaWJyYXJ5LjwvZGVzYz4KICA8cGF0aCBkPSJNMTggMjFoMjh2MjJIMTh6IgogIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZT0iIzNiZjBiNSIKICBmaWxsPSJub25lIiBkYXRhLW5hbWU9ImxheWVyMiIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PC9wYXRoPgogIDxwYXRoIGQ9Ik0xMCAxOXYyNk0yIDE1djM0bTUyLTMwdjI2bTgtMzB2MzQiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlPSIjM2JmMGI1IiBmaWxsPSJub25lIiBkYXRhLW5hbWU9ImxheWVyMSIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIj48L3BhdGg+Cjwvc3ZnPg==" width="30rem"/></a>
+</p>
+<br/>
+<p>Le CSS est sous CC4-BY-SA - Les articles sont sous CC4-BY-NC-SA</p>
+<br/>
+<p><a data-href="" href="">Available in Frenglish : /home/lord</a></p>
+<p><a data-href="" href="" id="drafturl">.</a></p>
+</div>
+</aside>
+<div class="content">
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">17ème article d'avancement du Librem 5</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">04/08/2018</span> - <span class="post-reading-time">8 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-traduction" data-href="" href="">traduction</a> <a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-librem" data-href="" href="">librem</a> <a class="post-category post-category-purism" data-href="" href="">purism</a> </span></p>
+<article class="post-summary">Ceci est une traduction libre de cet article concernant les avancées de la société Purism concernant le smartphone Librem 5. L’article original est sous licence CC BY-SA 4.0 tout comme ma traduction.
+Ce smartphone a bénéficié d’un crowdfunding et a pour but d’apporter une alternative à Android en proposant un OS basé sur Linux et toutes les briques logiciels opensource qui vont avec. Ils collaborent avec le projet Gnome, le projet KDE, UBPorts et le projet Matrix.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="fast-posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Polissage du thême Hugo : NeoDark</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">03/08/2018</span> - <span class="post-reading-time">2 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-meta" data-href="" href="">meta</a> <a class="post-category post-category-hugo" data-href="" href="">hugo</a> <a class="post-category post-category-css" data-href="" href="">css</a> </span></p>
+<article class="post-summary">Salut les lecteurs ça va ?
+…
+Et bhé ! Vous êtes pas très causant.
+Bon je vais pas me fâcher même si c’est un peu vexant de pas avoir de réponse.
+J’ai encore un peu retravaillé NeoDark (ouai le nom est bidon) mon thème Hugo. Le but est d’enfin le partager proprement avec vous pour que vous puissiez le réutiliser.
+Avant de vous le partager, bha il fallait virer les saloperies que j’avais fait.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="shares">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Le Geekcode</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">02/08/2018</span> - <span class="post-reading-time">2 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-geek" data-href="" href="">geek</a> <a class="post-category post-category-culture" data-href="" href="">culture</a> </span></p>
+<article class="post-summary">Allez, je déballe encore une vieillerie !
+Il fût un temps, où pour briller en société (keuf keuf), il fallait sortir sa carte de visite. Comme chacun sait, le geek a bien du mal à sortir de sa tanière physique tout entravé dans sa barbe qu’il est, du coup il lui fallait une carte de visite pour le monde numérique.
+C’est d’ailleurs presque un CV plus qu’une carte de visite : le Geekcode.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">16ème article d'avancement du Librem 5</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">31/07/2018</span> - <span class="post-reading-time">4 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-traduction" data-href="" href="">traduction</a> <a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-librem" data-href="" href="">librem</a> <a class="post-category post-category-purism" data-href="" href="">purism</a> </span></p>
+<article class="post-summary">Ceci est une traduction libre de cet article concernant les avancées de la société Purism concernant le smartphone Librem 5. L’article original est sous licence CC BY-SA 4.0 tout comme ma traduction.
+Ce smartphone a bénéficié d’un crowdfunding et a pour but d’apporter une alternative à Android en proposant un OS basé sur Linux et toutes les briques logiciels opensource qui vont avec. Ils collaborent avec le projet Gnome, le projet KDE, UBPorts et le projet Matrix.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="shares">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">TDC</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">27/07/2018</span> - <span class="post-reading-time">2 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-culture" data-href="" href="">culture</a> <a class="post-category post-category-web" data-href="" href="">web</a> </span></p>
+<article class="post-summary">Et alors qu’une vague de spam sévit actuellement sur les IRC (oui oui en 2018 ça se fait encore…), je me sens obligé de vous présenter l’un des meilleurs sites old-school encore sur le ouaib.
+tROu dU cuLz hiDeOuT L’une des meilleures ressources du ouaib encore dispo pour devenir un 1337. Ne vous laissez pas berner par l’esthétique pleine de charme et d’un esthétisme certain, le contenu prévaut sur la forme ici.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Configuration Weechat 2018</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">25/07/2018</span> - <span class="post-reading-time">4 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-irc" data-href="" href="">irc</a> <a class="post-category post-category-cli" data-href="" href="">cli</a> </span></p>
+<article class="post-summary">Weechat 2.2 vient de sortir et c’est l’occasion de lui faire un ptit article. Ça fait maintenant très longtemps que je l’utilise comme client IRC. Je l’ai pas mal trifouillé de droite et de gauche depuis le temps du coup je voulais poser un peu toutes ces personnalisations quelque part pour les retrouver au cas où et pour vous les partager.
+Les scripts Du haut de ses 15 ans, Weechat a sû se créer un petit écosystème complet de plugins/scripts (et bientôt des thêmes !
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="fast-posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Ralentir le flux</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">23/07/2018</span> - </em><span class="post-categories"><a class="post-category post-category-perso" data-href="" href="">perso</a> <a class="post-category post-category-rss" data-href="" href="">rss</a> </span></p>
+<article class="post-summary">Tiens un petit fast-post rapide sur le feu.
+En ce moment je cherche à ralentir un peu le rythme de mon TTRSS. Il se connectait toutes les heures sur chacun des flux RSS pour voir s’il n’y avait pas une nouveauté.
+Au final ça représente un sacré bastringue réseau pour rien les trois quarts du temps. J’ai donc diminué la fréquence d’actualisation de quasiment tous les flux à une fois toutes les 24h.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">L'Histoire d'Iloth</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">22/07/2018</span> - <span class="post-reading-time">18 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-iloth" data-href="" href="">iloth</a> <a class="post-category post-category-perso" data-href="" href="">perso</a> </span></p>
+<article class="post-summary">J’en ai jamais vraiment parlé sur mon blog et pourtant Iloth représente une page de ma vie.
+Iloth est une association membre de la FFDN. J’en ai été membre quelques années pas au tout début mais pas trop loin, jusqu’à très récemment où j’ai eu besoin de passer à autre chose.
+Du coup je vais vous raconter un peu la vie d’Iloth, certains de ses moments forts et tout et tout.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Termtosvg : capturer la cli dans un svg</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">18/07/2018</span> - <span class="post-reading-time">2 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-cli" data-href="" href="">cli</a> <a class="post-category post-category-linux" data-href="" href="">linux</a> </span></p>
+<article class="post-summary">L'article en cours de rédaction ~3min   Voilà vous le voyez sous vos yeux ébahis : Termtosvg est un petit logiciel en python qui permet d’enregistrer ce qu’il se passe sur votre terminal et d’en faire un joli SVG.
+SVG est un format graphique permettant de faire des images zoomables sans perte de qualité et “sélectionnables” car les données enregistrées ne sont pas des pixels mais des éléments graphiques définis de manière procédural.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">15ème article d'avancement du Librem 5</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">17/07/2018</span> - <span class="post-reading-time">9 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-traduction" data-href="" href="">traduction</a> <a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-librem" data-href="" href="">librem</a> <a class="post-category post-category-purism" data-href="" href="">purism</a> </span></p>
+<article class="post-summary">Ceci est une traduction libre de cet article concernant les avancées de la société Purism concernant le smartphone Librem 5. L’article original est sous licence CC BY-SA 4.0 tout comme ma traduction.
+Ce smartphone a bénéficié d’un crowdfunding et a pour but d’apporter une alternative à Android en proposant un OS basé sur Linux et toutes les briques logiciels opensource qui vont avec. Ils collaborent avec le projet Gnome, le projet KDE, UBPorts et le projet Matrix.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="shares">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Les Vidéos Primitives</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">15/07/2018</span> - <span class="post-reading-time">5 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-video" data-href="" href="">video</a> <a class="post-category post-category-youtube" data-href="" href="">youtube</a> </span></p>
+<article class="post-summary">Je suis fan des vidéos primitives. Vous êtes jamais tombé dessus ?
+Ce sont des vidéos de personnes simulant la vie primitive c’est à dire sans technologie. Alors ça se contente principalement de construire des trucs plus ou moins utiles.
+Mais il y a des codes à respecter :
+ Partir de 0 : pas d’outil ou autre. Il faut se construire ses propres outils à partir des ressources à disposition localement.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Kakoune</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">11/07/2018</span> - <span class="post-reading-time">5 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-cli" data-href="" href="">cli</a> <a class="post-category post-category-linux" data-href="" href="">linux</a> <a class="post-category post-category-software" data-href="" href="">software</a> </span></p>
+<article class="post-summary">Après avoir un peu utilisé Amp j’utilise désormais kakoune depuis quelques mois. En fait à la base je n’avais pas l’intention de migrer aussi vite vers un autre éditeur mais pas de bol, une mise à jour de ncurses à rendu Amp inutilisable à cause de bugs graphiques dans tous les sens. Une mise à jour était nécessaire mais du coup je suis allé voir un peu ailleurs voir ce qui se faisait.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="shares">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">5000$ Compression Challenge</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">09/07/2018</span> - <span class="post-reading-time">3 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-web" data-href="" href="">web</a> <a class="post-category post-category-impossiburu" data-href="" href="">impossiburu</a> </span></p>
+<article class="post-summary">Ce second partage avec vous est une perle que je souhaitais vous montrer depuis des lustres mais je n’avais pas de moyen bien pour vous le partager auparavant.
+Il s’agit d’un échange de mail entre Mike Goldman (j’ai pas trouvé d’infos) et Patrick Craig qui est un informaticien avec un site perso.
+Notre cher Mike a décidé de lancer un concours avec à la clé 5000$ de gain en l’an de grâce -3 avant Facebook.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">La Renaissance Des RSS</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">06/07/2018</span> - <span class="post-reading-time">4 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-web" data-href="" href="">web</a> <a class="post-category post-category-rss" data-href="" href="">rss</a> <a class="post-category post-category-bullshit" data-href="" href="">bullshit</a> </span></p>
+<article class="post-summary">Ça y est \o/ En ce moment on assiste à la renaissance des RSS et c’est pas moi qui le dit ! On le lit un peu partout en ce moment. On vit une époque formidable !
+Mais attends une seconde : pour que ça renaisse, il faut que ça meurt !
+Mais du coup, les RSS étaient morts ? C’est ce que semble penser pas mal de monde visiblement.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="shares">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">500 Miles Mail</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">03/07/2018</span> - <span class="post-reading-time">Une seule belle minute de plaisir</span></em><span class="post-categories"><a class="post-category post-category-web" data-href="" href="">web</a> <a class="post-category post-category-mail" data-href="" href="">mail</a> </span></p>
+<article class="post-summary">Pour inaugurer cette section je vais vous vous mettre un lien vers une histoire assez cocasse :
+Débugguer le soucis des mails qui ne peuvent dépasser les 500miles.
+Un adminsys reçoit un appel d’un directeur de son organisation qui ne parvient plus à envoyer de mails à des destinataires à plus de 500 miles. Forcément l’adminsys va devoir trouver comment démerdouiller le tout.
+
+Je trouve cette histoire vraiment sympa et en plus bien écrit.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="fast-posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Nouvelle section : Shares</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">02/07/2018</span> - </em><span class="post-categories"><a class="post-category post-category-meta" data-href="" href="">meta</a> <a class="post-category post-category-" data-href="" href=""></a> </span></p>
+<article class="post-summary">Hello hello. Bon, pour passer le blues, quoi de mieux que de bidouiller le blog ?
+Des partages Ça fait un petit moment que j’aimerai vous parler de trucs plus … comment dire … “extérieur”. Parler de trucs que j’ai lu/vu/écouté ailleurs et vous les recommander souvent.
+Du coup voilà une nouvelle section qui commencera très bientôt à se remplir.
+Adaptation CSS Bon du coup pour ça j’ai remis un peu les doigts dans le CSS.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Les userscripts dans Qutebrowser</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">01/07/2018</span> - <span class="post-reading-time">2 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-qutebrowser" data-href="" href="">qutebrowser</a> <a class="post-category post-category-javascript" data-href="" href="">javascript</a> <a class="post-category post-category-web" data-href="" href="">web</a> </span></p>
+<article class="post-summary">Qutebrowser est un super navigateur mais sur certains points il est loin des ténors. Son développement est bien plus lent que celui de Chrome et Firefox car c’est un projet bien plus petit avec bien moins de contributeurs et aucune entreprise commerciale pour pousser. Il n’en reste pas moins tout à fait fonctionnelle et propose une alternative crédible au prix de maigres sacrifices.
+Un des sacrifices à faire est l’absence d’extensions.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="fast-posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Hellblues</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">28/06/2018</span> - </em><span class="post-categories"><a class="post-category post-category-perso" data-href="" href="">perso</a> <a class="post-category post-category-" data-href="" href=""></a> </span></p>
+<article class="post-summary">Ce week-end se tenait le Hellfest à Clisson. 4 jours dans une ambiance extra-ordinaire.
+Extra-ordinaire est le mot le plus adapté qu’on puisse trouver pour ça. Pendant quatre jours tu vis dans une ambiance bienfaisante. Tout le monde est gentil, heureux, souriant, ensemble. J’oserai presque dire qu’il y règne une sorte d’ambiance de ZAD mais avec un thème radicalement différent. Alors que c’est tout à l’opposé de cette philosophie : il y a des tas de stands pour acheter des conneries hors de prix.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Les us et coutumes d'IRC</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">20/06/2018</span> - <span class="post-reading-time">5 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-irc" data-href="" href="">irc</a> <a class="post-category post-category-" data-href="" href=""></a> </span></p>
+<article class="post-summary">IRC est l’un des plus anciens protocoles de chat sur Internet encore très activement utilisé. Malgré une perte d’intérêt de la part du grand public qui se tourne massivement vers les réseaux sociaux ou alors sur les plateformes verrouillées/privatives de Slack, Discord, Telegram, … IRC reste toujours utilisé près de trente ans après sa création et connait même des mises à jour du protocole.
+IRC est donc à la fois un protocole mais aussi toute une communauté avec ses traditions, ses codes et ses ptites habitudes.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">14ème article d'avancement du Librem 5</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">15/06/2018</span> - <span class="post-reading-time">4 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-traduction" data-href="" href="">traduction</a> <a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-librem" data-href="" href="">librem</a> <a class="post-category post-category-purism" data-href="" href="">purism</a> </span></p>
+<article class="post-summary">Ceci est une traduction libre de cet article concernant les avancées de la société Purism concernant le smartphone Librem 5. L’article original est sous licence CC BY-SA 4.0 tout comme ma traduction.
+Ce smartphone a bénéficié d’un crowdfunding et a pour but d’apporter une alternative à Android en proposant un OS basé sur Linux et toutes les briques logiciels opensource qui vont avec. Ils collaborent avec le projet Gnome, le projet KDE, UBPorts et le projet Matrix.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">13ème article d'avancement du Librem 5</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">13/06/2018</span> - <span class="post-reading-time">7 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-traduction" data-href="" href="">traduction</a> <a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-librem" data-href="" href="">librem</a> <a class="post-category post-category-purism" data-href="" href="">purism</a> </span></p>
+<article class="post-summary">Ceci est une traduction libre de cet article concernant les avancées de la société Purism concernant le smartphone Librem 5. L’article original est sous licence CC BY-SA 4.0 tout comme ma traduction.
+Ce smartphone a bénéficié d’un crowdfunding et a pour but d’apporter une alternative à Android en proposant un OS basé sur Linux et toutes les briques logiciels opensource qui vont avec. Ils collaborent avec le projet Gnome, le projet KDE, UBPorts et le projet Matrix.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Trifouillage de firmware de clavier</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">05/06/2018</span> - <span class="post-reading-time">9 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-clavier" data-href="" href="">clavier</a> <a class="post-category post-category-hardware" data-href="" href="">hardware</a> <a class="post-category post-category-software" data-href="" href="">software</a> </span></p>
+<article class="post-summary">Je vous ai déjà parlé de mon clavier fait maison il y a bientôt trois ans dans ce premier article. Il est ptet temps de faire la partie 2 ? Ouai mais non c’est trop tard.
+Par contre je viens de modifier un peu la disposition du clavier et du coup c’est une bonne occase pour en reparler ! Ça sera un peu la seconde partie en quelque sorte où j’aborderai un peu plus la partie programmation du firmware.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Gérer les spamfilters sur UnrealIrcd</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">03/06/2018</span> - <span class="post-reading-time">4 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-irc" data-href="" href="">irc</a> <a class="post-category post-category-tips" data-href="" href="">tips</a> </span></p>
+<article class="post-summary">Unrealircd est un ircd très populaire qui a près de vingt ans désormais mais à connu un sursaut d’activité ces dernières années pour arriver en version 4. On l’utilise notamment chez Geeknode sur les quelques serveurs du réseau.
+Et comme tout réseau IRC qui se respecte, on subit régulièrement des relous qui viennent spammer les salons et les utilisateurs de façon plus ou moins créative. Un groupe particulièrement chiant passe régulièrement pour faire leur propagande en floodant.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="fast-posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Firefox : Project Fusion - Remplacer le Tor Browser</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">01/06/2018</span> - </em><span class="post-categories"><a class="post-category post-category-actu" data-href="" href="">actu</a> <a class="post-category post-category-firefox" data-href="" href="">firefox</a> <a class="post-category post-category-tor" data-href="" href="">tor</a> </span></p>
+<article class="post-summary">Ha bha enfin une bonne décision de la part de Mozilla concernant Firefox !
+Le Project Fusion est dans la continuité de Mozilla pour rerendre Firefox sexy. Après les perfs en remodelant toute la partie sous le capot, c’est maintenant la sécurité qui revient sur le devant.
+Depuis des années il existe le Tor Browser qui est un fork de Firefox avec de nombreuses modifications pour améliorer tout ce qui a attrait à l’anonymat et tout ce qui est protection de la vie privée.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Utiliser HTTP2 et le PUSH avec Nginx</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">01/06/2018</span> - <span class="post-reading-time">4 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-www" data-href="" href="">www</a> <a class="post-category post-category-nginx" data-href="" href="">nginx</a> <a class="post-category post-category-adminsys" data-href="" href="">adminsys</a> </span></p>
+<article class="post-summary">HTTP2 est une nouvelle version du protocole HTTP qui améliore pas mal de points de l’original.
+Tout d’abord la sécurité car la plupart des implémentations ne fonctionne qu’avec une couche de TLS qui était autrefois réservé au HTTPS.
+Mais surtout les perfs ont été grandement travaillées. HTTP a été très largement utilisé pendant près de 20 ans avant que le boulot sur son successeur ne commence ce qui a laissé suffisamment de temps pour savoir où ça coinçait et donc comment améliorer le truc.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Ce qu'il se passe quand on envoie un mail</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">29/05/2018</span> - <span class="post-reading-time">17 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-internet" data-href="" href="">internet</a> <a class="post-category post-category-vulgarisation" data-href="" href="">vulgarisation</a> <a class="post-category post-category-mail" data-href="" href="">mail</a> <a class="post-category post-category-r%C3%A9seau" data-href="" href="">réseau</a> </span></p>
+<article class="post-summary">On m’a soufflotté dans l’oreille que ce sujet pourrait être intéressant. Et effectivement ça l’est. Enfin… si on s’y intéresse… Bref…
+Quelles sont les étapes qui se passent, par où va transiter les données. Voyons tout ça.
+Pour l’exemple, je vais aborder le cas suivant :
+Un mail envoyé depuis un client mail type thunderbird via mon serveur auto-hébergé vers un utilisateur gmail.
+1 - Rédaction du mail La partie la plus normale consiste donc à rédiger le texte de votre email.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Remplacer Groovebasin par MPD</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">27/05/2018</span> - <span class="post-reading-time">10 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-dmenu" data-href="" href="">dmenu</a> </span></p>
+<article class="post-summary">Voilà maintenant des années que j’utilise le logiciel Groovebasin pour écouter de la musique. C’est un lecteur audio web. Ça veux dire qu’il faut utiliser un serveur web, et un navigateur web pour pouvoir l’utiliser. Ça a de sacrés avantages tel que la disponibilité de votre bibliothèque numérique de partout. De reprendre la lecture là où vous en étiez, pouvoir contrôler la lecture depuis une autre machine.
+Mais au final ça a ses inconvénients : il faut passer par un navigateur web, ce qui est assez lourd.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Présentation de Calls. L'appli du Librem 5 pour les appels</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">18/05/2018</span> - <span class="post-reading-time">8 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-traduction" data-href="" href="">traduction</a> <a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-librem" data-href="" href="">librem</a> <a class="post-category post-category-purism" data-href="" href="">purism</a> </span></p>
+<article class="post-summary">Ceci est une traduction libre de cet article concernant les avancées de la société Purism concernant le smartphone Librem 5. L’article original est sous licence CC BY-SA 4.0 tout comme ma traduction.
+Ce smartphone a bénéficié d’un crowdfunding et a pour but d’apporter une alternative à Android en proposant un OS basé sur Linux et toutes les briques logiciels opensource qui vont avec. Ils collaborent avec le projet Gnome, le projet KDE, UBPorts et le projet Matrix.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Les maux des GAFAM</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">15/05/2018</span> - <span class="post-reading-time">10 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-gafam" data-href="" href="">gafam</a> <a class="post-category post-category-degooglisation" data-href="" href="">degooglisation</a> <a class="post-category post-category-identit%C3%A9" data-href="" href="">identité</a> <a class="post-category post-category-vie-priv%C3%A9e" data-href="" href="">vie privée</a> </span></p>
+<article class="post-summary">Il est de bon ton de critiquer les GAFAM. C’est un sport assez commun. Aussi bien chez les libristes/techniciens qui sont au fait des enjeux techniques de la chose mais également désormais la presse spécialisée voire pas spécialisée du tout.
+Bref le discours devient assez connu et commun. C’est bien.
+Par contre le remède n’est que très rarement abordé.
+Un remède mais pour quelle maladie ? La maladie en elle-même n’est pas unique.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">11ème article d'avancement du Librem 5</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">11/05/2018</span> - <span class="post-reading-time">5 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-traduction" data-href="" href="">traduction</a> <a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-librem" data-href="" href="">librem</a> <a class="post-category post-category-purism" data-href="" href="">purism</a> </span></p>
+<article class="post-summary">Ceci est une traduction libre de cet article concernant les avancées de la société Purism concernant le smartphone Librem 5. L’article original est sous licence CC BY-SA 4.0 tout comme ma traduction.
+Ce smartphone a bénéficié d’un crowdfunding et a pour but d’apporter une alternative à Android en proposant un OS basé sur Linux et toutes les briques logiciels opensource qui vont avec. Ils collaborent avec le projet Gnome, le projet KDE, UBPorts et le projet Matrix.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Ce qu'il se passe quand on ouvre une page web</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">08/05/2018</span> - <span class="post-reading-time">13 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-web" data-href="" href="">web</a> <a class="post-category post-category-internet" data-href="" href="">internet</a> <a class="post-category post-category-vulgarisation" data-href="" href="">vulgarisation</a> <a class="post-category post-category-r%C3%A9seau" data-href="" href="">réseau</a> </span></p>
+<article class="post-summary">Vous ouvrez très probablement des dizaines voir des centaines de pages web tous les jours. C’est devenu naturel à tel point qu’on ne se rend pas compte de toute la magie à l’œuvre pour nous afficher notre drogue moderne.
+Déjà commençons par une petite mise au point : je vais causer principalement de Web mais pas trop d’Internet car souvenez-vous : Web ≠ Internet.
+C’est parti !
+Comprendre l’adresse Imaginons que vous vous comportiez bien en utilisant la barre d’adresse (et non la barre de recherche).
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="fast-posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Des fissures dans le Fediverse</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">30/04/2018</span> - </em><span class="post-categories"><a class="post-category post-category-actu" data-href="" href="">actu</a> <a class="post-category post-category-fediverse" data-href="" href="">fediverse</a> </span></p>
+<article class="post-summary">La popularité récente de Mastodon mais plus largement du Fédiverse est intéressante. Mais. Ouai fallait mettre un “mais”. Mais, il commence à montrer quelques signes de fissures.
+La fédération Mastodon s’appuie donc sur du logiciel libre pour créer un réseau social fonctionnant sur le même principe que Twitter. Sauf que contrairement à Twitter, c’est un logiciel libre parlant un protocole ouvert s’appelant ActivityPub et OStatus.
+Cette différence peut sembler mineure mais est en fait la force de ce réseau social : le protocole étant ouvert et documenté, il est possible pour plusieurs personnes de monter un serveur qui saura parler avec le reste du réseau.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="fast-posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Mes déboires Hardware de ce début 2018</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">28/04/2018</span> - </em><span class="post-categories"><a class="post-category post-category-actu" data-href="" href="">actu</a> <a class="post-category post-category-perso" data-href="" href="">perso</a> <a class="post-category post-category-hardware" data-href="" href="">hardware</a> </span></p>
+<article class="post-summary">Bon bha ça y est j’en vois je bout.
+Gros nordi Mon ordi de bureau m’a fait quelques misères. Impossible de booter. Ça plantait inlassablement à divers moments du boot, parfois dès le POST, parfois au niveau de grub, par chance je parvenais à booter pour quelques minutes une fois sur Y. Bref de l’aléatoire comme j’aime (keuf keuf).
+Bon, je vais voir le bios (j’ai toujours pas pris l’habitude de dire l’UEFI…).
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Mon environnement auto-hébergé</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">27/04/2018</span> - <span class="post-reading-time">7 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-web" data-href="" href="">web</a> <a class="post-category post-category-autohebergement" data-href="" href="">autohebergement</a> <a class="post-category post-category-adminsys" data-href="" href="">adminsys</a> </span></p>
+<article class="post-summary">Ça fait un ptit moment que je voulais faire un point des services autoheberge que j’utilise.
+Mails Allez on commence par les mails. Je vous ai déjà pas mal bassinné avec ça mais bon un ptit point rapide. Vos mails sont une grande partie de votre identité numérique. Ils regorgent d’identifiants, de factures, de conversations, de pièces-jointes…
+Bref, ça se refile pas au premier venu qui vous regarde gentiment avec des grands yeux et un grand sourire en vous disant qu’il s’en occupera gratuitement.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Facebook Algo Complot</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">19/04/2018</span> - <span class="post-reading-time">3 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-facebook" data-href="" href="">facebook</a> <a class="post-category post-category-algo" data-href="" href="">algo</a> <a class="post-category post-category-complot" data-href="" href="">complot</a> </span></p>
+<article class="post-summary">Bon si vous êtes ici, j’imagine que vous n’êtes pas sans savoir que Facebook n’est pas une plateforme neutre dans la distribution de “son” contenu.
+Les personnes à qui vous êtes abonnés publient du contenu et Facebook décide d’afficher ou non ce contenu dans votre flux d’information. Ce choix est basé sur des algos fait maison complètement opaques. En cela je ne les blâme pas. C’est leur produit, ils font ce qu’ils veulent.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">La demoscene vol.3</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">15/04/2018</span> - <span class="post-reading-time">3 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-demoscene" data-href="" href="">demoscene</a> <a class="post-category post-category-art" data-href="" href="">art</a> <a class="post-category post-category-demo" data-href="" href="">demo</a> </span></p>
+<article class="post-summary">C’est parti pour notre troisième excursion dans le monde de la demoscene après un ptit tour sur les textmodes.
+Et comme d’habitude, si vous cliquez sur les images vous serez amené sur la vidéo Youtube de la démo mais regarder l’original est toujours mieux. Aujourd’hui pas de sujet précis mais juste une ptite sélection de démo que j’aime beaucoup.
+La Revision 2018 s’est déroulé lors du week-end de Pacques mais je n’ai pas pu voir ce qui s’y est passé mais je serai à l’affût je vous promet.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">10ème article d'avancement du Librem 5</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">12/04/2018</span> - <span class="post-reading-time">3 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-traduction" data-href="" href="">traduction</a> <a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-librem" data-href="" href="">librem</a> <a class="post-category post-category-purism" data-href="" href="">purism</a> </span></p>
+<article class="post-summary">Ceci est une traduction libre de cet article concernant les avancées de la société Purism concernant le smartphone Librem 5. L’article original est sous licence CC BY-SA 4.0 tout comme ma traduction.
+Ce smartphone a bénéficié d’un crowdfunding et a pour but d’apporter une alternative à Android en proposant un OS basé sur Linux et toutes les briques logiciels opensource qui vont avec. Ils collaborent avec le projet Gnome, le projet KDE et le projet Matrix.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Trois astuces pour Hugo</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">11/04/2018</span> - <span class="post-reading-time">4 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-web" data-href="" href="">web</a> <a class="post-category post-category-hugo" data-href="" href="">hugo</a> </span></p>
+<article class="post-summary">J’ai apporté encore quelques modifs sur mon thême Hugo (ouai j’en cause un peu trop souvent désolé mais ce coup-ci c’est plus une astuce qu’autre chose !). Une des modifs récente est l’ajout d’un lien vers un article aléatoire.
+Pas de bol cette fonction n’existe pas de base mais c’est assez facile à bricoler via les quelques fonctions internes d’Hugo.
+J’ai aussi généré une page contenant absolument tous les articles à l’image de l’ancienne version du site.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Verrouiller le fichier /etc/resolv.conf sur Openwrt</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">07/04/2018</span> - <span class="post-reading-time">2 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-tips" data-href="" href="">tips</a> <a class="post-category post-category-adminsys" data-href="" href="">adminsys</a> <a class="post-category post-category-dns" data-href="" href="">dns</a> </span></p>
+<article class="post-summary">OpenWRT me gonfle !
+Ouai c’est une intro brute mais vraie. À chaque fois que je dois me plonger dans leur interface web ça me saoûle. Je suis plus habitué à gérer un nunux classique via ssh plutôt que leurs interfaces bizarre.
+Rien que définir un résolveur DNS est compliqué dans leur système.
+Ma connexion Internet m’est fournie via du DHCP or ce protocole vous envoi votre conf IP, votre route par défaut ET le résolveur DNS à utiliser.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Le deal derrière 1.1.1.1</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">04/04/2018</span> - <span class="post-reading-time">4 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-dns" data-href="" href="">dns</a> <a class="post-category post-category-r%C3%A9seau" data-href="" href="">réseau</a> </span></p>
+<article class="post-summary">Cloudflare a réussi sa communication concernant le lancement de son service de Résolveur DNS ouvert. Ils proposent donc désormais aux Internets de récupérer les adresses IP associés à un nom de domaine. Et c’est maintenant un jeu (limité à peu de joueurs) de proposer le service avec l’ip la plus simple : 1.1.1.1 .
+Google propose son fameux 8.8.8.8 et IBM est récemment rentré dans la partie avec 9.9.9.9 .
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Qutebrowser per Domain Settings</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">02/04/2018</span> - <span class="post-reading-time">2 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-web" data-href="" href="">web</a> <a class="post-category post-category-qutebrowser" data-href="" href="">qutebrowser</a> <a class="post-category post-category-javascript" data-href="" href="">javascript</a> </span></p>
+<article class="post-summary">Dans sa version 1.2, Qutebrowser a ajouté une fonctionnalité toute sympa :
+Les réglages en fonction du domaine En gros vous avez donc vos réglages habituels (globaux) mais sur certains sites vous pouvez avoir de nouveaux réglages spécifiques. Ça permet enfin de pouvoir désactiver globalement le javascript et de ne l’activer qu’au cas par cas.
+En faisant ça la navigation sur les interwebs devient bien plus agréable. Tout est plus réactif, moins de risque de salopage dans votre dos par le premier site venu.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Web ≠ Internet</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">29/03/2018</span> - <span class="post-reading-time">3 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-web" data-href="" href="">web</a> <a class="post-category post-category-internet" data-href="" href="">internet</a> </span></p>
+<article class="post-summary">Il y a des trucs qui m’agacent.
+Pour certaines c’est le point médian de l’écriture inclusive, pour d’autres c’est la digitalisation en lieu et place de numérisation ou bien la mise en exergue de blockchain pour apporter la disruption, mais pour moi c’est d’utiliser “Web” et “Internet” de façon interchangeable.
+
+Web ≠ Internet Vous voulez savoir pourquoi ça m’énerve ?
+Parceque ce sont deux choses différentes !
+Internet est un réseau de réseaux Internet ce sont différents réseaux parlant une même langue et que l’on a interconnecté.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="fast-posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">AV1 est de sortie</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">28/03/2018</span> - </em><span class="post-categories"><a class="post-category post-category-actu" data-href="" href="">actu</a> <a class="post-category post-category-codec" data-href="" href="">codec</a> </span></p>
+<article class="post-summary">Vous l’attendiez pas et pourtant il arrive quand même. AV1 est un nouveau codec vidéo. Un de plus sauf que lui est fait par AOMedia.
+AOMedia : Alliance for Open Media AOMedia est un organisme assez récent qui a pour but créer un codec sans royalties. Ça peut paraître con mais jusqu’à présent la grande majorité des codecs vidéos étaient sous la houlette de MPEG-LA, une entreprise faisant son beurre sur la revente de licence pour ses codecs.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Examen d'un spam #1</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">26/03/2018</span> - <span class="post-reading-time">3 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-mail" data-href="" href="">mail</a> <a class="post-category post-category-spam" data-href="" href="">spam</a> </span></p>
+<article class="post-summary">Il y a quelques astuces pour reconnaitre un bon vieux spam tentant de vous arnaquer de l’ivraie mail (ouai pas le meilleur jeu de mot mais je le garde tout de même).
+La première chose, dès qu’un mail n’est pas en texte pur mais est plutôt joli, il faut augmenter votre niveau de méfiance. Et ensuite regarder les sources du mail pour y mener l’enquête.
+Prenons un cas concret
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="fast-posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Panne de ce bon vieux Bender</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">24/03/2018</span> - </em><span class="post-categories"><a class="post-category post-category-actu" data-href="" href="">actu</a> <a class="post-category post-category-meta" data-href="" href="">meta</a> </span></p>
+<article class="post-summary">Vous l’avez peut-être remarqué mais le site a eu des ptits soucis : certaines pages étaient inaccessibles.
+Mon pauvre Bender (mon serveur/nas) était HS vendredi en rentrant du boulot.
+L’onduleur couinait du fond du placard. Étrangement je vais voir le disjoncteur qui effectivement a fait son boulot.
+Bon dans le doute je remonte le disjoncteur. Je rebranche le serveur à l’onduleur et pouf pareil…
+Well well well. Je le branche en direct sans passer par l’onduleur et relève le disjoncteur.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Peertube et l'impossible challenge de remplacer Youtube</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">23/03/2018</span> - <span class="post-reading-time">9 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-r%C3%A9seau" data-href="" href="">réseau</a> <a class="post-category post-category-p2p" data-href="" href="">p2p</a> <a class="post-category post-category-video" data-href="" href="">video</a> <a class="post-category post-category-autohebergement" data-href="" href="">autohebergement</a> </span></p>
+<article class="post-summary">Ça y est dans le cercle des libristes la nouvelle fait grand bruit ! Peertube débarque. Tout du moins en beta. Techniquement ça a l’air de fonctionner. J’ai pu regarder quelques vidéos hébergées ça et là sur diverses instances.
+Peertube est donc une plateforme web de streaming de vidéo s’appuyant sur le p2p pour diffuser ses vidéos et sur la fédération de multiples instances. Un savant mélange de PopCorn Time et Mastodon.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Sisyphus l'antispam mignonnet</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">20/03/2018</span> - <span class="post-reading-time">4 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-mail" data-href="" href="">mail</a> <a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-adminsys" data-href="" href="">adminsys</a> <a class="post-category post-category-r%C3%A9seau" data-href="" href="">réseau</a> <a class="post-category post-category-mail" data-href="" href="">mail</a> <a class="post-category post-category-postfix" data-href="" href="">postfix</a> </span></p>
+<article class="post-summary">Je vous ai déjà fait part à maintes reprises de ma stack mail. J’ai rajouté il y a quelques mois un antispam supplémentaire.
+ J’ai donc Postscreen en première ligne (presque avant Postfix) qui vire environ 80% de spam avant le traitement par le reste. Ensuite j’ai un Rspamd qui agit après Postfix avant Dovecot et qui vire encore une grosse partie de merde (il retire encore 19% de spam).
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Turbo Encabulator dans votre kernel Linux</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">15/03/2018</span> - <span class="post-reading-time">4 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-sysadmin" data-href="" href="">sysadmin</a> <a class="post-category post-category-linux" data-href="" href="">linux</a> </span></p>
+<article class="post-summary">Aujourd’hui on va installer un nouveau module kernel pour améliorer les perfs de votre cher nunux. On verra comment une toute nouvelle technologie va nous permettre de gagner jusqu’à 20% de performances (varie selon les types de workloads et les registres de votre CPU) avec un nouveau module kernel. Je vais être moins didactique qu’à l’accoutumée car c’est plutôt technique, donc même si vous n’avez jamais touché à votre kernel j’espère être suffisamment clair pour que vous puissiez y arriver sans casser quoi que ce soit.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">La demoscene vol.2</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">14/03/2018</span> - <span class="post-reading-time">4 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-demoscene" data-href="" href="">demoscene</a> <a class="post-category post-category-art" data-href="" href="">art</a> <a class="post-category post-category-demo" data-href="" href="">demo</a> <a class="post-category post-category-ascii" data-href="" href="">ascii</a> </span></p>
+<article class="post-summary">Lors de l’article précédent, on a découvert de loin ce qu’était la Démoscene. Continuons un peu cette exploration.
+Cette fois-ci je vous présenterai uniquement des démos de type ASCII Art et l’ANSI Art. Et on abordera les greetings.
+Les images sont cliquables et vous mèneront vers la vidéo youtube correspondante..
+ASCII / ANSI Art L’American Standard Code for Information Interchange est un ensemble de 128 caractères utilisés par les ordinateurs et définis dans les années 1960.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">9ème article d'avancement du Librem 5</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">13/03/2018</span> - <span class="post-reading-time">5 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-traduction" data-href="" href="">traduction</a> <a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-librem" data-href="" href="">librem</a> <a class="post-category post-category-purism" data-href="" href="">purism</a> </span></p>
+<article class="post-summary">Ceci est une traduction libre de cet article concernant les avancées de la société Purism concernant le smartphone Librem 5. L’article original est sous licence CC BY-SA 4.0 tout comme ma traduction.
+Ce smartphone a bénéficié d’un crowdfunding et a pour but d’apporter une alternative à Android en proposant un OS basé sur Linux et toutes les briques logiciels opensource qui vont avec. Ils collaborent avec le projet Gnome, le projet KDE et le projet Matrix.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="fast-posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">La rapidité de déploiement des technos web</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">12/03/2018</span> - <span class="post-reading-time">2 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-meta" data-href="" href="">meta</a> <a class="post-category post-category-web" data-href="" href="">web</a> <a class="post-category post-category-nginx" data-href="" href="">nginx</a> </span></p>
+<article class="post-summary">En scrutant un peu GoAccess, je me suis rendu compte que j’avais désormais plus de visiteurs en HTTP2 qu’en HTTP1.0 ou HTTP1.1.
+HTTP2 est officiellement né en Février 2015 et en seulement deux ans il est devenu le protocole majoritaire (tout du moins dans mon cas). J’ai environ trois visites en H2 pour 1 en H1.
+C’est impressionnant de voir une telle vitesse de déploiement côté client. IPv6 ne peut pas en dire autant.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">8ème article d'avancement du Librem 5</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">11/03/2018</span> - <span class="post-reading-time">6 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-traduction" data-href="" href="">traduction</a> <a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-librem" data-href="" href="">librem</a> <a class="post-category post-category-purism" data-href="" href="">purism</a> </span></p>
+<article class="post-summary">Ceci est une traduction libre de cet article concernant les avancées de la société Purism concernant le smartphone Librem 5. L’article original est sous licence CC BY-SA 4.0 tout comme ma traduction.
+Ce smartphone a bénéficié d’un crowdfunding et a pour but d’apporter une alternative à Android en proposant un OS basé sur Linux et toutes les briques logiciels opensource qui vont avec. Ils collaborent avec le projet Gnome, le projet KDE et le projet Matrix.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Créer un blog statique Hugo de A à Y</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">09/03/2018</span> - <span class="post-reading-time">13 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-www" data-href="" href="">www</a> <a class="post-category post-category-tuto" data-href="" href="">tuto</a> <a class="post-category post-category-hugo" data-href="" href="">hugo</a> </span></p>
+<article class="post-summary">Je vois que ces derniers temps Hugo commence à attirer de nouvelles personnes. Du coup, pourquoi pas vous proposer un article un peu plus en profondeur sur ce que j’ai compris d’Hugo. Je vous ai déjà fait un retour sur mon utilisation d’Hugo mais là ça va plus être sous le capot.
+Je vais vous montrer comment faire ses premiers pas pour se monter un blog simple comme le mien avec un thème fait maison.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Les GLSA de chez Gentoo</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">06/03/2018</span> - <span class="post-reading-time">2 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-linux" data-href="" href="">linux</a> <a class="post-category post-category-gentoo" data-href="" href="">gentoo</a> <a class="post-category post-category-s%C3%A9cu" data-href="" href="">sécu</a> </span></p>
+<article class="post-summary">J’ai réalisé que je parlais pas assez Gentoo sur ce blog. C’est pourtant de loin la meilleure de toutes les distributions Linux.
+Trèves de trolleries, Gentoo c’est bien (entre autre) parcequ’on peut tester vite fait son système pour voir si on a de potentielle faille dans le système.
+GLSA Gentoo n’est pas une distro avec une immense équipe de dev mais est tout de même pas mal lotie. Et du coup il y a de multiples équipes spécialisées dont une pour la sécurité.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">7ème article d'avancement du Librem 5</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">04/03/2018</span> - <span class="post-reading-time">8 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-traduction" data-href="" href="">traduction</a> <a class="post-category post-category-hardware" data-href="" href="">hardware</a> <a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-librem" data-href="" href="">librem</a> <a class="post-category post-category-purism" data-href="" href="">purism</a> </span></p>
+<article class="post-summary">Ceci est une traduction libre de cet article concernant les avancées de la société Purism concernant le smartphone Librem 5. L’article original est sous licence CC BY-SA 4.0 tout comme ma traduction.
+Ce smartphone a bénéficié d’un crowdfunding et a pour but d’apporter une alternative à Android en proposant un OS basé sur Linux et toutes les briques logiciels opensource qui vont avec. Ils collaborent avec le projet Gnome, le projet KDE et le projet Matrix.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Nouveautés dans l'émulation Playstation</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">03/03/2018</span> - <span class="post-reading-time">6 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-jeux" data-href="" href="">jeux</a> <a class="post-category post-category-%C3%A9mulation" data-href="" href="">émulation</a> <a class="post-category post-category-playstation" data-href="" href="">playstation</a> <a class="post-category post-category-retroarch" data-href="" href="">retroarch</a> </span></p>
+<article class="post-summary">La Playstation première du nom est l’une des quatre consoles de jeux vidéos que j’ai pratiqué à l’époque.
+Pas mal de jeux m’ont marqués et c’est donc avec nostalgie que parfois je dégaine un émulateur pour y rejouer.
+Pour les malheureux pas au courant, un émulateur est un logiciel mimant le fonctionnement d’une machine. Un logiciel qui remplace donc une machine.
+Un émulateur peut même se permettre le luxe d’améliorer l’expérience originale en ajoutant de nouvelles fonctionnalités.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Retour sur le reverse proxy du blog</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">01/03/2018</span> - <span class="post-reading-time">3 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-nginx" data-href="" href="">nginx</a> <a class="post-category post-category-www" data-href="" href="">www</a> <a class="post-category post-category-adminsys" data-href="" href="">adminsys</a> <a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-meta" data-href="" href="">meta</a> </span></p>
+<article class="post-summary">En septembre dernier, je vous avais parlé de la mise en place d’un micro-cache nginx en reverse proxy et du coup je voulais vous faire un petit retour.
+Depuis cet article je n’ai pas changé la config en dehors de la durée du cache que j’ai augmenté récemment à dix minutes.
+Bon déjà niveau entretien, rien à faire. Tout fonctionne comme voulu sans aucune intervention. Le seul truc qu’il m’arrive de faire de temps à autre c’est de vider manuellement le cache quand je fait des modifs et que j’ai pas envie d’attendre l’expiration du cache pour voir les résultats.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">La demoscene vol.1</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">25/02/2018</span> - <span class="post-reading-time">5 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-demoscene" data-href="" href="">demoscene</a> <a class="post-category post-category-art" data-href="" href="">art</a> <a class="post-category post-category-demo" data-href="" href="">demo</a> </span></p>
+<article class="post-summary">Connaissez-vous la demoscene ?
+On va partir du principe que non.
+La demoscene est un art consistant à créer des animations et de la musique par le biais d’un ordinateur avec une forte contrainte : le temps réel.
+Contrairement à la création d’une vidéo, une démo est calculée en live par la machine qui l’exécute. Le résultat final est proche d’une vidéo sauf que la machine ne lit pas un fichier vidéo mais exécute un programme qui génère les images et le sons à l’image d’un jeu vidéo.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="fast-posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">La Terrible Dependance Envers les Registrars</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">21/02/2018</span> - </em><span class="post-categories"><a class="post-category post-category-actu" data-href="" href="">actu</a> <a class="post-category post-category-purism" data-href="" href="">purism</a> <a class="post-category post-category-dns" data-href="" href="">dns</a> <a class="post-category post-category-spof" data-href="" href="">spof</a> <a class="post-category post-category-purism" data-href="" href="">purism</a> </span></p>
+<article class="post-summary">Purism vient de subir une importante panne de leur infrastructure réseau. Leurs sites web étaient injoignables.
+La cause ? Visiblement leur nom de domaine était injoignable. Après investigation leur infra DNS était pourtant nickel.
+Chez le registrar Le soucis provenait de leur registrar. Pour info le registrar c’est l’entité qui vous loue votre nom de domaine (non non ça ne s’achète pas). En téléphonant à leur prestataire ils n’ont rien appris de plus : leur domaine utilisant le TLD (la partie la plus à droite du domaine) .
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Le calendrier fixe ou CAL13</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">20/02/2018</span> - <span class="post-reading-time">2 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-offline" data-href="" href="">offline</a> <a class="post-category post-category-calendrier" data-href="" href="">calendrier</a> <a class="post-category post-category-inertie" data-href="" href="">inertie</a> </span></p>
+<article class="post-summary">Le Calendrier Fixe ou Calendrier positiviste voir CAL13 est un système système calendaire différent de notre système actuel.
+Il repose sur des semaines de 7 jours.
+Et sur des mois de 4 semaines.
+Donc tous les mois font 28 jours.
+L’année est composée de 13 mois.
+On rajoute un jour épagonème (wow ce que ce mot est classe ! si seulement je pouvais m’en rappeler pour épater la galerie) du nouvel an qui n’est pas compté dans tout ça et on obtient bien nos 365 jours par an.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">5ème article d'avancement du Librem 5</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">14/02/2018</span> - <span class="post-reading-time">8 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-traduction" data-href="" href="">traduction</a> <a class="post-category post-category-hardware" data-href="" href="">hardware</a> <a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-librem" data-href="" href="">librem</a> <a class="post-category post-category-purism" data-href="" href="">purism</a> </span></p>
+<article class="post-summary">Ceci est une traduction libre de cet article concernant les avancées de la société Purism concernant le smartphone Librem 5. L’article original est sous licence CC BY-SA 4.0 tout comme ma traduction.
+Ce smartphone a bénéficié d’un crowdfunding et a pour but d’apporter une alternative à Android en proposant un OS basé sur Linux et toutes les briques logiciels opensource qui vont avec. Ils collaborent avec le projet Gnome, le projet KDE et le projet Matrix.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Virer les cookies d'un site précis dans Qutebrowser</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">13/02/2018</span> - <span class="post-reading-time">2 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-web" data-href="" href="">web</a> <a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-tips" data-href="" href="">tips</a> <a class="post-category post-category-qutebrowser" data-href="" href="">qutebrowser</a> <a class="post-category post-category-cookies" data-href="" href="">cookies</a> </span></p>
+<article class="post-summary">Je vous ai déjà chanté les louanges de mon cher Qutebrowser mais ce coup-ci on va passer sous le capot.
+Alors que je démarre la bête et qu’il restaure la session habituelle (mail, musique, rss et affaires courantes) : SURPRISE ! Mon instance Tiny Tiny RSS m’affiche un message bien moche. En gros soit un header est foireux (j’en doute) soit le cookie envoyé par le navigateur est trop gros et du coup fout la merde.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="fast-posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Méta-actu du blog</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">11/02/2018</span> - </em><span class="post-categories"><a class="post-category post-category-meta" data-href="" href="">meta</a> <a class="post-category post-category-hugo" data-href="" href="">hugo</a> <a class="post-category post-category-blog" data-href="" href="">blog</a> <a class="post-category post-category-git" data-href="" href="">git</a> </span></p>
+<article class="post-summary">Bon bha voilà après deux mois je fait un petit retour sur les avancées du blog.
+Rythme Je pense avoir réussi à prendre un bon rythme. Ce n’est plus du tout un effort. Ça me vient vraiment naturellement. Je prend vraiment du plaisir à rédiger pour le site.
+Distinguer les posts classiques et les fast-posts a été une bonne décision qui m’offre plus de spontanéité.
+Layout J’ai un poil édité le layout du site.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Amp : un ptit éditeur de texte à la vi</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">07/02/2018</span> - <span class="post-reading-time">6 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-cli" data-href="" href="">cli</a> <a class="post-category post-category-linux" data-href="" href="">linux</a> <a class="post-category post-category-software" data-href="" href="">software</a> </span></p>
+<article class="post-summary">J’utilise vi et ses dérivés depuis si longtemps que j’ai désormais une petite partie de ses commandes inscrits dans la mémoire musculaire. C’est toujours amusant de voir des étudiants qui galèrent et hallucinent devant ma relative agilité alors que je n’ai pourtant qu’un niveau relativement faible en vimerie. Bref ces derniers temps j’ai entendu parlé d’un nouvel éditeur de texte. Amp.
+La fiche technique me parle pas mal : léger, taillé pour la console, inspiré par vi, une configuration par défaut moderne et bonus de la hype : c’est en rust.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="fast-posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Réponse à Franck Ridel concernant DuckDuckGo</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">04/02/2018</span> - </em><span class="post-categories"><a class="post-category post-category-actu" data-href="" href="">actu</a> <a class="post-category post-category-r%C3%A9ponse" data-href="" href="">réponse</a> </span></p>
+<article class="post-summary">Je viens de lire cet article de Franck Ridel. J’allais initialement commenter sur le JDH mais ma réponse commençait à être un poil long donc je le fais ici.
+Quels sont les reproches envers Google ? Google a un business plutôt efficace d’ammassage et de revente de données privées. C’est un fait établi que je ne nierai pas. Il est également reproché à Google de collaborer avec la NSA (mais pas forcément de bon cœur).
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">3ème article d'avancement du Librem 5</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">02/02/2018</span> - <span class="post-reading-time">7 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-traduction" data-href="" href="">traduction</a> <a class="post-category post-category-hardware" data-href="" href="">hardware</a> <a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-librem" data-href="" href="">librem</a> <a class="post-category post-category-purism" data-href="" href="">purism</a> </span></p>
+<article class="post-summary">Ceci est une traduction libre de cet article concernant les avancées de la société Purism concernant le smartphone Librem 5. L’article original est sous licence CC BY-SA 4.0 tout comme ma traduction.
+Ce smartphone a bénéficié d’un crowdfunding et a pour but d’apporter une alternative à Android en proposant un OS basé sur Linux et toutes les briques logiciels opensource qui vont avec. Ils collaborent avec le projet Gnome, le projet KDE et le projet Matrix.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Multi layout claviers simultanés pour Xorg</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">31/01/2018</span> - <span class="post-reading-time">2 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-linux" data-href="" href="">linux</a> <a class="post-category post-category-xorg" data-href="" href="">xorg</a> <a class="post-category post-category-clavier" data-href="" href="">clavier</a> <a class="post-category post-category-keyboard" data-href="" href="">keyboard</a> <a class="post-category post-category-b%C3%A9po" data-href="" href="">bépo</a> </span></p>
+<article class="post-summary">J’aime beaucoup les claviers. Et il m’arrive régulièrement d’en brancher plusieurs sur l’ordinateur… en même temps. Ça n’a que peu d’intérêt mais j’aime bien. Ma petite collection grandit petit à petit. Mon clavier principal est en bépo légèrement trafiqué tandis que la plupart de mes autres bestiaux sont en azerty plus traditionnel voir quelques-uns en qwerty. Du coup j’ai configuré Xorg pour avoir une configuration un peu hors du commun :
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Filmmenu, un ptit script pour lancer un film</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">27/01/2018</span> - <span class="post-reading-time">2 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-shell" data-href="" href="">shell</a> <a class="post-category post-category-script" data-href="" href="">script</a> <a class="post-category post-category-ux" data-href="" href="">ux</a> <a class="post-category post-category-dmenu" data-href="" href="">dmenu</a> </span></p>
+<article class="post-summary">Un ptit article rapide aujourd’hui pour vous présenter filmmenu. J’ai un NAS à la maison avec pas mal de disques durs et du coup pas mal de partitions. J’ai pas fait de RAID dessus (pas besoin) ce qui fait que mes données sont éparpillées entre les différentes partitions.
+Toutes les données sont bien rangées dans un disque différent sauf les films qui sont répartis sur plusieurs partitions. Du coup quand je cherche un fichier particulier je sais jamais trop où le chercher.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="fast-posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Mozilla annonce commencer à restreindre les nouvelles fonctionnalités aux pages chargées via HTTPS</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">17/01/2018</span> - </em><span class="post-categories"><a class="post-category post-category-actu" data-href="" href="">actu</a> <a class="post-category post-category-firefox" data-href="" href="">firefox</a> <a class="post-category post-category-s%C3%A9cu" data-href="" href="">sécu</a> </span></p>
+<article class="post-summary">Dans sa quête pour un web plus sûr, Mozilla vient d’annoncer qu’une bonne partie des nouvelles fonctionnalités de Firefox ne seront utilisables qu’uniquement sur des pages web accédées via HTTPS.
+Autant je suis favorable à l’utilisation de HTTPS au maximum, autant ce n’est pas forcément possible de l’utiliser absolument partout.
+Il existe de nombreux cas où HTTPS n’est pas utilisable. Trois exemples qui me viennent mais on doit pouvoir en trouver d’autres :
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="fast-posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Le respect des licences logicielles est moins fort que le buzz nostalgique du rétro gaming</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">14/01/2018</span> - </em><span class="post-categories"><a class="post-category post-category-actu" data-href="" href="">actu</a> <a class="post-category post-category-news" data-href="" href="">news</a> <a class="post-category post-category-opensource" data-href="" href="">opensource</a> </span></p>
+<article class="post-summary">Pouwah ! Quel titre !
+Cette semaine le CES a trusté mes RSS. Tel constructeur qui fait une démo d’un prototype bancal, Netflix qui s’invite avec une fausse startup pour faire de la pub, la FrenchTech qui cherche désespérémment à parader… le CES habituel. Et dans l’amas de news, il y en a une qui m’a titillé. Une compilation des news au sujet de l’ultra Gameboy.
+Sympa non ? Tout ces sites professionnels tenus par des journalistes.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="fast-posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">La mort de Vimperator : comment meurt un logiciel opensource</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">10/01/2018</span> - </em><span class="post-categories"><a class="post-category post-category-actu" data-href="" href="">actu</a> <a class="post-category post-category-opensource" data-href="" href="">opensource</a> <a class="post-category post-category-firefox" data-href="" href="">firefox</a> <a class="post-category post-category-ux" data-href="" href="">ux</a> </span></p>
+<article class="post-summary">Et voilà que Vimperator vie ses derniers instants. Le changement d’API de firefox lui aura été fatal. Je sais pas pourquoi mais il y a un (tout) petit pincement au cœur quand je vois cette fermeture de l’issue github qui aurait pu le sauver.
+C’est absolument pas une surprise. Ça fait plus d’un an qu’on est au courant que ça va mourir mais voilà c’est fait. Du coup la seule cérémonie consiste en la fermeture d’une issue.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Utiliser ZSH à la façon de VI en réduisant les inconvénients</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">09/01/2018</span> - <span class="post-reading-time">4 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-shell" data-href="" href="">shell</a> <a class="post-category post-category-vi" data-href="" href="">vi</a> <a class="post-category post-category-ux" data-href="" href="">ux</a> </span></p>
+<article class="post-summary">Vi et Emacs ont inspiré et inspirent encore pas mal les devs car ils ont posés deux bases d’expériences utilisateurs qui ont depuis le temps prouvé leur efficacité. Ils s’appuient tous les deux principalement sur l’utilisation du clavier mais abordent le problème différemment.
+ Emacs s’appuient sur des raccourcis claviers nécessitant tous pleins de doigts pour appuyer simultanément sur diverses touches : Ctrl-Alt-Shift-Altgr-x … Vi lui utilise des modes : un mode pour entrer des commandes, un mode pour écrire, un mode pour faire le café …  Ce sont donc deux approches différentes mais pourtant efficaces.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="fast-posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Une faille de sécurité béante touchant tous les cpu Intel</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">02/01/2018</span> - </em><span class="post-categories"><a class="post-category post-category-actu" data-href="" href="">actu</a> <a class="post-category post-category-drama" data-href="" href="">drama</a> <a class="post-category post-category-hardware" data-href="" href="">hardware</a> </span></p>
+<article class="post-summary">Les monocultures ont de nombreuses fois prouvées qu’elles étaient un risque et pas uniquement dans l’informatique. En agriculture c’est pareil… faire pousser uniquement une seule espèce de plante est risqué. Le jour où une maladie ou bien un insecte/animal un peu gourmand s’abat sur vous, vous perdez absolument tout. Bha là c’est pour les processeurs qui prennent cher.
+Monopole d’Intel Depuis plusieurs décennies Intel a une position de leader qui par moment ressemble à un monopole.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Doom et ses Mods</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">22/12/2017</span> - <span class="post-reading-time">9 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-opensource" data-href="" href="">opensource</a> <a class="post-category post-category-jeux" data-href="" href="">jeux</a> <a class="post-category post-category-fps" data-href="" href="">fps</a> <a class="post-category post-category-doom" data-href="" href="">doom</a> <a class="post-category post-category-mods" data-href="" href="">mods</a> </span></p>
+<article class="post-summary">Voilà Noël approche et du coup probablement quelques jours de congé/wacances. Quel est le meilleur passe-temps en ces périodes de mièvreries et chansons ringardes ?
+Jouer à Doom en 2017 Doom a toujours été un jeu à part pour moi. Il y assurément une part de nostalgie car c’est l’un des plus anciens dont je me souvienne. J’y ai joué très jeune. Et je n’ai jamais cessé d’y revenir de temps à autre.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="fast-posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Le drama Firefox de la fin 2017 : SpyGlass</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">17/12/2017</span> - </em><span class="post-categories"><a class="post-category post-category-actu" data-href="" href="">actu</a> <a class="post-category post-category-firefox" data-href="" href="">firefox</a> <a class="post-category post-category-drama" data-href="" href="">drama</a> </span></p>
+<article class="post-summary">Mozilla aura eu une sacré année. Depuis l’arrivée de Chrome et son marketing sauvage (rappelez vous les spots vidéos, les pubs physique dans tous les coins un peu civilisés, sans parler des pubs sur toute la panoplie de site ouaib de Google…) les parts de marché de Firefox se sont peu à peu étiolées. Mais Mozilla commence visiblement à se réveiller et ses efforts portent leurs fruits.
+Désormais Mozilla sort des versions “oxydées” de Firefox (ça veux dire avec de plus en plus de morceaux écrits en rust (rouille… oxydé… bref, ce terme n’est pas de moi et il est semi-officiel)) et bouscule l’architecture de son navigateur pour le meilleur mais forcément avec un peu de casse.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="fast-posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Drivers graphiques AMD 2017</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">14/12/2017</span> - </em><span class="post-categories"><a class="post-category post-category-opensource" data-href="" href="">opensource</a> <a class="post-category post-category-linux" data-href="" href="">linux</a> </span></p>
+<article class="post-summary">En 2007, AMD a adopté une nouvelle stratégie concernant les drivers de cartes graphiques de sa récente acquisition, ATI. Ils ont en effet décidé d’aider le développement de drivers opensource en fournissant énormément de documentation qui s’est révélée précieuse.
+Quelques années plus tard ils ont poussé encore plus loin en donnant même du temps à quelques-uns de leurs devs pour participer aux drivers opensource.
+Encore quelques années plus tard ils ont même adopté une nouvelle architecture où le driver proprio et le driver opensource partagent une part commune dans le kernel permettant de mutualiser les efforts.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="fast-posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Les fast-posts</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">13/12/2017</span> - </em><span class="post-categories"><a class="post-category post-category-meta" data-href="" href="">meta </a> <a class="post-category post-category-blog" data-href="" href="">blog</a> </span></p>
+<article class="post-summary">Et voilà j’inaugure une nouvelle section sur mon site ouaib. Les fast posts. Ces derniers temps j’écris de plus en plus de contenu sur mon site et j’essaye de faire du contenu de meilleure qualité. Les articles deviennent un peu plus longs et nécessitent un peu plus de taff du coup.
+Vous avez aussi probablement remarqué que j’ai pas mal augmenté le rythme de parution. En fait au début c’était un peu un effort et maintenant ça va bien plus facilement.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">NIB : Mon assistant personnel IRC</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">08/12/2017</span> - <span class="post-reading-time">17 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-shell" data-href="" href="">shell</a> <a class="post-category post-category-linux" data-href="" href="">linux</a> <a class="post-category post-category-irc" data-href="" href="">irc</a> </span></p>
+<article class="post-summary">Je vous présente NIB mon assistant personnel. Il me simplifie la vie depuis quelques années maintenant. J’y gère des todo, j’y fais un peu de supervision, un peu de self monitoring manuel également et il possède même quelques commandes réseaux.
+J’ai une forte addiction à l’irc. J’y suis connecté 24h/24 depuis près de vingt ans ans maintenant. Je consulte jamais mes mails mais irc plusieurs fois par heure. Dès que je démarre mon ordi, je me reconnecte sur ma session ssh où tourne mon fidèle tmux/weechat.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Ma Wishlist logicielle : Vol1</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">22/11/2017</span> - <span class="post-reading-time">2 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-cli" data-href="" href="">cli</a> </span></p>
+<article class="post-summary"><p>Ma liste au père nowel 2017 niveau logiciel. Je sens que ça va pas être exaucé mais qui ne tente rien…
+</p>
+</article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Qutebrowser</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">08/11/2017</span> - <span class="post-reading-time">6 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-web" data-href="" href="">web</a> <a class="post-category post-category-www" data-href="" href="">www</a> <a class="post-category post-category-qutebrowser" data-href="" href="">qutebrowser</a> <a class="post-category post-category-software" data-href="" href="">software</a> </span></p>
+<article class="post-summary">Voilà quelques mois maintenant, j’ai migré sur Qutebrowser. C’est un ptit navigateur peu connu qui ne se démarque pas par son moteur de rendu (encore qu’en fait si !). Il a la particularité de pouvoir tourner avec plusieurs moteurs de rendu différents. Il se distingue surtout par son interface utilisateur qui se veux absolument pas intuitive mais c’est clairement sa force.
+MoteurS de rendu Il propose en effet plusieurs moteurs.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Guide ultime du serveur DNS v1</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">27/10/2017</span> - <span class="post-reading-time">17 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-dns" data-href="" href="">dns</a> <a class="post-category post-category-r%C3%A9seau" data-href="" href="">réseau</a> <a class="post-category post-category-adminsys" data-href="" href="">adminsys</a> <a class="post-category post-category-knot" data-href="" href="">knot</a> <a class="post-category post-category-dane" data-href="" href="">dane</a> <a class="post-category post-category-dnssec" data-href="" href="">dnssec</a> </span></p>
+<article class="post-summary"><p>Bon bon ces derniers temps je trifouille pas mal mon DNS. Pour les deux du fond qui viennent de se réveiller le DNS c’est l’annuaire de référence de l’Internet. Mais en fait c’est très réducteur de dire ça. En vrai le DNS c’est un système de base de données qui peut faire tout un tas de truc et pas uniquement convertir des noms en adresse IP. Allez, c’est parti pour le DNS Méga Guide 2017 !
+</p>
+</article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Gérer ses dotfiles simplement avec git</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">16/10/2017</span> - <span class="post-reading-time">6 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-tips" data-href="" href="">tips</a> <a class="post-category post-category-adminsys" data-href="" href="">adminsys</a> <a class="post-category post-category-git" data-href="" href="">git</a> <a class="post-category post-category-linux" data-href="" href="">linux</a> </span></p>
+<article class="post-summary">Ça fait plusieurs fois que je vous tease sur ce sujet donc voilà je me lance. Je vais vous expliquer ma façon de gérer mes dotfiles. C’est un sujet assez récurrent chez les linuxiens et visiblement tout le monde à sa ptite façon de faire.
+Certains font une soupe à base de lien symbolique dans tous les sens histoire de tout centraliser dans un seul dossier plus facilement copiable. D’autres utilisent des scripts ou softs exprès pour gérer ça comme par exemple GNU Stow.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Enregistrement DNS de type CAA pour protéger votre TLS</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">06/10/2017</span> - <span class="post-reading-time">3 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-adminsys" data-href="" href="">adminsys</a> <a class="post-category post-category-s%C3%A9cu" data-href="" href="">sécu</a> <a class="post-category post-category-knot" data-href="" href="">knot</a> <a class="post-category post-category-dns" data-href="" href="">dns</a> <a class="post-category post-category-tls" data-href="" href="">tls</a> </span></p>
+<article class="post-summary">La mouvance actuelle de chiffrer de plus en plus de contenu est vraiment une bonne chose. Un peu plus de sécurité pour tout le monde c’est parfait. Surtout si c’est bien fait sinon c’est complètement contre-productif. Letsencrypt a énormément contribué à la démocratisation des certifs x509 pour le TLS grâce à son protocole bien efficace et aussi ses tarifs imbattables.
+Certificate Transparency Comme de nombreuses CA (Autorité de Certifacition : les organismes “de confiance” qui signent les certificats x509 qu’on leur soumet) désormais, Letsencrypt participe au Certificate Transparency.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Microcache nginx pour améliorer les perfs et diminuer le downtime</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">24/09/2017</span> - <span class="post-reading-time">3 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-www" data-href="" href="">www</a> <a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-adminsys" data-href="" href="">adminsys</a> <a class="post-category post-category-tips" data-href="" href="">tips</a> <a class="post-category post-category-nginx" data-href="" href="">nginx</a> </span></p>
+<article class="post-summary">Depuis que mon serveur ne me sert plus de routeur il m’arrive de le couper de temps à autres. Et pourtant mon site reste accessible. J’ai en fait, sur mon routeur, installé un container avec un nginx qui tourne et qui proxy. Les connexions se font donc via le nginx du routeur qui sert de cache quand le vrai serveur ne répond pas. Mais histoire de ne pas avoir de contenu pas à jour mais toujours d’une fraîcheur exemplaire je me contente d’un cache de maximum 1seconde.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Substring History Search dans ZSH</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">21/09/2017</span> - <span class="post-reading-time">2 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-cli" data-href="" href="">cli</a> <a class="post-category post-category-ux" data-href="" href="">ux</a> <a class="post-category post-category-tips" data-href="" href="">tips</a> <a class="post-category post-category-software" data-href="" href="">software</a> </span></p>
+<article class="post-summary">Les shells de nos chers unices sont de merveilleux outils qui permettent d’interagir avec nos OS. C’est mon interface principale. Je l’utilise constamment et pour tout. J’utilise très peu de logiciels graphiques. Un navigateur, un terminal et un lecteur vidéo. Voilà tout.
+Par contre je dois avouer que j’ai pas une super mémoire et du coup j’ai parfois du mal à me rappeler de certaines commandes. C’est d’ailleurs pour ça que j’utilise Foldcat comme vu il y a quelques temps.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Unmount son root sans reboot</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">16/09/2017</span> - <span class="post-reading-time">3 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-tips" data-href="" href="">tips</a> <a class="post-category post-category-linux" data-href="" href="">linux</a> <a class="post-category post-category-cli" data-href="" href="">cli</a> <a class="post-category post-category-adminsys" data-href="" href="">adminsys</a> <a class="post-category post-category-fs" data-href="" href="">fs</a> <a class="post-category post-category-btrfs" data-href="" href="">btrfs</a> </span></p>
+<article class="post-summary">Vous avez jamais voulu démonter la partition racine de votre ptit nunux ? Non ? Pourquoi faire ?! Bhaa je sais pas moi, par exemple faire des opérations sur votre partition racine (redimensionner/changer le filesystem/réparer le fs). Sauf que bon en temps normal vous ne pouvez pas démonter la partition racine puisque votre OS est sur cette partition.
+Par chance, nous vivons dans une époque merveilleuse où l’on possède tous pas mal de Giga de ram ce qui rend l’opération possible et même assez simple.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Refonte complète du site</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">08/09/2017</span> - <span class="post-reading-time">5 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-www" data-href="" href="">www</a> <a class="post-category post-category-meta" data-href="" href="">meta</a> <a class="post-category post-category-adminsys" data-href="" href="">adminsys</a> <a class="post-category post-category-cli" data-href="" href="">cli</a> <a class="post-category post-category-git" data-href="" href="">git</a> <a class="post-category post-category-hugo" data-href="" href="">hugo</a> <a class="post-category post-category-blog" data-href="" href="">blog</a> </span></p>
+<article class="post-summary">Ça faisait un bail que j’avais pas trop touché au site (blog ?). Ça fait depuis quelques années qu’il ne s’agissait que d’un simple fichier index.html que j’éditais à la mano dans vim. Une seule et unique page avec tout le contenu. C’était plutôt élégant techniquement et pratique. Mais ça a aussi quelques limites. La première c’est que j’avais pas de flux rss. C’est un peu la honte. Étant moi même présentement présent un très grand utilisateur des reusseusseu ça me tiraillait.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Foldcat : se rappeler de quelque chose quand on rentre dans un dossier</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">27/08/2017</span> - <span class="post-reading-time">2 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-tips" data-href="" href="">tips</a> <a class="post-category post-category-ux" data-href="" href="">ux</a> <a class="post-category post-category-cli" data-href="" href="">cli</a> <a class="post-category post-category-adminys" data-href="" href="">adminys</a> <a class="post-category post-category-linux" data-href="" href="">linux</a> </span></p>
+<article class="post-summary">Vous avez une mémoire de poisson rouge comme moi ? Ça vous arrive d’installer des trucs un peu exotiques et de pas vous souvenir comment ça fonctionne. Du coup vous allez dans le dossier en question et là vous fouillez à coup de ls / tree / –help. Pas mal mais et si on avait un ptit truc qui venait nous aider.
+Foldcat : le chat du dossier Votre chat vous passe dans les panards quand vous entrez dans une pièce ?
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Guide d'utilisation d'IRC : niveau 5</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">25/08/2017</span> - <span class="post-reading-time">2 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-irc" data-href="" href="">irc</a> <a class="post-category post-category-tips" data-href="" href="">tips</a> <a class="post-category post-category-r%C3%A9seau" data-href="" href="">réseau</a> </span></p>
+<article class="post-summary">Guide pour ircop : Protéger son réseau Cette partie est plus un mémo personnel qu’un guide général. C’est très spécifique à l’ircoperie de Geeknode…
+Premier rappel : globalement on évite les operoverride (utiliser des commandes d’op, lorsqu’on est pas op sur un chan. La modération des chans n’est à priori pas du ressort des ircop.
+Gérer les relous La plupart des relous peuvent être calmés par un /gline lerelou 1h cependant si le relou en question revient constamment un moyen très efficace est le /tempshun lerelou il pourra toujours écrire/interagir sauf que personne ne recevra ses daubes.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Guide d'utilisation d'IRC : niveau 4</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">24/08/2017</span> - <span class="post-reading-time">6 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-irc" data-href="" href="">irc</a> <a class="post-category post-category-tips" data-href="" href="">tips</a> <a class="post-category post-category-r%C3%A9seau" data-href="" href="">réseau</a> </span></p>
+<article class="post-summary">Guide pour op : Protéger son salon Tout fier de votre casquette d’op, vous vous demandez comment protéger votre fief des abrutis spammeurs/emmerdeurs ? Haha voilà un ptit guide pour défendre votre chez vous.
+Enregistrez votre salon C’est la toute première chose à faire auprès de C avec /msg C chan register #votresalon, ici pas de mot de passe, par contre il faut que vous soyez identifié pour que ça fonctionne (comme toute la suite).
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Guide d'utilisation d'IRC : niveau 3</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">24/08/2017</span> - <span class="post-reading-time">3 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-irc" data-href="" href="">irc</a> <a class="post-category post-category-tips" data-href="" href="">tips</a> <a class="post-category post-category-r%C3%A9seau" data-href="" href="">réseau</a> </span></p>
+<article class="post-summary">Guide perso : Se protéger des relous Alors la toute première des choses à faire pour se protéger c’est d’enregistrer son pseudo auprès des services. Ça évitera que quelqu’un le prenne et se fasse passer pour vous. Pour cela il faut voir avec les services : /msg C nick register unmotdepasse uneadressemail. Désormais à chaque fois que vous vous connecterez au serveur, il faudra vous identifier auprès de C via /msg C nick identify unmotdepasse
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Guide d'utilisation d'IRC : niveau 2</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">24/08/2017</span> - <span class="post-reading-time">4 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-irc" data-href="" href="">irc</a> <a class="post-category post-category-tips" data-href="" href="">tips</a> <a class="post-category post-category-r%C3%A9seau" data-href="" href="">réseau</a> </span></p>
+<article class="post-summary">Bon bha après la première partie (non je l’ai pas encore écrite et je ne m’y attelerai probablement pas… on trouve déjà tout ce qu’il faut sur le sujet sur le wouaib), on va s’attaquer au niveau du dessus. On va s’attaquer aux modes. On va voir comment se protéger et protéger son chan voir son réseau. Cette série d’articles est rédigée suite à l’attaque des relous traditionnels de l’été qui sévit pas mal sur Geeknode où j’officie.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Empêcher rsync de pourrir une partoche si c'est pas mount</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">16/08/2017</span> - <span class="post-reading-time">2 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-linux" data-href="" href="">linux</a> <a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-tips" data-href="" href="">tips</a> <a class="post-category post-category-cli" data-href="" href="">cli</a> <a class="post-category post-category-fs" data-href="" href="">fs</a> </span></p>
+<article class="post-summary">Rhaaa Linux et son arboressence unique. Qu’est-ce que c’est bien !
+Rhaaa Linux et ses montages ultra flexibles. Qu’est-ce que c’est bien !
+Ouai j’adore. Réellement. C’est pas sarcastique ou ironique ni des fautes de frappes. C’est franchement bien de pouvoir morceller son arboressence et répartir ça sur pas mal de systèmes de stockage différent. Par contre il y a un ptit truc un poil relou.
+Quand tu as un script qui s’execute régulièrement et que ce script sert à faire un gros backup de pas mal de machines différentes mais qu’il fait tout ça sur un disque dur qui n’est pas monté… bha tu dois te faire chier à aller faire le nettoyage.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Contrôler son écran via l'ordi</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">04/08/2017</span> - <span class="post-reading-time">3 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-hardware" data-href="" href="">hardware</a> <a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-linux" data-href="" href="">linux</a> <a class="post-category post-category-tips" data-href="" href="">tips</a> <a class="post-category post-category-cli" data-href="" href="">cli</a> </span></p>
+<article class="post-summary">Rhaaa ce que c’est chiant de devoir tripoter les boutons de son écran pour y modifier les règlages. Vous voulez voir ce qu’il se passe sur une autre entrée vidéo sans pour autant décoller votre dos de votre cher siège ? Et bha en fait c’est pas si compliqué. Toutes les sorties vidéos depuis le VGA dispose de plusieures broches dont cernaines servent non pas à envoyer le signal vidéo mais plutôt des données.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Changer la couleur de fond de son terminal à la volée</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">23/07/2017</span> - <span class="post-reading-time">2 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-cli" data-href="" href="">cli</a> <a class="post-category post-category-tips" data-href="" href="">tips</a> <a class="post-category post-category-linux" data-href="" href="">linux</a> <a class="post-category post-category-shell" data-href="" href="">shell</a> </span></p>
+<article class="post-summary">Ça vous arrive combien de fois de plus savoir si vous êtes sur une session ssh distante ou si vous êtes sur un terminal local ? Pour moi ça m’arrive constamment. Enfin ça m’arrivait. J’ai trouvé une petite astuce qui change tout : Changer le background d’un terminal à la volée !
+Et ouai il existe un séquence d’échappement qui permet de faire ce petit miracle à condition que votre terminal le gère (par exemple xterm et très bientôt alacritty).
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Tour d'horizons des émulateurs de terminal</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">21/02/2017</span> - <span class="post-reading-time">6 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-libre" data-href="" href="">libre</a> <a class="post-category post-category-linux" data-href="" href="">linux</a> <a class="post-category post-category-cli" data-href="" href="">cli</a> </span></p>
+<article class="post-summary">Coucou 2017 o/ . Et si l’on explorait les terminaux pour nunux. Enfin explorer… on va se contenter d’en présenter quelques-un un peu moins connu que la normale.
+Mes exigeances envers les terms Ne pas planter. Hoooo non ! Le term ne peut pas planter. Ensuite faut qu’il se fasse oublier. Le term ne doit pas se voir, ce n’est qu’une fenêtre vers le reste du système. Il doit être léger.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Redondons les archives du net</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">08/12/2016</span> - <span class="post-reading-time">4 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-libre" data-href="" href="">libre</a> <a class="post-category post-category-adminsys" data-href="" href="">adminsys</a> <a class="post-category post-category-communs" data-href="" href="">communs</a> <a class="post-category post-category-git" data-href="" href="">git</a> </span></p>
+<article class="post-summary">J’imagine que vous connaissez de près ou de très loin le site archive.org. Il s’agit d’un site tenu par une poignée de volontaires très passionnés s’étant donné pour mission d’archiver. À la base ils archivaient le web, puis le net puis en fait tout ce qui est composé de 0 et de 1. Sacré boulot. Mais ces gens sont vraiment très passionnés. Ils arrivent à mettre la main sur des données plus ou moins perdues/ignorées/oubliées et les rendent accessibles à tous.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Dégageons opendkim et spamassassin pour Rspamd et Rmilter</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">18/10/2016</span> - <span class="post-reading-time">5 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-adminsys" data-href="" href="">adminsys</a> <a class="post-category post-category-r%C3%A9seau" data-href="" href="">réseau</a> <a class="post-category post-category-tips" data-href="" href="">tips</a> <a class="post-category post-category-mail" data-href="" href="">mail</a> <a class="post-category post-category-postfix" data-href="" href="">postfix</a> </span></p>
+<article class="post-summary">Après ce suspens insoutenable voilà la suite tant attendu. Petit résumé pour les adeptes du tldr de l’article précédent : bon j’ai foutu du postscreen sur les deux mx tout va bien sauf qu’en fait je me suis rendu compte que mes mails ne sont plus signés par opendkim et spamassassin ne me satisfait plus trop trop.
+Plus d’Opendkim donc on va rmilter Ne sachant trop pourquoi Openkdim ne faisait plus son taff.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Soulager son serveur mail du traitement du spam avec Postscreen</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">17/10/2016</span> - <span class="post-reading-time">6 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-adminsys" data-href="" href="">adminsys</a> <a class="post-category post-category-r%C3%A9seau" data-href="" href="">réseau</a> <a class="post-category post-category-postfix" data-href="" href="">postfix</a> <a class="post-category post-category-mail" data-href="" href="">mail</a> </span></p>
+<article class="post-summary">Quel titre sérieux ! Bref, jusqu’à il n’y a pas si longtemps que ça, j’avais une architecture assez basique pour le mail :
+ Un postfix pour l’émission/réception. Un Spamassassin qui reluque les mails et qui les taggue s’ils ressemblent à du spam Un Dovecot qui stocke les mails et les présentent aux clients mails. Dovecot se chargeant par la même occasion de l’auth (via sasl) et du classement des mails (via sieve et managesieve).
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Nouveau routeur Turris Omnia</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">10/10/2016</span> - <span class="post-reading-time">5 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-hardware" data-href="" href="">hardware</a> <a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-r%C3%A9seau" data-href="" href="">réseau</a> <a class="post-category post-category-tips" data-href="" href="">tips</a> </span></p>
+<article class="post-summary">Après pas loin d’un an d’attente le kickstarter du Turris Omnia est arrivé à la maison \o/. Ce routeur est particulier car il est fait par les braves gens de nic.cz, l’organisme qui s’occupe entre autre des noms de domaine tchèques. Ce sont les même gens qui développent knot un super serveur DNS qui héberge de plus en plus de domaine (dont au moins un root server à l’heure actuelle).
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Ajouter un overlay Gentoo sans layman</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">06/10/2016</span> - <span class="post-reading-time">Une seule belle minute de plaisir</span></em><span class="post-categories"><a class="post-category post-category-adminsys" data-href="" href="">adminsys</a> <a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-linux" data-href="" href="">linux</a> <a class="post-category post-category-gentoo" data-href="" href="">gentoo</a> <a class="post-category post-category-cli" data-href="" href="">cli</a> </span></p>
+<article class="post-summary">Les overlays sous Gentoo sont des surcouches à l’arbre Portage. Portage est en fait une grande collection de scripts pour installer des logiciels. Gentoo de base possède énormément de ces scripts cependant il arrive que parfois le logiciel que l’on cherche n’est pas disponible officiellement. Portage possède une fonctionnalité très intéressante permettant de rajouter des branches à votre arbre ce qui permet d’ajouter de nouveaux logiciels disponible via emerge.
+Jusqu’à il y a peu, il fallait passer par le logiciel layman qui n’est pas installé par défaut.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Démarrer des applis dans tmux au boot</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">08/03/2016</span> - <span class="post-reading-time">Une seule belle minute de plaisir</span></em><span class="post-categories"><a class="post-category post-category-adminsys" data-href="" href="">adminsys</a> <a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-linux" data-href="" href="">linux</a> <a class="post-category post-category-tips" data-href="" href="">tips</a> <a class="post-category post-category-cli" data-href="" href="">cli</a> </span></p>
+<article class="post-summary">En voilà une chose triviale mais qui n’est pas si simple que ça. Démarrer une appli au boot, généralement c’est le boulot de l’init, ça devrait être easy (hein systemd). Mais démarrer une appli dans tmux n’est pas geré par les init existants. Donc je vais vous expliquer comment le faire.
+Déjà on va commencer par le script d’init pour openRC (vous croyiez vraiment que j’allait aborder systemd ?). Donc dans /etc/init.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Réimplémentations libres de moteurs de jeux</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">28/12/2015</span> - <span class="post-reading-time">7 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-libre" data-href="" href="">libre</a> <a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-linux" data-href="" href="">linux</a> <a class="post-category post-category-jeux" data-href="" href="">jeux</a> <a class="post-category post-category-fps" data-href="" href="">fps</a> </span></p>
+<article class="post-summary">C’est nowel 2015. À nowel on a plein de temps. Quand on a plein de temps on aime se divertir. Et pour se divertir un bon petit jeu vidéo c’est royal. Les jeux vidéos c’était mieux avant. C’est vrai quoi. Les vieux jeux vidéos sont pour beaucoup mieux que les anciens. Ouai c’est un peu de nostalgie mêlé à de la vieuconnerie mais bon. Le soucis c’est que les vieux jeux, bha souvent ils ont besoin d’un viel OS avec de vieilles libs toussa.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Une idée d'init</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">12/09/2015</span> - <span class="post-reading-time">10 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-libre" data-href="" href="">libre</a> <a class="post-category post-category-ux" data-href="" href="">ux</a> <a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-linux" data-href="" href="">linux</a> </span></p>
+<article class="post-summary">Ces derniers temps, les inits ont la côte. L’invasion de systemd sur un bons paquets de banquises en est la principale cause. Il faut dire qu’avant lui il n’y avait pas eu autant de débat et peu de concurrence. Il y a pas mals d’inits différents mais la plupart sont quasiment pas utilisés en dehors des cadors du secteurs. Systemd fait parlé de lui à cause de son initiateur (haha) à la réputation sulfureuse mais également pour certains choix techniques parfois étranges mais aussi (et surtout à mon goût) pour sa capacité à changer l’ordre établis.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Le clavier fait maison : PART 1</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">01/08/2015</span> - <span class="post-reading-time">14 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-hardware" data-href="" href="">hardware</a> <a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-libre" data-href="" href="">libre</a> <a class="post-category post-category-diy" data-href="" href="">diy</a> </span></p>
+<article class="post-summary">Cet article est le premier d’une série concernant l’élaboration de mon nouveau joujou. J’y aborderai la réflexion, l’élaboration et tout le toutim à propos de mon projet clavièreux.
+A y est \o/ ! Mon clavier fonctionne. Ceci est le premier texte non ircien écrit avec MON clavier. Et quand je dit MON clavier, je parle de celui que j’ai construit avec mes petites mimines ! Celui que j’ai rêvé et pensé durant quelques mois.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Updater dynamiquement ses zones DNS</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">31/03/2015</span> - <span class="post-reading-time">Une seule belle minute de plaisir</span></em><span class="post-categories"><a class="post-category post-category-adminsys" data-href="" href="">adminsys</a> <a class="post-category post-category-r%C3%A9seau" data-href="" href="">réseau</a> <a class="post-category post-category-tips" data-href="" href="">tips</a> <a class="post-category post-category-dns" data-href="" href="">dns</a> </span></p>
+<article class="post-summary">Bon un court article à mon intention. Comment updater ses zone DNS dynamiquement avec cette syntaxe de merde que j’oublie constamment ? Donc pour mettre à jour un champs A c’est simple :
+server 127.0.0.1 zone lord.re. delete lord.re A update add lord.re. 600 A a.b.c.d send  et voilà c’est pas compliqué mais toujours chiant à retrouver. C’est possible de fouttre le tout dans un fichier texte et de le donner à bouffer direct à knsupdate.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Nginx HTTPS 2015</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">21/02/2015</span> - <span class="post-reading-time">3 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-meta" data-href="" href="">meta</a> <a class="post-category post-category-www" data-href="" href="">www</a> <a class="post-category post-category-adminsys" data-href="" href="">adminsys</a> <a class="post-category post-category-tips" data-href="" href="">tips</a> <a class="post-category post-category-nginx" data-href="" href="">nginx</a> <a class="post-category post-category-tls" data-href="" href="">tls</a> </span></p>
+<article class="post-summary">Coucou ! Comme vous le savez surement, commencer un article par “coucou” c’est con. Mais après tout pourquoi pas ? Sous des apparences à priori banales, c’est finalement plutôt original (peut-être même inédit !) pour un article technique. Et puis mine de rien ça permet d’avoir une intro qui va avec, donc on ne va pas s’en plaindre. Bon donc vu que la folie des failles SSL et compagnie tend à se calmer pour le moment, c’est peut-être le bon moment de mettre à jour sa conf Nginx.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Gestionnaire de passwords : password-store</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">25/04/2014</span> - <span class="post-reading-time">3 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-libre" data-href="" href="">libre</a> <a class="post-category post-category-tips" data-href="" href="">tips</a> </span></p>
+<article class="post-summary">Comme vous le savez, il faut changer de mots de passe régulièrement. Comme vous le savez il faut des mots de passe de pleins de caractères et si possible des caractères à la con. Comme vous le savez il ne faut pas utiliser le même mot de passe pour plusieurs services différents.
+Ouai c’est chiant mais au final des outils vont vous aider à gérer tout ça facilement et surtout ça sera très simple et utilisable avec tous les logiciels et pas uniquement votre navigateur web.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Monter un hébergement de site web propre et performant.</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">11/03/2014</span> - <span class="post-reading-time">4 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-libre" data-href="" href="">libre</a> <a class="post-category post-category-tips" data-href="" href="">tips</a> <a class="post-category post-category-www" data-href="" href="">www</a> <a class="post-category post-category-nginx" data-href="" href="">nginx</a> </span></p>
+<article class="post-summary">Update 2017 : Avec un peu de recul c’est pas mal depuis la conf de nginx a subtilement changé, c’est globalement compatible mais pas optimal. Qui plus est j’aborde pas le ssl, http2, …
+Héberger un site web c’est simple emerge apache2 et zouuu ça marche. C’est bien gentil mais ça a des perfs de merdes, c’est crado toussa. Et s’il l’on prenait un peu de temps pour faire un truc au propre ?
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Multi devices BTRFS</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">16/02/2014</span> - <span class="post-reading-time">4 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-linux" data-href="" href="">linux</a> <a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-adminsys" data-href="" href="">adminsys</a> <a class="post-category post-category-tips" data-href="" href="">tips</a> <a class="post-category post-category-fs" data-href="" href="">fs</a> <a class="post-category post-category-btrfs" data-href="" href="">btrfs</a> </span></p>
+<article class="post-summary">Étant malade ce week-end, quoi de mieux qu’un peu de machines virtuelles de BTRFS et de temps pour guérir ? Donc voilà en vue de la rénovation de mon système de stockage actuel j’ai commencé à faire mumuse avec BTRFS en mode multi-devices. Ce terme étrange signifie que l’on va avoir un système de fichier réparti sur plusieurs partitions/disque durs. Ça permet d’utiliser tous les raffinements de BTRFS. :-)
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">IP Proxy Logs Nginx Reverse</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">27/10/2013</span> - <span class="post-reading-time">2 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-tips" data-href="" href="">tips</a> <a class="post-category post-category-www" data-href="" href="">www</a> <a class="post-category post-category-nginx" data-href="" href="">nginx</a> </span></p>
+<article class="post-summary">Le titre ne pourrait être plus explicite ! Vous avez remarqué comme lorsqu’on fait du reverse proxy, le backend ne voit plus que l’ip du frontend ? C’est tout à fait logique puisque les requêtes proviennent exclusivement du serveur frontal qui fait son boulot. Du coup ça peut être quelque peu dérangeant
+Dura lex sed lex Vous n’êtes pas sans savoir qu’en France tous les fournisseur de contenu sur le web doivent conserver les logs de connexion.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Devtmpfs et Udev sont dans un bateau</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">07/07/2013</span> - <span class="post-reading-time">3 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-meta" data-href="" href="">meta</a> <a class="post-category post-category-www" data-href="" href="">www</a> <a class="post-category post-category-gentoo" data-href="" href="">gentoo</a> <a class="post-category post-category-linux" data-href="" href="">linux</a> <a class="post-category post-category-software" data-href="" href="">software</a> </span></p>
+<article class="post-summary">Et voilà qu’une coupure de courant m’a réveillé de mauvais poil ce matin. Un dimanche à 6h entendre le gazouillis des onduleurs. Toujours plus oppressant. Chaque bip indiquant une mort de plus en plus proche. Et là c’est on commence à tenter de s’égayer les idées. Une épreuve de résistance pour onduleur : lequel tiendra le plus longtemps ? Celui de l’équipe téloche (ONT, lecteur multimédia, téléviseur), l’équipeserveur (serveur huhu) ou bien l’équipe ordis (les ordis, le switch et la borne wifi).
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Mom part en retraite</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">14/04/2013</span> - <span class="post-reading-time">2 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-hardware" data-href="" href="">hardware</a> <a class="post-category post-category-meta" data-href="" href="">meta</a> <a class="post-category post-category-software" data-href="" href="">software</a> </span></p>
+<article class="post-summary">C’est avec un pincement au cœur que je vous annonce le futur départ en retraite de Mom. C’était la petite dédibox qui me servait pour tout un tas de chose. (ouai je sais je prône l’auto-hébergement mais j’ai quand même une dédibox). (ouai normalement ça se fait pas de mettre des parenthèses en dehors d’une phrase mais s’il faut affronter l’académie française pour ça, je suis prêt à prendre le risque).
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Les snapshots BTRFS</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">02/04/2013</span> - <span class="post-reading-time">2 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-adminsys" data-href="" href="">adminsys</a> <a class="post-category post-category-fs" data-href="" href="">fs</a> <a class="post-category post-category-btrfs" data-href="" href="">btrfs</a> </span></p>
+<article class="post-summary">Voilà un petit moment que ma petite gentoo perso est sur btrfs. Ce système de fichier est très sympathique de part toutes ses fonctionnalités. Une que j’affectionne tout particulièrement est le snapshot. Une sauvegarde à chaud, instantanée et qui ne bouffe quasiment pas de place. C’est ti pas la panacée en ce world backup day ? (ouais bon c’était il y a trois jours je sais).
+Donc le truc à savoir avec btrfs c’est qu’il fonctionne en sous-volume (un peu comme lvm) et qu’il permet donc de faire un snapshot d’un sous-volume qui sera lui même un sous-volume !
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">2013 - CSS fait main.</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">03/03/2013</span> - <span class="post-reading-time">2 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-meta" data-href="" href="">meta</a> <a class="post-category post-category-www" data-href="" href="">www</a> <a class="post-category post-category-css" data-href="" href="">css</a> </span></p>
+<article class="post-summary">Mais quel indécis ! Ouais je change encore mon site. Bon en fait bootstrap c’est bien sympa mais au final déléguer toute la partie fun bha c’est pas fun. Autant j’ai toujours du mal à créer du contenu pour le site, autant j’adore faire mumuse avec le css. Du coup, bha ouais j’ai refait encore le site. J’ai quasiment pas touché au fond. J’ai simplifié le menu tout de même et supprimé quelques lourdeurs de bootstrap pour avoir presque que du contenu.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Tweaks de CSS</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">16/12/2012</span> - <span class="post-reading-time">Une seule belle minute de plaisir</span></em><span class="post-categories"><a class="post-category post-category-meta" data-href="" href="">meta</a> <a class="post-category post-category-www" data-href="" href="">www</a> <a class="post-category post-category-css" data-href="" href="">css</a> </span></p>
+<article class="post-summary">Le problème quand on utilise bootstrap c’est qu’on ressemble à tous les autres sites trendy flashouilles. Du coup j’ai tweaké un peu le bestiau. Donc déjà au lieu de modifier le css d’origine je l’ai surchargé en utilisant un custom.css . Cela permet de modifier l’apparence sans casser bootstrap. Qui plus est en cas d’update de bootstrap ça permet de garder ses modifs.
+Premier truc à faire pour se différencier : changer la font.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Dégager une livebox tout en conservant le service de téloche</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">09/12/2012</span> - <span class="post-reading-time">7 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-adminsys" data-href="" href="">adminsys</a> <a class="post-category post-category-r%C3%A9seau" data-href="" href="">réseau</a> <a class="post-category post-category-tips" data-href="" href="">tips</a> </span></p>
+<article class="post-summary">UPDATE 2017 : Ce tuto est plus vraiment d’actualité, désormais le PPP n’est plus obligatoire, il est d’ailleurs préferrable de passer par le DHCP (qui nécessite malheureusement des options exotiques).
+Ça y est ! Le Saint-Graal est arrivé à la maison ! Le FTTH. La fibre. Cette petite merveille de plastoc qui me fait rêver depuis des lustres. Je l’ai youhou youpi yata. J’ai donc un joli 100M symétrique chez l’agrume-opérateur.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Mini-Guide minimaliste pour vim</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">20/11/2012</span> - <span class="post-reading-time">Une seule belle minute de plaisir</span></em><span class="post-categories"><a class="post-category post-category-libre" data-href="" href="">libre</a> <a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-tips" data-href="" href="">tips</a> <a class="post-category post-category-vim" data-href="" href="">vim</a> <a class="post-category post-category-cli" data-href="" href="">cli</a> </span></p>
+<article class="post-summary">Ça y est vous venez de suivre un tuto sur le net qui vous a fait dégainer vim pour modifier un fichier et vous êtes coincé dans cette console à la con sans pouvoir écrire et pire encore : vous pouvez pas fermer cet immondice! Bon allez voici le minimum à savoir pour ouvrir/éditer/fermer un fichier avec vim. Pour ouvrir un fichier avec vim : vim /mon/fichier C’est comme tout éditeur de fichier à peu près.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Vim : le meilleur outil du linuxien</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">20/11/2012</span> - <span class="post-reading-time">3 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-libre" data-href="" href="">libre</a> <a class="post-category post-category-software" data-href="" href="">software</a> <a class="post-category post-category-vim" data-href="" href="">vim</a> <a class="post-category post-category-cli" data-href="" href="">cli</a> </span></p>
+<article class="post-summary">Et voilà le classique : l’article sur vim. Tout linuxien se doit un jour ou l’autre déclarer sa flamme pour son éditeur de texte ( ainsi que son flame envers celui des autres ). Je ferai donc un énième article sur la toile pour vanter les louanges du dieu des éditeurs de texte.
+Déjà faut se rendre compte de l’importance d’un éditeur de texte. Mais pour cela il faut connaître un poil son OS.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Un nouveau navigateur pour de nouveaux océans</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">24/10/2012</span> - <span class="post-reading-time">4 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-libre" data-href="" href="">libre</a> <a class="post-category post-category-ux" data-href="" href="">ux</a> <a class="post-category post-category-www" data-href="" href="">www</a> <a class="post-category post-category-firefox" data-href="" href="">firefox</a> </span></p>
+<article class="post-summary">Ça me pendait au nez. Depuis de très longues années j’utilisait fièrement Opera. Depuis la version 7.11 à vrai dire soit plus très loin de dix ans. Tandis que le panda n’était qu’un piaf je découvrait les onglets (pas vraiment mais j’ai trop honte d’avouer que j’utilisais une surcouche d’ie).
+En pas loin de dix ans j’ai découvert de très nombreuses features plus ou moins connues ou exotiques. J’ai trifouillé une grande partie de ses ini pour lui trifouiller les boyaux afin de le plier à mes exigences.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Bootstrapper le site</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">30/09/2012</span> - <span class="post-reading-time">Une seule belle minute de plaisir</span></em><span class="post-categories"><a class="post-category post-category-meta" data-href="" href="">meta</a> <a class="post-category post-category-www" data-href="" href="">www</a> <a class="post-category post-category-blog" data-href="" href="">blog</a> <a class="post-category post-category-css" data-href="" href="">css</a> </span></p>
+<article class="post-summary">Et voilà. Ce qui devait arriver est arrivé. Et voilà que le site à un nouveau design. Et puis j’ai craqué pour le fameux twitter Bootstrap. C’est propre simple et classe. Ça a un peu la même gueule que tous les autres sites mais c’est vraiment pratique.
+Bootstrap est un ensemble de javascript et de css pour faire des sites propres et de manière très simple. Il suffit d’appliquer des bonnes classes aux différents éléments.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Un bureau moderne sous linux</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">22/07/2012</span> - <span class="post-reading-time">9 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-libre" data-href="" href="">libre</a> <a class="post-category post-category-linux" data-href="" href="">linux</a> <a class="post-category post-category-ux" data-href="" href="">ux</a> <a class="post-category post-category-gentoo" data-href="" href="">gentoo</a> <a class="post-category post-category-i3" data-href="" href="">i3</a> </span></p>
+<article class="post-summary">Ouais un petit titre prétentieux et même trompeur diront certains (dont je ne fait pas partit, mais on s’en fout vu que ces certains n’ont pas la parole). Au final, je viens de réinstaller une gentoo sur mon bon vieux laptop d’il y a quatre ans. La petite arch qui y trônait a rendu l’âme (une sombre histoire d’update au bout de plusieurs mois sans servir) et du coup j’ai voulu revenir à cette bonne vieille gentoo.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Des flèches</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">18/07/2012</span> - <span class="post-reading-time">Une seule belle minute de plaisir</span></em><span class="post-categories"><a class="post-category post-category-" data-href="" href="">???</a> </span></p>
+<article class="post-summary"><p>↑↑↑→↓←↓→↑←↓←↑→↓←↑→↓→↑←↑→↑</p>
+</article>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Et voilà que je reviens sur mon site.</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">09/04/2012</span> - <span class="post-reading-time">2 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-meta" data-href="" href="">meta</a> <a class="post-category post-category-www" data-href="" href="">www</a> <a class="post-category post-category-blog" data-href="" href="">blog</a> </span></p>
+<article class="post-summary">J’en reviens encore à me demander que faire de ce site ?
+En faire un vrai site avec la motivation pour publier des vrais trucs un peu plus régulièrement ? Ça pourrait à la fois me motiver et à la fois vous intéresser. Bha ouai, au fond de moi je suis sûr que j’ai des trucs intéressants à dire au moins de temps à autres. Et ça peut m’intéresser également pour plus tard.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Bidouil^wRéparons de la gentoo.</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-reading-time">Une seule belle minute de plaisir</span></em><span class="post-categories"><a class="post-category post-category-gentoo" data-href="" href="">gentoo</a> <a class="post-category post-category-adminsys" data-href="" href="">adminsys</a> <a class="post-category post-category-tips" data-href="" href="">tips</a> <a class="post-category post-category-portage" data-href="" href="">portage</a> </span></p>
+<article class="post-summary">Imaginons que par un improbable hasard vous tombiez sur une pauvre petite gentoo abandonnée. Vous voulez faire la mise à jour et là, pas ici, mais là, vous vous apercevez que vous avez une glib et une glibc impossible à emerger pour diverses raisons.
+Il est possible d’émerger les paquets relous sur une autre gentoo fonctionnelle. Pour plus de simplicité, il est appréciable que les architectures soient identiques et si possible d’avoir le même ACCEPT_KEYWORDS.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Protocolons !</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-reading-time">Une seule belle minute de plaisir</span></em><span class="post-categories"><a class="post-category post-category-adminsys" data-href="" href="">adminsys</a> <a class="post-category post-category-tips" data-href="" href="">tips</a> <a class="post-category post-category-r%C3%A9seau" data-href="" href="">réseau</a> <a class="post-category post-category-smtp" data-href="" href="">smtp</a> <a class="post-category post-category-imap" data-href="" href="">imap</a> <a class="post-category post-category-irc" data-href="" href="">irc</a> <a class="post-category post-category-mail" data-href="" href="">mail</a> <a class="post-category post-category-tls" data-href="" href="">tls</a> </span></p>
+<article class="post-summary">Bon et si nous faisions du lol ? On va parler quelques protocoles usuels à la main à travers un socket (type netcat ou telnet). R2R ? (Ready to rock)
+SMTP Parlons SMTP : Envoyons un mail comme un vrai hacker. nc monserveursmtpfavoris.com 25
+EHLO monserveursmtpfavoris.com MAIL FROM: monidentité@monserveursmtpfavoris.com RCPT TO: mondestinataire@sonsmtp.com DATA Un supayr mail .  IMAP Et voilà vous avez envoyé un mail à la mano. comme quoi SMTP c’est facile.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Migration</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">02/10/2010</span> - <span class="post-reading-time">Une seule belle minute de plaisir</span></em><span class="post-categories"><a class="post-category post-category-meta" data-href="" href="">meta</a> <a class="post-category post-category-www" data-href="" href="">www</a> <a class="post-category post-category-hardware" data-href="" href="">hardware</a> </span></p>
+<article class="post-summary">Et voilà j’ai changé d’hébergement, enfin la machine qui me sert un peu pour tout. Donc je suis passé d’une config qui fût jadis mon PC principal. Un Opteron 165 dual core overclocké et watercoolé dans un boitier Antec Twelve Hundred. Je suis passé à un petit PC sur base d’atom D510. Globalement je pense que j’ai perdu en perf mais j’ai casé ça dans un boitier Fractal Design Array R2.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Un coup de polish</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-reading-time">Une seule belle minute de plaisir</span></em><span class="post-categories"><a class="post-category post-category-meta" data-href="" href="">meta</a> <a class="post-category post-category-www" data-href="" href="">www</a> <a class="post-category post-category-blog" data-href="" href="">blog</a> <a class="post-category post-category-css" data-href="" href="">css</a> </span></p>
+<article class="post-summary"><p>Et voilà une petite modernisation du site web. Un design tout en dégradé toussa vive le css3. On peut enfin faire des trucs dynamique simplement et des designs plus travaillés sans aucunes images.</p>
+<p><em>update 2017 :</em>
+c’est toujours presque aussi vrai !</p>
+</article>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Un ptit coucou</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-reading-time">Une seule belle minute de plaisir</span></em><span class="post-categories"><a class="post-category post-category-tips" data-href="" href="">tips</a> <a class="post-category post-category-hardware" data-href="" href="">hardware</a> </span></p>
+<article class="post-summary">Non je ne suis pas mort ! Et d’ailleurs je viens de résoudre un problème que j’ai depuis toujours sur ce laptop : faire sortir du son depuis la prise jack. En fait c’était tout con. Il suffisait de rajouter dans le modprobe.conf : ```options snd-hda-intel model=m51va position_fix=0 Bon j’avoue ce message est destiné à mon moi du futur qui réinstallera surement un nunux et se fera chier avec ce bug à la con.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Aurevoir MSN</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-reading-time">Une seule belle minute de plaisir</span></em><span class="post-categories"><a class="post-category post-category-libre" data-href="" href="">libre</a> </span></p>
+<article class="post-summary"><p>Ça y est je me suis barré de msn … il me semble que c’était mon seul truc encore sur un réseau proprio. Je suis très proche d’un écosystème parfaitement libre. De tête, il me reste plus que les drivers nvidia et Intel sur mon laptop ( et Team Fortress² ) sur l’autre PC.</p>
+</article>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Monitorons ce qui traîne sur son réseau</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-reading-time">Une seule belle minute de plaisir</span></em><span class="post-categories"><a class="post-category post-category-meta" data-href="" href="">meta</a> <a class="post-category post-category-www" data-href="" href="">www</a> </span></p>
+<article class="post-summary">Lors de mon passage de Debian vers Gentoo, je n’ai pas réinstallé Munin. Je ne m’y prends que maintenant. Munin permet de faire de petits graphs très pratique concernant à peu près tout et n’importe quoi… C’est encore une fois un système de clients/serveur. Commençons par un petit emerge munin. Et là c’est quasiment finit pour le serveur. Il ne reste qu’à ajouter les clients à interroger dans /etc/munin/munin-node.conf selon la syntaxe décrite en exemple.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Mumuse avec OpenVZ</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-reading-time">2 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-tips" data-href="" href="">tips</a> <a class="post-category post-category-virtu" data-href="" href="">virtu</a> <a class="post-category post-category-adminsys" data-href="" href="">adminsys</a> </span></p>
+<article class="post-summary">OpenVZ est un système de virtualisation pour linux particulier. En bref la machine hôte possède un kernel spécifiquement compilé et partage ce kernel avec les machines virtuelles. On est donc limité dans les OS mais par contre on obtient des performances impressionnantes. Pour plus de renseignements →→ wikipedia &amp; google ←← Bon en fait j’ai voulu faire mumuse avec ma ptite gentoo. C’est une machine qui me sert typiquement de serveur.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Optimisation du serveur web</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-reading-time">Une seule belle minute de plaisir</span></em><span class="post-categories"><a class="post-category post-category-meta" data-href="" href="">meta</a> <a class="post-category post-category-www" data-href="" href="">www</a> <a class="post-category post-category-tips" data-href="" href="">tips</a> </span></p>
+<article class="post-summary">N’ayant qu’une tite connexion ordinaire de français en ADSL, mon upload est très limité. Du coup, lors de la visite de ce merveilleux site web, le chargement des pages est assez longs. Pour tenter d’améliorer la situation je viens d’activer la compression gzip des pages. Pour mon site web la différence est ahurissante. Je diminue par 4 la taille de la page. Donc pour cela j’ai édité le fichier /etc/lighttpd/lighttpd.conf .
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Jabber me voilà !</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">14/04/2010</span> - <span class="post-reading-time">Une seule belle minute de plaisir</span></em><span class="post-categories"><a class="post-category post-category-jabber" data-href="" href="">jabber</a> <a class="post-category post-category-www" data-href="" href="">www</a> </span></p>
+<article class="post-summary">Dans ma quête d’indépendance numérique, de liberté et de maîtrise de ma vie privée je viens de me monter un serveur jabber (ejabberd) pour à terme me débarasser d’msn, icq et companies. Donc maintenant vous pourrez me joindre par jabber à la même adresse que mon mail… C’est très propre et bien mieux que merdsn. Tiens j’ai aussi fait un chtit wiki pour me faire une petite “GED”. Bon allé, bouffez pas trop de bande passante et HF.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Nouveau kernel not for fun</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-date">01/03/2010</span> - <span class="post-reading-time">Une seule belle minute de plaisir</span></em><span class="post-categories"><a class="post-category post-category-adminsys" data-href="" href="">adminsys</a> <a class="post-category post-category-linux" data-href="" href="">linux</a> </span></p>
+<article class="post-summary">Et voilà je viens de passer d’un kernel 2.27 patché pour openvz vers un tout neuf 2.33.1 .J’en ai profité pour ajouter des petits trucs indispensables qui me faisait défaut : le redirect de netfilter (et ouai je l’avait oublié), le support de nfs en mode serveur (pour améliorer mon pxe) l’ajout du support de kvm (à défaut d’openvz…). Bon sur ce amusez-vous bien cher lectorat et préparez-vous à une nouvelle version de mon CMS encore plus optimisé pour tourner sur moins d’un Mo !
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Un chtit coup de ViM pour changer</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-reading-time">Une seule belle minute de plaisir</span></em><span class="post-categories"><a class="post-category post-category-tips" data-href="" href="">tips</a> <a class="post-category post-category-vim" data-href="" href="">vim</a> </span></p>
+<article class="post-summary"><p>Ce coup-ci j’ai voulu faire un truc tout con : colorer le syslog dans vim. Donc je vais sur vim.org, je cherche un script de coloration de syslog. Je télécharge le fichier dans <strong>~/.vim/after/syntax/syslog.vim</strong> . Ensuite il ne reste plus qu’à éditer/créer le fichier <strong>~/.vim/filetype.vim</strong> avec dedans :</p>
+<pre><code>augroup filetypedetect
+au! BufRead,BufNewFile /var/log/syslog set filetype=syslog
+augroup END
+</code></pre>
+<p>Et voilà la prochaine fois que vous lirez vos logs vous aurez de zolies couleurs :-D</p>
+</article>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Ajout de PostGrey et …</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-reading-time">2 minutes de plaisir</span></em><span class="post-categories"><a class="post-category post-category-adminsys" data-href="" href="">adminsys</a> <a class="post-category post-category-mail" data-href="" href="">mail</a> <a class="post-category post-category-postfix" data-href="" href="">postfix</a> </span></p>
+<article class="post-summary">Wow la classe ! Mon premier titre avec des points de suspensions ! Bon alors voilà j’en ai un peu marre de la masse de spam que je reçoit. Mon installation de mail est quelque peu bancale. J’ai en fait un ptit postfix, procmail, dovecot, roundcube.
+Ca fait un combo qui fait un tit gmail like tout ca auto hébergé. Mais j’aimerais pouvoir m’y connecter avec thunderbird pour faire mumuse avec le plugin lightning qui permet de gérer l’agenda, calendrier, les tâches, tout cela dans le but de synchroniser avec mon téléphone portable par le biais d’un serveur funambol que je me suis installé.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Unicodisation</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-reading-time">Une seule belle minute de plaisir</span></em><span class="post-categories"><a class="post-category post-category-gentoo" data-href="" href="">gentoo</a> <a class="post-category post-category-libre" data-href="" href="">libre</a> <a class="post-category post-category-tips" data-href="" href="">tips</a> <a class="post-category post-category-adminsys" data-href="" href="">adminsys</a> </span></p>
+<article class="post-summary">Houllla je poste de plus en plus souvent ! Je vais finir en blogueur influent d’ici peu ! Bon en fait comme annoncé précédemment j’ai fait en sorte de ne plus avoir de soucis de charset. En bref j’ai modifié mes locales pour n’avoir au final que “en_US.UTF-8 UTF-8”. J’ai créé le fichier /etc/env.d/02locale où j’y force mes variables de locales et le tour est joué. Je n’ai plus qu’à reconfigurer vim et putty pour qu’ils fassent du bel utf-8.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Dégooglisation</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-reading-time">Une seule belle minute de plaisir</span></em><span class="post-categories"><a class="post-category post-category-libre" data-href="" href="">libre</a> <a class="post-category post-category-mail" data-href="" href="">mail</a> <a class="post-category post-category-degooglisation" data-href="" href="">degooglisation</a> <a class="post-category post-category-postfix" data-href="" href="">postfix</a> </span></p>
+<article class="post-summary">Bon allez je vais suivre un peu la mode de la degooglisation en commençant a migrer ma principale boite mail de gmail vers une boite autohébergée sur un postfix dovecot roundcube procmail. Je ne peux pas dire que c’eut ete simple mais en tout cas c’est gratifiant et je regagne un peu de liberte (c’est fichtrement plus agreable quand c’est heberge a la main).
+Bon c’est peut-etre pas aussi fiable (va me falloir un onduleur) mais bon.
+        </article>
+<div class="read-more-link"><a data-href="" href="">Lire en entier …</a>− <a data-href="" href="">EN</a></div>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Passage en full ssl</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-reading-time">Une seule belle minute de plaisir</span></em><span class="post-categories"><a class="post-category post-category-meta" data-href="" href="">meta</a> <a class="post-category post-category-www" data-href="" href="">www</a> <a class="post-category post-category-tls" data-href="" href="">tls</a> <a class="post-category post-category-blog" data-href="" href="">blog</a> <a class="post-category post-category-s%C3%A9cu" data-href="" href="">sécu</a> </span></p>
+<article class="post-summary"><p>Juste un petit passage pour dire que je viens de passer le serveur web en SSL obligatoirement. Comme ça je montre mon côté anarchiste anti hadopiste et puis ca fait plaisir à certains de me faire bouffer plus de CPU pour afficher des pages pleines de blabla chiants.</p>
+</article>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Changement de serveur</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-reading-time">Une seule belle minute de plaisir</span></em><span class="post-categories"><a class="post-category post-category-meta" data-href="" href="">meta</a> <a class="post-category post-category-www" data-href="" href="">www</a> </span></p>
+<article class="post-summary"><p>Et voilà  je viens de migrer du bon gros Apache au chtit Lighty. Franchement sympas ce serv. Il est plus léger et bien plus claire dans la syntaxe de sa config. Quelle facilité pour faire des vhosts. Bon allez sur ce je vais tenter de diminuer la conso ram de lighty/mysql …</p>
+</article>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Allez, parceque je suis gentil je vous fait de la lecture</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-reading-time">Une seule belle minute de plaisir</span></em><span class="post-categories"><a class="post-category post-category-perso" data-href="" href="">perso</a> <a class="post-category post-category-informatique" data-href="" href="">informatique</a> </span></p>
+<article class="post-summary"><p>Bon bha je suis passé de Debian à Gentoo et j’ai enfin transformer ce pc en serveur… j’ai viré X. De suite beaucoup plus léger. Sans serveur web ca ne bouffe qu’une trentaine de Mo de ram. C’est déjà bien mieux que les 250 de la debian. Et puis c’est tout bien fait aux petits gnongnons. Bon c’est fini pour la lecture. A la prochaine.</p>
+</article>
+</section>
+<section class="posts">
+<header class="post-header">
+<h1 class="post-title"><a data-href="" href="">Encore une fois un nouveau site !</a></h1>
+</header>
+<p class="post-meta"><em><span class="post-reading-time">Une seule belle minute de plaisir</span></em><span class="post-categories"><a class="post-category post-category-meta" data-href="" href="">meta</a> <a class="post-category post-category-www" data-href="" href="">www</a> <a class="post-category post-category-blog" data-href="" href="">blog</a> </span></p>
+<article class="post-summary"><p>Et ouai pour la X ième fois je refais un site de zéro ce coup-ci avec un CMS fait maison. Comme d’hab je me fais un point d’honneur à avoir un site valide et qui soit lisible partout (même les navigateurs console ce coup-ci). J’espère que le nouveau design (web 3.0 certified) vous plaira autant qu’à moi.</p>
+</article>
+</section>
+</div>
+</div>
+</body>
+</html>

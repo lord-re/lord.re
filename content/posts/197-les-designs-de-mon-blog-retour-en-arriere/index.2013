@@ -1,0 +1,397 @@
+<html><!-- 
+ single html processed by https://github.com/zTrix/webpage2html
+ title: BES:: Bending Entertainment System
+ url: ./index.2013.html
+ date: Tue Apr 14 00:54:09 2020
+-->
+<head>
+<title>BES:: Bending Entertainment System</title>
+<style data-href="style.2013.css" rel="stylesheet" type="text/css">*{
+	box-sizing:border-box;
+	margin:0px;
+	padding:0px;
+	font-size:18px;
+	color:rgb(117,124,130);
+	font-family:'Droid Sans';
+}
+html,body{
+	background-color:#222;
+	background-color:rgb(39,43,48);
+}
+.container{
+	margin: 0em;
+	background:rgb(19,24,29);
+	background-color:rgb(39,43,48);
+}
+article{
+	-moz-columns:25em;
+	-webkit-columns:25em;
+	columns:25em;
+	margin:1rem;
+	box-shadow: 3px 3px 10px 3px #222;
+	border-top:1px solid #444;
+	border-left:1px solid #444;
+	border-right:1px solid #222;
+	border-bottom:1px solid #222;
+	padding:1rem;
+	text-align:justify;
+	margin-left:1rem;
+	margin-right:1rem;
+	transition:1s ease;
+}
+article:hover{
+	border-top:1px solid #547;
+}
+article:after{
+	font-size:0.6rem;
+	color:#333;
+	content: attr(date);
+}
+article:hover:after{
+	color:#555;
+}
+h2{
+	font-size:1.4rem;
+	color:#aa8;
+}
+h3{
+	margin-top:1.2rem;
+	font-size:1.2rem;
+	color:#8aa;
+}
+pre,figure{
+	border:1px solid rgb(34,29,29);
+	padding:1em;
+	font-size:0.9rem;
+	color:rgb(110,120,150);
+	font-family:'Droid Serif';
+}
+code{
+	color:#58a;
+	white-space:nowrap;
+	font-family:'Droid Serif';
+}
+
+p{
+	line-height:1.35em;
+	margin-top:0.5em;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<article class="span12" date="07/07/2013" id="art29">
+<h2>Devtmpfs et Udev sont dans un bateau</h2>
+<p>Et voilà qu'une coupure de courant m'a réveillé de mauvais poil ce matin. Un dimanche à 6h entendre le gazouillis des onduleurs. Toujours plus oppressant. Chaque bip indiquant une mort de plus en plus proche. Et là c'est on commence à tenter de s'égayer les idées. Une épreuve de résistance pour onduleur : lequel tiendra le plus longtemps ? Celui de l'équipe téloche (ONT, lecteur multimédia, téléviseur), l'équipeserveur (serveur huhu) ou bien l'équipe ordis (les ordis, le switch et la borne wifi). Malheureusement à 6h du matin c'est l'équipe serveur qui tombe en premier, les autres glandant allégrement en écoutant le bruit des cigales commençant à s'éveiller. Bon trève de poésie. L'onduleur serveur est tombé. Faisant passer son uptime de 200 à 0 d'un coup d'un seul. Et c'est là que les ennuis commencent. Pendant ces deux cents jours j'ai fait quelques update de la gentoo dont une dont j'aurai pu me passer.</p>
+<h3>Docteur Root</h3>
+<p>Après avoir réussi à me rendormir une fois le ventilateur décidé à redémarrer grâce à l'acharnement d'EDF. Voilà que je me lève et tente innocemment de me connecter au net en me doutant que j'aurai quelques emmerdes. Et là comme convenu ça ne marchait pas. Un petit ping sur le net. NOPE. Un petit ping sur le serveur. YEP. Bon ça restreint le champs d'action. Ni une ni deux je déballe le brave chevalie ssh. Maiscelui-ci ne parvient pas à passer le pont levis. J'envoi mes deux espions en renfort. Un avec le chevalier ssh du nom de -v et le second plus en retrait qui regarde de loin (tcpdump). Manifestement le pont-levis ne s'ouvrira pas. Il faut donc passer à l'arme lourd. Brancher un clavier et un écran.</p>
+<h3>Diagnostic : Udev capricieux</h3>
+<p>Au boot le kernel fait ces petites affaires gentiement. Vient ensuite le brave openrc qui commence gentiement lui aussi à faire son office jusqu'à ce qu'il se fasse poignarder dans le dos par le vil udev. Vous savez, udev, c'est ce petit logiciel magique qui gère un peu trop de truc niveau matos tout ça. Et ce petit couillon nécessite désormais une option du kernel DEVTMPFS. Je pensait bêtement que je l'avait depuis un bail mais manifestement non. Donc là le bon sens voudrait qu'on boot sur un livecd ou autre. Le soucis c'est que j'ai plus de net, pas de lecteur optique et pas de clé usb.</p>
+<h3>Opération à OpenRC ouvert</h3>
+<p>Bon donc on boot, puis on bourrin la touche I. Et là on arrive dans le mode interactif d'OpenRC. Le mode interactif demande à l'utilisateur quelles actions entreprendre pour chaque service devant être démarré. Sachant qu'udev est un composant assez critique et que sans lui ça risque de chier un peu, je me fait pas chier: au premier service, je lui dit de laisser tomber et de me filer un shell. Ceci fait, on passe le clavier en petit azerty (loadkeys fr). Étrangement ça semble de plutôt bien fonctionner, même si bien entendu rien n'est démarré. Je remonte la partoche en rw (mount -o rw /), puis on va se faire une petite compil kernel des familles et on boot dessus. Si ça c'est pas un joli dimanche d'été…</p>
+</article>
+<article class="span12" date="14/04/2013" id="art28">
+<h2>Mom part en retraite</h2>
+<p>C'est avec un pincement au cœur que je vous annonce le futur départ en retraite de Mom. C'était la petite dédibox qui me servait pour tout un tas de chose. (ouai je sais je prône l'auto-hébergement mais j'ai quand même une dédibox). (ouai normalement ça se fait pas de mettre des parenthèses en dehors d'une phrase mais s'il faut affronter l'académie française pour ça, je suis prêt à prendre le risque). Cette petite bobox m'aura bien servi pendant près de quatre ans. Heureusement je la remplace par Zoid.</p>
+<p>Zoid est une belle bête qui aura la lourde tâche de reprendre toutes les activités de Mom. Sauf que ce coup-ci j'ai un peu plus de recul et surtout la bestiole est bien plus véloce. J'ai 16 fois plus de ram et à vue d'œil à peu près le même augmentation de puissance cpu. Donc, ça va être du proxmox (par curiosité au début mais en fait c'est plutôt bien foutu et se laisse tripotter les entrailles sans trop sourciller). Chaque service sera isolé dans son conteneur openvz.</p>
+<p>Pour “lier” tous les webservices qui seront hébergés, un vaillant nginx sera de la partie. À lui les joies du reverse proxying dans tous les sens. À l'occasion je posterai surement la conf. D'ailleurs je vais probablement faire du reverse proxy pour Bender afin de pouvoir le joindre même si l'update DNS que j'ai mis en place foire.</p>
+<p>Et voilà, une page de l'Internet se tourne. Le monde en parlera des siècles durant, faisant de Mom une légende. Adieu 20790.</p>
+</article>
+<article class="span12" date="02/04/2013" id="art27">
+<h2>Les Snapshots BTRFS</h2>
+<p>Voilà un petit moment que ma petite gentoo perso est sur btrfs. Ce système de fichier est très sympathique de part toutes ses fonctionnalités. Une que j'affectionne tout particulièrement est le snapshot. Une sauvegarde à chaud, instantanée et qui ne bouffe quasiment pas de place. C'est ti pas la panacée en ce world backup day ? (ouais bon c'était il y a trois jours je sais).</p>
+<p>Donc le truc à savoir avec btrfs c'est qu'il fonctionne en sous-volume (un peu comme lvm) et qu'il permet donc de faire un snapshot d'un sous-volume qui sera lui même un sous-volume ! Ouais ça en jette. Donc typiquement le truc à faire c'est de se créer une partoche btrfs, et au lieu d'y foutre son système, c'est d'y créer un sous-volume avec son système. Par exemple sur mon /dev/sda2 j'ai ma partoche btrfs. Dedans j'y ai créé un dossier «gentoo» qui est en fait un sous-volume. Donc en vrai ma racine est /gentoo et non / . Je définis le dossier /gentoo comme étant le sous-volume par défaut. Donc si l'on ne spécifie rien et que l'on mount /dev/sda2 on montera en réalité le dossier gentoo. Comme ça, même pas besoin de trippoter grub ou autre (bien que ce soit tout de même recommandé).</p>
+<p>Bon jusque là, rien de bien terrible. Mais là où ça devient fun c'est qu'on peut maintenant snapshotter comme un petit goret. Pour cela il faut monter la partoche btrfs et non un sous-volume (ni même celui défini par défaut). Donc un petit <code>mount /dev/sda2 /mnt/btrfs -o subvolid=0</code> fera l'affaire. On va dans le dit dossier pour y retrouver un bête dossier gentoo. Et là on snapshot avec <code>btrfs subvolume snapshot gentoo gentoo_02042013</code>. Bon bha voilà.</p>
+<p>Ouai vous vous dites ça fini un peu vite cette histoire. C'est justement pour ça que c'est beau. C'est simple, rapide et ça marche. Enfin ça marche… Il faut être capable de l'utiliser. Pour cela rien de particulier à faire à part éventuellement le foutre par défaut avec deux commandes. Il faut d'abord trouver quel est son numéro <code>btrfs subvolume list /</code> et ensuite <code>btrfs subvolume set-default XX /</code>. Ouais c'est super simple aussi. Et ensuite pour supprimer le sous-volume un rm suffit ou alors passer par la commande prévue pour…</p>
+<p>Donc voilà c'est quand même bien simple. Là j'ai parlé du cas particulier du sous-volume par défaut mais ça marche pour n'importe quel sous-volume pour un montage séparé comme par exemple /home .Sur ce bonne léthargie.</p>
+</article>
+<article class="span12" date="03/03/2013" id="art26">
+<h2>2013 - CSS fait main.</h2>
+<p>Mais quel indécis ! Ouais je change encore mon site. Bon en fait bootstrap c'est bien sympa mais au final déléguer toute la partie fun bha c'est pas fun. Autant j'ai toujours du mal à créer du contenu pour le site, autant j'adore faire mumuse avec le css. Du coup, bha ouais j'ai refait encore le site. J'ai quasiment pas touché au fond. J'ai simplifié le menu tout de même et supprimé quelques lourdeurs de bootstrap pour avoir presque que du contenu. Quelques ajustements par çi par là et paf un nouveau css.</p>
+<p>En fait j'ai changé le style parce que j'ai un écran 16/9 et bootstrap n'en utilise qu'un gros tiers. Je passe mon temps à pester contre ce genre de design qui néglige nos chers écrans. Du coup j'ai pris mon courage à deux mains et j'ai expérimentés deux trois trucs. Premièrement, utiliser le plus possible les balises html5. Donc j'utilise du nav, de l'article toussa. C'est un poil plus sémantique (si avec ça je trust pas toutes les premières places des résultats google pour linux et livebox…).</p>
+<p>Pour le css, j'ai fait un menu vertical. C'est ce qui me semble le plus normal avec les écrans larges : on passe notre temps à scroller vers le bas alors qu'on a trop de place horizontal. Donc autant foutre sur les côtés les éléments dispensables et privilégier le placement du contenu. On se retrouve avec 85% de l'écran pour le contenu. On rajoute quelques marges tout de même pour aérer. Le soucis immédiat c'est qu'on se retrouve avec des lignes de texte si longue que le changement de ligne devient compliqué. Plusieurs études rapportent que la lisibilité optimale d'une ligne se retrouve en deçà des 80 caractères. Je ne suis pas parfaitement d'accord sur le chiffre mais la logique est avérée. Du coup pour chaque article, si la fenêtre est assez large, le contenu est découpé en colonne. Le rendu est vraiment pas dégueu et très agréable à lire. Le hic (parce qu'il y en a toujours un) est que si l'article à lire ne se contient pas dans un seul écran, il va falloir remonter pour lire la seconde colonne ce que je trouve particulièrement pas adapté à une lecture informatique. Je vais donc devoir trouver une solution.</p>
+</article>
+<article class="span12" date="16/12/2012" id="art26">
+<h2>Tweaks de CSS</h2>
+<p>Le problème quand on utilise bootstrap c'est qu'on ressemble à tous les autres sites trendy flashouilles. Du coup j'ai tweaké un peu le bestiau. Donc déjà au lieu de modifier le css d'origine je l'ai surchargé en utilisant un custom.css . Cela permet de modifier l'apparence sans casser bootstrap. Qui plus est en cas d'update de bootstrap ça permet de garder ses modifs.</p>
+<p>Premier truc à faire pour se différencier : changer la font. Ouai ça fait énormément. Beaucoup plus impressionnant qu'on ne pourrait le croire. Ça fait quelques baux qu'on se tappe toujours les mêmes font qui sont loin d'être les plus agréables à voir et à lire. Quelques google font (j'ai presque honte) et zou. Elles sont mimi ces petites Droid Sans et Droid Serif. Quelques couleurs par-ci par-là pour mieux distinguer les titres des sous-titres. On augmente un peu la taille du texte. Après tout c'est le contenu primordial de ce site, autant l'agrandir pour faciliter la lecture. J'ai mis en place un joli dégradé vertical s'assombrissant. Une lolanimation css sur le titre. Et voilà je m'éloigne du troupeau.</p>
+</article>
+<article class="span12" date="09/12/2012">
+<h2>Dégager une livebox tout en conservant le service de téloche</h2>
+<p>Ça y est ! Le Saint-Graal est arrivé à la maison ! Le FTTH. La fibre. Cette petite merveille de plastoc qui me fait rêver depuis des lustres. Je l'ai youhou youpi yata. J'ai donc un joli 100M symétrique chez l'agrume-opérateur. Une bien jolie connexion. Un débit symétrique ça vous change la vie de geek. Par contre plus d'ip fixe, ni de reverse DNS personnalisable… C'est d'ailleurs fort dommage. Et le port 25 est à oublier également. M'enfin il faut savoir faire des concessions dans la vie. Et là Livebox quelle horeur. Heureusement ce dernier détail est règlable. Par contre pour conserver le service de télévision il va falloir se retrousser les manches.</p>
+<h3>Petit rappel sur l'architecture FTTH d'un particulier en 2012</h3>
+<p>Clémentine a choisi une architecture de type GPON. C'est à dire qu'une fibre déssert plusieurs clients. Quelle idée saugrenue ! Après s'être fait chier à faire la même connerie sur le cuivre, ils refont pareil sur la fibre. En cuivre pour faire des économies les PTT ont tirés de nombreuse lignes multiplexées. Pour le téléphone c'était parfait cependant avec l'arrivée du net pour tous ça a très vite montrer ses limites. Le débit RTC traditionnel est déjà assez bas mais sur une telle ligne on ne dépasse pas les 30kbps (bits pas bytes). Et on peut direct oublier de faire passer de l'asdl sur les lignes multiplexées. J'ai encore des restes de ce traumatismes. Avec la fibre ils refont la même. Ils multiplexent plusieures clients sur une seule fibre. Pour l'instant c'est absolument pas génant mais qui sait ce qui se passera dans quelques années… Une bonne petite fibre individuelle n'aurait pas coûté beaucoup plus chère m'enfin.</p>
+<p>Donc dans les parties communes de l'immeuble la fibre est amenée par un opérateur. Puis il faut une intervention dans chaque appartement pour y amener ce cable magique. En fait d'une fibre c'est bien 4 qui sont réellement tirées. On peut donc etre raccordé à 4 réseaux opérateurs différents. Un petit boitier est posée avec les 4 prises colorées. Cette partie là devient fixe : en cas de changement de FAI cette partie restera toujours. Un changement de FAI consistera à brancher le reste de l'installation sur l'une des quatre prises. Ce boitier n'est pas alimenté, c'est juste une prise toute bête.</p>
+<p>Maintenant on passe à la partie appartenant au FAI : le modem ! Dans le cas de Mandarine il s'agit d'un boitier faisant le lien entre la box et la fibre. C'est plus un transceiver à vrai dire. On lui mec un peu de courant, la fibre et il vous pond un ethernet. C'est à lui qu'on dois une bonne partie de la magie. Cette boiboite est parfois intégrée dans les box (pour les futures livebox il parait, ou bien dans li freebox,…). Par chance j'y ait eu droit.</p>
+<p>Il y a ensuite la box qui récupère l'ethernet. Celle-ci s'occupe de gérer le ppp ( oui oui -___- ) et de faire le routage et toutes les saloperies que font les box. Elle permet de raccorder le décodeur TV et le téléphone. C'est bien la seule chose d'intéressant qu'elle fasse à vraie dire. En bon petit geek tout le reste est déjà fait maison et en mieux.</p>
+<h3>Que fait réellement la livebox ?</h3>
+<p>Bon alors la box sur le port 4 récupère la connexion internet. Elle s'occupe de la session PPP. Elle fait son boulot de passerelle. Elle récupère le flux tv et le déverse sur n'importe lequel de ses trois ports restant. Elle récupère la téléphonie en h323 (ou SIP je ne sais pas trop et je m'en fout royalement).</p>
+<p>Donc pour la partie PPP c'est comme sur du bon vieux ADSL. Donc notre routeur va devoir gérer la session PPP avec les identifiants. Là où il y a une subtilité, c'est que c'est dans un VLAN numéroté 835. Hahaha qu'est-ce qu'on se marre. Non content de ne pas fournir un joli ethernet des familles mais du PPP, il est VLANisé. Et pour la petite blagounette on retrouve les VPI/VCI ATM. Du coup notre petit internet on le retrouve au bout de combien d'empilement de couches ? Bon j'imagine que maintenant vous vous doutez de la suite… Non ? Bon bha en fait on va aussi avoir du VLAN pour la téléphonie mais bon j'ai déjà dit qu'on s'en foutait ( de toute façon j'imagine qu'on a pas les infos concernant le login h323 ou SIP ( une petite sonde entre le transceiver et la box serait du plus belle effet, mais je m'en fout ) ). Et pareil pour la téloche on va avoir droit à une belle collection de VLAN. Prêt ?</p>
+<h3>Faisons mieux !</h3>
+<p>Matériellement il va nous falloir trois interfaces réseau : </p>
+<figure>eth0 pour le transceiver<br/>eth1 pour notre LAN<br/>eth2 pour le décodeur téloche</figure>
+<p>Et pleins de câbles pour les lier.</p>
+<p>Logiciellement il va nous falloir une gentoo, brctl, iproute2, vconfig, ppp, rp-pppoe et un kernel qui mange du ppp.</p>
+<p>Faites un petit <strong><i>ip l</i></strong>, vous ne reverez plus comme ça.</p>
+<p>Le but va être de tout automatiser bien entendu. Et on va se la jouer gentoo-style. Donc le gros du boulot va se trouver dans le fameux <strong><i>/etc/conf.d/net</i></strong> . On va commencer en douceur pour avoir juste un peu de net pour pouvoir retourner au plus vite sur irc.</p>
+<pre>
+#eth0 à poil
+config_eth0=noop
+
+#config ppp
+config_ppp0="ppp"
+link_ppp0="eth0.835"
+plugins_ppp0="pppoe"
+username_ppp0="fti/1234567"
+password_ppp0="1234567"
+pppd_ppp0="
+defaultroute
+noauth
+usepeerdns
+holdoff 3
+child-timeout 60
+lcp-echo-interval 15
+lcp-echo-failure 3
+noaccomp noccp nobsdcomp nodeflate nopcomp novj"
+
+#on ne monte pas ppp0 tant que eth0 n'est pas prête
+rc_need_ppp0="net.eth0"
+
+#on ajoute qu'un vlan pour l'instant, on en rajoutera après
+vlans_eth0="835"
+
+#et une jolie eth2
+config_eth1="10.0.0.1/16"
+				</pre>
+<p>Là vous avez donc votre interface eth0 qui se retrouvera à poil, le vlan 835 qui lui sera greffé dessus ( création d'une interface eth0.835 ) et ppp0 qui se greffera par dessus votre interface eth0.835. Vous avez donc lo, eth0, eth0.835, ppp0 et eth1. À ce moment vous êtes à deux doigts d'avoir du net sur votre LAN. Sur la passerelle ça devrait déjà être bon. Il va falloir un peu d'iptables genre un petit </p>
+<figure>iptables -t nat -A POSTROUTING -o ppp0 -j MASQUERADE</figure>
+<p>et le tour est joué. Votre LAN est inondé de chatons boobs et autre memes. Sauf que ça coince un peu partout. Il va falloir faire mumuse avec la MTU grâce à toutes ces couches crasseuses. On gère ça encore avec </p>
+<figure>iptables -I FORWARD -p tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu</figure>
+<p>On respire.</p>
+<p>Une seconde fois.</p>
+<h3>Télochons</h3>
+<p>On passe à la partie téloche, autrement apelée l'invasion des interfaces réseau.</p>
+<p>Bon donc il faut savoir que la téloche est encapsulée dans plusieurs VLANs : </p>
+<figure>835 : Internet<br/>838 : Négo et HTTP pour le décodeur TV<br/>840 : streaming des chaînes<br/>841 : VoD il paraît mais bon, on s'en fout</figure>
+<p>Retournons dans le <strong><i>/etc/conf.d/net</i></strong> : </p>
+<pre>
+#on modifies les vlans sur eth0:
+vlans_eth0="835 838 839 840 841"
+
+#on prépare eth2
+config_eth2="noop"
+
+#on bridge nos VLANs et eth2
+bridge_tv="eth2 eth0.838 eth0.839 eth0.840 eth0.841"
+config_tv="192.168.1.1/24"
+
+#on ne monte l'interface tv que lorsque eth2 est prêt
+rc_need_tv="net.eth2"</pre>
+<p>C'est bon, vous avez completés votre fichier comme un boss ? Vous êtes prêt à vous lancer dans un reboot de la mort ? Le seul soucis de cette install c'est que chaque interface VLAN va avoir la fâcheuse manie de balancer une requête DHCP avec son timeout qui va avec. Vue le nombre d'interface qu'il y a vous êtes pas arrivé. Si quelqu'un trouve une solution, je suis preneur.</p>
+<p>Un petit coup de polish : dans <strong><i>/etc/local.d/votrenomdescriptfavoris</i></strong></p>
+<pre>
+#réparation des bridges
+echo "0" &gt;/proc/sys/net/bridge/bridge-nf-call-arptables
+echo "0" &gt;/proc/sys/net/bridge/bridge-nf-call-ip6tables
+echo "0" &gt;/proc/sys/net/bridge/bridge-nf-call-iptables
+echo "0" &gt;/proc/sys/net/bridge/bridge-nf-filter-pppoe-tagged
+echo "0" &gt;/proc/sys/net/bridge/bridge-nf-filter-vlan-tagged</pre>
+<p>Je détaillerai pas cette partie mais il faut se faire un ptit serveur DHCP pour le décodeur TV. En sachant que ce couillon est peu capricieux : en cas de modif IP faut le redémarrer électriquement.</p>
+<br/>
+<p>Bon bha voilà, vous pouvez dégager votre livebox et la rendre à Orange tout en pouvant profiter de la téloche.</p>
+</article>
+<article class="span12" date="20/11/2012" id="art25">
+<h2>Mini-guide minimaliste sous vim</h2>
+<p>Ça y est vous venez de suivre un tuto sur le net qui vous a fait dégainer vim pour modifier un fichier et vous êtes coincé dans cette console à la con sans pouvoir écrire et pire encore : vous pouvez pas fermer cet immondice! Bon allez voici le minimum à savoir pour ouvrir/éditer/fermer un fichier avec vim.</p>
+<p>Pour ouvrir un fichier avec vim :
+				<figure>vim /mon/fichier</figure>
+				C'est comme tout éditeur de fichier à peu près.<br/>
+				Pour modifier/écrire dans le fichier vous devez vous placer en mode INSERT. Pour cela appuyer sur la touche <code>i</code>. Puis faites vos petites affaires.<br/>
+				Pour sortir du mode INSERT et faire toutes les autres manips, appuyez sur la touche <code>échap</code>.<br/>
+				Pour enregistrer votre fichier tapez :
+				<figure>:w</figure>
+				Pour quitter :
+				<figure>:q</figure>
+				Si vous avez des modifications non enregistrées et que vous voulez quand même quitter sans sauvegardes :
+				<figure>:q!</figure>
+				et un petit pro-tip, vous pouvez faire les deux d'un coup :
+				<figure>:wq</figure>
+</p><p>Sachez que les commandes se valident par la touche <code>entrée</code>.</p>
+<p>Je suis conscient que c'est l'absolu minimum ce que je vient de vous communiquer mais commencez par ça. Ce n'est pour l'instant pas plus efficace que n'importe quel autre éditeur ( sauf emacs bien entendu :-þ ) mais les avantages de vim poindront plus tard.</p>
+</article>
+<article class="span12" date="20/11/2012" id="art24">
+<h2>Vim le meilleur outil du linuxien</h2>
+<p>Et voilà le classique : l'article sur vim. Tout linuxien se doit un jour ou l'autre déclarer sa flamme pour son éditeur de texte ( ainsi que son flame envers celui des autres ). Je ferai donc un énième article sur la toile pour vanter les louanges du dieu des éditeurs de texte.</p>
+<p>Déjà faut se rendre compte de l'importance d'un éditeur de texte. Mais pour cela il faut connaître un poil son OS. Tous les OS potables sont gérable intégralement en mode texte. Mais bon ça n'est qu'une partie de l'équation. Beaucoup d'OS tentent de suivre le précepte : « Tout est fichier ! ». C'est pas absolument vrai ( tout du moins en dehors de Plan9/Inferno ) cependant on s'en rapproche quand même pas mal dans la pratique. Partant de ces deux constats, on en déduis qu'un éditeur de texte en mode console permet pas mal de démerdouillage.</p>
+<p>Bon on a désormais besoin de se convaincre qu'un éditeur de texte comme nano ne nous suffit pas. Là c'est un peu plus dur de convaincre les gens. Quand on se destine à travailler plusieurs heures par jour avec son ordi et par extension son OS pendant au bas mot le reste de sa vie, il n'est pas trop insensé se dire qu'un investissement personnel dans la maîtrise d'un éditeur de texte sera profitable et facilement rentabilisable. Maintenant que mon lectorat capitaliste est entièrement convaincu, je vais te convaincre toi le Kevin du fond. Vim est un outil se basant sur vi il a donc un héritage de pas loin de quarante ans. Ça remonte à aux balbutiements de l'informatique mine de rien. S'il est encore utilisé et amélioré depuis tout le temps c'est un peu parce qu'il s'agit d'un outil plutôt bien branlé et à même de faire tout ce qu'on peut attendre d'un éditeur de texte, tu crois pas ? Et puis c'est tellement drôle de voir des gens essayer de fermer vim pour la première fois.</p>
+<p>Bon allez sachez d'abord que vim est un éditeur de texte. Contrairement à emacs ( son nemesis ) qui tend à devenir un userland complet ( à quand emacs/linux pour remplacer gnu/linux voir lennux ). Ensuite et c'est le plus étrange au début, il est modal. Il fonctionne donc selon différents modes. Le premier permet de lancer des commandes, celui qui vous intéressera le plus au début est le mode INSERT qui permet d'entrer/d'éditer du texte, les autres on verra plus tard si vous êtes sages. Vim est parti du constat que lorsqu'on édite du texte, on est finalement pas tout le temps en train d'écrire. Et c'est finalement une bonne remarque mais vous vous en rendrez compte au fil de votre voyage en terres de vim. Car oui, il ne faut quand même pas se voiler la face, c'est une épopée qui durera. On peut en apprendre tous les jours avec ce logiciel. C'est un art qui s'approprie lentement. On ne devient pas un vim-golfeur en un week-end. Les manies que vous apprendrez sous vim pourront d'ailleurs vous servir dans tout un tas d'autres softs ( less, pentadactyl, … ). Vim a inspiré de nombreux développeurs mine de rien.</p>
+<p>Je vais donc finir cet article pour commencer de suite le guide de survie minimum avec vim. Et j'enchaînerai vers d'autres techniques plus avancés au gré de mes envies. Et je vais de ce pas vous pondre un second article. Deux articles le même jour ça sent l'apocalypse maya ou l'armageddon voir le ragnarok!</p>
+</article>
+<article class="span12" date="24/10/2012" id="art23">
+<h2>Un nouveau navigateur pour de nouveaux océans</h2>
+<p>Ça me pendait au nez. Depuis de très longues années j'utilisait fièrement Opera. Depuis la version 7.11 à vrai dire soit plus très loin de dix ans. Tandis que le panda n'était qu'un piaf je découvrait les onglets (pas vraiment mais j'ai trop honte d'avouer que j'utilisais une surcouche d'ie). En pas loin de dix ans j'ai découvert de très nombreuses features plus ou moins connues ou exotiques. J'ai trifouillé une grande partie de ses ini pour lui trifouiller les boyaux afin de le plier à mes exigences. Un bon vrai navigateur, multiplateforme toujours respectueux des standards et globalement en avance sur la concurrence.</p>
+<p>L'arrivée de firefox a commencé à mettre à mal ie au point que microsoft réalise qu'en fait un navigateur mérite des updates espacées de moins de cinq ans. Mais c'était pas encore vraiment un vrai marché concurrentiel. Firefox n'a fait que bouffer des parts de marché à un vieil outil utilisé de tous sans vraiment savoir que ce n'était pas Internet mais juste un navigateur web. On se retrouve au final sur un marché où le vénérable ie donne ses parts à firefox auprès des initiés et auprès des Michu se faisant installer un “internet moins virusé”. Pas vraiment de conviction mais bon après tout comment être convaincu par un outil qu'on ne soupçonne même pas en être un.</p>
+<p>Puis vint khtml qui fît ses débuts sur les unices pour se transformer en webkit qui deviendra le moteur alternatif qui pourra s'imposer grâce aux mastodontes que sont google le roi de la pub et apple le roi des moutons. Le succès ne peut qu'être assuré. Le marketing aidant et le public commençant à assimiler qu'Internet n'est pas ie, webkit pris de l'ampleur au point de faire pendant quelques temps une microsoftade en réussissant à convaincre des webdev à reprendre de la syntaxe non standardisé comme étant acquise. Bref on arrive enfin à un vrai marché avec trois gros moteur : gecko le moteur des panda, webkit le moteur des pokéball et des tueurs d'animaux et enfin trident le moteur des vieux navigateurs. Ha mais je voulait parler d'Opera ! Cette phrase identifie parfaitement ce qui arrive à Opera depuis… tout le temps. Il ne parvient pas à faire parler de lui, il se fait oublier. Il n'a pas réussi à faire grossir sa communauté en dehors d'elle-même. Pourtant que peut-on lui reprocher ? Sa licence ? Oui c'est vrai il n'est pas opensource. Et ? Bha c'est à peu près tout au final. Les sites non compatibles sont généralement des sites mal branlés ou alors discriminant (merci le spoof-UA). Ce navigateur est bon aussi bien pour les Michu car son interface de base cache bien son jeu. La complexité du navigateur ne se voit pas. Il peut être utilisé comme un bête firefox, a un rendu proche d'un chromium et. Non je trouve pas vraiment de ressemblances avec ie désolé.</p>
+<p>Bon fini de tergiverser, je quitte quand même Opera. Je l'aime toujours mais depuis la version 12 il plante. Il affiche aussi une barre inutile avec un bouton de menu alors que je n'en ai cure. Et puis il plante ! Je reviendrai peut-être quand ces points seront réparés…</p>
+<p>Je suis donc passé chez les tueurs de mosaïques. Et franchement c'est pas mal un navigateur opensource. Et du coup certaines extensions permettent de le rendre utilisable. Je pense particulièrement à pentadactyl qui octroie au navigateur une vraie interface clavier bien pensée. On saupoudre de ghostery pour virer tout un tas de merde comme sous opera et tant qu'à y être un adblockplus parce que bon faut pas trop déconner. Et pour combler le kikoo qui sommeille en moi j'ai craqué pour une petite extension permettant de contrôler grooveshark depuis la barre de pentadactyl. Et j'obtiens un navigateur pas trop dégueu.</p>
+<p>Bon je sais pas combien de temps je vais devoir tenir loin de mon O rouge mais bon…</p>
+<p>Vous avez remarqué que j'allonge les articles et que je les espace moins. Je vais bientôt vous pondre un article vantant les louanges de vim tiens (teaser toussa toussa). Amusez-vous bien et gare au photon rush.</p>
+</article>
+<article class="span12" date="30/09/2012" id="art22">
+<h2>Bootstrapper le site</h2>
+<p>Et voilà. Ce qui devait arriver est arrivé. Et voilà que le site à un nouveau design. Et puis j'ai craqué pour le fameux twitter bootstrap. C'est propre simple et classe. Ça a un peu la même gueule que tous les autres sites mais c'est vraiment pratique.</p>
+<p>Bootstrap est un ensemble de javascript et de css pour faire des sites propres et de manière très simple. Il suffit d'appliquer des bonnes classes aux différents éléments. Un ptit span9 sur un élément et pof il récupère ce qu'il lui faut. Plus qu'à choisir un thème et zou. Avec des petites icônes sous forme d'une font à utiliser très simplement. C'est la première fois que j'ai mon site perso sous un système non-fait maison. En même temps c'est la première fois que j'ai un site qui ait un minimum de gueule…</p>
+<p>Je vous promet que les images vont bientôt arriver pour faire un peu plus léger. Allez vous pouvez ré-éteindre votre cerveau, je vous rebipperai d'ici deux-trois mois pour un autre article.</p>
+</article>
+<article class="span12" date="22/07/2012" id="art21">
+<h2 class="titre">Un bureau moderne sous linux</h2>
+<p>Ouais un petit titre prétentieux et même trompeur diront certains (dont je ne fait pas partit, mais on s'en fout vu que ces certains n'ont pas la parole). Au final, je viens de réinstaller une gentoo sur mon bon vieux laptop d'il y a quatre ans. La petite arch qui y trônait a rendu l'âme (une sombre histoire d'update au bout de plusieurs mois sans servir) et du coup j'ai voulu revenir à cette bonne vieille gentoo. Je me retrouve avec toute une petite flottille sous gentoo, plus de traître à la maison.</p>
+<p>J'ai au final réinstaller sur un schéma très proche de mon ordi fixe. J'ai utilisé un petit PXE pour booter une debian des familles. J'en ai d'ailleurs profité pour la mettre à jour après plusieurs mois d'abandon et elle n'a pas trop souffert. Gnome3 n'est pas si pourri que ça (tout du moins pas gnome-shell), avec un peu d'habitude et quelques jours passés avec j'imagine qu'on doit en avoir une plutôt bonne maîtrise. Mais trêves de conneries allons droit au but : la gentoo en desktop moderne.</p>
+<p>Un petit tour d'abord sur gentoo. On la dit en perte de vitesse mais que nenni. Cette distro est toujours au top et garde toujours ses atouts. C'est stable, ça fonctionne très bien, peu de surprise, tout est bien rangé, la doc est excellente et c'est personnalisable à souhait. La flexibilité ! Les paquets fournis de bases sont peu nombreux et peuvent être facilement remplacés pour la plupart. Le gestionnaire de paquet est un petit bijou et permet l'ajout de dépôt externe de façon ultra simple (c'est plus simple que chez noobentou). Bon je vais pas vous faire un paragraphe plus long, vous avez compris je suis un fanboy accompli.</p>
+<p>Un desktop. Quand je dit ça, je l'oppose pas au laptop mais au monde des serveurs. Je suis convaincu que linux (couplé à son gnou) est un OS parfait pour un desktop (même gentoo). Tout peut y être fait appart jouer (et encore en chipotant on peut s'en sortir un peu même si ce n'est pas la panacée). C'est un OS qui supporte des tonnes de matos, qui est bidouillable de partout avec un choix d'environnement logiciel gigantesque. Là où sous d'autres OS on en chie pour changer une icône, ici on peut tout modifier et avoir un environnement qui ne peut que nous convenir. Je ne dit pas que c'est facile. Loin de là. Si on veux un environnement aux petits oignons parfaitement polis de partout ça va être long et il ne faudra pas être un débutant nunuxien. Pour ces personnes là, il faudra se tourner vers des distros qui ont fait ce travail à notre place. Mais qui du coup auront également pris les choix à notre place. C'est donc un compromis. Mais la patience étant une vertu, la maîtrise d'un outil s'acquière avec le temps et surtout l'expérience dépend de l'investissement.</p>
+<p>Bon au final c'est quoi un desktop moderne ? Je dirait que c'est un environnement informatique que l'on maîtrise au poil de cul. Où chaque aspect nous sied et où le compromis disparaît au profit d'une satisfaction maximale. Je suis personnellement adepte de la perfection qui s'atteint lorsqu'il n'y a plus rien à enlever. Je veux un OS qui se contrôle parfaitement à la souris mais (et surtout) au clavier. Ne plus être contrait de chopper ce satané mulot est un confort qui s'apprécie avec le temps. Il m'arrive de temps à autre de chopper le raton après seulement une heure d'utilisation de l'ordi à cause d'un site ouaib mal branlé (genre celui que vous lisez). Un point important de l'ergonomie est également une cohérence dans les raccourcis claviers des différentes applications. Je tente en effet de garder une certaine logique. Par exemple pour fermer mon navigateur j'utilise Ctrl-Q, pour fermer mon gestionnaire de fenêtre, je déclenche un joli Alt-Shift-Q, pour éteindre l'ordinateur c'est un voluptueux Alt-Q. En sachant que les raccourcis utilisant la touche Ctrl sont ceux du navigateur, la touche Alt servira pour les raccourcis du gestionnaire de fenêtre ainsi que du gestionnaire de login (étant donné qu'un seul à la fois à le focus, cela ne pose pas de soucis).</p>
+<p>Actuellement mon utilisation se résume à de la navigation web et des applications en consoles. Je n'ai quasiment aucune application graphique. Ça ne fait pas très 2012 comme ça mais pourtant c'est très efficace. On trouve de plus en plus d'applications web (webmail, lecture vidéo, lecture de musique,...), ça devient un environnement quasi-complet. D'ailleurs, jetez-moi ces onglets dans votre navigateur. Pourquoi s'embêter avec cela ? Vous n'avez pas déjà un gestionnaire de fenêtre dont c'est le boulot ? Ça vous permettra de réduire le nombre de raccourcis à retenir/utiliser. Ça permet également une plus grande souplesse. Vous bénéficierez de toutes les joyeusetés de votre WM, des onglets, du stacking, du fullscreen, du floating, de la mosaïque... Et virez-moi cette barre d'adresse également. Combien de fois vous sert-elle réellement ? Lorsque vous ouvrez une page, appuyez sur une touche pour indiquer que vous entrez une url (ce qui en plus prendra le focus sans utiliser la souris) et basta. Encore un gain d'espace et toujours plus prêt du minimalisme. Si vous avez du mal à le faire par vous même testez quelques temps un navigateur propre,simple et moderne tel que surf.</p>
+<p>Bon allez, vu que j'ai déjà dévoilé un navigateur, voici la liste des principaux éléments d'un os moderne (toujours selon moi, je devrait pas le préciser puisque c'est mon "blog", mais bon).Voyons ça dans l'ordre d'utilisation.</p>
+<p>On commence par le login manager. J'utilise qingy. C'est un login manager très léger et pourtant très puissant. Il remplace login/*getty/gdm/kdm/slim/orthos. Il a pas mal d'avantages. Déjà il est léger et possède peu de dépendances. Il peut être à la fois purement console ou bien graphique. Lorsqu'il est graphique, il ne tourne pas sous X mais sous DirectFB, ce qui permet lorsque l'on casse son X d'avoir au moins un login manager qui fonctionne (pas le cas de gdm et kdm). Même en mode console il permet de choisir sa session. On peut donc démarrer une session X (un wm, un DE) ou bien session texte (un shell, un script). Il peut se souvenir du dernier utilisateur loggué. Il peut lancer X dans le tty d'origine ce qui facilite les utilisateurs multiples simultanés. Il peut locker votre session lors d'une inactivité ou bien lors d'un changement de tty. Non il est juste parfait.</p>
+<p>Vient ensuite le gestionnaire de fenêtre (WM). J'ai drainé pendant un couple (huhu) d'année sous wmii. Il était vraiment bien mais au final son architecture exotique à la plan9 bien qu'intriguante était fatiguante. Je me suis tourné vers l'un de ses successeurs : i3. C'est à mon goût ce qu'il se fait de mieux en tiling. Il a toutes les qualités qu'on peut en attendre. C'est léger, rapide, simple et le pire c'est que ça marche ! Il permet virtuellement tous les layouts imaginables. On peut empiler les fenêtres, les gérer comme s'il s'agissait d'onglet, mettre côté-à-côte, mettre l'une sur l'autre, combiner le tout plusieurs fois. Et tout ça au clavier avec un fichier de configuration très simple (pas de langage à compiler ni à connaître). On peut lui ajouter facilement des raccourcis pour gérer un lecteur multimédia, lui ajouter une barre avec des infos. On peut modifier l'apparence des bordures des fenêtres : 1pixel seulement, une barre de titre ou même sans bordure. Bref, c'est le WM en tiling parfait.</p>
+<p>Pour l'émulateur de terminal le choix est assez simple. Il faut un terminal qui se débrouille bien en unicode, qui soit léger, rapide, ne plante pas et puisse être pas trop moche (je le regarde 8h/jour le pépère). J'ai choisis rxvt-unicode (urxvt pour les intimes). Il répond à tous ces critères et possède même un exotique mode client/serveur : urxvtd attend les connexions d'urxvtc. Vous avez du coup un seul démon qui tourne en mémoire et tous les clients disparaissent en lui (enfin je me comprends). Ce qui ne fait qu'un seul process pour tous les terms. Ils sont donc instantanés à l'ouverture et bouffe moins de ram.</p>
+<p>Pour le navigateur, je vous ai quelque peu induis d'erreur en vous préconisant surf. Il est bien avec un bon moteur de rendu (webkit) mais il a quelques aspects un peu trop limites à mon goût. Je lui préfère le bon vieil Opera. Et ouai il est pas opensource libre toussa. Mais putain ce qu'il est bien ! Ultra personnalisable, léger, fait tout, toujours à la pointe des standards (ou presque), tout pleins de features. Je l'utilise d'une façon particulière : j'ai viré toute son interface. Il n'a plus aucune barre d'outil : pas de barre d'onglets vu que je ne les utilise pas, pas de barre d'adresse vu que ça ne sert que très peu, pas de barre de statut parce que, bhaaa, je sais pas trop à quoi ça sert... Pour les onglets je gère ça au niveau d'i3. Je règle Opera pour qu'il ne gère qu'une page par fenêtre et qu'il ouvre des fenêtre en lieu et place d'onglet. C'est ensuite i3 qui les gère à ma convenance selon l'humeur du moment. Je déplace les pages web d'un bureau à l'autre, à côté d'un terminal, ou bien stacké dans un coin... Pour la barre d'adresse, j'ouvre la fenêtre pop-up d'adresse par F2. Du coup je dois appuyer sur un bouton avant d'entrer l'adresse. Au final, ça ne rajoute qu'une touche, ce qui est généralement négligeable face à la longueur d'une URL. Un reproche récurrent c'est le fait de ne plus "maîtriser" l'adresse. Les rares cas où j'édite une URL, je peux le faire en faisant réapparaître la barre d'adresse par F1. Si votre coeur de libriste se déchire à la vue de la licence, vous pouvez vous rabattre sur surf, uzbl (tous les deux en webkit) ou bien vimprobable, pentadactyl (gecko) mais ce sera pas aussi souple/pratique/bien.</p>
+<p>Bon bha je vous ai fait un roman mais au final c'est peut-être plus, comment dire ? ... personnel, blog, expressif, parabolique, que d'habitude. J'ai tout de même le sentiment d'oublier des choses. Je compléterait peut-être par la suite.</p>
+</article>
+<article class="span12" date="18/07/2012" id="art21">
+<h2 class="titre">Des flèches</h2>
+<p>↑↑↑→↓←↓→↑←↓<strong>←</strong>↑→↓←↑→↓→↑←↑→↑</p>
+</article>
+<article class="span12" date="09/04/2012" id="art20">
+<h2 class="titre">Et voilà que je reviens sur mon site.</h2>
+<p>J'en reviens encore à me demander que faire de ce site.</p>
+<p>En faire un vrai site avec la motivation pour publier des vrais trucs un peu plus régulièrement. Ça pourrait à la fois me motiver et à la fois vous intéresser. Bha ouai, au fond de moi je suis sûr que j'ai des trucs intéressants à dire au moins de temps à autres. Et ça peut m'intéresser également pour plus tard.</p>
+<p>Dans ce cas est-ce que je reste sur mon système actuel d'un seul bon gros fichier html pas si crasseu que cela. Ou bien je passe à un vrai cms (si possible statique) ? Qui plus est j'ai fait mumuse avec node.js ces derniers temps. Juste pour m'amuser, n'étant pas programmeur du tout je peux pas faire grand chose. Mais du coup est-ce que je ferai pas un sacré effort pour tenter de pondre un truc dessus et y héberger mon site/blog en l'améliorant petit à petit jusqu'à pondre d'un truc miraculeux faisant de moi une superstar du logiciel libre/opensource ?</p>
+<p>Je sais pas trop. Toujours est-il qu'il faut savoir commencer petit, être patient et avoir de quoi remplir le site web. L'apprentissage de node.js pourrait d'ailleurs être une série d'article sympas…</p>
+<p>Bon pour aujourd'hui je vais faire un peu mumuse avec le CSS et peut-être node mais bon je ne promet rien. D'ailleurs remarquez comme j'ai fait des efforts de structurations en en découpant le wall of text en plus petit morceaux. Encore un petit effort et je mettrait des illustrations et tout !</p>
+</article>
+<article class="span12" id="art19">
+<h2 class="titre">Bidouil^wRéparons de la gentoo.</h2>
+<p>Imaginons que par un improbable hasard vous tombiez sur une pauvre petite gentoo abandonnée. Vous voulez faire la mise à jour et là, pas ici, mais là, vous vous apercevez que vous avez une glib et une glibc impossible à emerger pour diverses raisons. Il est possible d'émerger les paquets relous sur une autre gentoo fonctionnelle. Pous plus de simplicité, il est appréciable que les architectures soient identiques et si possible d'avoir le même <strong>ACCEPT_KEYWORDS</strong>. Il est toujours possible de bidouiller pour adapter ça (même pourquoi pas monter une chaîne de crossdev pour créer des paquets pour d'autres architectures, mais là n'est pas le propos).</p>
+<p>Pour faire ce genre de manip, il faut emerger le paquet sur la machine sain avec <strong>--buildpkgonly</strong>. Il sera placé dans <strong><i>/usr/portage/package/catégorie/paquet.tbz2</i></strong>, vous le transversez vers la machine foireuse dans le même dossier et vous l'émergez avec <strong>--usepkgonly</strong>.
+			</p></article>
+<article class="span12" id="art18">
+<h2 class="titre">Protocolons !</h2>
+<p>Bon et si nous faisions du lol ? On va parler quelques protocoles usuels à la main à travers un socket (type netcat ou telnet). R2R ? (Ready to rock)</p>
+<p>Parlons SMTP : Envoyons un mail comme un vrai hacker.</p>
+<figure>nc monserveursmtpfavoris.com 25<br/>
+				EHLO monserveursmtpfavoris.com<br/>
+				MAIL FROM: monidentité@monserveursmtpfavoris.com<br/>
+				RCPT TO: mondestinataire@sonsmtp.com<br/>
+				DATA<br/>
+				Un supayr mail<br/>
+				.<br/>
+</figure>
+<p>Et voilà vous avez envoyé un mail à la mano. comme quoi SMTP c'est facile. Et si on faisait son pote IMAP ?</p>
+<figure>nc monimapfavoris.com 143<br/>
+				. login monuser monpass<br/>
+				. status INBOX (messages)<br/>
+				. status INBOX (unseen)<br/>
+				. fetch monnumérofavoris full<br/>
+				. logout</figure>
+<p>Encore une fois c'était facile mais c'est moins intéressant tout de même…</p>
+<p>Bon pour la prochaine un peu d'irc ?</p>
+<figure>nc monserveurircfavoris.com 6667<br/>
+				user monpseudo monhost monserveurircfavoris.com :monident<br/>
+				nick monpseudo<br/>
+				privmsg monami : Telnet saytrolol !<br/>
+				pong monserveurircfavoris.com
+				</figure>
+<p>Bon c'est déjà pas mal non ?</p>
+<p>La petite astuce pour faire pareil en chiffrant pour se connecter sur du ssl: remplacer netcat par openssl avec</p>
+<figure>openssl s_client -connect host:port</figure>
+</article>
+<article class="span12" id="art17">
+<h2 class="titre">Un coup de polish</h2>
+<p>Et voilà une petite modernisation du site web. Un design tout en dégradé toussa vive le css3. On peut enfin faire des trucs dynamique simplement et des designs plus travaillés sans aucunes images.</p>
+</article>
+<article class="span12" id="art16">
+<h2 class="titre">Un ptit coucou</h2>
+<p>Non je ne suis pas mort ! Et d'ailleurs je viens de résoudre un problème que j'ai depuis toujours sur ce laptop : faire sortir du son depuis la prise jack. En fait c'était tout con. Il suffisait de rajouter dans le <strong>modprobe.conf</strong> :</p>
+<pre>options snd-hda-intel model=m51va position_fix=0</pre>
+<p>Bon j'avoue ce message est destiné à mon moi du futur qui réinstallera surement un nunux et se fera chier avec ce bug à la con.</p>
+</article>
+<article class="span12" id="art15">
+<h2 class="titre">Migration</h2>
+<p>Et voilà j'ai changé d'hébergement, enfin la machine qui me sert un peu pour tout. Donc je suis passé d'une config qui fût jadis mon PC principal. Un Opteron 165 dual core overclocké et watercoolé dans un boitier Antec Twelve Hundred. Je suis passé à un petit PC sur base d'atom D510. Globalement je pense que j'ai perdu en perf mais j'ai casé ça dans un boitier Fractal Design Array R2. Je passe d'un boitier grande tour à un boitier mini ITX. Sympa le gain de place et ce coup-ci en fanless (enfin presque) et sans watercooling (plus de petits glouglous). La config est vraiment très très silencieuse. J'ai migré les disques durs (et rajouté un petit à la famille). Ce PC sert donc principalement de routeur et de NAS (avec une capacité de six disques durs). La migration a été simple. Il a suffit de dire à grub de booter sur le bon disque (au bout du troisième essai soit près de deux minutes) et me voili voilà avec ma gentoo up and running.</p>
+</article>
+<article class="span12" id="art14">
+<h2>MSN aurevoir</h2>
+<p>Ça y est je me suis barré de msn … il me semble que c'était mon seul truc encore sur un réseau proprio. Je suis très proche d'un écosystème parfaitement libre. De tête, il me reste plus que les drivers nvidia et Intel sur mon laptop ( et Team Fortress² ) sur l'autre PC.</p>
+</article>
+<article class="span12" id="art13">
+<h2>Jabber me voilà</h2>
+<p>Dans ma quête d'indépendance numérique, de liberté et de maîtrise de ma vie privée je viens de me monter un serveur jabber (ejabberd) pour à terme me débarasser d'msn, icq et companies. Donc maintenant vous pourrez me joindre par jabber à la même adresse que mon mail… C'est très propre et bien mieux que merdsn. Tiens j'ai aussi fait un chtit wiki pour me faire une petite "GED". Bon allez bouffez pas trop de bande passante et HF.</p>
+</article>
+<article class="span12" id="art12">
+<h2>Nouveau kernel not for fun</h2>
+<p>Et voilà je viens de passer d'un kernel 2.27 patché pour openvz vers un tout neuf 2.33.1 .J'en ai profité pour ajouter des petits trucs indispensables qui me faisait défaut : le redirect de netfilter (et ouai je l'avait oublié), le support de nfs en mode serveur (pour améliorer mon pxe) l'ajout du support de kvm (à défaut d'openvz…). Bon sur ce amusez-vous bien cher lectorat et préparez-vous à une nouvelle version de mon CMS encore plus optimisé pour tourner sur moins d'un Mo !:wq</p>
+</article>
+<article class="span12" id="art11">
+<h2>Monitorons ce qui traine sur son réseau</h2>
+<p>Lors de mon passage de Debian vers Gentoo, je n'ai pas réinstallé Munin. Je ne m'y prends que maintenant. Munin permet de faire de petits graphs très pratique concernant à peu près tout et n'importe quoi… C'est encore une fois un système de clients/serveur. Commençons par un petit emerge munin. Et là c'est quasiment finit pour le serveur. Il ne reste qu'à ajouter les clients à interroger dans <strong>/etc/munin/munin-node.conf</strong> selon la syntaxe décrite en exemple.</p>
+<p>Sur la partie cliente, il faut définir les plugins utilisés par le biais de liens symbolique. Par exemple : <strong>ln -s /usr/libexec/munin/plugins/if_ /etc/munin/plugins/if_eth0</strong><br/>Certains plugins nécessite un argument comme celui-ci dessus mais pour d'autre non… Il existe un client windows avec quelques plugins intéressants. Pour les unix, sachez que les plugins ne sont que de simples scriptes renvoyant des valeurs dans une syntaxe relativement simple. Sur ce bonne nuit et à la prochaine.</p>
+</article>
+<article class="span12" id="art10">
+<h2>Mumuse avec OpenVZ</h2>
+<p>OpenVZ est un système de virtualisation pour linux particulier. En bref la machine hôte possède un kernel spécifiquement compilé et partage ce kernel avec les machines virtuelles. On est donc limité dans les OS mais par contre on obtient des performances impressionnantes. Pour plus de renseignements →→ wikipedia &amp; google ←←</p>
+<p>Bon en fait j'ai voulu faire mumuse avec ma ptite gentoo. C'est une machine qui me sert typiquement de serveur. C'est une machine headless. Mais j'avait besoin d'application graphiques nunux pendant que j'utilise des softs uniquements windows sur mon laptop. J'ai donc créé un container openvz (machine virtuelle) avec une bonne vieille lenny où j'ai installé un Xorg. Sur le windows j'ai installé Xming (un serveur X11 très bien foutu). Puis un simple ForwardX11 dans putty et le tour est joué. Le but de ce ptit article c'est surtout de mettre les commandes nécessaires à l'utilisation d'OpenVZ (ouai je sais on le trouve un peu partout mais c'est mon site, je fait ce que je veux).</p>
+<p>Donc dans <strong>/vz/template/cache</strong> on fout le template qu'on veut.</p>
+<figure>
+			vzctl create 101 --ostemplate distrib-version-arch --config<br/>
+			vzctl set 101 --hostname bla --ipadd a.b.c.d --nameserver a.b.c.d --diskspace 2G:3G --cpulimit 125 --save<br/>
+			vzctl start 101<br/>
+			vzctl enter 101<br/>
+			vzctl exec 101 htop<br/>
+</figure>
+<p>Bon je crois que c'est à peu près tout. Avec ca on peut bien faire mumuse.</p>
+</article>
+<article class="span12" id="art9">
+<h2>Optimisation du serveur web</h2>
+<p>N'ayant qu'une tite connexion ordinaire de français en ADSL, mon upload est très limité. Du coup, lors de la visite de ce merveilleux site web, le chargement des pages est assez longs. Pour tenter d'améliorer la situation je viens d'activer la compression gzip des pages. Pour mon site web la différence est ahurissante. Je diminue par 4 la taille de la page. Donc pour cela j'ai édité le fichier <strong>/etc/lighttpd/lighttpd.conf</strong> . J'ai décommenté la ligne de server.modules pour mod_compress. Puis j'ai rajouté deux lignes :</p>
+<pre>compress.cache-dir = "/tmp/lighttpdcompress"<br/>compress.filetype = ("text/plain", "text/css", "text/xml")</pre>
+<p>J'en ai également profité pour activer la compression pour les fichiers générés par php. Donc dans <strong>/etc/php/cgi-php5/php.ini</strong> il faut ajouter ces lignes:</p><pre>zlib.output_compression = On<br/>zlib.output_handler = On</pre>
+<p>Et voilà vous avez un site tout allegé en Ko.</p>
+</article>
+<article class="span12" id="art8">
+<h2>Un chtit coup de ViM pour changer</h2>
+<p>Ce coup-ci j'ai voulu faire un truc tout con : colorer le syslog dans vim. Donc je vais sur vim.org, je cherche un script de coloration de syslog. Je télécharge le fichier dans <strong>~/.vim/after/syntax/syslog.vim</strong> . Ensuite il ne reste plus qu'à éditer/créer le fichier <strong>~/.vim/filetype.vim</strong> avec dedans :</p>
+<pre>augroup filetypedetect<br/>au! BufRead,BufNewFile /var/log/syslog set filetype=syslog<br/>augroup END</pre>
+<p>Et voilà la prochaine fois que vous lirez vos logs vous aurez de zolies couleurs :-D</p>
+</article>
+<article class="span12" id="art7">
+<h2>Ajout de PostGrey et ...</h2>
+<p>Wow la classe ! Mon premier titre avec des points de suspensions ! Bon alors voilà j'en ai un peu marre de la masse de spam que je reçoit. Mon installation de mail est quelque peu bancale. J'ai en fait un ptit postfix, procmail, dovecot, roundcube. Ca fait un combo qui fait un tit gmail like tout ca auto hébergé. Mais j'aimerait pouvoir m'y connecter avec thunderbird pour faire mumuse avec le plugin lightning qui permet de gérer l'agenda, calendrier, les tâches, tout cela dans le but de synchroniser avec mon téléphone portable par le biais d'un serveur funambol que je me suis installé. Bon ca commence à faire un sacré bastringue. Donc chaque chose en son temps. Je n'arrive pas à me connecter depuis Thunderbird ni même Opera à mon serveur de mail en imap. Donc j'essai de voir pour gérer ca. J'en ai profité pour ajouter du greylisting pour virer un peu de spam. Qui plus est mon procmail est légèrement foireux. J'ai tenté d'ajouter des règles pour classer automatiquement les mails mais malheureusement ce n'est pas pris en compte. Encore un truc louche donc bref. J'ai du pain sur la planche pour 2010. (Bha vi faut en parler aussi).</p>
+</article>
+<article class="span12" id="art6">
+<h2>Unicodisation</h2>
+<p>Houllla je poste de plus en plus souvent ! Je vais finir en blogueur influent d'ici peu ! Bon en fait comme annoncé précédemment j'ai fait en sorte de ne plus avoir de soucis de charset. En bref j'ai modifiées mes locales pour n'avoir au final que "en_US.UTF-8 UTF-8". J'ai créé le fichier /etc/env.d/02locale où j'y force mes variables de locales et le tour est joué. Je n'ai plus qu'à reconfigurer vim et putty pour qu'ils fassent du bel utf-8. Et maintenant je peux me la péter avec de beaux trucs incompréhensibles : Ϣ о҉ ۩ ༄  ←↓→↑ ↙↓↘ ↖↑↗ </p>
+</article>
+<article class="span12" id="art5">
+<h2>Degooglisation</h2>
+<p>Bon allez je vais suivre un peu la mode de la degooglisation en commencant a migrer ma principale boite mail de gmail vers une boite autohebergee sur un postfix dovecot roundcube procmail. Je ne peux pas dire que c'eut ete simple mais en tout cas c'est gratifiant et je regagne un peu de liberte (c'est fichtrement plus agreable quand c'est heberge a la main). Bon c'est peut-etre pas aussi fiable (va me falloir un onduleur) mais bon. Prochaine etape ca sera de regler le soucis d'utf8 de la gentoo. Ca merde de droite et de gauche ce bastringue. Allez j'arrete de vous emmerder avec mes fautes.</p>
+</article>
+<article class="span12" id="art4">
+<h2>Passage en full SSL</h2>
+<p>Juste un petit passage pour dire que je viens de passer le serveur web en SSL obligatoirement. Comme ça je montre mon côté anarchiste anti hadopiste et puis ca fait plaisir à certains de me faire bouffer plus de CPU pour afficher des pages pleines de blabla chiants.</p>
+</article>
+<article class="span12" id="art3">
+<h2>Changement de serveur</h2>
+<p>Et voilà  je viens de migrer du bon gros Apache au chtit Lighty. Franchement sympas ce serv. Il est plus léger et bien plus claire dans la syntaxe de sa config. Quelle facilité pour faire des vhosts. Bon allez sur ce je vais tenter de diminuer la conso ram de lighty/mysql ...</p>
+</article>
+<article class="span12" id="art2">
+<h2>Allez parceque je suis gentil je vous fait de la lecture.</h2>
+<p>Bon bha je suis passé de Debian à Gentoo et j'ai enfin transformer ce pc en serveur... j'ai viré X. De suite beaucoup plus léger. Sans serveur web ca ne bouffe qu'une trentaine de Mo de ram. C'est déjà bien mieux que les 250 de la debian. Et puis c'est tout bien fait aux petits gnongnons. Bon c'est fini pour la lecture. A la prochaine.</p>
+</article>
+<article class="span12" id="art1">
+<h2>Encore une fois un nouveau site !</h2>
+<p>Et ouai pour la X ième fois je refais un site de zéro ce coup-ci avec un CMS fait maison. Comme d'hab je me fais un point d'honneur à avoir un site valide et qui soit lisible partout (même les navigateurs console ce coup-ci). J'espère que le nouveau design (web 3.0 certified) vous plaira autant qu'à moi.</p>
+</article>
+</div>
+</body>
+</html>
