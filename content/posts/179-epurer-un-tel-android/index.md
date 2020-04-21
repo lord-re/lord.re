@@ -6,10 +6,28 @@ menu = "main"
 notoc = true
 WritingDate = 2019-08-27T13:13:57+02:00
 date = 2019-09-10T19:13:57+02:00
+lastEdit = 2020-04-21T22:06:03+02:00
 title = "Épurer un téléphone Android"
 editor = "kakoune"
 TopWords = [  "applis", "bixby", "merdes", "sec", "app", "google", "samsung", "android"]
 +++
+**EDIT du 21/04/2020 :**
+Hey je vois que cet article redevient populaire sans trop savoir pourquoi.
+Mais, maintenant je sais pourquoi.
+Pas mal de monde cherche ce à quoi correspond l'appli **IPSGeofence** .
+
+Bon alors en fait *il s'agit d'une application de localisation qui ne se base pas sur le GPS mais sur des balises terrestres comme des tags ou des beacons bluetooth disséminés un peu partout*.
+Et avec ces histoires de confinement suite à la pandémie Covid19 mais surtout de la sortie de confinement bha ça revient pas mal sur le carreau.
+
+Bref, c'est une appli qui peut potentiellement participer au pistage.
+Je sais pas vous, mais bon, avec cet article vous verrez comment la désactiver.
+
+Voilà je vous laisse l'article rien que pour vous.
+
+-----------------
+
+
+
 J'ai récemment changé de téléphone pour le boulot.
 Me voilà donc avec un Samsung Galaxy A50.
 
