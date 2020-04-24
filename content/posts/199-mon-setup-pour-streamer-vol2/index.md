@@ -208,3 +208,4 @@ Voili voilou.
 Bon dans le prochain article j'aborderai enfin la partie diffusion.
 Donc une partie dédiée à la partie diffusion webcam et une seconde plus pour le streaming plus classique.
 
+L'épisode suivant est là : [Setup pour streamer Vol.3]({{< ref "posts/200-mon-setup-pour-streamer-vol3" >}})
