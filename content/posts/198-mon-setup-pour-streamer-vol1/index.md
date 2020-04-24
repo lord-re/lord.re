@@ -196,3 +196,8 @@ Mais il faudra tout de même fournir un flux à cette webcam, ça sera le boulot
 
 Voilà pour cette première étape, on a pas mal préparé le terrain.
 
+Ensuite on va :
+  - [Prendre en main OBS dans le vol2]({{< ref "posts/199-mon-setup-pour-streamer-vol2" >}}).
+  - [Diffuser le tout via webcam, via RTMP et via une page web]({{< ref "posts/200-mon-setup-pour-streamer-vol3" >}})
+
+
