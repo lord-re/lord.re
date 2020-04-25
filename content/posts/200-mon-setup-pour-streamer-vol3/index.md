@@ -188,9 +188,9 @@ Donc si vous visez les 20 spectateurs, votre flux de 5Mbps se transformera en 10
 Ça chiffre vite.
 
 Si vous souhaitez réduire autant que possible la latence, il faut veiller à mettre les *Keyframe* à <samp>1/s</samp> et penser à mettre le *Tune* sur <samp>zerolatency</samp> ce qui permettra de grapiller quelques secondes.
-On reste cela dit sur une latence minimale de 7secondes dans mes tests (même en local).
+On reste cela dit sur une latence minimale de 7 secondes dans mes tests (même en local).
 Les lecteurs vidéos ayant une tendance à toujours avoir des buffers de marge.
-Et surtout ça pourra facilement monter dans les 30secondes.
+Et surtout ça pourra facilement monter dans les 30 secondes.
 
 Bref, c'est pas fait pour du live le protocole rtmp à très faible latence mais pour la majorité des cas, ça fait le café.
 
