@@ -2,7 +2,7 @@
 Author = "Lord"
 Description = ""
 notoc = true
-VisionnageDate = ["2020-05-02T00:36:33+02:00",""]
+VisionnageDate = ["2020-05-02",""]
 date = 2020-05-02T00:36:33+02:00
 editor = "kakoune"
 Wikipedia = "https://fr.wikipedia.org/wiki/Le_Parrain_(film)"
