@@ -18,7 +18,7 @@ Saga = ["The Godfather"]
 TopWords = [  "trilogie", "parrain", "meurtre", "mafia", "gangster","famille","italie"]
 +++
 Et voilà l'épisode qui clôture cette saga.
-Et bha il est un chouilla moins en deça mais reste très bon.
+Et bha il est un chouilla en deça mais reste très bon.
 
 Il est temps pour *Al Pacino* de commencer à passer le flambeau des années ont passés et la relève pourrait bien être son neveu de son défunt frangin *Sonny*.
 Comme son père *Andy Garcia* est très sanguin et n'est pas du genre à pardonner facilement.
