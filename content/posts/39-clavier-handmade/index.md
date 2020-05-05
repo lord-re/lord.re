@@ -6,7 +6,7 @@ lastEdit = "2018-09-06T22:13:26+02:00"
 title = "Le clavier fait maison : PART 1"
 menu = "main"
 Categories = ["hardware","software","libre","diy"]
-Tags = ["hardware","software","libre","diy"]
+Tags = ["hardware","software","libre","diy","clavier"]
 TopWords = [  "écrire", "typematrix", "bépo", "firmware", "teensy", "claviers", "clavier", "trns"]
 +++
 ~~Cet article est le premier d'une série concernant l'élaboration de mon nouveau joujou.~~
