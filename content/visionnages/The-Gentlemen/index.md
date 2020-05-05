@@ -44,7 +44,7 @@ Et ce mélange est génial.
 
 On a donc le droit à une super histoire de truands se mêlant à de la mafia chinoise.
 Ça se moque un peu de la bourgeoisie, on suit des racailles des quartiers qui ont le malheur de croiser des gangsters de la drogue.
-Ce sont bien les sujets de prédilections de *Gui Ritchie*.
+Ce sont bien les sujets de prédilections de *Guy Ritchie*.
 
 Si vous aimez ses premiers films, vous ne devriez pas être déçu, il n'a pas perdu la main.
 Le montage est toujours aussi énergique.
