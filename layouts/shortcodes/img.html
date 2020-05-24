@@ -5,8 +5,13 @@
 <figure>
   {{ with .Get "link" }}<a href="{{ . }}">{{ end }}
   <picture>
+{{ if ( in "svg ico" (index $name_splitted 1) ) }}
+
+    <img src="{{ $img.RelPermalink }}" alt="{{.Get "alt" }}" />
+{{ else }}
     <source srcset="{{$name_base}}.thumb.webp" type="image/webp">
     <img src="{{ $img.RelPermalink }}" alt="{{.Get "alt" }}" />
+{{ end }}
   </picture>
   {{ with .Get "link" }}</a>{{ end }}
   <figcaption><h4>{{.Get "title"}}</h4></figcaption>
