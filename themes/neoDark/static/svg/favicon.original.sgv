@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="512" height="512">
+<g>
+  <rect id="fond" x="0" y="0" width="512" height="512" fill="#5a31bc"/>
+  <path id="rj" fill="#484848" d="M35,450 v-300 h55 v-60 h50 v-40 h225 v40 h50 v60 h55 v300 Z"/>
+  <g fill="#ffa126">
+    <rect x="120" y="405" width="15" height="60"/>
+    <rect x="155" y="405" width="15" height="60"/>
+    <rect x="190" y="405" width="15" height="60"/>
+    <rect x="225" y="405" width="15" height="60"/>
+    <rect x="260" y="405" width="15" height="60"/>
+    <rect x="295" y="405" width="15" height="60"/>
+    <rect x="330" y="405" width="15" height="60"/>
+    <rect x="365" y="405" width="15" height="60"/>
+  </g>
+  <foreignObject fill="#484848" font-size="140" font-family="cursive" x="70" y="200" width="310" height="120" style="color:#fff;" font-weight="bold"><p xmlns="http://www.w3.org/1999/xhtml" style="line-height: 1em;margin:0;">~/ </p></foreignObject>
+  <rect fill="transparent" x="290" y="210" width="70" height="120"><animate attributeType="XML" attributeName="fill" values="#fff;transparent;#fff" dur="4s" calcMode="discrete" repeatCount="indefinite"/></rect>
+</g>
+</svg>
