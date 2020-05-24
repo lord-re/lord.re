@@ -1,6 +1,7 @@
 User-agent : *
 Disallow: /files/
 Disallow: /tmp/
+Disallow: /porn/
 Sitemap: https://lord.re/sitemap.xml
 Host: lord.re
 Indexpage : https://lord.re/posts/
