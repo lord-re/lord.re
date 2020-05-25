@@ -30,6 +30,7 @@ Pour les <samp>lettres blanches</samp> il faut appuyer sur la case puis glisser 
  <source type="video/mp4" src="https://lord.re/posts/183-video-messagease/partie1.mp4">
 </video>
 </div>
+
 ## 2. Écrire des chiffres
 Vous êtes au top pour les lettres, on passe aux *chiffres*.
 Bon rien de transcendant.
