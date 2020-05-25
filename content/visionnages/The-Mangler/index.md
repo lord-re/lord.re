@@ -133,7 +133,7 @@ Ha et  puis maintenant elle boîte avec ses cannes (comme le patron du début, w
 Elle fait un signe de main qui ne pourrait pas sembler encore moins naturel.
 C'est forcé à un point que je me demande encore si ce n'est pas un animatronic avec un visage super bien fait.
 
-<video loop autoplay width="800"><source src="animatronic.webm" type="video/webm"></video>
+<video loop autoplay width="800"><source src="https://lord.re/visionnages/the-mangler/animatronic.webm" type="video/webm"></video>
 
 Voilà, l'usine a été reprise par une gamine de 16 ans qui a participé à la mort de l'ancien patron sans que personne n'y voit grand-chose à redire.
 
