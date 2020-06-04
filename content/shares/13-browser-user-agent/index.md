@@ -8,6 +8,7 @@ PublishDate = 2019-01-29T20:27:01+01:00
 date = 2019-01-29T20:27:01+01:00
 title = "L'histoire des User Agent des browsers"
 editor = "kakoune"
+TopWords = [  "moteur", "gecko", "khtml", "navigateur", "safari", "mozilla"]
 +++
 Quand vous consultez une page web, votre navigateur web envoie son nom au serveur.
 Cela permet entre autre de faire des *statistiques* à propos des visiteurs d'un site ouaib (tiens X% de mes lecteurs utilisent Chrome 67, Y% utilisent Firefox 58,… ce genre de truc).
