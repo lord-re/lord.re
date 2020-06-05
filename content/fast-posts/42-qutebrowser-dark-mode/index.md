@@ -6,6 +6,7 @@ menu = "main"
 notoc = true
 WritingDate = 2020-01-30T22:57:13+01:00
 date = 2020-01-30T22:57:13+01:00
+lastEdit = 2020-06-05T18:07:00+01:00
 title = "Dark Mode pour Qutebrowser"
 editor = "emacs"
 TopWords = [  "changer", "qutebrowser", "couleur","dark"]
@@ -47,3 +48,18 @@ Bref c'est merdique.
 
 Donc faisons-nous la promesse, lae premier d'entre nous qui trouve comment changer la couleur de la *blank page* et uniquement elle (pas les couleurs par défaut globales à toutes les pages), iel le dit à tout le monde et on sauve l'humanité !
 OK ?
+
+## UPDATE Quterbrowser 1.12 (06/2020)
+Avec la sortie toute récente de Qutebrowser en version 1.12, il existe désormais un darkmode made in Chromium.
+Le Darkmode made in Qt ne fonctionne plus depuis la 5.15 (par chance ça coincide à peu près).
+
+Du coup la nouvelle config a cette allure désormais.
+<details open><summary><em>~/.config/qutebrowser/config.py</em></summary>
+{{< highlight "python" >}}
+c.colors.webpage.darkmode.enabled = True
+c.colors.webpage.darkmode.algorithm = "lightness-hsl"
+{{< / highlight >}}
+</details>
+
+Le résultat est à peu près similaire à l'ancien mode.
+Le soucis du flash blanc à l'ouverture de nouvelle page est toujours présent.
