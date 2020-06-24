@@ -52,5 +52,5 @@ Vous voulez revenir sans rebooter ? Easy vous n'avez qu'à **mount /dev/sda2 /ol
 Il est possible que le **pivot_root** échoue en sortant un maigre *invalid argument*.
 Cela peut venir non pas de la commande elle même mais du montage de votre racine initiale.
 
-Pour voir si ça vient bien de là un petit <samp>grep -iP '/ /\s' /proc/$$/mountinfo</samp>.
-Si vous voyez un petit *shared* qui apparait, il faut lancer la commande **<samp>unshare -m</samp>** et c'est bon le pivot_root passera.
+Pour voir si ça vient bien de là un petit <kbd>grep -iP '/ /\s' /proc/$$/mountinfo</kbd>.
+Si vous voyez un petit *shared* qui apparait, il faut lancer la commande **<kbd>unshare -m</kbd>** et c'est bon le pivot_root passera.

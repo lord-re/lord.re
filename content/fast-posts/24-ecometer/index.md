@@ -32,7 +32,7 @@ Remédions à cela et vite !
 ## Paginons !
 Bon donc on va juste afficher les 20 derniers items sur la home puis mettre les habituels liens précédents/suivants et compagnie.
 
-Dans *layouts/index.html* on remplace le <samp>range</samp> par :
+Dans *layouts/index.html* on remplace le <kbd>range</kbd> par :
 
 {{< highlight go >}}
 {{ $paginator := .Paginate (where .Data.Pages "Type" "in" .Site.Params.sectionsInHomepage ) }}

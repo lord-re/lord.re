@@ -78,7 +78,7 @@ Je poste au gré de mes envies donc avec un rythme potentiellement instable.
 </section>
 
 Parfois vous verrez du texte avec des ptits <abbr title="voilà ce genre là">zigouigouis</abbr>, passez la souris dessus histoire d'avoir un peu de complément d'infos (pas toujours pertinent).
-Et si je mets des <samp>commandes à copier</samp> (comme là)la police est différente pour distinguer ce qu'il faut copier ou non.
+Et si je mets des <kbd>commandes à copier</kbd> (comme là)la police est différente pour distinguer ce qu'il faut copier ou non.
 
 Sur la gauche (ou en haut sur mobile), vous trouverez des icônes pour me mailer/m'irc/me rss/me tooter/ ou pour voir le site en version <abbr title="Une seule page contenant absolument tous les articles">monopage</abbr>.
 

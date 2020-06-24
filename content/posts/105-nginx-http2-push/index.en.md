@@ -54,16 +54,16 @@ But beware, if the server send useless files to the client, the client will drop
 ## And in the Engine X ?
 ### H2
 To enable HTTP2, not much to do in you config.
-In the <samp>*server*</samp> block you should have a <samp>*listen*</samp> line (or more).
-Look for the port 443 and add <samp>http2</samp>.
+In the <kbd>*server*</kbd> block you should have a <kbd>*listen*</kbd> line (or more).
+Look for the port 443 and add <kbd>http2</kbd>.
 
 That's all.
 ### PUSH
 Nginx knows how to push since version *1.13.9* out in February 2018.
 
-In a <samp>*location*</samp> block, where you want to push your content, you'll have to add a simple :
+In a <kbd>*location*</kbd> block, where you want to push your content, you'll have to add a simple :
 
-Bon du coup dans bloc de type <samp>*location*</samp>, depuis l'endroit où vous voulez pusher votre contenu, il va falloir rajouter un simple :
+Bon du coup dans bloc de type <kbd>*location*</kbd>, depuis l'endroit où vous voulez pusher votre contenu, il va falloir rajouter un simple :
 
     http2_push /css/neodark.css;
     http2_push /favicon.ico;

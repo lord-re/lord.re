@@ -30,48 +30,48 @@ Into this :
 {{< img src="top-pimped.png" link="top-pimped.png" alt="top customized with some colors and many fields." title="What an handsome boi" >}}
 
 ### Taming the beast
-First thing to know :  **<samp>?</samp>** .
+First thing to know :  **<kbd>?</kbd>** .
 Yep, finding help is the first good thing to master ;-)
 
-First setting to change is to display only non-zero values with **<samp>0</samp>**.
+First setting to change is to display only non-zero values with **<kbd>0</kbd>**.
 This will unclutter the UI.
 
-Then if you are looking for something specific you can use **<samp>L</samp>** (to locate).
+Then if you are looking for something specific you can use **<kbd>L</kbd>** (to locate).
 
-To send a signal to a process you'll use **<samp>k</samp>**.
+To send a signal to a process you'll use **<kbd>k</kbd>**.
 
 ### Level UP
 Well you know the very basic now but it's still far from usable.
 
 We will add/remove the fields top displays :
-You have to press **<samp>f</samp>** then choose the fields with **<samp>Espace</samp>** and press **<samp>s</samp>** to select the sorting field.
+You have to press **<kbd>f</kbd>** then choose the fields with **<kbd>Espace</kbd>** and press **<kbd>s</kbd>** to select the sorting field.
 
 With just this, it's way better !
 
-We can still pimp the colours : **<samp>Z</samp>** here is a brand new world to explore !
+We can still pimp the colours : **<kbd>Z</kbd>** here is a brand new world to explore !
 This menu will let you choose the colours for every elements.
 
 But you know what ?
 We can still go deeper into top !
 
-With **<samp>A</samp>** you'll enable the *multi-window* mode !
+With **<kbd>A</kbd>** you'll enable the *multi-window* mode !
 
 O__O
 
 Yes.
 In fact **top** isn't a shitty as it looks at first.
 
-To go from one window to another you can press **<samp>g</samp>** then enter the window number (from 1 to 4).
-Then you can change the colour as you did before with **<samp>Z</samp>** for the 3 other windows.
+To go from one window to another you can press **<kbd>g</kbd>** then enter the window number (from 1 to 4).
+Then you can change the colour as you did before with **<kbd>Z</kbd>** for the 3 other windows.
 
-Once all is perfectly configured you should save with **<samp>W</samp>**.
+Once all is perfectly configured you should save with **<kbd>W</kbd>**.
 
 ## Htop
 So now that you know that top isn't so bad after all, let me show you why htop is better.
 
 ### Let's tweak its UI
 First we will change a bit its default interface.
-To access the settings menu press **<samp>F2</samp>**.
+To access the settings menu press **<kbd>F2</kbd>**.
 
 I personnaly do this in *Meters* / *Left column* :
 
@@ -110,7 +110,7 @@ Then the last tab about *Columns* you can put what you want, i like these :
   - Time
   - Command
 
-Then press **<samp>F10</samp>** to save.
+Then press **<kbd>F10</kbd>** to save.
 
 The config file will be written in *~/.config/htop/htoprc* .
 
@@ -120,14 +120,14 @@ So now top and htop are pretty close from each other, so why is htop better ?
 Unlike **top**, **htop** can use external commands from within its interface to get more informations.
 
 My favorite one is using *strace* to see every syscall a running process is doing (to know why a process looks like sleeping it's very handy).
-To launch it, just press **<samp>s</samp>** when you are hovering the process.
+To launch it, just press **<kbd>s</kbd>** when you are hovering the process.
 
 Another one i use a lot is *lsof* which lets you see which files are opened by a process.
-Just press **<samp>l</samp>** and there you go.
+Just press **<kbd>l</kbd>** and there you go.
 
-I never use this one but maybe you will : **<samp>L</samp>** will show you lib's call thanks to *ltrace*.
+I never use this one but maybe you will : **<kbd>L</kbd>** will show you lib's call thanks to *ltrace*.
 
-The last one is included is **<samp>e</samp>** will show you the environnement variables of a process.
+The last one is included is **<kbd>e</kbd>** will show you the environnement variables of a process.
 
 So here are the main advantages of htop over top : *an accessible UI*, *lots of configuration options* and *many integrations with external tools*.
 

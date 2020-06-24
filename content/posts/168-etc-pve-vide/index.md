@@ -24,12 +24,12 @@ Va falloir se renseigner un poil sur leur système.
 
 …
 
-À première vue, un ptit coup de **<samp>pvecm status</samp>** m'indique *pve configuration filesystem not mounted*.
+À première vue, un ptit coup de **<kbd>pvecm status</kbd>** m'indique *pve configuration filesystem not mounted*.
 Thanks Cpt Obvious !
 
-Allez, tentons de redémarrer le service de cluster **<samp>service pve-cluster restart</samp>**.
+Allez, tentons de redémarrer le service de cluster **<kbd>service pve-cluster restart</kbd>**.
 Systemd comme d'hab te dit que ça marche pas sans te sortir le message d'erreur… merci j'adore.
-Allons voir **<samp>journalctl -xe</samp>**.
+Allons voir **<kbd>journalctl -xe</kbd>**.
 
 Hmmm bizarre tiens j'ai une ligne intrigante.
 */etc/pve/local/pve-ssl.key: failed to load local private key (key_file or key) at /usr/share/perl5/PVE/APIServer/AnyEvent.pm line 1626.*
@@ -45,7 +45,7 @@ Refaisons un ptit tour sur le moteur de recherche (DDG, pas Google, hein !).
 …
 
 Ha tiens, apparemment il y aurait ptet une autre erreur planquée.
-**<samp>journalctl -e</samp>**
+**<kbd>journalctl -e</kbd>**
 Je fouille pour vérifier.
 
 HA.mp4 
@@ -54,8 +54,8 @@ HA.mp4
 
 Il pouvait pas le dire plus tôt ?!
 
-**Un ptit tour dans le */etc/hosts* pour commenter les lignes commençant par *<samp>127.0.0.1</samp>*.**
-Redémarrage via **<samp>service pve-cluster restart</samp>**.
+**Un ptit tour dans le */etc/hosts* pour commenter les lignes commençant par *<kbd>127.0.0.1</kbd>*.**
+Redémarrage via **<kbd>service pve-cluster restart</kbd>**.
 Et là plus d'erreur.
 
 */etc/pve a récupéré ses fichiers \o/*

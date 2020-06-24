@@ -48,10 +48,10 @@ Pareil pour Sway, ce sont des raccourcis que j'ai récupéré de i3 que j'avais 
 Et pour les applis consoles (on me demande très souvent pour vi(m), mais je suis passé à [kakoune]({{< ref "/posts/114-kakoune">}})) généralement je ne les modifie pas car ils sont encore une fois basés sur la sémantique.
 
 *Le seul truc chiant c'est pour les jeux vidéos.*
-J'adore les FPS et contrairement aux affreux flêchistes je suis habitué au bon vieux *<samp>wsad</samp>* ou *<samp>zsqd</samp>* qui devient *<samp>éuai</samp>* en bépo.
-Et je vous le dis tout de suite, les jeux qui savent se démerder avec le *<samp>é</samp>* sont très rares.
+J'adore les FPS et contrairement aux affreux flêchistes je suis habitué au bon vieux *<kbd>wsad</kbd>* ou *<kbd>zsqd</kbd>* qui devient *<kbd>éuai</kbd>* en bépo.
+Et je vous le dis tout de suite, les jeux qui savent se démerder avec le *<kbd>é</kbd>* sont très rares.
 
-Du coup j'ai pris l'habitude de me décaler d'une touche vers la droite pour utiliser *<samp>piue</samp>* qui donne *<samp>edsf</samp>* en azerty.
+Du coup j'ai pris l'habitude de me décaler d'une touche vers la droite pour utiliser *<kbd>piue</kbd>* qui donne *<kbd>edsf</kbd>* en azerty.
 Rien de bien méchant mais c'est chiant.
 
 ## Moins mal aux poignets ?
@@ -74,12 +74,12 @@ Par contre j'envisage de plus en plus de me faire un nouveau clavier avec le mê
 
 ## Bépo c'est chiant pour l'anglais
 Heuu **non**.
-Cette remarque revient souvent à cause du fait que le *<samp>w</samp>* soit super loin.
+Cette remarque revient souvent à cause du fait que le *<kbd>w</kbd>* soit super loin.
 Et c'est vrai qu'il est loin.
 
 Personnellement j'ai pas un vrai bépo pur, il est un poil modifié.
-Du coup le *<samp>w</samp>* et le *<samp>ç</samp>* ne sont plus à leur place d'origine (l'extrème droite du clavier).
-J'ai mis le *<samp>w</samp>* sous le *<samp>m</samp>* et le *<samp>ç</samp>* sous le *<samp>y</samp>*.
+Du coup le *<kbd>w</kbd>* et le *<kbd>ç</kbd>* ne sont plus à leur place d'origine (l'extrème droite du clavier).
+J'ai mis le *<kbd>w</kbd>* sous le *<kbd>m</kbd>* et le *<kbd>ç</kbd>* sous le *<kbd>y</kbd>*.
 
 Mais en dehors de ça, c'est pas moins adapté à l'anglais que ne l'est l'azerty.
 Pour rappel : *l'azerty est pensé pour ralentir la frappe des lettres consécutives* ce qui n'est plus un comportement souhaitable depuis l'abandon des machines à écrire…
@@ -93,7 +93,7 @@ Mais de là à dire que c'est chiant en bépo c'est pas non plus vrai.
 
 Il y a une logique pas mal dans le placement des symboles en bépo : les chevrons, parenthèses, guillemets, accolades sont tous regroupés et placés de sorte à ce que le caractère ouvrant se trouve juste à droit du caractère fermant.
 C'est tout con mais c'est super logique et pratique.
-Les symboles mathématiques sont à la suite (*<samp>+-/\*</samp>*).
+Les symboles mathématiques sont à la suite (*<kbd>+-/\*</kbd>*).
 
 Bref dans mon cas, ça ne me gêne pas car je ne code pas.
 J'ai entendu dire, de la part de non utilisateur, que "c'est nul" mais je doute que ce soit vraiment nul.

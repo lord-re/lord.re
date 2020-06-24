@@ -71,7 +71,7 @@ There are 4 different types of content each with its colour and a small label in
 
 You may sometime encounter texte with small <abbr title="exactly this">thingies</abbr>, you just need to hover it with your mouse to have some infos (not always interesting).
 
-If I put some <samp>commands to copy</samp> (like here), the font is a bit different and the background change to easily distinguish where to select text. 
+If I put some <kbd>commands to copy</kbd> (like here), the font is a bit different and the background change to easily distinguish where to select text. 
 
 On the left (or on the top on mobile), you'll find icons to mail/irc chat/RSS/toots/ or to see the website on a <abbr title="One page with all the content">monopage</abbr>.
 

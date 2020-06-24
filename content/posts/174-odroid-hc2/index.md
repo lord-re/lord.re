@@ -128,7 +128,7 @@ echo "BOOT" > /var/log/boot.log
 {{< / highlight >}}
 </details>
 
-Bien penser à le rendre executable avec <samp>**chmod +x sbin/netinit**</samp>
+Bien penser à le rendre executable avec <kbd>**chmod +x sbin/netinit**</kbd>
 
 Je vous passe la phase de tâtonnage pour arriver à ça, il m'a fallu quelques essais…
 On fout la microSD dans la SBC on boot.
@@ -174,7 +174,7 @@ rm ./deapk
 Une fois exécuté vous vous retrouvez avec une jolie ptite arborescence qu'il suffit de glisser sur la microSD.
 
 Il faut *ajouter sshd au boot*.
-Pour ça un simple <samp>**ln -s etc/init.d/sshd etc/runlevels/default**</samp> et le tour est joué.
+Pour ça un simple <kbd>**ln -s etc/init.d/sshd etc/runlevels/default**</kbd> et le tour est joué.
 
 On en profite pour pousser sa clé publique ssh dans */root/.ssh/authorized_keys* pour s'éviter des emmerdes.
 
@@ -188,7 +188,7 @@ Et ouai on peut toujours pas se connecter avec un message d'erreur particulier.
 Bon j'ai pas la science infuse mais j'imagine que le problème vient du fait que le système est un peu installé à la rache et que tous les scripts d'init sont pas forcément bien passé.
 
 Bref, c'est pas grave.
-<samp>*ssh root@10.0.0.252 /bin/sh*</samp>
+<kbd>*ssh root@10.0.0.252 /bin/sh*</kbd>
 Et ça marche.
 
 Bon, il n'y aura pas tous les ptits raffinement d'un shell parfaitement fonctionnel mais c'est pas grave : **on a la main.**

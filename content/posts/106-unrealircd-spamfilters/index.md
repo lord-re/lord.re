@@ -24,7 +24,7 @@ J'avais un peu survolé les différentes actions que peuvent faire un ircop [ici
 La syntaxe est à première vue assez simple mais pourtant toujours un peu spéciale.
 
 ### Lister
-Déjà pour lister les filtres déjà existant : <samp>**/spamfilter**</samp>.
+Déjà pour lister les filtres déjà existant : <kbd>**/spamfilter**</kbd>.
 Ce qui vous sortira un listing de ce genre :
 
     10:26:33   geeknode  -- │ F simple cpnNPq kill 0 9842810 86400 "supernets" Lord!Lord@geeknode.fuckyeah :iяс.sцреяиетs.ояg сни sцреявоwl
@@ -35,16 +35,16 @@ Ce qui vous sortira un listing de ce genre :
 ### Ajouter
 Bon pour ajouter un nouveau filtre c'est assez simple si l'on suit la doc
 
-**<samp>/spamfilter add -regex cnNPq kill 0 l0de_spammer \ [lL1][oO0][dD][eE3]\ </samp>**
+**<kbd>/spamfilter add -regex cnNPq kill 0 l0de_spammer \ [lL1][oO0][dD][eE3]\ </kbd>**
 
 En y regardant de plus près on voit quelques trucs chiants :
 
-  - Le type de spamfilter commence par un *-* donc c'est pas juste <samp>regex</samp> ou <samp>simple</samp> mais <samp>-regex</samp> ou <samp>-simple</samp>.
+  - Le type de spamfilter commence par un *-* donc c'est pas juste <kbd>regex</kbd> ou <kbd>simple</kbd> mais <kbd>-regex</kbd> ou <kbd>-simple</kbd>.
 C'est le truc que j'oublie à chaque fois.
 
-  - Ensuite, dans la raison il faut remplacer les espaces par des underscore <samp>_</samp> (le «tiret du 8»).
+  - Ensuite, dans la raison il faut remplacer les espaces par des underscore <kbd>_</kbd> (le «tiret du 8»).
 
-  - Mais surtout dans la regex elle-même, on ne peut pas foutre d'espace, il faut les échapper avec "*<samp>\ </samp>*".
+  - Mais surtout dans la regex elle-même, on ne peut pas foutre d'espace, il faut les échapper avec "*<kbd>\ </kbd>*".
 
 ### Supprimer
 Bon pour l'instant cet article n'apporte pas grand chose de plus que la page du wiki vous me direz.
@@ -56,7 +56,7 @@ En théorie pour supprimer un spamfilter vous devez faire exactement la même co
 Mais c'est pas forcément simple car lorsque vous les listez la syntaxe est pas exactement la meême.
 C'est vite très chiant à retrouver.
 
-Mais si vous faites **<samp>/spamfilter del</samp>** vous aurez un listing mieux foutu :
+Mais si vous faites **<kbd>/spamfilter del</kbd>** vous aurez un listing mieux foutu :
 
     10:41:56   geeknode  -- │ F simple cpnNPq kill 0 9843733 86400 "supernets" Lord!Lord@geeknode.fuckyeah :iяс.sцреяиетs.ояg сни
                             │ sцреявоwl

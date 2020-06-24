@@ -47,7 +47,7 @@ Bon perso, par mail ça me va bien.
 
 Pour le faire c'est avec :
 
-**<samp>knsupdate</samp>**
+**<kbd>knsupdate</kbd>**
 
     server 127.0.0.1
     zone lord.re.

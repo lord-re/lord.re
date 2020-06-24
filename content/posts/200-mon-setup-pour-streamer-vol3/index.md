@@ -45,7 +45,7 @@ Donc première chose à faire, créer un dossier temporaire qui va contenir les 
 Perso j'ai pas envie d'utiliser du disque pour ça et étant donné que ça sera pas bien gros (une dizaine de Mo au plus), je fais ça direct en ram.
 Le dossier /tmp étant un montage de type tmpfs ça n'écrira rien sur le disque, par contre ça sera purgé à chaque reboot.
 
-Donc <samp>mkdir -p /tmp/hls/live</samp> et maintenant on édite la conf nginx.
+Donc <kbd>mkdir -p /tmp/hls/live</kbd> et maintenant on édite la conf nginx.
 
 <details open><summary>/etc/nginx/nginx.conf</summary>
 {{< highlight "nginx" >}}
@@ -74,7 +74,7 @@ rtmp {
 
 Bon ça, ça vous permet juste de recevoir le flux en provenance d'OBS, que personne d'autre n'envoie de vidéo mais aussi de créer du *hls*.
 
-Avec ça en place, vous pouvez déjà pointer votre lecteur vidéo favori (ça veut dire **mpv**) vers le flux avec <samp>mpv rtmp://l.ip.du.nginx/live/$stream_key_dans_obs</samp> .
+Avec ça en place, vous pouvez déjà pointer votre lecteur vidéo favori (ça veut dire **mpv**) vers le flux avec <kbd>mpv rtmp://l.ip.du.nginx/live/$stream_key_dans_obs</kbd> .
 Si tout se passe bien ça devrait s'afficher et voilà.
 
 Voilà ?!
@@ -121,7 +121,7 @@ server {
 {{< / highlight >}}
 </details>
 
-Une fois fait on <samp>/etc/init.d/nginx reload</samp> ensuite on génère les certificats avec <samp>acme.sh --issue -d live.lord.re --ecc --nginx</samp> et une fois fait on décommente les quelques lignes qui le sont dans le fichier de conf que l'on vient de créer et on reload encore nginx.
+Une fois fait on <kbd>/etc/init.d/nginx reload</kbd> ensuite on génère les certificats avec <kbd>acme.sh --issue -d live.lord.re --ecc --nginx</kbd> et une fois fait on décommente les quelques lignes qui le sont dans le fichier de conf que l'on vient de créer et on reload encore nginx.
 
 Voilà, notre vhost est tout prêt.
 
@@ -130,7 +130,7 @@ Bon maintenant, la dernière pièce de ce puzzle c'est la création d'une simple
 Bon je sais pas vous, mais moi, vu l'heure, j'ai pas trop envie de me faire chier.
 Donc je récupère un player vidéo et son ptit css et je crée une page web le plus basique possible, c'est moche mais fonctionnel.
 
-<samp>wget vjs.zencdn.net/7.3.0/video-js.min.css</samp> et <samp>wget vjs.zencdn.net/7.3.0/video.min.js</samp> voilà ça, ça devrait aller.
+<kbd>wget vjs.zencdn.net/7.3.0/video-js.min.css</kbd> et <kbd>wget vjs.zencdn.net/7.3.0/video.min.js</kbd> voilà ça, ça devrait aller.
 Et maintenant on place ça dans une page des plus basiques.
 
 <details open><summary>/tmp/hls/index.html</summary>
@@ -159,7 +159,7 @@ Voilà, maintenant on peut ouvrir https://live.lord.re et ça fonctionne \o/
 ### Envoi du flux vers la webcam
 Donc pour que le flux d'OBS soit envoyé dans un flux de webcam, il faut se rendre dans *Tools/V4l2sink* ce qui vous ouvrira une petite fenêtre où il vous faudra sélectionner dans quel device vidéo envoyer le flux.
 
-Si vous avez bien suivi les épisodes précédents, j'ai utilisé le <samp>/dev/video5</samp> et concernant le format vidéo, je me suis contenté du <samp>YUV420</samp> par défaut.
+Si vous avez bien suivi les épisodes précédents, j'ai utilisé le <kbd>/dev/video5</kbd> et concernant le format vidéo, je me suis contenté du <kbd>YUV420</kbd> par défaut.
 Si ça se trouve les autres formats sont meilleurs, mais je ne me suis pas attardé.
 
 Si vous cochez l'*Autostart* vous n'aurez plus besoin de vous préocupper de cela.
@@ -167,7 +167,7 @@ Si vous cochez l'*Autostart* vous n'aurez plus besoin de vous préocupper de cel
 ### Envoi du flux vers Nginx
 Là on va trifouiller les *Settings* d'**OBS**.
 Dans l'onglet *Stream* vous allez choisir le service *Custom* et dans l'adresse du serveur, il faudra donner l'adresse du serveur rtmp de nginx précédemment créé.
-Dans mon cas c'est <samp>rtmp://ip.de.mon.nginx/live</samp> .
+Dans mon cas c'est <kbd>rtmp://ip.de.mon.nginx/live</kbd> .
 Pas besoin de spécifier le port 1935 car … c'est le port par défaut de rtmp.
 
 En dessous, on vous demande la *Stream Key* qui n'est en fait que le nom du flux vidéo.
@@ -187,7 +187,7 @@ Donc si vous visez les 20 spectateurs, votre flux de 5Mbps se transformera en 10
 
 Ça chiffre vite.
 
-Si vous souhaitez réduire autant que possible la latence, il faut veiller à mettre les *Keyframe* à <samp>1/s</samp> et penser à mettre le *Tune* sur <samp>zerolatency</samp> ce qui permettra de grapiller quelques secondes.
+Si vous souhaitez réduire autant que possible la latence, il faut veiller à mettre les *Keyframe* à <kbd>1/s</kbd> et penser à mettre le *Tune* sur <kbd>zerolatency</kbd> ce qui permettra de grapiller quelques secondes.
 On reste cela dit sur une latence minimale de 7 secondes dans mes tests (même en local).
 Les lecteurs vidéos ayant une tendance à toujours avoir des buffers de marge.
 Et surtout ça pourra facilement monter dans les 30 secondes.

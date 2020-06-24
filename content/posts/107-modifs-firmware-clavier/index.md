@@ -47,7 +47,7 @@ Bha déjà il faut le compilateur kivabien, c'est à dire *gcc-avr*.
 Et il faut le ptit outil pour transferer le binaire de l'ordi jusque dans la ptite puce du ptit <abbr title="Le circuit imprimmé contenant le programme et où toutes les touches sont raccordées">Teensy</abbr>.
 
 ## Propre via Gentoo
-Bon bha déjà, ça commence par un **<samp>emerge arduino</samp>** avec tout un tas de dépendances des plus effrayantes à base de java et compagnie…
+Bon bha déjà, ça commence par un **<kbd>emerge arduino</kbd>** avec tout un tas de dépendances des plus effrayantes à base de java et compagnie…
 
 Ça fait un peu chier mais bon faut le faire.
 A man's got to do what a man's got to do !
@@ -157,7 +157,7 @@ En plus, en étant dans le coin tout en bas à gauche, elle est super accessible
 Ce système de double touche est plus souvent utilisé avec *Espace* ce qui lui a donné son nom de **SpaceFn** mais il m'arrive de jouer de temps à autres donc la touche Espace est déjà bien utilisée…
 
 L'action *[2]* est la combinaison de touche *MOD_LSFT* et *KC_INS* qui s'avère être *Majuscule + Inser*.
-C'est un raccourci classique de Xorg pour <samp>Coller</samp>.
+C'est un raccourci classique de Xorg pour <kbd>Coller</kbd>.
 Et hop une touche dédiée pour coller du texte !
 
 ## Les modifs du jour
@@ -169,7 +169,7 @@ Bon bha une fois ces modifs faites, comment qu'on compile et on qu'on upload ?
 
 ## Mise en service
 ### Compilation
-C'est tout simple, un simple <samp>**make**</samp> va compiler votre nouveau firmware.
+C'est tout simple, un simple <kbd>**make**</kbd> va compiler votre nouveau firmware.
 Ça va générer pas mal de fichiers dont un fichier avec l'extension *.hex* .
 Dans mon cas c'est un ptit fichier de 48Ko contenant tout ce qu'il faut.
 

@@ -29,7 +29,7 @@ sync-uri = git://url.de/l'/overlay.git
 auto-sync = yes
 ```
 Et voilà.
-Un ptit **<samp>emerge --sync</samp>** et éventuellement un **<samp>eix-update</samp>** et c'est tout bon.
+Un ptit **<kbd>emerge --sync</kbd>** et éventuellement un **<kbd>eix-update</kbd>** et c'est tout bon.
 
 Franchement, c'est pas une distro qu'elle est trop bien cette petite Gentoo ?
 

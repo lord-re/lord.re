@@ -26,10 +26,10 @@ But this article is more about How I installed it and configured its environment
 ## Compiling the code
 I code it on my main machine which is a classic *amd64* computer but I intend to run it on a container in my router.
 So the first thing to do is to crosscompile it to be able to run on an *arm7* architecture.
-Golang is very well done for this : **<samp>GOARM=7 GOARCH=arm go build -ldflags="-s -w" gonib.go</samp>**.
+Golang is very well done for this : **<kbd>GOARM=7 GOARCH=arm go build -ldflags="-s -w" gonib.go</kbd>**.
 
 You just need to specify the architecture thanks to the two environment variables.
-Just for fun I added <samp>-s</samp> and <samp>-w</samp> to generate a smaller binary.
+Just for fun I added <kbd>-s</kbd> and <kbd>-w</kbd> to generate a smaller binary.
 Not mandatory but it doesn't cost much.
 
 ## Creating the container
@@ -52,9 +52,9 @@ depend() {
 }
 ```
 
-You then need to put it in the default runlevel with **<samp>rc-update add tmux</samp>** and I also removed all other services except *crond* which will be used for planned actions (like birthdays, todo or else).
+You then need to put it in the default runlevel with **<kbd>rc-update add tmux</kbd>** and I also removed all other services except *crond* which will be used for planned actions (like birthdays, todo or else).
 
-I then create the *nib* user with **<samp>adduser nib</samp>**.
+I then create the *nib* user with **<kbd>adduser nib</kbd>**.
 
 I then upload the binary to */home/nib/gonib* and make sure it's executable.
 
@@ -64,9 +64,9 @@ In *OpenWRT* to start containers at boot time, you need to add them in */etc/con
 ## Testing it
 Let's do it !
 
-**<samp>lxc-stop -n gonib</samp>**
+**<kbd>lxc-stop -n gonib</kbd>**
 
-**<samp>lxc-start -n gonib</samp>**
+**<kbd>lxc-start -n gonib</kbd>**
 
 It works !
 

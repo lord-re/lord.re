@@ -22,7 +22,7 @@ Il est assez courant de ne pas envoyer les pages brutes directement : elles sont
 ## La compression sur le web
 Le navigateur, lorsqu'il demande un document (une page, un fichier, une vidéo, un truc) envoie quelques informations supplémentaires avec sa demande.
 Dans les entêtes de la requête, il indique quels sont les formats d'encodage qu'il sait gérer.
-Par exemple mon navigateur indique <samp>Accept-encoding: gzip, deflate, br</samp>.
+Par exemple mon navigateur indique <kbd>Accept-encoding: gzip, deflate, br</kbd>.
 Ce qui signifie que les réponses peuvent être compressées selon les algorithmes **gzip**, **deflate** ou bien **brotli**.
 
 *Ces systèmes de compression sont très efficaces pour les documents textuels* mais pour ce qui est images/vidéos/sons ça sert à peu près à rien (les données sont déjà compressées avec des algos largement plus efficaces).
@@ -44,17 +44,17 @@ Donc vous stockez votre *index.html* mais aussi *index.html.gz* et pourquoi pas 
 Et lorsqu'un navigateur annonce qu'il supporte par exemple le gzip, nginx lui servira le fichier gzippé plutôt que le non-compressé.
 
 Pour activer ça dans **nginx** il vous faut avoir le module *gzip_static* et/ou *brotli_static*.
-Pour vérifier lancez un simple **<samp>nginx -V</samp>** et vérifiez qu'il apparait bien dans la liste.
-Ensuite dans votre conf nginx ajoutez juste un **<samp>gzip_static on;</samp>** et/ou **<samp>brotli_static on;</samp>**.
+Pour vérifier lancez un simple **<kbd>nginx -V</kbd>** et vérifiez qu'il apparait bien dans la liste.
+Ensuite dans votre conf nginx ajoutez juste un **<kbd>gzip_static on;</kbd>** et/ou **<kbd>brotli_static on;</kbd>**.
 C'est tout.
 
 Il ne vous reste qu'à compresser vos fichiers.
 Vous pouvez vous le tapez à la main mais perso j'utilise un ptit outil fait pour **static-compress**.
 C'est du rust donc c'est bien !
 Ouai je suis hypé, désolé.
-Pour l'installer c'est avec **<samp>cargo install static-compress</samp>** et voilà.
+Pour l'installer c'est avec **<kbd>cargo install static-compress</kbd>** et voilà.
 
-Maintenant il suffit de lancer un joli **<samp>static-compress -c zopfli -e gz -j 16 "\*\*/\*.svg" "\*\*/\*.html" "\*\*/\*.csv" "\*\*/\*.css" "\*\*/\*.txt" "\*\*/\*.xml"</samp>** .
+Maintenant il suffit de lancer un joli **<kbd>static-compress -c zopfli -e gz -j 16 "\*\*/\*.svg" "\*\*/\*.html" "\*\*/\*.csv" "\*\*/\*.css" "\*\*/\*.txt" "\*\*/\*.xml"</kbd>** .
 À lancer dans votre dossier contenant votre site ouaib.
 Il va le parcourir et compresser tous les fichiers avec les extensions données.
 D'ailleurs en passant, zopfli c'est un chouilla mieux que gzip mais c'est compatible, donc à privilégier.

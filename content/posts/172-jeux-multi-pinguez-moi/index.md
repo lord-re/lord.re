@@ -28,7 +28,7 @@ Le jeu est légèrement plus rapide et propose des maps spécialement taillées 
 Ça sera un plaisir de vous faire goûter l'une de mes délicieuses roquettes.
 
 Pour jouer, selon votre OS, l'installation sera un peu différente.
-Sous Gentoo vous pouvez directement <samp>emerge quake3-cpma</samp>, ailleurs il vous faudra probablement installer Quake3, puis installer cpma en le choppant [sur le site officiel](https://playmorepromode.com/).
+Sous Gentoo vous pouvez directement <kbd>emerge quake3-cpma</kbd>, ailleurs il vous faudra probablement installer Quake3, puis installer cpma en le choppant [sur le site officiel](https://playmorepromode.com/).
 
 
 ## Doom : Brutal Doom / Project Brutality

@@ -26,10 +26,10 @@ Mais au delà du code que je vous ai déjà pas mal présenté dans les derniers
 
 ## Compilation du code
 Je le dev sur ma machine qui est un ordi classique sous l'architecture amd64, mais je compte le faire tourner dans un container sur mon routeur qui lui n'est pas en amd64 mais en *arm7*.
-Pour crosscompiler du Go, rien de plus simple : **<samp>GOARM=7 GOARCH=arm go build -ldflags="-s -w" gonib.go</samp>**.
+Pour crosscompiler du Go, rien de plus simple : **<kbd>GOARM=7 GOARCH=arm go build -ldflags="-s -w" gonib.go</kbd>**.
 
 Voilà, on spécifie, l'architecture et c'est bon.
-Pour le fun je rajoute les options <samp>-s</samp> et <samp>-w</samp> qui permet de générer un binaire plus petit.
+Pour le fun je rajoute les options <kbd>-s</kbd> et <kbd>-w</kbd> qui permet de générer un binaire plus petit.
 Ça sert pas à grand chose mais quand même, j'aime bien.
 
 ## Création du container
@@ -52,9 +52,9 @@ depend() {
 }
 ```
 
-On place ce service au boot avec **<samp>rc-update add tmux</samp>** et tant qu'à faire on peut virer tous les autres services du boot à l'exception de crond qui servira pour lancer certaines actions.
+On place ce service au boot avec **<kbd>rc-update add tmux</kbd>** et tant qu'à faire on peut virer tous les autres services du boot à l'exception de crond qui servira pour lancer certaines actions.
 
-Il faut ensuite créer l'utilisateur *nib* avec **<samp>adduser nib</samp>**.
+Il faut ensuite créer l'utilisateur *nib* avec **<kbd>adduser nib</kbd>**.
 
 On place le binaire gonib dans */home/nib/gonib* et on le rend éxécutable et c'est bon.
 
@@ -64,9 +64,9 @@ Sur *OpenWRT* pour lancer les containers au boot, il faut les indiquer dans */et
 ## Tester
 Bon bha yapuka !
 
-**<samp>lxc-stop -n gonib</samp>**
+**<kbd>lxc-stop -n gonib</kbd>**
 
-**<samp>lxc-start -n gonib</samp>**
+**<kbd>lxc-start -n gonib</kbd>**
 
 Et là pouf dans la seconde qui suit votre gentil ptit nib va apparaitre sur votre salon favoris.
 

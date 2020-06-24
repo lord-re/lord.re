@@ -35,66 +35,66 @@ I just copy the link *Latest Stable Kernel* du jour.
 
 ## 2. Decompress and update the symlink
 
-**<samp>cd /usr/src/</samp>**
+**<kbd>cd /usr/src/</kbd>**
 I go to the right folder.
 
-**<samp>wget le latest</samp>**
+**<kbd>wget le latest</kbd>**
 I download from the link from the first step.
 
-**<samp>tar xvf *.tar.xz</samp>**
+**<kbd>tar xvf *.tar.xz</kbd>**
 Let's decompress this shit.
 
-**<samp>unlink linux</samp>**
+**<kbd>unlink linux</kbd>**
 Removing the old symlink (you can use rm but it's way more impressive to use this command !).
 
-**<samp>ln -s linux-votre-latest linux</samp>**
+**<kbd>ln -s linux-votre-latest linux</kbd>**
 I create the symlink to the new sources.
 
 ## 3. Config
 
-**<samp>zcat /proc/config.gz > linux/.config</samp>**
+**<kbd>zcat /proc/config.gz > linux/.config</kbd>**
 First i get the actual config from the running kernel and i put it in the new sources.
 
-**<samp>make oldconfig</samp>**
+**<kbd>make oldconfig</kbd>**
 And now i ask the kernel to apply this config and it will ask question about any new feature to enable/disable them (most of the time, I disable; I love minimalism).
 Often I need to search the web to know what are those.
 
 ## 4. Compilation
-**<samp>make -j32</samp>**
+**<kbd>make -j32</kbd>**
 I just compile.
 
-**<samp>su</samp>**
+**<kbd>su</kbd>**
 I'm the one who knocks.
 
-**<samp>make modules_install</samp>**
+**<kbd>make modules_install</kbd>**
 I install the kernel modules (i don't have many but they still need to be in the righ place (*/lib/modules/kernel.version*)).
 It should be good now.
 
 ## 5. Installing and testing
 
-**<samp>mount /dev/sda1 /boot</samp>**
+**<kbd>mount /dev/sda1 /boot</kbd>**
 Before continuing I must mount the boot partition.
 
-**<samp>cp /arch/x86/boot/bzImage /boot/boot/kernelXXXX</samp>**
+**<kbd>cp /arch/x86/boot/bzImage /boot/boot/kernelXXXX</kbd>**
 I then paste the brand new compiled kernel.
 
-**<samp>reboot</samp>**
+**<kbd>reboot</kbd>**
 The mighty reboot.
 
-**<samp>e</samp>**
+**<kbd>e</kbd>**
 To stop Grub from booting and edit the boot command line.
 I just need to edit the name of the booting kernel to the new one.
 
 ## 6. Updating the bootloader
 If it successfully booted then I hardcode it in the config.
 
-**<samp>su</samp>**
+**<kbd>su</kbd>**
 I put on my boss cosplay.
 
-**<samp>mount /dev/sda1 /boot</samp>**
+**<kbd>mount /dev/sda1 /boot</kbd>**
 I mount the boot partition again.
 
-**<samp>vi /boot/boot/grub/menu.lst</samp>**
+**<kbd>vi /boot/boot/grub/menu.lst</kbd>**
 Then I edit the Grub config file with the correct kernel filename.
 
 Et voilà, c'est bon.

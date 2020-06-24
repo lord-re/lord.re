@@ -79,16 +79,16 @@ I put back the eMMC in the board, i plug an HDMI, a "small" USB keyboard and the
 Well, if you ignore the fact that the keyboard isn't cooperating (vim in qwerty on an azerty keyboard where the left shift key doesn't work  and where there is no escape key, it gets a bit challenging).
 So, here is the IP configuration :
 
-  - **<samp>ip a a 10.0.0.253/8 dev eth0</samp>**
-  - Setting the gateway : **<samp>ip r a default via 10.0.0.254</samp>**
-  - and then the DNS resolver **<samp>echo "nameserver 10.0.0.254" > /etc/resolv.conf</samp>**
+  - **<kbd>ip a a 10.0.0.253/8 dev eth0</kbd>**
+  - Setting the gateway : **<kbd>ip r a default via 10.0.0.254</kbd>**
+  - and then the DNS resolver **<kbd>echo "nameserver 10.0.0.254" > /etc/resolv.conf</kbd>**
 
 Once this is done, you'll be able to install everything you need.
 
-  - **<samp>apk update</samp>**
-  - **<samp>apk upgrade</samp>**
-  - **<samp>apk add alpine-base</samp>**
-  - **<samp>setup-alpine</samp>**
+  - **<kbd>apk update</kbd>**
+  - **<kbd>apk upgrade</kbd>**
+  - **<kbd>apk add alpine-base</kbd>**
+  - **<kbd>setup-alpine</kbd>**
   - Just follow the guide from there :-)
 
 And voilà !
@@ -98,12 +98,12 @@ No, there is still a thing to work out :
 When i copied the *alpine mini rootfs* like a noob so many commands requiring to switch to another user failed.
 **PERMISSION DENIED ! PERMISSION DENIED**
 Ok ok thanks but how to solve this ?
-After half an hour i found it **<samp>chmod o+rx /</samp>** and now everything works fine.
+After half an hour i found it **<kbd>chmod o+rx /</kbd>** and now everything works fine.
 
 I'm still running the Arch kernel and initramfs but it works fine.
 By the way, *it can be handy to get arch modules and put them in Alpine*.
 
-So, let's go to [in Arch's packages repos](https://archlinuxarm.org/packages) and search for <samp>odroid-n2</samp>.
+So, let's go to [in Arch's packages repos](https://archlinuxarm.org/packages) and search for <kbd>odroid-n2</kbd>.
 There you'll find **linux-odroid-n2** and you download it.
 
 You untar the file and you'll get three folders : *boot*, *etc* and *usr*.

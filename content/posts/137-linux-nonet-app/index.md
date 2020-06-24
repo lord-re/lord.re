@@ -19,14 +19,14 @@ Pour cela vous aurez besoin de la commande **ip** faisant partie de *iproute2* e
 Il y a fort à parier qu'elles soit déjà installées vu que c'est la base pour configurer le réseau (non non, *ifconfig est obsolète sous Linux depuis près de 17ans*, faut se mettre à la page sans souffler et traîner les pieds, merci).
 
 Il faut tout d'abord créer un *namespace réseau* qui n'aura pas accès au net.
-C'est impressionnant dit comme ça mais en vrai c'est juste **<samp>ip netns add nonet</samp>** .
+C'est impressionnant dit comme ça mais en vrai c'est juste **<kbd>ip netns add nonet</kbd>** .
 Là, on a donc créée *nonet*.
 
-Et maintenant il ne reste plus qu'à lancer une application dans ce namespace particulier avec **<samp>ip netns exec nonet votre_appli</samp>** .
+Et maintenant il ne reste plus qu'à lancer une application dans ce namespace particulier avec **<kbd>ip netns exec nonet votre_appli</kbd>** .
 Et voilà.
 
 Bon bien entendu si vous ne voulez pas exécuter l'application en root il faut ajouter du *su* .
-Ce qui donne quelque chose comme **<samp>ip netns exec nonet su lord -c "votre appli</samp>** .
+Ce qui donne quelque chose comme **<kbd>ip netns exec nonet su lord -c "votre appli</kbd>** .
 
 Voilà voilà :-)
 

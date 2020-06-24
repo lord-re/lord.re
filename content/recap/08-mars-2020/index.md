@@ -215,11 +215,11 @@ Et là *Ding Ding Ding*.
 "Pipe"
 Il a fallu entendre ce mot pour que ça tilt.
 Quelle commande permet de voir un peu ce qui se passe dans un pipe ?
-<samp>pv</samp> aussi nommé **pipe viewer** .
+<kbd>pv</kbd> aussi nommé **pipe viewer** .
 
 À la base elle permet de voir à quelle vitesse ça transite dedans.
 Mais elle peut aussi limiter le débit.
-Du coup un simple <samp>cat truc | pv -q -L 30</samp> et voilà on obtient le résulta escompté.
+Du coup un simple <kbd>cat truc | pv -q -L 30</kbd> et voilà on obtient le résulta escompté.
 Et bien entendu ça supporte les caractères à la con et les échappements.
 
 ## Vidéos

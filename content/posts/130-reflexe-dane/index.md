@@ -76,7 +76,7 @@ Et voilà Knot va se démerder en créant les clés les faire tourner et tout.
 
 Maintenant vous [transmettez le DS chez votre registrar]({{< ref "/posts/129-DNSSEC-chez-ovh-et-online" >}}).
 Pour l'instant Knot ne va pas commencer à rouler les clés tant que le DS n'est pas publié.
-Une fois fait il faut lui signaler avec **<samp>knotc zone-ksk-submitted lord.re</samp>**.
+Une fois fait il faut lui signaler avec **<kbd>knotc zone-ksk-submitted lord.re</kbd>**.
 
 Voilà votre zone devrait être bien signée et tout, vous n'avez plus rien à faire jusqu'au prochain roulement de KSK dans 700 jours (mettez un rappel).
 
@@ -98,7 +98,7 @@ Pour le web c'est **443** et le protocole **tcp**.
 Et enfin entrez le nom de la machine qui héberge le service **lord.re** dans l'exemple.
 
 Ça vous pond une longue ligne à ajouter à votre zone.
-Sur votre serveur DNS hébergeant la zone DNS vous pouvez : **<samp>knsupdate <br>server 127.0.0.1<br>zone lord.re<br>update add _443._tcp.lord.re 600 TLSA 3 1 2 enriuetjesuisuntrèsmauvaisgénérateurd'aléatoireuirnse==</samp>**
+Sur votre serveur DNS hébergeant la zone DNS vous pouvez : **<kbd>knsupdate <br>server 127.0.0.1<br>zone lord.re<br>update add _443._tcp.lord.re 600 TLSA 3 1 2 enriuetjesuisuntrèsmauvaisgénérateurd'aléatoireuirnse==</kbd>**
 
 Et voilà :-)
 

@@ -24,10 +24,10 @@ The syntax of the setting is not the prettiest.
 BUT, yes i wrote it with capital letters !
 There is a new well-made shortcut for this.
 
-First we *globally disable javascript* with **<samp>:set content.javascript.enabled false</samp>** .
-Then on each page you want to enable js, you just **<samp>tSh</samp>** and you are done.
+First we *globally disable javascript* with **<kbd>:set content.javascript.enabled false</kbd>** .
+Then on each page you want to enable js, you just **<kbd>tSh</kbd>** and you are done.
 
-If you just want to enable JS ponctually but not to make this setting persisten across reboot, just press **<samp>tsh</samp>** (no capital S).
+If you just want to enable JS ponctually but not to make this setting persisten across reboot, just press **<kbd>tsh</kbd>** (no capital S).
 
 That's it.
 

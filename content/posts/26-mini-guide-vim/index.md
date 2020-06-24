@@ -9,20 +9,20 @@ menu = "main"
 +++
 Ça y est vous venez de suivre un tuto sur le net qui vous a fait dégainer vim pour modifier un fichier et vous êtes coincé dans cette console à la con sans pouvoir écrire et pire encore : vous pouvez pas fermer cet immondice! Bon allez voici le minimum à savoir pour ouvrir/éditer/fermer un fichier avec vim.
 Pour ouvrir un fichier avec vim :
-**<samp>vim /mon/fichier</samp>**
+**<kbd>vim /mon/fichier</kbd>**
 C'est comme tout éditeur de fichier à peu près.
 
 Pour modifier/écrire dans le fichier vous devez vous placer en mode *INSERT*.
-Pour cela appuyer sur la touche **<samp>i</samp>**.
+Pour cela appuyer sur la touche **<kbd>i</kbd>**.
 Puis faites vos petites affaires.
-Pour sortir du mode *INSERT* et faire toutes les autres manips, appuyez sur la touche <samp>Échap</samp>.
-Pour enregistrer votre fichier tapez **<samp>:w</samp>**
+Pour sortir du mode *INSERT* et faire toutes les autres manips, appuyez sur la touche <kbd>Échap</kbd>.
+Pour enregistrer votre fichier tapez **<kbd>:w</kbd>**
 
 Pour quitter **:q**
 
-Si vous avez des modifications non enregistrées et que vous voulez quand même quitter sans sauvegardes **<samp>:q!</samp>**
+Si vous avez des modifications non enregistrées et que vous voulez quand même quitter sans sauvegardes **<kbd>:q!</kbd>**
 
-et un petit pro-tip, vous pouvez faire les deux d'un coup **<samp>:wq</samp>**
+et un petit pro-tip, vous pouvez faire les deux d'un coup **<kbd>:wq</kbd>**
 
 Sachez que les commandes se valident par la touche entrée.
 

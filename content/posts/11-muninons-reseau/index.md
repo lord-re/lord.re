@@ -16,12 +16,12 @@ Je ne m'y prends que maintenant.
 Munin permet de faire de petits graphs très pratique concernant à peu près tout et n'importe quoi…
 C'est encore une fois un système de clients/serveur.
 
-Commençons par un petit **<samp>emerge munin</samp>**.
+Commençons par un petit **<kbd>emerge munin</kbd>**.
 Et là c'est quasiment finit pour le serveur.
 Il ne reste qu'à ajouter les clients à interroger dans */etc/munin/munin-node.conf* selon la syntaxe décrite en exemple.
 
 Sur la partie cliente, il faut définir les plugins utilisés par le biais de liens symboliques.
-Par exemple : **<samp>ln -s /usr/libexec/munin/plugins/if_ /etc/munin/plugins/if_eth0</samp>**
+Par exemple : **<kbd>ln -s /usr/libexec/munin/plugins/if_ /etc/munin/plugins/if_eth0</kbd>**
 
 Certains plugins nécessitent un argument comme celui-ci dessus mais pour d'autre non…
 Il existe un client windows avec quelques plugins intéressants.

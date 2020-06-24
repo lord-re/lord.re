@@ -63,15 +63,15 @@ Elles sont un peu présentes mais ne tournent pas (c'est le principal).
 
 Bref, petite marche à suivre : 
 
-  - *installer android-tools* via **<samp>emerge android-tools</samp>**.
+  - *installer android-tools* via **<kbd>emerge android-tools</kbd>**.
   -  Sur votre téléphone il faut activer le mode dev : dans les *paramètres de votre téléphone*, dans *status*, il faut taper plein de fois sur *build number* jusqu'à ce qu'un message s'affiche en bas.
   - Un menu *dev* se trouve tout en bas des paramètres où il faut activer l'*USB debugging*.
-  - sur votre ordi, un ptit coup de **<samp>adb shell</samp>** et vous vous retrouvez avec la main sur votre tel.
+  - sur votre ordi, un ptit coup de **<kbd>adb shell</kbd>** et vous vous retrouvez avec la main sur votre tel.
 
-Maintenant **pour désactiver une application c'est <samp>pm disable-user --user 0 LE_NOM_DE_L'APPLI</samp>**
+Maintenant **pour désactiver une application c'est <kbd>pm disable-user --user 0 LE_NOM_DE_L'APPLI</kbd>**
 
 À chaque téléphone sa crasse.
-Donc il vous faudra lister les applis d'abord : **<samp>pm list packages</samp>**
+Donc il vous faudra lister les applis d'abord : **<kbd>pm list packages</kbd>**
 
 <details><summary>Liste de ce que j'ai désactivé</summary>
 <pre>

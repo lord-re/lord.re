@@ -14,7 +14,7 @@ TopWords = [ "zsh", "terminal", "cli","term" ]
 +++
 Les petites gens utilisent un environnement de bureau mais en tant que rustre, je préfère largement l'austérité d'un sombre terminal.
 
-Vous connaissez probablement la commande **<samp>mv</samp>** qui permet de **m**o**v**e un fichier.
+Vous connaissez probablement la commande **<kbd>mv</kbd>** qui permet de **m**o**v**e un fichier.
 C'est bien dans 90% des cas, mais il arrive des fois que vous ayez plein de fichiers à bouger avec juste une partie à renommer.
 Et là c'est pas mal galère.
 
@@ -35,18 +35,18 @@ vous voulez changer un motif récurrent en début de nom par un autre (souvent j
 
 Tout simplement.
 
-**<samp>zmv 'le_motif_quon_change(*)' '$1-cequonchange'</samp>**
+**<kbd>zmv 'le_motif_quon_change(*)' '$1-cequonchange'</kbd>**
 
 
-Pour être safe, on peut rajouter **<samp>-n</samp>** qui affichera les modifs devant être effectuées sans les faire.
-Et sinon il y a le mode interactif avec **<samp>-i</samp>** qui nécessitera que vous validiez chacune des modifs.
+Pour être safe, on peut rajouter **<kbd>-n</kbd>** qui affichera les modifs devant être effectuées sans les faire.
+Et sinon il y a le mode interactif avec **<kbd>-i</kbd>** qui nécessitera que vous validiez chacune des modifs.
 
 Bien entendu il y a d'autres options qui sont [documentées](http://zsh.sourceforge.net/Doc/Release/User-Contributions.html#index-zmv) mais celles-là devraient vous suffire.
 
 L'extra-bonus vient du support des *modifiers* et du *globbing* de ZSH mais ça c'est pour une prochaine fois.
 Avec ces deux bidules supplémentaires, il est possible d'ajouter des critères pas mal du tout.
-ex : **<samp>zmv '* *' '$f:gs/ /_'</samp>** pour remplacer les espaces par des <abbr title="ça → _">underscores</abbr>.
+ex : **<kbd>zmv '* *' '$f:gs/ /_'</kbd>** pour remplacer les espaces par des <abbr title="ça → _">underscores</abbr>.
 Bon j'arrive jamais à m'en rappeler, hein, mais au moins je sais où le retrouver.
 
 
-PS : Pour pouvoir l'utiliser il faut ajouter **<samp>autoload -U zmv</samp>** dans votre *~/.zshrc*.
+PS : Pour pouvoir l'utiliser il faut ajouter **<kbd>autoload -U zmv</kbd>** dans votre *~/.zshrc*.

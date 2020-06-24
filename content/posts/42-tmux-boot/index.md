@@ -14,7 +14,7 @@ Mais démarrer une appli dans Tmux n'est pas géré par les init existants.
 Donc je vais vous expliquer comment le faire.
 
 Déjà on va commencer par le script d'init pour OpenRC (vous croyiez vraiment que j'allais aborder Systemd ?).
-Donc dans <samp>/etc/init.d/tmux</samp> on met le shebang qui va bien puis dans le *start()* on place
+Donc dans <kbd>/etc/init.d/tmux</kbd> on met le shebang qui va bien puis dans le *start()* on place
 
 {{< highlight "bash" >}}
 start-stop-daemon -u lord -S -b -x /home/lord/tmuxboot.sh -d /home/lord > /var/log/tmuxboot.log 2>&1

@@ -42,7 +42,7 @@ Bref je me suis monté une ptite instance Pleroma (voir plus bas) uniquement pou
 
 ## Pourquoi du Pleroma au lieu du Mastodon ?
 Parceque *contrairement à Mastodon ça consomme trois fois rien, pas cinquante dépendances et bha pour l'instant ça tourne automagiquement*.
-Je n'ai pas encore eu d'upgrade majeure (juste du <samp>git pull</samp>, <samp>mix deps.get</samp>, <samp>/etc/init.d/pleroma restart</samp>) mais pour l'instant rien à déplorer.
+Je n'ai pas encore eu d'upgrade majeure (juste du <kbd>git pull</kbd>, <kbd>mix deps.get</kbd>, <kbd>/etc/init.d/pleroma restart</kbd>) mais pour l'instant rien à déplorer.
 Un ptit downtime de trois minutes à chaque fois et c'est reparti.
 
 Un des points forts de Pleroma est qu'il s'agit d'une implémentation un peu plus stricte d'ActivityPub par rapport à Mastodon.
@@ -59,13 +59,13 @@ Mais la communauté étant plutôt bienveillante tout s'arrange assez vite et to
 ## Monter son instance
 Sur Alpine Linux c'est un poil plus exotique mais c'est pas pour autant compliqué.
 Elixir est un peu chiant, car il veut compiler des trucs avec gcc.
-Bref il va vous falloir install tout un tas de trucs avec **<samp>apk add elixir erlang-runtime-tools erlang-tools erlang-xmerl gcc make musl-dev postgresql postgresql-contrib</samp>** .
+Bref il va vous falloir install tout un tas de trucs avec **<kbd>apk add elixir erlang-runtime-tools erlang-tools erlang-xmerl gcc make musl-dev postgresql postgresql-contrib</kbd>** .
 
 J'ai créé un user spécialement dédié, ensuite un ptit git clone depuis [leur gitlab](https://git.pleroma.social/pleroma/pleroma).
-On installe les dépendances via **<samp>mix deps.get</samp>** et enfin on conf la bête avec **<samp>mix generate_config</samp>**.
+On installe les dépendances via **<kbd>mix deps.get</kbd>** et enfin on conf la bête avec **<kbd>mix generate_config</kbd>**.
 La conf générée est à mettre dans *config/prod.secret.exs* (ouai n'ayant jamais tripotté d'Erlang avant on est dépaysé par ces commandes et ces extensions de fichiers).
 
-On crée la base postgresql via le script fourni **<samp>su postgres -c "psql -f config/setup_db.psql"</samp>** .
+On crée la base postgresql via le script fourni **<kbd>su postgres -c "psql -f config/setup_db.psql"</kbd>** .
 Yapuka démarrer ça tout seul avec un fichier d'init fait maison genre 
 {{< highlight bash >}}
 #! /sbin/openrc-run
@@ -88,7 +88,7 @@ stop() {
 }
 {{< / highlight >}}
 
-Il vous reste plus qu'à copier (et adapter un peu) la conf nginx fournie : **<samp>cp installation/pleroma.nginx /etc/nginx/conf.d/pleroma.conf</samp>**.
+Il vous reste plus qu'à copier (et adapter un peu) la conf nginx fournie : **<kbd>cp installation/pleroma.nginx /etc/nginx/conf.d/pleroma.conf</kbd>**.
 Là il faut changer le *server_name* (à deux endroits), l'emplacement des clés *ssl_trusted_certificate* et *ssl_certificate* et enfin *ssl_certificate_key* ~~et enfin le *connect-src 'self' wss://example.tld*~~ et à reload votre nginx.
 
 Ça y est, vous avez votre instance prête à démarrer.

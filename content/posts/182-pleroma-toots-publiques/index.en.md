@@ -18,7 +18,7 @@ That's a bit hard to notice but after one week of being ignored i felt quite alo
 As I use OTP release of Pleroma, i don't have any logs anywhere.
 I had to launch Pleroma with debug to get what i needed :
 
-**<samp>su - pleroma -s ./bin/pleroma start_iex</samp>**
+**<kbd>su - pleroma -s ./bin/pleroma start_iex</kbd>**
 
 Then i sent a massive public toot and got this :
 
@@ -44,11 +44,11 @@ It appears that my database was borked.
 
 So here are the steps to quickly fix it :
 
-  - <samp>su - postgres</samp>
-  - <samp>psql</samp>
-  - <samp>\c pleroma_prod;</samp>
-  - <samp>select * from users where info is null;</samp>
+  - <kbd>su - postgres</kbd>
+  - <kbd>psql</kbd>
+  - <kbd>\c pleroma_prod;</kbd>
+  - <kbd>select * from users where info is null;</kbd>
   - If you have results with non-local accounts, you can (and should) purge them with the following command.
-  - <samp>delete from users where info is null;</samp>
+  - <kbd>delete from users where info is null;</kbd>
 
 Now that the database is in a better shape you just need to relaunch Pleroma and you're free to shitpost harder than ever.

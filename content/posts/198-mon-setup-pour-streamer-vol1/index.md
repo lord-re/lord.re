@@ -157,7 +157,7 @@ Il y a une part d'aléatoire et ça c'est pas acceptable.
 Donc au bout de quelques jours de galères j'ai craqué pour installer une Lennarterie.
 
 Allez, je me force pour faire l'installation de PulseAudio, suppression du module kernel **snd_aloop** parceque ça fout la grouille.
-Suppression de toute la conf du asound.conf et recompilation des paquets avec <samp>USE="pulseaudio" emerge -UDnav @world</samp> .
+Suppression de toute la conf du asound.conf et recompilation des paquets avec <kbd>USE="pulseaudio" emerge -UDnav @world</kbd> .
 
 Et là, ça passe direct.
 Plus de surprise, ça marche à chaque reboot sans rien configurer de plus.
@@ -180,14 +180,14 @@ Il faut donc installer [v4l2-loopback](https://github.com/umlaeute/v4l2loopback)
 Leur doc fonctionne très bien sur un kernel tout récent.
 
 Il faut donc tout d'abord vous assurez que vous avez le support de **v4l2** dans votre kernel.
-Pour ça un ptit <samp>grep V4L2 /usr/src/linux/.config</samp> afin de vérifier qu'il est bien à *yes* .
+Pour ça un ptit <kbd>grep V4L2 /usr/src/linux/.config</kbd> afin de vérifier qu'il est bien à *yes* .
 Si ce n'est pas le cas ajoutez-le, compilez le kernel et bootez dessus.
 
 Une fois fait, on installe **v4l2-loopback** qui est dans les packages de quelques distros.
-Si ce n'est pas le cas, un simple <samp>make</samp> dans le dossier des sources que vous avez préalablement téléchargé et hop il est compilé.
-Ensuite en tant que root, un ptit <samp>make install</samp> et le tour est joué.
+Si ce n'est pas le cas, un simple <kbd>make</kbd> dans le dossier des sources que vous avez préalablement téléchargé et hop il est compilé.
+Ensuite en tant que root, un ptit <kbd>make install</kbd> et le tour est joué.
 
-Une fois installé, il suffira de l'activer quand vous en avez besoin avec <samp>modprobe v4l2loopback devices=1 video_nr=5 card_label="OBS Cam" exclusive_caps=1</samp> et voilà.
+Une fois installé, il suffira de l'activer quand vous en avez besoin avec <kbd>modprobe v4l2loopback devices=1 video_nr=5 card_label="OBS Cam" exclusive_caps=1</kbd> et voilà.
 Vous avez désormais une webcam virtuelle en tant que /dev/video5 que vous pourrez envoyer à n'importe quelle appli.
 
 Mais il faudra tout de même fournir un flux à cette webcam, ça sera le boulot (entre autre) d'**obs**.

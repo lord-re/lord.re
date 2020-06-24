@@ -69,8 +69,8 @@ Mais il faut apprendre à s'en servir.
 
 ### Rechercher
 Ça utilise des raccourcis assez communs sous Linux.
-Par exemple, pour chercher vous pouvez utiliser **<samp>/</samp>** puis vous tapez le mot que vous cherchez.
-Ensuite avec **<samp>n</samp>** vous irez à la prochaine occurence du mot recherché.
+Par exemple, pour chercher vous pouvez utiliser **<kbd>/</kbd>** puis vous tapez le mot que vous cherchez.
+Ensuite avec **<kbd>n</kbd>** vous irez à la prochaine occurence du mot recherché.
 C'est tout con mais rien que le fait de connaître ça rend le truc utilisable.
 
 ### Comment c'est rangé
@@ -83,20 +83,20 @@ Le synopsis c'est pas mal mais si vous comprenez pas sa syntaxe c'est balot ça 
 
 Prenons l'exemple du *man ssh*
 
-<samp>ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface] [-b bind_address] [-c cipher_spec] [-D [bind_address:]port] [-E log_file] [-e escape_char] [-F configfile] [-I pkcs11] [-i identity_file] [-J destination] [-L address] [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port] [-Q query_option] [-R address] [-S ctl_path] [-W host:port] [-w local_tun[:remote_tun]] destination [command]</samp>
+<kbd>ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface] [-b bind_address] [-c cipher_spec] [-D [bind_address:]port] [-E log_file] [-e escape_char] [-F configfile] [-I pkcs11] [-i identity_file] [-J destination] [-L address] [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port] [-Q query_option] [-R address] [-S ctl_path] [-W host:port] [-w local_tun[:remote_tun]] destination [command]</kbd>
 
 Bon déjà, *tout ce qui est entouré de crochet est facultatif*.
 
-Donc dans notre exemple le minimum obligatoire est <samp>ssh destination</samp>.
+Donc dans notre exemple le minimum obligatoire est <kbd>ssh destination</kbd>.
 Et quand on regarde un peu plus bas dans le man ils indiquennt à propos de destination : *may be specified as either [user@]hostname or a URI of the form ssh://[user@]hostname[:port].* avec la même syntaxe des crochets.
 
-Revenons à l'exemple, au début il y a le gros pâté <samp>[-46AaCfGgKkMNnqsTtVvXxYy]</samp> qui indique toutes les options qui n'ont pas besoin d'argument et que vous pouvez donc tout coller à la suite, mais c'est pas obligatoire, vous pouvez faire <samp>-4 -A -f</samp> ou bien <samp>-4Af</samp>.
+Revenons à l'exemple, au début il y a le gros pâté <kbd>[-46AaCfGgKkMNnqsTtVvXxYy]</kbd> qui indique toutes les options qui n'ont pas besoin d'argument et que vous pouvez donc tout coller à la suite, mais c'est pas obligatoire, vous pouvez faire <kbd>-4 -A -f</kbd> ou bien <kbd>-4Af</kbd>.
 
 ### Les messages d'erreur sont précieux
 C'est con de devoir le dire, mais les messages d'erreurs sont pas faits pour être ignorés.
 Les logiciels bien faits ont des messages d'erreurs qui veulent dire quelque chose et assez explicites.
 
-Et quand c'est pas le cas, il faut parfois rajouter un **<samp>-v</samp>** pour activer le mode verbeux qui détaille un peu plus ce que fait le programme ce qui peut être précieux.
+Et quand c'est pas le cas, il faut parfois rajouter un **<kbd>-v</kbd>** pour activer le mode verbeux qui détaille un peu plus ce que fait le programme ce qui peut être précieux.
 
 Et vous aurez souvent les mêmes messages qui vont vous permettre de vite savoir d'où vient le souci.
 

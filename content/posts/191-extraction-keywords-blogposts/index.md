@@ -46,13 +46,13 @@ D'ailleurs voilà le TOP10 des mots qui reviennent le plus sur mon blog.
 
 Pour créer ce top j'ai utilisé la commande suivante :
 
-<samp>tail ~/www/content/\*/\*/index.md -n +12 | grep -E '\w+' -o | tr '[:upper:]' '[:lower:]' | sort | uniq -c | sort -g | less</samp>
+<kbd>tail ~/www/content/\*/\*/index.md -n +12 | grep -E '\w+' -o | tr '[:upper:]' '[:lower:]' | sort | uniq -c | sort -g | less</kbd>
 
 Passionnant n'est-il pas ?
 Bon globalement tous les mots de ce TOP10 (et en vrai même top 100 ou plus) sont inintéressants et n'apporte pas de contenu.
 
 ## Création d'un dico personnalisé
-<samp>tail ~/www/content/\*/\*/index.md -n +12 | grep -i -E '\w+' -o| sort | uniq -c | sort -g | tail -n 500 | awk '{print $2}' | sort > ~/www/top_words</samp>
+<kbd>tail ~/www/content/\*/\*/index.md -n +12 | grep -i -E '\w+' -o| sort | uniq -c | sort -g | tail -n 500 | awk '{print $2}' | sort > ~/www/top_words</kbd>
 
 On hésite pas à fureter dedans et virer les faux-positifs.
 D'ailleurs probablement qu'à terme j'y ajouterai certains mots manuellement.

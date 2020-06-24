@@ -35,14 +35,14 @@ Ce qui a l'effet inverse de ce qui est escompté.
 Le fichier a une syntaxe assez simple et peut même maintenant contenir d'autres informations pour les crawlers afin qu'ils indexent un peu mieux votre site.
 Dans les trucs pas mal, il y a le fait de pouvoir spécifier votre *sitemap* (on le voit plus bas).
 
-Une autre est également l'instruction <samp>Indexpage</samp> qui permet d'indiquer qu'une page est un index vers d'autres pages.
+Une autre est également l'instruction <kbd>Indexpage</kbd> qui permet d'indiquer qu'une page est un index vers d'autres pages.
 Ça permet à certains moteurs de recherche de mieux comprendre ce qu'ils sont en train de lire et donc de potentiellement mieux vous indexer.
 
 Alors bien entendu tout ça, c'est pas une science exacte.
 Le fichier n'est là qu'à titre indicatif, rien ne force les gens à prendre en compte ce fichier et à le respecter.
 Et certaines instructions ne sont pas comprises par tout le monde.
 
-Bref, le <samp>Disallow:</samp> qui vous permet d'exclure certaines pages des moteurs est à peu près compris de tous mais le reste c'est très aléatoire.
+Bref, le <kbd>Disallow:</kbd> qui vous permet d'exclure certaines pages des moteurs est à peu près compris de tous mais le reste c'est très aléatoire.
 Et je le répète un coup encore, si vous ne voulez pas qu'un truc apparaisse sur le net, l'indiquer dans votre **robots.txt** confirme son existence et n'oblige en rien à être respecté.
 
 ## security.txt
@@ -93,4 +93,4 @@ Sa syntaxe est assez stricte et la plupart des générateurs de sites font déj�
 
 
 ----------
-Un jour, on pourrait aller explorer ce qu'on peut mettre dans le <samp>/.well-known/</samp> …
+Un jour, on pourrait aller explorer ce qu'on peut mettre dans le <kbd>/.well-known/</kbd> …

@@ -69,11 +69,11 @@ Si comme moi vous avez mis absolument tout le monde dans vos différentes listes
 ## Apparté concernant les raccourcis claviers
 Mine de rien l'interface pas mal utilisable juste au clavier.
 
-Les **<samp>chiffres</samp>** vous permettent de sélectionner la colonne voulue.
-Ensuite les flèches **<samp>haut</samp>** et **<samp>bas</samp>** vous permettent de faire défiler les toots.
-**<samp>Enter</samp>** vous permet d'ouvrir un toot.
-Et enfin **<samp>n</samp>** vous permet de démarrer un nouveau toot.
-Et les deux derniers utiles sont **<samp>r</samp>** pour répondre et **<samp>f</samp>** pour foutre en favoris.
+Les **<kbd>chiffres</kbd>** vous permettent de sélectionner la colonne voulue.
+Ensuite les flèches **<kbd>haut</kbd>** et **<kbd>bas</kbd>** vous permettent de faire défiler les toots.
+**<kbd>Enter</kbd>** vous permet d'ouvrir un toot.
+Et enfin **<kbd>n</kbd>** vous permet de démarrer un nouveau toot.
+Et les deux derniers utiles sont **<kbd>r</kbd>** pour répondre et **<kbd>f</kbd>** pour foutre en favoris.
 
 ## Apparté concernant les performances
 Si vous laissez tourner Mastodon dans un onglet constamment, vous allez vous rendre compte que le Mammouth broute le CPU allégrement.

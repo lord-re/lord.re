@@ -128,7 +128,7 @@ La migration a été un peu chaotique car j'en ai profité pour migrer de *acme-
 Bref, faut toujours penser à faire un ptit coup sur le *staging* de letsencrypt quand on est pas sûr que ça fonctionne du premier coup.
 
 Je ne crois pas que ce soit lié à la migration de serveur mais plus à une update globale mais j'avais peté mon instance qui ne pouvait plus envoyer de toots publics.
-Un ptit coup dans la base de données avec <samp>select * from users where info is null;</samp> me renvoyait deux lignes qu'il a fallu que je vire pour réparer le truc.
+Un ptit coup dans la base de données avec <kbd>select * from users where info is null;</kbd> me renvoyait deux lignes qu'il a fallu que je vire pour réparer le truc.
 Voilà voilà.
 
 ## Vidéos

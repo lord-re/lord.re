@@ -28,10 +28,10 @@ Il s'agit en vrai d'un mini ordinateur sous Linux (comme d'hab) avec [ses faille
 ## Configurons donc un Alcatel I-010G-U
 
   1. Raccordez votre PC directement au cul de l'ONT via un câble réseau
-  2. Configurez votre PC en 192.168.1.1/24 (ex: **<samp>ip a a 192.168.1.1/24 dev eth0</samp>**)
+  2. Configurez votre PC en 192.168.1.1/24 (ex: **<kbd>ip a a 192.168.1.1/24 dev eth0</kbd>**)
   3. Démarrez l'ONT
   4. Maintenez 5s le bouton reset de l'ONT jusqu'à ce qu'un ptit flash ait lieu sur les LED
-  5. Ouvrez votre navigateur sur la page **<samp>http://192.168.1.251</samp>**
+  5. Ouvrez votre navigateur sur la page **<kbd>http://192.168.1.251</kbd>**
 {{< img src="ont-page1.png" alt="Page d'accueil de l'ONT" link="ont-page1.png" title="La page d'accueil de l'ONT" >}} 
   6. Rendez-vous dans *SLID configuration* 
 {{< img src="ont-page2.png" alt="Page d'accueil de l'ONT" >}} 

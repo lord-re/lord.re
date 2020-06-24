@@ -150,7 +150,7 @@ Et si vous voulez le faire à distance il va falloir d'abord sécuriser le truc 
 
 Voilà le détail des étapes:
 
-  - 1) **<samp>keymgr -t nom-de-la-clé</samp>**
+  - 1) **<kbd>keymgr -t nom-de-la-clé</kbd>**
   - 2) À mettre dans votre */etc/knot/knot.conf*
 {{< highlight yaml >}}  
 	key:
@@ -171,7 +171,7 @@ Voilà le détail des étapes:
     acl: update-via-ma-cle
 {{< / highlight >}}
 
-  - 4) **<samp>nsupdate -y hmac-sha384:nom-de-la-clé:euisrneuisrnesuinesunresuirnesiaunesiaurentauisretauisr</samp>**
+  - 4) **<kbd>nsupdate -y hmac-sha384:nom-de-la-clé:euisrneuisrnesuinesunresuirnesiaunesiaurentauisretauisr</kbd>**
   - 5) Voilà voilà
 
 ### 3 : knotc à l'authentique

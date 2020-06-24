@@ -37,17 +37,17 @@ btrfs filesystem show
 Et hop là vous voyez vos deux devices pour un seul FS \o/.
 Bon ça n'émoustille pas grand monde en dehors de moi.
 Jusque-là rien de bien magique.
-Commençons à raider ! Un ptit **<samp>btrfs filesystem df</samp>**.
+Commençons à raider ! Un ptit **<kbd>btrfs filesystem df</kbd>**.
 Cet outil sert en théorie à voir l'espace disponible (df a quelques soucis avec BTRFS).
 Il vous affichera également l'occupation du disque par les données, les metadata, le système (?) mais également comment sont stockées ces données (type de raid).
-**<samp>btrfs balance start -dconvert=raid1 /mnt/test</samp>**
+**<kbd>btrfs balance start -dconvert=raid1 /mnt/test</kbd>**
 
 Et c'est parti pour la touillette magique.
 Donc là les données sont désormais en RAID1 mais bon si on le fait pas pour les metadata, c'est pas terrible.
 
-**<samp>btrfs balance start -mconvert=raid1 /mnt/test</samp>**
+**<kbd>btrfs balance start -mconvert=raid1 /mnt/test</kbd>**
 
-**<samp>btrfs filesystem df</samp>**
+**<kbd>btrfs filesystem df</kbd>**
 Et là ça y est on vérifie que tout est bien en RAID1
 Et maintenant pour le fun on reboot avec un disque manquant.
 
@@ -56,9 +56,9 @@ Donc on va monter manuellement en rajoutant *l'option degraded* et là ça se mo
 Donc le but du jeu ça va être de foutre un nouveau disque dur pour reconstruire le raid.
 On remet un disque dur vierge, on boot, on mount manuellement.
 
-**<samp>btrfs device add /dev/sdc /mnt/test</samp>**
+**<kbd>btrfs device add /dev/sdc /mnt/test</kbd>**
 
-**<samp>btrfs device delete missing /mnt/test</samp>**
+**<kbd>btrfs device delete missing /mnt/test</kbd>**
 
 Et voilà :-) On pourrait même s'amuser à le transformer en RAID0 en changeant les options.
 La modif est transparente (peut-être interrompue et relancée) et n'impacte que les perfs pendant la touillette magique.

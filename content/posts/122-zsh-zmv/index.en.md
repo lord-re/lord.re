@@ -12,7 +12,7 @@ editor = "kakoune"
 +++
 Ordinary people like their desktop environment but as a beard holder, i prefer a plain old dark terminal.
 
-You probably know the **<samp>mv</samp>** command which lets you **m**o**v**e a file.
+You probably know the **<kbd>mv</kbd>** command which lets you **m**o**v**e a file.
 Most of the time it's ok, but sometime you may have a lot of files to rename with some common parts.
 And now starts hell.
 
@@ -33,16 +33,16 @@ Here is a classic example where you want to rename a prefixed file :
 
 As easy as ABC.
 
-**<samp>zmv 'the_pattern_to_remove(*)' '$1-the_new_pattern'</samp>**
+**<kbd>zmv 'the_pattern_to_remove(*)' '$1-the_new_pattern'</kbd>**
 
-To be safe, you should first use **<samp>-n</samp>** which won't do anything except showing you the potential result.
-There is also an interactive mode with **<samp>-i</samp>** where you need to acknowledge any edit.
+To be safe, you should first use **<kbd>-n</kbd>** which won't do anything except showing you the potential result.
+There is also an interactive mode with **<kbd>-i</kbd>** where you need to acknowledge any edit.
 
 Of course there are other options [documented](http://zsh.sourceforge.net/Doc/Release/User-Contributions.html#index-zmv) but these two are the most needed.
 
 The extra-bonus comes from the *globbing* and *modifiers* support from ZSH but i won't explain it now.
 With these two features, it's possible to add criterias.
-ex : **<samp>zmv '* *' '$f:gs/ /_'</samp>** will replace spaces by underscores.
+ex : **<kbd>zmv '* *' '$f:gs/ /_'</kbd>** will replace spaces by underscores.
 I admit i can't recall this one but now I know i'll find it here each time i need it.
 
-PS : To be able to use zmv you need to add **<samp>autoload -U zmv</samp>** in your *~/.zshrc*.
+PS : To be able to use zmv you need to add **<kbd>autoload -U zmv</kbd>** in your *~/.zshrc*.

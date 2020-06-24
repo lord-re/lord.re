@@ -35,66 +35,66 @@ Et là je me fais pas chier je prends le lien du *Latest Stable Kernel* en cours
 
 ## 2. Décompression et Mise à jour du lien symbolique
 
-**<samp>cd /usr/src/</samp>**
+**<kbd>cd /usr/src/</kbd>**
 Je me fous dans le bon dossier.
 
-**<samp>wget le latest</samp>**
+**<kbd>wget le latest</kbd>**
 Je télécharge donc le lien choppé précédemment.
 
-**<samp>tar xvf *.tar.xz</samp>**
+**<kbd>tar xvf *.tar.xz</kbd>**
 Je détarre le bousin.
 
-**<samp>unlink linux</samp>**
+**<kbd>unlink linux</kbd>**
 Je supprime le lien symbolique pointant vers les sources du kernel précédent (on peut utiliser rm mais ça impressionne plus d'utiliser unlink !).
 
-**<samp>ln -s linux-votre-latest linux</samp>**
+**<kbd>ln -s linux-votre-latest linux</kbd>**
 Je crée un lien symbolique vers les nouvelles sources.
 
 ## 3. Config
 
-**<samp>zcat /proc/config.gz > linux/.config</samp>**
+**<kbd>zcat /proc/config.gz > linux/.config</kbd>**
 Je récupère la conf du kernel qui tourne actuellement et je la fous dans les sources du nouveau.
 
-**<samp>make oldconfig</samp>**
+**<kbd>make oldconfig</kbd>**
 Et c'est parti pour voir toutes les nouveautés du kernel et à chaque nouvelle option il demande si je veux ou pas l'ajouter (généralement non, j'aime les kernels minimaux).
 Il faut souvent chercher un peu sur le web à quoi correspond certaines nouveautés.
 
 ## 4. Compilation
-**<samp>make -j32</samp>**
+**<kbd>make -j32</kbd>**
 Bon bha compilation.
 
-**<samp>su</samp>**
+**<kbd>su</kbd>**
 Pour la suite faut devenir le patron.
 
-**<samp>make modules_install</samp>**
+**<kbd>make modules_install</kbd>**
 J'installe les modules kernels (j'en ai pas beaucoup mais ça les fout au bon endroit (*/lib/modules/la.version/*)).
 Bon bha là c'est bon, enfin j'espère.
 Des fois c'est pas si bon.
 
 ## 5. Installation et test
 
-**<samp>mount /dev/sda1 /boot</samp>**
+**<kbd>mount /dev/sda1 /boot</kbd>**
 Je monte la partoche de boot.
 
-**<samp>cp /arch/x86/boot/bzImage /boot/boot/kernelXXXX</samp>**
+**<kbd>cp /arch/x86/boot/bzImage /boot/boot/kernelXXXX</kbd>**
 J'y copie le kernel tout juste sorti de la calculette.
 
-**<samp>reboot</samp>**
+**<kbd>reboot</kbd>**
 Le reboot indispensable.
 
-**<samp>e</samp>**
+**<kbd>e</kbd>**
 Pour interrompre Grub et éditer la ligne de boot, j'y change la version du kernel qui boot.
 
 ## 6. Mise à jour du bootloader
 Si ça boot sans encombre il reste plus qu'à passer ça en dur.
 
-**<samp>su</samp>**
+**<kbd>su</kbd>**
 Je remets mon cosplay de patron.
 
-**<samp>mount /dev/sda1 /boot</samp>**
+**<kbd>mount /dev/sda1 /boot</kbd>**
 Je remonte la partoche de boot.
 
-**<samp>vi /boot/boot/grub/menu.lst</samp>**
+**<kbd>vi /boot/boot/grub/menu.lst</kbd>**
 Et j'édite la conf de grub en changeant juste le nom du kernel que je boot.
 
 Et voilà c'est fini.

@@ -15,6 +15,6 @@ Il est possible d'émerger les paquets relous sur une autre Gentoo fonctionnelle
 Pour plus de simplicité, il est appréciable que les architectures soient identiques et si possible d'avoir le même *ACCEPT_KEYWORDS*.
 Il est toujours possible de bidouiller pour adapter ça (même pourquoi pas monter une chaîne de crossdev pour créer des paquets pour d'autres architectures, mais là n'est pas le propos).
 
-Pour faire ce genre de manip, il faut emerger le paquet sur la machine saine avec **<samp>--buildpkgonly</samp>**.
-Il sera placé dans */usr/portage/package/catégorie/paquet.tbz2*, vous le transversez vers la machine foireuse dans le même dossier et vous l'émergez avec **<samp>--usepkgonly</samp>**.
+Pour faire ce genre de manip, il faut emerger le paquet sur la machine saine avec **<kbd>--buildpkgonly</kbd>**.
+Il sera placé dans */usr/portage/package/catégorie/paquet.tbz2*, vous le transversez vers la machine foireuse dans le même dossier et vous l'émergez avec **<kbd>--usepkgonly</kbd>**.
 

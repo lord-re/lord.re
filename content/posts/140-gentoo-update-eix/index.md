@@ -16,9 +16,9 @@ C'est vraiment plus rapide.
 
 Par contre lorsque vous faites ceci, vous n'aurez plus les méta-données de l'arbre.
 Et ça pose soucis si comme moi vous utilisez **eix** pour chercher des infos sur les ebuilds.
-Si vous mettez à jour via **<samp>emerge --sync</samp>** ou même via **<samp>eix-sync</samp>** vous aurez donc potentiellement de nouveau paquets mais eix n'aura pas les infos.
+Si vous mettez à jour via **<kbd>emerge --sync</kbd>** ou même via **<kbd>eix-sync</kbd>** vous aurez donc potentiellement de nouveau paquets mais eix n'aura pas les infos.
 
-Du coup pour mettre à jour le cache de méta-données il faut utiliser la commande **<samp>egencache --jobs=8 --update --repo=gentoo</samp>**
+Du coup pour mettre à jour le cache de méta-données il faut utiliser la commande **<kbd>egencache --jobs=8 --update --repo=gentoo</kbd>**
 
 Et armez-vous de patience.
 

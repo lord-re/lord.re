@@ -39,7 +39,7 @@ Il me manquait un peu de **Hairpinning** sur le routeur.
 En gros dans mon LAN mes machines discutent entre elles avec des adresses *IP locales en 10.0.0.0/8*.
 Par contre quand sur mon LAN je tente de me connecter à lord.re les machines tentent de se connecter à *92.167.84.9*.
 Or, depuis mon LAN cette IP n'est pas renatté vers l'intérieur…
-Un ptit coup de **<samp>/usr/bin/iptables -t nat -A POSTROUTING -s 10.0.0.0/8 -d 10.2.0.51 -p tcp --dport 443 -j MASQUERADE</samp>** et le tour est joué.
+Un ptit coup de **<kbd>/usr/bin/iptables -t nat -A POSTROUTING -s 10.0.0.0/8 -d 10.2.0.51 -p tcp --dport 443 -j MASQUERADE</kbd>** et le tour est joué.
 Tout mon LAN peut désormais accéder à https://lord.re sans recourir à du bidouillage dans */etc/hosts*.
 
 Et là comme par miracle Isso a accepté de fonctionner.

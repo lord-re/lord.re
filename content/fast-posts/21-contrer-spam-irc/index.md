@@ -34,9 +34,9 @@ Il ne reste alors que les *join/quit* qui malheureusement ne peuvent pas être d
 ### Par les @ d'un salon
 Plusieurs possibilités avec chacunes leurs inconvénients.
 
-  - Voicer tous les utilisateurs légitimes et passer le salon en *<samp>+m</samp>* : il faut voicer tous les nouveaux arrivants.
-  - Restreindre le salon aux utilisateurs enregistrés avec *<samp>+R</samp>* : les utilisateurs doivent avoir enregistré leur pseudo auprès des services.
-  - Restreindre le salon aux utilisateurs avec une connexion sécurisée (tls) *<samp>+z</samp>* : les utilisateurs doivent se connecter via TLS.
+  - Voicer tous les utilisateurs légitimes et passer le salon en *<kbd>+m</kbd>* : il faut voicer tous les nouveaux arrivants.
+  - Restreindre le salon aux utilisateurs enregistrés avec *<kbd>+R</kbd>* : les utilisateurs doivent avoir enregistré leur pseudo auprès des services.
+  - Restreindre le salon aux utilisateurs avec une connexion sécurisée (tls) *<kbd>+z</kbd>* : les utilisateurs doivent se connecter via TLS.
   - Mettre en place une liste de *badwords* (la façon de faire varie beaucoup) : il faut se tapper la liste à la main et que le serveur le gère.
 
 ### Côté clients
@@ -54,7 +54,7 @@ Les salons de discussions redeviennent agréables à utiliser.
     /filter add irc_smart * irc_smart_filter *
 
 Et hop.
-Vous pouvez l'activer/désactiver avec *<samp>Alt =</samp>*
+Vous pouvez l'activer/désactiver avec *<kbd>Alt =</kbd>*
 
 Pour *Irssi* il existe un [script perl](https://github.com/lifeforms/irssi-smartfilter) apportant cette même fonctionnalité mais en 2018 plus personne n'utilise Irssi, non ?
 

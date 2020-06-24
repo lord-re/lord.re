@@ -28,7 +28,7 @@ On va recréer un environnement similaire à celui de l'article :
 ## Script pas à pas
 En fait toutes les commandes interactives de Tmux sont également disponibles en commandes shell que vous pouvez lancer manuellement ou bien lancer dans un script.
 
-On va donc faire tout cela dans un script que l'on nommera */usr/local/bin/blog*, on pense tout de suite à le rendre éxecutable avec <samp>chmod +x /usr/local/bin/blog</samp> et c'est partit !
+On va donc faire tout cela dans un script que l'on nommera */usr/local/bin/blog*, on pense tout de suite à le rendre éxecutable avec <kbd>chmod +x /usr/local/bin/blog</kbd> et c'est partit !
 
 
 {{< highlight "shell" >}}
@@ -64,7 +64,7 @@ tmux new-session -d -s "$session"
 {{< / highlight >}}
 
 Voilà on est dans le bon dossier, la session est créée.
-On est détaché (<samp>-d</samp>) et on lui a donné un ptit nom (<samp>-s blog</samp>)
+On est détaché (<kbd>-d</kbd>) et on lui a donné un ptit nom (<kbd>-s blog</kbd>)
 
 {{< highlight "shell" >}}
 tmux split-window -t "$window"
@@ -80,7 +80,7 @@ tmux send-keys -t "$window.0" "kak" C-m
 {{< / highlight >}}
 
 Maintenant, on se démarre [kakoune via sa commande kak]({{< ref "/posts/114-kakoune" >}}) dans le pane 0 de notre fenêtre.
-D'ailleurs pour envoyer une commande c'est avec <samp>C-m</samp> qui fait un **Ctrl-m** (ça fonctionne aussi dans votre shell), sinon vous pouvez aussi mettre Enter à la place.
+D'ailleurs pour envoyer une commande c'est avec <kbd>C-m</kbd> qui fait un **Ctrl-m** (ça fonctionne aussi dans votre shell), sinon vous pouvez aussi mettre Enter à la place.
 {{< highlight "shell" >}}
 tmux send-keys -t "$window.1" "hugo server --navigateToChanged --disableFastRender" C-m
 {{< / highlight >}}

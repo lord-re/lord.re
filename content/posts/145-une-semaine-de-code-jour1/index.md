@@ -43,7 +43,7 @@ J'ai choisi de faire du **Go**.
 Un truc que j'aime bien avec ce langage c'est que *ça génère des ptits binaires statiques*.
 Tu les copies/colles et hop ça fonctionne ailleurs et ça c'est super pratique.
 
-Et en plus tu peux avoir un fonctionnement un peu hybride dans le sens où *ça a beau être un langage compilé, tu peux faire du <samp>go run ta_source.go</samp> et hop ça tourne direct* (j'imagine qu'avec des programmes complexes ça tourne un peu moins instantanément, mais ça sera pas mon cas).
+Et en plus tu peux avoir un fonctionnement un peu hybride dans le sens où *ça a beau être un langage compilé, tu peux faire du <kbd>go run ta_source.go</kbd> et hop ça tourne direct* (j'imagine qu'avec des programmes complexes ça tourne un peu moins instantanément, mais ça sera pas mon cas).
 
 En plus ce langage est hype, donc autant voir pourquoi.
 J'aurai été moins quicheux, j'aurai probablement choisi Rust mais je pense ne clairement pas avoir le background technique suffisant.

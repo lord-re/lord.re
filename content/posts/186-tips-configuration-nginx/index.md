@@ -27,7 +27,7 @@ C'est par exemple très pratique pour la configuration TLS.
 J'ai un fichier *tls.conf* que je m'amuse à inclure de partout.
 Et d'ailleurs je le trimballe également sur chaque nouveau nginx que je fous en place.
 
-Dans vos vhost il ne vous reste plus qu'à ajouter <samp>include tls.conf</samp> et voilà.
+Dans vos vhost il ne vous reste plus qu'à ajouter <kbd>include tls.conf</kbd> et voilà.
 
 Pour ceux intéressés je vous le mets ici, si ça peut vous inspirer ainsi que celui pour le cache.
 
@@ -166,7 +166,7 @@ Bon allez un dernier micro conseil.
 Quand vous modifier votre conf, testez-la avant de tenter de la mettre en service.
 Ça vous évitera un peu de stress et vous permettra de corriger les éventuelles erreurs avec plus de sérénité.
 
-<samp>nginx -t</samp>
+<kbd>nginx -t</kbd>
 
 Là il vous indiquera si la syntaxe est ok et donc vous serez heureux et esquisserez un petit sourire.
 La vie est belle.

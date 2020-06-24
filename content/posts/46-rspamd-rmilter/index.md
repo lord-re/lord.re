@@ -69,7 +69,7 @@ Bon allez on se fout un ptit serveur redis en marche.
 Et hop on lance rspamd.
 Tiens il y a un rspamc pour faire mumuse.
 On va lui faire ingurgiter quelques mails pour lui permettre de séparer le bon mail de l'ivraie.
-Allez hop **<samp>rspamc learn-spam /home/lord/maildir/.spam/</samp>** et ça mouline.
+Allez hop **<kbd>rspamc learn-spam /home/lord/maildir/.spam/</kbd>** et ça mouline.
 Au bout de quelques minutes bha on a rspamd tout rassasié qui n'aura qu'à tremper ses lèvres dans le mail pour pouvoir le flagguer comme un grand.
 Bon bha voilà.
 Ça tourne.

@@ -83,11 +83,11 @@ Je vous laisse vous balader dans le fichier de conf.
 
 Les options que j'aime bien :
 
-  - <samp>snapshot_root</samp> : l'endroit qui servira de racine à tous les backup
-  - <samp>no_create_root</samp>: si jamais l'option du dessus se trouve être sur un support amovible cette option vous évitera une catastrophe si jamais vous avez oublié d'installer le média nécessaire.
-  - <samp>cmd_preexec</samp> et <samp>cmd_postexec</samp> : ça permet de lancer des scripts en début et fin de backup. Je m'en sers pour les notifs vers irc.
-  - <samp>retain</samp> : c'est là que vous indiquerez la rétention de vos différents backup
-  - <samp>one_fs</samp> : histoire de pas dérouler l'arbre des montages.
+  - <kbd>snapshot_root</kbd> : l'endroit qui servira de racine à tous les backup
+  - <kbd>no_create_root</kbd>: si jamais l'option du dessus se trouve être sur un support amovible cette option vous évitera une catastrophe si jamais vous avez oublié d'installer le média nécessaire.
+  - <kbd>cmd_preexec</kbd> et <kbd>cmd_postexec</kbd> : ça permet de lancer des scripts en début et fin de backup. Je m'en sers pour les notifs vers irc.
+  - <kbd>retain</kbd> : c'est là que vous indiquerez la rétention de vos différents backup
+  - <kbd>one_fs</kbd> : histoire de pas dérouler l'arbre des montages.
 
 ## Définition d'un backup
 Alors déjà vous allez devoir définir les intervales.
@@ -106,7 +106,7 @@ Du coup ça veut dire utiliser des clés sans passphrase, d'ailleurs [je vous av
 ### rsync ssh
 Le backup classique qui consiste donc à copier les fichiers est au final assez simple.
 
-<samp>backup  root@hc2:/      hc2/</samp>
+<kbd>backup  root@hc2:/      hc2/</kbd>
 
 Pensez bien à utiliser des tabulations !
 
@@ -117,14 +117,14 @@ Bref là c'est un backup complet.
 
 Un autre exemple : 
 
-<samp>backup  root@n2:/       n2/     exclude=/var/lib/postgresql</samp>
+<kbd>backup  root@n2:/       n2/     exclude=/var/lib/postgresql</kbd>
 
 Là on se connecte en tant que *root* à la machine *n2* pour récupérer ce qui est dans */* pour ranger ça dans *n2/* mais ce coup-ci on zappe volontairement le dossier */var/lib/postgresql* .
 
 ---------
 
 Un troisième et dernier exemple !
-<samp>backup  root@10.0.0.251:/storage        c2/     +rsync_long_args=--rsync-path=/storage/.kodi/addons/virtual.network-tools/bin/rsync</samp>
+<kbd>backup  root@10.0.0.251:/storage        c2/     +rsync_long_args=--rsync-path=/storage/.kodi/addons/virtual.network-tools/bin/rsync</kbd>
 
 Là on se connecte en tant que *root* sur la machine *10.0.0.251* pour sauvegarder ce qu'il se trouve dans */storage*, on stocke ça dans *c2/* et on rajoute la ptite option qui va bien (là c'est une option pour indiquer où se trouve rsync sur la machine distante car il ne se trouve pas dans le path).
 
@@ -138,7 +138,7 @@ Dans mon cas j'ai un postgresql qui me sert entre autre pour mon instance *ttrss
 
 Là je passe par : 
 
-<samp>backup_script   /usr/bin/ssh root@n2 "/usr/bin/pg_dumpall -Upostgres" > pg_dump.sql     n2_postgres/</samp>
+<kbd>backup_script   /usr/bin/ssh root@n2 "/usr/bin/pg_dumpall -Upostgres" > pg_dump.sql     n2_postgres/</kbd>
 
 Vous comprenez vite qu'en vrai ce n'est pas un script mais juste une commande balancée à l'arrache :-)
 Ici le script se connecte en ssh pour lancer une commande de backup postgres.
@@ -150,14 +150,14 @@ Mon but était d'épargné autant que possible le stockage de la machine distant
 Vous voulez voir si vous n'avez pas fait de connerie ?
 Rhaaa ayez un peu plus confiance en vous !
 
-<samp>rsnapshot -t alpha</samp>
+<kbd>rsnapshot -t alpha</kbd>
 
 Là vous verrez toutes les commandes qui seront lancées.
 Vous pouvez même vous les noter et les lancer au cas par cas pour tester/débugguer.
 
 Bon tout vous semble correct vous voulez déclencher un backup ?
 
-<samp>rsnapshot alpha</samp>
+<kbd>rsnapshot alpha</kbd>
 
 Voilà ça va se dérouler devant vos yeux.
 
@@ -178,4 +178,4 @@ Vous pourrez donc en garder un bon paquet sans que ça n'ait un gros impact.
 Par contre avec le calcul de l'espace peut parfois être un peu étrange et du coup supprimer un backup peut en vrai ne pas libérer autant de place que ce qu'il semble prendre.
 
 L'intérieur de ces dossiers est directement consultable, vous pouvez donc aller simplement consulter un fichier, voir ne restaurer qu'un dossier par exemple.
-Et tout ça juste avec vos commandes classiques de votre shell, <samp>cp</samp>, <samp>mv</samp> et pourquoi pas un <samp>rsync</samp>.
+Et tout ça juste avec vos commandes classiques de votre shell, <kbd>cp</kbd>, <kbd>mv</kbd> et pourquoi pas un <kbd>rsync</kbd>.

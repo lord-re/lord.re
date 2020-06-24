@@ -164,8 +164,8 @@ Il faudrait que je m'y penche un peu plus dessus.
 J'en ferai probablement un post.
 
 Dans un autre registre je me suis rendu compte qu'**isso** (ce que j'utilise pour les commentaires) était vautré depuis dix jours.
-J'ai fait un ptit <samp>pip install isso</samp> et visiblement gcc ne parvenait pas à compiler ce qu'il fallait à cause de cffi.h manquant.
-J'ai donc <samp>apk add libffi-dev</samp> et relancé l'install pip et hop c'est passé.
+J'ai fait un ptit <kbd>pip install isso</kbd> et visiblement gcc ne parvenait pas à compiler ce qu'il fallait à cause de cffi.h manquant.
+J'ai donc <kbd>apk add libffi-dev</kbd> et relancé l'install pip et hop c'est passé.
 Voilà, un bout de python qui s'installe pas, parcequ'il manque des libs C tout ça pour un ptit truc web pour des commentaires. -___-
 
 ## Vidéos

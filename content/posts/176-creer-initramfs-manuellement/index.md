@@ -242,7 +242,7 @@ Et le rescue c'est en fait *busybox* plus quelques logiciels en plus pour pouvoi
 ### Assemblage
 On va avoir besoin d'un ptit outil bien planqué.
 
-On va lancer **<samp>/usr/src/linux/usr/gen_init_cpio /usr/src/initramfs/initramfs.list > /usr/src/initramfs/initram.cpio</samp>** .
+On va lancer **<kbd>/usr/src/linux/usr/gen_init_cpio /usr/src/initramfs/initramfs.list > /usr/src/initramfs/initram.cpio</kbd>** .
 Et pouf !
 On a un joli initram qu'on va pouvoir filer à bouffer à notre kernel.
 

@@ -62,8 +62,8 @@ Au départ, Sway était basé sur WLC mais cette lib a vite montré ses faibless
 Maintenant (tout du moins les dernières beta) s'appuient sur wlroots et le projet atteint parfaitement son but d'être compatible avec i3.
 
 ## Du coup pour migrer il faut ?
-Déjà, faut **<samp>emerge sway</samp>** en veillant à bien prendre les beta de la branche 1.x et non les versions en 0.1x qui sont basées sur wlc encore.
-D'ailleurs quitte à migrer sur Sway, autant en profiter pour recompiler le plus de paquets possibles avec le support de wayland : dans */etc/portage/make.conf* on rajoute *<samp>wayland</samp>* dans les *<samp>USE</samp>*. Puis un ptit **<samp>emerge -UDnav @world</samp>** .
+Déjà, faut **<kbd>emerge sway</kbd>** en veillant à bien prendre les beta de la branche 1.x et non les versions en 0.1x qui sont basées sur wlc encore.
+D'ailleurs quitte à migrer sur Sway, autant en profiter pour recompiler le plus de paquets possibles avec le support de wayland : dans */etc/portage/make.conf* on rajoute *<kbd>wayland</kbd>* dans les *<kbd>USE</kbd>*. Puis un ptit **<kbd>emerge -UDnav @world</kbd>** .
 Une fois fait il vous reste plus qu'à démarrer votre sway !
 
 Bon dans mon cas je n'utilise pas **systemd** ni **elogind** ni **policy-kit** et mon gestionnaire de session est **qingy**.
@@ -99,7 +99,7 @@ input 65261:24672:Lord_Corp_Kbd_0.1 {
 
 Si ce n'est pas le cas, il faut passer tous les *bindsym* en *bindcode* c'est-à-dire virer tous les symboles et le remplacer par le keycode.
 Pour avoir ça, il faut utiliser l'utilitaire **xev** et appuyer sur la touche correrspondante.
-Exemple en bépo pour <samp>é</samp> :
+Exemple en bépo pour <kbd>é</kbd> :
 
 ```
 KeyPress event, serial 34, synthetic NO, window 0x800001,
@@ -116,13 +116,13 @@ Après la conversion c'est bon pour Sway.
 
 ## Quelques ajustements dans l'environnement ?
 
-Bon premier truc à savoir, par défaut Sway (si configuré avec le use <samp>X</samp>) fera tourner vos applis X11 via XWayland sans rien faire à tel point que vous ne vous rendrez pas compte si une appli est native ou non.
+Bon premier truc à savoir, par défaut Sway (si configuré avec le use <kbd>X</kbd>) fera tourner vos applis X11 via XWayland sans rien faire à tel point que vous ne vous rendrez pas compte si une appli est native ou non.
 Et c'est le cas même pour des applis qui semblerait difficilement compatible (genre **xclip** fonctionne bien) mais pourtant…
 
 Bon par contre aurevoir **scrot**.
 Le meilleur outil pour faire des captures d'écran ne fonctionne pas mais il existe [Grim](https://github.com/emersion/grim) qui s'en rapproche surtout lorsqu'on le couple avec [Slurp](https://github.com/emersion/slurp).
 
-Concernant **mpv**, si vous aviez fait de la config particulière, il faut désormais faire en sorte d'utiliser la sortie vidéo *<samp>gpu</samp>*.
+Concernant **mpv**, si vous aviez fait de la config particulière, il faut désormais faire en sorte d'utiliser la sortie vidéo *<kbd>gpu</kbd>*.
 
 Concernant **QuteBrowser**… bha même s'il peut tourner nativement avec Wayland il a quelques soucis un poil chiant pour le moment, du coup je le fais tourner via XWayland.
 

@@ -80,16 +80,16 @@ J'enfiche l'eMMC sur la board, je branche un câble HDMI, un ptit clavier USB et
 Bon, bha en dehors du fait que le clavier est un poil handicapant (vim en qwerty sur clavier azerty où la touche shift gauche ne fonctionne pas et où il n'y a pas de touche échap ça devient folklorique).
 Bref, faut faire la conf réseau à base de 
 
-  - **<samp>ip a a 10.0.0.253/8 dev eth0</samp>**
-  - la route avec **<samp>ip r a default via 10.0.0.254</samp>**
-  - et ensuite les DNS avec **<samp>echo "nameserver 10.0.0.254" > /etc/resolv.conf</samp>**
+  - **<kbd>ip a a 10.0.0.253/8 dev eth0</kbd>**
+  - la route avec **<kbd>ip r a default via 10.0.0.254</kbd>**
+  - et ensuite les DNS avec **<kbd>echo "nameserver 10.0.0.254" > /etc/resolv.conf</kbd>**
 
 Une fois tout ça fait on peut installer alpine-base qui permet d'installer à peu près ce qu'il faut. 
 
-  - **<samp>apk update</samp>**
-  - **<samp>apk upgrade</samp>**
-  - **<samp>apk add alpine-base</samp>**
-  - **<samp>setup-alpine</samp>**
+  - **<kbd>apk update</kbd>**
+  - **<kbd>apk upgrade</kbd>**
+  - **<kbd>apk add alpine-base</kbd>**
+  - **<kbd>setup-alpine</kbd>**
   - Il suffit de suivre le guide désormais :-)
 
 Voilà !
@@ -99,12 +99,12 @@ Non, il reste une petite bidouille à régler:
 Il s'avère que j'ai copié *mini rootfs* d'alpine comme un sagouin et du coup toutes les commandes qui nécessitent de changer d'utilisateur déconnent !
 **PERMISSION DENIED ! PERMISSION DENIED**
 Ouai ouai on a compris.
-Bref il m'a fallu faire un petit **<samp>chmod o+rx /</samp>** et tout est rentré dans l'ordre.
+Bref il m'a fallu faire un petit **<kbd>chmod o+rx /</kbd>** et tout est rentré dans l'ordre.
 
 C'est quand même avec le kernel et l'initramfs d'Arch mais ça fonctionne.
 D'ailleurs *il peut être sympa de récupérer les modules d'Arch pour les foutre sur l'Alpine*.
 
-Pour ça, on va aller chercher [direct chez Arch](https://archlinuxarm.org/packages) avec les termes <samp>odroid-n2</samp>.
+Pour ça, on va aller chercher [direct chez Arch](https://archlinuxarm.org/packages) avec les termes <kbd>odroid-n2</kbd>.
 Là on choisit le paquet **linux-odroid-n2** et on le télécharge.
 
 On détar le fichier ce qui va nous donner un *boot*,*etc* et *usr*.

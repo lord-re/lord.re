@@ -25,10 +25,10 @@ Il sert tout simplement à s'échanger des fichiers entre deux machines.
 Il le faut donc des deux côtés : chez l'émetteur et chez le récepteur.
 
 Il fonctionne en ligne de commande mais est tout simple.
-Il suffit de faire <samp>croc send /votre/fichier /un/autre/fichier /et/pourquoi/pas/un/dossier/</samp> .
+Il suffit de faire <kbd>croc send /votre/fichier /un/autre/fichier /et/pourquoi/pas/un/dossier/</kbd> .
 À ce moment-là, il vous apparaitra trois mots plus ou moins aléatoire qu'il faudra donner à votre destinataire.
 
-Le destinataire n'aura plus qu'à faire <samp>croc right-bucket-orlando</samp> (enfin vos 3 mots à vous) et hop ça initiera l'échange et tout.
+Le destinataire n'aura plus qu'à faire <kbd>croc right-bucket-orlando</kbd> (enfin vos 3 mots à vous) et hop ça initiera l'échange et tout.
 **Pas d'ouverture de port**, c'est **très rapide** (à peu près la vitesse de la connexion), c'est **chiffré de bout-en-bout**.
 
 Il affiche une *ptite barre de progression, la vitesse de téléchargement, le temps passé et une estimation du temps restant*.
@@ -36,9 +36,9 @@ Il affiche une *ptite barre de progression, la vitesse de téléchargement, le t
 Je ne vous cache pas que c'est pas non plus à 100% magique.
 Ça nécessite un relai.
 Si vous n'en avez pas, le projet en fourni un qui est celui utilisé par défaut mais si jamais vous ressentez l'envie d'être autonome, vous pouvez faire votre propre relai.
-Et là c'est ultra simple aussi un simple <samp>croc relay</samp> et hop votre machine sert désormais de relai.
+Et là c'est ultra simple aussi un simple <kbd>croc relay</kbd> et hop votre machine sert désormais de relai.
 
-Pour l'utiliser il vous faudra juste le préciser avec <samp>--relay a.b.c.d:port</samp> et voilà.
+Pour l'utiliser il vous faudra juste le préciser avec <kbd>--relay a.b.c.d:port</kbd> et voilà.
 
 ## Le petit plus
 Franchement ça ne serait que ça je n'aurai pas écrit ce ptit article.
@@ -57,7 +57,7 @@ La tristesse c'est vraiment pas cool.
 Du coup, là, un simple coup de **croc** et hop, tout s'arrange.
 La brume du désespoir se dissipe et laisse place à un soleil radieux.
 
-Et donc avec un pipe sur la machine A on lance : <samp>ps auxf| croc send</samp> et sur la machine B on lance le <samp>croc edward-brown-parade | grep machin</samp> et pouf ça fonctionne.
+Et donc avec un pipe sur la machine A on lance : <kbd>ps auxf| croc send</kbd> et sur la machine B on lance le <kbd>croc edward-brown-parade | grep machin</kbd> et pouf ça fonctionne.
 Je vous laisse imaginer les ptits enchaînements possibles avec tout ça :-D
 
 Et comme c'est du Go donc statique, il suffit de coller le binaire où vous en avez besoin et hop ça fonctionne.
@@ -66,4 +66,4 @@ Voilà, n'hésitez pas à en abuser, ça se trouve sur [Github](https://github.c
 
 ----------
 
-Si vous voulez tester, je vous propose de récupérer un fichier avec <samp>croc truc-machin-bidule</samp>.
+Si vous voulez tester, je vous propose de récupérer un fichier avec <kbd>croc truc-machin-bidule</kbd>.

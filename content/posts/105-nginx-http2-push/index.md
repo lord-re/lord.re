@@ -51,15 +51,15 @@ Par contre, vous vous doutez que si le serveur s'amuse à envoyer un fichier inu
 ## Et dans le Moteur X ?
 ### H2
 Pour utiliser HTTP2, pas grand chose à faire dans votre conf nginx.
-Dans le block <samp>*server*</samp> vous devriez avoir un <samp>*listen*</samp> (ou plus).
-Sur celui concernant le port 443, ajoutez <samp>*http2*</samp>.
+Dans le block <kbd>*server*</kbd> vous devriez avoir un <kbd>*listen*</kbd> (ou plus).
+Sur celui concernant le port 443, ajoutez <kbd>*http2*</kbd>.
 
 C'est tout.
 ### PUSH
 Nginx sait pusher du contenu depuis la version *1.13.9* sortie en Février 2018.
 Je me suis empressé de le mettre en place et de faire quelques tests.
 
-Bon du coup dans bloc de type <samp>*location*</samp>, depuis l'endroit où vous voulez pusher votre contenu, il va falloir rajouter un simple :
+Bon du coup dans bloc de type <kbd>*location*</kbd>, depuis l'endroit où vous voulez pusher votre contenu, il va falloir rajouter un simple :
 
     http2_push /css/neodark.css;
 		http2_push /favicon.ico;

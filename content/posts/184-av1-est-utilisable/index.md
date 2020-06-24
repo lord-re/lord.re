@@ -87,12 +87,12 @@ Bon et pour la pratique voilà comment j'ai fait :
   4. muxer le fichier obtenu dans du webm
 
 Alors pour l'étape 3 j'ai utilisé une commande de ce style :
-<samp>ffmpeg -i ./partie7.mp4 -nostdin -f rawvideo -pix_fmt yuv420p - | /home/lord/githuberies/SVT-AV1/Bin/Release/SvtAv1EncApp -i stdin -fps 60 -q 63 -w 720 -h 1496 -enc-mode 2 -b ./partie7.av1</samp>
+<kbd>ffmpeg -i ./partie7.mp4 -nostdin -f rawvideo -pix_fmt yuv420p - | /home/lord/githuberies/SVT-AV1/Bin/Release/SvtAv1EncApp -i stdin -fps 60 -q 63 -w 720 -h 1496 -enc-mode 2 -b ./partie7.av1</kbd>
 
 La commande est particulière parcequ'actuellement le compresseur ne sait se débrouiller que si on lui envoie les images dans un format bien particulier (ce que fait ffmpeg).
 Mais bon rassurez-vous, il existe déjà un patch pour intégrer ça directement dans ffmpeg pour que ça soit bien plus simple à l'avenir.
 
-Et concernant l'étape 4 il suffit d'un simple <samp>ffmpeg -i partie7.av1 -c:v copy partie7.webm</samp> et vous voilà avec un fichier webm à placer où_vous le souhaitez.
+Et concernant l'étape 4 il suffit d'un simple <kbd>ffmpeg -i partie7.av1 -c:v copy partie7.webm</kbd> et vous voilà avec un fichier webm à placer où_vous le souhaitez.
 
 ------------
 Bon par contre héberger des vidéos ça bouffe beaucoup de bande passante (je suis loin de saturer, hein).

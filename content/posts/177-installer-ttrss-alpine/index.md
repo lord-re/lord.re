@@ -41,7 +41,7 @@ Bon on va commencer par la liste de paquets à installer :
   - postgresql-contrib
   - tmux
 
-Ensuite on se crée un utilisateur exprès avec **<samp>adduser rss</samp>** on lui met un mot de passe bidon (qui ne servira pas).
+Ensuite on se crée un utilisateur exprès avec **<kbd>adduser rss</kbd>** on lui met un mot de passe bidon (qui ne servira pas).
 
 ## Configuration de Nginx
 On crée un fichier */etc/nginx/conf.d/rss.lord.re.conf* avec dedans la conf du virtualhost.
@@ -64,11 +64,11 @@ server {
 {{< / highlight >}}
 </details>
 
-On peut ensuite le démarrer avec **<samp>/etc/init.d/nginx start</samp>** et d'ailleurs on démarre également php avec **<samp>/etc/init.d/php-fpm7 start</samp>** .
+On peut ensuite le démarrer avec **<kbd>/etc/init.d/nginx start</kbd>** et d'ailleurs on démarre également php avec **<kbd>/etc/init.d/php-fpm7 start</kbd>** .
 
 ## Ajout du HTTPS via LetsEncrypt
 On utilise le script **acme.sh** pour générer le certificat et le renouveler et tout.
-Il faut donc lancer **<samp>acme.sh --issue --nginx rss.lord.re --keylength ec-384</samp>** .
+Il faut donc lancer **<kbd>acme.sh --issue --nginx rss.lord.re --keylength ec-384</kbd>** .
 
 On édite ensuite la conf nginx pour mettre en place tout ce qu'il faut.
 <details open><summary>/etc/nginx/conf.d/rss.lord.re.conf</summary>
@@ -109,19 +109,19 @@ On prévoit le renouvellement automatique des certificats en créant un ptit fic
 {{< / highlight >}}
 </details>
 
-On peut reload nginx pour qu'il prenne en compte ces modifs **<samp>/etc/init.d/nginx reload</samp>** .
+On peut reload nginx pour qu'il prenne en compte ces modifs **<kbd>/etc/init.d/nginx reload</kbd>** .
 
 ## On prépare la base de donnée
-On démarre *postgres* avec **<samp>/etc/init.d/postgresql start</samp>** .
-Ensuite on active les *trigrames* avec **<samp>su - postgres -c psql</samp>** et là vous vous retrouvez dans le shell de postgres.
-Et là un simple **<samp>CREATE EXTENSION pg_trgm;</samp>** et c'est bon c'est activé.
+On démarre *postgres* avec **<kbd>/etc/init.d/postgresql start</kbd>** .
+Ensuite on active les *trigrames* avec **<kbd>su - postgres -c psql</kbd>** et là vous vous retrouvez dans le shell de postgres.
+Et là un simple **<kbd>CREATE EXTENSION pg_trgm;</kbd>** et c'est bon c'est activé.
 
-Ensuite un **<samp>CREATE DATABASE ttrss;</samp>** et enfin **<samp>CREATE USER ttrss WITH PASSWORD 'truc';</samp>** et pour finir on lui donne les droits nécessaires **<samp>GRANT ALL PRIVILEGES ON DATABASE ttrss to ttrss;</samp>**.
+Ensuite un **<kbd>CREATE DATABASE ttrss;</kbd>** et enfin **<kbd>CREATE USER ttrss WITH PASSWORD 'truc';</kbd>** et pour finir on lui donne les droits nécessaires **<kbd>GRANT ALL PRIVILEGES ON DATABASE ttrss to ttrss;</kbd>**.
 
 Voilà votre base est utilisable par ttrss.
 
 ## Install de TT-RSS
-Bon, on se loggue en tant que rss avec **<samp>su - rss</samp>** ce qui nous téléporte dans */home/rss/* là on récupère ttrss avec **<samp>git clone https://git.tt-rss.org/fox/tt-rss.git</samp>**.
+Bon, on se loggue en tant que rss avec **<kbd>su - rss</kbd>** ce qui nous téléporte dans */home/rss/* là on récupère ttrss avec **<kbd>git clone https://git.tt-rss.org/fox/tt-rss.git</kbd>**.
 
 Quelques secondes plus tard vous avez tout d'installé dans le dossier */home/rss/tt-rss*.
 
@@ -144,9 +144,9 @@ Et là ttrss va vous pondre un fichier de conf à poser dans */home/rss/tt-rss/c
 ## Mettre tout ça au boot
 Alors on va rajouter au boot les différents services nécessaires :
 
-  - **<samp>rc-update add nginx</samp>**
-  - **<samp>rc-update add php-fpm7</samp>**
-  - **<samp>rc-update add postgresql</samp>**
+  - **<kbd>rc-update add nginx</kbd>**
+  - **<kbd>rc-update add php-fpm7</kbd>**
+  - **<kbd>rc-update add postgresql</kbd>**
 
 Il manque un dernier truc : ttrss possède un daemon en php allant régulièrement récupéré les différents flux RSS pour trouver les nouveaux articles.
 On va rajouter ça proprement en créant un fichier de service (vous allez voir, c'est pas plus compliqué qu'avec systemd).
@@ -166,7 +166,7 @@ depend() {
 {{< / highlight >}}
 </details>
 
-Et enfin **<samp>rc-update add ttrss</samp>** .
+Et enfin **<kbd>rc-update add ttrss</kbd>** .
 Et voilà.
 
 Bon appétit !

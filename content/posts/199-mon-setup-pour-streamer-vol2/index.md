@@ -35,7 +35,7 @@ Et enfin les transitions c'est ce qui va animer un peu les changements entre les
 Tout est configurable.
 
 Bref, ce logiciel est une perle qui fonctionne avec des plugins permettant de lui ajouter de nombreuses fonctions.
-Le seul petit truc, c'est qu'il faut le lancer via X11 avec <samp>QT_QPA_PLATFORM=xcb obs</samp>, sinon pas de preview et autres petits soucis d'interface avec Wayland (encore qu'il existe un ptit fork que je n'ai pas testé).
+Le seul petit truc, c'est qu'il faut le lancer via X11 avec <kbd>QT_QPA_PLATFORM=xcb obs</kbd>, sinon pas de preview et autres petits soucis d'interface avec Wayland (encore qu'il existe un ptit fork que je n'ai pas testé).
 
 ### Plugins pour obs
 J'ai utilisé plusieurs plugins : 
@@ -55,14 +55,14 @@ Ensuite, **[obs-v4l2sink](https://github.com/CatxFish/obs-v4l2sink)** qui permet
 En gros, la sortie OBS sera considéré comme une webcam et pourra donc être envoyé dans n'importe quelle appli s'attendant à utiliser une webcam.
 Une fois installé vous n'avez qu'à lui donner le nom de device */dev/video5* (que vous avez choisi lors du modprobe de v4l2-loopback) et c'est parti.
 
-  - D'abord les sources d'obs nécessaires pour compiler le plugin : <samp>git clone --recursive https://github.com/obsproject/obs-studio.git</samp> 
-  - Les sources du plugin : <samp>git clone https://github.com/CatxFish/obs-v4l2sink.git</samp>
-  - <samp>cd obs-v4l2sink</samp>.
-  - <samp>mkdir build && cd build</samp>
-  - <samp>cmake -DLIBOBS_INCLUDE_DIR="../../obs-studio/libobs" -DCMAKE_INSTALL_PREFIX="/usr"</samp>
-  - <samp>make -j16</samp>
-  - <samp>mkdir -p ~/.config/obs-studio/plugins/v4l2sink/bin/64bit</samp>
-  - Il ne reste plus qu'à foutre le plugin dans obs : <samp>cp build/v4l2sink.so ~/.config/obs-studio/plugins/v4l2sink/bin/64bit</samp>
+  - D'abord les sources d'obs nécessaires pour compiler le plugin : <kbd>git clone --recursive https://github.com/obsproject/obs-studio.git</kbd> 
+  - Les sources du plugin : <kbd>git clone https://github.com/CatxFish/obs-v4l2sink.git</kbd>
+  - <kbd>cd obs-v4l2sink</kbd>.
+  - <kbd>mkdir build && cd build</kbd>
+  - <kbd>cmake -DLIBOBS_INCLUDE_DIR="../../obs-studio/libobs" -DCMAKE_INSTALL_PREFIX="/usr"</kbd>
+  - <kbd>make -j16</kbd>
+  - <kbd>mkdir -p ~/.config/obs-studio/plugins/v4l2sink/bin/64bit</kbd>
+  - Il ne reste plus qu'à foutre le plugin dans obs : <kbd>cp build/v4l2sink.so ~/.config/obs-studio/plugins/v4l2sink/bin/64bit</kbd>
 
 Voilà, normalement le plugin sera utilisable.
 
@@ -95,10 +95,10 @@ C'est pas la partie la plus intéressante.
 On va commencer par une scène simple avec une webcam et le micro.
 La base de la base.
 
-Donc on clique sur le <samp>+</samp> dans les scènes et on lui donne un nom.
+Donc on clique sur le <kbd>+</kbd> dans les scènes et on lui donne un nom.
 Ensuite, on va ajouter le micro comme première source.
 
-Donc dans la liste des sources possibles vous devriez avoir *Audio Input Capture (PulseAudio)*, vous lui donnez un ptit nom original comme par-exemple… <samp>micro</samp>.
+Donc dans la liste des sources possibles vous devriez avoir *Audio Input Capture (PulseAudio)*, vous lui donnez un ptit nom original comme par-exemple… <kbd>micro</kbd>.
 Ensuite dans la fenêtre qui s'ouvre vous choisissez le bon device (le nom de votre carte son selon PulseAudio).
 Ça devrait donc apparaitre dans la partie *Audio Mixer* et réagir à votre voix déjà.
 On va y ajouter un filtre : clic droit sur votre source, *filters* et là vous allez pouvoir faire mumuse avec tout un tas de trucs.
@@ -116,7 +116,7 @@ Bon, maintenant que l'audio est bon, ajoutons une webcam.
 Ajoutez encore une source mais de type *Media Source*.
 Bon, j'espère que vous avez suivi la première partie, parceque là on va récupérer un flux en provenance de l'appli **DroidCam** d'un smartphone.
 Donc il faut avoir démarré l'appli sur le téléphone qui vous indique une URL.
-Sur OBS, dans votre source vidéo, il faut décocher *Local File* et dans *Input* entrer l'url de la forme <samp>http://ip.du.smart.phone:4747/video</samp>.
+Sur OBS, dans votre source vidéo, il faut décocher *Local File* et dans *Input* entrer l'url de la forme <kbd>http://ip.du.smart.phone:4747/video</kbd>.
 Tout le reste peut être laissé par défaut, ça devrait fonctionner.
 
 Vous devriez désormais voir le flux arrivé.
@@ -199,10 +199,10 @@ C'est plus visuel, vous aurez encore plus l'impression de gérer une région vid
 
 **Petite astuce pour lancer une appli sous X11 au lieu de Wayland :**
 Il faut déjà que l'appli sache tourner sous X11.
-Ensuite pour une appli utilisant Qt, vous pouvez la forcer lors du lancement avec <samp>QT_QPA_PLATFORM=xcb nom_de_votre_soft</samp>, comme ça elle sera directe envoyée sur XWayland.
+Ensuite pour une appli utilisant Qt, vous pouvez la forcer lors du lancement avec <kbd>QT_QPA_PLATFORM=xcb nom_de_votre_soft</kbd>, comme ça elle sera directe envoyée sur XWayland.
 
 Pour d'autres applis, vous pouvez tout simplement le faire en leur enlevant la variable d'environnement *WAYLAND_DISPLAY*.
-Par exemple pour lancer **Alacritty** il faut faire <samp>WAYLAND_DISPLAY= alacritty</samp> .
+Par exemple pour lancer **Alacritty** il faut faire <kbd>WAYLAND_DISPLAY= alacritty</kbd> .
 Voili voilou.
 
 Bon dans le prochain article j'aborderai enfin la partie diffusion.

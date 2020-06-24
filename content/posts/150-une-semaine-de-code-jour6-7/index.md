@@ -21,13 +21,13 @@ J'ai … débloqué le tout petit truc qui me coinçait.
 Bref je pense avoir surpassé tous les ptits trucs qui me faisaient chier et maintenant j'ai un code que je comprends de partout et qui marche comme je l'intuitais.
 Je suis super content.
 
-En fait, le truc qui m'a complètement paralysé dans ma fonction <samp>connection.Interact()</samp> était tout bête : j'arrivais à récupérer le texte et donc à l'afficher, mais étrangement je ne parvenais pas à réagir à ce texte reçu.
+En fait, le truc qui m'a complètement paralysé dans ma fonction <kbd>connection.Interact()</kbd> était tout bête : j'arrivais à récupérer le texte et donc à l'afficher, mais étrangement je ne parvenais pas à réagir à ce texte reçu.
 Du coup lorsque je recevais un *PING*, je le voyais, je créais le *PONG* qui va bien, mais il partait pas.
 Et j'ai buté sur ça depuis vendredi soir.
 
 Et encore une fois cette nuit, l'**illumination** !
-Dans ma fonction <samp>connection.Interact()</samp>, lorsque je recevais le *PING*, j'étais dans le <samp>case reader</samp> en train d'éxecuter la commande <samp>parseIrc</samp>, mais du coup, je n'étais plus en mesure d'écouter le <samp>chan</samp> entrant.
-Bon c'est dur à expliquer mais, le truc pour débloquer ça, a été tout simplement de foutre le <samp>parseIrc</samp> dans une routine en parallèle, comme ça, pendant que ça fait son boulot, la boucle se termine et elle est de nouveau disponible en écoute.
+Dans ma fonction <kbd>connection.Interact()</kbd>, lorsque je recevais le *PING*, j'étais dans le <kbd>case reader</kbd> en train d'éxecuter la commande <kbd>parseIrc</kbd>, mais du coup, je n'étais plus en mesure d'écouter le <kbd>chan</kbd> entrant.
+Bon c'est dur à expliquer mais, le truc pour débloquer ça, a été tout simplement de foutre le <kbd>parseIrc</kbd> dans une routine en parallèle, comme ça, pendant que ça fait son boulot, la boucle se termine et elle est de nouveau disponible en écoute.
 
 Voilà Samedi je n'y ai pas touché à cause de ça (bon j'ai été assez pris à côté faut dire, mais du coup je n'ai pas été très motivé).
 Une fois ce verrou enlevé j'ai eu envie de me refaire chier à faire des trucs tordus.

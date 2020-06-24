@@ -76,7 +76,7 @@ En deux minutes c'est réglé.
 Le serveur DHCP, allez celui-là on le laisse géré via l'interface web d'OpenWRT.
 C'est un *dnsmasq* classique.
 Par contre je sais pas si c'est moi qui n'ais pas de bol ou autre mais ce couillon me pousse pas de DNS… c'est un peu dommage pour un serveur DHCP.
-Il a fallu tripoter la conf manuellement dans <samp>/var/etc/dnsmasq.conf</samp> pour rajouter l'option de balancer du DNS… étrange mais soit.
+Il a fallu tripoter la conf manuellement dans <kbd>/var/etc/dnsmasq.conf</kbd> pour rajouter l'option de balancer du DNS… étrange mais soit.
 Ptet juste un ptit bug.
 Passons.
 
@@ -90,7 +90,7 @@ Typiquement on peut faire des containers pour y héberger deux trois trucs de fa
 
 OpenWRT m'a bluffé par l'intégration de LXC direct dans l'interface web et le pire c'est que c'est pas trop mal foutu (simpliste mais fonctionnel).
 Bref de base ça propose pas mal de distro classique mais surtout Gentoo mais encore plus surtout Alpine Linux !
-J'ai pu démarrer en trente seconde un container alpine et rentrer dedans en console via un **<samp>lxc-attach -n alpine</samp>**.
+J'ai pu démarrer en trente seconde un container alpine et rentrer dedans en console via un **<kbd>lxc-attach -n alpine</kbd>**.
 Pour l'instant rien à redire
 
 Pour l'instant appart quelques déconvenues d'interfaces/intégration made in OpenWRT c'est vraiment tout bon.

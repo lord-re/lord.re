@@ -27,7 +27,7 @@ We will try to reproduce the same behavior as this blogpost :
 ## Scripting it one step at a time
 All we need to do is writing every tmux command needed to do this in a script and it should work.
 
-So let's write */usr/local/bin/blog*, and don't forget to make it executable with <samp>chmod +x /usr/local/bin/blog</samp>.
+So let's write */usr/local/bin/blog*, and don't forget to make it executable with <kbd>chmod +x /usr/local/bin/blog</kbd>.
 Let's go !
 
 
@@ -61,7 +61,7 @@ tmux new-session -d -s "$session"
 {{< / highlight >}}
 
 We first go in the right folder and create a brand new tmux session with the right name.
-Make sure to create it but don't attach to it (<samp>-d</samp>) and to give it a name (<samp>-s blog</samp>)
+Make sure to create it but don't attach to it (<kbd>-d</kbd>) and to give it a name (<kbd>-s blog</kbd>)
 
 {{< highlight "shell" >}}
 tmux split-window -t "$window"
@@ -76,7 +76,7 @@ tmux send-keys -t "$window.0" "kak" C-m
 {{< / highlight >}}
 
 Now, we start [Kakoune (my favourite text editor)(https://kakoune.org) in the left pane (0).
-*C-m* means <samp>Ctrl-m</samp> (it also works in a regular shell) but you could also use *Enter*.
+*C-m* means <kbd>Ctrl-m</kbd> (it also works in a regular shell) but you could also use *Enter*.
 
 {{< highlight "shell" >}}
 tmux send-keys -t "$window.1" "hugo server --navigateToChanged --disableFastRender" C-m

@@ -19,7 +19,7 @@ Bref, le truc ultra basique et rapide.
 Juste un passage de 3.10 à 3.11.
 
 J'édite donc le */etc/apk/repositories* pour y changer le numéro de version.
-Je lance un coup de <samp>apk update</samp> et quelques secondes après <samp>apk upgrade</samp>.
+Je lance un coup de <kbd>apk update</kbd> et quelques secondes après <kbd>apk upgrade</kbd>.
 Tout se passe bien.
 
 Je regarde les services qui tournent avec htop, je les redémarre un par un histoire d'être sur la dernière version.
@@ -38,12 +38,12 @@ Arg c'est dommage c'est un important lui.
 Peut pas trop le foutre en vrac trop longtemps.
 
 Bon visiblement il se plaint de truc bizarre.
-Relançons un <samp>apk upgrade</samp> ouai ça sert à rien mais des fois que…
+Relançons un <kbd>apk upgrade</kbd> ouai ça sert à rien mais des fois que…
 
 Tiens !
 **apk** me sort *2 errors* mais c'est écrit en tout petit j'avions point vu !
 
-Dans ce cas il faut <samp>apk fix</samp>.
+Dans ce cas il faut <kbd>apk fix</kbd>.
 Hmm il arrive pas à résoudre les erreurs et me sort un *secure_getenv : symbol not found* .
 
 Ha tiens c'est aussi l'erreur que me sortait knot !
@@ -64,14 +64,14 @@ Allez je pose ma question sur *#alpine-linux* .
 On investigue un peu et là.
 Tadaaaaaa un sauveur me sort la solution comme ça au bout de trois minutes.
 
-<samp>apk upgrade -U -a -s</samp>
+<kbd>apk upgrade -U -a -s</kbd>
 Me sort un listing de paquets pas super à jour.
-Du coup un ptit <samp>apk upgrade -a</samp> et voilà !
+Du coup un ptit <kbd>apk upgrade -a</kbd> et voilà !
 
 Plus d'erreur, je peux relancer knot.
 En moins de 5 minutes top chrono la communauté irc d'alpine m'a démerdouillé le truc.
 
-Donc note à moi-même pour la prochaine fois : **Lors d'un upgrade de version chez Alpine il faut faire un <samp>apk upgrade -a</samp> pour vraiment tout upgrader.**
+Donc note à moi-même pour la prochaine fois : **Lors d'un upgrade de version chez Alpine il faut faire un <kbd>apk upgrade -a</kbd> pour vraiment tout upgrader.**
 
 ## Migration d'acme-client à acme.sh
 Bon, une fois ce premier souci résolu, j'ai voulu me créer un nouveau vhost.
@@ -91,7 +91,7 @@ Tout en shell avec quasiment aucune dépendances.
 Ça s'installe en deux deux, très simple d'utilisation et tout.
 Et pour une fois je me suis laissé allé à la flemmardise et je le laisse même trifouiller la conf nginx tout seul.
 
-Du coup je fais un coup de <samp>acme.sh --issue -d mon.domaine --nginx</samp> ça mouline quelques secondes.
+Du coup je fais un coup de <kbd>acme.sh --issue -d mon.domaine --nginx</kbd> ça mouline quelques secondes.
 Il m'indique ensuite où sont rangés les cert clé et compagnie.
 Plus qu'à ajouter ça au fichier de conf nginx et à le reload.
 
@@ -129,10 +129,10 @@ Je pense que je vais lui faire un peu plus honneur dans [mon guide sur le DNS]({
 
 D'ailleurs j'en ai profité pour purger ma zone de pleins de trucs inutilisés et accumulés au fil des expérimentations.
 
-Un ptit <samp>knotc zone-read lord.re.</samp> est particulièrement blindé.
-Donc <samp>knotc zone-begin lord.re.</samp> et là on commence à couper dans le gras : <samp>knotc zone-unset lord.re. vieux.trucs.lord.re.</samp> .
+Un ptit <kbd>knotc zone-read lord.re.</kbd> est particulièrement blindé.
+Donc <kbd>knotc zone-begin lord.re.</kbd> et là on commence à couper dans le gras : <kbd>knotc zone-unset lord.re. vieux.trucs.lord.re.</kbd> .
 On fait ça pour chacun des trucs à jarter.
-Quand on a un peu tout fait, un ptit <samp>knotc zone-diff lord.re.</samp> et si c'est bon on lance <samp>knotc zone-commit lord.re.</samp> et c'est tout bon.
+Quand on a un peu tout fait, un ptit <kbd>knotc zone-diff lord.re.</kbd> et si c'est bon on lance <kbd>knotc zone-commit lord.re.</kbd> et c'est tout bon.
 
 Bref, j'ai refoutu des enregrstrements TLSA kivontbien pour mes mails.
 

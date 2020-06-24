@@ -33,9 +33,9 @@ Répondez aux questions et tant qu'à faire, prévoyez une clé suffisamment gra
 
 On a un peu de crypto de faite maintenant rendons le truc distribué afin de l'utiliser sur plusieurs machines.
 
-  1. **<samp>pass init</samp>** Là on crér le répertoire des mots de passe.
-  2. **<samp>pass git init</samp>** là on prépare le terrain pour ce bon vieux git.
-  3. **<samp>pass git remote add origin votreserveur:lenomdurepo</samp>** et là vous désignez le "serveur" qui sera le "point central" sur lequel vous pousserez les modifs et également sur lequel vous récupérerez les infos.
+  1. **<kbd>pass init</kbd>** Là on crér le répertoire des mots de passe.
+  2. **<kbd>pass git init</kbd>** là on prépare le terrain pour ce bon vieux git.
+  3. **<kbd>pass git remote add origin votreserveur:lenomdurepo</kbd>** et là vous désignez le "serveur" qui sera le "point central" sur lequel vous pousserez les modifs et également sur lequel vous récupérerez les infos.
 
 À partir de là vous n'aurez pas à vous soucier de la partie git (en dehors de la synchro).
 
@@ -59,12 +59,12 @@ C'est assez explicite.
 
 ## Et maintenant flemmardons
 Donc maintenant on va l'utiliser.
-D'abord pour rajouter un pass existant : **<samp>pass insert nom_du_pass</samp>**.
-Pour créer un mot de pass (et le mettre dans le buffer pour pouvoir le coller) : **<samp>pass generate -c nom_du_pass nombredecaractères</samp>**.
+D'abord pour rajouter un pass existant : **<kbd>pass insert nom_du_pass</kbd>**.
+Pour créer un mot de pass (et le mettre dans le buffer pour pouvoir le coller) : **<kbd>pass generate -c nom_du_pass nombredecaractères</kbd>**.
 Vous remarque qu'il n'y a pas besoin d'entrer la passphrase GPG puisqu'ils sont chiffrés avec la clé publique PGP qui n'est pas sécurisée.
 
-Maintenant pour lister les pass : **<samp>pass</samp>**.
-Pour en récupérer un : **<samp>pass nom_du_pass</samp>**, (rajouter -c pour le fouttre dans le buffer de copié/collé).
+Maintenant pour lister les pass : **<kbd>pass</kbd>**.
+Pour en récupérer un : **<kbd>pass nom_du_pass</kbd>**, (rajouter -c pour le fouttre dans le buffer de copié/collé).
 Là ça vous demande votre passphrase gpg.
 
 C'est bien mais c'est chiant d'ouvrir un terminal pour ça toussa toussa.
@@ -81,11 +81,11 @@ password_files=( "${password_files[@]%.gpg}" )
 password=$(printf '%s\n' "${password_files[@]}" | dmenu "$@")
 pass -c "$password"
 ```
-et on ajoute un ptit hotkey dans i3 *bindsym $m+o exec passmenu* comme ça un ptit coup de **<samp>Alt+o</samp>** et pouf j'ai le dmenu des pass ♥.
+et on ajoute un ptit hotkey dans i3 *bindsym $m+o exec passmenu* comme ça un ptit coup de **<kbd>Alt+o</kbd>** et pouf j'ai le dmenu des pass ♥.
 
 ## Et sur une autre machine ?
 On commence par installer gnpupg git pass.
-Puis on fait un **<samp>pass init</samp>**, **<samp>pass git init</samp>** et enfin **<samp>pass git remote add origin votreserveur:lenomdurepo</samp>** et enfin un joli **<samp>pass git pull</samp>** et voilà vous avez tous vos pass ici aussi :-)
+Puis on fait un **<kbd>pass init</kbd>**, **<kbd>pass git init</kbd>** et enfin **<kbd>pass git remote add origin votreserveur:lenomdurepo</kbd>** et enfin un joli **<kbd>pass git pull</kbd>** et voilà vous avez tous vos pass ici aussi :-)
 
 ## Enjoy
 

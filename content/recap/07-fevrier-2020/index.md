@@ -86,13 +86,13 @@ Mais bon c'est pas bien grave, ce n'était que de l'expérimental.
 Du coup j'ai voulu m'en refaire un tout propre.
 J'en ai profité pour passer ma gentoo dans un nouveau sous-volume btrfs.
 Actuellement elle était dans le sous-volume par défaut (le 5).
-Du coup j'ai fait un snapshot d'un simple <samp>btrfs subvolume snapshot / /gentoo</samp>.
+Du coup j'ai fait un snapshot d'un simple <kbd>btrfs subvolume snapshot / /gentoo</kbd>.
 
-Je récupère ensuite son id avec <samp>btrfs subvolume list /</samp> qui me donne l'id 601.
+Je récupère ensuite son id avec <kbd>btrfs subvolume list /</kbd> qui me donne l'id 601.
 J'ai modifié [mon initramfs]({{< ref "/posts/176-creer-initramfs-manuellement" >}}) pour monter le bon sous-volume.
 Je reboot et le tour est joué.
 
-Désormais, si je monte le sous-volume btrfs 5, dedans j'y trouve un dossier <samp>/gentoo</samp> et également un dossier <samp>/alpine</samp> que j'ai recréé dans son sous-volume.
+Désormais, si je monte le sous-volume btrfs 5, dedans j'y trouve un dossier <kbd>/gentoo</kbd> et également un dossier <kbd>/alpine</kbd> que j'ai recréé dans son sous-volume.
 
 J'ai mon dualboot de fonctionnel sans avoir touché grub.
 

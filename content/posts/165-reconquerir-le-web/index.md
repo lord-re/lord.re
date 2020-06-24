@@ -69,9 +69,9 @@ Allez je vais vous aider !
 On va faire un site web minimal mais qui marchera très bien et pourra être étendu autant que bon vous semble.
 *Vous n'aurez besoin d'aucun logiciel particulier, vous avez déjà tout ce qu'il faut sur votre ordinateur.*
 
-On va créer un dossier que l'on va appeler <samp>*www*</samp> (bon en vrai on peut l'appeler autrement mais ça a du cachet).
-Dedans on va créer un premier fichier texte que l'on nommera <samp>*style.css*</samp> qui va s'occuper de gérer la partie esthétique du site.
-Et enfin un deuxième fichier texte que l'on nommera <samp>*index.html*</samp>.
+On va créer un dossier que l'on va appeler <kbd>*www*</kbd> (bon en vrai on peut l'appeler autrement mais ça a du cachet).
+Dedans on va créer un premier fichier texte que l'on nommera <kbd>*style.css*</kbd> qui va s'occuper de gérer la partie esthétique du site.
+Et enfin un deuxième fichier texte que l'on nommera <kbd>*index.html*</kbd>.
 Voilà jusque-là rien de bien compliqué.
 
 ### Le HTML minimal
@@ -82,7 +82,7 @@ Il existe beaucoup de balises différentes il suffit d'en connaître moins d'une
 
 Voyons un exemple de page web fonctionnelle qui peut largement suffire pour tenir un site web simple.
 Donc ouvrez le fichier *index.html* avec le bloc-note (pas avec Word, Writer ou autre, ça ne marcherait pas).
-<details><summary>Voilà ce que vous allez mettre dans votre fichier <samp>*index.html*</samp></summary>
+<details><summary>Voilà ce que vous allez mettre dans votre fichier <kbd>*index.html*</kbd></summary>
 {{< highlight html >}}
 <!DOCTYPE html>
 <html>
@@ -113,7 +113,7 @@ Il ne reste donc qu'à apprendre quelles sont les propriétés existantes.
 En pratique avec une dizaine de propriétés on peut déjà parvenir à des résultats vraiment travaillés.
 
 Tout comme pour votre page web, ouvrez le fichier *style.css* dans le bloc-note (ou équivalent, mais pas un traitement de texte).
-<details><summary>Remplissons donc notre <samp>*style.css*</samp></summary>
+<details><summary>Remplissons donc notre <kbd>*style.css*</kbd></summary>
 {{< highlight css >}}
 body{
   margin:auto;
@@ -131,7 +131,7 @@ Rien que ça suffit à avoir un résultat, certe minimaliste, mais au moins util
 Fun fact : si ça vous plaît vous êtes un minimaliste ;-)
 
 ### Résultat ?
-Il vous faut ouvrir votre fichier *index.html* dans votre navigateur, soit en glissant le fichier dans la barre d'adresse, soit en faisant <samp>fichier/ouvrir</samp>
+Il vous faut ouvrir votre fichier *index.html* dans votre navigateur, soit en glissant le fichier dans la barre d'adresse, soit en faisant <kbd>fichier/ouvrir</kbd>
 
 Bon c'est chouette tout ça, vous avez maintenant le début de votre site mais si vous voulez le partager avec le monde entier, il faut maintenant l'héberger.
 J'ai déjà dédié [un ptit article à ce sujet]({{< ref "/posts/163-heberger-un-site-statique" >}}) qui vous donnera des pistes.

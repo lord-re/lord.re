@@ -52,8 +52,8 @@ Bon, donc on boot, puis on bourrine la touche I.
 Et là on arrive dans le mode interactif d'OpenRC.
 Le mode interactif demande à l'utilisateur quelles actions entreprendre pour chaque service devant être démarré.
 Sachant qu'Udev est un composant assez critique et que sans lui ça risque de chier un peu, je me fais pas chier: au premier service, je lui dis de laisser tomber et de me filer un shell.
-Ceci fait, on passe le clavier en petit azerty (**<samp>loadkeys fr</samp>**).
+Ceci fait, on passe le clavier en petit azerty (**<kbd>loadkeys fr</kbd>**).
 Étrangement ça semble de plutôt bien fonctionner, même si bien entendu rien n'est démarré.
-Je remonte la partoche en rw (**<samp>mount -o rw /</samp>**), puis on va se faire une petite compil kernel des familles et on boot dessus.
+Je remonte la partoche en rw (**<kbd>mount -o rw /</kbd>**), puis on va se faire une petite compil kernel des familles et on boot dessus.
 Si ça c'est pas un joli dimanche d'été…
 

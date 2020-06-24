@@ -15,7 +15,7 @@ Je pense que mon subconscient est allé puiser au fin fond de souvenirs anciens 
 
 Et du coup au réveil : Bon sang mais c'est bien sûr !
 
-Allez hop ni une ni deux, j'enfourche mon fidèle kakoune et je crée une méthode bidon changeant juste une variable de ma <samp>Ircconnection struct</samp>, je parsème de <samp>fmt.Println</samp> et comme prévu, avant et après la dite méthode la modif n'est pas prise en compte.
+Allez hop ni une ni deux, j'enfourche mon fidèle kakoune et je crée une méthode bidon changeant juste une variable de ma <kbd>Ircconnection struct</kbd>, je parsème de <kbd>fmt.Println</kbd> et comme prévu, avant et après la dite méthode la modif n'est pas prise en compte.
 J'appelle ce coup-ci le pointeur dans la méthode : **bingo daze !**
 
 Bref j'ai à vue de nez la solution à tous mes problèmes, vais pouvoir me démerder.
@@ -263,6 +263,6 @@ func stringCut(incoming string, pattern string) string{
 }
 {{< / highlight >}}
 
-Bon le *channel* <samp>Receiver</samp> fonctionne bien contrairement au <samp>Emitter</samp> qui ne se laisse pas dompter encore mais là je sature pour aujourd'hui ;-)
+Bon le *channel* <kbd>Receiver</kbd> fonctionne bien contrairement au <kbd>Emitter</kbd> qui ne se laisse pas dompter encore mais là je sature pour aujourd'hui ;-)
 
 Le code a pas mal grossi aujourd'hui et il faudrait que j'en profite pour virer les morceaux obsolètes avant que ça ne s'accumule trop et que ça se disperse dans ma mémoire.

@@ -20,17 +20,17 @@ Donc dans un premier temps on génère les clés, puis sur les machines clients 
 
 ## 1. Génération de clé SSH
 
-<samp>ssh-keygen -t ed25519</samp>
+<kbd>ssh-keygen -t ed25519</kbd>
 
 Voilà c'est fait.
-Vous pouvez vous regardez les clés (non ce n'est pas sale) avec <samp>cat ~/.ssh/id_ed25519 ~/.ssh/id_ed25519.pub</samp>
+Vous pouvez vous regardez les clés (non ce n'est pas sale) avec <kbd>cat ~/.ssh/id_ed25519 ~/.ssh/id_ed25519.pub</kbd>
 
 Elles sont belles, hein ?
 
 ## 2. Partage de la clé publique
 
 Bon vous avez vos belles clés.
-Maintenant vous allez coller la publique sur chacun des machines que vous backuppez : <samp>ssh-copy-id <abbr title="à adapter">user</abbr>@<abbr title="à adapter également">machine-client</abbr></samp>
+Maintenant vous allez coller la publique sur chacun des machines que vous backuppez : <kbd>ssh-copy-id <abbr title="à adapter">user</abbr>@<abbr title="à adapter également">machine-client</abbr></kbd>
 
 ## 3. Restriction des clés
 
@@ -47,7 +47,7 @@ Ensuite les options doivent se mettre en début de ligne en les séparant d'une 
 
 ### 3.1 Restreindre les facultés
 Ensuite en début de ligne ajoutez des options de config SSH qui s'appliqueront donc lorsque cette clé se connecte.
-Les options intéressantes sont les suivantes (non-exhaustif) : <samp>no-agent-forwarding,no-port-forwarding,no-pty,no-user-rc,no-X11-forwarding</samp>.
+Les options intéressantes sont les suivantes (non-exhaustif) : <kbd>no-agent-forwarding,no-port-forwarding,no-pty,no-user-rc,no-X11-forwarding</kbd>.
 
 Bon rien que ça c'est pas mal, ça évite quelques emmerdes mais ça n'évite pas tout.
 
@@ -55,7 +55,7 @@ Bon rien que ça c'est pas mal, ça évite quelques emmerdes mais ça n'évite p
 Vous pouvez spécifier quelles commandes peut lancer une clé.
 C'est chouette et permet de sacrément améliorer la sécurité.
 
-Ça se fait avec un simple <samp>command="/votre/commande"</samp> .
+Ça se fait avec un simple <kbd>command="/votre/commande"</kbd> .
 
 ### 3.3 RRsync
 Il existe un ptit programme en perl adapté pour cet usage afin de restreindre les capacités de rsync nommé sobrement **rrsync**.
@@ -67,14 +67,14 @@ Il y a également un mode *write-only* qui permet de ne pas lire les fichiers ma
 Il permet également de *restreindre les dossiers que rsync pourra atteindre*.
 Avec une telle option, les connexions ssh avec cette clé seront cloisonnées au seul dossier que vous permettez.
 
-Pour l'utiliser, éditez encore *~/.ssh/authorized_keys* et dans les options de votre clé, ajoutez <samp>command="/usr/bin/rrsync -ro /"</samp> et hop.
+Pour l'utiliser, éditez encore *~/.ssh/authorized_keys* et dans les options de votre clé, ajoutez <kbd>command="/usr/bin/rrsync -ro /"</kbd> et hop.
 
 ### 3.4 Restreindre les connexions depuis une adresse particulière
 Bon c'est pas mal du tout déjà avec ça, mais bon imaginons que votre clé se retrouve dans la nature sans que vous le sachiez, un attaquant sera à même de backupper vos machines et donc d'y récupérer vos précieuses données.
 
 Il est donc très appréciable de ne permettre l'utilisation de la clé à une/des adresse(s) précise(s).
 
-Il suffit de rajouter <samp>from="a.b.c.d"</samp> et vous êtes tranquile.
+Il suffit de rajouter <kbd>from="a.b.c.d"</kbd> et vous êtes tranquile.
 
 ## Exemple final 
 

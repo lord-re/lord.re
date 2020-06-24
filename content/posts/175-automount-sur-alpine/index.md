@@ -23,7 +23,7 @@ Le kernel est pas très dégourdi : il ne gère pas la partition */dev*, lui se 
 À chaque fois que le kernel détecte un mouvement côté device, il va lancer une commande dans le userspace.
 Il est d'ailleurs possible de changer cette commande pour mettre ce que vous voulez.
 Dans le cas d'Alpine, on utilise *Busybox* et donc **mdev** au lieu de *udev*.
-On peut voir quelle est la commande en faisant un <samp>*cat /proc/sys/kernel/hotplug*</samp>
+On peut voir quelle est la commande en faisant un <kbd>*cat /proc/sys/kernel/hotplug*</kbd>
 Dans notre cas particulier, il faudra y trouver */sbin/mdev* .
 
 Là **mdev** va voir l'arrivée/départ du device et va agir en fonction de sa conf qui est définie dans */etc/mdev.conf* .
@@ -179,10 +179,10 @@ Il ne reste donc plus qu'une étape pour les monter au bon endroit : *configurer
 Bon c'est cool mais est-ce que vos disques ont bien leur label ?
 
 ### Ext4
-Un simple <samp>*tune2fs -L backup /dev/sdb1*</samp>
+Un simple <kbd>*tune2fs -L backup /dev/sdb1*</kbd>
 
 ### Btrfs
-Tout aussi simple <samp>*btrfs filesystem label /dev/sda1 backup*</samp> et c'est bon.
+Tout aussi simple <kbd>*btrfs filesystem label /dev/sda1 backup*</kbd> et c'est bon.
 
 ## Un reboot et c'est tout bon !
 Si tout s'est bien passé vous avez vos disques montés au bon endroit et tout ce qu'il faut comme il faut.

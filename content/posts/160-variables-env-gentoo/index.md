@@ -41,7 +41,7 @@ Je reteste Falkon, non ça marche du coup là j'ouvre une nouvelle fenêtre Falk
 
 Merde c'est un souci de Qt !
 
-Bon bha *<samp>emerge qtwebengine</samp>*, c'est parti pour trois quarts d'heure.
+Bon bha *<kbd>emerge qtwebengine</kbd>*, c'est parti pour trois quarts d'heure.
 Pendant ce temps, je fais des tests et là je commence à penser que c'est le fait d'avoir deux fenêtres différentes.
 Je magouille et en fait bha non.
 J'ai beau ouvrir deux pages web côte-à-côte bha ça rame pas.
@@ -62,7 +62,7 @@ Mais j'ai vraiment envie de le tester.
 
 Actuellement j'étais revenu à *i3* mais j'avoue désormais préferrer *Sway*.
 Du coup, je me suis compilé le ptit *qtwayland avec le patch qui va bien*.
-Je me le suis **<samp>make install</samp>** et yapukatester.
+Je me le suis **<kbd>make install</kbd>** et yapukatester.
 
 Je lance *Qutebrowser* et ça déconne tout pareil :-(
 *All hope destroyed.*
@@ -82,7 +82,7 @@ Remarquez les guillemets !
 Sans ça, ça fonctionne pas…
 Me suis fait avoir.
 
-Et là un **<samp>reboot</samp>**
+Et là un **<kbd>reboot</kbd>**
 Ouai j'avais la flemme.
 D'habitude je ne fais jamais ça mais là, vraiment, la fatigue, toussa toussa.
 Mais ça m'a laissé le temps d'aller voir un peu les semis sur le balcon.

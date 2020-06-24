@@ -23,7 +23,7 @@ Et donc qui dit en clair dit 0 sécurité.
 Dont tout chacun peut facilement épier les requêtes et réponses DNS de son réseau.
 Et il est également aisé pour n'importe quelle machine sur le trajet d'interecpter et de modifier ce qu'il circule.
 
-Imaginez, vous demandez l'adresse de <samp>petit.partie.politique.minoritaire.fr</samp> et en réponse vous obtenez finalement l'adresse ip correspondant à <samp>censure.politique.fr</samp> .
+Imaginez, vous demandez l'adresse de <kbd>petit.partie.politique.minoritaire.fr</kbd> et en réponse vous obtenez finalement l'adresse ip correspondant à <kbd>censure.politique.fr</kbd> .
 Ouai c'est un exemple super caricatural mais … c'est un peu ce qui se fait déjà.
 Lorsque vous demandez l'adresse IP de certains services, vous obtenez parfois rien en réponse suite à une décision de justice.
 C'est souvent des sites de diffusion culturelle qui sont impactés.
@@ -36,7 +36,7 @@ C'est donc tout un ptit paquet de cryptographie qui a été ajouté au protocole
 C'est optionnel et d'ailleurs assez peu répandu (faites-le si vous possédez un domaine) et assez peu compris mais c'est quelque chose de capital.
 
 Ça garantie l'intégrité de la réponse mais absolument pas la confidentialité des échanges.
-Si vous faites une requête pour <samp>le.terrorisme.pour.les.nuls</samp>, votre FAI le saura, votre routeur également et tous les membres de votre réseau local également mais rassurez-vous, vous pourrez être sûr que la réponse obtenue est légitime.
+Si vous faites une requête pour <kbd>le.terrorisme.pour.les.nuls</kbd>, votre FAI le saura, votre routeur également et tous les membres de votre réseau local également mais rassurez-vous, vous pourrez être sûr que la réponse obtenue est légitime.
 
 Bon, maintenant qu'on a l'assurance de l'authenticité de nos réponses, est-ce qu'il serait pas temps d'avoir droit à un peu plus d'intimité numérique ?
 Et c'est là qu'entre en scène deux nouveaux protocoles : DNS over TLS et DNS over HTTPS.
@@ -100,13 +100,13 @@ Vu que le container ne sert qu'à ça … bha je tolère sinon il aurait été p
 Blocky n'est pas dans les dépots, mais c'est pas grave.
 Je le compile sur mon ordi mais à destination du routeur.
 Comme c'est du Go c'est super simple et rapide.
-<samp>GOARCH=arm GOARM=7 go build main.go</samp>
+<kbd>GOARCH=arm GOARM=7 go build main.go</kbd>
 
 Au bout de quelques secondes on a un binaire d'une trentaine de Mo.
 Ouai là pour certains ça va paraître minuscule mais pour d'autre énormes.
 
 En vrai c'est assez énorme pour un binaire mais comme c'est du statique ça intègre tout ce qu'il faut dedans.
-Il est possible de le réduire avec quelques options mais pour l'instant franchement pas trop besoin (<samp>-ldflags="-s -w"</samp> lors de la compilation).
+Il est possible de le réduire avec quelques options mais pour l'instant franchement pas trop besoin (<kbd>-ldflags="-s -w"</kbd> lors de la compilation).
 
 Il ne reste plus qu'à déposer le binaire dans */usr/sbin/blocky* par exemple.
 
@@ -127,7 +127,7 @@ start_stop_daemon_args="-b -m"
 {{< / highlight>}}
 </details>
 
-Voilà, après ce paroxysme de la complexité, il faut quand même rendre le script éxécutable avec <samp>chmod +x /etc/init.d/blocky</samp> et on termine en apothéose avec l'activation au boot avec <samp>rc-update add blocky</samp>.
+Voilà, après ce paroxysme de la complexité, il faut quand même rendre le script éxécutable avec <kbd>chmod +x /etc/init.d/blocky</kbd> et on termine en apothéose avec l'activation au boot avec <kbd>rc-update add blocky</kbd>.
 
 ### Fichier de conf
 <details><summary>/etc/blocky.yml</summary>

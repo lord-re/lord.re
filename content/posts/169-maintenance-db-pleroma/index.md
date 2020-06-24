@@ -38,10 +38,10 @@ Pleroma commence à proposer quelques commandes internes pour cela.
 ## Étape par étape
 
   - Situation initiale : **5021 Mo**
-  - <samp>MIX_ENV=prod mix pleroma.database remove_embedded_objects</samp> → **5997 Mo** NANI !?
-  - <samp>psql -d pleroma_prod -c 'VACUUM FULL ANALYZE'</samp> → **3836 Mo** ! pfiouuu c'est mieux, beaucoup mieux.
-  - <samp>MIX_ENV=prod mix pleroma.database prune_objects</samp> → **3573Mo**, ça aide aussi pas mal.
-  - <samp>psql -d pleroma_prod -c 'VACUUM FULL ANALYZE'</samp> → **3372 Mo** ! pfiouuu c'est mieux, beaucoup mieux.
+  - <kbd>MIX_ENV=prod mix pleroma.database remove_embedded_objects</kbd> → **5997 Mo** NANI !?
+  - <kbd>psql -d pleroma_prod -c 'VACUUM FULL ANALYZE'</kbd> → **3836 Mo** ! pfiouuu c'est mieux, beaucoup mieux.
+  - <kbd>MIX_ENV=prod mix pleroma.database prune_objects</kbd> → **3573Mo**, ça aide aussi pas mal.
+  - <kbd>psql -d pleroma_prod -c 'VACUUM FULL ANALYZE'</kbd> → **3372 Mo** ! pfiouuu c'est mieux, beaucoup mieux.
 
 Et voilà.
 

@@ -18,26 +18,26 @@ Quand vous vous promenez sur le web, vous ne le savez ptet pas mais vous envoyez
 Mais attention, c'est pas un nom simple et logique.
 
 ### Firefox
-Par exemple si vous utilisez **Firefox**, il va pas envoyer <samp>Firefox 77</samp>, non non, il va plutôt envoyer <samp>Mozilla/5.0 (<abbr title="le système d'exploitation sous-jascent, ici un windows 10 en version 64bits">Windows NT 6.1; WOW64; rv:77.0</abbr>) <abbr title="Gecko c'est le nom du moteur de rendu de firefox, ici dans une version datée du premier janvier 2019">Gecko/20190101</abbr> Firefox/77.0</samp>
+Par exemple si vous utilisez **Firefox**, il va pas envoyer <kbd>Firefox 77</kbd>, non non, il va plutôt envoyer <kbd>Mozilla/5.0 (<abbr title="le système d'exploitation sous-jascent, ici un windows 10 en version 64bits">Windows NT 6.1; WOW64; rv:77.0</abbr>) <abbr title="Gecko c'est le nom du moteur de rendu de firefox, ici dans une version datée du premier janvier 2019">Gecko/20190101</abbr> Firefox/77.0</kbd>
 
 C'est pas super digeste pour un non-initié.
 Mais en gros dans cet exemple ça donne l'information concernant l'OS, la version du navigateur, la version du moteur du rendu.
 C'est plutôt précis et à peu près cohérent.
 
 ### Safari
-Si vous êtes plutôt utilisateur de **Safari** sur Mac ça aura une allure de ce genre <samp><abbr title="ici, c'est faux, mais c'est conservé par habitude">Mozilla/5.0</abbr> (<abbr title="l'OS sous-jacent">Macintosh; Intel Mac OS X 10_9_3</abbr>) <abbr title="le moteur de rendu est effectivement webkit">AppleWebKit/537.75.14</abbr> (<abbr title="webkit est un fork de KHTML qui a été initié par l'équipe de KDE, cette information est vraie mais peu utile">KHTML</abbr>, <abbr title="ouai bha là, c'est historique, c'est pour indiquer que ça fonctionnait comme gecko il y a fort longtemps">like Gecko</abbr>) Version/7.0.3 Safari/7046A194A</samp> .
+Si vous êtes plutôt utilisateur de **Safari** sur Mac ça aura une allure de ce genre <kbd><abbr title="ici, c'est faux, mais c'est conservé par habitude">Mozilla/5.0</abbr> (<abbr title="l'OS sous-jacent">Macintosh; Intel Mac OS X 10_9_3</abbr>) <abbr title="le moteur de rendu est effectivement webkit">AppleWebKit/537.75.14</abbr> (<abbr title="webkit est un fork de KHTML qui a été initié par l'équipe de KDE, cette information est vraie mais peu utile">KHTML</abbr>, <abbr title="ouai bha là, c'est historique, c'est pour indiquer que ça fonctionnait comme gecko il y a fort longtemps">like Gecko</abbr>) Version/7.0.3 Safari/7046A194A</kbd> .
 Ça devient un peu foutraque tout ça avec près de la moitié des infos qui sont fausses ou juste plus vraiment d'actualité.
 
 ### Chrome
 Vous êtes encore plus diaboliques et utilisez le vrai **Chrome** sur un Windows ?
-<samp><abbr title="Comme pour Safari, cette info est fausse mais utilisée historiquement pour contourner des sites mal fichus">Mozilla/5.0</abbr> (<abbr title="l'OS sous-jacent">Windows NT 10.0; Win64; x64</abbr>) <abbr title="Cette info était vraie jusqu'en 2013, lorsque Google a décidé de forker Webkit pour créer blink son moteur de rendu">AppleWebKit/537.36</abbr> (<abbr title="donc je résume, chrome utilise blink qui est issu de webkit qui lui est issu de khtml… c'est donc de moins en moins vrai">KHTML</abbr>, <abbr title="ouai par compatibilité on indique que KHTML se comportait comme Gecko le moteur de Firefox… ça date">like Gecko</abbr>) <abbtr title="ça c'est vrai !">Chrome/70.0.3538.77</abbr> <abbr title="Ça c'est faux">Safari/537.36</abbr></samp>
+<kbd><abbr title="Comme pour Safari, cette info est fausse mais utilisée historiquement pour contourner des sites mal fichus">Mozilla/5.0</abbr> (<abbr title="l'OS sous-jacent">Windows NT 10.0; Win64; x64</abbr>) <abbr title="Cette info était vraie jusqu'en 2013, lorsque Google a décidé de forker Webkit pour créer blink son moteur de rendu">AppleWebKit/537.36</abbr> (<abbr title="donc je résume, chrome utilise blink qui est issu de webkit qui lui est issu de khtml… c'est donc de moins en moins vrai">KHTML</abbr>, <abbr title="ouai par compatibilité on indique que KHTML se comportait comme Gecko le moteur de Firefox… ça date">like Gecko</abbr>) <abbtr title="ça c'est vrai !">Chrome/70.0.3538.77</abbr> <abbr title="Ça c'est faux">Safari/537.36</abbr></kbd>
 Là c'est digne d'un [bullshit artist]({{< ref "visionnages/the-greasy-strangler">}}). À peu près tout est faux…
 Ça se fait passer pour Firefox, pour Safari, pour KHTML, bref pour tout le monde.
 C'est une accumulation de croutes pour tenter d'être compatible avec des sites biens pourris.
 
 ### Edge
 Bon allez pour le fun je vous montre celui d'**Edge** le navigateur méconnu d'une ptite startup États-Unienne :
-<samp>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.19582</samp> .
+<kbd>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.19582</kbd> .
 Toujours plus !
 Il me tarde de voir ce que ça racontera dans vingt ans !
 
@@ -58,7 +58,7 @@ Ha et aussi parceque c'est revenu sur le tapis sur IRC l'autre jour et je me sui
 Dans l'article en conclusion j'avais dit que "ptet ben qu'oui, ptet ben qu'non, on peut rien y changer" .
 J'aimerai pouvoir vous apporter une réponse un peu moins normande.
 
-J'ai confé mon navigateur (le chouette [Qutebrowser]({{< ref "posts/64-qutebrowser" >}}) ) pour qu'il envoie comme information <samp>Quterbrowser</samp>.
+J'ai confé mon navigateur (le chouette [Qutebrowser]({{< ref "posts/64-qutebrowser" >}}) ) pour qu'il envoie comme information <kbd>Quterbrowser</kbd>.
 Voilà, tout simplement.
 Pas de fioriture.
 
@@ -90,6 +90,6 @@ Google Maps perd l'affichage 3D sur la vue satellite.
 Bref, je garde mon User-agent qui ment pas et je ne mens désormais qu'à Google.
 Si vous voulez faire pareil avec **Qutebrowser** rendez-vous dans votre : 
 <details><summary>~/.config/qutebrowser/config.py</summary>
-<samp>config.set('content.headers.user_agent',"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36", '*://www.youtube.com/*')</samp>
+<kbd>config.set('content.headers.user_agent',"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36", '*://www.youtube.com/*')</kbd>
 </details>
 voilà voilà.

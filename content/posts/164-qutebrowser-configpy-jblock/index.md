@@ -102,18 +102,18 @@ Rien de bien exotique si ce n'est le *try* à la fin.
 
 ## JBlock
 JBlock est codé par [Jay Kamat](https://jgkamat.gitlab.io).
-Cet add-on en Python doit être installé via un ptit coup de <samp>git clone https://gitlab.com/jgkamat/jblock</samp> directement depuis le dossier *~/.config/qutebrowser/* .
+Cet add-on en Python doit être installé via un ptit coup de <kbd>git clone https://gitlab.com/jgkamat/jblock</kbd> directement depuis le dossier *~/.config/qutebrowser/* .
 
 Une fois cloné, il vous faut ajouter le bout de *config.py* de la fin.
-Ensuite il vous faut couper le blocage natif via un <samp>:set content.host_blocking.enabled false</samp>.
+Ensuite il vous faut couper le blocage natif via un <kbd>:set content.host_blocking.enabled false</kbd>.
 
 Ensuite il faut charger les listes que vous voulez utiliser.
-Pour ça un coup de *<samp>:set content.host_blocking.lists '["https://easylist.to/easylist/easylist.txt", "https://easylist.to/easylist/easyprivacy.txt"]'</samp>* .
+Pour ça un coup de *<kbd>:set content.host_blocking.lists '["https://easylist.to/easylist/easylist.txt", "https://easylist.to/easylist/easyprivacy.txt"]'</kbd>* .
 
-Bon bha, plus qu'à faire prendre en compte tout ça avec un petit <samp>*config-source*</samp> et on y est presque.
+Bon bha, plus qu'à faire prendre en compte tout ça avec un petit <kbd>*config-source*</kbd> et on y est presque.
 
-Un ptit coup de <samp>:jblock-update</samp> devrait vous créer le fichier *~/.local/share/qutebrowser/jblock-rules* .
-On lance enfin <samp>:jblock-reload</samp> et c'est en route.
+Un ptit coup de <kbd>:jblock-update</kbd> devrait vous créer le fichier *~/.local/share/qutebrowser/jblock-rules* .
+On lance enfin <kbd>:jblock-reload</kbd> et c'est en route.
 
 Yapuka tester!
 

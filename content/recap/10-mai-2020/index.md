@@ -42,7 +42,7 @@ C'est vrai que [c'est bon les patates](https://www.youtube.com/watch?v=RYQkATYkE
 
 ## Nuxeries
 Tiens j'ai découvert un ptit truc sur Gentoo : les paquets dits en version *live* (installé direct depuis le dernier commit git), bha on peut installer en vrai à partir du commit qu'on veut.
-Pour ça il suffit de rajouter <samp>EGIT_COMMIT="blablabla" emerge votre_paquet -av"</samp> et voilà.
+Pour ça il suffit de rajouter <kbd>EGIT_COMMIT="blablabla" emerge votre_paquet -av"</kbd> et voilà.
 Simple efficace.
 
 Et justement dans les paquets en version *live* que j'utilise il y a **mesa**.

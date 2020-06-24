@@ -39,7 +39,7 @@ Et bha il est là !
 Et mine de rien ça aide vachement et évite d'aller voir la doc pour des ptits trous de mémoire réguliers.
 
 Un exemple ?
-Pour sauvegarder il faut taper <samp>**:w**</samp> puis <samp>Entrée</samp>, mais si vous n'appuyez pas tout de suite sur <samp>Entrée</samp>, vous verrez alors en bas de la fenêtre ceci :
+Pour sauvegarder il faut taper <kbd>**:w**</kbd> puis <kbd>Entrée</kbd>, mais si vous n'appuyez pas tout de suite sur <kbd>Entrée</kbd>, vous verrez alors en bas de la fenêtre ceci :
 {{< img link="114-clippy.thumb.png" title="Clippy the Almighty" src="*114-clippy.png" alt="capture d'écran de l'interface de Kakoune montrant la status bar et Clippy" >}}
 Tout en bas il y a la status bar que je détaillerai plus loin.
 Et juste au dessus sur fond jaune (le thême de couleur par défaut est pas des plus seyant) vous avez le Clippy qui vous indique à quoi correspond l'action en cours et les options possibles.
@@ -50,7 +50,7 @@ Kakoune ne fait pas exception, voilà ce que vous y trouverez par défaut :
 
   - Le nom du fichier en cours d'édition
   - La position dans le fichier sous la forme Ligne:Colonne
-  - Le <samp>[+]</samp> indique <abbr title="est-ce qu'il y a des modifs?, est-ce que c'est un nouveau fichier ?, est-ce que l'on est en débug ? est-ce qu'on enregistre une macro?">le contexte</abbr>
+  - Le <kbd>[+]</kbd> indique <abbr title="est-ce qu'il y a des modifs?, est-ce que c'est un nouveau fichier ?, est-ce que l'on est en débug ? est-ce qu'on enregistre une macro?">le contexte</abbr>
   - Le mode actuel
   - Le nombre de sélections (et donc de curseurs)
   - Les informations concernant le client/serveur
@@ -65,27 +65,27 @@ Au lieu de n'avoir qu'un seul curseur où écrire, vous pouvez en avoir plusieur
 Par exemple, juste au dessus j'ai fait une liste d'éléments alors que lors de la rédaction j'ai fait une phrase.
 Du coup comment je l'ai découpée puis transformée en liste ?
 
-Tout d'abord je sélectionne toute la ligne avec **<samp>x</samp>**, ensuite je lance la commande de sélection avec **<samp>s</samp>** ce qui ouvre un prompt en bas.
-Là je rentre les éléments que je veux sélectionner pour y placer les curseurs, dans mon cas **<samp>,</samp>** pour sélectionner chaque virgule.
-Après avoir validé avec <samp>Entrée</samp> je me retrouve avec tous mes curseurs.
-Maintenant un petit **<samp>d</samp>** pour supprimer les virgules, puis passage en mode édition avec **<samp>i</samp>** et enfin **<samp>Entrée</samp>** pour ajouter les retours à la ligne.
-**<samp>  - </samp>** pour créer les puces et voilà.
+Tout d'abord je sélectionne toute la ligne avec **<kbd>x</kbd>**, ensuite je lance la commande de sélection avec **<kbd>s</kbd>** ce qui ouvre un prompt en bas.
+Là je rentre les éléments que je veux sélectionner pour y placer les curseurs, dans mon cas **<kbd>,</kbd>** pour sélectionner chaque virgule.
+Après avoir validé avec <kbd>Entrée</kbd> je me retrouve avec tous mes curseurs.
+Maintenant un petit **<kbd>d</kbd>** pour supprimer les virgules, puis passage en mode édition avec **<kbd>i</kbd>** et enfin **<kbd>Entrée</kbd>** pour ajouter les retours à la ligne.
+**<kbd>  - </kbd>** pour créer les puces et voilà.
 
-N'oubliez pas de virer tous les curseurs à la fin en appuyant sur la touche **<samp>Espace</samp>**. 
+N'oubliez pas de virer tous les curseurs à la fin en appuyant sur la touche **<kbd>Espace</kbd>**. 
 
 ### Seek&Replace
 Une fonction souvent utilisée est de remplacer une chaîne de caractère par une autre.
-Sous vim ça se ferait avec le fameux **<samp>s/machin/truc/</samp>** avec éventuellement le **<samp>%</samp>** pour le faire sur tout le fichier en cours d'édition.
+Sous vim ça se ferait avec le fameux **<kbd>s/machin/truc/</kbd>** avec éventuellement le **<kbd>%</kbd>** pour le faire sur tout le fichier en cours d'édition.
 
 C'est absolument pas visuel et du coup ça a un fort potentiel de casse-gueulerie.
 
 La méthode à la Kakoune pour ça est bien plus visuel :
 
-Tout d'abord faut sélectionner la zone de texte où vous voulez l'appliquer (<samp>%</samp> pour tout le fichier).
-Par exemple pour le faire de la ligne 10 à 18 on se place sur la ligne 10 avec **<samp>10g</samp>** puis on sélectionne jusqu'à la ligne 18 avec **<samp>18G</samp>** (remarquez le G majuscule qui permet de sélectionner).
-Ensuite on démarre une sélection avec **<samp>s</samp>** puis vous tapez la chaîne de caractère à modifier **<samp>machin</samp>** et vous validez avec **<samp>Entrée</samp>**.
+Tout d'abord faut sélectionner la zone de texte où vous voulez l'appliquer (<kbd>%</kbd> pour tout le fichier).
+Par exemple pour le faire de la ligne 10 à 18 on se place sur la ligne 10 avec **<kbd>10g</kbd>** puis on sélectionne jusqu'à la ligne 18 avec **<kbd>18G</kbd>** (remarquez le G majuscule qui permet de sélectionner).
+Ensuite on démarre une sélection avec **<kbd>s</kbd>** puis vous tapez la chaîne de caractère à modifier **<kbd>machin</kbd>** et vous validez avec **<kbd>Entrée</kbd>**.
 Vous voyez du coup toutes les occurrences qui seront affectées par vos modifs.
-Et là **<samp>c bidule</samp>** pour changer le texte par "bidule".
+Et là **<kbd>c bidule</kbd>** pour changer le texte par "bidule".
 
 C'est pas plus compliquée que la méthode vim et plus safe.
 

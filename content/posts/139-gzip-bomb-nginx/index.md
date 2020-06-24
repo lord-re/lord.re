@@ -43,7 +43,7 @@ Il va donc falloir ruser.
 On va créer un fichier de 10Go avec uniquement des zéros.
 Et on va le gziper et ça va faire 10Mo.
 
-**<samp>dd if=/dev/zero bs=1M count=10240 | gzip -9 > 10G.php</samp>**
+**<kbd>dd if=/dev/zero bs=1M count=10240 | gzip -9 > 10G.php</kbd>**
 
 Ça prend un peu de temps, vous inquiétez pas.
 Vous le placez à la racine de votre site ouaib.

@@ -89,7 +89,7 @@ eth2 pour le décodeur téloche
 Et pleins de câbles pour les lier.
 
 Logiciellement il va nous falloir une Gentoo, brctl, iproute2, vconfig, ppp, rp-pppoe et un kernel qui mange du ppp.
-Faites un petit **<samp>ip l</samp>**, vous ne reverrez plus comme ça.
+Faites un petit **<kbd>ip l</kbd>**, vous ne reverrez plus comme ça.
 
 Le but va être de tout automatiser bien entendu.
 Et on va se la jouer Gentoo-style.
@@ -128,12 +128,12 @@ Là vous avez donc votre interface eth0 qui se retrouvera à poil, le vlan 835 q
 Vous avez donc lo, eth0, eth0.835, ppp0 et eth1.
 À ce moment vous êtes à deux doigts d'avoir du net sur votre LAN.
 Sur la passerelle ça devrait déjà être bon.
-Il va falloir un peu d'iptables genre un petit : **<samp>iptables -t nat -A POSTROUTING -o ppp0 -j MASQUERADE</samp>**
+Il va falloir un peu d'iptables genre un petit : **<kbd>iptables -t nat -A POSTROUTING -o ppp0 -j MASQUERADE</kbd>**
 Et voilà, le tour est joué.
 Votre LAN est inondé de chatons boobs et autre memes.
 Sauf que ça coince un peu partout.
 Il va falloir faire mumuse avec la MTU grâce à toutes ces couches crasseuses.
-On gère ça encore avec **<samp>iptables -I FORWARD -p tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu</samp>**.
+On gère ça encore avec **<kbd>iptables -I FORWARD -p tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu</kbd>**.
 On respire.
 
 Une seconde fois.

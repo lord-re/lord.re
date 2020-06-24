@@ -38,7 +38,7 @@ DNSSEC c'est pas magique.
 C'est toute une chaîne de confiance.
 Petit exemple :
 
-<samp>bender.lord.re</samp>
+<kbd>bender.lord.re</kbd>
 
   - Pour que ce soit valide d'un point de vue DNSSEC, il faut que la racine soit signée donc **.** est signée par le *root server* (rapelez-vous, on ne l'écrit jamais, mais il y a un point implicite à l'extrémité droite des noms de domaines).
   - Ensuite **.re** doit être *signé par le registry*

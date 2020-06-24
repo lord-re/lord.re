@@ -16,7 +16,7 @@ J'ai un peu lu à droite à gauche, je sais toujours pas trop comment m'en sorti
 Du coup j'ai continué un peu à raffiner le support d'IRC :
 
   - *Je détecte désormais si le pseudo est déjà occupé* pour en prendre un autre.
-  - *Je détecte également s'il y a une déconnexion propre* de la part du serveur. Mais je sais pas me débrouiller pour faire en sorte de repartir sur la fonction initIrc sans que ça foute la merde avec la variable <samp>conn</samp>….
+  - *Je détecte également s'il y a une déconnexion propre* de la part du serveur. Mais je sais pas me débrouiller pour faire en sorte de repartir sur la fonction initIrc sans que ça foute la merde avec la variable <kbd>conn</kbd>….
   - *Je détecte lorsque je me fais kicker* et je rejoin automatiquement.
 
 **J'utilise maintenant des variables globales.**
@@ -25,7 +25,7 @@ C'est pas bien il paraît mais j'ai pas trop réussi à savoir si dans mon cas c
 J'ai été étonné de voir que dans la lib *strings* il n'y avait pas moyen de récupérer une sous-chaîne en coupant une chaîne en entrée jusqu'à un caractère particulier du coup me la suis rajoutée.
 Rien de bien méchant mais ça permet de se simplifier la tâche plus tard.
 
-J'ai remarqué une petite erreur dans la logique de la fonction <samp>parseIrc</samp> où je bouclais sur plus qu'il ne fallait.
+J'ai remarqué une petite erreur dans la logique de la fonction <kbd>parseIrc</kbd> où je bouclais sur plus qu'il ne fallait.
 Je pense qu'il serait malin de remplacer l'empilement de *if* par un *switch*, mais là j'ai un poil la flemme pour le moment.
 
 Bon ça peut sembler assez peu mais … au final je suis assez satisfait des maigres avancées, j'ai l'impression (mais c'est peut-être complètement faux) que mon code est un peu plus robuste grâce aux variables globales.

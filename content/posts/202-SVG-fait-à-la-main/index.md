@@ -92,9 +92,9 @@ J'ai rajouté un rectangle blanc pour le prompt.
 Je m'attaque ensuite à la forme du connecteur.
 Là la syntaxe est pas trop mal foutue non plus.
 Il s'agit d'un élément **path** avec une couleur de fond et surtout le trajet.
-On définit un point de départ avec <samp>M XX,YY</samp> avec XX et YY étant les coordonnées.
-Jusque-là c'est facile, maintenant vu que c'est une forme super simple tout en angle droit, j'ai indiqué <samp>v-300</samp> pour indiquer qu'il faut se déplacer verticalement de -300, puis <samp>h55</samp> pour se déplacer horizontalement de 55…
-Et on clôture la forme par <samp>Z</samp>.
+On définit un point de départ avec <kbd>M XX,YY</kbd> avec XX et YY étant les coordonnées.
+Jusque-là c'est facile, maintenant vu que c'est une forme super simple tout en angle droit, j'ai indiqué <kbd>v-300</kbd> pour indiquer qu'il faut se déplacer verticalement de -300, puis <kbd>h55</kbd> pour se déplacer horizontalement de 55…
+Et on clôture la forme par <kbd>Z</kbd>.
 C'est super simple et c'est assez compacte comme notation.
 
 Bon, j'ai mon icône de terminée, je m'étais autorisé jusqu'à 2Ko et je suis bien en-dessous.

@@ -43,22 +43,22 @@ Et ouai, il y a un script qui vous permet d'utiliser subliminal et de vous mettr
 Il vous faudra donc installer subliminal de votre côté.
 Ce script se nomme [autosub](https://github.com/vayan/autosub-mpv).
 Une fois mis en place il suffit de choisir la langue en modifiant le fichier lui-même pour mettre un ptit *"fr"* qui va bien.
-Et maintenant **<samp>b</samp>** et pouf ça trouve votre sous-titre et le démarre.
+Et maintenant **<kbd>b</kbd>** et pouf ça trouve votre sous-titre et le démarre.
 
 Et là, des fois, ça fait chier, le sous-titre est pas synchro avec le film.
 Donc vous avez beau caler le sous-titre comme il faut à un instant t, bha deux minutes plus loin, c'est plus synchoro.
 C'est rageant, hein ?
 
 Et c'est là qu'on dégaine [fix-sub-timing](https://github.com/wiiaboo/mpv-scripts/blob/master/fix-sub-timing.lua) qui va vous permettre de très facilement régler ce souci :
-Vous synchronisez une première fois le sous-titre et vous appuyez sur **<samp>ctrl-w</samp>**.
-Vous laissez passer un peu de temps, vous resynchronisez le sous-titre et vous remettez un coup de **<samp>ctrl-w</samp>** et c'est bon il vous recalcule tout comme il faut et gère la vitesse du sous-titre et c'est tout bon.
+Vous synchronisez une première fois le sous-titre et vous appuyez sur **<kbd>ctrl-w</kbd>**.
+Vous laissez passer un peu de temps, vous resynchronisez le sous-titre et vous remettez un coup de **<kbd>ctrl-w</kbd>** et c'est bon il vous recalcule tout comme il faut et gère la vitesse du sous-titre et c'est tout bon.
 
 ## Quelques autres scripts kivonbien
 
 ### Pour les bourrins
 Il m'arrive régulièrement de commencer une vidéo et de pas la finir.
 Et de la reprendre plus tard.
-Bon là de base, MPV peut reprendre la vidéo car si vous avez été prévoyant vous avez fait en sorte que lorsque vous appuyez sur **<samp>q</samp>** ça sauvegarde l'état de la vidéo avant de fermer.
+Bon là de base, MPV peut reprendre la vidéo car si vous avez été prévoyant vous avez fait en sorte que lorsque vous appuyez sur **<kbd>q</kbd>** ça sauvegarde l'état de la vidéo avant de fermer.
 
 Sauf que je suis un bourrin et je ferme MPV comme un porc en le killant voir en killant Xorg, bref il a pas le temps de sauvegarder.
 C'est donc pour des gens comme moi qu'a été créé [Autosave](https://gist.github.com/Hakkin/5489e511bd6c8068a0fc09304c9c5a82) qui sauvegardera toutes les X secondes l'état.
@@ -71,7 +71,7 @@ Toujours est-il que la baisse de luminosité pour un film ne me chagrine pas, ma
 Du coup [Toggle Redshift](https://repo.or.cz/q3cpma-dotfiles.git/blob_plain/HEAD:/.config/mpv/scripts/redshift_toggle.lua) vous permet de mettre en pause puis de relancer Redshift tout seul.
 
 ### Pour les Youtube Spectateurs
-Un ptit [Youtube Quality](https://github.com/jgreco/mpv-youtube-quality) vous permettra d'un appui sur **<samp>ctrl-f</samp>** vous afficher un menu avec le choix pour la qualité des vidéos Youtube.
+Un ptit [Youtube Quality](https://github.com/jgreco/mpv-youtube-quality) vous permettra d'un appui sur **<kbd>ctrl-f</kbd>** vous afficher un menu avec le choix pour la qualité des vidéos Youtube.
 Par défaut Youtube-dl sélectionne la meilleure qualité disponible mais c'est pas toujours le plus judicieux.
 Bref maintenant vous avez la solution, et vous pouvez le faire pendant la vidéo pour passer d'une qualité à une autre sans interruption.
 

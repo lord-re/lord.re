@@ -20,7 +20,7 @@ Les toots à destination des followers uniquement ou les messages privés arriva
 Bon pas de bol, en utilisant les versions OTP de Pleroma, on a aucun log de base.
 J'ai donc lancé pleroma de façon à voir les logs à l'écran :
 
-**<samp>su - pleroma -s ./bin/pleroma start_iex</samp>**
+**<kbd>su - pleroma -s ./bin/pleroma start_iex</kbd>**
 
 Et là j'ai tenté d'envoyer un toot pernicieux pour avoir le droit à ce message d'erreur :
 
@@ -46,12 +46,12 @@ Visiblement, ma base de donnée est un poil abîmée.
 
 Donc on s'y connecte :
 
-  - <samp>su - postgres</samp>
-  - <samp>psql</samp>
-  - <samp>\c pleroma_prod;</samp>
-  - <samp>select * from users where info is null;</samp>
+  - <kbd>su - postgres</kbd>
+  - <kbd>psql</kbd>
+  - <kbd>\c pleroma_prod;</kbd>
+  - <kbd>select * from users where info is null;</kbd>
   - Si vous avez des résultats à la commande précédente et qu'il s'agit de comptes distants, vous pouvez (et il le faut)les dégager
-  - <samp>delete from users where info is null;</samp>
+  - <kbd>delete from users where info is null;</kbd>
 
 Voilà, maintenant la base de donnée est dans un meilleur état.
 Il ne reste plus qu'à relancer votre instance et c'est repartit, vous allez pouvoir shitposter like a boss.

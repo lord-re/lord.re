@@ -42,7 +42,7 @@ You'll have to be smart.
 So let's create a 10GB file of zeros.
 Then we will compress it in a 10MB file.
 
-**<samp>dd if=/dev/zero bs=1M count=10240 | gzip -9 > 10G.php</samp>**
+**<kbd>dd if=/dev/zero bs=1M count=10240 | gzip -9 > 10G.php</kbd>**
 
 It can take a while (but not much).
 Then you put it in the root of your webserver.

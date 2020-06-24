@@ -26,7 +26,7 @@ J'en ai d'ailleurs profité pour très légèrement retoucher le thême du site.
 J'ai passé les méta-infos des articles dans le footer à côté du lien pour lire en entier.
 C'est un design un poil plus compact.
 
-D'ailleurs pour ne pas avoir à me faire chier pour le placement des différents éléments, j'ai opté pour du flexbox avec le <samp>justify-content: space-between;</samp> .
+D'ailleurs pour ne pas avoir à me faire chier pour le placement des différents éléments, j'ai opté pour du flexbox avec le <kbd>justify-content: space-between;</kbd> .
 Cette propriété est super, elle permet de ne pas avoir à se faire chier.
 
 D'ailleurs j'ai pas foutu le contenu des articles de visionnages, ça prenait beaucoup trop de place.

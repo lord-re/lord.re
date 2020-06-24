@@ -24,7 +24,7 @@ Je commence à faire une première méthode, ça marche, une seconde ça marche.
 Et là attention, je tente le tout pour le tout et BAM ça marche plus.
 *Le* **scope** *des variables de mon objet me pose soucis.*
 
-J'ai l'impression que si je modifie une variable de ma structure dans l'une des méthodes (typiquement le <samp>net.Conn</samp>) dans une autre méthode ça n'a pas été modifié :-(
+J'ai l'impression que si je modifie une variable de ma structure dans l'une des méthodes (typiquement le <kbd>net.Conn</kbd>) dans une autre méthode ça n'a pas été modifié :-(
 J'ai naïvement pensé que les méthodes d'un *struct* pouvaient modifier les variables du *struct* globalement mais visiblement non.
 Du coup je suis pas spécialement plus avancé.
 Je voulais créer une méthode qui se connecte au lieu de le mettre dans le *New* mais du coup je ne peux pas…
@@ -33,7 +33,7 @@ J'imagine qu'il y a probablement une subtilité qui m'échappe.
 
 Encore une fois je précise que je débute à 100% et que je compte pas en faire mon métier ni rien, c'est plus pour (re)découvrir et tenter de faire un ptit projet fonctionnel.
 
-Bon et pour avoir l'impression d'avoir un truc un peu mieux qu'hier, j'ai mis le <samp>switch</samp>.
+Bon et pour avoir l'impression d'avoir un truc un peu mieux qu'hier, j'ai mis le <kbd>switch</kbd>.
 
 Voilà rien de transcendant aujourd'hui :-/
 

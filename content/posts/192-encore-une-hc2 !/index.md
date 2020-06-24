@@ -42,7 +42,7 @@ Une fois qu'elle aura mis le gros de ses données dessus, selon la volumétrie, 
 Comme ça, même en cas de crypto locker vorace, je devrais être à même d'avoir une version clean des données.
 
 ## Retroussage de manches
-Au début j'ai voulu faire le gros flemmard en faisant un gros <samp>dd</samp> du début de la carte SD de l'odroid existante.
+Au début j'ai voulu faire le gros flemmard en faisant un gros <kbd>dd</kbd> du début de la carte SD de l'odroid existante.
 Puis vu les débits pitoyables j'ai capitulé.
 
 Je me suis donc rabattu sur une option à peine plus complexe : j'ai déjà une hc2 à la maison, je vous avais raconté [son installation à l'époque]({{< ref "posts/174-odroid-hc2" >}}).
@@ -50,7 +50,7 @@ Du coup, bha j'ai pas refait pareil mais en sautant les étapes du rootfs !
 
   - J'ai créé une partition sur la carte SD en ext4 (le moins d'emmerde à court terme).
   - Dessus, j'ai juste passé un coup de **rsync** depuis l'HC2 qui tourne actuellement.
-  - J'ai ensuite remis les bouts du bootloader à base de <samp>/boot/sd_fusing.sh /dev/sdi</samp>.
+  - J'ai ensuite remis les bouts du bootloader à base de <kbd>/boot/sd_fusing.sh /dev/sdi</kbd>.
   - Une fois fait j'ai corrigé customisé deux trois trucs (la conf réseau, le hostname, généré des clés ssh).
   - Le moment crucial de coller la SD dans la nouvelle Odroid.
 
@@ -117,7 +117,7 @@ depend() {
 
 Le premier tour de force c'est de lancer ça au boot et le fait qu'autossh s'acharne à ce que ce soit tout le temps up.
 
-La seconde partie de la magie réside dans le tunnel qui est défini par <samp>-R localhost:23:localhost:22</samp>.
+La seconde partie de la magie réside dans le tunnel qui est défini par <kbd>-R localhost:23:localhost:22</kbd>.
 Cette option de SSH indique que le port *localhost:23 sur le serveur SSH, est relié au port localhost:22 du client*.
 
 Dans ce cas, les deux occurences de *localhost* n'indiquent pas la même machine.
@@ -127,13 +127,13 @@ Perso, je préfère restreindre ça uniquement aux connexions provenant de local
 Le second localhost est l'odroid du coup.
 
 Bref, avec ce petit montage, je suis à peu près sûr de toujours parvenir à récupérer la main sur la machine.
-Il me suffira de me connecter au serveur intermédiaire et sur celui-ci de me connecter avec <samp>ssh -p 23 root@localhost</samp> ce qui me connectera via le tunnel à l'odroid.
+Il me suffira de me connecter au serveur intermédiaire et sur celui-ci de me connecter avec <kbd>ssh -p 23 root@localhost</kbd> ce qui me connectera via le tunnel à l'odroid.
 
 ## Samba
 Bon, un ptit partage **Samba** des plus basique.
 
-Je crée un utilisateur nunux, un utilisateur samba avec le même nom avec <samp>smbpasswd -a lutilisateur</samp>.
-Dans le montage, je file le dossier du skeudur à lutilisateur avec <samp>chown lutilisateur:lutilisateur /mnt/sata/samba -R</samp>.
+Je crée un utilisateur nunux, un utilisateur samba avec le même nom avec <kbd>smbpasswd -a lutilisateur</kbd>.
+Dans le montage, je file le dossier du skeudur à lutilisateur avec <kbd>chown lutilisateur:lutilisateur /mnt/sata/samba -R</kbd>.
 
 Le fichier de conf Samba qui va avec :
 
@@ -163,13 +163,13 @@ Du coup, j'ai pondu un ptit script d'une ligne à foutre dans le cron.
 
 Le but est juste de faire une connexion http comme ça on récupère dans les logs du serveur web (une autre machine que le serveur SSH, comme ça c'est plus redondant).
 
-Donc un ptit <samp>wget http://ip.du.serveur -O /dev/null -q</samp> .
+Donc un ptit <kbd>wget http://ip.du.serveur -O /dev/null -q</kbd> .
 C'est chouette, avec ça je pourrai trouver l'adresse IP publique que la machine va utiliser.
 
 Pas mal, pas mal du tout mais…
 Et si on chopait aussi les IP locales et tout ?
 
-Allez j'arrête le teasing : <samp>wget http://ip.du.serveur -O /dev/null -q -U odroid-$(ip a s eth0 | grep inet | awk '{print $2}' | tr '\n' '-')</samp> et voilà.
+Allez j'arrête le teasing : <kbd>wget http://ip.du.serveur -O /dev/null -q -U odroid-$(ip a s eth0 | grep inet | awk '{print $2}' | tr '\n' '-')</kbd> et voilà.
 On récolte toutes les IP directement assignées à eth0 (donc pas d'IPv4 publique, mais on l'a via le log.
 
 Voilà c'était la ptite ruse de sioux.

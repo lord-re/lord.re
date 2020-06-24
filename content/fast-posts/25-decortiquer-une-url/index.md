@@ -13,7 +13,7 @@ TopWords = [  "gentoo", "machin", "url","span"]
 Un débat sur le web est en train d'éclater.
 
 *Chrome pour fêter ses dix ans a décidé de ne plus afficher une partie des URL.*
-Ils suppriment le fameux <samp>www</samp> dans la barre d'adresse.
+Ils suppriment le fameux <kbd>www</kbd> dans la barre d'adresse.
 
 C'est pour cela que ça s'insurge et compagnie, comme quoi c'est pas bien (effectivement c'est pas bien) et que c'est la faute des utilisateurs lambda qui ne savent pas lire une URL.
 
@@ -91,5 +91,5 @@ Une preuve ? https://pool.ntp.org et https://www.pool.ntp.org vous mèneront sur
 
 En cherchant bien on doit pouvoir en trouver des dizaines.
 
-Vous comprenez donc que la nouvelle idée de Google de **supprimer l'affichage du <samp>www</samp> dans une URL est une hérésie**.
+Vous comprenez donc que la nouvelle idée de Google de **supprimer l'affichage du <kbd>www</kbd> dans une URL est une hérésie**.
 *C'est comme si vous donniez votre adresse postale en omettant le numéro de rue.*

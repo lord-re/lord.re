@@ -42,47 +42,47 @@ Les deux plugins de colorations sont purement esthétiques mais pourtant je pour
 On va élaguer tout ça je vous préviens !
 
 Bon alors la barre à gauche qui liste les *buffers* on peut virer : ça sert à rien.
-**<samp>/bar del buflist</samp>**
+**<kbd>/bar del buflist</kbd>**
 
 La barre de droit avec la liste de pseudo, même combat : ça dégage.
-**<samp>/bar del nicklist</samp>**
+**<kbd>/bar del nicklist</kbd>**
 Les rares fois où vous aurez besoin de voir la nicklist vous ferez un ptit */names* et hop.
 
 Vous voyez la barre avec le titre en haut ?
 Vous voyez où je veux en venir :
-**<samp>/bar del title</samp>**
+**<kbd>/bar del title</kbd>**
 
 Bon bha déjà c'est pas trop mal.
 
 Bon cette barre bleue en bas c'est pas mal mais qu'est-ce que ça bouffe comme place !
 It would be a shame if…
-**<samp>/bar del status</samp>**
+**<kbd>/bar del status</kbd>**
 
 Ha merde il y avait des trucs pas mal dedans quand même !
 Bon faisons une barre mieux foutue du coup !
-**<samp>/bar add ubar root bottom 1 0 buffer_number+:+buffer_name,hotlist,input_text,time,[completion]</samp>**
+**<kbd>/bar add ubar root bottom 1 0 buffer_number+:+buffer_name,hotlist,input_text,time,[completion]</kbd>**
 
 Et voilà notre übar, plus qu'à virer celle par défaut :
-**<samp>/bar del input</samp>**
+**<kbd>/bar del input</kbd>**
 
 Voilà, on a gratté à peu près tout l'espace disponible, on a fusionné la *status_bar* avec l'*input_bar* et viré toutes les autres.
 C'est bien minimaliste tout en étant parfaitement fonctionnel.
 
 Bon maintenant, il ne reste plus qu'à faire en sorte de voir le chanmon en haut.
-On va donc découper la fenêtre horizontalement avec un ptit **<samp>/window splith 10</samp>** et on a donc 10% de l'espace vertical qui est dispo pour un autre buffer.
-Pour passer à la fenêtre du haut on fait un ptit **<samp>/window up</samp>** on peut y changer de buffer (typiquement on se fout sur celui de *chanmon*) et on retourne à celui du bas et voilà.
+On va donc découper la fenêtre horizontalement avec un ptit **<kbd>/window splith 10</kbd>** et on a donc 10% de l'espace vertical qui est dispo pour un autre buffer.
+Pour passer à la fenêtre du haut on fait un ptit **<kbd>/window up</kbd>** on peut y changer de buffer (typiquement on se fout sur celui de *chanmon*) et on retourne à celui du bas et voilà.
 
 Bon on a fait le plus gros du boulot je crois.
 Il va rester à fignoler quelques ptits réglages pour rendre le truc encore un peu plus séyant.
 
 ## Ptites optimisations
 On va virer tous les scripts inutiles (ou juste ne pas en installer).
-**<samp>/script</samp>**
-Et là on coupe avec **<samp>/script remove xxx.yy</samp>** .
+**<kbd>/script</kbd>**
+Et là on coupe avec **<kbd>/script remove xxx.yy</kbd>** .
 
 Et surtout on va aussi virer tous les plugins inutiles.
-**<samp>/plugin</samp>**
-et maintenant **<samp>/plugin unload xxx</samp>** et surtout **<samp>set weechat.plugin.autoload "*,!buflist,!exec,!fset"</samp>** pour que ça persiste à un redémarrage de la bête.
+**<kbd>/plugin</kbd>**
+et maintenant **<kbd>/plugin unload xxx</kbd>** et surtout **<kbd>set weechat.plugin.autoload "*,!buflist,!exec,!fset"</kbd>** pour que ça persiste à un redémarrage de la bête.
 
 En virant tout le superflux j'arrive à faire tourner mon instance weechat dans un container de 64Mo de ram avec pourtant près de 200 buffers ouverts simultannément tout en ayant le *relay*.
 Et le tout avec un uptime de plusieurs mois.

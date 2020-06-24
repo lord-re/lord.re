@@ -94,7 +94,7 @@ Voilà donc [sa chaîne youtube](https://www.youtube.com/channel/UCWh8MoOvUv_HEw
 
 ### Et tout un tas d'autres
 Bon je vais pas vous le cacher mais en fait on tourne assez vite en rond.
-Et j'ai pris pour habitude de mater ces vidéos en acceleré (<samp>]</samp> dans mpv) en 1.66x.
+Et j'ai pris pour habitude de mater ces vidéos en acceleré (<kbd>]</kbd> dans mpv) en 1.66x.
 
 ## Ensuite ?
 Je pense qu'il faudra un peu de renouveau dans la communauté assez vite pour pas que ça ne s'essoufle de trop.

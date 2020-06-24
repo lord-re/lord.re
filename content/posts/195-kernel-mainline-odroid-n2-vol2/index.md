@@ -35,7 +35,7 @@ pu xonxoff          Yes
 {{< / highlight>}}
 </details>
 
-Bon maintenant quand je veux m'y connecter j'ai plus qu'à <samp>minicom odroid</samp> et hop.
+Bon maintenant quand je veux m'y connecter j'ai plus qu'à <kbd>minicom odroid</kbd> et hop.
 
 Un premier test sur l'odroid C2, nickel, ça fait ses ptits trucs, c'est cool ça fonctionne.
 
@@ -67,7 +67,7 @@ Je tente de booter et là en fait, je tente d'un peu mieux apprivoiser uboot.
 
 ## Uboot
 
-Lors du boot on peut marteler <samp>Enter</samp> pour arriver à un shell avec quelques commandes permettant d'outrepasser le fichier de conf (qui n'est même pas lu à ce stade).
+Lors du boot on peut marteler <kbd>Enter</kbd> pour arriver à un shell avec quelques commandes permettant d'outrepasser le fichier de conf (qui n'est même pas lu à ce stade).
 Et là déception ce shell est vraiment très minimaliste, j'ai pas trouvé d'éditeur de texte, bon je m'y attendais mais c'est pas trop grave.
 Je ne trouve pas non plus de quoi lire un fichier.
 
@@ -100,10 +100,10 @@ bootm ${kernel_loadaddr} - ${dtb_loadaddr}
   - 1: On déclare une variable indispensable à uboot, j'ai essayé sans, je me suis brûlé.
   - 2: On définit les options qui seront données au kernel
   - 3 et 4 : Déclaration de variables pour les adresses mémoires, on peut s'en passer et les mettre direct en dur dans les commandes suivantes mais pourquoi pas ?
-  - 5 : La commande <samp>fatload</samp> charge depuis un device (*mmc*) en lisant une partition au choix (*:1*) pour mettre en mémoire à l'adresse voulue (*${dtb_loadaddr}*) le fichier spécifié (*meson-g12b-odroid-n2.dtb*). Donc là on charge le dtb en ram.
+  - 5 : La commande <kbd>fatload</kbd> charge depuis un device (*mmc*) en lisant une partition au choix (*:1*) pour mettre en mémoire à l'adresse voulue (*${dtb_loadaddr}*) le fichier spécifié (*meson-g12b-odroid-n2.dtb*). Donc là on charge le dtb en ram.
   - 6 : pareil qu'au-dessus mais pour le kernel ce coup-ci.
   - 7 : celle-là m'est un peu mystérieuse. J'imagine que cette commande lit le dtb et probablement qu'elle initialise le matos mais j'en suis clairement pas sûr.
-  - 8 : la commande <samp>bootm</samp> est celle lançant le boot en lisant les adresses mémoires qui vont bien.
+  - 8 : la commande <kbd>bootm</kbd> est celle lançant le boot en lisant les adresses mémoires qui vont bien.
 
 Le <abbr title="device tree binary">dtb</abbr> est en fait la description matérielle de la SBC.
 Ça veut dire qu'en théorie ça ne change pas, sauf que celle fournie par le kernel officielle utilise des drivers particuliers qui sont différents du kernel mainline, donc il me faut un nouveau dtb pour le mainline.
@@ -122,7 +122,7 @@ Il y a un [léger bug trouvé depuis hier](https://lkml.org/lkml/2020/3/19/1103)
 Bon, après une heure de perdue, retour à la case kernel.org.
 Je choppe le dernier stable donc un 5.5.10 .
 
-Tiens d'ailleurs un truc que j'ai appris c'est que les options présentes dans le <samp>make menuconfig</samp> changent en fonction de la variable d'environnement *ARCH*.
+Tiens d'ailleurs un truc que j'ai appris c'est que les options présentes dans le <kbd>make menuconfig</kbd> changent en fonction de la variable d'environnement *ARCH*.
 Du coup en définissant *ARCH=arm64* on a tout un set d'options qui changent.
 
 Fast Forward, je choppe le fichier [.config d' ArmBian](https://github.com/armbian/build/blob/master/config/kernel/linux-meson64-current.config) histoire d'avoir un préset pas dégueu.
@@ -130,10 +130,10 @@ Je le compile sans erreur.
 
 Je refais la manip pour le rendre compatible avec uboot.
 Après réflexion je pense que ça y colle quelques métadonnées, comme par-exemple un CRC, les adresses mémoires, quel type de kernel c'est afin qu'uboot puisse faire quelques tests avant de charger le truc à l'aveugle.
-La commande pour ça est donc <samp>mkimage -A arm64 -O linux -T kernel -C none -a "0x1080000" -e "0x1080000" -n "$(make kernelrelease)" -d arch/arm64/boot/Image ../uImage</samp> .
+La commande pour ça est donc <kbd>mkimage -A arm64 -O linux -T kernel -C none -a "0x1080000" -e "0x1080000" -n "$(make kernelrelease)" -d arch/arm64/boot/Image ../uImage</kbd> .
 
 Il reste quand même les modules à transférer.
-La ptite feinte c'est de monter (soit carrément la mmc sur l'ordi ou via sshfs si elle tourne) et de faire un ptit <samp>make modules_install ARCH=arm64 INSTALL_MOD_PATH=/mnt/n2</samp> .
+La ptite feinte c'est de monter (soit carrément la mmc sur l'ordi ou via sshfs si elle tourne) et de faire un ptit <kbd>make modules_install ARCH=arm64 INSTALL_MOD_PATH=/mnt/n2</kbd> .
 
 Bon… moment de vérité.
 On reboot.
@@ -151,13 +151,13 @@ J'aurai appris pas mal de chose et maintenant j'ai ma ptite SBC favorite avec un
 ## TL;DR
 
   - Choper les sources du kernel depuis [kernel.org](https://kernel.org)
-  - <samp>export ARCH=arm64</samp>
-  - <samp>export CROSS_COMPILE=aarch64-linux-gnu-</samp>
-  - <samp>export PATH=/chemin/vers/gcc-linaro-6.3.1-2017.02-x86_64_aarch64-linux-gnu/bin/:$PATH</samp>
+  - <kbd>export ARCH=arm64</kbd>
+  - <kbd>export CROSS_COMPILE=aarch64-linux-gnu-</kbd>
+  - <kbd>export PATH=/chemin/vers/gcc-linaro-6.3.1-2017.02-x86_64_aarch64-linux-gnu/bin/:$PATH</kbd>
   - Choper un [.config](config) adapté à la N2 (ou le faire soi-même)
-  - Compiler un joli kernel avec <samp>make -j32</samp>
-  - <samp>mkimage -A arm64 -O linux -T kernel -C none -a “0x1080000” -e “0x1080000” -n “$(make kernelrelease)” -d arch/arm64/boot/Image ../uImage</samp>
-  - Transferer les modules (en s'aidant de <samp>make modules_install ARCH=arm64 INSTALL_MOD_PATH=../modules</samp>)
+  - Compiler un joli kernel avec <kbd>make -j32</kbd>
+  - <kbd>mkimage -A arm64 -O linux -T kernel -C none -a “0x1080000” -e “0x1080000” -n “$(make kernelrelease)” -d arch/arm64/boot/Image ../uImage</kbd>
+  - Transferer les modules (en s'aidant de <kbd>make modules_install ARCH=arm64 INSTALL_MOD_PATH=../modules</kbd>)
   - Transferer également le kernel au format uImage à placer dans la partoche de boot de la SBC
   - Créer un *boot.ini*
   - Copier le dtb trouvable dans les sources du kernel : *arch/arm64/boot-dts/amlogic/meson-g12b-odroid-n2.dtb*

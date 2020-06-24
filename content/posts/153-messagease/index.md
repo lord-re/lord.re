@@ -59,12 +59,12 @@ Il est donc composé de 9 touches principales auxquelles on en rajoute 5 pour le
 ## Comment ça marche ?
 
   - Les lettres en jaune sont en accès direct : vous appuyez dessus et elles appraissent.
-  - Les caractères sur les côtés de chacune des 9 cases principales s'obtiennent en glissant le doigt depuis le centre de cette case en direction du dit caractère. ex : Pour faire un **<samp>c</samp>** on appuie sur **<samp>o</samp>** en glissant vers **<samp>u</samp>** et en relâchant le doigt c'est pris en compte.
+  - Les caractères sur les côtés de chacune des 9 cases principales s'obtiennent en glissant le doigt depuis le centre de cette case en direction du dit caractère. ex : Pour faire un **<kbd>c</kbd>** on appuie sur **<kbd>o</kbd>** en glissant vers **<kbd>u</kbd>** et en relâchant le doigt c'est pris en compte.
   - La touche en forme de main c'est pour déplacer/redimensionner le clavier.
   - En dessous c'est la touche de fonction avec entre autre le copier/coller et le passage aux chiffres.
-  - Ensuite vient la touche **<samp>backspace</samp>**.
-  - Encore après c'est la touche **<samp>Entrée</samp>**.
-  - Et l'**<samp>Espace</samp>** est située sur la plus grande touche tout en bas.
+  - Ensuite vient la touche **<kbd>backspace</kbd>**.
+  - Encore après c'est la touche **<kbd>Entrée</kbd>**.
+  - Et l'**<kbd>Espace</kbd>** est située sur la plus grande touche tout en bas.
 
 Donc voilà, avec le principe du glissement on peut obtenir jusqu'à 9 caractères différents par touche.
 
@@ -109,16 +109,16 @@ L'entreprise derrière (exideas) annonce qu'elle ne revend pas de données perso
 ## Des ptites astuces au passage ?
 Allez vite fait :
 
-  - Pour les Majuscules ce sont les deux flêches (vers le haut et le bas) sur la touche <samp>R</samp>, avec un <samp>Caps Lock</samp> si vous montez deux fois.
+  - Pour les Majuscules ce sont les deux flêches (vers le haut et le bas) sur la touche <kbd>R</kbd>, avec un <kbd>Caps Lock</kbd> si vous montez deux fois.
   - Vous pouvez le configurer pour ne plus avoir besoin d'aller sur le layout des chiffres : si vous faites un cercle dans le sens horaire vous aurez le chiffre correspondant à la case où vous le faite.
   - Pour taper une majuscule vous pouvez faire un cercle anti-horaire sur les caractères principaux ou bien un aller-retour sur les caractères des côtés.
-  - Vous pouvez faire <samp>Ctrl</samp> avec la touche tout en haut à gauche.
-  - Vous pouvez supprimer un mot complet en faisant un aller/retour sur <samp>backspace</samp>.
-  - Vous pouvez faire <samp>Delete</samp>en glissant vers la droite depuis <samp>backspace</samp>
-  - Vous pouvez le configurer pour que deux <samp>Espace</samp> ajoutent un point (pratique en fin de phrase).
-  - Vous pouvez faire un <samp>Sélectionner tout</samp> en faisant un cercle horaire sur la <samp>touche de fonction</samp>.
-  - Vous avez des flêches cachées : <samp>gauche/droite</samp> se font en glissant depuis la touche <samp>Espace</samp>, <samp>haut/bas</samp> se font en glissant vers le haut et le bas respectivement sur <samp>I</samp> et <samp>S</samp>. 
-  - Pour faire apparaitre/disparaitre le marquage il faut glisser vers le haut (ou aller-retour) depuis <samp>Espace</samp>
+  - Vous pouvez faire <kbd>Ctrl</kbd> avec la touche tout en haut à gauche.
+  - Vous pouvez supprimer un mot complet en faisant un aller/retour sur <kbd>backspace</kbd>.
+  - Vous pouvez faire <kbd>Delete</kbd>en glissant vers la droite depuis <kbd>backspace</kbd>
+  - Vous pouvez le configurer pour que deux <kbd>Espace</kbd> ajoutent un point (pratique en fin de phrase).
+  - Vous pouvez faire un <kbd>Sélectionner tout</kbd> en faisant un cercle horaire sur la <kbd>touche de fonction</kbd>.
+  - Vous avez des flêches cachées : <kbd>gauche/droite</kbd> se font en glissant depuis la touche <kbd>Espace</kbd>, <kbd>haut/bas</kbd> se font en glissant vers le haut et le bas respectivement sur <kbd>I</kbd> et <kbd>S</kbd>. 
+  - Pour faire apparaitre/disparaitre le marquage il faut glisser vers le haut (ou aller-retour) depuis <kbd>Espace</kbd>
   - Testez de réduire un peu la taille du clavier, c'est plus facile à utiliser quand il est petit.
   - Il existe plein de raccourcis planqués, pensez à aller voir les réglages et l'aide.
 

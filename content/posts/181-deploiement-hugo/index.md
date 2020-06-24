@@ -19,26 +19,26 @@ J'ai désormais dépassé [la phase de découverte]({{< ref "/posts/57-hugo-www"
 
 Du coup à chaque fois que je rédige un nouvel article voilà ce qu'il y a à faire :
 
-  1. Création de l'article : <samp>hugo new posts/super-article/index.md</samp>
-  2. Édition du fichier : <samp>kak content/posts/super-article/index.md</samp>
-  3. Ajout des éventuelles illustrations : <samp>cp /une/image.jpg ~/www/content/posts/super-article/</samp>
-  4. Ajout des fichiers dans git : <samp>git add content/posts/super-article</samp>
-  5. Commit dans git : <samp>git commit -m "[POST] publication : super-article"</samp>
-  6. Pousser les modifs sur le dépot git : <samp>git push</samp>
-  7. Générer les <abbr title="Un script shell qui trouve les jpg et png, les recompresse et génère une version plus petite">miniatures</abbr> : <samp>thumbnailer.sh ~/www/content</samp>
-  8. Générer le <abbr title="Les extraits vers des blogs extérieurs que l'on voit à droite">blogroll</abbr> : <samp>openring/openring.sh</samp>
-  9. Génération du site en lui-même : <samp>hugo</samp>
-  10. Compression des fichiers textes en gzip : <samp>static-compress -c zopfli -e gz …</samp>
-  11. Compression des fichiers textes en brotli : <samp>static-compress -c zopfli -e br …</samp>
-  12. Transfert du site fr vers le serveur web : <samp>rsync -av ~/www/public/fr/ user@serveur:/destination/fr</samp>
-  13. Transfert du site en vers le serveur web : <samp>rsync -av ~/www/public/en/ user@serveur:/destination/en</samp>
+  1. Création de l'article : <kbd>hugo new posts/super-article/index.md</kbd>
+  2. Édition du fichier : <kbd>kak content/posts/super-article/index.md</kbd>
+  3. Ajout des éventuelles illustrations : <kbd>cp /une/image.jpg ~/www/content/posts/super-article/</kbd>
+  4. Ajout des fichiers dans git : <kbd>git add content/posts/super-article</kbd>
+  5. Commit dans git : <kbd>git commit -m "[POST] publication : super-article"</kbd>
+  6. Pousser les modifs sur le dépot git : <kbd>git push</kbd>
+  7. Générer les <abbr title="Un script shell qui trouve les jpg et png, les recompresse et génère une version plus petite">miniatures</abbr> : <kbd>thumbnailer.sh ~/www/content</kbd>
+  8. Générer le <abbr title="Les extraits vers des blogs extérieurs que l'on voit à droite">blogroll</abbr> : <kbd>openring/openring.sh</kbd>
+  9. Génération du site en lui-même : <kbd>hugo</kbd>
+  10. Compression des fichiers textes en gzip : <kbd>static-compress -c zopfli -e gz …</kbd>
+  11. Compression des fichiers textes en brotli : <kbd>static-compress -c zopfli -e br …</kbd>
+  12. Transfert du site fr vers le serveur web : <kbd>rsync -av ~/www/public/fr/ user@serveur:/destination/fr</kbd>
+  13. Transfert du site en vers le serveur web : <kbd>rsync -av ~/www/public/en/ user@serveur:/destination/en</kbd>
 
 Bon c'est des ptits trucs simples mais en gros les étapes 6 à 13 sont toujours les mêmes avec aucune intervention nécessaire.
 Du coup j'ai automatisé tout ça.
 
 Dans **git**, on peut lancer des scripts automatiquement lors de certaines actions, on appelle ça un *hook*.
 Du coup, dans le *hook* qui s'exécute lors d'un push j'ai mis toutes les actions de 7 à 13.
-Comme ça, lors du <samp>git push</samp> elles sont toutes lancées, je n'ai plus rien à faire.
+Comme ça, lors du <kbd>git push</kbd> elles sont toutes lancées, je n'ai plus rien à faire.
 
 Ça évite d'en oublier une, de se planter sur la syntaxe ou autre connerie du genre.
 

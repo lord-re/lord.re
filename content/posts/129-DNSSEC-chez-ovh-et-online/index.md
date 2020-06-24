@@ -30,13 +30,13 @@ Leur système de robot qui planifie les modifs dans quelque temps et tout et ses
 Bref voilà comment il faut faire.
 
   - Tout d'abord rendez-vous dans votre domaine dans leur console d'administration.
-  - Ensuite, dans l'onglet *DNS servers*, vérifiez que les serveurs déclarés ici correspondent bien à ceux déclarés dans votre zone (<samp>dig votre.domaine NS</samp>) sinon vous aurez le droit à une erreur du robot.
+  - Ensuite, dans l'onglet *DNS servers*, vérifiez que les serveurs déclarés ici correspondent bien à ceux déclarés dans votre zone (<kbd>dig votre.domaine NS</kbd>) sinon vous aurez le droit à une erreur du robot.
   - Ensuite rendez-vous dans l'onglet *DS Records*.
   - Cliquez sur *Edit*.
-  - Le *Key tag* est donc le tag de votre KSK pour obtenir le votre, sur votre serveur DNS lancez **<samp>keymgr votre.domaine ds</samp>** ce qui vous donnera 3 représentation de votre KSK. Ça a cette gueule "votre.domain. DS XXXXX 13 1 YYYYYYYYYYYYYY". Le tag c'est le XXXXX
+  - Le *Key tag* est donc le tag de votre KSK pour obtenir le votre, sur votre serveur DNS lancez **<kbd>keymgr votre.domaine ds</kbd>** ce qui vous donnera 3 représentation de votre KSK. Ça a cette gueule "votre.domain. DS XXXXX 13 1 YYYYYYYYYYYYYY". Le tag c'est le XXXXX
   - Le *Flag* c'est le type de clé, donc *257* pour les KSK et *256* pour les ZSK mais la ZSK changeant très souvent, contentez-vous de la KSK.
   - L'*Algorithm* est … l'algorithme de la clé. Knot par défaut vous sort l'algorithme *13* qui est *ECDSAP256SHA256*.
-  - Et enfin la *Public key* est la partie chiante à récupérer avec **<samp>knotc zone-read votre.domaine @ DNSKEY</samp>** qui vous listera les différentes clés dont une de type *257* qui est votre KSK, il faut donc foutre le champ assez long qui se fini par *==*
+  - Et enfin la *Public key* est la partie chiante à récupérer avec **<kbd>knotc zone-read votre.domaine @ DNSKEY</kbd>** qui vous listera les différentes clés dont une de type *257* qui est votre KSK, il faut donc foutre le champ assez long qui se fini par *==*
 
 {{< img src="ovh.thumb.png" alt="capture d'écran montrant le résultat sur l'interface d'OVH" title="Et voilà le résultat chez OVH" link="ovh.png" >}}
 
@@ -50,9 +50,9 @@ Il y a ce qu'il faut et pas plus.
 Les modifs sont quasi instantannées.
 
   - Rendez-vous dans la console admin de votre domaine.
-  - Vérifiez dans *Manage DNS servers* que les serveurs déclarés ici correspondent à ce qui se trouve dans votre zone (<samp>dig votre.domaine NS @127.1</samp>).
+  - Vérifiez dans *Manage DNS servers* que les serveurs déclarés ici correspondent à ce qui se trouve dans votre zone (<kbd>dig votre.domaine NS @127.1</kbd>).
   - Puis dans *Manage DNSSEC* ajoutez l'enregistrement DS
-  - Sur votre serveur DNS lancez **<samp>keymgr votre.domaine ds</samp>** et on va considérer la dernière ligne qui est la meilleure niveau crypto.
+  - Sur votre serveur DNS lancez **<kbd>keymgr votre.domaine ds</kbd>** et on va considérer la dernière ligne qui est la meilleure niveau crypto.
   - Le *Key id* est le troisième champ de la commande.
   - L'*Algorithm* est à faire concorder avec ce que vous a donné la commande précédente dans le quatrième champ : vous aurez un chiffre (par exemple 13) pour savoir à quel algo ça correspond reportez-vous [au tableau de l'IANA](https://www.iana.org/assignments/dns-sec-alg-numbers/dns-sec-alg-numbers.xhtml) (ouai c'est dommage de pas avoir mis les numéros direct dans leur interface…).
   - Pour le *Digest Type* c'est comme l'étape précédente, reportez-vous au [tableau IANA](https://www.iana.org/assignments/ds-rr-types/ds-rr-types.xhtml) pour faire correspondre la valeur du cinquième champs avec le type demandé.

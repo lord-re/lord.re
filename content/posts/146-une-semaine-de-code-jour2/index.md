@@ -16,7 +16,7 @@ Contrairement à hier, j'écris l'article au fil de l'eau.
 ### Raccourcir la boucle
 
 Bon pour ce second jour j'ai commencé par automatiser un poil la façon de tester le code.
-Pour le moment je lançais un netcat en écoute sur un port dans un terminal, puis je lançais le <samp>go run ircc.go</samp>.
+Pour le moment je lançais un netcat en écoute sur un port dans un terminal, puis je lançais le <kbd>go run ircc.go</kbd>.
 Sauf qu'à chaque fois que je le quittais, fallait retourner sur le term avec le netcat et le relancer… **chiant**.
 
 Du coup premier truc de la journée : faire un micro-script shell pour lancer ça dans un tmux :
@@ -41,7 +41,7 @@ Loop(){
 Loop
 {{< / highlight >}}
 
-Il permet d'envoyer un <samp>Ctrl-c</samp> aux deux panes, puis de relancer le serveur et le programme en Go.
+Il permet d'envoyer un <kbd>Ctrl-c</kbd> aux deux panes, puis de relancer le serveur et le programme en Go.
 La boucle permet de relancer ces actions en appuyant sur n'importe quelle touche comme ça c'est on ne peut plus simple.
 
 ### Foutre des variables et virer le hardcode
@@ -51,7 +51,7 @@ Pour commencer la journée c'est soft.
 
 J'en ai également profité pour tenter de récupérer les arguments donnés au programme.
 Pour l'instant j'en ai pas spécialement besoin mais ça pourrait servir ensuite.
-Du coup j'en profite pour récupérer <samp>os.Args</samp> (en testant au préalable sa longueur).
+Du coup j'en profite pour récupérer <kbd>os.Args</kbd> (en testant au préalable sa longueur).
 Je pourrai picorer cet exemple plus tard pour l'utiliser différemment.
 
 ### Parser un peu mieux IRC
@@ -67,7 +67,7 @@ J'ai dégainé [la RFC d'IRC](https://tools.ietf.org/html/rfc1459) car ça deven
 
 ### Les emmerdes
 J'entrevois déjà pas mal de limitations dans ma façon de coder.
-Je me retrouve à balader certaines variables un peu partout (les <samp>conn</samp>, <samp>nick</samp> et compagnie).
+Je me retrouve à balader certaines variables un peu partout (les <kbd>conn</kbd>, <kbd>nick</kbd> et compagnie).
 J'imagine qu'il y a moyen de faire autrement mais ça va être vite compliqué sinon.
 
 Il me faut donc trouver le moyen de pouvoir écrire une fonction "envoyer_sur_IRC" qui soit appelable d'à peu près partout sans lui donner le socket et compagnie…

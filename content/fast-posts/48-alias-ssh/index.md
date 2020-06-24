@@ -61,7 +61,7 @@ Host n2
 	user root
 {{< / highlight >}}
 
-Voilà, au lieu de me faire un <samp>ssh root@10.0.0.253</samp> maintenant je fais <samp>ssh n2</samp> et le tour est joué.
+Voilà, au lieu de me faire un <kbd>ssh root@10.0.0.253</kbd> maintenant je fais <kbd>ssh n2</kbd> et le tour est joué.
 
 Dans les options les plus intéressantes à mettre dedans il y a :
 
@@ -76,7 +76,7 @@ Je m'explique : j'ai pas mal d'alias pour me connecter à différents containers
 
 Par exemple j'ai un l'hôte des containers qui s'apelle *Z* et dedans j'ai mon client irc pour chatter.
 Et bhé j'ai un alias *Zchat*, tout comme j'ai aussi *Zbackup* mais aussi *Zmail* …
-Et bien, figurez-vous que c'est cool d'écrire <samp>ssh Zchat</samp> mais c'est encore trop long, du coup dans le fichier config j'ai fait un alias comme ça :
+Et bien, figurez-vous que c'est cool d'écrire <kbd>ssh Zchat</kbd> mais c'est encore trop long, du coup dans le fichier config j'ai fait un alias comme ça :
 
 {{< highlight "ssh" >}}
 Host zc*
@@ -85,8 +85,8 @@ Host zc*
 	option valeur
 {{< / highlight >}}
 
-Comme ça je peux écrire <samp>ssh zchat</samp> ou bien <samp>ssh zcatacombes_du_net</samp>, vous voyez le genre.
-Je peux tout aussi bien me contenter de <samp>ssh zc</samp>.
+Comme ça je peux écrire <kbd>ssh zchat</kbd> ou bien <kbd>ssh zcatacombes_du_net</kbd>, vous voyez le genre.
+Je peux tout aussi bien me contenter de <kbd>ssh zc</kbd>.
 Bon c'est une mini-ruse de flemmard j'en conviens, on peut se contenter de définir zc mais quand on a utilisé zchat pendant des années ça permet de faire une transition en douceur.
 
 ---------

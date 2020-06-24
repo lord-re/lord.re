@@ -32,48 +32,48 @@ En ça :
 {{< img src="top-pimped.png" link="top-pimped.png" alt="top tout personnalisé de partout avec pleins de couleurs" title="Ça a de la gueule, hein ?" >}}
 
 ### Se démerdouiller
-Premier truc à connaître : **<samp>?</samp>** .
+Premier truc à connaître : **<kbd>?</kbd>** .
 Ouai, trouver de l'aide est le premier truc ;-)
 
-Un truc indispensable pour rendre le truc plus lisible **<samp>0</samp>**.
+Un truc indispensable pour rendre le truc plus lisible **<kbd>0</kbd>**.
 Ça n'affichera que les valeurs non nulles.
 
-Pour chercher une info c'est **<samp>L</samp>** (comme locate).
+Pour chercher une info c'est **<kbd>L</kbd>** (comme locate).
 
-Pour envoyer un signal à un processus ça sera avec **<samp>k</samp>**.
+Pour envoyer un signal à un processus ça sera avec **<kbd>k</kbd>**.
 
 ### Level UP
 Bon c'est bien gentil mais c'est, pour l'instant, pas non plus la joie.
 
 On va virer/ajouter les infos qui nous intéressent :
-Pour ça faut appuyer sur **<samp>f</samp>** et là choisissez avec **<samp>Espace</samp>** les champs que vous voulez et **<samp>s</samp>** pour le champ qui servira à ordonner les lignes.
+Pour ça faut appuyer sur **<kbd>f</kbd>** et là choisissez avec **<kbd>Espace</kbd>** les champs que vous voulez et **<kbd>s</kbd>** pour le champ qui servira à ordonner les lignes.
 
 Ha là déjà on a énormément progressé !
 
-On peut encore améliorer le truc en pimpant les couleurs : **<samp>Z</samp>** et là tout un nouveau monde s'ouvre à vous !
+On peut encore améliorer le truc en pimpant les couleurs : **<kbd>Z</kbd>** et là tout un nouveau monde s'ouvre à vous !
 Ce menu de configuration vous permet de choisir la couleur des différents éléments.
 
 Hey mais vous savez quoi ?
 On peut aller encore plus loin !
 
-Avec **<samp>A</samp>** vous aurez le *multi-window* !
+Avec **<kbd>A</kbd>** vous aurez le *multi-window* !
 
 O__O
 
 Et oui.
 En fait **top** est vraiment pas si pourri que ça une fois un peu confé (:-þ).
 
-Pour passer d'une fenêtre à une autre c'est avec **<samp>g</samp>** puis vous choisissez le numéro que vous voulez (de 1 à 4).
+Pour passer d'une fenêtre à une autre c'est avec **<kbd>g</kbd>** puis vous choisissez le numéro que vous voulez (de 1 à 4).
 Et vous pouvez re-faire ce que vous avez fait pour la première fenêtre mais pour les trois autres.
 
-Une fois tout aux ptits oignons, pensez à faire un **<samp>W</samp>** pour sauvegarder la configuration.
+Une fois tout aux ptits oignons, pensez à faire un **<kbd>W</kbd>** pour sauvegarder la configuration.
 
 ## Htop
 Bon après ce petit chapitre où on voit que top est pas si pourri qu'il en a l'air on va voir pourquoi htop est mieux.
 
 ### Tweakons sa face
 Bon déjà on va changer un peu son allure par défaut.
-Avec **<samp>F2</samp>** on accède aux réglages.
+Avec **<kbd>F2</kbd>** on accède aux réglages.
 
 Perso dans les *Meters* en *Left column* je mets :
 
@@ -112,7 +112,7 @@ Le dernier onglet concerne les *Columns* là c'est à votre convenance, la mienn
   - Time
   - Command
 
-Et pour finir un ptit **<samp>F10</samp>**.
+Et pour finir un ptit **<kbd>F10</kbd>**.
 
 La configuration se sauvegarde dans le fichier *~/.config/htop/htoprc* .
 
@@ -122,16 +122,16 @@ Voilà jusque-là pas tellement d'avantage face à top, mais du coup pourquoi qu
 Contrairement à **top** on peut lui faire des trucs en plus sur les processus mais souvent il va falloir rajouter d'autres logiciels.
 
 Un premier truc c'est *strace* qui permet d'observer ce que fait un processus qui tourne (les syscalls qu'il lance permet de savoir s'il dort où s'il attend les io ou autre).
-Pour ça une fois que vous êtes sur le processus incriminé, appuyez sur **<samp>s</samp>**.
+Pour ça une fois que vous êtes sur le processus incriminé, appuyez sur **<kbd>s</kbd>**.
 À noter que vous ne pouvez stracer que les processus lancés par votre utilisateur à moins d'être root.
 
-Les descripteurs de fichiers utilisés par un processus peuvent être vu avec **<samp>l</samp>**.Ça vous lancera donc un *lsof* sur le processus.
+Les descripteurs de fichiers utilisés par un processus peuvent être vu avec **<kbd>l</kbd>**.Ça vous lancera donc un *lsof* sur le processus.
 Tout comme pour strace, pour des raisons de droits, vous ne pouvez le faire que sur vos processus à moins d'être root.
 
-Un ptit **<samp>L</samp>** vous affichera tous les appels aux libs que fait un processus.
+Un ptit **<kbd>L</kbd>** vous affichera tous les appels aux libs que fait un processus.
 Pour ça il faut que vous ayez *ltrace* d'installé.
 
-Et le ptit dernier c'est **<samp>e</samp>** qui permet de voir toutes les *variables d'environnement* d'un processus.
+Et le ptit dernier c'est **<kbd>e</kbd>** qui permet de voir toutes les *variables d'environnement* d'un processus.
 
 Voilà pour moi le gros avantage d'htop c'est d'avoir une *config rapidement accessible*, une *interface beaucoup plus intuitive* et de *s'intégrer bien avec les outils d'audit*.
 

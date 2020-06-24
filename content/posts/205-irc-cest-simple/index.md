@@ -152,7 +152,7 @@ C'est un peu comme si vous aviez composé un numéro de téléphone pour le mome
 
 <kbd>nick $PSEUDO</kbd> là vous entrez le pseudo que vous voulez utiliser (ouai c'est redondant et la subtilité avec la commande précédente n'a que peu d'intéret mais faut le faire).
 
-Là, le serveur devrait vous renvoyez un message de type <samp>PING :$XXXXXXX</samp> .
+Là, le serveur devrait vous renvoyez un message de type <kbd>PING :$XXXXXXX</kbd> .
 Vous avez quelques secondes pour lui répondre <kbd>pong :$XXXXXXX</kbd> en sachant que la valeur va changer à chaque fois.
 Si vous ne le faites pas assez vite vous serez déconnecté et il faudra recommencer.
 

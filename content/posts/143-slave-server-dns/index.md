@@ -92,7 +92,7 @@ Et ensuite on indique qu'il faut notifier le remote créé précédemment.
 Le notify permet à votre master d'indiquer au slave qu'il doit rafraîchir ses infos car le master vient de modifier la zone.
 
 ### C'est bon
-Ouai c'est tout mais faut penser à reload avec un ptit **<samp>knotc reload</samp>**.
+Ouai c'est tout mais faut penser à reload avec un ptit **<kbd>knotc reload</kbd>**.
 
 
 ## Knot sur le slave
@@ -130,7 +130,7 @@ Ce coup-ci le remote est obligatoire et n'est pas là juste pour que ce soit cla
 ## Le master et le slave sont prêts et maintenant ?
 
 Voilà c'est fait votre zone est maintenant répliquée sur un autre serveur qui peut prendre la main si votre serveur tombe en panne.
-Vous pouvez le tester avec l'outil **Dig** pour voir si le serveur esclave répond : **<samp>dig votre.domaine @serveur.esclave</samp>**
+Vous pouvez le tester avec l'outil **Dig** pour voir si le serveur esclave répond : **<kbd>dig votre.domaine @serveur.esclave</kbd>**
 
 Bon si vous voulez que ça fonctionne il reste deux étapes capitales : 
 

@@ -19,10 +19,10 @@ Le navigateur râlera donc même si votre sécurité sera élevée.
 
 ## Hey ho Let's GO !
 Bon on commence par générer les paramètres de Diffie-Hellman car ça peut prendre pas mal de temps (dix minutes sur une bonne machine).
-Donc dans un term on commence un joli **<samp>openssl dhparam -out dh.pem 4096</samp>**.
+Donc dans un term on commence un joli **<kbd>openssl dhparam -out dh.pem 4096</kbd>**.
 Voilà vous pouvez compter les points si vous êtes patients, sinon vous pouvez passer à la suite.
 
-Maintenant générons le certificat et sa clé : **<samp>openssl req -x509 rsa:4096 -keyout lord.re.key -out lord.re.cert -days 3650 -nodes -sha256</samp>** et voilà.
+Maintenant générons le certificat et sa clé : **<kbd>openssl req -x509 rsa:4096 -keyout lord.re.key -out lord.re.cert -days 3650 -nodes -sha256</kbd>** et voilà.
 Ça va aussi mouliner un peu mais ça devrait le faire.
 On peut donc passer à la suite.
 
@@ -74,10 +74,10 @@ En gros le HSTS consiste à dire au client https de ne venir qu'en https pendant
 Donc votre navigateur de lui-même réutilisera HTTPS lors des prochaines visites.
 Et ça, c'est chouette !
 
-Bon bha maintenant j'espère que la génération du DH, de la clé et du DH a terminée, parceque maintenant yapuka ! Bon donc maintenant **<samp>systemctl restart nginx</samp>**.
+Bon bha maintenant j'espère que la génération du DH, de la clé et du DH a terminée, parceque maintenant yapuka ! Bon donc maintenant **<kbd>systemctl restart nginx</kbd>**.
 Haha Hahahaha.
 Bon non je déconne.
-**<samp>/etc/init.d/nginx restart</samp>**.
+**<kbd>/etc/init.d/nginx restart</kbd>**.
 Mieux.
 Voilà vous pouvez maintenant vous la racontez avec votre super note au ssllabs.
 Vous n'aurez pas de A+ car pour cela il faut de l'OCSP stapling (téléchargement de la liste de révocation des certifs toussa toussa) mais comme on utilise du certificat auto-signé, on a pas de CA donc pas de moyen d'indiquer la révocation d'un certificat.

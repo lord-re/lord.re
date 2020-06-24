@@ -15,9 +15,9 @@ It uses less bandwidth, less IO.
 
 But when you do this, you won't have the tree's metadata.
 It may be a problem if, like me, you use **eix** to get informations concerning local ebuilds.
-So, even if you update with **<samp>emerge --sync</samp>** or **<samp>eix-sync</samp>** you won't have the updated informations in eix.
+So, even if you update with **<kbd>emerge --sync</kbd>** or **<kbd>eix-sync</kbd>** you won't have the updated informations in eix.
 
-You have to manually update the metadata cache with **<samp>egencache --jobs=8 --update --repo=gentoo</samp>**
+You have to manually update the metadata cache with **<kbd>egencache --jobs=8 --update --repo=gentoo</kbd>**
 
 It may take a lot of time.
 

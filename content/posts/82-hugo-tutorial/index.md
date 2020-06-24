@@ -68,7 +68,7 @@ Bon après ces quelques remarques globales, attaquons nous à la création d'un 
 
 ## Créer la structure de votre site
 Bon, sur votre machine personnelle, on va créer un dossier blog et maintenant tout se fera à partir de ce dossier.
-**<samp>hugo new site ./</samp>** Et voilà votre dossier peuplé de nouveaux dossiers.
+**<kbd>hugo new site ./</kbd>** Et voilà votre dossier peuplé de nouveaux dossiers.
 
   - *archetypes* : contient les éléments qui seront automatiquement rajouté quand vous créerez un nouvel article
   - *config.toml* : fichier texte où se trouve la configuration de votre site
@@ -80,14 +80,14 @@ Bon, sur votre machine personnelle, on va créer un dossier blog et maintenant t
 ## Créer un article
 Afin de pouvoir expérimenter au plus vite, on va déjà créer un article bidon pour votre site.
 
-Au préalable, on va créer une section blog : **<samp>mkdir content/blog</samp>**.
+Au préalable, on va créer une section blog : **<kbd>mkdir content/blog</kbd>**.
 Désormais tous vos articles de blog on les rangera dans ce dossier.
 
-Créons l'article : **<samp>hugo new blog/welcome.md</samp>** .
+Créons l'article : **<kbd>hugo new blog/welcome.md</kbd>** .
 La chose à prendre en compte c'est que vous ne placez pas explicitement votre nouvel article dans *content*, il le fait de lui même.
 Quand vous utilisez la commande *hugo new*, ça sera automatiquement dans *content*.
 
-Maintenant ajoutons du contenu à l'article : **<samp>vim content/blog/welcome.md</samp>**
+Maintenant ajoutons du contenu à l'article : **<kbd>vim content/blog/welcome.md</kbd>**
 Et là vous devriez vous retrouver avec déjà quelques lignes dans votre article.
 
     ---
@@ -109,7 +109,7 @@ Vous pouvez rédiger en dessous votre article en utilisant la [syntaxe MarkDown]
 Bon après avoir ajouté un peu de contenu à cet article on va commencer les choses sérieuses : générer une page web !
 
 ## Configuration
-Donc pour générer votre site web, il vous suffit de taper : **<samp>hugo</samp>**
+Donc pour générer votre site web, il vous suffit de taper : **<kbd>hugo</kbd>**
 ```
                     | EN
 +-------------------+----+
@@ -136,7 +136,7 @@ title = "le nom de votre site"
 {{< / highlight >}}
   
 On pourra se contenter de ces réglages pour le moment.
-Et du coup si vous relancez la commande **<samp>hugo</samp>** vous verrez que vous générez désormais du français !
+Et du coup si vous relancez la commande **<kbd>hugo</kbd>** vous verrez que vous générez désormais du français !
 
 ### Paramètres fait maison
 
@@ -235,7 +235,7 @@ C'est pas bien compliqué.
 ## Partials
 Hugo vous permet d'utiliser des morceaux de HTML que vous allez pouvoir inclure par la suite.
 
-**<samp>mkdir layouts/partials</samp>** et ensuite éditons *layouts/partials/header.html*
+**<kbd>mkdir layouts/partials</kbd>** et ensuite éditons *layouts/partials/header.html*
 {{< highlight "html" >}}
 <!DOCTYPE html>
 <html lang='{{ .Site.Language.Lang }}'>
@@ -263,7 +263,7 @@ Bref maintenant yapuka inclure ça dans votre layout : *layouts/index.html* en a
 ```
 {{ partial "header.html" . }}
 ```
-Un ptit coup de **<samp>hugo</samp>** et on observe le résultat.
+Un ptit coup de **<kbd>hugo</kbd>** et on observe le résultat.
 Le *partial* est inclus dans votre page web avec ses variables qui sont bien remplacées.
 Il nous reste encore un détail à voir et vous serez à même de vous débrouillez comme de grandes personnes.
 
@@ -276,7 +276,7 @@ Les *list pages* sont les pages listant les items d'une section (tous les articl
 Jusqu'à présent, dans notre exemple, nous n'avons travaillé que la home page du site en bidouillant *layouts/index.html*.
 On va donc générer la page pour un article de blog.
 
-**<samp>mkdir layouts/blog</samp>** puis éditons *layouts/blog/single.html*
+**<kbd>mkdir layouts/blog</kbd>** puis éditons *layouts/blog/single.html*
 
 {{< highlight "html" >}}
 {{ partial "header.html" . }}
@@ -297,7 +297,7 @@ Bon ça reste assez simple (notez comme j'amène de nouveaux éléments que prog
 *{{ .Date.Format }}* lit le paramètre *date* de l'article et le met au format *"02/01/2006"*.
 J'avoue que cette désignation est assez étrange mais bon vous trouverez [ici](http://gohugo.io/functions/format/) plus d'explication sur les formats possibles.
 
-Impatients de voir le résultat ? **<samp>hugo</samp>** puis là vous aurez encore plus de fichiers \o/
+Impatients de voir le résultat ? **<kbd>hugo</kbd>** puis là vous aurez encore plus de fichiers \o/
 ```
 public
 ├── blog
@@ -346,7 +346,7 @@ Une fois votre site généré vous aurez désormais un *public/blog/index.html*.
 Bon on a un truc qui marche pas trop mal.
 Plus qu'à raffiner.
 
-Déjà pour se simplifier la vie, dans un autre terminal lancez **<samp>hugo server --navigateToChanged -F -D</samp>**.
+Déjà pour se simplifier la vie, dans un autre terminal lancez **<kbd>hugo server --navigateToChanged -F -D</kbd>**.
 Cette commande lance le ptit serveur web interne d'Hugo en générant les article avec une date dans le futur (-F) et les articles en brouillons (-D).
 Une fois lancée, ils vous indiquera quelle adresse ouvrir dans votre navigateur (généralement http://localhost:1313).
 À chaque modification, vous serez redirigé vers la page éditée.
@@ -367,7 +367,7 @@ Voilà, la description vous permettra de remplir la balise *<meta>* correspondan
 
 Bon on test ?
 
-Créez un second article sur votre blog avec **<samp>hugo new blog/le-second-article.md</samp>** puis éditez-le pour y mettre un peu de contenu.
+Créez un second article sur votre blog avec **<kbd>hugo new blog/le-second-article.md</kbd>** puis éditez-le pour y mettre un peu de contenu.
 
 Si tout va bien, votre *frontmatter* (les métadonnées en haut du fichier contenant votre article) devrait être pré-rempli.
 
@@ -402,7 +402,7 @@ Vous pouvez vous contenter de peu de règles écrites à la main plutôt que de 
 
 ### Un flux RSS complet
 Le template de génération de flux RSS par défaut ne place que le *{{ .Summary }}* d'un article.
-Pour le modifier il va falloir modifier le layout par défaut : **<samp>mkdir layouts/_default/</samp>** et éditer *layouts/_default/rss.xml*
+Pour le modifier il va falloir modifier le layout par défaut : **<kbd>mkdir layouts/_default/</kbd>** et éditer *layouts/_default/rss.xml*
 {{< highlight "xml" >}}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
