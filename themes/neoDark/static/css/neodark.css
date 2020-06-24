@@ -267,14 +267,14 @@ kbd::before,samp::before{
  color:yellow;
  background-color:black;
  display:inline-block;
- margin-right:1rem;
+ margin-right:0.8rem;
 }
 kbd::before{
  content:"➚";
 }
 kbd,samp{
  color:#fca;
- font-size:1.3rem;
+ font-size:1.1rem;
  background:rgba(0,0,0,0.3);
  padding-right:0.5rem;
  white-space:pre-line;
