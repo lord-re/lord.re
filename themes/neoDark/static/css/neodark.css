@@ -258,13 +258,29 @@ footer{
  /*petit hack pour que le fond du footer s'applique jusqu'au bout. Me demandez pas, ça marche. */
  border-bottom:1px dotted rgba(0,0,0,0);
 }
-samp::selection{
+kbd::selection{
  background-color:orangered;
  color:#fff;
 }
+kbd::before,samp::before{
+ content:"⬋";
+ color:yellow;
+ background-color:black;
+ display:inline-block;
+ margin-right:1rem;
+}
+kbd::before{
+ content:"➚";
+}
+kbd,samp{
+ color:#fca;
+ font-size:1.3rem;
+ background:rgba(0,0,0,0.3);
+ padding-right:0.5rem;
+ white-space:pre-line;
+}
 samp{
- color:#caf;
- font-size:1.1rem;
+ color:#cfa;
 }
 blockquote{
  color:#aaa;
