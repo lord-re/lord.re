@@ -1,11 +1,12 @@
 +++
 Author = "Lord"
-Description = ""
+Description = "IRC est un protocole de chat datant de la fin des années 80. Il est très basique et ne fait qu'échanger du texte. Il est tellement simple qu'on peut parvenir à parler ce protocole soi-même."
 Categories = ["irc", "réseau","cli"]
 menu = "main"
 notoc = true
 PublishDate = 2019-08-10T11:06:30+02:00
 date = 2020-06-24T16:06:30+02:00
+lastEdit = 2020-06-27T14:57:10+02:00
 title = "IRC c'est simple."
 editor = ""
 +++
@@ -192,6 +193,10 @@ Voilà, n'hésitez pas à tester cette manipulation, on se croirait un vrai hack
 Si vous souhaitez devenir un utilisateur régulier, il va vous faloir trouver un client IRC qui vous convient.
 Il en existe directement utilisable dans le navigateur comme, par exemple [Kiwi IRC](https://kiwiirc.com/nextclient/) ou bien [The Lounge](https://demo.thelounge.chat/) (The Lounge est à héberger vous-même mais il propose cette démo qui semble limiter au réseau Freenode).
 Si vous voulez un client graphique vous aurez [Hexchat](https://hexchat.github.io/) (dispo pour tous les OS) ou bien [Quassel](https://quassel-irc.org/) mais il est possible d'utiliser [Thunderbird](https://www.thunderbird.net/en-US/) ou bien l'illustre [mIRC](https://www.mirc.com/) (sous Windows). 
+
+Si vous êtes prêt à sauter le pas, le meilleur client IRC actuel est à mon goût [Weechat](https://weechat.org) mais il s'agit d'un client tournant dans votre terminal.
+Au début ça peut surprendre un peu mais il s'avère très pratigue, rapide, léger.
+Et pour une appli dans le terminal sait pas mal se débrouiller de la souris pour ne pas trop dérouter.
 
 Le protocole en lui-même n'a pas de notion de comptes.
 C'est géré par ce qu'on appelle les services et c'est parfaitement optionnel.
