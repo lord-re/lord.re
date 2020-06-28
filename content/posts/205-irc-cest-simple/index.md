@@ -20,7 +20,7 @@ D'autant plus que chaque site est différent avec une interface qui peut varier 
 Alors qu'IRC c'est un ensemble de réseaux où tout est identique (à l'exception de la gestion d'identité mais ça reste optionnel).
 
 En apprenant juste quelques rudiments il est possible de se débrouiller sur IRC.
-Bref, si vous apprenez les quelques commandes de base (moins de dix) vous pourrez vous débrouiller sur IRC (et depuis trente ans, elles n'ont pas changées et ne changeront probablement pas).
+Bref, si vous apprenez les quelques commandes de base (moins de dix) vous pourrez vous débrouiller sur IRC (et depuis trente ans, elles n'ont pas changé et ne changeront probablement pas).
 
 Et il existe même des logiciels qui planquent toutes ces commandes et remplacent ça par des jolies boutons pour diminuer la courbe d'apprentissage nécessaire.
 
@@ -37,10 +37,10 @@ Il y a bien des fois des tentatives d'avoir des logiciels alternatifs mais ceux-
 ## La force d'être décentralisé
 Un autre avantage, *c'est qu'IRC n'est pas contrôlé par une seule entité*.
 Aucun risque d'une faillite ou d'une décision d'un point central qui impacterait les réseaux IRC.
-Parceque oui, il n'y a pas 1 réseau IRC mais une myriade.
+Parce que oui, il n'y a pas 1 réseau IRC mais une myriade.
 Donc dans le pire des cas 1 réseau tombe mais les autres seront toujours là.
 
-Lorsque Microsoft décidera que Skype ne rapporte plus suffisamment, ils couperont sans trop y réflêchir ou bien rendra l'accès payant et c'est valable pour Discord ou les autres.
+Lorsque Microsoft décidera que Skype ne rapporte plus suffisamment, ils couperont sans trop y réfléchir ou bien rendront l'accès payant et c'est valable pour Discord ou les autres.
 IRC n'a pas d'enjeu financier derrière et les réseaux sont en plus très souvent maintenus par des entités à but non lucratif.
 
 ## Bref, IRC c'est simple.
@@ -144,7 +144,7 @@ SSL-Session:
 </pre>
 </details>
 
-Voilà, là vous avez juste établit une connexion réseau sécurisée.
+Voilà, là vous avez juste établi une connexion réseau sécurisée.
 
 Maintenant que la connexion réseau est établie, il faut parler dans le langage irc pour vous initier la session et vous connecter à un salon.
 C'est un peu comme si vous aviez composé un numéro de téléphone pour le moment, maintenant vous allez commencer le dialogue en vous présentant et en faisant vos demandes.
