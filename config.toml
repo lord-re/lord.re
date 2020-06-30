@@ -64,3 +64,6 @@ paginate = 20
     languageName = "Engrish"
     title = "/home/lord"
     weight = 2
+
+[outputs]
+  home = ["json"]
