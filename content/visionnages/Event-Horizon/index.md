@@ -19,7 +19,7 @@ TopWords=["espace","vaisseau","horreur","planète","enfer","navrant"]
 **Event Horizon** est un film que je ne connaissais pas.
 J'ai vu que ça parlait voyage spatial, horreur, toussa je me suis dit banco, un simili-alien.
 
-Bon j'avais pas que le réalisateur c'était *Paul W.S. Anderson*.
+Bon j'avais pas remarqué que le réalisateur c'était *Paul W.S. Anderson*.
 Il est à la tête des infâmes **Resident Evil**, de **Mortal Kombat** et d'autres merdes.
 Il a donc pas peur de faire de la merde.
 Et franchement ça se ressent.
