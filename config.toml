@@ -66,4 +66,4 @@ paginate = 20
     weight = 2
 
 [outputs]
-  home = ["json"]
+  home = ["json","html","rss"]
