@@ -8,6 +8,7 @@ WritingDate = 2020-06-30T22:05:20+02:00
 date = 2020-07-05T10:05:20+02:00
 title = "Ajout d'un module de recherche pour Hugo"
 editor = "kakoune"
+TopWords = [  "navigateur", "script", "url", "js", "wasm", "json", "tinysearch", "recherche","hugo","web"]
 +++
 Régulièrement j'ai des gens qui ne retrouvent pas un article que j'ai écrit.
 Et moi le premier, je cherche souvent pour savoir où j'ai bien pu parler d'un truc.
