@@ -195,6 +195,9 @@ Du coup c'est un compromis à trouver, pour l'instant c'est pas configurable (to
 J'ai passé le *<abbr title="une valeur qui se trouve dans bin/src/storage.rs à la ligne 68">magic number</abbr>* de 10 par défaut à 1024.
 Le fichier wasm généré est désormais de 2Mo cependant il se gzip à environ 350Ko ce qui est de suite bien plus raisonnable.
 
+Si vous voulez des explications plus en détails sur l'aspect technique de Tinysearch, un ptit tour sur [le blog du créateur du soft](https://endler.dev/2019/tinysearch/) où il explique un peu tout.
+C'est intéressant mais très technique et en anglais.
+
 ## Pensées concernant Tinysearch
 Le logiciel est *vraiment jeune pour le moment* et s'oriente d'ailleurs vers une première sortie en version 1.
 Du coup ça implique que le code bouge pas mal et que les devs sont vraiment très à l'écoute et réactif.
