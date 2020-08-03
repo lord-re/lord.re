@@ -13,7 +13,7 @@ Bon bha c'est cool même si parfois je me fait un peu surprendre par la date qui
 J'aime bien ce format qui est un bon exercice de mémoire.
 Ça permet de vous filer des liens vers des trucs de droite et de gauche.
 
-Certains de ces liens pourraient finir dans les [shares]({{ref "shares"}}) mais bon…
+Certains de ces liens pourraient finir dans les [shares]({{< ref "shares" >}}) mais bon…
 
 J'ai pas mal joué à des jeux-vidéos et maté quelques séries donc peu de films et peu de geekeries donc peu d'articles.
 
