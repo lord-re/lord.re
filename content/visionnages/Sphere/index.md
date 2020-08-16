@@ -14,6 +14,7 @@ RssTag = ["visionnage"]
 title = "Sphere"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["cool"] 
+TopWords = [  "boucle temporelle", "sous-marin", "psychologue", "peur", "scientifique", "seule", "vaisseau","horreur","science-fiction","hallucinations","océan"]
 +++
 J'avais adoré ce film à sa sortie il y a plus de vingt ans (time flies).
 Le mélange science-fiction et horreur me titille toujours pourtant cette combinaison des genres est un appeau à nanar.
