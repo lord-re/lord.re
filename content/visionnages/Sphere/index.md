@@ -57,5 +57,5 @@ Mais il n'explicite pas qu'ils ont fait le choix de replacer la sphère dans l'e
 
 Là on voit juste la sphère qui d'un coup, toute seule part dans l'espace…</details>
 
-Bref, le film est cool mais avec quelques lacunes dans le scénar qui ruine un peu le tout.
+Bref, le film est cool mais avec quelques lacunes dans le scénar qui ruinent un peu le tout.
 Il avait un très gros potentiel d'être un vraiment très bon film et au final c'est un film au-dessus de la moyenne mais c'est tout.
