@@ -17,7 +17,7 @@ J'en suis arrivé au point où ouvrir une vidéo sur le web fait planter la cart
 Parfois le kernel parvient à la redémarrer sans rebooter parfois… non.
 
 Bref, on vient de me prêter une carte graphique pour le moment.
-J'attend impatiemment les nouveaux modèles d'AMD qui devrait arriver d'ici octobre.
+J'attends impatiemment les nouveaux modèles d'AMD qui devrait arriver d'ici octobre.
 
 ## Blog
 
@@ -32,7 +32,7 @@ J'ai maté [Tenet]({{< ref "visionnages/tenet" >}}) au cinoche.
 Si vous voulez mon avis sur le film vous pouvez lire l'article, j'ai planqué les spoilers.
 
 La séance était un poil décevante : le son était vraiment fort un chouilla trop.
-Et le format d'image était foireu avec des bandes noires en haut, en bas, à gauche, à droite.
+Et le format d'image était foireux avec des bandes noires en haut, en bas, à gauche, à droite.
 Ça donnait presque l'impression de mater un film 4/3 sur un écran 16/9 mais avec cinémascope.
 
 Bref, c'est un peu dommage qu'un film taillé pour avoir une image superbe soit restitué comme cela.
@@ -49,7 +49,7 @@ Je me suis refait le très fameux **Super Metroid** sur *Super Nintendo*.
 Enfin je l'ai fait en émulation via **Retroarch**.
 Ce jeu est super cool mais pas mal lent et difficile sauf si l'on utilise les fonctions de sauvegardes de l'émulateur et là il devient vraiment plus agréable à jouer.
 
-Je sais c'est pas l'expérience qui était prévu à la base mais je n'ai clairement plus la patience d'antan et mes sessions de jeux sont bien plus erratiques.
+Je sais c'est pas l'expérience qui était prévu à la base, mais je n'ai clairement plus la patience d'antan et mes sessions de jeux sont bien plus erratiques.
 Il m'arrive régulièrement de ne pouvoir jouer qu'un quart d'heure.
 Le jeu ne permet de sauvegarder qu'à des points fixes qui sont vraiment très éloignés les uns des autres… c'est clairement plus ma tasse de thé de perdre 30 minutes de jeu pour cause de non-sauvegarde.
 
@@ -66,7 +66,7 @@ Avec le premier niveau qui met direct la pression avec le timer pour que l'on s'
 
 {{< img src="metroid.png" link="metroid.png" alt="Capture d'écran de super metroid" title="Avec quelques shaders pour imiter un CRT c'est vraiment pas moche." >}}
 
-Le jeu a été l'un des fondements de ce que l'on appele les *metroidvania* c'est à dire les jeux dans le style de **Metroid** et **Castlevania**.
+Le jeu a été l'un des fondements de ce que l'on appele les *metroidvania* c'est-à-dire les jeux dans le style de **Metroid** et **Castlevania**.
 C'est un type de jeu où l'on doit explorer à sa guise une grande map et où l'on gagne progressivement de nouvelles facultés permettant généralement d'accéder à de nouvelles zones auparavant inaccessibles.
 On gagne la possibilité de se rouler en boule permettant de passer dans d'étroits passages.
 Un autre exemple est la possibilité de sauter plus haut rendant de nouvelles plateformes atteignables.
@@ -82,7 +82,7 @@ Ouai… après avoir fini Super Metroid, j'avais encore envie de ce type de jeu 
 Je me le suis fait en [avril dernier]({{< ref "recap/09-avril-2020" >}}) mais il est tellement bien que c'est reparti pour un tour.
 
 Je redécouvre avec plaisir cet environnement sombre et tristouille mais tout de même magnifique.
-L'ambiance est différente de Super Metroid, exit la science fiction et l'exploration d'une planète, ici on a le droit à un royaume d'insectes qui semble quasiment abandonnés.
+L'ambiance est différente de Super Metroid, exit la science fiction et l'exploration d'une planète, ici on a le droit à un royaume d'insectes qui semble quasiment abandonné.
 
 Il pleut, il fait nuit, les villes sont vides, il y a des grottes flippantes, la musique superbe mais déprimante à souhait parachève le truc.
 L'histoire n'est dévoilée que par petites bribes disséminées de-ci de-là.
@@ -95,19 +95,19 @@ Il est aisé de jauger la pression nécessaire pour faire un saut de la bonne lo
 Le personnage possède une faible inertie et un poids raisonnable, déplacer le personnage est vraiment nickel.
 Les sauts, le dash, les rebonds sur les murs : tout est bien réglé comme il faut ce qui permet d'atteindre le flow assez rapidement.
 
-Les combats sont pas mal du tout, les ennemis de base propose assez peu de challenge une fois leur pattern connu.
+Les combats sont pas mal du tout, les ennemis de base proposent assez peu de challenge une fois leur pattern connu.
 Et c'est tant mieux, car on va pas mal se balader sur la map et donc les rencontrer constamment.
-Il y a tout de même quelques bestiaux plus retors pour tout de même épicer l'exporation.
+Il y a tout de même quelques bestiaux plus retors pour tout de même épicer l'exploration.
 
 Les boss sont par contre bien plus costauds et vont souvent poser problème.
 Par chance la mort n'est pas spécialement punitive, il suffit de refaire une partie du chemin, affronter son âme pour récupérer son pognon et sa mana et hop on est prêt à recommencer la baston.
-Les boss sont variés avec une sacré gueule.
+Les boss sont variés avec une sacrée gueule.
 Je vous avoue que lors de mon premier run, le dernier boss m'a fait ragequit et je n'ai donc pas eu le privilège de finir le jeu.
 
 Ici la map doit être achetée auprès du cartographe qu'il faudra dénicher dans les zones non-explorées.
 La première fois c'est un peu frustrant mais au final ça devient vite un moment un peu plus excitant.
 On est perdu en fouillant une zone inconnue avec sa faune que l'on ne connait pas encore.
-On èrre sans savoir où l'on est ni où l'on va et d'un coup on entend la coccinelle qui chantonne.
+On erre sans savoir où l'on est ni où l'on va et d'un coup on entend la coccinelle qui chantonne.
 Et là c'est la joie et le soulagement.
 
 Bref ce jeu est un petit bijou.
