@@ -64,7 +64,7 @@ On pourrait d'ailleurs presque les limiter à des sons d'ambiances.
 L'intro pixel-art est cool comme tout.
 Avec le premier niveau qui met direct la pression avec le timer pour que l'on s'enfuie de la planète.
 
-{{< img src="metroid.png" link="metroid.png" alt="Capture d'écran de super metroid" title="Avec quelques shaders pour imiter un CRT c'est vraiment pas moche." >}}
+{{< img src="metroid.png" alt="Capture d'écran de super metroid" title="Avec quelques shaders pour imiter un CRT c'est vraiment pas moche." >}}
 
 Le jeu a été l'un des fondements de ce que l'on appele les *metroidvania* c'est-à-dire les jeux dans le style de **Metroid** et **Castlevania**.
 C'est un type de jeu où l'on doit explorer à sa guise une grande map et où l'on gagne progressivement de nouvelles facultés permettant généralement d'accéder à de nouvelles zones auparavant inaccessibles.
