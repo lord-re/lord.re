@@ -1,12 +1,13 @@
 +++
 Author = "Lord"
 Description = "Quelques errances mentales à propos des déplacements dans les jeux vidéos."
-Categories = ["réflexions", "jeux vidéos"]
+Categories = ["réflexions", "jeux"]
 menu = "main"
 WritingDate = 2020-08-18T21:58:29+02:00
 date = 2020-09-17T13:58:29+02:00
 title = "Les déplacements dans les jeux vidéos vol.1"
 editor = "kakoune"
+TopWords = [  "visée", "gameplay", "3d", "déplacements", "contexte","level design","game design", "fps", "jeux"]
 +++
 Je sais pas trop comment commencer mais voilà le truc.
 Ça fait quelque temps que ce sujet me trotte dans l'esprit.
