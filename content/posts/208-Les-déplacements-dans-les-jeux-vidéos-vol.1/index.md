@@ -120,7 +120,7 @@ Toute la lourdeur du système disparait.
 
 Le déplacement n'a aucun intêret sur le gameplay tout le jeu repose sur la résolution de ses puzzles.
 La maîtrise du personnage n'a aucun intêret.
-**Le remaster a donc  tout ce point noir du jeu en l'automatisant complètement et hop le jeu n'en devient que plus intéressant.**
+**Le remaster a donc dégagé tout ce point noir du jeu en l'automatisant complètement et hop le jeu n'en devient que plus intéressant.**
 
 D'ailleurs il est toujours aussi chouette, allez-y c'est du bon.
 
