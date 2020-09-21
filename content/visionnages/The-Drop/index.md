@@ -28,7 +28,7 @@ Il récupère le clebs et se lie d'amitié pour la propriétaire de la poubelle 
 
 ----------
 
-*Tom Hardy* a beau avoir joué dans [le meilleur film de tous les temps]({{<ref "visionnages/mad-max-4-fury-road">}}), je n'ai pas spécialement d'affinité envers lui.
+*Tom Hardy* a beau avoir joué dans [le meilleur film de tous les temps]({{< ref "/visionnages/Mad-Max-4-:-Fury-Road">}}), je n'ai pas spécialement d'affinité envers lui.
 Et ce film le caractérise bien à mes yeux : il fait trop bien l'air de chien battu mollasson.
 Tout le long du film, on le sent en train de subir les évènements sans jamais prendre en main son destin.
 Il ne se fait pas maltraiter pour autant mais il subit trop l'histoire à mon goût.
