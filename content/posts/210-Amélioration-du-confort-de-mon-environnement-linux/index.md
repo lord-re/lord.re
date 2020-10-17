@@ -51,7 +51,7 @@ Vous pouvez mettre [ce script](https://git.sr.ht/~q3cpma/dotfiles/tree/master/.c
 ## Pulseeffects
 Depuis le confinement, j'ai adopté **PulseAudio** une des œuvres de l'illustre Lennart Poettering.
 Pourtant j'aime pas tout son écosystème, j'aime pas sa façon de fonctionner, je n'ai besoin d'aucune de ses fonctionnalités.
-J'ai qu'une carte réseau avec une seule sortie audio utilisée.
+J'ai qu'une carte son avec une seule sortie audio utilisée.
 
 Alsa me convenait parfaitement.
 Mais le truc qui m'a fait craqué c'est **PulseEffects** qui permet d'ajouter des effets sur l'audio sur tout le système.
