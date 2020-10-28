@@ -69,7 +69,7 @@ On a tendance à l'oublier mais tout en haut il y a une barre horizontale.
 Vous trouverez tout d'abord le nom de l'instance.
 En cliquant dessus vous vous retrouverez le *fil public* de votre instance.
 
-Ensuite au milieu vous avez le logo Pleroma qui lors d'un clic vous mènera à votre timeline perso (un raccourcis bien venu).
+Ensuite au milieu vous avez le logo Pleroma qui lors d'un clic vous remontera la page (un raccourcis bien venu).
 
 Et enfin à droite, trois icônes : la *recherche*, les *réglages* et le *bouton pour se déconnecter*.
 
