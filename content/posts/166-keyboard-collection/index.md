@@ -1,7 +1,7 @@
 +++
 Author = "Lord"
 Description = "Je vous étale ici mon humble collection de claviers. Principalement des vieilleries mais je les aime bien quand même. Allez venez voir toutes ces photos !"
-Categories = ["clavier", "hardware"]
+Categories = ["clavier", "hardware","collection"]
 menu = "main"
 notoc = true
 PublishDate = 2019-05-14T18:27:14+02:00
