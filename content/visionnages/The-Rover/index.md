@@ -14,6 +14,7 @@ RssTag = ["visionnage"]
 title = "The Rover"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"]
+TopWords=["australie","postapo","vengeance"]
 +++
 Un film rèche, aride, impitoyable à l'image de son environnement et des protagonistes.
 
@@ -34,6 +35,9 @@ Ce film sent fortement le **Mad Max 1**.
 C'est un peu le même feeling où il reste visiblement quelques institutions, de rares magasins mais où on sent que tout empire graduellement.
 
 J'adore la performance de *Robert Pattinson* avec tous ses tocs et ses mimiques et sa confrontation avec *Guy Pearce* vénère ça marche super bien.
+D'ailleurs, *Robert Pattinson* voulait absolument ce rôle particulier afin de casser l'image qu'il avait acquis en tournant dans **Twilight**.
+Et force est de constater que ça a marché et qu'il a désormais une bien belle filmographie !
+
 C'est un buddy road movie pas drôle dans un environnement impitoyable.
 
 Super découverte.
