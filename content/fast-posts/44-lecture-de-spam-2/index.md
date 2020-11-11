@@ -8,6 +8,7 @@ WritingDate = 2020-02-17T12:01:13+01:00
 date = 2020-02-17T12:01:13+01:00
 title = "Examen d'un spam #2"
 editor = "kakoune"
+TopWords=["spam","mail","wordpress","amazon","cms static"]
 +++
 J'avais déjà fait un épisode il y a désormais [fort longtemps]({{< ref "/posts/89-lecture-de-spam-1" >}}).
 Et là j'en ai reçu encore un (j'en ai eu d'autres entre temps, hein) qui m'a fait tiquer.
