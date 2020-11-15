@@ -40,7 +40,7 @@ Et c'est super cool comme sensation de faire ce voyage avec un parfait inconnu o
 C'est par contre toujours *un peu triste et frustrant d'arriver au bout et de ne pas pouvoir s'échanger un ptit mot ou autre* :-/
 
 <video controls preload="metadata" style="max-width:100%;" alt="le niveau où l'on surfe et où j'ai rushé pour le montrer en entier">
-  <source type="video/webm" src="journey.webm">
+  <source type="video/webm" src="https://lord.re/shares/20-journey/journey.webm">
 </video>
 
 Le *jeu est assez court* (un premier run se fait en près de 2 heures) mais *la maniabilité au poil et les graphismes enchanteurs* font qu'on peut se le refaire plusieurs fois.
