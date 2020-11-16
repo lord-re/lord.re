@@ -1,7 +1,7 @@
 +++
 Author = "Lord"
 date = "2015-12-28T14:36:41+02:00"
-lastedit = "2019-12-16T14:36:41+02:00"
+lastedit = "2020-11-16T14:36:41+02:00"
 title = "Réimplémentations libres de moteurs de jeux"
 menu = "main"
 Categories = ["libre","software","linux","jeux","fps"]
@@ -133,6 +133,9 @@ Il y a [une pétition pour ouvrir le code source de *Wipeout 2097*](https://www.
 [**Super Tux Kart**](https://supertuxkart.net/Main_Page) se démène pour fournir une alternative crédible à Mario et ses potes.
 On y est pas encore totalement, mais on sent que c'est déjà crédible et puis conduire son Tux est assez fun.
 
+Sinon il y a [Redriver 2](https://github.com/OpenDriver2/REDRIVER2) qui reverse engineer le code de *Driver 2* sorti sur Playstation il y a plus de vingt ans.
+Il est déjà pas mal jouable avec quelques améliorations graphiques bien appréciable (la distance de vue et les corrections de bugs graphiques typique de la playstation).
+
 ## Vrac !
 Le ptit jeu sympatoche *Chu Chu Rockets* a inspiré des devs pour [**Duck Marines**](http://tangramgames.dk/games/duckmarines/).
 [**Frets on Fire**](http://fretsonfire.sourceforge.net/) recréer les nombreux jeux de guitare ou bien [**Stepmania**](https://www.stepmania.com/) pour tous les *Beatmania*.
@@ -166,3 +169,6 @@ Ajout de OpenD2.
 
 ## PS : Décembre 2019
 Ajout de Devilution.
+
+## PS : Novembre 2020
+Ajout de Redriver 2.
