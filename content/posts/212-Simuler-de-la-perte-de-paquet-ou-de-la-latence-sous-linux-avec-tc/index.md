@@ -40,7 +40,7 @@ Bon, petite explication approximative de texte ligne par ligne :
 
   - 1: Ça créer un *qdisc* (pas besoin de savoir parfaitement ce que c'est) par défaut que je ne toucherai pas sur ma carte réseau *eth1.832* .
   - 2: On créer une règle qui ajoute de la latence aléatoire entre 400 et 800 ms (très gênant) toujours sur cette même interface réseau.
-  - 3: Elle s'amuse à ajouter *10%* de perte de paquet (elle ne peut pas être cumulée avec la ligne 3, c'est soit l'une soit l'autre, j'ai mis les deux à la suite pour vous montrer les possibilités).
+  - 3: Elle s'amuse à ajouter *10%* de perte de paquet (elle ne peut pas être cumulée avec la ligne 2, c'est soit l'une soit l'autre, j'ai mis les deux à la suite pour vous montrer les possibilités).
   - 4: Celle-là affecte la règle précédemment créée (numérotée 1:2) au protocole ip utilisant le port de destination *443*.
   - 5: Enfin celle-ci supprime le *qdisc* créé et donc vire tout ce qu'on a fait.
 
