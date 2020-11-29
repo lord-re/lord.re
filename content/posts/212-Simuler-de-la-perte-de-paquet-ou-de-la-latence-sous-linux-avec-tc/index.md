@@ -47,7 +47,7 @@ Bon, petite explication approximative de texte ligne par ligne :
 Vous n'avez plus qu'à adapter ces quelques lignes à votre cas d'usage pour expérimenter sur votre lab.
 Bien entendu, vous pouvez faire ça sur votre machine rien qu'à vous (si vous êtes root) mais c'est bien plus drôle de faire ça sur un routeur pour mieux voir les effets néfastes.
 
-D'ailleurs vous remarquerez très vite que le taux de perte de paquet n'a vraiment pas besoin d'être élevé pour vite rentre tout inutilisable.
+D'ailleurs vous remarquerez très vite que le taux de perte de paquet n'a vraiment pas besoin d'être élevé pour vite rendre tout inutilisable.
 
 Bien entendu *tc sait faire bien plus de choses* mais … c'est complexe et je n'en ai pas l'utilité.
 Voilà, vous avez le bon outil pour vous pourrir le réseau.
