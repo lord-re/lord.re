@@ -6,10 +6,10 @@
   {{ with .Get "link"}}<a href="{{.}}">{{ else }}<a href="{{strings.TrimRight "en/" .Site.BaseURL}}{{$img.RelPermalink}}">{{ end }}
   <picture>
 {{ if ( in "svg ico" (index $name_splitted 1) ) }}
-    <img src="{{strings.TrimRight "en/" .Site.BaseURL}}{{ $img.RelPermalink }}" alt="{{.Get "alt" }}" />
+    <img src="{{strings.TrimRight "/en" .Site.BaseURL}}{{ $img.RelPermalink }}" alt="{{.Get "alt" }}" />
 {{ else }}
-    <source srcset="{{strings.TrimRight "en/" .Site.BaseURL}}{{$name_base}}.thumb.webp" type="image/webp">
-    <img src="{{ strings.TrimRight "en/" .Site.BaseURL}}{{ $img.RelPermalink }}" alt="{{.Get "alt" }}" />
+    <source srcset="{{strings.TrimRight "/en" .Site.BaseURL}}{{$name_base}}.thumb.webp" type="image/webp">
+    <img src="{{ strings.TrimRight "/en" .Site.BaseURL}}{{ $img.RelPermalink }}" alt="{{.Get "alt" }}" />
 {{ end }}
   </picture>
   </a>
