@@ -6,6 +6,7 @@ menu = "main"
 notoc = true
 PublishDate = 2019-05-14T18:27:14+02:00
 date = 2019-05-14T18:27:14+02:00
+lastEdit = 2020-12-05T11:40:20+02:00
 title = "My keyboard colection"
 editor = "kakoune"
 +++
@@ -161,5 +162,24 @@ I don't have it anymore, so no photos.
 
 I used it while i learned to type with the bépo layout ("french dvorak").
 I gifted when my handmade was ready to be used.
+
+## Combo clavier/trackpad Cherry G80-11800
+
+The newcomer in my collection !
+It's one of the few *Cherry Mx Brown* but its main peculiar point is its small trackball !
+
+{{< img src="combotrackball_front.jpg" alt="It's a basic 90s keyboard but with a small trackball in its lower right corner" title="The design is very basic, bland, but the trackball gives it a peculiar look">}}
+
+It's a simple cherry keyboard with a Compaq branding.
+While looking at it you are back to the 90s.
+This one is from 98 and plugs to the computer with 2 PS2.
+
+{{< img src="combotrackball_zoom.jpg" alt="A not so glam glamshot." title="Nothing to see here.">}}
+
+It's the first time i use a trackball and it may push me to buy one.
+One with a bigger ball and a better ergonomic design.
+This one is not so precise and the keyboard is not perfectly right to my taste.
+
+{{< img src="combotrackball_trackball.jpg" alt="A close up to the ball" title="This trackball is small and not so precise but it's probably enough for lite use." >}}
 
 ---------

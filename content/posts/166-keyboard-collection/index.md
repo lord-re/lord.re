@@ -6,6 +6,7 @@ menu = "main"
 notoc = true
 PublishDate = 2019-05-14T18:27:14+02:00
 date = 2019-05-14T18:27:14+02:00
+lastEdit = 2020-12-05T11:40:20+02:00
 title = "Ma collection de claviers"
 editor = "kakoune"
 TopWords = [  "siemens", "mx", "ordi", "ps2", "basique", "usb", "cherry", "glamshot", "clavier"]
@@ -64,6 +65,8 @@ C'est un Cherry avec des *switch noirs*.
 Il est assez basique en *PS2* avec un joli câble cependant.
 
 {{< img src="siemens_zoom.thumb.jpg" link="siemens_zoom.jpg" alt="Le glamshot de base" title="Ouaip. C'est basique. Pour ça que je l'aime pas spécialement." >}}
+
+*Je l'ai troqué contre le combo clavier/trackpad.*
 
 ## Bleudo
 C'est pas son vrai nom mais ça lui va plutôt bien !
@@ -171,6 +174,23 @@ Donc pas de photo.
 
 Il m'a servi quelques années lors de mon apprentissage du bépo.
 Je l'ai donné depuis.
+
+## Combo clavier/trackpad Cherry G80-11800
+
+Un petit nouveau dans la collection.
+Un de mes rares claviers en *Cherry MX Brown* mais qui a surtout comme particularité d'avoir un ptit trackball intégré.
+
+{{< img src="combotrackball_front.jpg" alt="Un design des années 90 assez classique mais avec dans le coin inférieur droit un tout petit trackball et ses deux boutons." title="Il est mimi et puis surtout ce trackball !">}}
+
+La partie clavier est basique, c'est du cherry rebrandé Compaq.
+On est bien en fin des années 90 et se raccorde via deux ports PS2.
+
+{{< img src="combotrackball_zoom.jpg" alt="Un glamshot peu glam en fait" title="Vue d'ici rien qui ne fasse rêver.">}}
+
+Je crois que ce petit aperçu de trackball risque de me faire craquer pour en acheter un vrai avec une boule plus grosse et une meilleure ergonomie.
+Celui-ci est au final pas ultra précis et puis la partie clavier est trop classique à mon goût.
+
+{{< img src="combotrackball_trackball.jpg" alt="gros plan sur la boule et ses boutons" title="On ne va pas se mentir c'est un tout petit trackball mais suffisant pour de l'utilisation légère." >}}
 
 ---------
 Voilà tout pour le moment.
