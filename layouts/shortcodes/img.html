@@ -1,17 +1,17 @@
 {{ $img := $.Page.Resources.GetMatch (.Get "src")}}
-{{ $test := $img.Permalink }}
 {{ $name_splitted := split $img.RelPermalink "." }}
 {{ $name_base := index $name_splitted 0 }}
 <figure>
   {{ with .Get "link"}}<a href="{{.}}">{{ else }}<a href="{{strings.TrimRight "en/" .Site.BaseURL}}{{$img.RelPermalink}}">{{ end }}
   <picture>
 {{ if ( in "svg ico" (index $name_splitted 1) ) }}
-    <img src="{{strings.TrimRight "/en" .Site.BaseURL}}{{ $img.RelPermalink }}" alt="{{.Get "alt" }}" />
+    <img src="{{strings.TrimSuffix "en/" .Site.BaseURL}}{{ strings.TrimPrefix "/" $img.RelPermalink }}" alt="{{.Get "alt" }}" />
 {{ else }}
-    <source srcset="{{strings.TrimRight "/en" .Site.BaseURL}}{{$name_base}}.thumb.webp" type="image/webp">
-    <img src="{{ strings.TrimRight "/en" .Site.BaseURL}}{{ $img.RelPermalink }}" alt="{{.Get "alt" }}" />
+    <source srcset="{{strings.TrimSuffix "en/" .Site.BaseURL}}{{ strings.TrimPrefix "/" $name_base}}.thumb.webp" type="image/webp">
+    <img src="{{ strings.TrimSuffix "en/" .Site.BaseURL}}{{ strings.TrimPrefix "/" $img.RelPermalink }}" alt="{{.Get "alt" }}"/>
 {{ end }}
   </picture>
   </a>
   <figcaption><h4>{{.Get "title"}}</h4></figcaption>
 </figure>
+
