@@ -1,6 +1,4 @@
 #isso-thread * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 #isso-thread .isso-comment-header a {
@@ -154,6 +152,7 @@
 }
 .isso-comment .isso-postbox {
     margin-top: 0.8em;
+    margin:0;
 }
 .isso-comment.isso-no-votes span.votes {
     display: none;
@@ -161,7 +160,7 @@
 
 .isso-postbox {
     max-width: 68em;
-    margin: 0 auto 2em;
+    margin: 0 auto 0;
     clear: right;
 }
 .isso-postbox > .form-wrapper {
@@ -255,6 +254,9 @@
 .isso-postbox > .form-wrapper > .notification-section {
     display: none;
     padding-bottom: 10px;
+}
+.auth-section{
+  margin:0;
 }
 @media screen and (max-width:600px) {
     .isso-postbox > .form-wrapper > .auth-section .input-wrapper {
