@@ -39,7 +39,7 @@ Bon en vrai je me suis enfin décidé à commencer ma ptite série sur ma ptite 
 Pour l'instant il n'y en a que trois mais je compte en poster d'autres de temps à autre.
 Ça passera pas dans les RSS d'ailleurs ni dans le flux de la homepage (parceque).
 
-En bref ce mois-ci : X articles, X commentaires, X visionnages, X requêtes, X visiteurs uniques pour X Go de trafic.
+En bref ce mois-ci : 1 article, 9 commentaires, 10 visionnages, 478935 requêtes, 42500 visiteurs uniques pour 34.73 Go de trafic.
 
 ## Films
 
