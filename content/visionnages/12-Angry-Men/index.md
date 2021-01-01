@@ -14,6 +14,7 @@ RssTag = ["visionnage"]
 title = "12 Angry Men"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
+TopWords=["jury","tribunal","chaise électrique","débat","persuasion","inculpation","préjugés","noir&blanc"]
 +++
 Mon dernier visionnage de 2020 du coup fallait marquer le coup.
 J'ai choisi un classique que je n'avais jamais vu.
