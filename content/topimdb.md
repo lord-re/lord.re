@@ -42,7 +42,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 17. Goodfellas (1990)	8.6	 	
 18. One Flew Over the Cuckoo's Nest (1975)	8.6	 	
 19. Seven Samurai (1954)	8.6	 	
-20. Se7en (1995)	8.6	 	
+20. [Se7en (1995)]({{< ref "visionnages/Se7en/" >}})	8.6	 	
 21. Life Is Beautiful (1997)	8.6	 	
 22. City of God (2002)	8.6	 	
 23. The Silence of the Lambs (1991)	8.6	 	
