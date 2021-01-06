@@ -21,7 +21,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 
 Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 
-<progress value="20" max="250">/</progress>
+<progress value="23" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "visionnages/The-Godfather/">}})	9.1	 	
@@ -33,7 +33,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 8. [Pulp Fiction (1994)]({{< ref "visionnages/Pulp-Fiction/" >}})	8.8	 	
 9. The Good, the Bad and the Ugly (1966)	8.8	 	
 10. The Lord of the Rings: The Fellowship of the Ring (2001)	8.8	 	
-11. Fight Club (1999)	8.8	 	
+11. [Fight Club (1999)]({{< ref "visionnages/Fight-Club/" >}})	8.8	 	
 12. Forrest Gump (1994)	8.8	 	
 13. Inception (2010)	8.7	 	
 14. The Lord of the Rings: The Two Towers (2002)	8.7	 	
@@ -45,7 +45,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 20. [Se7en (1995)]({{< ref "visionnages/Se7en/" >}})	8.6	 	
 21. Life Is Beautiful (1997)	8.6	 	
 22. City of God (2002)	8.6	 	
-23. The Silence of the Lambs (1991)	8.6	 	
+23. [The Silence of the Lambs (1991)]({{< ref "visionnages/The-Silence-Of-The-Lambs/" >}})	8.6	 	
 24. It's a Wonderful Life (1946)	8.6	 	
 25. Star Wars: Episode IV - A New Hope (1977)	8.6	 	
 26. Saving Private Ryan (1998)	8.5	 	
