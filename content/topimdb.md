@@ -21,7 +21,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 
 Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 
-<progress value="23" max="250">/</progress>
+<progress value="26" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "visionnages/The-Godfather/">}})	9.1	 	
@@ -31,7 +31,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 6. [Schindler's List (1993)]({{< ref "visionnages/Schindlers-List/" >}})	8.9	 	
 7. The Lord of the Rings: The Return of the King (2003)	8.9	 	
 8. [Pulp Fiction (1994)]({{< ref "visionnages/Pulp-Fiction/" >}})	8.8	 	
-9. The Good, the Bad and the Ugly (1966)	8.8	 	
+9. [The Good, the Bad and the Ugly (1966)]({{< ref "visionnages/Le-Bon-La-Brute-et-Le-Truand/" >}})	8.8	 	
 10. The Lord of the Rings: The Fellowship of the Ring (2001)	8.8	 	
 11. [Fight Club (1999)]({{< ref "visionnages/Fight-Club/" >}})	8.8	 	
 12. Forrest Gump (1994)	8.8	 	
@@ -40,7 +40,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 15. Star Wars: Episode V - The Empire Strikes Back (1980)	8.7	 	
 16. The Matrix (1999)	8.6	 	
 17. Goodfellas (1990)	8.6	 	
-18. One Flew Over the Cuckoo's Nest (1975)	8.6	 	
+18. [One Flew Over the Cuckoo's Nest (1975)]({{< ref "visionnages/One-Flew-Over-The-Cuckoos-Nest/" >}})	8.6	 	
 19. Seven Samurai (1954)	8.6	 	
 20. [Se7en (1995)]({{< ref "visionnages/Se7en/" >}})	8.6	 	
 21. Life Is Beautiful (1997)	8.6	 	
@@ -48,7 +48,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 23. [The Silence of the Lambs (1991)]({{< ref "visionnages/The-Silence-Of-The-Lambs/" >}})	8.6	 	
 24. It's a Wonderful Life (1946)	8.6	 	
 25. Star Wars: Episode IV - A New Hope (1977)	8.6	 	
-26. Saving Private Ryan (1998)	8.5	 	
+26. [Saving Private Ryan (1998)]({{< ref "visionnages/Saving-Private-Ryan/" >}})	8.5	 	
 27. Spirited Away (2001)	8.5	 	
 28. [The Green Mile (1999)]({{< ref "visionnages/la-ligne-verte/" >}})	8.5	 	
 29. [Interstellar (2014)]({{< ref "visionnages/Interstellar/" >}})	8.5	 	
