@@ -21,7 +21,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 
 Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 
-<progress value="26" max="250">/</progress>
+<progress value="28" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "visionnages/The-Godfather/">}})	9.1	 	
@@ -47,7 +47,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 22. City of God (2002)	8.6	 	
 23. [The Silence of the Lambs (1991)]({{< ref "visionnages/The-Silence-Of-The-Lambs/" >}})	8.6	 	
 24. It's a Wonderful Life (1946)	8.6	 	
-25. Star Wars: Episode IV - A New Hope (1977)	8.6	 	
+25. [Star Wars: Episode IV - A New Hope (1977)]({{< ref "visionnages/Star-Wars-4/" >}})	8.6	 	
 26. [Saving Private Ryan (1998)]({{< ref "visionnages/Saving-Private-Ryan/" >}})	8.5	 	
 27. Spirited Away (2001)	8.5	 	
 28. [The Green Mile (1999)]({{< ref "visionnages/la-ligne-verte/" >}})	8.5	 	
@@ -60,7 +60,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 35. The Pianist (2002)	8.5	 	
 36. Back to the Future (1985)	8.5	 	
 37. Terminator 2: Judgment Day (1991)	8.5	 	
-38. American History X (1998)	8.5	 	
+38. [American History X (1998)]({{< ref "visionnages/American-History-X/" >}})	8.5	 	
 39. Modern Times (1936)	8.5	 	
 40. Psycho (1960)	8.5	 	
 41. Gladiator (2000)	8.5	 	
