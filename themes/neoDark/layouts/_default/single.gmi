@@ -1,0 +1,5 @@
+# {{ .Title | safeHTML }}
+
+{{ .RawContent }}
+
+=> gemini://lord.re Retour à la home

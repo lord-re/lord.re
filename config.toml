@@ -66,4 +66,17 @@ paginate = 20
     weight = 2
 
 [outputs]
-  home = ["json","html","rss"]
+  home = ["json","html","rss","gemini"]
+  page = ["html","gemini"]
+
+[mediaTypes."text/gemini"]
+	suffixes = ["gmi"]
+
+[outputFormats.gemini]
+	isPlainText = true
+	isHTML = false
+	mediaType = "text/gemini"
+	name = "gemini"
+	path = "../gemini/"
+	permalinkable = true
+	protocol = "gemini://"

@@ -1,0 +1,8 @@
+# /home/lord/glog
+
+Bienvenue sur mon glog perso.
+C'est à peu près comme mon blog mais en plus léger !
+
+{{ range .Site.RegularPages }}
+{{- if .OutputFormats.Get "gemini" }}
+=> {{ replace .Permalink "/gemini" "" 1 }} [{{ .Date.Format "01/02/06" }}] [{{ .Section }}] {{ .Title | safeHTML }}{{ end }}{{ end }}
