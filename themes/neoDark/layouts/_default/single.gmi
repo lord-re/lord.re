@@ -1,5 +1,18 @@
 # {{ .Title | safeHTML }}
 
-{{ .RawContent }}
+{{ $content := .RawContent -}}
+{{ $content := $content | replaceRE "`(.+?)`" "$1" -}}
+{{ $content := $content | replaceRE "`" "```" -}}
+{{ $content := $content | replaceRE "\\*(.+?)\\*" "$1" -}}
+{{ $content := $content | replaceRE " \\[(.+?)\\]\\((.+?)\\)" "\n\n=> $2 $1\n\n" -}}
+{{ $content := $content | replaceRE "\\[(.+?)\\]\\((.+?)\\)" "=> $2 $1" -}}
+{{ $content }}
 
-=> gemini://lord.re Retour à la home
+
+
+------------------------------------
+=> gemini://lord.re 🏠 Retour à la home
+------------------------------------
+{{ if .NextPage }}=> {{ .NextPage.Permalink }} [>>  Suivant  >>] ⏭  {{ .NextPage.Title}} {{end}}
+{{ if .PrevPage }}=> {{ .PrevPage.Permalink }} [<< Précédent <<] ⏮ {{ .PrevPage.Title}} {{end}}
+{{ range first 1 (shuffle (.Site.RegularPages)) }}=> {{ .Permalink }} [~~ Aléatoire ~~] 🔀 {{ .Title }}{{ end }}
