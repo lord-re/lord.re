@@ -15,7 +15,7 @@ Donc mon compte dessus a grandit grandit grandit et contient donc un peu trop de
 Plus un toot est vieux moins il a d'intéret (sauf cas exceptionnel) du coup autant le dégager, non ?
 
 Si on est administrateur soi-même, on peut le faire à la bourrin en allant direct tripoter ça dans la base PostgresQL.
-Si on est simple utilisateur (ou si on ne se sent pas d'aller mettre les mains dans le camboui) on peut utiliser le logiciel **Ephemetoo**.
+Si on est simple utilisateur (ou si on ne se sent pas d'aller mettre les mains dans le camboui) on peut utiliser le logiciel [**Ephemetoot**](https://ephemetoot.hugh.run/).
 
 C'est un ptit soft en python utilisant l'API de Mastodon (et donc compatible Pleroma) pour demander la suppression d'un toot.
 Il se configure pour ne toucher que les toots ayant un âge.
