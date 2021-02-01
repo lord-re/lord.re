@@ -27,7 +27,7 @@ Je lis parfaitement l'anglais mais l'écrire est une gymnastique que je ne prati
 Les tournures coincent un peu.
 J'ai l'impression d'avoir un anglais très scolaire, lourdingue moche.
 
-En bref ce mois-ci : 5 articles, 33 commentaires, 24 visionnages, X requêtes, X visiteurs uniques pour X Go de trafic.
+En bref ce mois-ci : 5 articles, 33 commentaires, 24 visionnages, 514116 requêtes, 48208 visiteurs uniques pour 16.76 Go de trafic.
 
 ## Films
 Beaucoup de film ce mois-ci.
