@@ -22,7 +22,7 @@ Mais bon tout ça on en a déjà pas mal parlé même si j'ai pas trop abordé l
 ## Here Comes Google
 Et pour tout ça, je pense que Google a une énorme part de responsabilité.
 Il y a bien longtemps j'étais un fanboy google.
-Je me suis démené pour avoir un compte Gmail quand ça s'est créé et j'ai paradé comme un coq lorsqu'ai récup une invitation pour accéder au graal.
+Je me suis démené pour avoir un compte Gmail quand ça s'est créé et j'ai paradé comme un coq lorsque j'ai récup une invitation pour accéder au graal.
 
 Mais depuis j'ai radicalement changé (d'avis).
 Je me suis dégooglisé il y a fort longtemps (il me reste quelques ptites bribes comme par exemple youtube qui n'a pas trop d'alternative possible (effet réseau, c'est là où se trouve le contenu) ou bien android qui est un de mes outils de travail).
