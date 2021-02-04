@@ -98,7 +98,7 @@ On devient dépendant de sa bulle et en sortir est tout tourneboulant.
 Bon, j'espère que mon ptit exposé vous a plu.
 L'intro désormais finie, je vous ai préparé pour vous présenter un peu plus [**Mojeek**](https://www.mojeek.com).
 
-<img src="mojeek2.svg" />
+<img src="https://lord.re/shares/22-mojeek-un-moteur-de-recherche-indépendant-et-respectueux-de-la-vie-privée/mojeek2.svg" />
 
 ### Koikoukess ?
 Il s'agit d'*un moteur de recherche avec son propre index*.
