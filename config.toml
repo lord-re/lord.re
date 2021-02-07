@@ -77,6 +77,5 @@ paginate = 20
 	isHTML = false
 	mediaType = "text/gemini"
 	name = "gemini"
-	path = "../gemini/"
 	permalinkable = true
 	protocol = "gemini://"
