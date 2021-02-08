@@ -14,7 +14,7 @@ RssTag = ["visionnage"]
 title = "Salyut-7"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
-TopWords=["espace","cosmonaute","station","survie","guerre froide","tension","russie"]
+TopWords=["espace","cosmonaute","station","survie","guerre froide","tension","russie","science"]
 +++
 ## Contexte
 Je n'avais pas entendu parler de cet évènement historique ni même du film.
@@ -31,7 +31,7 @@ Ils devront ensuite tenter de réparer ou bien désorbiter de manière contrôle
 
 ## Ressenti
 J'ai vraiment pas une grande expérience du cinéma russe.
-J'ai vu un truc complètement over the top avec [**Hardcore Henry**]({{< ref "visionnages/Hardcore-Henry" >}}) mais aussi le nanar des enfers [**Viy 2**]({{< ref "visionnages/viy2-journey-to-china" >}}) et du coup j'ai un apriori assez négatif.
+J'ai vu un truc complètement over the top avec [**Hardcore Henry**]({{< ref "visionnages/Hardcore-Henry" >}}) mais aussi le nanar des enfers [**Viy 2**]({{< ref "visionnages/Viy-2-:-Journey-To-China" >}}) et du coup j'ai un apriori assez négatif.
 Cela dit j'ai apprécié [**Sputnik**]({{< ref "visionnages/sputnik" >}}) qui de base est plus dans ce que j'apprécie, du coup en démarrant ce film je savais pas trop à quoi m'attendre.
 
 Déjà techniquement c'est vraiment très propre.
