@@ -11,10 +11,11 @@ You can reuse it, and if you do i'll gladly take a look at your website, don't h
   --url-color:#ea872d;
   --h2-color:#8aa;
   --posts-h1-a:#cac;
-  --fast-h1-a:#99c3d1;
+  --fast-posts-h1-a:#99c3d1;
   --shares-h1-a:#ffa;
   --ideas-h1-a:#aff;
   --recap-h1-a:#9cd256;
+  --visionnages-h1-a:#d25656;
   --category:#aeb8f9;
   --em:#8a8;
   --strong:#a8a;
@@ -30,7 +31,7 @@ You can reuse it, and if you do i'll gladly take a look at your website, don't h
     --url-color:#000;
     --h2-color:#388;
     --posts-h1-a:#7b56d2;
-    --fast-h1-a:#5694d2;
+    --fast-posts-h1-a:#5694d2;
     --shares-h1-a:#d2c656;
     --shares-h1-a:#ff0080;
     --ideas-h1-a:#56c6d2;
@@ -185,7 +186,7 @@ section{
  color:var(--posts-h1-a);
 }
 .fast-posts h1 a{
- color:var(--fast-h1-a);
+ color:var(--fast-posts-h1-a);
 }
 .shares h1 a{
  color:var(--shares-h1-a);
@@ -197,7 +198,7 @@ section{
  color:var(--recap-h1-a);
 }
 .visionnages h1 a{
- color:hsl(0,58%,58%);
+ color:var(--visionnages-h1-a);
 }
 .post-category{
  color:var(--category);
@@ -414,7 +415,7 @@ summary:hover, summary:focus{
  color:var(--ideas-h1-a);
 }
 .webring .article:nth-child(5) a{
- color:var(--fast-h1-a);
+ color:var(--fast-posts-h1-a);
 }
 .webring .article:nth-child(6) a{
  color:var(--category);
