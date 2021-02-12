@@ -2,7 +2,7 @@
 Author = "Lord"
 Description = ""
 notoc = true
-VisionnageDate = ["2021-02-11T23:47:48+01:00",""]
+VisionnageDate = ["2021-02-11",""]
 date = 2021-02-11T23:47:48+01:00
 editor = "kakoune"
 year = ["2002"]
