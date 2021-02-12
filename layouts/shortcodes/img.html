@@ -2,7 +2,7 @@
 {{ $name_splitted := split $img.RelPermalink "." }}
 {{ $name_base := index $name_splitted 0 }}
 <figure>
-  {{ with .Get "link"}}<a href="{{.}}">{{ else }}<a href="{{strings.TrimRight "en/" .Site.BaseURL}}{{$img.RelPermalink}}">{{ end }}
+  {{ with .Get "link"}}<a href="{{.}}">{{ else }}<a href="{{strings.TrimSuffix "en/" .Site.BaseURL}}{{ strings.TrimPrefix "/" $img.RelPermalink}}">{{ end }}
   <picture>
 {{ if ( in "svg ico" (index $name_splitted 1) ) }}
     <img src="{{strings.TrimSuffix "en/" .Site.BaseURL}}{{ strings.TrimPrefix "/" $img.RelPermalink }}" alt="{{.Get "alt" }}" />
