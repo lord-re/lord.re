@@ -14,7 +14,7 @@ RssTag = ["visionnage"]
 title = "Jojo Rabbit"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
-TopWords = [ "comédie", "embrigadement", "nazisme", "nazi", "Hitler", "juive"]
+TopWords = [ "comédie", "embrigadement", "nazisme", "nazi", "Hitler", "juif"]
 +++
 *Taika Waititi* est un réalisateur et acteur en train de monter assez haut ces dernières années.
 Il a quand même pondu l'un des tout meilleurs films de vampires avec **What We Do In The Shadows** qui a ensuite été adapté en série (à voir absolument).

@@ -14,6 +14,7 @@ RssTag = ["visionnage"]
 title = "La Liste de Schindler"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
+TopWords=["juif","nazi","holocauste","camp","concentration","extermination","collaboration","varsovie","ghetto"]
 +++
 Wow sacré film.
 C'est un sujet sacrément plombant, triste dans une époque sombre, bref quoi de mieux pour un Réveillon ?
