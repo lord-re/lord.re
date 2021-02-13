@@ -1,18 +1,17 @@
-{{ partial "header.html" . }}
+{{ $prev :=2100}}{{ partial "header.html" . }}
 {{ `<!-- layouts/titles/list.html -->` | safeHTML}}
 <body>
 	<a href="#content" title="{{ i18n "skip_content"}}" class="sr-only"></a>
   <div id="layout">
 {{ partialCached "sidebar.html" . }}
     <div id="content">
+    <main>
 {{ range where .Site.Pages "Section" "in" .Site.Params.sectionsInHomepage }}
-      <section class="{{.Section}}">
-        <header class="post-header">
-					<h1 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
-          <p class="post-meta"><em>{{ if not .Params.nodate }}<span class="post-date">{{ .Date.Format "02/01/2006" }}</span> - {{ end }}{{ if not .Params.noread }}<span class="post-reading-time">{{ i18n "readingTime" .ReadingTime }}</span>{{ end }}</em>{{ if .Params.categories }}<span class="post-categories">{{ $Site := .Site }}{{ range .Params.categories }}<a class="post-category post-category-{{ . | urlize }}" href="{{ $Site.BaseURL}}categories/{{ . | urlize }}">{{ . }}</a> {{ end }}</span>{{ end }}</p>
-          </header>
-        </section>
+{{if .Date}} {{ if gt $prev (.Date.Format "2006")}} <br><h1>{{.Date.Format "2006" }}</h1><hr> {{end}} {{ $prev = .Date.Format "2006" }}{{end}}
+    <span style="color:var(--{{.Section}}-h1-a);font-weight:100;">{{.Section}}</span>   <a href="{{.RelPermalink}}">{{.Title}}</a>
+          <p class="post-meta"><em>{{ if not .Params.nodate }}<span class="post-date">{{ .Date.Format "02/01/2006" }}</span> - {{ end }}{{ if not .Params.noread }}<span class="post-reading-time">{{ i18n "readingTime" .ReadingTime }}</span>{{ end }}</em>{{ if .Params.categories }}<span class="post-categories">{{ $Site := .Site }}{{ range .Params.categories }}<a class="post-category post-category-{{ . | urlize }}" href="{{ $Site.BaseURL}}categories/{{ . | urlize }}">{{ . }}</a> {{ end }}</span>{{ end }} {{with .Params.Avis}}{{.}}{{end}}</p>
 {{ end }}
+    </main>
     </div>
   </div>
 </body>
