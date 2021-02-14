@@ -142,16 +142,16 @@ Et voilà. C'est assez simple. On peut foutre les commandes dans un fichier text
 
 Et si vous voulez le faire à distance il va falloir d'abord sécuriser le truc :
 
-  - 1) Créer une clé pour authentifier
-  - 2) Renseigner cette clé dans la conf
-  - 3) Donner les droits à cette clé de modifier la zone
-  - 4) Utiliser cette clé à distance
-  - 5) Profit
+  1. Créer une clé pour authentifier
+  2. Renseigner cette clé dans la conf
+  3. Donner les droits à cette clé de modifier la zone
+  4. Utiliser cette clé à distance
+  5. Profit
 
 Voilà le détail des étapes:
 
-  - 1) **<kbd>keymgr -t nom-de-la-clé</kbd>**
-  - 2) À mettre dans votre */etc/knot/knot.conf*
+  1. **<kbd>keymgr -t nom-de-la-clé</kbd>**
+  2. À mettre dans votre */etc/knot/knot.conf*
 {{< highlight yaml >}}  
 	key:
   - id: nom-de-la-clé
@@ -159,7 +159,7 @@ Voilà le détail des étapes:
     secret: euisrneuisrnesuinesunresuirnesiaunesiaurentauisretauisr
 {{< / highlight >}}
 
-  - 3) On donne le droit à cette clé de modifier votre zone :
+  3. On donne le droit à cette clé de modifier votre zone :
 {{< highlight yaml >}}  
   acl:
   - id: update-via-ma-cle
@@ -171,8 +171,8 @@ Voilà le détail des étapes:
     acl: update-via-ma-cle
 {{< / highlight >}}
 
-  - 4) **<kbd>nsupdate -y hmac-sha384:nom-de-la-clé:euisrneuisrnesuinesunresuirnesiaunesiaurentauisretauisr</kbd>**
-  - 5) Voilà voilà
+  4. **<kbd>nsupdate -y hmac-sha384:nom-de-la-clé:euisrneuisrnesuinesunresuirnesiaunesiaurentauisretauisr</kbd>**
+  5. Voilà voilà
 
 ### 3 : knotc à l'authentique
 
