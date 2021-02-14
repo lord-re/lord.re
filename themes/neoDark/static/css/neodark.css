@@ -45,7 +45,7 @@ You can reuse it, and if you do i'll gladly take a look at your website, don't h
 }
 *{
  box-sizing:border-box;
- transition: box-shadow 0.2s ease, outline-offset 0.2s ease, transform 0.2s ease, background 0.4s ease;
+/* transition: box-shadow 0.2s ease, outline-offset 0.2s ease, transform 0.2s ease, background 0.4s ease;*/
  margin:0;
 }
 html{
@@ -53,12 +53,18 @@ html{
  background:var(--background);
  color:var(--default-color);
 }
+
+
+
+
+
+
+
+
 body{
  display:grid;
- grid-template-areas: "a a a"
- "b b b"
- "c c c";
- grid-template-columns: 1fr 4fr 1fr;
+ justify-content:space-between;
+ grid-template-areas: "a a a" "b b b" "c c c";
 }
 nav{
  grid-area:a;
@@ -67,26 +73,29 @@ nav{
  box-shadow:0 0 2em rgba(0,0,0,0.4);
  background: var(--nav);
  border-bottom:2px solid var(--header-delimiter);
-
 }
 main{
  grid-area:b;
- margin:0.5rem;
- max-width:80ch;
+ padding:0.5rem;
+ justify-self:center;
 }
 aside{
  grid-area:c;
  display:none;
+ width:25ch;
 }
 
-@media (min-width:120ch){
+@media (min-width:139ch){
  body{
-  grid-template-areas:  "a b c"
- "a b c"
- "a b c";
+ grid-template-columns:20ch auto 20ch;
+ grid-template-areas:"a b c" "a b c" "a b c";
  }
  nav {
   border-bottom:none;
+  width:20ch;
+ }
+ main {
+  max-width:70ch;
  }
  aside{
   display:block;
@@ -95,16 +104,27 @@ aside{
  }
 }
 
-@media (min-width: 160ch){
- html{
-  font-size:18pt;
- }
-}
+
 @media (min-width: 220ch){
  html{
   font-size:20pt;
  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #drafturl{
  color:rgba(0,0,0,0);
 }
@@ -127,8 +147,7 @@ a:hover, a:focus{
  transform:scale(1.2);
 }
 article{
- margin-top:2rem;
- margin-bottom:2rem;
+ padding:0 0.8rem 0 0.8rem;
 }
 h1 a{
  font-size:1.7rem;
@@ -261,6 +280,10 @@ figure a img{
  font-size:.8rem;
  padding:0 2rem 0 2rem;
 }
+.section-meta{
+ width:6rem;
+ display:inline-block;
+}
 .post-meta-list{
  font-size:.8rem;
  padding:0 1rem 0 1rem;
@@ -294,9 +317,6 @@ td{
 }
 header{
  margin:2rem;
-}
-article {
- padding:0 0.8rem 0 0.8rem;
 }
 footer{
  margin-top:1rem;
@@ -434,6 +454,9 @@ summary:hover, summary:focus{
 }
 .svg2{
  width:2em;
+}
+.svg3{
+ width:0.9em;
 }
 
 
