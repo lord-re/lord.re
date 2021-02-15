@@ -21,7 +21,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 
 Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 
-<progress value="28" max="250">/</progress>
+<progress value="35" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "visionnages/The-Godfather/">}})	9.1	 	
@@ -37,11 +37,11 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 12. Forrest Gump (1994)	8.8	 	
 13. Inception (2010)	8.7	 	
 14. The Lord of the Rings: The Two Towers (2002)	8.7	 	
-15. Star Wars: Episode V - The Empire Strikes Back (1980)	8.7	 	
+15. [Star Wars: Episode V - The Empire Strikes Back (1980)]({{< ref "visionnages/Star-Wars-5/" >}})	8.7	 	
 16. The Matrix (1999)	8.6	 	
 17. Goodfellas (1990)	8.6	 	
 18. [One Flew Over the Cuckoo's Nest (1975)]({{< ref "visionnages/One-Flew-Over-The-Cuckoos-Nest/" >}})	8.6	 	
-19. Seven Samurai (1954)	8.6	 	
+19. [Seven Samurai (1954)]({{< ref "visionnages/Seven-Samurai/">}})	8.6	 	
 20. [Se7en (1995)]({{< ref "visionnages/Se7en/" >}})	8.6	 	
 21. Life Is Beautiful (1997)	8.6	 	
 22. City of God (2002)	8.6	 	
@@ -54,10 +54,10 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 29. [Interstellar (2014)]({{< ref "visionnages/Interstellar/" >}})	8.5	 	
 30. Parasite (2019)	8.5	 	
 31. Léon: The Professional (1994)	8.5	 	
-32. The Usual Suspects (1995)	8.5	 	
+32. [The Usual Suspects (1995)]({< ref "visionnages/The-Usual-Suspects" >{})	8.5	 	
 33. Hara-Kiri (1962)	8.5	 	
 34. The Lion King (1994)	8.5	 	
-35. The Pianist (2002)	8.5	 	
+35. [The Pianist (2002)]({{< ref "visionnages/The-Pianist" >}})	8.5	 	
 36. Back to the Future (1985)	8.5	 	
 37. Terminator 2: Judgment Day (1991)	8.5	 	
 38. [American History X (1998)]({{< ref "visionnages/American-History-X/" >}})	8.5	 	
@@ -100,7 +100,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 75. Coco (2017)	8.3	 	
 76. Avengers: Endgame (2019)	8.3	 	
 77. American Beauty (1999)	8.3	 	
-78. Braveheart (1995)	8.3	 	
+78. [Braveheart (1995)]({{< ref "visionnages/Braveheart" >}})	8.3	 	
 79. Das Boot (1981)	8.3	 	
 80. 3 Idiots (2009)	8.3	 	
 81. Toy Story (1995)	8.3	 	
@@ -108,7 +108,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 83. High and Low (1963)	8.3	 	
 84. Amadeus (1984)	8.3	 	
 85. Inglourious Basterds (2009)	8.3	 	
-86. Star Wars: Episode VI - Return of the Jedi (1983)	8.3	 	
+86. [Star Wars: Episode VI - Return of the Jedi (1983)]({{< ref "visionnages/Star-Wars-6/" >}})	8.3	 	
 87. Taare Zameen Par (2007)	8.3	 	
 88. Good Will Hunting (1997)	8.3	 	
 89. Reservoir Dogs (1992)	8.3	 	
@@ -163,7 +163,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 138. A Beautiful Mind (2001)	8.2	 	
 139. [Casino (1995)]({{< ref "visionnages/Casino" >}})	8.2	 	
 140. The Great Escape (1963)	8.2	 	
-141. The Wolf of Wall Street (2013)	8.2	 	
+141. [The Wolf of Wall Street (2013)]({{< ref "visionnages/The-Wolf-Of-Wall-Street/" >}})	8.2	 	
 142. Pan's Labyrinth (2006)	8.2	 	
 143. The Secret in Their Eyes (2009)	8.1	 	
 144. There Will Be Blood (2007)	8.1	 	
