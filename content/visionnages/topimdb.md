@@ -23,44 +23,44 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 
 <progress value="35" max="250">/</progress>
 
-1. [The Shawshank Redemption (1994)]({{< ref "visionnages/the-shawshank-redemption" >}})	9.2	 	
-2. [The Godfather (1972)]({{< ref "visionnages/The-Godfather/">}})	9.1	 	
-3. [The Godfather: Part II (1974)]({{< ref "visionnages/The-Godfather-:-Part-2/" >}})	9.0	 	
-4. [The Dark Knight (2008)]({{< ref "visionnages/The-Dark-Knight/">}})	9.0	 	
-5. [12 Angry Men (1957)]({{< ref "visionnages/12-Angry-Men/">}})	8.9	 	
-6. [Schindler's List (1993)]({{< ref "visionnages/Schindlers-List/" >}})	8.9	 	
+1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
+2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
+3. [The Godfather: Part II (1974)]({{< ref "../visionnages/The-Godfather-:-Part-2/" >}})	9.0	 	
+4. [The Dark Knight (2008)]({{< ref "../visionnages/The-Dark-Knight/">}})	9.0	 	
+5. [12 Angry Men (1957)]({{< ref "../visionnages/12-Angry-Men/">}})	8.9	 	
+6. [Schindler's List (1993)]({{< ref "../visionnages/Schindlers-List/" >}})	8.9	 	
 7. The Lord of the Rings: The Return of the King (2003)	8.9	 	
-8. [Pulp Fiction (1994)]({{< ref "visionnages/Pulp-Fiction/" >}})	8.8	 	
-9. [The Good, the Bad and the Ugly (1966)]({{< ref "visionnages/Le-Bon-La-Brute-et-Le-Truand/" >}})	8.8	 	
+8. [Pulp Fiction (1994)]({{< ref "../visionnages/Pulp-Fiction/" >}})	8.8	 	
+9. [The Good, the Bad and the Ugly (1966)]({{< ref "../visionnages/Le-Bon-La-Brute-et-Le-Truand/" >}})	8.8	 	
 10. The Lord of the Rings: The Fellowship of the Ring (2001)	8.8	 	
-11. [Fight Club (1999)]({{< ref "visionnages/Fight-Club/" >}})	8.8	 	
+11. [Fight Club (1999)]({{< ref "../visionnages/Fight-Club/" >}})	8.8	 	
 12. Forrest Gump (1994)	8.8	 	
 13. Inception (2010)	8.7	 	
 14. The Lord of the Rings: The Two Towers (2002)	8.7	 	
-15. [Star Wars: Episode V - The Empire Strikes Back (1980)]({{< ref "visionnages/Star-Wars-5/" >}})	8.7	 	
+15. [Star Wars: Episode V - The Empire Strikes Back (1980)]({{< ref "../visionnages/Star-Wars-5/" >}})	8.7	 	
 16. The Matrix (1999)	8.6	 	
 17. Goodfellas (1990)	8.6	 	
-18. [One Flew Over the Cuckoo's Nest (1975)]({{< ref "visionnages/One-Flew-Over-The-Cuckoos-Nest/" >}})	8.6	 	
-19. [Seven Samurai (1954)]({{< ref "visionnages/Seven-Samurai/">}})	8.6	 	
-20. [Se7en (1995)]({{< ref "visionnages/Se7en/" >}})	8.6	 	
+18. [One Flew Over the Cuckoo's Nest (1975)]({{< ref "../visionnages/One-Flew-Over-The-Cuckoos-Nest/" >}})	8.6	 	
+19. [Seven Samurai (1954)]({{< ref "../visionnages/Seven-Samurai/">}})	8.6	 	
+20. [Se7en (1995)]({{< ref "../visionnages/Se7en/" >}})	8.6	 	
 21. Life Is Beautiful (1997)	8.6	 	
 22. City of God (2002)	8.6	 	
-23. [The Silence of the Lambs (1991)]({{< ref "visionnages/The-Silence-Of-The-Lambs/" >}})	8.6	 	
+23. [The Silence of the Lambs (1991)]({{< ref "../visionnages/The-Silence-Of-The-Lambs/" >}})	8.6	 	
 24. It's a Wonderful Life (1946)	8.6	 	
-25. [Star Wars: Episode IV - A New Hope (1977)]({{< ref "visionnages/Star-Wars-4/" >}})	8.6	 	
-26. [Saving Private Ryan (1998)]({{< ref "visionnages/Saving-Private-Ryan/" >}})	8.5	 	
+25. [Star Wars: Episode IV - A New Hope (1977)]({{< ref "../visionnages/Star-Wars-4/" >}})	8.6	 	
+26. [Saving Private Ryan (1998)]({{< ref "../visionnages/Saving-Private-Ryan/" >}})	8.5	 	
 27. Spirited Away (2001)	8.5	 	
-28. [The Green Mile (1999)]({{< ref "visionnages/la-ligne-verte/" >}})	8.5	 	
-29. [Interstellar (2014)]({{< ref "visionnages/Interstellar/" >}})	8.5	 	
+28. [The Green Mile (1999)]({{< ref "../visionnages/la-ligne-verte/" >}})	8.5	 	
+29. [Interstellar (2014)]({{< ref "../visionnages/Interstellar/" >}})	8.5	 	
 30. Parasite (2019)	8.5	 	
 31. Léon: The Professional (1994)	8.5	 	
-32. [The Usual Suspects (1995)]({< ref "visionnages/The-Usual-Suspects" >{})	8.5	 	
+32. [The Usual Suspects (1995)]({< ref "../visionnages/The-Usual-Suspects" >{})	8.5	 	
 33. Hara-Kiri (1962)	8.5	 	
 34. The Lion King (1994)	8.5	 	
-35. [The Pianist (2002)]({{< ref "visionnages/The-Pianist" >}})	8.5	 	
+35. [The Pianist (2002)]({{< ref "../visionnages/The-Pianist" >}})	8.5	 	
 36. Back to the Future (1985)	8.5	 	
 37. Terminator 2: Judgment Day (1991)	8.5	 	
-38. [American History X (1998)]({{< ref "visionnages/American-History-X/" >}})	8.5	 	
+38. [American History X (1998)]({{< ref "../visionnages/American-History-X/" >}})	8.5	 	
 39. Modern Times (1936)	8.5	 	
 40. Psycho (1960)	8.5	 	
 41. Gladiator (2000)	8.5	 	
@@ -76,16 +76,16 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 51. Hamilton (2020)	8.4	 	
 52. Rear Window (1954)	8.4	 	
 53. Alien (1979)	8.4	 	
-54. [Apocalypse Now (1979)]({{< ref "visionnages/Apocalypse-Now/" >}})	8.4	 	
+54. [Apocalypse Now (1979)]({{< ref "../visionnages/Apocalypse-Now/" >}})	8.4	 	
 55. Memento (2000)	8.4	 	
 56. The Great Dictator (1940)	8.4	 	
 57. Indiana Jones and the Raiders of the Lost Ark (1981)	8.4	 	
 58. Django Unchained (2012)	8.4	 	
 59. The Lives of Others (2006)	8.4	 	
-60. [Joker (2019)]({{< ref "visionnages/Joker/" >}})	8.4	 	
+60. [Joker (2019)]({{< ref "../visionnages/Joker/" >}})	8.4	 	
 61. Paths of Glory (1957)	8.4	 	
 62. WALL·E (2008)	8.4	 	
-63. [The Shining (1980)]({{< ref "visionnages/The-Shining/" >}})	8.4	 	
+63. [The Shining (1980)]({{< ref "../visionnages/The-Shining/" >}})	8.4	 	
 64. Avengers: Infinity War (2018)	8.4	 	
 65. Sunset Blvd. (1950)	8.4	 	
 66. Witness for the Prosecution (1957)	8.4	 	
@@ -94,13 +94,13 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 69. Spider-Man: Into the Spider-Verse (2018)	8.3	 	
 70. Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964)	8.3	 	
 71. The Dark Knight Rises (2012)	8.3	 	
-72. [Once Upon a Time in America (1984)]({{< ref "visionnages/Once-Upon-A-Time-In-Amercia/" >}})	8.3	 	
+72. [Once Upon a Time in America (1984)]({{< ref "../visionnages/Once-Upon-A-Time-In-Amercia/" >}})	8.3	 	
 73. Aliens (1986)	8.3	 	
 74. Your Name. (2016)	8.3	 	
 75. Coco (2017)	8.3	 	
 76. Avengers: Endgame (2019)	8.3	 	
 77. American Beauty (1999)	8.3	 	
-78. [Braveheart (1995)]({{< ref "visionnages/Braveheart" >}})	8.3	 	
+78. [Braveheart (1995)]({{< ref "../visionnages/Braveheart" >}})	8.3	 	
 79. Das Boot (1981)	8.3	 	
 80. 3 Idiots (2009)	8.3	 	
 81. Toy Story (1995)	8.3	 	
@@ -108,7 +108,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 83. High and Low (1963)	8.3	 	
 84. Amadeus (1984)	8.3	 	
 85. Inglourious Basterds (2009)	8.3	 	
-86. [Star Wars: Episode VI - Return of the Jedi (1983)]({{< ref "visionnages/Star-Wars-6/" >}})	8.3	 	
+86. [Star Wars: Episode VI - Return of the Jedi (1983)]({{< ref "../visionnages/Star-Wars-6/" >}})	8.3	 	
 87. Taare Zameen Par (2007)	8.3	 	
 88. Good Will Hunting (1997)	8.3	 	
 89. Reservoir Dogs (1992)	8.3	 	
@@ -127,7 +127,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 102. 1917 (2019)	8.2	 	
 103. North by Northwest (1959)	8.2	 	
 104. A Clockwork Orange (1971)	8.2	 	
-105. [Snatch (2000)]({{< ref "visionnages/Snatch/" >}})	8.2	 	
+105. [Snatch (2000)]({{< ref "../visionnages/Snatch/" >}})	8.2	 	
 106. Scarface (1983)	8.2	 	
 107. Ikiru (1952)	8.2	 	
 108. Taxi Driver (1976)	8.2	 	
@@ -147,7 +147,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 122. Indiana Jones and the Last Crusade (1989)	8.2	 	
 123. Heat (1995)	8.2	 	
 124. L.A. Confidential (1997)	8.2	 	
-125. [Die Hard (1988)]({{< ref "visionnages/Die-Hard-1/" >}})	8.2	 	
+125. [Die Hard (1988)]({{< ref "../visionnages/Die-Hard-1/" >}})	8.2	 	
 126. Green Book (2018)	8.2	 	
 127. Monty Python and the Holy Grail (1975)	8.2	 	
 128. Yojimbo (1961)	8.2	 	
@@ -161,9 +161,9 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 136. Howl's Moving Castle (2004)	8.2	 	
 137. All About Eve (1950)	8.2	 	
 138. A Beautiful Mind (2001)	8.2	 	
-139. [Casino (1995)]({{< ref "visionnages/Casino" >}})	8.2	 	
+139. [Casino (1995)]({{< ref "../visionnages/Casino" >}})	8.2	 	
 140. The Great Escape (1963)	8.2	 	
-141. [The Wolf of Wall Street (2013)]({{< ref "visionnages/The-Wolf-Of-Wall-Street/" >}})	8.2	 	
+141. [The Wolf of Wall Street (2013)]({{< ref "../visionnages/The-Wolf-Of-Wall-Street/" >}})	8.2	 	
 142. Pan's Labyrinth (2006)	8.2	 	
 143. The Secret in Their Eyes (2009)	8.1	 	
 144. There Will Be Blood (2007)	8.1	 	
@@ -173,7 +173,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 148. Judgment at Nuremberg (1961)	8.1	 	
 149. The Treasure of the Sierra Madre (1948)	8.1	 	
 150. Dial M for Murder (1954)	8.1	 	
-151. [Three Billboards Outside Ebbing, Missouri (2017)]({{< ref "visionnages/Three-Billboards/">}})	8.1	 	
+151. [Three Billboards Outside Ebbing, Missouri (2017)]({{< ref "../visionnages/Three-Billboards/">}})	8.1	 	
 152. Shutter Island (2010)	8.1	 	
 153. The Gold Rush (1925)	8.1	 	
 154. Chinatown (1974)	8.1	 	
@@ -218,7 +218,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 193. Catch Me If You Can (2002)	8.1	 	
 194. Andhadhun (2018)	8.1	 	
 195. Persona (1966)	8.1	 	
-196. [Prisoners (2013)]({{< ref "visionnages/Prisoners/" >}})	8.1	 	
+196. [Prisoners (2013)]({{< ref "../visionnages/Prisoners/" >}})	8.1	 	
 197. The Big Lebowski (1998)	8.1	 	
 198. To Be or Not to Be (1942)	8.1	 	
 199. Sherlock Jr. (1924)	8.1	 	
@@ -229,12 +229,12 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 204. 12 Years a Slave (2013)	8.1	 	
 205. Barry Lyndon (1975)	8.1	 	
 206. Mr. Smith Goes to Washington (1939)	8.1	 	
-207. [Mad Max: Fury Road (2015)]({{< ref "visionnages/Mad-Max-4-:-Fury-Road/" >}})	8.1	 	
+207. [Mad Max: Fury Road (2015)]({{< ref "../visionnages/Mad-Max-4-:-Fury-Road/" >}})	8.1	 	
 208. Time of the Gypsies (1988)	8.1	 	
 209. Million Dollar Baby (2004)	8.1	 	
 210. Network (1976)	8.1	 	
 211. Dead Poets Society (1989)	8.1	 	
-212. [Stand by Me (1986)]({{< ref "visionnages/Stand-By-Me/" >}})	8.1	 	
+212. [Stand by Me (1986)]({{< ref "../visionnages/Stand-By-Me/" >}})	8.1	 	
 213. Ben-Hur (1959)	8.1	 	
 214. Harry Potter and the Deathly Hallows: Part 2 (2011)	8.1	 	
 215. Cool Hand Luke (1967)	8.1	 	
