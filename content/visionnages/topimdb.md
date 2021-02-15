@@ -21,7 +21,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 
 Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 
-<progress value="35" max="250">/</progress>
+<progress value="36" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -52,7 +52,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 27. Spirited Away (2001)	8.5	 	
 28. [The Green Mile (1999)]({{< ref "../visionnages/la-ligne-verte/" >}})	8.5	 	
 29. [Interstellar (2014)]({{< ref "../visionnages/Interstellar/" >}})	8.5	 	
-30. Parasite (2019)	8.5	 	
+30. [Parasite (2019)]({{< ref "../visionnages/Parasite/">}})	8.5	 	
 31. Léon: The Professional (1994)	8.5	 	
 32. [The Usual Suspects (1995)]({< ref "../visionnages/The-Usual-Suspects" >{})	8.5	 	
 33. Hara-Kiri (1962)	8.5	 	
