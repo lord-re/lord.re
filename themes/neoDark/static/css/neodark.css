@@ -54,13 +54,6 @@ html{
  color:var(--default-color);
 }
 
-
-
-
-
-
-
-
 body{
  display:grid;
  justify-content:space-between;
@@ -79,13 +72,13 @@ main{
  padding:0.5rem;
  justify-self:center;
 }
-aside{
+.blogroll{
  grid-area:c;
  display:none;
  width:25ch;
 }
 
-@media (min-width:139ch){
+@media (min-width:130ch){
  body{
  grid-template-columns:20ch auto 20ch;
  grid-template-areas:"a b c" "a b c" "a b c";
@@ -97,7 +90,7 @@ aside{
  main {
   max-width:70ch;
  }
- aside{
+ .blogroll{
   display:block;
   background:var(--bg-accent);
   box-shadow:0 0 2em rgba(0,0,0,0.4);
@@ -112,22 +105,6 @@ aside{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-#drafturl{
- color:rgba(0,0,0,0);
-}
 a{
  text-decoration:none;
  border-bottom:1px dotted;
@@ -407,7 +384,6 @@ summary:hover, summary:focus{
  100%{ transform:rotate(1turn);}
 }
 .webring{
- font-size:0.8em;
  color:var(--default-color);
  padding:1ch;
 }
@@ -458,5 +434,3 @@ summary:hover, summary:focus{
 .svg3{
  width:0.9em;
 }
-
-

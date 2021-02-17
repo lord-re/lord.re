@@ -32,6 +32,12 @@
 {{ with $related }}
 Similaire : {{ range . }}<a href="{{.Permalink}}">{{.Title}}</a> — {{end}}
 {{ end }}
+        <div class="paging">
+          <p>{{ i18n "paging-start" }}
+          {{if .NextPage }}{{ i18n "paging-fresher" }}<a class="paging-link" rel="next" href="{{ .NextPage.RelPermalink }}">{{.NextPage.Title}}</a>{{ end }}
+          {{if .PrevPage }}{{ i18n "paging-older" }}<a class="paging-link" rel="prev"  href="{{ .PrevPage.RelPermalink }}">{{.PrevPage.Title}}</a>{{ end }}
+          </p>
+        </div>
          <br>
          <br>
 
@@ -42,6 +48,7 @@ Similaire : {{ range . }}<a href="{{.Permalink}}">{{.Title}}</a> — {{end}}
 
     </section>
   </main>
-{{ partialCached "openring" . }}
+{{/*{{ partialCached "openring" . }}*/}}
+  <iframe class="blogroll" src="{{.Site.BaseURL}}blogroll" style="width:20ch;height:100ch;border:none;">
 </body>
 </html>

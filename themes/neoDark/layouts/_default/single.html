@@ -26,12 +26,13 @@
           {{if .NextPage }}{{ i18n "paging-fresher" }}<a class="paging-link" rel="next" href="{{ .NextPage.RelPermalink }}">{{.NextPage.Title}}</a>{{ end }}
           {{if .PrevPage }}{{ i18n "paging-older" }}<a class="paging-link" rel="prev"  href="{{ .PrevPage.RelPermalink }}">{{.PrevPage.Title}}</a>{{ end }}
           </p>
+{{/*
           <p>Un article aléatoire : {{ range first 1 (shuffle (.Site.RegularPages ))  }} <a href="{{ .Permalink }}">{{ .Title }}</a> {{ end }}</p>
-
 {{ $related := .Site.RegularPages.Related . | first 5 }}
 {{ with $related }}
           <p>{{ i18n "similaire"}}{{ range . }}<a href="{{.Permalink}}">{{.Title}}</a> — {{end}}</p>
 {{ end }}
+*/}}
          <br>
 
          <script data-isso="https://isso.lord.re/" src="https://isso.lord.re/js/embed.min.js" data-isso-css="false" data-isso-avatar-bg="#222" defer></script>
@@ -42,6 +43,7 @@
 
     </section>
   </main>
-{{ partialCached "openring" . }}
+{{/* {{ partialCached "openring" . }}  */}}
+<iframe class="blogroll" src="{{.Site.BaseURL}}blogroll" style="width:20ch;height:100ch;border:none;">
 </body>
 </html>

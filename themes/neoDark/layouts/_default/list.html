@@ -20,6 +20,7 @@
     </section>
 {{ end }}
   </main>
-{{ partialCached "openring.html" . }}
+{{/*{{ partialCached "openring.html" . }}*/}}
+  <iframe class="blogroll" src="{{.Site.BaseURL}}blogroll" style="width:20ch;height:100ch;border:none;">
 </body>
 </html>
