@@ -88,3 +88,7 @@ Les films sont pas trop longs et se suivent bien.
 
 J'avais peur que l'on nous fasse souper du *Bruce Lee* mais au final quasiment pas.
 On ne le vois vraiment que dans l'ultime film et même là c'est plus un prétexte qu'un vrai protagoniste.
+
+Vous avez vu ?
+Je me suis abstenu de faire la moindre blague concerant IP !
+Je suis resté sage, j'ai sû me tenir jusqu'au bout.
