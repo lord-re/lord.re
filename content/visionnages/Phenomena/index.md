@@ -14,7 +14,7 @@ RssTag = ["visionnage"]
 title = "Phenomena"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["cool"] 
-TopWords=["somnabulisme","suisse","internat","pension","meurtrier"]
+TopWords=["somnabulisme","suisse","internat","pension","meurtrier","horreur","surnaturel"]
 +++
 ## Histoire : 
 La fille du célèbre acteur *Paul Corvino* est envoyée dans une école très réputée en Suisse.
