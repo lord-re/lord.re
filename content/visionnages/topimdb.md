@@ -21,7 +21,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 
 Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 
-<progress value="36" max="250">/</progress>
+<progress value="38" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -54,7 +54,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 29. [Interstellar (2014)]({{< ref "../visionnages/Interstellar/" >}})	8.5	 	
 30. [Parasite (2019)]({{< ref "../visionnages/Parasite/">}})	8.5	 	
 31. Léon: The Professional (1994)	8.5	 	
-32. [The Usual Suspects (1995)]({< ref "../visionnages/The-Usual-Suspects" >{})	8.5	 	
+32. [The Usual Suspects (1995)]({{< ref "../visionnages/The-Usual-Suspects" >}})	8.5	 	
 33. Hara-Kiri (1962)	8.5	 	
 34. The Lion King (1994)	8.5	 	
 35. [The Pianist (2002)]({{< ref "../visionnages/The-Pianist" >}})	8.5	 	
@@ -77,7 +77,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 52. Rear Window (1954)	8.4	 	
 53. Alien (1979)	8.4	 	
 54. [Apocalypse Now (1979)]({{< ref "../visionnages/Apocalypse-Now/" >}})	8.4	 	
-55. Memento (2000)	8.4	 	
+55. [Memento (2000)]({{< ref "../visionnages/Memento/" >}})	8.4	 	
 56. The Great Dictator (1940)	8.4	 	
 57. Indiana Jones and the Raiders of the Lost Ark (1981)	8.4	 	
 58. Django Unchained (2012)	8.4	 	
@@ -203,7 +203,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 178. Fargo (1996)	8.1	 	
 179. Room (2015)	8.1	 	
 180. The Third Man (1949)	8.1	 	
-181. Gran Torino (2008)	8.1	 	
+181. [Gran Torino (2008)]({{< ref "../visionnages/Gran-Torino/" >}})	8.1	 	
 182. Wild Tales (2014)	8.1	 	
 183. On the Waterfront (1954)	8.1	 	
 184. Tokyo Story (1953)	8.1	 	
