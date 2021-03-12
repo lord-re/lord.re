@@ -21,7 +21,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 
 Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 
-<progress value="38" max="250">/</progress>
+<progress value="40" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -63,7 +63,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 38. [American History X (1998)]({{< ref "../visionnages/American-History-X/" >}})	8.5	 	
 39. Modern Times (1936)	8.5	 	
 40. Psycho (1960)	8.5	 	
-41. Gladiator (2000)	8.5	 	
+41. [Gladiator (2000)]({{< ref "../visionnages/Gladiator/" >}})	8.5	 	
 42. City Lights (1931)	8.5	 	
 43. The Departed (2006)	8.5	 	
 44. The Intouchables (2011)	8.5	 	
@@ -99,7 +99,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 74. Your Name. (2016)	8.3	 	
 75. Coco (2017)	8.3	 	
 76. Avengers: Endgame (2019)	8.3	 	
-77. American Beauty (1999)	8.3	 	
+77. [American Beauty (1999)]({{< ref "../visionnages/american-beauty/" >}})	8.3	 	
 78. [Braveheart (1995)]({{< ref "../visionnages/Braveheart" >}})	8.3	 	
 79. Das Boot (1981)	8.3	 	
 80. 3 Idiots (2009)	8.3	 	
