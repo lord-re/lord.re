@@ -22,7 +22,7 @@ Ce dernier est malheureusement assez proche de la mort et en est conscient.
 Il propose à *Maximus* de reprendre son rôle de dirigeant de Rome à la place de *Commode* son fils héritier légitime.
 
 La nuit suivante, l'*Empereur* est retrouvé mort (soit-disant de vieillesse mais c'est son fils qui l'a terminé) et c'est donc *Commode* qui devient le nouvel empereur.
-Ce derner n'est cependant pas vraiment populaire et instille la peu auprès de tout le monde.
+Ce derner n'est cependant pas vraiment populaire et instille la peur auprès de tout le monde.
 Même sa sœur n'est pas super heureuse de cette nouvelle situation, *Maximus* qui est donc maintenant gênant se retrouve officiellement tué ainsi que sa femme et son fils.
 
 Par chance, ce dernier survit mais se retrouve envoyé en esclavage où il deviendra un gladiateur de renom.
