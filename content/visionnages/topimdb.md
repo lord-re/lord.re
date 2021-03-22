@@ -21,7 +21,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 
 Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 
-<progress value="41" max="250">/</progress>
+<progress value="44" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -178,7 +178,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 153. The Gold Rush (1925)	8.1	 	
 154. Chinatown (1974)	8.1	 	
 155. My Father and My Son (2005)	8.1	 	
-156. No Country for Old Men (2007)	8.1	 	
+156. [No Country for Old Men (2007)]({{< ref "../visionnages/No-Country-For-Old-Men/" >}})	8.1	 	
 157. V for Vendetta (2005)	8.1	 	
 158. Inside Out (2015)	8.1	 	
 159. The Seventh Seal (1957)	8.1	 	
@@ -210,7 +210,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 185. The Deer Hunter (1978)	8.1	 	
 186. Autumn Sonata (1978)	8.1	 	
 187. In the Name of the Father (1993)	8.1	 	
-188. Mary and Max (2009)	8.1	 	
+188. [Mary and Max (2009)]({{< ref "../visionnages/Mary-And-Max/" >}})	8.1	 	
 189. Gone Girl (2014)	8.1	 	
 190. The Grand Budapest Hotel (2014)	8.1	 	
 191. Before Sunrise (1995)	8.1	 	
@@ -240,7 +240,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 215. Cool Hand Luke (1967)	8.1	 	
 216. Hachi: A Dog's Tale (2009)	8.1	 	
 217. Platoon (1986)	8.1	 	
-218. Logan (2017)	8.0	 	
+218. [Logan (2017)]({{< ref "../visionnages/Logan/" >}})	8.0	 	
 219. Into the Wild (2007)	8.0	 	
 220. The Handmaiden (2016)	8.0	 	
 221. Rush (2013)	8.0	 	
