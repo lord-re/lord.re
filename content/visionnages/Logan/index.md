@@ -44,7 +44,7 @@ Ici, c'est bien moins clinquant, on part pas casser la tronche à du vilain en p
 Nos pauvres héros ont désormais une vie bien plus dure où ils ne sont plus grand-chose.
 
 Ce film pète sacrément.
-Les scènes calmes sont bien posées, jolies, avec des dialogues sympas, des thêmes rarement abordés dans les autres films de la franchise.
+Les scènes calmes sont bien posées, jolies, avec des dialogues sympas, des thèmes rarement abordés dans les autres films de la franchise.
 *Laura* est toute mimi quand elle s'occupe de *Xavier* et qu'ils regardent un film ensemble.
 
 Mais quand le film s'active, là on a le droit à des scènes d'actions vraiment très classes un poil plus violentes qu'à l'accoutumée.
