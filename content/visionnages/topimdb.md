@@ -62,7 +62,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 37. Terminator 2: Judgment Day (1991)	8.5	 	
 38. [American History X (1998)]({{< ref "../visionnages/American-History-X/" >}})	8.5	 	
 39. Modern Times (1936)	8.5	 	
-40. Psycho (1960)	8.5	 	
+40. [Psycho (1960)]({{< ref "../visionnages/Psycho/" >}})	8.5	 	
 41. [Gladiator (2000)]({{< ref "../visionnages/Gladiator/" >}})	8.5	 	
 42. City Lights (1931)	8.5	 	
 43. The Departed (2006)	8.5	 	
