@@ -21,7 +21,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 
 Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 
-<progress value="47" max="250">/</progress>
+<progress value="48" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -49,7 +49,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 24. It's a Wonderful Life (1946)	8.6	 	
 25. [Star Wars: Episode IV - A New Hope (1977)]({{< ref "../visionnages/Star-Wars-4/" >}})	8.6	 	
 26. [Saving Private Ryan (1998)]({{< ref "../visionnages/Saving-Private-Ryan/" >}})	8.5	 	
-27. Spirited Away (2001)	8.5	 	
+27. [Spirited Away (2001)]({{< ref "../visionnages/Spirited-Away/" >}})	8.5	 	
 28. [The Green Mile (1999)]({{< ref "../visionnages/la-ligne-verte/" >}})	8.5	 	
 29. [Interstellar (2014)]({{< ref "../visionnages/Interstellar/" >}})	8.5	 	
 30. [Parasite (2019)]({{< ref "../visionnages/Parasite/">}})	8.5	 	
