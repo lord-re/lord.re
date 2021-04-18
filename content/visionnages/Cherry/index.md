@@ -6,7 +6,7 @@ VisionnageDate = ["2021-04-17",""]
 date = 2021-04-17T22:50:18+02:00
 editor = "kakoune"
 year = ["2021"]
-Wikipedia = "https://fr.wikipedia.org/wiki/Anthony_et_Joe_Russo"
+Wikipedia = "https://fr.wikipedia.org/wiki/Cherry_(film,_2020)"
 Imdb = "https://www.imdb.com/title/tt9130508/?ref_=nm_flmg_prd_13"
 Directors = ["Anthony Russo","Joe Russo"]
 Actors = ["Tom Holland","Ciara Bravo","Jack Reynor"]
@@ -18,7 +18,7 @@ TopWords=["ptsd","drogue","addiction","armée","braquage"]
 +++
 ## Histoire : 
 On suit *Cherry* incarné par *Tom Holland* à la fac.
-Il fait la rencontre de *Emily* jouée parpour qui c'est le coup de foudre direct.
+Il fait la rencontre de *Emily* jouée par *Ciara Bravo* pour qui c'est le coup de foudre direct.
 Cependant, elle décide de le quitter pour partir à la fac au Canada.
 
 Dévasté par cette nouvelle il décide de s'enrôler pour deux ans dans l'armée.
