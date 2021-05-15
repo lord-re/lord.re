@@ -80,7 +80,7 @@ Je remonte en surface le temps de reprendre ma respiration et je pars en quête 
 Je nage pas trop mal mais face à un poisson c'est pas forcément simple, ces derniers sont assez rapides.
 Je parviens tout de même à en chopper un violet translucide ainsi qu'un autre avec de gros yeux orange.
 Bon, ce butin devrait déjà me suffire, je retourne donc dans la capsule pour utiliser le “fabricator” qui permet de réarranger les atomes mais aussi cuire les aliments.
-L'appareil semble être en mesure de transformer le violet en haut propre à la consommation !
+L'appareil semble être en mesure de transformer le violet en eau propre à la consommation !
 Je lui fais cuire le second poisson et c'est parti pour un premier repas.
 
 Bon bha c'est plutôt nourrissant et maintenant je sais comment me procurer de l'eau, je vais pouvoir m'atteler à la réparation de la radio, pour ça il me faut trouver quelques éléments de base afin de confectionner une torche de réparation.
@@ -107,7 +107,7 @@ Mais des algues un peu particulières, elles ont des bulbes lumineux.
 La faune est quelque peu différente également, il y a tout un tas d'autres poissons aux formes et couleurs variées.
 Il y a même une sorte de gros lamentin avec une grosse excroissance vers l'arrière.
 
-Bon, je rentabilise la balade en ramassant quelques branches d'algues et aussi du cuivre trouvé dans des roches friables éparpillés de-ci de-là.
+Bon, je rentabilise la balade en ramassant quelques branches d'algues et aussi du cuivre trouvé dans des roches friables éparpillées de-ci de-là.
 Je tombe aussi sur du titanium naturellement présent.
 J'en amasse une quantité suffisante pour pouvoir enfin construire deux trois outils je pense.
 Je rentre donc assez vite à ma capsule 5.
