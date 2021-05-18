@@ -14,7 +14,7 @@ RssTag = ["visionnage"]
 title = "La vita è bella"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
-TopWords=["seconde guerre mondiale","déportation","fable"]
+TopWords=["seconde guerre mondiale","déportation","fable","camp","italie"]
 +++
 ## Histoire
 *Guido Orefice* est un bout-en-train italien.
