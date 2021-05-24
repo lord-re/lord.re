@@ -21,7 +21,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 
 Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 
-<progress value="53" max="250">/</progress>
+<progress value="54" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -61,7 +61,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 36. Back to the Future (1985)	8.5	 	
 37. Terminator 2: Judgment Day (1991)	8.5	 	
 38. [American History X (1998)]({{< ref "../visionnages/American-History-X/" >}})	8.5	 	
-39. Modern Times (1936)	8.5	 	
+39. [Modern Times (1936)]({{< ref "../visionnages/Modern-Times/" >}})	8.5	 	
 40. [Psycho (1960)]({{< ref "../visionnages/Psycho/" >}})	8.5	 	
 41. [Gladiator (2000)]({{< ref "../visionnages/Gladiator/" >}})	8.5	 	
 42. City Lights (1931)	8.5	 	
