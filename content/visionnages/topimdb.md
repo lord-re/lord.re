@@ -21,7 +21,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 
 Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 
-<progress value="54" max="250">/</progress>
+<progress value="55" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -46,7 +46,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 21. [Life Is Beautiful (1997)]({{< ref "../visionnages/la-vie-est-belle/" >}})	8.6	 	
 22. [City of God (2002)]({{< ref "../visionnages/cidad-de-deus/">}} )	8.6	 	
 23. [The Silence of the Lambs (1991)]({{< ref "../visionnages/The-Silence-Of-The-Lambs/" >}})	8.6	 	
-24. It's a Wonderful Life (1946)	8.6	 	
+24. [It's a Wonderful Life (1946)]({{< ref "../visionnages/Its-a-Wonderful-Life/" >}})	8.6	 	
 25. [Star Wars: Episode IV - A New Hope (1977)]({{< ref "../visionnages/Star-Wars-4/" >}})	8.6	 	
 26. [Saving Private Ryan (1998)]({{< ref "../visionnages/Saving-Private-Ryan/" >}})	8.5	 	
 27. [Spirited Away (2001)]({{< ref "../visionnages/Spirited-Away/" >}})	8.5	 	
