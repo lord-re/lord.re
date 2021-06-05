@@ -6,7 +6,7 @@ menu = "main"
 notoc = true
 PublishDate = 2019-05-14T18:27:14+02:00
 date = 2019-05-14T18:27:14+02:00
-lastEdit = 2020-12-05T11:40:20+02:00
+lastEdit = 2021-06-05T11:40:20+02:00
 title = "My keyboard colection"
 editor = "kakoune"
 +++
@@ -182,4 +182,18 @@ This one is not so precise and the keyboard is not perfectly right to my taste.
 
 {{< img src="combotrackball_trackball.jpg" alt="A close up to the ball" title="This trackball is small and not so precise but it's probably enough for lite use." >}}
 
----------
+## Ergodox EZ
+
+My first bought keyboard since 13 years ! (we are in June 2021)
+At last a splitted keyboard !
+An ergodox with *Cherry MX Red* running on a FLOSS firmware named QMK.
+
+{{< img src="ergodox_front.jpg" alt="This keyboard is in two parts linked with a small jack." title="I love all those mixed keycaps." >}}
+
+It's now my daily driver keyboard configured with a bépo layout (french dvorak).
+
+{{< img src="ergodox_zoom.jpg" alt="Each hand has a small thumb cluster with six keys." title="The prints doesn't match the real key but who cares ?">}}
+
+------------
+
+That's all for now but probably more to come.

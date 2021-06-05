@@ -6,7 +6,7 @@ menu = "main"
 notoc = true
 PublishDate = 2019-05-14T18:27:14+02:00
 date = 2019-05-14T18:27:14+02:00
-lastEdit = 2020-12-05T11:40:20+02:00
+lastEdit = 2021-06-05T11:40:20+02:00
 title = "Ma collection de claviers"
 editor = "kakoune"
 TopWords = [  "siemens", "mx", "ordi", "ps2", "basique", "usb", "cherry", "glamshot", "clavier"]
@@ -192,5 +192,18 @@ Celui-ci est au final pas ultra précis et puis la partie clavier est trop class
 
 {{< img src="combotrackball_trackball.jpg" alt="gros plan sur la boule et ses boutons" title="On ne va pas se mentir c'est un tout petit trackball mais suffisant pour de l'utilisation légère." >}}
 
----------
+## Ergodox EZ
+
+Premier clavier que j'achète depuis treize ans (on est en juin 2021).
+Mon premier clavier scindé en deux mains.
+Il est équippé en *Cherry MX Red* avec un câble USB tout assortit également.
+
+{{< img src="ergodox_front.jpg" alt="Vu du dessus il y a une partie gauche et une partie droite reliées par un câble torsadé." title="Il a subît le traitement des touches non assorties." >}}
+
+Il a un firmware programmable libre du nom de QMK.
+Il est bien évidemment en bépo que j'ai légèrement modifié pour mieux s'adapter à cette disposition physique.
+
+{{< img src="ergodox_zoom.jpg" alt="Chaque main à six touches dédiées au pouce." title="Le marquage des touches ne correspond pas vraiment à ce qu'elles font mais qui regarde le marquage ?" >}}
+
+------
 Voilà tout pour le moment.
