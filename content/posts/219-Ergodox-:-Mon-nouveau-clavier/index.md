@@ -6,6 +6,7 @@ menu = "main"
 notoc = true
 WritingDate = 2021-06-03T13:32:08+02:00
 date = 2021-06-03T13:32:08+02:00
+lastEdit = 2021-06-07T20:00:20+02:00
 title = "Ergodox : Mon nouveau clavier"
 editor = "kakoune"
 +++
@@ -74,6 +75,19 @@ Dans mon cas les touches des chiffres, sur la seconde couche deviennent les touc
 J'ai appliqué le même concept sur les flêches afin d'avoir les <kbd>Home</kbd>,<kbd>PageUp</kbd>,<kbd>PageDown</kbd> et <kbd>End</kbd>.
 Cela dit, je trouve le système un peu moins agréable que sur TMK puisqu'ici ça se base sur une temporisation alors que sur TMK c'était le fait d'appuyer sur une autre touche sans relâcher la première qui changeait la donne.
 Là il faut gérer le timing et pour le moment je l'ai pas le timing…
+
+<details><summary>Update 07/06/2021</summary>
+
+C'est bon après un rapide échange de mail avec ZSA j'ai compris ma connerie.
+Il ne faut pas passer par une touche de *Tap Dance* mais par une touche *Dual Function* de type **LT**.
+On y définit le layer de destination et la touche de repli (<kbd>Échap</kbd> dans mon cas) et voilà.
+Plus d'histoire de timing.
+
+Tant qu'on reste appuyé rien ne se passe, seulement quand on relâche la touche, selon si on appuis sur une autre touche ça fera le changement de couche, sinon ça sera la touche Échap.
+
+Nickel !
+
+</details>
 
 ### Options du firmware
 Dans les options du firmware j'ai pu baisser la durée de debounce.
