@@ -8,7 +8,7 @@ WritingDate = 2021-06-17T19:16:43+02:00
 date = 2021-06-19T19:16:43+02:00
 title = "La débacle Freenode"
 editor = "kakoune"
-TopWords=["irc","drama","freenode","ircop","salon","ban"]
+TopWords=["irc","drama","freenode","ircop","salon","ban","spam"]
 +++
 Je voulais attendre que l'histoire se tasse pour en parler mais … bha j'ai l'impression qu'il n'y aura pas de fin.
 
@@ -54,7 +54,7 @@ Quelques jours plus tard, *Andrew* se rend compte qu'il n'a plus les accès au n
 Ça lui est refusé.
 
 Entre en jeu *Darren Whitlen* qui est l'auteur de **KiwiIRC** un client irc web.
-Il connait déjà les deux côtés et se retrouvent donc là en tant que médiateur pour essayer de concilier tout le monde.
+Il connait déjà les deux côtés et se retrouve donc là en tant que médiateur pour essayer de concilier tout le monde.
 *Tomaw* accepte de ne rien toucher au site et au DNS.
 Ce qui tombera à l'eau la semaine suivante quand une news est publiée sur le site annonçant des changements d'équipe, d'ircd et un partenariat avec OFTC (pour le nouvel ircd justement).
 
@@ -187,3 +187,15 @@ Donc tout est à prendre avec des pincettes et vous remarquerez que la majorité
 - [Un site qui fait des stats et remonte les faits à propos de Freenode](https://isfreenodedeadyet.com/)
 - [Ptite page qui relate quasiment tous ces évènements.](https://gist.github.com/unsurethinker/f3fb589e6c6fa26095fac56171acdb66) Cette page pointe également vers tout un tas de sources supplémentaires.
 - [Un autre point de vue d'utilisateur ayant fréquenté Andrew avant le drama](https://ariadne.space/2021/05/20/the-whole-freenode-kerfluffle/)
+
+## PS : vague de spam concommitente
+
+J'avais oublié d'en parler mais pile à ce moment-là, une grosse vague de spam sur tous les réseaux IRC a débuté.
+
+À base de messages antisémites et dont le but est d'attiser les flammes en annonçant que tel #salon a déménagé sur le réseau Libera.chat ou vers le réseau Freenode (selon le côté dont on se trouve).
+
+Ce genre de spam n'est pas spécifique au drama, les spammeurs se sont juste adaptés à la situation et en ont profité pour mettre un peu d'huile sur le feu mais sans plus.
+Bien évidemment ces spams ne sont très probablement pas affiliés ni à Freenode ni à Libera.
+
+Ces spams sont toujours à l'œuvre encore aujourd'hui même si bien entendu les opérateurs des différents réseaux ont adaptés leur antispam en conséquence pour bloquer ces messages.
+
