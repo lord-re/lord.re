@@ -48,10 +48,10 @@ Et avec ça, l'accès aux serveurs irc et tout ce qui va avec bien entendu.
 C'est là que tout va s'envenimer :
 
 ### La cassure
-Le staff (par l'intermédiaire de Tomaw) a demandé à avoir la main sur le nom de domaine.
+Le *staff* (par l'intermédiaire de Tomaw) a demandé à *Andrew* avoir la main sur le nom de domaine.
 Ça lui a été refusé.
-Quelques jours plus tard, *Andrew* se rend compte qu'il n'a plus les accès au nom de domaine et souhaite donc les récupérer.
-Ça lui est refusé.
+Quelques jours plus tard, *Andrew* se rend compte qu'il n'a plus les accès au nom de domaine mais que *Tomaw* est parvenu à y avoir accès et souhaite donc les récupérer.
+Ça lui est refusé à son tour.
 
 Entre en jeu *Darren Whitlen* qui est l'auteur de **KiwiIRC** un client irc web.
 Il connait déjà les deux côtés et se retrouve donc là en tant que médiateur pour essayer de concilier tout le monde.
