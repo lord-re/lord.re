@@ -118,7 +118,7 @@ Le nouveau staff de freenode a très rapidement décidé de modifier ces topics 
 Certains de ces opérateurs ont d'ailleurs été bannis par la même occasion.
 Et parfois même ce sont tous les utilisateurs d'un salon mentionnant "libera" dans son topic qui ont été jartés.
 
-Ça a d'ailleurs poussé pas mal de communauté à fuire d'autant plus vite.
+Ça a d'ailleurs poussé pas mal de communauté à fuir d'autant plus vite.
 
 Ils ont répété ça quelques semaines plus tard malgré les remous que ça a provoqué lors de la première vague, ce qui prouve que le staff est complètement ok avec cette façon de faire.
 Le staff s'est accaparé divers salons de la communauté du libre.
