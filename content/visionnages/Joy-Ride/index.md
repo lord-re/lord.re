@@ -19,7 +19,7 @@ TopWords=["camion","poursuite","radio","vengeance"]
 +++
 ## Histoire : 
 *Paul Walker* pour impressionner sa copine décide d'aller la chercher et la ramener chez elle à la fin de l'année scolaire.
-Le truc c'est qu'elle est dans une autre État et donc ça fait une sacré virée mais l'amour (et les hormones…) ne connait pas de frontières.
+Le truc c'est qu'elle est dans un autre État et donc ça fait une sacrée virée mais l'amour (et les hormones…) ne connait pas de frontières.
 
 En chemin il récupère son frêre sortant de prison.
 Sur la route ils utilisent une CB pour s'amuser en discutant avec les routieurs en se faisant passer pour une meuf.
