@@ -21,7 +21,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 
 Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 
-<progress value="56" max="250">/</progress>
+<progress value="57" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -81,7 +81,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 56. The Great Dictator (1940)	8.4	 	
 57. Indiana Jones and the Raiders of the Lost Ark (1981)	8.4	 	
 58. Django Unchained (2012)	8.4	 	
-59. The Lives of Others (2006)	8.4	 	
+59. [The Lives of Others (2006)]({{< ref "../visionnages/la-vie-des-autres/" >}})	8.4	 	
 60. [Joker (2019)]({{< ref "../visionnages/Joker/" >}})	8.4	 	
 61. Paths of Glory (1957)	8.4	 	
 62. WALL·E (2008)	8.4	 	
