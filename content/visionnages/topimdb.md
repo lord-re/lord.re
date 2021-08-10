@@ -21,7 +21,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 
 Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 
-<progress value="57" max="250">/</progress>
+<progress value="58" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -90,7 +90,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 65. Sunset Blvd. (1950)	8.4	 	
 66. Witness for the Prosecution (1957)	8.4	 	
 67. Oldboy (2003)	8.4	 	
-68. Princess Mononoke (1997)	8.3	 	
+68. [Princess Mononoke (1997)]({{< ref "../visionnages/Princesse-Mononoké/" >}})	8.3	 	
 69. Spider-Man: Into the Spider-Verse (2018)	8.3	 	
 70. Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964)	8.3	 	
 71. The Dark Knight Rises (2012)	8.3	 	
