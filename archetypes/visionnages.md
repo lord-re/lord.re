@@ -5,9 +5,9 @@ notoc = true
 VisionnageDate = ["{{ .Date }}",""]
 date = {{ .Date }}
 editor = "kakoune"
-year = [""]
 Wikipedia = ""
 Imdb = ""
+year = [""]
 Directors = [""]
 Actors = ["","",""]
 RssTag = ["visionnage"]
@@ -17,3 +17,7 @@ Avis = [""]
 Saga = [""]
 TopWords=["",""]
 +++
+## Histoire : 
+
+## Ressenti :
+
