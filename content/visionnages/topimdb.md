@@ -21,7 +21,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 
 Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 
-<progress value="58" max="250">/</progress>
+<progress value="59" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -72,7 +72,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 47. [Grave of the Fireflies (1988)]({{< ref "../visionnages/le-tombeau-des-lucioles/" >}})	8.5	 	
 48. Once Upon a Time in the West (1968)	8.4	 	
 49. Casablanca (1942)	8.4	 	
-50. Cinema Paradiso (1988)	8.4	 	
+50. [Cinema Paradiso (1988)]({{< ref "../visionnages/Cinema-Paradiso/" >}})	8.4	 	
 51. Hamilton (2020)	8.4	 	
 52. Rear Window (1954)	8.4	 	
 53. Alien (1979)	8.4	 	
