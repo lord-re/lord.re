@@ -21,7 +21,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 
 Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 
-<progress value="59" max="250">/</progress>
+<progress value="61" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -102,7 +102,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 77. [American Beauty (1999)]({{< ref "../visionnages/american-beauty/" >}})	8.3	 	
 78. [Braveheart (1995)]({{< ref "../visionnages/Braveheart" >}})	8.3	 	
 79. Das Boot (1981)	8.3	 	
-80. 3 Idiots (2009)	8.3	 	
+80. [3 Idiots (2009)]({{< ref "../visionnages/3-Idiots" >}})	8.3	 	
 81. Toy Story (1995)	8.3	 	
 82. Capernaum (2018)	8.3	 	
 83. High and Low (1963)	8.3	 	
@@ -145,7 +145,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 120. To Kill a Mockingbird (1962)	8.2	 	
 121. Up (2009)	8.2	 	
 122. Indiana Jones and the Last Crusade (1989)	8.2	 	
-123. Heat (1995)	8.2	 	
+123. [Heat (1995)]({{< ref "../visionnages/Heat/" >}})	8.2	 	
 124. L.A. Confidential (1997)	8.2	 	
 125. [Die Hard (1988)]({{< ref "../visionnages/Die-Hard-1/" >}})	8.2	 	
 126. Green Book (2018)	8.2	 	
