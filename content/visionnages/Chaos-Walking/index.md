@@ -17,11 +17,11 @@ Avis = ["cool"]
 TopWords=["science-fiction","planète","pensées","télépathie"]
 +++
 ## Histoire : 
-Un vaisseau humain se crashe sur une planète à peine coloniser par les humains.
+Un vaisseau humain se crashe sur une planète à peine colonisée par les humains.
 La seule survivante découvre qu'il n'y a plus que des hommes dans le village où elle est tombée.
 
 Les pensées des gens s'entendent et également se voient.
-Par contre, notre survivante ne semble pas affecter par cet étrange phénomène.
+Par contre, notre survivante ne semble pas affectée par cet étrange phénomène.
 
 ## Ressenti :
 J'ai adoré le concept.
