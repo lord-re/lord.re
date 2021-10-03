@@ -21,7 +21,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 
 Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 
-<progress value="62" max="250">/</progress>
+<progress value="63" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -250,7 +250,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 225. Spotlight (2015)	8.0	 	
 226. The Passion of Joan of Arc (1928)	8.0	 	
 227. Hotel Rwanda (2004)	8.0	 	
-228. La Haine (1995)	8.0	 	
+228. [La Haine (1995)]({{< ref "../visionnages/la-haine/" >}})	8.0	 	
 229. Andrei Rublev (1966)	8.0	 	
 230. Amores Perros (2000)	8.0	 	
 231. Rocky (1976)	8.0	 	
