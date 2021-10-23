@@ -39,7 +39,7 @@ Mais déjà première déception : le film s'est pris un an dans les dents à ca
 Déjà, ça fait mal.
 Ensuite, il a pas bossé avec *Roger Deakins* et bha ça se voit.
 C'est ce monsieur qui est le directeur photo à qui l'on doit en grande partie la pâte visuelle que l'on retrouve dans les productions précédentes de *Denis Villeneuve*.
-J'espérai vraiment avoir tout un film visuellement proche du "segment Las Vegas* de **Blade Runner 2049**, vous savez ?
+J'espérai vraiment avoir tout un film visuellement proche du "segment Las Vegas" de **Blade Runner 2049**, vous savez ?
 Ce orange profond où le ciel est le sable se confondent où tout est bouché étouffant chaud.
 Et non, ici ce n'est absolument pas le rendu du film.
 Ici le désert est très désaturé, avec un ciel blanchâtre, un sable blanchâtre aussi et une épice qui ne vient même pas saturer l'image.
