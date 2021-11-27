@@ -2,7 +2,7 @@
 Author = "Lord"
 Description = ""
 notoc = true
-VisionnageDate = ["2020-03-02",""]
+VisionnageDate = ["2020-03-02","2021-11-27"]
 date = 2020-03-02T23:11:19+01:00
 editor = "kakoune"
 Wikipedia = "https://fr.wikipedia.org/wiki/3_from_Hell"
@@ -60,3 +60,22 @@ Pour une fois on voit pas les miches de *Sheri Moon*, elle a surement passé l'�
 Voilà c'était un super film qui ne révolutionnera rien et reste bien dans la lignée de **The Devil's Reject**.
 C'est crasseux, violent, sanguinolant, dérangeant, obscène avec pas mal de sexe : un bon défouloir assez humoristique à ne pas mettre entre toutes les mains.
 
+---------------
+### 27/11/2021
+Je viens de le revoir et j'adore cette quote :
+
+  > None of us speak mexican !
+  > 
+  > \- Fuck man ! How hard can it be ? Fucking little kids speak it.
+
+Du génie !
+
+*Richard Brake* est une sacré addition au casting !
+Il va parfaitement bien dans ce film avec sa dégaine et sa non-chalance.
+Son mugshot avec le tshirt disco renforce son côté comique cradingue.
+
+Ces gens sont de pures raclures mais pourtant quand on les voit faire leurs ptites conneries entre eux ils émettent des ondes positives. ^__^
+Ils sont tout mignons ensemble.
+
+Franchement c'est un film feelgood trash.
+J'adore.
