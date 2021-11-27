@@ -21,7 +21,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 
 Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 
-<progress value="65" max="250">/</progress>
+<progress value="66" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -232,7 +232,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 207. [Mad Max: Fury Road (2015)]({{< ref "../visionnages/Mad-Max-4-:-Fury-Road/" >}})	8.1	 	
 208. Time of the Gypsies (1988)	8.1	 	
 209. Million Dollar Baby (2004)	8.1	 	
-210. Network (1976)	8.1	 	
+210. [Network (1976)]({{< ref "../visionnages/network/" >}})	8.1	 	
 211. Dead Poets Society (1989)	8.1	 	
 212. [Stand by Me (1986)]({{< ref "../visionnages/Stand-By-Me/" >}})	8.1	 	
 213. Ben-Hur (1959)	8.1	 	
