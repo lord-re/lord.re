@@ -21,7 +21,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 
 Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 
-<progress value="66" max="250">/</progress>
+<progress value="67" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -38,7 +38,7 @@ Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 13. Inception (2010)	8.7	 	
 14. The Lord of the Rings: The Two Towers (2002)	8.7	 	
 15. [Star Wars: Episode V - The Empire Strikes Back (1980)]({{< ref "../visionnages/Star-Wars-5/" >}})	8.7	 	
-16. The Matrix (1999)	8.6	 	
+16. [The Matrix (1999)]({{< ref "../visionnages/Matrix/" >}})	8.6	 	
 17. Goodfellas (1990)	8.6	 	
 18. [One Flew Over the Cuckoo's Nest (1975)]({{< ref "../visionnages/One-Flew-Over-The-Cuckoos-Nest/" >}})	8.6	 	
 19. [Seven Samurai (1954)]({{< ref "../visionnages/Seven-Samurai/">}})	8.6	 	
