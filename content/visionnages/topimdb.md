@@ -20,6 +20,7 @@ Bon il y a plein de films que j'ai déjà vu avant de commencer à rédiger mes 
 Par contre certains que je connais et j'aime pas spécialement je pense pas me les refaire (Seigneur des anneaux, Harry Potter…).
 
 Au 31 Décembre 2020 : J'en ai déjà vu 18/250
+Au 31 Décembre 2021 : J'en ai déjà vu 68/250
 
 <progress value="68" max="250">/</progress>
 
