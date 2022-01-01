@@ -2,11 +2,10 @@
 Author = "Lord"
 Description = ""
 notoc = true
-draft = true
 WritingDate = 2021-12-29T09:01:18+01:00
-date = 2021-12-29T09:01:18+01:00
+date = 2022-01-01T09:01:18+01:00
 editor = "kakoune"
-title = "Index"
+title = "Récap 29 : Décembre 2021"
 +++
 Et hop la fin de l'année avec les horribles fêtes de Noel.
 Ça a été particulièrement éprouvant pour moi mais bon maintenant c'est passé.
