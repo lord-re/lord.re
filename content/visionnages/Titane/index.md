@@ -29,7 +29,7 @@ Elle se défend et finit par le tuer.
 ## Ressenti :
 Et bhé mazette.
 C'est un des films les plus dérangeant qu'il m'ait été donné de voir.
-Sand dec, il y a un peu tout ce qui est malaisant là-dedans : de la violence, du gore, de la nudité frontale, de l'inceste, de la violence psychologique, du mal-être, du body-horror, du sexe "non-conventionel", du désespoir, la mort…
+Sans dec, il y a un peu tout ce qui est malaisant là-dedans : de la violence, du gore, de la nudité frontale, de l'inceste, de la violence psychologique, du mal-être, du body-horror, du sexe "non-conventionel", du désespoir, la mort…
 C'est vraiment très particulier.
 
 Et malgré tout cela, bha c'est vraiment cool.
