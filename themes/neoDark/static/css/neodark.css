@@ -307,25 +307,25 @@ kbd::selection{
  color:#fff;
 }
 kbd::before,samp::before{
- content:"⬋";
+ content:" ⬊ ";
  color:yellow;
- background-color:black;
- display:inline-block;
  margin-right:0.8rem;
- height:1em;
 }
 kbd::before{
- content:"➚";
+ content:" ➚ ";
 }
 kbd,samp{
  color:var(--kbd-samp);
  font-size:1.1rem;
- background:rgba(0,0,0);
+ background:rgba(0,0,0,0.3);
+ padding:0.2rem;
  padding-right:0.5rem;
  white-space:pre-line;
+ border-radius:1rem;
 }
 samp{
  color:#cfa;
+ display:inline-block;
 }
 blockquote{
  color:#aaa;
