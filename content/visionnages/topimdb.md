@@ -22,7 +22,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 Au 31 Décembre 2021 : J'en ai déjà vu 68/250
 
-<progress value="70" max="250">/</progress>
+<progress value="71" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -65,7 +65,7 @@ Au 31 Décembre 2021 : J'en ai déjà vu 68/250
 39. [Modern Times (1936)]({{< ref "../visionnages/Modern-Times/" >}})	8.5	 	
 40. [Psycho (1960)]({{< ref "../visionnages/Psycho/" >}})	8.5	 	
 41. [Gladiator (2000)]({{< ref "../visionnages/Gladiator/" >}})	8.5	 	
-42. City Lights (1931)	8.5	 	
+42. [City Lights (1931)]({{< ref "../visionnages/city-lights/" >}})	8.5	 	
 43. [The Departed (2006)]({{< ref "../visionnages/the-departed/" >}})	8.5	 	
 44. The Intouchables (2011)	8.5	 	
 45. Whiplash (2014)	8.5	 	
