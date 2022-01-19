@@ -22,7 +22,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 Au 31 Décembre 2020 : J'en ai déjà vu 18/250
 Au 31 Décembre 2021 : J'en ai déjà vu 68/250
 
-<progress value="72" max="250">/</progress>
+<progress value="73" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -139,7 +139,7 @@ Au 31 Décembre 2021 : J'en ai déjà vu 68/250
 113. The Sting (1973)	8.2	 	
 114. A Separation (2011)	8.2	 	
 115. Metropolis (1927)	8.2	 	
-116. Incendies (2010)	8.2	 	
+116. [Incendies (2010)]({{< ref "../visionnages/incendies/" >}})	8.2	 	
 117. For a Few Dollars More (1965)	8.2	 	
 118. The Apartment (1960)	8.2	 	
 119. Double Indemnity (1944)	8.2	 	
