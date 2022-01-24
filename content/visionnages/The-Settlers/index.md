@@ -17,7 +17,7 @@ Avis = ["meh","cool"]
 TopWords=["mars","colon","survie","isolement","isolation","viol","famille"]
 +++
 ## Histoire :
-Des parents et leur fille vive sur Mars isolé de tout.
+Des parents et leur fille vivent sur Mars isolés de tout.
 
 Un matin ils découvrent que quelqu'un a marqué “LEAVE” sur l'une des fenêtres de la maison.
 
