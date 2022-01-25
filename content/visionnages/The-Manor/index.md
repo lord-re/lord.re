@@ -27,7 +27,7 @@ Hmmm mouai.
 C'est vraiment pas ouf.
 
 D'ailleurs j'ai même pas vraiment compris le titre du film.
-Certe ça se passe dans un immense manoir mais au final ça n'a quasiment aucune importance dans le déroulement de l'action.
+Certes ça se passe dans un immense manoir mais au final ça n'a quasiment aucune importance dans le déroulement de l'action.
 C'est un peu de surnaturel, ça fait pas vraiment peur, le jeu d'acteur est léger.
 
 Pas de fulgurance, rien, c'est plat et morne.
