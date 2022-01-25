@@ -17,7 +17,7 @@ Avis = ["cool"]
 TopWords=["apocalypse","satanique","démon","diable","curé","charlatan"]
 +++
 ## Histoire :
-Un curé déchiffre des messages et symboles et arrivent à la conclusion que l'antéchrist doit naître le 25 décembre 1995.
+Un curé déchiffre des messages et symboles et arrive à la conclusion que l'antéchrist doit naître le 25 décembre 1995.
 Il connait la date mais pas le lieu.
 
 Il décide de convoquer le diable afin de lui soutirer l'information concernant le lieu de naissance.
