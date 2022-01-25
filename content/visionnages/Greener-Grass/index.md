@@ -20,7 +20,7 @@ TopWords=["malaise","cringe","absurde","banlieu","voiturette","famille"]
 Dans une banlieue ricaine, deux mères de familles sont en compétition sur un peu tous les domaines.
 Faut dire qu'elles vivent dans un endroit un peu particulier où tout est beau et bienveillant, tout du moins en façade.
 
-C'est un monde qui ressemble au nôtre mais tout l'hypocrisie et le paraître est exacerbé.
+C'est un monde qui ressemble au nôtre mais où toute l'hypocrisie et le paraître sont exacerbés.
 
 ## Ressenti :
 C'est un film très particulier avec un humour bien absurde mais au final pas si creux que ça.
