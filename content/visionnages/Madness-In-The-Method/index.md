@@ -20,7 +20,7 @@ TopWords=["askewniverse","jay","cinéma","meta","acteur"]
 *Jason Mewes* souhaite devenir un acteur reconnu pour sortir de ses rôles de junkies.
 Son rôle de *Jay* lui colle à la peau et il aimerait s'en éloigner mais il ne parvient pas à trouver de rôles différents.
 
-Il découvre un livre qui devrait lui permettre de s'améliorer et de s'émanciper et enfin décrocher les rôles qu'ils visent.
+Il découvre un livre qui devrait lui permettre de s'améliorer et de s'émanciper et enfin décrocher les rôles qu'il vise.
 
 ## Ressenti :
 Oui oui, c'est le pitch du film.
