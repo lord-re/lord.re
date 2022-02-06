@@ -19,10 +19,10 @@ Bon il y a plein de films que j'ai déjà vu avant de commencer à rédiger mes 
 
 Par contre certains que je connais et j'aime pas spécialement je pense pas me les refaire (Seigneur des anneaux, Harry Potter…).
 
-Au 31 Décembre 2020 : J'en ai déjà vu 18/250
-Au 31 Décembre 2021 : J'en ai déjà vu 68/250
+  - Au 31 Décembre 2020 : J'en ai déjà vu 18/250
+  - Au 31 Décembre 2021 : J'en ai déjà vu 68/250
 
-<progress value="73" max="250">/</progress>
+<progress value="74" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -119,7 +119,7 @@ Au 31 Décembre 2021 : J'en ai déjà vu 68/250
 93. M (1931)	8.3	 	
 94. The Hunt (2012)	8.3	 	
 95. Eternal Sunshine of the Spotless Mind (2004)	8.3	 	
-96. Citizen Kane (1941)	8.3	 	
+96. [Citizen Kane (1941)]({{< ref "../visionnages/Citizen-Kane/" >}})	8.3	 	
 97. Dangal (2016)	8.3	 	
 98. Full Metal Jacket (1987)	8.2	 	
 99. Singin' in the Rain (1952)	8.2	 	
