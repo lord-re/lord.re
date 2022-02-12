@@ -22,7 +22,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
   - Au 31 Décembre 2020 : J'en ai déjà vu 18/250
   - Au 31 Décembre 2021 : J'en ai déjà vu 68/250
 
-<progress value="75" max="250">/</progress>
+<progress value="76" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -102,7 +102,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 76. Avengers: Endgame (2019)	8.3	 	
 77. [American Beauty (1999)]({{< ref "../visionnages/american-beauty/" >}})	8.3	 	
 78. [Braveheart (1995)]({{< ref "../visionnages/Braveheart" >}})	8.3	 	
-79. Das Boot (1981)	8.3	 	
+79. [Das Boot (1981)]({{< ref "../visionnages/das-boot" >}})	8.3	 	
 80. [3 Idiots (2009)]({{< ref "../visionnages/3-Idiots" >}})	8.3	 	
 81. Toy Story (1995)	8.3	 	
 82. Capernaum (2018)	8.3	 	
