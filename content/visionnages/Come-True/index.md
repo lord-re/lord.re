@@ -2,8 +2,9 @@
 Author = "Lord"
 Description = ""
 notoc = true
-VisionnageDate = ["2021-12-25",""]
-date = 2021-12-27T13:10:46+01:00
+VisionnageDate = ["2021-12-25","2022-03-27"]
+date = 2022-03-27T10:10:17+01:00
+edit_date = ["2021-12-27T13:10:46+01:00","2022-03-27T10:17+01:00"]
 editor = "kakoune"
 Wikipedia = "https://fr.wikipedia.org/wiki/Come_True"
 Imdb = "https://www.imdb.com/title/tt7026488/"
@@ -63,3 +64,18 @@ C'est dommage c'était un sans-faute.
 
 Bon bha voila.
 Très chouette film qui mériterait d'être un peu plus connu.
+
+## Ressenti 2 :
+je viens de me rematter ce film et bha ouai je crois que je l'aime encore plus.
+Son esthétique ultra travaillée et son ambiance sonore avec ses synthés et tout ça rentre parfaitement en résonnance avec mes affinités.
+
+J'aime tout dans ce film sauf la fin.
+
+Ils ont réussi à donner un aspect de fou au *Dr Meyer* avec ses grosses lunettes à la *Romero* avec des dégradés de lumières et des reflets sur les verres, on le croirait sorti d'un animé.
+*Sarah* avec son air crevé et ses yeux toujours qu'à moitié entre-ouverts est parfaite dans le rôle.
+
+Et pour parachever le truc, les trips noir&blanc somptueux des rêves avec ce traveling et ses formes torturées ça m'achève.
+Ça joue sur les formes, le brouillard, les lumières vacillantes.
+Ça lorgne clairement du côté de la demoscene et des jeux vidéos d'horreur.
+
+Il me faudra le revoir encore !
