@@ -10,7 +10,7 @@ title = "Alpine Linux : bien même en dehors des containers"
 editor = "kakoune"
 +++
 Quand on parle Linux, il y a très vite les histoires de choix de distribution.
-Et déjà il y a un truc que je comprends ce sont les gens qui testent constamment de nouvelles distributions linux.
+Et déjà il y a un truc que je ne comprends pas, ce sont les gens qui testent constamment de nouvelles distributions linux.
 
 Bon j'arrive à comprendre que l'on teste des distros qui ont fait des choix assez exotiques :
   - une FHS non standard (comme par exemple GoboLinux)
@@ -120,7 +120,7 @@ Voilà, c'est une syntaxe plutôt légère mais (bon ça se voit pas dans cet ex
 </details>
 
 ### Légèreté de la base
-*Une fois une Alpine inastallée, vous n'aurez pas des processus dans tous les sens*.
+*Une fois une Alpine installée, vous n'aurez pas des processus dans tous les sens*.
 Vous n'aurez d'ailleurs quasiment rien.
 Pas tout un tas de daemon qui font des choses dans votre dos.
 
