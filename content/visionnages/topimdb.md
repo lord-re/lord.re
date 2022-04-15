@@ -22,7 +22,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
   - Au 31 Décembre 2020 : J'en ai déjà vu 18/250
   - Au 31 Décembre 2021 : J'en ai déjà vu 68/250
 
-<progress value="79" max="250">/</progress>
+<progress value="80" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -36,7 +36,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 10. The Lord of the Rings: The Fellowship of the Ring (2001)	8.8	 	
 11. [Fight Club (1999)]({{< ref "../visionnages/Fight-Club/" >}})	8.8	 	
 12. [Forrest Gump (1994)]({{< ref "../visionnages/Forrest-Gump/" >}})	8.8	 	
-13. Inception (2010)	8.7	 	
+13. [Inception (2010)]({{< ref "../visionnages/Inception/" >}})	8.7	 	
 14. The Lord of the Rings: The Two Towers (2002)	8.7	 	
 15. [Star Wars: Episode V - The Empire Strikes Back (1980)]({{< ref "../visionnages/Star-Wars-5/" >}})	8.7	 	
 16. [The Matrix (1999)]({{< ref "../visionnages/Matrix/" >}})	8.6	 	
