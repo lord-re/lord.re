@@ -114,7 +114,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 88. [Good Will Hunting (1997)]({{< ref "../visionnages/Good-Will-Hunting/">}})	8.3	 	
 89. [Reservoir Dogs (1992)]({{< ref "../visionnages/reservoir-dogs" >}})	8.3	 	
 90. 2001: A Space Odyssey (1968)	8.3	 	
-91. [Requiem for a Dream (2000)]({{< ../visionnages/requiem-for-a-dream" >}})	8.3	 	
+91. [Requiem for a Dream (2000)]({{< ref "../visionnages/requiem-for-a-dream" >}})	8.3	 	
 92. Vertigo (1958)	8.3	 	
 93. M (1931)	8.3	 	
 94. The Hunt (2012)	8.3	 	
