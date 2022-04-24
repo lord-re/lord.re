@@ -22,7 +22,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
   - Au 31 Décembre 2020 : J'en ai déjà vu 18/250
   - Au 31 Décembre 2021 : J'en ai déjà vu 68/250
 
-<progress value="81" max="250">/</progress>
+<progress value="82" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -220,7 +220,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 194. Andhadhun (2018)	8.1	 	
 195. Persona (1966)	8.1	 	
 196. [Prisoners (2013)]({{< ref "../visionnages/Prisoners/" >}})	8.1	 	
-197. The Big Lebowski (1998)	8.1	 	
+197. [The Big Lebowski (1998)]({{< ref "../visionnages/the-big-lebowski" >}})	8.1	 	
 198. To Be or Not to Be (1942)	8.1	 	
 199. Sherlock Jr. (1924)	8.1	 	
 200. The General (1926)	8.1	 	
