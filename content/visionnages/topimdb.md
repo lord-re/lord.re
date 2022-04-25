@@ -84,7 +84,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 58. [Django Unchained (2012)]({{< ref "../visionnages/django-unchained/" >}})	8.4	 	
 59. [The Lives of Others (2006)]({{< ref "../visionnages/la-vie-des-autres/" >}})	8.4	 	
 60. [Joker (2019)]({{< ref "../visionnages/Joker/" >}})	8.4	 	
-61. Paths of Glory (1957)	8.4	 	
+61. [Paths of Glory (1957)]({{< ref "../visionnages/paths-of-glory" >}})	8.4	 	
 62. WALL·E (2008)	8.4	 	
 63. [The Shining (1980)]({{< ref "../visionnages/The-Shining/" >}})	8.4	 	
 64. Avengers: Infinity War (2018)	8.4	 	
