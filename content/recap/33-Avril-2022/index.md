@@ -182,4 +182,4 @@ J'aime beaucoup ces vidéos qui font réagir la communauté.
 Il y avait déjà eu un "duel" entre **Steve Mould** et **ElectroBoom** qui m'avait pas mal régalé il y a quelque temps.
 
 ## Vrac
-Tiens j'ai découvert une ptite capsule Gemini sympatique : [TXT-VOSTFR]({{ gemini://txt-vostfr.devloprog.org }}) qui parle de cinéma :-)
+Tiens j'ai découvert une ptite capsule Gemini sympatique : [TXT-VOSTFR](gemini://txt-vostfr.devloprog.org) qui parle de cinéma :-)
