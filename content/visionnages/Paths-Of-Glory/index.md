@@ -54,7 +54,7 @@ Le film a d'ailleurs n'a d'ailleurs pas eu de visa de diffusion en 1957 en Franc
 Ce n'est qu'en 1975 qu'il a pu sortir.
 Apparemment l'armée n'est pas super fan de ce genre d'histoire…
 
-<details><summary>spoil<summary>
+<details><summary>spoil</summary>
 
 Bon, bha pour une fois je suis déçu que la fin ne soit pas une happy end.
 Sans dec, j'espérais vraiment que l'issue du procès acquitte nos trois malheureux soldats.
