@@ -48,7 +48,7 @@ Le casting d'origine est là mais juste pour la fin.
 
 Avez-vous des fantômes dans votre film de fantômes ?
 Et bien non presque pas.
-Le film tente même de zapper **Ghostbusters 2** et repique l'antagoniste avec les mêmes motivations.
+Le film tente même de zapper **Ghostbusters 2** et repique l'antagoniste du premier avec les mêmes motivations.
 On nous recolle même des ptits bibendum marshmallow.
 Sauf que dans le premier c'était la manifestation de la peur d'un des personnages.
 Ici, c'est … bha on sait pas d'où ils sortent et ce qu'ils foutent là.
