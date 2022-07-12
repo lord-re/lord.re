@@ -70,6 +70,6 @@ Il faut préciser que le corps du bouton est en métal.
 Le corps du bouton est connecté à la carcasse de l'ordinateur, qui est en théorie à la masse.
 *Maintenant la masse de l'ordinateur n'est pas nécessairement au même potentiel que la masse de la carcasse.*
 Donc **en actionnant le bouton, la masse de l'ordinateur se retrouve connectée à la masse de la carcasse causant un chute/hausse de tension** ce qui redémarre la machine.
-Cela a très probablement été découvert douloureusement cet écart de potentiel entre les deux masses qui a ensuite décideé de rajouter ce bouton pour faire une blague.
+Cela a très probablement été découvert douloureusement cet écart de potentiel entre les deux masses qui a ensuite décidée de rajouter ce bouton pour faire une blague.
 
 
