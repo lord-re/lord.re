@@ -29,7 +29,7 @@ Déjà on a un couple qui vit isolé dans un hôtel… ça évoque des trucs.
 Mais là, on a beau être en "hiver" on est pas spécialement isolé du monde et c'est pas l'ambiance neige et survie.
 Et puis il n'y a pas de surnaturel…
 
-Bon, donc oublions ce bon vieux **[Shining]({{< ref "visionnages/shining" >}}) et laissons une chance à ce **Resort Paraíso**.
+Bon, donc oublions ce bon vieux **[Shining]({{< ref "visionnages/the-shining" >}})** et laissons une chance à ce **Resort Paraíso**.
 C'est un film espagnol de 2018 qui ne verse donc pas dans l'horreur mais dans le thriller.
 L'antagoniste ici est un vigile qui a surpris notre couple mais qui ne les dénonce pas.
 
