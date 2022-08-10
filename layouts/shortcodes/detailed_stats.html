@@ -1,177 +1,116 @@
-{{ $type := .Get "type" }}
-{{ $posts := where site.RegularPages "Type" $type }}
+{{- `<!-- layouts/shortcodes/detailed_stats.html -->` | safeHTML -}}
+{{- $type := .Get "type" -}}
+{{- $posts := where site.RegularPages "Type" $type -}}
 
-{{ $titlePostsCount := len ( where $posts ".Params.title"  "!=" nil ) }}
-{{ $microPostsCount := len ( where $posts ".Params.title"  "=" nil ) }}
+{{- $titlePostsCount := len ( where $posts ".Params.title"  "!=" nil ) -}}
+{{- $microPostsCount := len ( where $posts ".Params.title"  "=" nil ) -}}
 
-{{ $scratch := newScratch }}
-{{ $scratch.Set "longestCount" 0 }}
-{{ $scratch.Set "shortestCount" 100000 }}
-{{ range $posts }}
-    {{ $scratch.Add "wordcount" .WordCount }}
-{{ if ge .WordCount ($scratch.Get "longestCount") }}
-  {{ $scratch.Set "longestPost" . }}
-  {{ $scratch.Set "longestCount" .WordCount }}
-{{ end }}
-{{ if le .WordCount ($scratch.Get "shortestCount") }}
-  {{ $scratch.Set "shortestPost" . }}
-  {{ $scratch.Set "shortestCount" .WordCount }}
-{{ end }}
-{{ end }}
+{{- $scratch := newScratch -}}
+{{- $scratch.Set "longestCount" 0 -}}
+{{- $scratch.Set "shortestCount" 100000 -}}
+{{- range $posts -}}
+  {{- $scratch.Add "wordcount" .WordCount -}}
+{{- if ge .WordCount ($scratch.Get "longestCount") -}}
+  {{- $scratch.Set "longestPost" . -}}
+  {{- $scratch.Set "longestCount" .WordCount -}}
+{{- end -}}
+{{- if le .WordCount ($scratch.Get "shortestCount") -}}
+  {{- $scratch.Set "shortestPost" . -}}
+  {{- $scratch.Set "shortestCount" .WordCount -}}
+{{- end -}}
+{{- end -}}
 
-{{ $postCount :=  len ($posts) }}
-{{ $wordCount := $scratch.Get "wordcount" }}
-{{ $avgPostLength := div $wordCount $postCount }}
+{{- $postCount :=  len ($posts) -}}
+{{- $wordCount := $scratch.Get "wordcount" -}}
+{{- $avgPostLength := div $wordCount $postCount -}}
 <table class="post-stats-tbl">
     <tr>
-        <td width="40%">Nombre de publications</td>
-        <td width="60%">{{ $postCount | lang.NumFmt 0 }}</td>
+        <td width="40%">Nombre de publications</td><td width="60%">{{ $postCount | lang.NumFmt 0 }}</td>
     </tr>
     <tr>
-<td>Mots écrits</td>
-<td>{{ $wordCount | lang.NumFmt 0 }}{{ if gt $wordCount 40000 }} (C'est presque {{ (div $wordCount 40000) | lang.NumFmt 0 }} romans){{ end }}</td>
-</tr>
+      <td>Mots écrits</td><td>{{ $wordCount | lang.NumFmt 0 }}{{ if gt $wordCount 40000 }} (C'est presque {{ (div $wordCount 40000) | lang.NumFmt 0 }} romans){{ end }}</td>
+    </tr>
     <tr>
-<td>Moyenne de mots par publication</td>
-<td>{{ $avgPostLength | lang.NumFmt 0 }}</td>
-</tr>
+      <td>Moyenne de mots par publication</td><td>{{ $avgPostLength | lang.NumFmt 0 }}</td>
+    </tr>
     <tr>
-<td>Première publication</td>
-<td>
-            {{ range last 1 $posts }}
-                {{ if .Title }}<a href="{{ .Permalink }}">{{ .Title }}</a> publié le {{ .Date.Format "02/01/2006" }}
-{{ else }}<a href="{{ .Permalink }}">Micro Post</a> published on {{ .Date.Format "2006-01-02" }} 
-{{ end }}
-            {{ end }}
-</td>
-</tr>
-<tr>
-<td>Dernière publication</td>
-<td>
-            {{ range first 1 $posts }}
-                {{ if .Title }}<a href="{{ .Permalink }}">{{ .Title }}</a> publié le {{ .Date.Format "02/01/2006" }}
-{{ else }}<a href="{{ .Permalink }}">Micro Post</a> published on {{ .Date.Format "2006-01-02" }} 
-{{ end }}
-
-            {{ end }}
-</td>
-</tr>
-<tr>
-<td>Plus longue publication</td>
-<td>
-            {{ with $scratch.Get "longestPost" }}
-                {{ if .Title }}<a href="{{ .Permalink }}">{{ .Title }}</a> avec {{ .WordCount }} mots
-{{ else }}<a href="{{ .Permalink }}">Micro Post</a> avec {{ .WordCount }} mots
-{{ end }}
-            {{ end }}
-</td>
-</tr>
-<tr>
-<td>Plus courte publication</td>
-<td>
-            {{ with $scratch.Get "shortestPost" }}
-                {{ if .Title }}<a href="{{ .Permalink }}">{{ .Title }}</a> avec {{ .WordCount }} mots
-{{ else }}<a href="{{ .Permalink }}">Micro Post</a> avec {{ .WordCount }} mots
-{{ end }}
-            {{ end }}
-</td>
-</tr>
-<!--
+      <td>Première publication</td><td>{{ range last 1 $posts }}{{ if .Title }}<a href="{{ .Permalink }}">{{ .Title }}</a> le {{ .Date.Format "02/01/2006" }}{{ else }}<a href="{{ .Permalink }}">Micro Post</a> published on {{ .Date.Format "2006-01-02" }}{{ end }}{{ end }}</td>
+    </tr>
     <tr>
-<td>Posts with Title</td>
-<td>{{ $titlePostsCount | lang.NumFmt 0 }}</td>
-</tr>
+      <td>Dernière publication</td><td>{{ range first 1 $posts }}{{ if .Title }}<a href="{{ .Permalink }}">{{ .Title }}</a> le {{ .Date.Format "02/01/2006" }}{{ else }}<a href="{{ .Permalink }}">Micro Post</a> published on {{ .Date.Format "2006-01-02" }}{{ end }}{{ end }}</td>
+    </tr>
     <tr>
-<td>Posts without Title</td>
-<td>{{ $microPostsCount | lang.NumFmt 0 }}</td>
-</tr>
--->
+      <td>Plus longue publication</td><td>{{ with $scratch.Get "longestPost" }}{{ if .Title }}<a href="{{ .Permalink }}">{{ .Title }}</a> avec {{ .WordCount }} mots{{ else }}<a href="{{ .Permalink }}">Micro Post</a> avec {{ .WordCount }} mots{{ end }}{{ end }}</td>
+    </tr>
+    <tr>
+      <td>Plus courte publication</td><td>{{ with $scratch.Get "shortestPost" }}{{ if .Title }}<a href="{{ .Permalink }}">{{ .Title }}</a> avec {{ .WordCount }} mots{{ else }}<a href="{{ .Permalink }}">Micro Post</a> avec {{ .WordCount }} mots{{ end }}{{ end }}</td>
+    </tr>
 </table>
 
-{{ $grouped := $posts.GroupByDate "2006" }}
+{{- $grouped := $posts.GroupByDate "2006" -}}
 
-<h3 class="post-stats-hd">Publications par années</h3>
-
-<div style="width: 100%;height: 300px;margin: 30px auto">
-    <canvas id="yearchart{{$type}}"></canvas>
-</div>
-
+<h3 class="post-stats-hd">Publications par année</h3>
 <table class="post-stats-tbl">
     <tr>
-        <th width="30%">Année</td>
-        <th width="70%">Publications</td>
+        <th width="30%">Année</td><th width="70%">Publications</td>
     </tr>
-    {{ range $grouped.Reverse }}
-{{ $yearPostCount := len (where .Pages "Type" $type) }}
-<tr>
-            <td>{{ .Key }}</td>
-            <td>{{ $yearPostCount | lang.NumFmt 0 }}</td>
-        </tr>
-{{ $scratch.Add "yearKeys" "'"  }}
-{{ $scratch.Add "yearKeys" .Key  }}
-{{ $scratch.Add "yearKeys" "',"  }}
-{{ $scratch.Add "yearCount" (string $yearPostCount) }}
-{{ $scratch.Add "yearCount" ","  }}
-    {{ end }}
+    {{- range $grouped.Reverse }} {{ $yearPostCount := len (where .Pages "Type" $type) -}}
+    <tr>
+        <td>{{ .Key }}</td><td>{{ $yearPostCount | lang.NumFmt 0 }}</td>
+    </tr>
+{{- $scratch.Add "yearKeys" "'"  -}} {{- $scratch.Add "yearKeys" .Key  -}} {{- $scratch.Add "yearKeys" "',"  -}} {{- $scratch.Add "yearCount" (string $yearPostCount) -}} {{- $scratch.Add "yearCount" ","  -}}
+    {{- end -}}
 </table>
 
-{{ $chartPre := "{type: 'line',data: {labels: [" }}
-{{ $chartYearKeys := trim ($scratch.Get "yearKeys") ","}}
-{{ $chartYearCount := trim ($scratch.Get "yearCount") ","}}
-{{ $chartMid := "],datasets: [{label: 'Publications',data: [" }}
-{{ $chartPost := "],backgroundColor: 'rgb(54, 162, 235)',borderColor: 'rgb(54, 162, 235)',borderWidth: 1}]},options: {maintainAspectRatio: false,scales: {yAxes: [{ticks: {beginAtZero: true}}]}}}" }}
+{{- $chartPre := "{type: 'line',data: {labels: [" -}}
+{{- $chartYearKeys := trim ($scratch.Get "yearKeys") "," -}}
+{{- $chartYearCount := trim ($scratch.Get "yearCount") "," -}}
+{{- $chartMid := "],datasets: [{label: 'Publications',data: [" -}}
+{{- $chartPost := "],backgroundColor: 'rgb(54, 162, 235)',borderColor: 'rgb(54, 162, 235)',borderWidth: 1}]},options: {maintainAspectRatio: false,scales: {yAxes: [{ticks: {beginAtZero: true-}}]-}}}" -}}
 
 
-{{ $chartData := printf "%s" $chartPost | printf "%s%s" $chartYearCount | printf "%s%s" $chartMid | printf "%s%s" $chartYearKeys | printf "%s%s" $chartPre | printf "%s" }}
+{{- $chartData := printf "%s" $chartPost | printf "%s%s" $chartYearCount | printf "%s%s" $chartMid | printf "%s%s" $chartYearKeys | printf "%s%s" $chartPre | printf "%s" -}}
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.min.js"></script>
-<script type="text/javascript">
-    var ctx = document.getElementById('yearchart{{$type}}').getContext('2d');
-    var options = {{ $chartData | safeJS }};
-    new Chart(ctx, options);
-</script>
 
-{{ if  eq $type "posts" }} 
+{{- if  eq $type "posts" -}}
 <h3 class="post-stats-hd">Nuage de tags</h3>
 <div class="categorycloud">
-    {{ if ne (len $.Site.Taxonomies.categories) 0 }}
-      {{ $largestFontSize := 1.4 }}
-      {{ $smallestFontSize := 1.0 }}
-      {{ $fontSpread := sub $largestFontSize $smallestFontSize }}
-      {{ $max := add (len (index $.Site.Taxonomies.categories.ByCount 0).Pages) 1 }}
-      {{ $min := len (index $.Site.Taxonomies.categories.ByCount.Reverse 0).Pages }}
-      {{ $spread := sub $max $min }}
-      {{ $fontStep := div $fontSpread $spread }}
-        {{ range $name, $taxonomy := $.Site.Taxonomies.categories }}
-          {{ $categoryCount := len $taxonomy.Pages }}
-          {{ $currentFontSize := (add $smallestFontSize (mul (sub $categoryCount $min) $fontStep) ) }}
-          {{ $weigth := div (sub (math.Log $categoryCount) (math.Log $min)) (sub (math.Log $max) (math.Log $min)) }}
-          {{ $currentFontSize := (add $smallestFontSize (mul (sub $largestFontSize $smallestFontSize) $weigth)) }}
-            <a href="{{ "/categories/" | relURL }}{{ $name | urlize }}" 
-            class="categorycloud-item" style="font-size: {{ $currentFontSize }}rem;">
-              {{ $name }}<sup>{{ $categoryCount }}</sup>
-            </a>
-        {{ end }}
-    {{ end }}
-{{ end }}
-{{ if  eq $type "visionnages" }} 
+    {{- if ne (len $.Site.Taxonomies.categories) 0 -}}
+      {{- $largestFontSize := 1.4 -}}
+      {{- $smallestFontSize := 0.8 -}}
+      {{- $fontSpread := sub $largestFontSize $smallestFontSize -}}
+      {{- $max := add (len (index $.Site.Taxonomies.categories.ByCount 0).Pages) 1 -}}
+      {{- $min := len (index $.Site.Taxonomies.categories.ByCount.Reverse 0).Pages -}}
+      {{- $spread := sub $max $min -}}
+      {{- $fontStep := div $fontSpread $spread -}}
+        {{- range $name, $taxonomy := $.Site.Taxonomies.categories -}}
+          {{- $categoryCount := len $taxonomy.Pages -}}
+          {{- $currentFontSize := (add $smallestFontSize (mul (sub $categoryCount $min) $fontStep) ) -}}
+          {{- $weigth := div (sub (math.Log $categoryCount) (math.Log $min)) (sub (math.Log $max) (math.Log $min)) -}}
+          {{- $currentFontSize := (add $smallestFontSize (mul (sub $largestFontSize $smallestFontSize) $weigth)) -}}
+            <a href="{{ "/categories/" | relURL }}{{ $name | urlize }}" class="categorycloud-item" style="font-size: {{ $currentFontSize }}rem;">{{ $name }}<sup>{{ $categoryCount }}</sup></a> 
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+{{- if  eq $type "visionnages" -}}
 <h3 class="post-stats-hd">Nuage de tags</h3>
 <div class="categorycloud">
 </div>
 
-{{ $DirectorsScratch := newScratch }}
-{{ $ActorsScratch := newScratch }}
-{{ range $posts }}
-  {{ range .Params.Directors }}
-    {{ $DirectorsScratch.Add . 1 }}
-  {{ end }}
-  {{ range .Params.Actors }}
-    {{ $ActorsScratch.Add . 1 }}
-  {{ end }}
-{{ end }} 
+{{- $DirectorsScratch := newScratch -}}
+{{- $ActorsScratch := newScratch -}}
+{{- range $posts -}}
+  {{- range .Params.Directors -}}  {{- $DirectorsScratch.Add . 1 -}}  {{- end -}}
+  {{- range .Params.Actors -}}     {{- $ActorsScratch.Add . 1 -}}     {{- end -}}
+{{- end -}}
 
-{{ range $DirectorsScratch.Values }}
-{{ . }}
-{{ end }}
-{{ end }}
+{{- $DirectorsNumbered := $DirectorsScratch.Values -}}
+{{- range last 10 (sort $DirectorsNumbered "value") -}}
+{{- end -}}
+
+{{/* range $réal,$nombre :=$DirectorsNumbered */}}
+{{- range $réal,$nombre :=first 10 (sort $DirectorsNumbered "value" "desc") -}}
+{{-  end -}}
+
+{{- end -}}
 </div>
