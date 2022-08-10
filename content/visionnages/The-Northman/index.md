@@ -24,7 +24,7 @@ Il s'enfuit de justesse mais décide de se venger afin de sauver sa mère.
 Mais il devra d'abord grandir afin d'être suffisamment fort pour pouvoir affronter son oncle.
 
 ## Ressenti :
-Troisième film de *Robert Eggers* qui nous a fait déjà deux excellents films : **[The Vvitch]({{< ref "visionnages/the-vvitch" >}})** et **[The Lighthouse]({{< ref "visionnages/the-lighthouse" >}})**.
+Troisième film de *Robert Eggers* qui nous a fait déjà deux excellents films : **[The Vvitch]({{< ref "visionnages/the-witch" >}})** et **[The Lighthouse]({{< ref "visionnages/the-lighthouse" >}})**.
 Et on reste en terrain connu : ça se passe souvent dans des environnements austères.
 C'est la grisaille et le froid.
 Mais en plus de cela, on reste avec une image très désaturée (sauf notre petit prince qui a le droit à une cape rouge qui tranche).
@@ -107,4 +107,6 @@ Et il fait un truc particulièrement étrange : il sort sa bite, lui balance une
 Le détail étrange c'est qu'il s'agirait apparemment de la vraie anatomie de *Willem Dafoe*.
 Et … bha … le moins que l'on puisse dire c'est qu'il est … très impliqué dans le rôle !
 
-
+Tiens, rien à voir avec le film mais un truc qui me perturbe tout le temps c'est le nom du réalisateur : *Robert Eggers*.
+C'est une sorte homonyme/contreprétrie de *Roger Ebert* qui est un critique cinéma très connu du Chicago Sun-Times.
+Je les inverse toujours…
