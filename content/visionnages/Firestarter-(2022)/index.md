@@ -2,7 +2,7 @@
 Author = "Lord"
 Description = ""
 notoc = true
-VisionnageDate = ["2022-08-01T16:58:46+02:00",""]
+VisionnageDate = ["2022-08-01",""]
 date = 2022-08-02T16:58:46+02:00
 editor = "kakoune"
 Wikipedia = "https://fr.wikipedia.org/wiki/Firestarter_(film,_2022)"
