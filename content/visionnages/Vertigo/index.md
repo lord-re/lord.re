@@ -38,7 +38,7 @@ Il y a la forêt de sequoias.
 Les scènes de filature en voiture où l'on se promène dans les rues…
 Bref, une chouette promenade touristique.
 
-<details><summary>Abordons un peu l'histoire et donc spoilons<summary>
+<details><summary>Abordons un peu l'histoire et donc spoilons</summary>
 
 C'est super chouette.
 Au début, ça part vraiment dans un trip un peu mystique voir carrément surnaturel.
