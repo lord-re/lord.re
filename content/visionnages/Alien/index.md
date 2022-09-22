@@ -52,7 +52,7 @@ Même le poster officiel du film est top.
 **Le huitième passager** est un nom cool et le slogan “Dans l'espace, personne ne vous entendra crier” donne le ton.
 Ça va être un film d'horreur.
 Je pense ne rien vous apprendre mais le xénomorphe va à la manière d'un slasher se défaire du personnel de bord petit à petit.
-Mais ce n'est pas un slasher, c'est un chef-d'œuvre de science-fiction et d'horreur qui nous met une *Sigourney Weaver* en victime bnie décidée à survivre.
+Mais ce n'est pas un slasher, c'est un chef-d'œuvre de science-fiction et d'horreur qui nous met une *Sigourney Weaver* en victime bien décidée à survivre.
 
 La musique est bien particulière et reconnaissable de loin.
 Avec des sonorités de simili-flûte qui et des ptits synthés tout doux créant un tout très léger.
