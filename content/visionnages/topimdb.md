@@ -22,7 +22,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
   - Au 31 Décembre 2020 : J'en ai déjà vu 18/250
   - Au 31 Décembre 2021 : J'en ai déjà vu 68/250
 
-<progress value="89" max="250">/</progress>
+<progress value="90" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -76,7 +76,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 50. [Cinema Paradiso (1988)]({{< ref "../visionnages/Cinema-Paradiso/" >}})	8.4	 	
 51. Hamilton (2020)	8.4	 	
 52. Rear Window (1954)	8.4	 	
-53. Alien (1979)	8.4	 	
+53. [Alien (1979)]({{< ref "../visionnages/Alien" >}})	8.4	 	
 54. [Apocalypse Now (1979)]({{< ref "../visionnages/Apocalypse-Now/" >}})	8.4	 	
 55. [Memento (2000)]({{< ref "../visionnages/Memento/" >}})	8.4	 	
 56. The Great Dictator (1940)	8.4	 	
