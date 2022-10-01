@@ -105,3 +105,4 @@ date = 2018-11-27T11:43:00+02:00
 |  [06/22](2206.html) |           449017 |             42769 |      13.08G |     3 |
 |  [07/22](2207.html) |           444567 |             41276 |       8.35G |     1 |
 |  [08/22](2208.html) |           404310 |             39524 |       7.60G |     2 | 2 jours manquants pour coupure de fibre |
+|  [09/22](2209.html) |           365904 |             32483 |       6.06G |     1 | 6 jours manquants pour coupure de fibre |
