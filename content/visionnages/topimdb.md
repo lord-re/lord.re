@@ -22,7 +22,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
   - Au 31 Décembre 2020 : J'en ai déjà vu 18/250
   - Au 31 Décembre 2021 : J'en ai déjà vu 68/250
 
-<progress value="93" max="250">/</progress>
+<progress value="94" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -134,7 +134,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 108. Taxi Driver (1976)	8.2	 	
 109. Come and See (1985)	8.2	 	
 110. Toy Story 3 (2010)	8.2	 	
-111. Lawrence of Arabia (1962)	8.2	 	
+111. [Lawrence of Arabia (1962)]({{< ref "../visionnages/lawrence-of-arabia/" >}})	8.2	 	
 112. Amélie (2001)	8.2	 	
 113. The Sting (1973)	8.2	 	
 114. A Separation (2011)	8.2	 	
