@@ -70,3 +70,6 @@ Marathon adaptations cinéma de Stephen King
 |  2019 | In The Tall Grass    |<progress value="4" max="5">/<progress> | Ça passe, ça reste un film d'horreur basique          |
 |  2019 | [Doctor Sleep]({{< ref "../visionnages/Doctor-Sleep/">}})         |<progress value="4" max="5">/<progress> | Pas aussi bien que le premier mais dégueu non plus    |
 |  2022 | [Firestarter]({{< ref "../visionnages/Firestarter-(2022)/" >}})	|<progress value="3" max="5">/<progress> | Meilleur que l'original de 84 mais quand même pas ouf |
+|  2022 | [Mr Harrigan's Phone]({{< ref "../visionnages/mr-harrigan-phone/" >}})	|<progress value="3" max="5">/<progress> | Bon départ puis ça tombe à plat |
+
+
