@@ -22,7 +22,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
   - Au 31 Décembre 2020 : J'en ai déjà vu 18/250
   - Au 31 Décembre 2021 : J'en ai déjà vu 68/250
 
-<progress value="94" max="250">/</progress>
+<progress value="95" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -121,7 +121,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 95. [Eternal Sunshine of the Spotless Mind (2004)]({{< ref "visionnages/eternal-sunshine-of-the-spotless-mind" >}})	8.3	 	
 96. [Citizen Kane (1941)]({{< ref "../visionnages/Citizen-Kane/" >}})	8.3	 	
 97. Dangal (2016)	8.3	 	
-98. Full Metal Jacket (1987)	8.2	 	
+98. [Full Metal Jacket (1987)]({{< ref "../visionnages/Full-Metal-Jacket" >}})	8.2	 	
 99. Singin' in the Rain (1952)	8.2	 	
 100. Bicycle Thieves (1948)	8.2	 	
 101. The Kid (1921)	8.2	 	
