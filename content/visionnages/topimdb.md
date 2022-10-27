@@ -22,7 +22,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
   - Au 31 Décembre 2020 : J'en ai déjà vu 18/250
   - Au 31 Décembre 2021 : J'en ai déjà vu 68/250
 
-<progress value="95" max="250">/</progress>
+<progress value="96" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -69,7 +69,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 43. [The Departed (2006)]({{< ref "../visionnages/the-departed/" >}})	8.5	 	
 44. The Intouchables (2011)	8.5	 	
 45. Whiplash (2014)	8.5	 	
-46. The Prestige (2006)	8.5	 	
+46. [The Prestige (2006)]({{< ref "../visionnages/the-prestige" >}})	8.5	 	
 47. [Grave of the Fireflies (1988)]({{< ref "../visionnages/le-tombeau-des-lucioles/" >}})	8.5	 	
 48. [Once Upon a Time in the West (1968)]({{< ref "../visionnages/Once-Upon-A-Time-In-The-West/" >}})	8.4	 	
 49. [Casablanca (1942)]({{< ref "../visionnages/Casablanca/" >}})	8.4	 	
