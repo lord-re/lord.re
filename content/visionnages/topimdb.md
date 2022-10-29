@@ -22,7 +22,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
   - Au 31 Décembre 2020 : J'en ai déjà vu 18/250
   - Au 31 Décembre 2021 : J'en ai déjà vu 68/250
 
-<progress value="96" max="250">/</progress>
+<progress value="97" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -113,7 +113,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 87. Taare Zameen Par (2007)	8.3	 	
 88. [Good Will Hunting (1997)]({{< ref "../visionnages/Good-Will-Hunting/">}})	8.3	 	
 89. [Reservoir Dogs (1992)]({{< ref "../visionnages/reservoir-dogs" >}})	8.3	 	
-90. 2001: A Space Odyssey (1968)	8.3	 	
+90. [2001: A Space Odyssey (1968)]({{< ref "../visionnages/2001-a-space-odyssey" >}})	8.3	 	
 91. [Requiem for a Dream (2000)]({{< ref "../visionnages/requiem-for-a-dream" >}})	8.3	 	
 92. [Vertigo (1958)]({{< ref "../visionnages/vertigo" >}})	8.3	 	
 93. M (1931)	8.3	 	
