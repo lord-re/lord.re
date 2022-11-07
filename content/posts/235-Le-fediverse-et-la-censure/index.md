@@ -44,9 +44,9 @@ Et je trouve que Mastodon a réussi à bien planquer tout cela.
 *En pratique, un utilisateur lambda ne se rendra pas spécialement compte de toute cette complexité*.
 Il y a, à mon sens, trois grandes différences :
 
-  1- Les noms d'utilisateurs et les points d'entrées.
-  2- La portée de la recherche
-  3- La modération
+  1. Les noms d'utilisateurs et les points d'entrées.
+  2. La portée de la recherche
+  3. La modération
 
 Mais je tiens d'abord à préciser que *n'importe quel réseau social est complexe à appréhender*.
 La première fois que l'on débarque sur Twitter, on n'y pipe rien.
