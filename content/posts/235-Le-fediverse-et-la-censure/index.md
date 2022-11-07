@@ -111,7 +111,7 @@ De nombreux utilisateurs crient à la censure sur Mastodon.
 Mais déjà ce n'est pas de la censure mais de la modération.
 Et *elle existe également sur Twitter, vous n'avez peut-être pas été censuré mais de nombreuses personnes l'ont été, que ce soit pour de mauvaises ou bonnes raisons.*
 
-Il faut bien comprendre que l'une des forces d'une Fédiverse s'illustre justement sur ces questions.
+Il faut bien comprendre que l'une des forces du Fédiverse s'illustre justement sur ces questions.
 *Chaque instance a sa modération et donc définie ses règles de ce qu'elle va tolérer ou non.*
 Il va y avoir des instances se définissant comme garante de liberté d'expression (free-speech)(en ne modérant à peu près rien donc) et d'autres qui au contraire vont choisir d'interdire tel ou tel contenu.
 
@@ -119,7 +119,7 @@ Là où sur Twitter vous n'avez pas le choix et devez donc vous astreindre à re
 
 Très généralement, les instances présentent leur charte de modération via un lien sur leur page d'accueil.
 
-Le Fediverse accueille de très nombreuss utilisateurs différents qui sont de plus en plus variés.
+Le Fediverse accueille de très nombreux utilisateurs différents qui sont de plus en plus variés.
 *Certaines communautés sont pour le moins étranges et peuvent se situer à un endroit où la culture et les lois sont différentes de chez vous.*
 Ce qui peut être choquant pour l'un ne le sera pas pour une autre personne.
 Et *les lois ne sont pas les mêmes dans tous les pays !*
@@ -134,7 +134,7 @@ Mastodon est complexe et on ne pourra pas interagir avec absolument tout le mond
 *Il faut se rendre compte que si vous vous faites censurer par une instance, il y a de fortes chances que les gens de cette instance ne veulent pas écouter votre discours.*
 À quoi bon râler et persister à vouloir délivrer votre message à des gens qui n'en veulent pas ?
 Vous ne les ferez très probablement pas changer d'avis.
-Si vous vous êtes fait jarter de votre instance, allez ailleurs (il est possible de migrer aisément) et si aucune instance ne veut de vous, montez la votre !
+Si vous vous êtes fait jarter de votre instance, allez ailleurs (il est possible de migrer aisément) et si aucune instance ne veut de vous, montez la vôtre !
 
 *La première difficulté est le choix de l'instance mais il faut savoir que celui-ci n'est pas définitif.*
 Vous pouvez très bien tâter la température de l'eau sur une instance un peu au hasard.
@@ -159,7 +159,7 @@ Ou alors … tention ça va faire mal … passez un contrat avec un admin (proba
 La très grande majorité des soucis de censure se résolvent **en montant sa propre instance** ou en se trouvant une instance en phase avec ses idées.
 
 Twitter était connu (on peut parler au passé dès maintenant, non ?) pour être très tolérant vis-à-vis des contenus d'extrème-droite.
-Le Fediverse est un repère de gauche et franchement tant mieux.
+Le Fediverse est un repaire de gauche et franchement tant mieux.
 De nombreux exilés de Twitter en sont partis car ils étaient persécutés/harcelés/bannis et sont donc venus sur le Fediverse, ces derniers ne sont pas spécialement râvis de retrouver leurs bullies revenir en force…
 Il y a des instances ouvertement de droite, elles sont parfois bloquées par les instances de gauches.
 
