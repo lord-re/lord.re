@@ -163,9 +163,9 @@ Le Fediverse est un repère de gauche et franchement tant mieux.
 De nombreux exilés de Twitter en sont partis car ils étaient persécutés/harcelés/bannis et sont donc venus sur le Fediverse, ces derniers ne sont pas spécialement râvis de retrouver leurs bullies revenir en force…
 Il y a des instances ouvertement de droite, elles sont parfois bloquées par les instances de gauches.
 
-C'est *pour l'instant un réseau social ignoré du capitalisme* : il n'y a pas de business, pas de pub, pas de tracking et pourvu que ça dur.
+C'est *pour l'instant un réseau social ignoré du capitalisme* : il n'y a pas de business, pas de pub, pas de tracking et pourvu que ça dure.
 
-Si jamais vous subissez la censure et plusieurs instances vous jarte en vous traitant de nazi … il est ptet temps de commencer à accepter le fait que vous êtes un nazi et que vous indésirable. :-)
+Si jamais vous subissez la censure et plusieurs instances vous jarte en vous traitant de nazi … il est ptet temps de commencer à accepter le fait que vous êtes un nazi et indésirable. :-)
 
 Je suis très content que le Fediverse gagne en popularité mais c'est pas grave si tout le monde n'y trouve pas sa place.
 
