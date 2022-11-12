@@ -22,7 +22,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
   - Au 31 Décembre 2020 : J'en ai déjà vu 18/250
   - Au 31 Décembre 2021 : J'en ai déjà vu 68/250
 
-<progress value="97" max="250">/</progress>
+<progress value="98" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -184,7 +184,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 158. Inside Out (2015)	8.1	 	
 159. The Seventh Seal (1957)	8.1	 	
 160. The Elephant Man (1980)	8.1	 	
-161. Warrior (2011)	8.1	 	
+161. [Warrior (2011)]({{< ref "../visionnage/Warrior" >}})	8.1	 	
 162. The Thing (1982)	8.1	 	
 163. Soul (2020)	8.1	 	
 164. The Sixth Sense (1999)	8.1	 	
