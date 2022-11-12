@@ -158,7 +158,7 @@ Ou alors … tention ça va faire mal … passez un contrat avec un admin (proba
 
 La très grande majorité des soucis de censure se résolvent **en montant sa propre instance** ou en se trouvant une instance en phase avec ses idées.
 
-Twitter était connu (on peut parler au passé dès maintenant, non ?) pour être très tolérant vis-à-vis des contenus d'extrème-droite.
+Twitter était connu (on peut parler au passé dès maintenant, non ?) pour être très tolérant vis-à-vis des contenus d'extrême-droite.
 Le Fediverse est un repaire de gauche et franchement tant mieux.
 De nombreux exilés de Twitter en sont partis car ils étaient persécutés/harcelés/bannis et sont donc venus sur le Fediverse, ces derniers ne sont pas spécialement râvis de retrouver leurs bullies revenir en force…
 Il y a des instances ouvertement de droite, elles sont parfois bloquées par les instances de gauches.
