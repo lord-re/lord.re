@@ -22,7 +22,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
   - Au 31 Décembre 2020 : J'en ai déjà vu 18/250
   - Au 31 Décembre 2021 : J'en ai déjà vu 68/250
 
-<progress value="98" max="250">/</progress>
+<progress value="99" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -151,7 +151,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 125. [Die Hard (1988)]({{< ref "../visionnages/Die-Hard-1/" >}})	8.2	 	
 126. Green Book (2018)	8.2	 	
 127. Monty Python and the Holy Grail (1975)	8.2	 	
-128. Yojimbo (1961)	8.2	 	
+128. [Yojimbo (1961)]({{< ref "../visionnages/yojimbo" >}})	8.2	 	
 129. Rashomon (1950)	8.2	 	
 130. Batman Begins (2005)	8.2	 	
 131. Downfall (2004)	8.2	 	
