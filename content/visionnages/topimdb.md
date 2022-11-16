@@ -188,7 +188,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 162. The Thing (1982)	8.1	 	
 163. Soul (2020)	8.1	 	
 164. The Sixth Sense (1999)	8.1	 	
-165. Trainspotting (1996)	8.1	 	
+165. [Trainspotting (1996)]({{< ref "../visionnages/trainspotting" >}})	8.1	 	
 166. Jurassic Park (1993)	8.1	 	
 167. Anand (1971)	8.1	 	
 168. The Truman Show (1998)	8.1	 	
