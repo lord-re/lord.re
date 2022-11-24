@@ -36,7 +36,7 @@ C'est un peu dommage.
 C'est pas désagréable mais ça laisse un goût de trop peu.
 
 Le film a été un carton colossal ce qui a été d'autant plus profitable qu'il a été fait avec un tout petit budget.
-Il a propulsé *Danny Boyle* et *Ewan McGregor* sur le devant alors que … bha franchement [Shallow Graves]({{< ref "visionnages/ihallow-grave" >}}) qui les réunissait déjà est vraiment beaucoup mieux !
+Il a propulsé *Danny Boyle* et *Ewan McGregor* sur le devant alors que … bha franchement [Shallow Graves]({{< ref "visionnages/shallow-grave" >}}) qui les réunissait déjà est vraiment beaucoup mieux !
 
 *Robert Carlyle* incarne le personnage le plus intéressant de la bande je trouve et n'est pas plus mis en avant.
 C'est le mec ultra violent qui cherche toujours une occasion de déclencher une bagarre.
