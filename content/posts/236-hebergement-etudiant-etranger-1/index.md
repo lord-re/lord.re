@@ -11,6 +11,11 @@ editor = "kakoune"
 +++
 Premier article d'une série de cinq.
 
+  - 1/5 : [Mickaela]({{< ref "posts/236-hebergement-etudiant-etranger-1" >}})
+  - 2/5 : [Tuuli]({{< ref "posts/237-hebergement-etudiant-etranger-2" >}})
+
+--------------
+
 Aujourd'hui ça va être un post chiant et différent mais il est pour moi !
 Je vais vous parler de la vie <abbr title="Away From Keyboard">AFK</abbr> (et non réelle puisque la vie numérique est réelle).
 
