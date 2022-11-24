@@ -58,3 +58,5 @@ Les effets de la suppression de la mémoire sont sobres avec juste les objets/ge
 J'adore le morceau du générique final **Everybody's Gotta Learn Sometimes** par *Beck*.
 
 Le film est très bien placé dans le [TOP 250 IMDB]({{< ref "visionnages/topimdb" >}}) avec une 95ème place largement méritée.
+
+Le titre est issu d'un vers d'*Alexander Pope* qui est cité dans le film.
