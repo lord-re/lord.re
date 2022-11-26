@@ -18,7 +18,7 @@ TopWords=["théatre","comédie","français","qui proquo"]
 +++
 ## Histoire :
 *Monsieur Brochant* est un éditeur de livre plutôt fortuné qui avec ses potes organise des dîners où chacun ramène un con.
-Durant ses dîners, les pauvres victimes sont moqués.
+Durant ses dîners, les pauvres victimes sont moquées.
 
 Mais *Monsieur Brochant* s'est fait un tour de rein au mauvais moment et se retrouve donc seul, en vrac, avec son con à domicile.
 
@@ -36,8 +36,8 @@ J'aime beaucoup le retournement de situation.
 *Thierry Lhermitte* qui joue le bourgeois connard supérieur se retrouve en fait la victime de son con alors que ce dernier est juste gentil.
 C'est un brave type qui ne demande qu'à aider (et raconter ses histoires).
 
-Le mec est honnête et tente de bien faire et puis franchement l'interprêtation de *Jacques Villeret* est juste parfaite.
-Il sait jouer les abrutis mais sait aussi feindre la malice quand il manipule *Brochant* et *Leblanc* quand il annonce fièrement qu'il connait l'adresse de *Meunod*.
+Le mec est honnête et tente de bien faire et puis franchement l'interprétation de *Jacques Villeret* est juste parfaite.
+Il sait jouer les abrutis mais sait aussi feindre la malice quand il manipule *Brochant* et *Leblanc* quand il annonce fièrement qu'il connait l'adresse de *Meneaux*.
 Il sait être super sincère malgré un léger mensonge (vers la fin), il n'est pas dupe.
 Bref, il est pas si con mais il est juste super gaffeur et un peu trop obsedé par sa passion (on en connait tous des comme ça).
 
