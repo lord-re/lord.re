@@ -6,13 +6,16 @@ menu = "main"
 notoc = true
 WritingDate = 2022-11-06T08:55:24+01:00
 date = 2022-11-24T00:55:24+01:00
-title = "Accueil d'étudiants étranger à la maison 1/5 : Mickaela"
+title = "Accueil d'étudiant étranger à la maison 1/5 : Mickaela"
 editor = "kakoune"
 +++
 Premier article d'une série de cinq.
 
-  - 1/5 : [Mickaela]({{< ref "posts/236-hebergement-etudiant-etranger-1" >}})
+  - **1/5 : [Mickaela]({{< ref "posts/236-hebergement-etudiant-etranger-1" >}})**
   - 2/5 : [Tuuli]({{< ref "posts/237-hebergement-etudiant-etranger-2" >}})
+  - 3/5 : [Naoki]({{< ref "posts/238-hebergement-etudiant-etranger-3" >}})
+  - 4/5 : [Momoko]({{< ref "posts/239-hebergement-etudiant-etranger-4" >}})
+  - 5/5 : [Ayaka]({{< ref "posts/240-hebergement-etudiant-etranger-5" >}})
 
 --------------
 
