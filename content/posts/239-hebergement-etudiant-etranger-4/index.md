@@ -11,10 +11,12 @@ editor = "kakoune"
 +++
 
 Quatrième partie sur cinq.
+
   - 1/5 : [Mickaela]({{< ref "posts/236-hebergement-etudiant-etranger-1" >}})
   - 2/5 : [Tuuli]({{< ref "posts/237-hebergement-etudiant-etranger-2" >}})
   - 3/5 : [Naoki]({{< ref "posts/238-hebergement-etudiant-etranger-3" >}})
   - **4/5 : [Momoko]({{< ref "posts/239-hebergement-etudiant-etranger-4" >}})**
+  - 5/5 : [Ayaka]({{< ref "posts/240-hebergement-etudiant-etranger-5" >}})
 
 Et c'est reparti pour six mois avec une japonaise ce coup-ci.
 
@@ -39,7 +41,7 @@ Bon je vous brise le suspens tout de suite ça ne s'est pas bien passé.
 
 *En six mois, on a pas réussi à discuter avec elle*.
 Pendant les repas on lui a demandé ce qu'elle avait fait de sa journée, qu'avait-elle appris à l'école, ce qu'elle souhaitait faire ou ce qu'elle voulait manger.
-Et à chaque fois elle répondait en évitant de relancer la conversation*.
+Et à chaque fois elle répondait en évitant de relancer la "conversation".
 Toujours une réponse super polie mais brève et et expéditive avec un sourire en toute circonstance.
 
 Bon, *on ne voulait pas non plus la brusquer mais faut avouer que c'est pas super agréable sur le long terme*.
