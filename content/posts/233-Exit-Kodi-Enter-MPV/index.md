@@ -180,7 +180,7 @@ Une fois mpv démarrer, on peut se rendre sur http://adresse_ip:8080 et pouf.
 Pas mal du tout.
 
 ### 3.2 totv
-Bon j'ai maintenant d'avoir un moyen d'envoyer des vidéos au bousin.
+Bon j'ai maintenant un moyen d'envoyer des vidéos au bousin.
 **Simple-mpv-webui** a sa propre petite api pour envoyer des commandes à mpv.
 L'avantage c'est que du coup lui écoute déjà sur le réseau, donc plus besoin de passerelle pour accéder au socket.
 Et d'ailleurs son api est au final un décalque de celle de mpv.
