@@ -78,7 +78,7 @@ Un jour nous étions sur notre ordinateur dans le salon et elle juste à côté 
 On n'y prêtait pas attention, on ne savait pas ce qu'elle regardait et là d'un coup on s'est arrêté et on a entendu un mec qui témoignait : “Avec le slow sex je sens vraiment tout jusque dans mes couilles.”
 On s'est regardé et on s'est retenu de ne pas rigoler c'était assez cocasse.
 
-Je sais que je suis une quiche en histoire mais j'étais encore loin du compte.
+Je sais que je suis une quiche en Histoire mais j'étais encore loin du compte.
 *J'ai découvert que la finlande avait une histoire assez tumultueuse avec la russie* et que donc ils avaient une culture assez proche.
 Ses fameuses tartelettes étaient d'ailleurs d'origine russe.
 
