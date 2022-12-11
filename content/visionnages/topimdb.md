@@ -22,7 +22,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
   - Au 31 Décembre 2020 : J'en ai déjà vu 18/250
   - Au 31 Décembre 2021 : J'en ai déjà vu 68/250
 
-<progress value="104" max="250">/</progress>
+<progress value="106" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -177,7 +177,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 151. [Three Billboards Outside Ebbing, Missouri (2017)]({{< ref "../visionnages/Three-Billboards/">}})	8.1	 	
 152. Shutter Island (2010)	8.1	 	
 153. The Gold Rush (1925)	8.1	 	
-154. Chinatown (1974)	8.1	 	
+154. [Chinatown (1974)]({{< ref "../visionnages/chinatown" >}})	8.1	 	
 155. My Father and My Son (2005)	8.1	 	
 156. [No Country for Old Men (2007)]({{< ref "../visionnages/No-Country-For-Old-Men/" >}})	8.1	 	
 157. V for Vendetta (2005)	8.1	 	
