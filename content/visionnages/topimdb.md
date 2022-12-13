@@ -22,7 +22,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
   - Au 31 Décembre 2020 : J'en ai déjà vu 18/250
   - Au 31 Décembre 2021 : J'en ai déjà vu 68/250
 
-<progress value="106" max="250">/</progress>
+<progress value="107" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -161,7 +161,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 135. Ran (1985)	8.2	 	
 136. Howl's Moving Castle (2004)	8.2	 	
 137. All About Eve (1950)	8.2	 	
-138. A Beautiful Mind (2001)	8.2	 	
+138. [A Beautiful Mind (2001)]({{< ref "../visionnages/a-beautiful-mind" >}})	8.2	 	
 139. [Casino (1995)]({{< ref "../visionnages/Casino" >}})	8.2	 	
 140. The Great Escape (1963)	8.2	 	
 141. [The Wolf of Wall Street (2013)]({{< ref "../visionnages/The-Wolf-Of-Wall-Street/" >}})	8.2	 	
