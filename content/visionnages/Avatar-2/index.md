@@ -125,6 +125,8 @@ J'ai eu l'impression de voir un Best-Of de James Cameron.
 J'ai retrouvé pleins d'éléments de ces précédents films :
 
   - **Terminator** avec le crâne qui se fait écraser, globalement le personnage qui tend la main pour sauver un autre (“come with me if you wanna live”).
+  - **Terminator 2** l'arrivée des humains avec les flammes dévastatrice du jugement dernier.
+  - **Aliens** avec les méchas et les marines bourrins.
   - **Abyss** bha les trucs sous-marins quoi après j'avoue ne pas trop connaître ce film donc il y a probablement des éléments plus spécifiques.
   - **True Lies** avec la scène avec le miroir sans tain, les flammes sur l'eau également, sortir la tête de l'eau discrètos sans prendre de grosse respiration.
   - **Titanic** le vaisseau qui se retourne avec l'eau qui s'engouffre, les personnages aspirés par le truc qui coule, des personnages accroché au bateau par les mains.
