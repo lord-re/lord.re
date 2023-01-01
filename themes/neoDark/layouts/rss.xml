@@ -21,8 +21,8 @@
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
       <description>{{ .Content | html }}</description>
-    {{ range .Params.categories }}<category>{{ . }}</category>{{ end }}
-    {{ range .Params.RssTag }}<category>{{ . }}</category>{{ end }}
+    {{ range .Params.categories }}<category term="{{ . }}"/>{{ end }}
+    {{ range .Params.RssTag }}<category term="{{ . }}"/>{{ end }}
     </item>
     {{ end }}
   </channel>
