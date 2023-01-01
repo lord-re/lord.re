@@ -57,7 +57,7 @@ html{
 body{
  display:grid;
  justify-content:space-between;
- grid-template-areas: "a a a" "b b b" "c c c";
+ grid-template-areas: "a a a" "b b b";
 }
 nav{
  grid-area:a;
@@ -75,7 +75,6 @@ main{
 .blogroll{
  grid-area:c;
  display:none;
- width:25ch;
 }
 
 @media (min-width:130ch){
@@ -86,6 +85,10 @@ main{
  nav {
   border-bottom:none;
   width:20ch;
+  align-self:start;
+  position:sticky;
+  top: 0;
+  height:100vh;
  }
  main {
   max-width:70ch;

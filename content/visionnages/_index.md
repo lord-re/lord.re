@@ -10,8 +10,6 @@ title = ""
 editor = ""
 +++
 
-# Mes visionnages
-
 Une petite liste de films que j'ai vu et où j'ai pris le temps de noter mon ressenti.
 Ce ne sont pas des critiques avisées, c'est souvent à chaud ou le lendemain avec des ptites anecdotes ou autre.
 
