@@ -129,6 +129,6 @@ Comme déjà dit, c'est hébergé sur ma ptite connexion perso donc ça peut arr
 Les sources du site web sont disponibles dans [ce repo](https://git.lord.re/lord/lord.re) (uniquement dispo via IPv6).
 
 ## Contact
-Si vous voulez me contacter le mieux est de passer par <a href ="ircs://irc.geeknode.org" title="Contact via IRC sur geeknode" style="color:#3b95f0"><img src="https://lord.re/svg/chat.svg" class="svg3"> IRC</a> ou de me tooter sur le <a href="https://pleroma.lord.re/users/1" rel="me" title="Mon ptit compte sur le Fediverse" style="color:violet"><img src="https://lord.re/svg/fediverse.svg" class="spin svg3"><span class="rainbowverse">Fediverse</span></a>
+Si vous voulez me contacter le mieux est de passer par <a href ="ircs://irc.geeknode.org" title="Contact via IRC sur geeknode" style="color:#3b95f0"><img src="https://lord.re/svg/chat.svg" class="svg3"> IRC</a> ou de me tooter sur le <a href="https://pleroma.lord.re/users/lord" rel="me" title="Mon ptit compte sur le Fediverse" style="color:violet"><img src="https://lord.re/svg/fediverse.svg" class="spin svg3"><span class="rainbowverse">Fediverse</span></a>
 
 Dans le pire des cas par <a href="mailto:lord-blog@lord.re" title="Contact par mail" style="color:#d25555"><img src="https://lord.re/svg/mail.svg" class="svg3"> Mail</a>  mais je peux passer plusieurs jours/semaines sans les consulter.
