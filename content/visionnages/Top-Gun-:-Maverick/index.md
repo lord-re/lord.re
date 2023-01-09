@@ -7,7 +7,7 @@ date = 2022-08-26T11:59:08+02:00
 editor = "kakoune"
 Wikipedia = "https://fr.wikipedia.org/wiki/Top_Gun_:_Maverick"
 Imdb = "https://www.imdb.com/title/tt1745960/?ref_=nv_sr_srsg_0"
-year = ["202"]
+year = ["2022"]
 Directors = ["Joseph Kosinski"]
 Actors = ["Tom Cruise","Miles Teller","Jennifer Connelly"]
 RssTag = ["visionnage"]
