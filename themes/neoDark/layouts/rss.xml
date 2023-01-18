@@ -22,7 +22,7 @@
       <guid>{{ .Permalink }}</guid>
       <description>{{ .Content | html }}</description>
     {{ range .Params.categories }}<category>{{ . }}"</category>{{ end }}
-    {{ range .Params.RssTag }}<category term="{{ . }}"/>{{ end }}
+    {{ range .Params.RssTag }}<category>{{ . }}</category>{{ end }}
     </item>
     {{ end }}
   </channel>
