@@ -23,7 +23,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
   - Au 31 Décembre 2021 : J'en ai déjà vu 68/250
   - Au 31 Décembre 2022 : J'en ai déjà vu 108/250
 
-<progress value="111" max="250">/</progress>
+<progress value="114" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -128,7 +128,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 101. The Kid (1921)	8.2	 	
 102. [1917 (2019)]({{< ref "../visionnages/1917" >}})	8.2	 	
 103. [North by Northwest (1959)]({{< ref "../visionnages/north-by-northwest" >}})	8.2	 	
-104. A Clockwork Orange (1971)	8.2	 	
+104. [A Clockwork Orange (1971)]({{< ref "../visionnages/a-clockwork-orange" >}})	8.2	 	
 105. [Snatch (2000)]({{< ref "../visionnages/Snatch/" >}})	8.2	 	
 106. [Scarface (1983)]({{< ref "../visionnages/Scarface/" >}})	8.2	 	
 107. [Ikiru (1952)]({{< ref "../visionnages/Ikiru/" >}})	8.2	 	
@@ -229,7 +229,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 202. The Bandit (1996)	8.1	 	
 203. Ford v Ferrari (2019)	8.1	 	
 204. 12 Years a Slave (2013)	8.1	 	
-205. Barry Lyndon (1975)	8.1	 	
+205. [Barry Lyndon (1975)]({{< ref "../visionnages/barry-lyndon" >}})	8.1	 	
 206. Mr. Smith Goes to Washington (1939)	8.1	 	
 207. [Mad Max: Fury Road (2015)]({{< ref "../visionnages/Mad-Max-4-:-Fury-Road/" >}})	8.1	 	
 208. Time of the Gypsies (1988)	8.1	 	
@@ -240,7 +240,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 213. Ben-Hur (1959)	8.1	 	
 214. Harry Potter and the Deathly Hallows: Part 2 (2011)	8.1	 	
 215. Cool Hand Luke (1967)	8.1	 	
-216. Hachi: A Dog's Tale (2009)	8.1	 	
+216. [Hachi: A Dog's Tale (2009)]({{< ref "../visionnages/Hachi-:-a-dog-tale" >}})	8.1	 	
 217. Platoon (1986)	8.1	 	
 218. [Logan (2017)]({{< ref "../visionnages/Logan/" >}})	8.0	 	
 219. Into the Wild (2007)	8.0	 	
