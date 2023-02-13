@@ -23,7 +23,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
   - Au 31 Décembre 2021 : J'en ai déjà vu 68/250
   - Au 31 Décembre 2022 : J'en ai déjà vu 108/250
 
-<progress value="114" max="250">/</progress>
+<progress value="115" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -246,7 +246,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 219. Into the Wild (2007)	8.0	 	
 220. The Handmaiden (2016)	8.0	 	
 221. Rush (2013)	8.0	 	
-222. The Wages of Fear (1953)	8.0	 	
+222. [The Wages of Fear (1953)]({{< ref "../visionnages/Le-salaire-de-la-peur" >}})	8.0	 	
 223. [Monty Python's Life of Brian (1979)]({{< ref "../visionnages/Life-of-Brian/" >}})	8.0	 	
 224. The 400 Blows (1959)	8.0	 	
 225. Spotlight (2015)	8.0	 	
