@@ -23,7 +23,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
   - Au 31 Décembre 2021 : J'en ai déjà vu 68/250
   - Au 31 Décembre 2022 : J'en ai déjà vu 108/250
 
-<progress value="115" max="250">/</progress>
+<progress value="117" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -209,7 +209,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 182. Wild Tales (2014)	8.1	 	
 183. On the Waterfront (1954)	8.1	 	
 184. Tokyo Story (1953)	8.1	 	
-185. The Deer Hunter (1978)	8.1	 	
+185. [The Deer Hunter (1978)]({{< ref "../visionnages/The-Deer-Hunter" >}})	8.1	 	
 186. Autumn Sonata (1978)	8.1	 	
 187. In the Name of the Father (1993)	8.1	 	
 188. [Mary and Max (2009)]({{< ref "../visionnages/Mary-And-Max/" >}})	8.1	 	
@@ -243,7 +243,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 216. [Hachi: A Dog's Tale (2009)]({{< ref "../visionnages/Hachi-:-a-dog-tale" >}})	8.1	 	
 217. Platoon (1986)	8.1	 	
 218. [Logan (2017)]({{< ref "../visionnages/Logan/" >}})	8.0	 	
-219. Into the Wild (2007)	8.0	 	
+219. [Into the Wild (2007)]({{< ref "../visionnages/Into-the-Wild" >}})	8.0	 	
 220. The Handmaiden (2016)	8.0	 	
 221. Rush (2013)	8.0	 	
 222. [The Wages of Fear (1953)]({{< ref "../visionnages/Le-salaire-de-la-peur" >}})	8.0	 	
