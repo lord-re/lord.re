@@ -23,7 +23,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
   - Au 31 Décembre 2021 : J'en ai déjà vu 68/250
   - Au 31 Décembre 2022 : J'en ai déjà vu 108/250
 
-<progress value="119" max="250">/</progress>
+<progress value="120" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -181,7 +181,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 154. [Chinatown (1974)]({{< ref "../visionnages/chinatown" >}})	8.1	 	
 155. My Father and My Son (2005)	8.1	 	
 156. [No Country for Old Men (2007)]({{< ref "../visionnages/No-Country-For-Old-Men/" >}})	8.1	 	
-157. V for Vendetta (2005)	8.1	 	
+157. [V for Vendetta (2005)]({{< ref "../visionnages/v-for-vendetta" >}})	8.1	 	
 158. Inside Out (2015)	8.1	 	
 159. The Seventh Seal (1957)	8.1	 	
 160. The Elephant Man (1980)	8.1	 	
