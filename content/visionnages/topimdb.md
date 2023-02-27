@@ -23,7 +23,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
   - Au 31 Décembre 2021 : J'en ai déjà vu 68/250
   - Au 31 Décembre 2022 : J'en ai déjà vu 108/250
 
-<progress value="120" max="250">/</progress>
+<progress value="121" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -31,7 +31,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 4. [The Dark Knight (2008)]({{< ref "../visionnages/The-Dark-Knight/">}})	9.0	 	
 5. [12 Angry Men (1957)]({{< ref "../visionnages/12-Angry-Men/">}})	8.9	 	
 6. [Schindler's List (1993)]({{< ref "../visionnages/Schindlers-List/" >}})	8.9	 	
-7. The Lord of the Rings: The Return of the King (2003)	8.9	 	
+7. [The Lord of the Rings: The Return of the King (2003)]({{< ref "../visionnages/Lotr-3" >}})	8.9	 	
 8. [Pulp Fiction (1994)]({{< ref "../visionnages/Pulp-Fiction/" >}})	8.8	 	
 9. [The Good, the Bad and the Ugly (1966)]({{< ref "../visionnages/Le-Bon-La-Brute-et-Le-Truand/" >}})	8.8	 	
 10. [The Lord of the Rings: The Fellowship of the Ring (2001)]({{< ref "../visionnages/lotr-1/" >}})	8.8	 	
