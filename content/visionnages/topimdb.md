@@ -23,7 +23,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
   - Au 31 Décembre 2021 : J'en ai déjà vu 68/250
   - Au 31 Décembre 2022 : J'en ai déjà vu 108/250
 
-<progress value="121" max="250">/</progress>
+<progress value="122" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -97,7 +97,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 70. [Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964)]({{< ref "../visionnages/dr-strangelove/" >}})	8.3	 	
 71. The Dark Knight Rises (2012)	8.3	 	
 72. [Once Upon a Time in America (1984)]({{< ref "../visionnages/Once-Upon-A-Time-In-Amercia/" >}})	8.3	 	
-73. Aliens (1986)	8.3	 	
+73. [Aliens (1986)]({{< ref "../visionnages/Aliens" >}})	8.3	 	
 74. [Your Name. (2016)]({{< ref "../visionnages/Kimi-no-na-wa/" >}})	8.3	 	
 75. Coco (2017)	8.3	 	
 76. Avengers: Endgame (2019)	8.3	 	
