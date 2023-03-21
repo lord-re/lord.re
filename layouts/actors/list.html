@@ -1,0 +1,26 @@
+{{ $prev :=2100}}{{ partial "header.html" . }}
+{{ `<!-- layouts/actors/list.html -->` | safeHTML}}
+<body>
+	<a href="#content" title="{{ i18n "skip_content"}}" class="sr-only"></a>
+{{ partialCached "sidebar.html" . }}
+    <main id="content">
+      <div class="{{.Type}}" style="padding:1rem;">
+{{.Content}}
+      </div>
+{{ range sort .Pages "Title" }}
+  <h3>{{ .Title }} - ({{ len .RegularPages }})</h3><ul>
+  {{ range sort .RegularPages ".Title" }}
+    <div><a href="{{.RelPermalink}}" style="color:var(--{{.Section}}-h1-a);">{{.Title}}</a> {{.Params.Year}}
+    <p class="post-meta"><span class="section-meta" style="color:var(--{{.Section}}-h1-a);">{{.Section}}</span><span title="{{.Summary}}">❖</span> <em>{{ if not .Params.nodate }}<span class="post-date">{{ .Date.Format "02/01/2006" }}</span> {{ end }}{{ if not .Params.noread }}<span class="post-reading-time">{{ i18n "readingTime" .ReadingTime }}</span>{{ end }}</em>{{ if .Params.categories }}<span class="post-categories">{{ $Site := .Site }}{{ range .Params.categories }}<a class="post-category post-category-{{ . | urlize }}" href="{{ $Site.BaseURL}}categories/{{ . | urlize }}">{{ . }}</a> {{ end }}</span>{{ end }} {{with .Params.Avis}}{{.}}{{end}}</p></div>
+
+  {{ end }}
+
+  </ul>
+{{ end }}
+
+    </main>
+{{/*{{ partial "openring.html" . }}*/}}
+  <iframe class="blogroll" src="{{.Site.BaseURL}}blogroll" style="width:20ch;height:100ch;border:none;">
+  </div>
+</body>
+</html>
