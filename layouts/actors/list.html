@@ -5,10 +5,11 @@
 {{ partialCached "sidebar.html" . }}
     <main id="content">
       <div class="{{.Type}}" style="padding:1rem;">
-{{- .Content -}}
       </div>
+<h2>{{ .Title }}</h2>
+{{- .Content -}}
 {{- range sort .Pages "Title" -}}
-  <h3>{{ .Title }} - ({{ len .RegularPages }})</h3>
+  <h3><a href="{{.Permalink}}">{{ .Title }}</a> - {{ .Params.Year }}{{ with len .RegularPages }}({{.}}){{ end }}</h3>
   {{- range sort .RegularPages ".Title" -}}
     <div><a href="{{.RelPermalink}}" style="color:var(--{{.Section}}-h1-a);">{{.Title}}</a> {{.Params.Year}}
     <p class="post-meta"><span class="section-meta" style="color:var(--{{.Section}}-h1-a);">{{.Section}}</span><span title="{{.Summary}}">❖</span> <em>{{ if not .Params.nodate }}<span class="post-date">{{ .Date.Format "02/01/2006" }}</span> {{ end }}{{ if not .Params.noread }}<span class="post-reading-time">{{ i18n "readingTime" .ReadingTime }}</span>{{ end }}</em>{{- if .Params.categories -}}<span class="post-categories">{{ $Site := .Site }}{{- range .Params.categories -}}<a class="post-category post-category-{{ . | urlize }}" href="{{ $Site.BaseURL}}categories/{{ . | urlize }}">{{ . }}</a> {{- end -}}</span>{{- end -}} {{- with .Params.Avis -}}{{.}}{{- end -}}</p></div>
