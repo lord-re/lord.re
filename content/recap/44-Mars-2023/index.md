@@ -2,11 +2,10 @@
 Author = "Lord"
 Description = ""
 notoc = true
-draft = true
 WritingDate = 2023-03-26T17:44:17+02:00
 date = 2023-03-26T17:44:17+02:00
 editor = "kakoune"
-title = "Index"
+title = "Récap 44 : Mars 2023"
 +++
 Le monde est de plus en plus déprimant, non ?
 
