@@ -14,7 +14,7 @@ Bon ce morceau arrive un peu en retard mais il est là !
 La troupe de politiciens et une bonne partie des journalistes se plaind du désamour des Français pour les élections et la participation aux élections.
 “Les gens ne croient plus en la démocratie.”
 
-À côté de cela, on a donc un président de la république qui au premier tour n'a réuni que 27.85% des voix et qui passe une réforme des retraites qui selon les sondages est rejetée par 75% des Français et même plus de 90% des actifs.
+À côté de cela, on a donc un président de la république qui au premier tour n'a réuni que ~~27.85% des voix~~ 20% des votants et qui passe une réforme des retraites qui selon les sondages est rejetée par 75% des Français et même plus de 90% des actifs.
 Sans compter le grand classique de l'Assemblée Nationale où des lois sont votées avec moins d'un cinquième de participation.
 
 On reproche aux Français d'avoir de moins en moins la foi envers la démocratie mais à côté de ça, c'est constamment déception sur déception.
