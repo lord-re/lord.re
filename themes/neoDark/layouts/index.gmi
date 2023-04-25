@@ -20,19 +20,19 @@ J'essaye d'écrire régulièrement avec mon orthographe détonnante.
 
 ## 10 Derniers posts en vracs
 {{ range first 10 .Site.RegularPages }}{{ if .OutputFormats.Get "gemini" }}
-=> {{ replace .Permalink "/gemini" "" 1 }} {{ .Date.Format "02/01/2006" }} - [{{ .Section }}] {{ .Title | safeHTML }}{{ end }}{{ end }}
+=> {{ replace .Permalink "/gemini" "" 1 }} {{ .Date.Format "2006-01-02" }} - [{{ .Section }}] {{ .Title | safeHTML }}{{ end }}{{ end }}
 
 ## Du contenu !
 J'organise mon site en différentes sections :
 
-=> gemini://lord.re/posts/ 📕 Les posts qui sont le contenu de base assez varié mais principalement technique
-=> gemini://lord.re/fast-posts/ 📘 Les fasts posts sont plus courts et souvent en réaction à un truc d'actualité
-=> gemini://lord.re/shares/ 📙 Les partages où je parle généralement de choses à vous partager comme un jeu, un site, une demo
-=> gemini://lord.re/ideas/ 🧌 Des idées de merdes ou pas trop qui me trotte dans la tête
-=> gemini://lord.re/recap/ 🗓️ Les récaps mensuels où je tente de faire un ptit bilan du mois passé
-=> gemini://lord.re/visionnages/ 🎥 Mes visonnages où je note un peu ce qui me passe par la tête concernant les films que je regarde
+=> gemini://lord.re/posts 📕 Les posts qui sont le contenu de base assez varié mais principalement technique
+=> gemini://lord.re/fast-posts 📘 Les fasts posts sont plus courts et souvent en réaction à un truc d'actualité
+=> gemini://lord.re/shares 📙 Les partages où je parle généralement de choses à vous partager comme un jeu, un site, une demo
+=> gemini://lord.re/ideas 🧌 Des idées de merdes ou pas trop qui me trotte dans la tête
+=> gemini://lord.re/recap 🗓️ Les récaps mensuels où je tente de faire un ptit bilan du mois passé
+=> gemini://lord.re/visionnages 🎥 Mes visonnages où je note un peu ce qui me passe par la tête concernant les films que je regarde
 
-=> gemini://lord.re/archives/ 📚 La totale de tout cela en vrac mais par ordre chronologique
+=> gemini://lord.re/archives 📚 La totale de tout cela en vrac mais par ordre chronologique
 
 ## Glog
 Le contenu existe également sur mon site ouaib mais si vous êtes là c'est très probablement que vous croyez en ce nouvel espace qu'est le geminispace.
