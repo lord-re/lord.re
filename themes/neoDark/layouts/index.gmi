@@ -20,7 +20,7 @@ J'essaye d'écrire régulièrement avec mon orthographe détonnante.
 
 ## 10 Derniers posts en vracs
 {{ range first 10 .Site.RegularPages }}{{ if .OutputFormats.Get "gemini" }}
-=> {{ replace .Permalink "/gemini" "" 1 }} {{ .Date.Format "02/01/06" }} - [{{ .Section }}] {{ .Title | safeHTML }}{{ end }}{{ end }}
+=> {{ replace .Permalink "/gemini" "" 1 }} {{ .Date.Format "02/01/2006" }} - [{{ .Section }}] {{ .Title | safeHTML }}{{ end }}{{ end }}
 
 ## Du contenu !
 J'organise mon site en différentes sections :
