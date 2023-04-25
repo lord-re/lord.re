@@ -1,0 +1,11 @@
+# /home/lord/glog
+
+## Section : {{ .Section }}
+
+{{- $prev :=2100 -}}
+{{ range .RegularPages }}{{ if .OutputFormats.Get "gemini" }}{{ if .Date }}{{ if gt $prev (.Date.Format "2006") }}
+
+### {{ .Date.Format "2006" }}
+{{ end }}
+=> {{ replace .Permalink "/gemini" "" 1 }} [{{ .Date.Format "02/01/06" }}] [{{ .Section }}] {{ .Title | safeHTML }}{{ end }}{{ end }}{{ $prev = .Date.Format "2006" }}{{end}}
+

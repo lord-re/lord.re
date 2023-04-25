@@ -1,12 +1,46 @@
+   -----------------------------------------------------------------------
+   --LLL--------------OOOOO-----------RRRRRRRRRRRR---------DDDDDDDDDD-----
+   --LLL------------OOO---OOO---------RRRRRRRRRRRRR---------DDD----DDD----
+   --LLL-----------OOO-----OOO--------RRR-------RRR---------DDD------DDD--
+   --LLL-----------OOO-----OOO--------RRRRRRRRRRRRR---------DDD------DDD--
+   --LLL-----------OOO-----OOO--------RRRRRRRRRRR-----------DDD------DDD--
+   --LLLLLLLL-------OOO---OOO---------RRR------RRR----------DDD----DDD----
+   --LLLLLLLL---------OOOOO-----------RRR-------RRR--------DDDDDDDDDD-----
+   -----------------------------------------------------------------------
+
 # /home/lord/glog
 
 Bienvenue sur mon glog perso.
 C'est à peu près comme mon blog mais en plus léger !
 
-{{ $prev :=2100 }}
+Je cause principalement de Linux, de Films, d'Internet et de deux trois trucs persos.
+Vous pouvez me retrouver sur IRC (lord sur Geeknode ou Libera notamment) ou bien le fediverse ( @lord@pleroma.lord.re ).
 
-{{ range .Site.RegularPages }}{{- if .OutputFormats.Get "gemini" }}{{ if .Date}}{{ if gt $prev (.Date.Format "2006") }}
+J'essaye d'écrire régulièrement avec mon orthographe détonnante.
 
-## {{ .Date.Format "2006" }}
-{{ end}}
-=> {{ replace .Permalink "/gemini" "" 1 }} [{{ .Date.Format "02/01/06" }}] [{{ .Section }}] {{ .Title | safeHTML }}{{ end }}{{ end }}{{ $prev = .Date.Format "2006" }}{{end}}
+## 10 Derniers posts en vracs
+{{ range first 10 .Site.RegularPages }}{{ if .OutputFormats.Get "gemini" }}
+=> {{ replace .Permalink "/gemini" "" 1 }} {{ .Date.Format "02/01/06" }} - [{{ .Section }}] {{ .Title | safeHTML }}{{ end }}{{ end }}
+
+## Du contenu !
+J'organise mon site en différentes sections :
+
+=> gemini://lord.re/posts/ 📕 Les posts qui sont le contenu de base assez varié mais principalement technique
+=> gemini://lord.re/fast-posts/ 📘 Les fasts posts sont plus courts et souvent en réaction à un truc d'actualité
+=> gemini://lord.re/shares/ 📙 Les partages où je parle généralement de choses à vous partager comme un jeu, un site, une demo
+=> gemini://lord.re/ideas/ 🧌 Des idées de merdes ou pas trop qui me trotte dans la tête
+=> gemini://lord.re/recap/ 🗓️ Les récaps mensuels où je tente de faire un ptit bilan du mois passé
+=> gemini://lord.re/visionnages/ 🎥 Mes visonnages où je note un peu ce qui me passe par la tête concernant les films que je regarde
+
+=> gemini://lord.re/archives/ 📚 La totale de tout cela en vrac mais par ordre chronologique
+
+## Glog
+Le contenu existe également sur mon site ouaib mais si vous êtes là c'est très probablement que vous croyez en ce nouvel espace qu'est le geminispace.
+Espérons que ça restera ce lieu calme loin de tout tracking, js, esprit mercantile…
+Bref, un havre de paix où le contenu est roi !
+
+## Sous le capot
+La capsule est générée directement à partir des sources de mon blog.
+Hugo génère à la fois du HTML et du GMI et je ne vous cache pas que c'est un peu du bricolage quand même.
+Certaines pages du blog utilise des fonctionnalités spécifigues au HTML qui passe pas vraiment via gemini.
+Du coup le rendu de certaines pages peut être dégueulasse, désolé.
