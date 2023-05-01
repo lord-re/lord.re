@@ -91,3 +91,14 @@ Une sélection d'articles passés toujours pertinents.
 
   - [Le fonctionnement d'un switch réseau]({{< ref "posts/189-fonctionnement-switch" >}})
   - [Scripter une session Tmux]({{< ref "posts/190-scripter-une-session-tmux" >}})
+  - [Guide d'utilisation de Pleroma]({{< ref "posts/211-guide-pour-utiliser-pleroma" >}})
+
+## 2021
+
+  - [Weechat et les caps]({{< ref "/posts/217-irc-backlog-caps" >}})
+  - [Foot : mon nouveau terminal]({{< ref "/posts/218-foot-:-mon-nouveau-terminal" >}})
+  - [La débacle Freenode]({{< ref "/posts/220-la-débacle-freenode" >}})
+
+## 2022
+
+
