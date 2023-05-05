@@ -436,3 +436,17 @@ summary:hover, summary:focus{
 .svg3{
  width:0.9em;
 }
+#banderolle{
+ opacity:80%;
+ background:#111;
+ margin:2em;
+ padding:0.4em;
+ width:26em;
+ text-align:center;
+ z-index:100;
+ position:fixed;
+ transform:rotate(40deg);
+ top:1.8em;
+ right:-10em;
+ box-shadow:0 0 1em 0.3em rgba(0,0,0,0.4);
+}
