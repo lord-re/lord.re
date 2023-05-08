@@ -444,7 +444,7 @@ summary:hover, summary:focus{
  width:26em;
  text-align:center;
  z-index:100;
- position:fixed;
+ position:absolute;
  transform:rotate(40deg);
  top:1.8em;
  right:-10em;
