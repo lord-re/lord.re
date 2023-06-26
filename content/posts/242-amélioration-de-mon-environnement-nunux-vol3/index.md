@@ -71,7 +71,7 @@ C'est un peu du json mais plus agréable à écrire et lire à mon goût.
 
 On commence par définir les options globales de la barre :
 
-<details open><summary>extrait de ~/.config/yambar/config.xml</summary>
+<details open><summary>extrait de ~/.config/yambar/config.yml</summary>
 
 {{< highlight "yaml">}}
 bar:
@@ -101,7 +101,7 @@ Vous verrez que je me suis inspiré d'extraits qu'on trouve à droite à gauche 
 Alors oui il s'apelle i3 mais fonctionne parfaitement avec sway.
 C'est grâce à lui que j'utilise **yambar** au lieu de **swaybar** même si au final il est assez simple.
 
-<details open><summary>extrait de ~/.config/yambar/config.xml</summary>
+<details open><summary>extrait de ~/.config/yambar/config.yml</summary>
 
 {{< highlight "yaml">}}
   left:
@@ -159,7 +159,7 @@ Non je ne vous montre toujours pas le résultat :-þ
 
 Bref, maintenant au milieu je veux afficher la musique qui tourne dans **mpd**.
 
-<details open><summary>extrait de ~/.config/yambar/config.xml</summary>
+<details open><summary>extrait de ~/.config/yambar/config.yml</summary>
 {{< highlight "yaml">}}
   center:
     - mpd:
@@ -232,7 +232,7 @@ Ce qui au début me semblait comme un défaut, au final ne me gêne pas du tout.
 ### Module pipewire
 Bon alors là je me suis pas fait chier j'ai repompé ce que j'ai trouvé sur le web.
 
-<details open><summary>extrait de ~/.config/yambar/config.xml</summary>
+<details open><summary>extrait de ~/.config/yambar/config.yml</summary>
 {{< highlight "yaml">}}
  right:
     - pipewire:
@@ -284,7 +284,7 @@ Bon on approche du bout, vous allez bientôt voir le résultat !
 
 ### Module clock
 
-<details open><summary>extrait de ~/.config/yambar/config.xml</summary>
+<details open><summary>extrait de ~/.config/yambar/config.yml</summary>
 {{< highlight "yaml">}}
     - clock:
         date-format: "%d/%m"
