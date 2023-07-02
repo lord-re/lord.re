@@ -31,8 +31,8 @@ J'ai pété mon record de visites ce mois-ci grâce aux articles sur le Fedivers
   - [The Super Mario Bros Movie]({{< ref "visionnages/the-super-mario-bros-movie" >}})
   - [Renfield]({{< ref "visionnages/renfield" >}})
   - [Thelma & Louise]({{< ref "visionnages/thelma-et-louise" >}})
-  - [The Last Starfighter]({{< ref "visionnages/the-last-starfighter/"" >}})
-  - [Metropolis]({{< ref "visionnages/metropolis/" >}})
+  - [The Last Starfighter]({{< ref "visionnages/the-last-starfighter" >}})
+  - [Metropolis]({{< ref "visionnages/metropolis" >}})
 
 ## Musique
 ### Hellfest
