@@ -13,7 +13,7 @@ Actors = ["Lance Guest","Dan O'Herlihy","Catherine Mary Stewart"]
 RssTag = ["visionnage"]
 title = "The Last Starfighter"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
-Avis = ["ceel"]
+Avis = ["cool"]
 TopWords=["espace","dogfight","invasion","alien","80s"]
 +++
 ## Histoire :
