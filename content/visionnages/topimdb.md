@@ -23,7 +23,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
   - Au 31 Décembre 2021 : J'en ai déjà vu 68/250
   - Au 31 Décembre 2022 : J'en ai déjà vu 108/250
 
-<progress value="127" max="250">/</progress>
+<progress value="128" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -57,7 +57,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 30. [Parasite (2019)]({{< ref "../visionnages/Parasite/">}})	8.5	 	
 31. [Léon: The Professional (1994)]({{< ref "../visionnages/Léon/" >}})	8.5	 	
 32. [The Usual Suspects (1995)]({{< ref "../visionnages/The-Usual-Suspects" >}})	8.5	 	
-33. Hara-Kiri (1962)	8.5	 	
+33. [Hara-Kiri (1962)]({{< ref "../visionnages/harakiri" >}})	8.5	 	
 34. The Lion King (1994)	8.5	 	
 35. [The Pianist (2002)]({{< ref "../visionnages/The-Pianist" >}})	8.5	 	
 36. [Back to the Future (1985)]({{< ref "../visionnages/back-to-the-future" >}})	8.5	 	
