@@ -21,6 +21,8 @@ You can reuse it, and if you do i'll gladly take a look at your website, don't h
   --strong:#a8a;
   --kbd-samp:#fca;
   --tr-even:#333;
+  --header-bg:#222;
+  --sous-titre:#ffb700;
 }
 @media screen and (prefers-color-scheme: light){
   :root{
@@ -41,6 +43,8 @@ You can reuse it, and if you do i'll gladly take a look at your website, don't h
     --strong:#7b56d2;
     --kbd-samp:#fff;
     --tr-even:#ccc;
+    --header-bg:#ddd;
+    --sous-titre:#22f;
   }
 }
 *{
@@ -217,7 +221,7 @@ ol li,ul li{
  padding-top:0.4rem;
  margin-left:2rem;
 }
-section p{
+article p{
  padding-top:1rem;
 }
 em{
@@ -295,7 +299,12 @@ td{
  padding:0.3rem;
 }
 header{
- margin:2rem;
+ padding:2rem;
+ background-color:var(--header-bg);
+}
+header .sous-titre{
+ text-align:right;
+ color:var(--sous-titre);
 }
 footer{
  margin-top:1rem;
@@ -435,4 +444,7 @@ summary:hover, summary:focus{
 }
 .svg3{
  width:0.9em;
+}
+audio{
+ width:100%;
 }
