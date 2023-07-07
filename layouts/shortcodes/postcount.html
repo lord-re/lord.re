@@ -1,0 +1,1 @@
+{{ with .Get "type" }}{{ len (where site.RegularPages "Type" .) }}{{ else }}{{ len site.RegularPages }}{{ end }}
