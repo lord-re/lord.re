@@ -68,7 +68,7 @@ paginate = 20
 [outputs]
   home = ["json","html","rss","gemini"]
   page = ["html","gemini"]
-  section = ["html","gemini"]
+  section = ["html","gemini","rss"]
 
 [mediaTypes]
   [mediaTypes."text/gemini"]
