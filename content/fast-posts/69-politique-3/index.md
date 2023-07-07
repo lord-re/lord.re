@@ -108,7 +108,7 @@ Et non même sa mort suite à un tir d'un flic n'aura aucune conséquence !
 *Comment ne pas enrager en voyant tout cela ?*
 Impossible de rester de marbre, impossible de ne pas avoir de haine envers ce gouvernement qui ne sait plus tenir ses chiens de garde, impossible de continuer à respecter les forces de l'ordre.
 **Voilà ce qui m'a radicalisé : le pouvoir en place qui agit en toute impunité en mentant continuellement et en opprimant son peuple**.
-La justice qui devrait être un conte-pouvoir est impuissante, trop lente, dépendante des flics eux-mêmes.
+La justice qui devrait être un contre-pouvoir est impuissante, trop lente, dépendante des flics eux-mêmes.
 Aucune autorité supérieure n'a d'emprise non plus (ONU, Union Européenne, quelconque ONG…).
 
 Ma radicalisation ne provient pas de discours d'un quelconque gourou.
