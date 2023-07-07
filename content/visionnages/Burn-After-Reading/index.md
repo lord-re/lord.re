@@ -16,6 +16,7 @@ Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfa
 Avis = ["cool"] 
 TopWords=["CIA","umbroglio","gym","comédie","enquête","meurtre"]
 Audio = "audio.opus"
+Soustitre = "Méprises multiples"
 +++
 ## Histoire : 
 *Ozzy* bosse à la CIA mais visiblement son alcoolisme devient problèmatique et est donc mis au placard.
