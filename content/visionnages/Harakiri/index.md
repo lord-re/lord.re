@@ -15,6 +15,7 @@ title = "Harakiri"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
 TopWords=["japon","samurai","noir & blanc","honneur","suicide","manipulation","revanche","vengeance","médiéval"]
+Audio = "audio.opus"
 +++
 ## Histoire : 
 *Hanshiro Tsugumo* est un ronin qui se rend chez le clan li afin d'accomplir le rituel du Harakiri : le suicide par éventration.
