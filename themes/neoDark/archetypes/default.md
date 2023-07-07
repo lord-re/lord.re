@@ -8,5 +8,7 @@ draft = true
 WritingDate = {{ .Date }}
 date = {{ .Date }}
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
-editor = ""
+editor = "helix"
+Audio = ""
+Soustitre = ""
 +++

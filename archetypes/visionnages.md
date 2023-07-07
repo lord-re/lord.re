@@ -4,7 +4,7 @@ Description = ""
 notoc = true
 VisionnageDate = ["{{ .Date }}",""]
 date = {{ .Date }}
-editor = "kakoune"
+editor = "helix"
 Wikipedia = ""
 Imdb = ""
 year = [""]
@@ -16,6 +16,8 @@ Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfa
 Avis = [""] 
 Saga = [""]
 TopWords=["",""]
+Audio = ""
+Soustitre = ""
 +++
 ## Histoire : 
 
