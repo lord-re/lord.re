@@ -14,6 +14,8 @@
           {{ if .Params.categories }}<span class="post-categories">{{ $Site := .Site }}{{ range .Params.categories }}<a class="post-category post-category-{{ . | urlize }}" href="{{ $Site.BaseURL}}categories/{{ . | urlize }}">{{ . }}</a> {{ end }}</span>{{ end }}
           {{ if .Params.lastEdit }}<span class="post-edit-date">Dernière mise à jour le : {{ dateFormat "02/01/2006" .Params.lastEdit }}</span>{{ end }}
         </p>
+        {{- with .Params.Soustitre -}}<p class="sous-titre">{{ . }}</p>{{- end -}}
+        {{- with .Params.Audio -}}<audio controls preload="metadata"><p>Enregistrement audio de l'article.</p><source src="{{.}}" type="audio/opus"></audio>{{- end -}}
       </header>
       <article>
         {{ .Content }}
