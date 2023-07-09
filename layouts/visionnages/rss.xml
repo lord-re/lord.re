@@ -1,3 +1,6 @@
+{{- /* Ce fichier est uniquement pour le flux RSS des visionnages */ -}}
+{{ (printf "<?xml version = \"1.0\" encoding=\"UTF-8\"?>") | safeHTML }}
+{{ (printf "<?xml-stylesheet href=\"%scss/rss.xsl\" type=\"text/xsl\"?>" .Site.BaseURL) | safeHTML }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }} [VISIONNAGES]</title>
