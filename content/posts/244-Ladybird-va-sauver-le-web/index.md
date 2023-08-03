@@ -107,7 +107,7 @@ Apple malgré ses parts de marché dérisoires sur les ordinateurs parviennent f
 Ce qui à première vue semblait une décision à l'encontre de ses consommateurs et au final l'un des plus gros contre-pouvoirs face à l'hégémonie de Google sur le web.
 Parceque oui *les millions d'utilisateurs d'iTrucs sont une cible marketing que le web commercial ne peut snober*.
 
-Le nouveau délire qu'est **WEI** est la goutte de trop et je pense qu'il devient de plus en plus important de se séparer de combattre l'emprise de Google sur le web.
+Le nouveau délire qu'est **WEI** est la goutte de trop et je pense qu'il devient de plus en plus important de combattre l'emprise de Google sur le web.
 Mais du coup c'est pas juste de Chrome dont il faut s'éloigner mais également tous les navigateurs bâtis sur les fondations de Chromium.
 Ça inclue donc la très grande majorité des navigateurs sauf **Safari** et **Firefox** (et leurs rares dérivés).
 
@@ -170,7 +170,7 @@ La quantité de code est bien moindre que les autres ce qui est bien moins intim
 ### Dépasser Serenity avec Ladybird
 SerenityOS c'est cool (j'ai pas testé et ça ne m'intéresse guère je dois l'avouer) mais bon ça me fait une belle jambe d'avoir un nouveau navigateur sur cette plateforme.
 C'est là que **Ladybird** entre en jeu : c'est un portage sur les autres OS !
-Il y a une fine couche de Qt6 pour ajouter de l'UI et hop et geré l'aspect réseau pour le moment.
+Il y a une fine couche de Qt6 pour ajouter de l'UI et gérer l'aspect réseau pour le moment.
 
 Bon bha du coup *c'est utilisable ou au moins testable sous Linux !*
 Allez hop je dégaine le compilo !
