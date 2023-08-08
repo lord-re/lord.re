@@ -448,3 +448,10 @@ summary:hover, summary:focus{
 audio{
  width:100%;
 }
+.paragraph-icon{
+ font-size:1rem;
+ opacity:0.5;
+}
+.paragraph-icon:hover, .paragraph-icon:focus{
+ opacity:1;
+}
