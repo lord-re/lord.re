@@ -23,7 +23,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
   - Au 31 Décembre 2021 : J'en ai déjà vu 68/250
   - Au 31 Décembre 2022 : J'en ai déjà vu 108/250
 
-<progress value="128" max="250">/</progress>
+<progress value="129" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -215,7 +215,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 188. [Mary and Max (2009)]({{< ref "../visionnages/Mary-And-Max/" >}})	8.1	 	
 189. Gone Girl (2014)	8.1	 	
 190. The Grand Budapest Hotel (2014)	8.1	 	
-191. Before Sunrise (1995)	8.1	 	
+191. [Before Sunrise (1995)]({{< ref "../visionnages/Before-Sunrise" >}})	8.1	 	
 192. Hacksaw Ridge (2016)	8.1	 	
 193. Catch Me If You Can (2002)	8.1	 	
 194. Andhadhun (2018)	8.1	 	
