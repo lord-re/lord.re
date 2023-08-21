@@ -50,7 +50,7 @@ C'est assez marrant même si au final… bha … ça n'apporte pas grand-chose.
 Je trouve le concept assez peu utilisé dans le scénar.
 Les personnages sont là, ils coopèrent un peu mais c'est à peu près tout.
 
-C'est dommage, qu'un film qui est "into the Spider-verse" n'aille pas DANS le fediverse.
+C'est dommage, qu'un film qui est "into the Spider-verse" n'aille pas DANS le <abbr title="j'avais écrit fediverse, merci LeJun pour la remarque ;-)">spiderverse</abbr>.
 C'est juste des personnages du spiderverse qui viennent dans "le monde normal".
 Un peu frustrant.
 
