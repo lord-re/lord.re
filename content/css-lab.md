@@ -85,3 +85,13 @@ Une ptite page avec quelques expérimentations CSS
 {{< / highlight >}}
 </details>
 
+<details><summary>Border conic gradient
+<div style="display:grid;place-content:center;">
+  <div style="padding:5rem;background:#222;border:3rem solid;border-image-slice:1;border-image-source:conic-gradient(#cac,#99c3d1,#ffa,#aff,#9cD256,#d25656,#cac);">Malheureusement pas de border-radius. Il est possible de l'animer en changeant l'angle !</div>
+</div></summary>
+
+{{< highlight html >}}
+<div style="display:grid;place-content:center;">
+  <div style="padding:5rem;background:#222;border:3rem solid;border-image-slice:1;border-image-source:conic-gradient(#cac,#99c3d1,#ffa,#aff,#9cD256,#d25656,#cac);">Malheureusement pas de border-radius. Il est possible de l'animer en changeant l'angle !</div>
+{{< / highlight >}}
+</details>
