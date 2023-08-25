@@ -23,7 +23,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
   - Au 31 Décembre 2021 : J'en ai déjà vu 68/250
   - Au 31 Décembre 2022 : J'en ai déjà vu 108/250
 
-<progress value="131" max="250">/</progress>
+<progress value="132" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -200,7 +200,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 173. [Stalker (1979)]({{< ref "../visionnages/Stalker" >}})	8.1	 	
 174. Blade Runner (1982)	8.1	 	
 175. Kill Bill: Vol. 1 (2003)	8.1	 	
-176. Memories of Murder (2003)	8.1	 	
+176. [Memories of Murder (2003)]({{< ref "../visionnages/Memories-of-Murder" >}})	8.1	 	
 177. The Bridge on the River Kwai (1957)	8.1	 	
 178. [Fargo (1996)]({{< ref "../visionnages/Fargo/" >}})	8.1	 	
 179. Room (2015)	8.1	 	
