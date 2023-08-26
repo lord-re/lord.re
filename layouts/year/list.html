@@ -4,7 +4,7 @@
 	<a href="#content" title="{{ i18n "skip_content"}}" class="sr-only"></a>
 {{ partialCached "sidebar.html" . }}
     <main id="content">
-      <div class="{{.Type}}" style="padding:1rem;"><h1><a>Classement par année</a></h1>
+      <div class="{{.Type}}" style="padding:1rem;"><h1><a>Films de {{.Title}}</a></h1>
 {{.Content}}
       </div>
 {{ range sort .Pages "Title" "desc"}}
