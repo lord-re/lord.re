@@ -74,6 +74,7 @@ nav{
 main{
  grid-area:b;
  padding:0.5rem;
+ margin:1rem;
  justify-self:center;
 }
 .blogroll{
@@ -394,51 +395,6 @@ summary:hover, summary:focus{
  0%{   transform:rotate(0 turn);}
  100%{ transform:rotate(1turn);}
 }
-.webring{
- color:var(--default-color);
- padding:1ch;
-}
-.webring h1{
- text-align:center;
-}
-.webring .articles{
- display: flex;
- flex-direction:column;
-}
-.webring .title{
- padding:0;
- font-size:1.2em;
-}
-.webring .article:nth-child(1) a{
- color:hsl(0,58%,58%);
-}
-.webring .article:nth-child(2) a{
- color:var(--shares-h1-a);
-}
-.webring .article:nth-child(3) a{
- color:var(--recap-h1-a);
-}
-.webring .article:nth-child(4) a{
- color:var(--ideas-h1-a);
-}
-.webring .article:nth-child(5) a{
- color:var(--fast-posts-h1-a);
-}
-.webring .article:nth-child(6) a{
- color:var(--category);
-}
-.webring .article{
- padding: 0.5rem;
- border-bottom:1px solid #555;
-}
-.webring .summary{
- font-size:0.7rem;
- line-height:1.1rem;
-}
-.webring .attribution{
- text-align:right;
- font-size: 0.6rem;
-}
 .svg2{
  width:2em;
 }
@@ -454,4 +410,7 @@ audio{
 }
 .paragraph-icon:hover, .paragraph-icon:focus{
  opacity:1;
+}
+.brand-title img{
+ width:2em;
 }

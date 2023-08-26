@@ -1,17 +1,22 @@
 {{ $prev :=2100}}{{ partial "header.html" . }}
-{{ `<!-- layouts/archives/list.html -->` | safeHTML}}
+{{ `<!-- layouts/directors/list.html -->` | safeHTML}}
 <body>
 	<a href="#content" title="{{ i18n "skip_content"}}" class="sr-only"></a>
 {{ partialCached "sidebar.html" . }}
     <main id="content">
-{{ range where .Site.Pages "Section" "in" .Site.Params.sectionsInHomepage }}
-{{if .Date}} {{ if ne  $prev (.Date.Format "1") }} <br><h1>{{.Date.Format "01 / 2006" }}</h1><hr>{{end}} {{ $prev = .Date.Format "1" }}{{end}}
-    <div><a href="{{.RelPermalink}}" style="color:var(--{{.Section}}-h1-a);">{{.Title}}</a>  
+      <div class="{{.Type}}" style="padding:1rem;">
+      </div>
+<h2>{{ .Title }}</h2>
+{{- .Content -}}
+{{ range .Pages.ByTitle }}
+  <h3><a href="{{ .Permalink }}">{{ .Title }}</a> - {{ .Params.Year }} {{ with len .RegularPages }}({{.}}){{ end }}</h3>
+  {{- range .RegularPages -}}
+    <div><a href="{{.RelPermalink}}" style="color:var(--{{.Section}}-h1-a);">{{.Title}}</a> {{.Params.Year}}
     <p class="post-meta"><span class="section-meta" style="color:var(--{{.Section}}-h1-a);">{{.Section}}</span><span title="{{.Summary}}">❖</span> <em>{{ if not .Params.nodate }}<span class="post-date">{{ .Date.Format "02/01/2006" }}</span> {{ end }}{{ if not .Params.noread }}<span class="post-reading-time">{{ i18n "readingTime" .ReadingTime }}</span>{{ end }}</em>{{ if .Params.categories }}<span class="post-categories">{{ $Site := .Site }}{{ range .Params.categories }}<a class="post-category post-category-{{ . | urlize }}" href="{{ $Site.BaseURL}}categories/{{ . | urlize }}">{{ . }}</a> {{ end }}</span>{{ end }} {{with .Params.Avis}}{{.}}{{end}}</p></div>
+  {{- end -}}
 {{ end }}
+
     </main>
-{{/*{{ partial "openring.html" . }}*/}}
-  <iframe class="blogroll" src="{{.Site.BaseURL}}blogroll" style="width:20ch;height:100ch;border:none;">
   </div>
 </body>
 </html>

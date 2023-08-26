@@ -4,11 +4,14 @@
 	<a href="#content" title="{{ i18n "skip_content"}}" class="sr-only"></a>
 {{ partialCached "sidebar.html" . }}
     <main id="content">
-      <div class="{{.Type}}" style="padding:1rem;"><h1><a>Films de {{.Title}}</a></h1>
+      <div class="{{.Type}}" style="padding:1rem;">
+         {{if ne (len .RegularPages) 0}}<h1>Films de {{.Title}} - ({{len .RegularPages}})</h1><a href="{{.Site.BaseURL}}/year">voir toutes les années</a></p>
+         {{else}}<h1>Classement des films par année</h1>{{end}}
+          
 {{.Content}}
       </div>
 {{ range sort .Pages "Title" "desc"}}
-    <div><a href="{{.RelPermalink}}" style="color:var(--{{.Section}}-h1-a);">{{.Title}}</a>  
+    <div><a href="{{.RelPermalink}}" style="color:var(--{{.Section}}-h1-a);">{{.Title}}{{if ne (len .RegularPages) 0 }} - ({{len .RegularPages}}){{end}}</a>  
     <p class="post-meta"><span class="section-meta" style="color:var(--{{.Section}}-h1-a);">{{.Section}}</span><span title="{{.Summary}}">❖</span> <em>{{ if not .Params.nodate }}<span class="post-date">{{ .Date.Format "02/01/2006" }}</span> {{ end }}{{ if not .Params.noread }}<span class="post-reading-time">{{ i18n "readingTime" .ReadingTime }}</span>{{ end }}</em>{{ if .Params.categories }}<span class="post-categories">{{ $Site := .Site }}{{ range .Params.categories }}<a class="post-category post-category-{{ . | urlize }}" href="{{ $Site.BaseURL}}categories/{{ . | urlize }}">{{ . }}</a> {{ end }}</span>{{ end }} {{with .Params.Avis}}{{.}}{{end}}</p></div>
 <hr>
 {{ end }}
