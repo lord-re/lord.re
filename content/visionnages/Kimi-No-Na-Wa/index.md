@@ -14,7 +14,7 @@ RssTag = ["visionnage"]
 title = "Your Name"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
-TopWords=["comète","météorite","impact","échange","parallèle","possession"]
+TopWords=["comète","météorite","impact","échange","parallèle","possession","animé"]
 +++
 ## Histoire :
 On suit deux personnages différents : une lycéenne dans une ptite ville de la campagne japonaise et un lycéen tokyoïte.

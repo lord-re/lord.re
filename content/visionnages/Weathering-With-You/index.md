@@ -14,7 +14,7 @@ RssTag = ["visionnage"]
 title = "Weathering With You"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
-TopWords=["météo","surnaturel","tokyo","japon","pluie","magie"]
+TopWords=["météo","surnaturel","tokyo","japon","pluie","magie","animé"]
 +++
 
 ## Histoire : 
