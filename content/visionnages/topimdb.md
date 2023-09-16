@@ -23,7 +23,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
   - Au 31 Décembre 2021 : J'en ai déjà vu 68/250
   - Au 31 Décembre 2022 : J'en ai déjà vu 108/250
 
-<progress value="135" max="250">/</progress>
+<progress value="136" max="250">/</progress>
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -239,7 +239,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 212. [Stand by Me (1986)]({{< ref "../visionnages/Stand-By-Me/" >}})	8.1	 	
 213. Ben-Hur (1959)	8.1	 	
 214. Harry Potter and the Deathly Hallows: Part 2 (2011)	8.1	 	
-215. Cool Hand Luke (1967)	8.1	 	
+215. [Cool Hand Luke (1967)]({{< ref "../visionnages/cool-hand-luke" >}})	8.1	 	
 216. [Hachi: A Dog's Tale (2009)]({{< ref "../visionnages/Hachi-:-a-dog-tale" >}})	8.1	 	
 217. Platoon (1986)	8.1	 	
 218. [Logan (2017)]({{< ref "../visionnages/Logan/" >}})	8.0	 	
