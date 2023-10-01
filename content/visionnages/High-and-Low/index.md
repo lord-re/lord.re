@@ -2,7 +2,7 @@
 Author = "Lord"
 Description = ""
 notoc = true
-VisionnageDate = ["2023-00-30",""]
+VisionnageDate = ["2023-09-30",""]
 date = 2023-10-01T09:36:10+02:00
 editor = "helix"
 Wikipedia = "https://fr.wikipedia.org/wiki/Entre_le_ciel_et_l%27enfer"
