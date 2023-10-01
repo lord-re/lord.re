@@ -23,7 +23,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
   - Au 31 Décembre 2021 : J'en ai déjà vu 68/250
   - Au 31 Décembre 2022 : J'en ai déjà vu 108/250
 
-<progress value="140" max="250">/</progress>
+## 141/250
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -107,7 +107,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 80. [3 Idiots (2009)]({{< ref "../visionnages/3-Idiots" >}})	8.3	 	
 81. Toy Story (1995)	8.3	 	
 82. Capernaum (2018)	8.3	 	
-83. High and Low (1963)	8.3	 	
+83. [High and Low (1963)]({{< ref "../visionnages/high-and-low/" >}})	8.3	 	
 84. [Amadeus (1984)]({{< ref "../visionnages/Amadeus/" >}})	8.3	 	
 85. Inglourious Basterds (2009)	8.3	 	
 86. [Star Wars: Episode VI - Return of the Jedi (1983)]({{< ref "../visionnages/Star-Wars-6/" >}})	8.3	 	
