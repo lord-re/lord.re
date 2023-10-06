@@ -23,7 +23,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
   - Au 31 Décembre 2021 : J'en ai déjà vu 68/250
   - Au 31 Décembre 2022 : J'en ai déjà vu 108/250
 
-## 143/250
+## 144/250
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -124,7 +124,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 97. Dangal (2016)	8.3	 	
 98. [Full Metal Jacket (1987)]({{< ref "../visionnages/Full-Metal-Jacket" >}})	8.2	 	
 99. [Singin' in the Rain (1952)]({{< ref "../visionnages/singin-in-the-rain" >}})	8.2	 	
-100. Bicycle Thieves (1948)	8.2	 	
+100. [Bicycle Thieves (1948)]({{< ref "../visionnages/bicycle-thieves" >}})	8.2	 	
 101. The Kid (1921)	8.2	 	
 102. [1917 (2019)]({{< ref "../visionnages/1917" >}})	8.2	 	
 103. [North by Northwest (1959)]({{< ref "../visionnages/north-by-northwest" >}})	8.2	 	
