@@ -23,7 +23,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
   - Au 31 Décembre 2021 : J'en ai déjà vu 68/250
   - Au 31 Décembre 2022 : J'en ai déjà vu 108/250
 
-## 147/250
+## 148/250
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -184,7 +184,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 157. [V for Vendetta (2005)]({{< ref "../visionnages/v-for-vendetta" >}})	8.1	 	
 158. Inside Out (2015)	8.1	 	
 159. [The Seventh Seal (1957)]({{< ref "../visionnages/the-seventh-seal" >}})	8.1	 	
-160. The Elephant Man (1980)	8.1	 	
+160. [The Elephant Man (1980)]({{< ref "../visionnages/elephant-man" >}})	8.1	 	
 161. [Warrior (2011)]({{< ref "../visionnages/Warrior" >}})	8.1	 	
 162. The Thing (1982)	8.1	 	
 163. Soul (2020)	8.1	 	
