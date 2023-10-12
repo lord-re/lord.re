@@ -1,0 +1,12 @@
++++
+Author = "Lord"
+Description = "Aperçu du commit log du site."
+Categories = ["meta","git","blog"]
+notoc = true
+PublishDate = 2023-10-12T14:16:24+01:00
+date = 2023-10-12T14:16:24+01:00
+title = "git log"
+editor = ""
++++
+
+Allez hop vous ne le vouliez pas mais voici le log git de ce site.
