@@ -23,7 +23,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
   - Au 31 Décembre 2021 : J'en ai déjà vu 68/250
   - Au 31 Décembre 2022 : J'en ai déjà vu 108/250
 
-## 149/250
+## 150/250
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -256,7 +256,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 229. Andrei Rublev (1966)	8.0	 	
 230. [Amores Perros (2000)]({{< ref "../visionnages/amores-perros" >}})	8.0	 	
 231. [Rocky (1976)]({{< ref "../visionnages/rocky/" >}})	8.0	 	
-232. Gangs of Wasseypur (2012)	8.0	 	
+232. [Gangs of Wasseypur (2012)]({{< ref "../visionnages/gangs-of-wasseypur">}})	8.0	 	
 233. Monsters, Inc. (2001)	8.0	 	
 234. Nausicaä of the Valley of the Wind (1984)	8.0	 	
 235. Vikram Vedha (2017)	8.0	 	
