@@ -23,7 +23,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
   - Au 31 Décembre 2021 : J'en ai déjà vu 68/250
   - Au 31 Décembre 2022 : J'en ai déjà vu 108/250
 
-## 150/250
+## 151/250
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -196,7 +196,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 169. Gone with the Wind (1939)	8.1	 	
 170. Klaus (2019)	8.1	 	
 171. Finding Nemo (2003)	8.1	 	
-172. Wild Strawberries (1957)	8.1	 	
+172. [Wild Strawberries (1957)]({{< ref "../visionnages/Wild-Strawberries" >}})	8.1	 	
 173. [Stalker (1979)]({{< ref "../visionnages/Stalker" >}})	8.1	 	
 174. Blade Runner (1982)	8.1	 	
 175. Kill Bill: Vol. 1 (2003)	8.1	 	
