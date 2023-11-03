@@ -23,7 +23,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
   - Au 31 Décembre 2021 : J'en ai déjà vu 68/250
   - Au 31 Décembre 2022 : J'en ai déjà vu 108/250
 
-## 153/250
+## 155/250
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -216,7 +216,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 189. Gone Girl (2014)	8.1	 	
 190. The Grand Budapest Hotel (2014)	8.1	 	
 191. [Before Sunrise (1995)]({{< ref "../visionnages/Before-Sunrise" >}})	8.1	 	
-192. Hacksaw Ridge (2016)	8.1	 	
+192. [Hacksaw Ridge (2016)]({{< ref "../visionnages/hacksaw-ridge" >}})	8.1	 	
 193. Catch Me If You Can (2002)	8.1	 	
 194. Andhadhun (2018)	8.1	 	
 195. Persona (1966)	8.1	 	
@@ -241,7 +241,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 214. Harry Potter and the Deathly Hallows: Part 2 (2011)	8.1	 	
 215. [Cool Hand Luke (1967)]({{< ref "../visionnages/cool-hand-luke" >}})	8.1	 	
 216. [Hachi: A Dog's Tale (2009)]({{< ref "../visionnages/Hachi-:-a-dog-tale" >}})	8.1	 	
-217. Platoon (1986)	8.1	 	
+217. [Platoon (1986)]({{< ref "../visionnages/platoon" >}})	8.1	 	
 218. [Logan (2017)]({{< ref "../visionnages/Logan/" >}})	8.0	 	
 219. [Into the Wild (2007)]({{< ref "../visionnages/Into-the-Wild" >}})	8.0	 	
 220. The Handmaiden (2016)	8.0	 	
