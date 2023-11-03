@@ -14,7 +14,7 @@ RssTag = ["visionnage"]
 title = "Saving Private Ryan"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"] 
-TopWords=["guerre","débarquement","sauvetage","seconde guerre mondiale","sniper"]
+TopWords=["guerre","débarquement","sauvetage","seconde guerre mondiale","sniper","ww2"]
 +++
 Allez un bon ptit *Spielberg* des familles !
 
