@@ -23,7 +23,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
   - Au 31 Décembre 2021 : J'en ai déjà vu 68/250
   - Au 31 Décembre 2022 : J'en ai déjà vu 108/250
 
-## 158/250
+## 159/250
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -188,7 +188,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 161. [Warrior (2011)]({{< ref "../visionnages/Warrior" >}})	8.1	 	
 162. The Thing (1982)	8.1	 	
 163. Soul (2020)	8.1	 	
-164. The Sixth Sense (1999)	8.1	 	
+164. [The Sixth Sense (1999)]({{< ref "../visionnages/the-sixth-sense" >}})	8.1	 	
 165. [Trainspotting (1996)]({{< ref "../visionnages/trainspotting" >}})	8.1	 	
 166. Jurassic Park (1993)	8.1	 	
 167. Anand (1971)	8.1	 	
