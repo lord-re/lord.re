@@ -22,7 +22,7 @@ Soustitre = ""
 Un mioche malade à la maison voit son grand-père arriver pour lui lire un bouquin.
 
 Il s'agit d'un roman narrant l'histoire de la *Princesse Buttercup* dont le vrai amour est tué.
-Alors qu'elle accuse le coup, le roi *Humperdinck* la choisie pour devenir sa femme.
+Alors qu'elle accuse le coup, le roi *Humperdinck* la choisie pour devenir sa femme.
 Mais celle-ci est enlevée par des brigands d'une faction enemie.
 
 ## Ressenti :
