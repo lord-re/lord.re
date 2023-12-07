@@ -15,6 +15,9 @@ En bref ce mois-ci : X articles, X commentaires, X visionnages, X requêtes, X v
 
 ## Films
 
+  - []({{< ref "visionnages/" >}})
+  - []({{< ref "visionnages/" >}}) ( [top imdb]({{< ref "visionnages/topimdb" >}})
+ 
 ## Séries
 
 ## Jeux
