@@ -23,8 +23,8 @@ Soustitre = ""
 *Mufasa* le roi lion présente son fils *Simba* à la savane.
 Le lionceau sera le prochain roi du territoire des lions.
 
-Cette nouvelle ne râvie pas spécialement *Scar* le frangin de *Mufasa* qui voit ses chances de reigner diminuer.
-Ce dernier va tenter par malice et fourberie à grimper sur le trône.
+Cette nouvelle ne râvit pas spécialement *Scar* le frangin de *Mufasa* qui voit ses chances de régner diminuer.
+Ce dernier va tenter par malice et fourberie de grimper sur le trône.
 
 ## Ressenti :
 Le dessin animé de Disney qui a tout râflé et qui a permis de bien sortir le studio de la panade.
