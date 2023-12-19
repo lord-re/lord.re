@@ -23,7 +23,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
   - Au 31 Décembre 2021 : J'en ai déjà vu 68/250
   - Au 31 Décembre 2022 : J'en ai déjà vu 108/250
 
-## 163/250
+## 166/250
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -58,7 +58,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 31. [Léon: The Professional (1994)]({{< ref "../visionnages/Léon/" >}})	8.5	 	
 32. [The Usual Suspects (1995)]({{< ref "../visionnages/The-Usual-Suspects" >}})	8.5	 	
 33. [Hara-Kiri (1962)]({{< ref "../visionnages/harakiri" >}})	8.5	 	
-34. The Lion King (1994)	8.5	 	
+34. [The Lion King (1994)]({{< ref "../visionnages/the-lion-king/">}})	8.5	 	
 35. [The Pianist (2002)]({{< ref "../visionnages/The-Pianist" >}})	8.5	 	
 36. [Back to the Future (1985)]({{< ref "../visionnages/back-to-the-future" >}})	8.5	 	
 37. [Terminator 2: Judgment Day (1991)]({{< ref "../visionnages/Terminator-2" >}})	8.5	 	
@@ -88,7 +88,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 61. [Paths of Glory (1957)]({{< ref "../visionnages/paths-of-glory" >}})	8.4	 	
 62. WALL·E (2008)	8.4	 	
 63. [The Shining (1980)]({{< ref "../visionnages/The-Shining/" >}})	8.4	 	
-64. Avengers: Infinity War (2018)	8.4	 	
+64. [Avengers: Infinity War (2018)]({{< ref "../visionnages/Avengers-:-Infinity-War" >}})	8.4	 	
 65. [Sunset Blvd. (1950)]({{< ref "../visionnages/sunset-boulevard/" >}})	8.4	 	
 66. [Witness for the Prosecution (1957)]({{< ref "../visionnages/witness-for-the-prosecution" >}})	8.4	 	
 67. [Oldboy (2003)]({{< ref "../visionnages/oldboy" >}})	8.4	 	
@@ -217,7 +217,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 190. The Grand Budapest Hotel (2014)	8.1	 	
 191. [Before Sunrise (1995)]({{< ref "../visionnages/Before-Sunrise" >}})	8.1	 	
 192. [Hacksaw Ridge (2016)]({{< ref "../visionnages/hacksaw-ridge" >}})	8.1	 	
-193. Catch Me If You Can (2002)	8.1	 	
+193. [Catch Me If You Can (2002)]({{< ref "../visionnages/catch-me-if-you-can" >}})	8.1	 	
 194. Andhadhun (2018)	8.1	 	
 195. Persona (1966)	8.1	 	
 196. [Prisoners (2013)]({{< ref "../visionnages/Prisoners/" >}})	8.1	 	
