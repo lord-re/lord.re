@@ -22,7 +22,7 @@ Soustitre = ""
 ## Histoire : 
 Le capitaine *Frank Dux* a suivi les enseignements de son maître *Senzo Tanaka*.
 Il souhaite lui rendre honneur en allant au Kumite, une compétition underground internationale de baston ayant lieu à Hong-Kong.
-Mais notre les supérieurs du capitaine ne l'entende pas de cette oreille, ce qui le poussera à désobéir pour s'y rendre.
+Mais les supérieurs du capitaine ne l'entendent pas de cette oreille, ce qui le poussera à désobéir pour s'y rendre.
 
 Arrivé sur place il se retrouve à devoir affronter tout un tas de combattants divers et variés.
 Parviendra-t-il à monter dans le classement ?
@@ -32,7 +32,7 @@ Haaa je me suis dit que j'allais me taper ce film et que ça allait être une bo
 Mais je me suis pris au jeu !
 Faut pas être trop trop regardant mais c'est bien moins naze qu'il n'y parait !
 
-C'est LE film qui donner a à *Jean-Claude Van Damme* son premier grand rôle.
+C'est LE film qui a offert à *Jean-Claude Van Damme* son premier grand rôle.
 On le voit donc faire des grands écarts toutes les trente minutes.
 C'est le type cool, qui rigole, ne se prend pas trop au sérieux mais qui combat avec honneur.
 Le ptit gars bien peigné mais avec une musculature en béton couplé à une flexibilité hors du commun.
@@ -40,11 +40,12 @@ Il va tatanner tous ses adversaires.
 
 C'est pas trop mon truc mais franchement c'est prenant quand même.
 Je m'attendais à des affrontements bien plus longs mais au final c'est à chaque fois assez expédié.
-Il n'y a vraiment que le combat final qui lui est bien plus long que les autres.
+Il n'y a vraiment que le combat final qui est bien plus long que les autres.
 
 Le personnage de *Frank Dux* est un vrai soldat américain qui a d'ailleurs participé à l'élaboration du film.
 Et d'ailleurs le kumite est aussi une vraie compétition.
 Du coup, on peut dire que le film est une histoire vraie.
+Mais ça a été révelé bien plus tard que le gars est un gros mytho qui a enjolivé à mort son histoire.
 
 Le film commence très vite par un flashback.
 C'est assez étrange mais au final ça permet de donner un background à notre personnage assez vite sans se faire chier dans des fioritures.
