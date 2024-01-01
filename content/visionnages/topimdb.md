@@ -12,18 +12,19 @@ editor = "kakoune"
 Bon ça fait un moment que ça me démange, j'ai envie de me faire le TOP 250 IMDB des films.
 
 J'en ai déjà vu un paquet mais il m'en manque plein.
-Du coup je vais parfaire ma culture cinématographique cette année.
+Du coup je vais parfaire ma culture cinématographique ~cette année~.
 J'espère parvenir à me procurer tous ces films.
 
 Bon il y a plein de films que j'ai déjà vu avant de commencer à rédiger mes visionnages du coup ça fait plein de trous mais ça me fera une bonne occasion de les rematter.
 
-Par contre certains que je connais et j'aime pas spécialement je pense pas me les refaire (Seigneur des anneaux, Harry Potter…).
+~Par contre certains que je connais et j'aime pas spécialement je pense pas me les refaire (Seigneur des anneaux, Harry Potter…).~
 
   - Au 31 Décembre 2020 : J'en ai déjà vu 18/250
   - Au 31 Décembre 2021 : J'en ai déjà vu 68/250
   - Au 31 Décembre 2022 : J'en ai déjà vu 108/250
+  - Au 31 Décembre 2023 : J'en ai déjà vu 168/250
 
-## 167/250
+## 168/250
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -227,7 +228,7 @@ Par contre certains que je connais et j'aime pas spécialement je pense pas me l
 200. The General (1926)	8.1	 	
 201. How to Train Your Dragon (2010)	8.1	 	
 202. The Bandit (1996)	8.1	 	
-203. Ford v Ferrari (2019)	8.1	 	
+203. [Ford v Ferrari (2019)]({{< ref "../visionnages/ford-v-ferrari" >}})	8.1	 	
 204. 12 Years a Slave (2013)	8.1	 	
 205. [Barry Lyndon (1975)]({{< ref "../visionnages/barry-lyndon" >}})	8.1	 	
 206. Mr. Smith Goes to Washington (1939)	8.1	 	
