@@ -24,7 +24,7 @@ Bon il y a plein de films que j'ai déjà vu avant de commencer à rédiger mes 
   - Au 31 Décembre 2022 : J'en ai déjà vu 108/250
   - Au 31 Décembre 2023 : J'en ai déjà vu 168/250
 
-## 168/250
+## 169/250
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -270,7 +270,7 @@ Bon il y a plein de films que j'ai déjà vu avant de commencer à rédiger mes 
 242. [Paris, Texas (1984)]({{< ref "../visionnages/Paris-texas" >}})	8.0	 	
 243. It Happened One Night (1934)	8.0	 	
 244. The Invisible Guest (2016)	8.0	 	
-245. The Help (2011)	8.0	 	
+245. [The Help (2011)]({{< ref "../visionnages/the-help" >}})	8.0	 	
 246. Drishyam (2015)	8.0	 	
 247. [The Princess Bride (1987)]({{< ref "../visionnages/the-princess-bride" >}})	8.0	 	
 248. The Battle of Algiers (1966)	8.0	 	
