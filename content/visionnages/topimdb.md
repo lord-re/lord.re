@@ -24,7 +24,7 @@ Bon il y a plein de films que j'ai déjà vu avant de commencer à rédiger mes 
   - Au 31 Décembre 2022 : J'en ai déjà vu 108/250
   - Au 31 Décembre 2023 : J'en ai déjà vu 168/250
 
-## 172/250
+## 173/250
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -178,7 +178,7 @@ Bon il y a plein de films que j'ai déjà vu avant de commencer à rédiger mes 
 150. [Dial M for Murder (1954)]({{< ref "../visionnages/dial-m-for-murder" >}})	8.1	 	
 151. [Three Billboards Outside Ebbing, Missouri (2017)]({{< ref "../visionnages/Three-Billboards/">}})	8.1	 	
 152. [Shutter Island (2010)]({{< ref "../visionnages/shutter-island/" >}})	8.1	 	
-153. The Gold Rush (1925)	8.1	 	
+153. [The Gold Rush (1925)]({{< ref "../visionnages/The-Gold-Rush" >}})	8.1	 	
 154. [Chinatown (1974)]({{< ref "../visionnages/chinatown" >}})	8.1	 	
 155. My Father and My Son (2005)	8.1	 	
 156. [No Country for Old Men (2007)]({{< ref "../visionnages/No-Country-For-Old-Men/" >}})	8.1	 	
