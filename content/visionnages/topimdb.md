@@ -24,7 +24,7 @@ Bon il y a plein de films que j'ai déjà vu avant de commencer à rédiger mes 
   - Au 31 Décembre 2022 : J'en ai déjà vu 108/250
   - Au 31 Décembre 2023 : J'en ai déjà vu 168/250
 
-## 175/250
+## 176/250
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -231,7 +231,7 @@ Bon il y a plein de films que j'ai déjà vu avant de commencer à rédiger mes 
 203. [Ford v Ferrari (2019)]({{< ref "../visionnages/ford-v-ferrari" >}})	8.1	 	
 204. 12 Years a Slave (2013)	8.1	 	
 205. [Barry Lyndon (1975)]({{< ref "../visionnages/barry-lyndon" >}})	8.1	 	
-206. Mr. Smith Goes to Washington (1939)	8.1	 	
+206. [Mr. Smith Goes to Washington (1939)]({{< ref "../visionnages/Mr-Smith-Goes-To-Washington">}})	8.1	 	
 207. [Mad Max: Fury Road (2015)]({{< ref "../visionnages/Mad-Max-4-:-Fury-Road/" >}})	8.1	 	
 208. [Time of the Gypsies (1988)]({{< ref "../visionnages/time-of-the-gypsies/" >}})	8.1	 	
 209. [Million Dollar Baby (2004)]({{< ref "../visionnages/million-dollar-baby" >}})	8.1	 	
