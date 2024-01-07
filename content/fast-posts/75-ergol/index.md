@@ -49,7 +49,7 @@ J'ai toujours trouvé ces claviers trop petit bien que charmant, mais qui sait, 
 Et d'ailleurs quel meilleur moment pour également changer le firmware du clavier ?
 Je viens de bouger la touche <kbd>Backspace</kbd> et <kbd>Shift</kbd> ainsi que les touches multimédia.
 Galères !!
-(quelle idée de remapper backspace â ce moment là -__- ) 
+(Quelle idée de remapper backspace à ce moment-là -__- ) 
 
 ## Ajustements nécessaires
 Pour utiliser **Ergol** sous Linux, il faut un fichier .kbd mais pour le moment c'est à vous de le générer.
