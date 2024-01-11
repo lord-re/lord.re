@@ -85,10 +85,6 @@ Bon je vais pas vous faire tout le film, là c'est environ jusqu'à la moitié.
 Mais je voulais illustrer à quel point elle pouvait être manipulatrice.
 C'est ce qui rend le personnage très intéressant je trouve.
 
-Bon je vais pas vous faire tout le film, là c'est environ jusqu'à la moitié.
-Mais je voulais illustrer à quel point elle pouvait être manipulatrice.
-C'est ce qui rend le personnage très intéressant je trouve.
-
 </details>
 
 Bon, c'est quand même un peu long mais ça ne se ressent pas tant que ça.
