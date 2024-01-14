@@ -55,10 +55,6 @@ Mouai, ce revirement ne me convainc guère, je vous avoue.
 
 </details>
 
-Je m'attendais à plus d'enquêtes ou de péripéties.
-Ou plus de twist ou je ne sais pas.
-Ça m'a laissé sur ma faim.
-
 C'est marrant, le premier plan du film montre le Golden Gate Bridge.
 Il a été achevé en 1937 soit tout juste 4 ans avant ce film.
 
