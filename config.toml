@@ -23,19 +23,23 @@ paginate = 20
   includeNewer = true
   [[related.indices]]
      name = "Actors"
-     weight = 10
+     weight = 20
   [[related.indices]]
     name = "Director"
-    weight = 20
+    weight = 40
   [[related.indices]]
     name = "Saga"
-    weight = 30
+    weight = 80
   [[related.indices]]
     name = "categories"
-    weight = 20
+    weight = 30
   [[related.indices]]
     name = "TopWords"
-    weight = 21
+    weight = 50
+  [[related.indices]]
+    name = "year"
+    pattern = "2006"
+    weight = 10
 
 [params]
   sidebartitle = "/home/lord"
