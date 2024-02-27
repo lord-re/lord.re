@@ -144,7 +144,7 @@ Bon il y a plein de films que j'ai déjà vu avant de commencer à rédiger mes 
 116. [Incendies (2010)]({{< ref "../visionnages/incendies/" >}})	8.2	 	
 117. [For a Few Dollars More (1965)]({{< ref "../visionnages/for-a-few-dollars-more" >}})	8.2	 	
 118. [The Apartment (1960)]({{< ref "../visionnages/the-apartment/" >}})	8.2	 	
-119. [Double Indemnity (1944)]({{< ref "../visionnages/double-indemnity/ ">}})	8.2	 	
+119. [Double Indemnity (1944)]({{< ref "../visionnages/double-indemnity/">}})	8.2	 	
 120. [To Kill a Mockingbird (1962)]({{< ref "../visionnages/to-kill-a-mockingbird" >}})	8.2	 	
 121. Up (2009)	8.2	 	
 122. [Indiana Jones and the Last Crusade (1989)]({{< ref "../visionnages/indiana-jones-3" >}})	8.2	 	

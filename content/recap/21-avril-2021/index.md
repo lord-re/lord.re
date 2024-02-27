@@ -21,7 +21,7 @@ En bref ce mois-ci : 4 articles, 40 (!) commentaires, 13 visionnages, 545 196 re
 
   - [Good Will Hunting]({{< ref "/visionnages/good-will-hunting" >}})
   - [The Favourite]({{< ref "/visionnages/the-favourite" >}})
-  - [This Must Be The Place]({{< ref "/visionnages/" >}})
+  - [This Must Be The Place]({{< ref "/visionnages/this-must-be-the-place" >}})
   - [Spirited Away]({{< ref "/visionnages/spirited-away" >}})
   - [Love And Monsters]({{< ref "/visionnages/love-and-monsters" >}})
   - [Oculus]({{< ref "/visionnages/oculus" >}})

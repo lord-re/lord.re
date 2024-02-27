@@ -52,7 +52,7 @@ En bref ce mois-ci : 1 article, 9 commentaires, 10 visionnages, 478935 requêtes
   - [Knowing]({{< ref "/visionnages/knowing" >}})
   - [Serpico]({{< ref "/visionnages/serpico" >}})
   - [Fatman]({{< ref "/visionnages/fatman" >}})
-  - [Light Of My Life]({{< ref "/visionnages/light-of-my-life ">}})
+  - [Light Of My Life]({{< ref "/visionnages/light-of-my-life">}})
   - [12 Angry Men]({{< ref "/visionnages/12-angry-men" >}})
 
 Ma résolution 2021 c'est d'avoir vu au moins la moitié des films de la liste du [TOP 250 IMDB](https://www.imdb.com/chart/top/?ref_=nv_mv_250).
@@ -80,7 +80,7 @@ Les différents mecs que l'on croise ne seront pas non plus en admiration béant
 Bref, les persos brisent les moules habituels et c'est probablement une raison du succès du truc.
 
 C'est visuellement assez beau même si on sent que les décors numériques écorchent un peu l'œil comparé au reste.
-Les acteurs sont chouettes avec [*Anya Taylor-Joy*]({{< ref "/actors/anya-taylor-joy/">}}) dans le rôle principal avec ses grands yeux qui sont très souvent en gros plan.
+Les acteurs sont chouettes avec [*Anya Taylor-Joy*]({{< ref "/actors/anya-taylor-joy">}}) dans le rôle principal avec ses grands yeux qui sont très souvent en gros plan.
 
 <details><summary>spoilers</summary>
 
