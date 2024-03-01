@@ -2,7 +2,7 @@
 Author = "Lord"
 Description = ""
 notoc = true
-VisionnageDate = ["2021-10-21",""]
+VisionnageDate = ["2021-10-21","2024-02-28"]
 date = 2021-10-22T15:40:44+02:00
 editor = "kakoune"
 Wikipedia = "https://fr.wikipedia.org/wiki/Dune_(film,_2021)"
@@ -80,3 +80,19 @@ Bon, au final, en me relisant j'ai l'impression d'être ptet un peu torp dur ave
 Juste visuellement j'en attendais beaucoup, c'est joli tout de même.
 L'histoire toujours top mais il manque surtout une partie 2 pour le moment.
 J'espère vraiment qu'on y aura droit !
+
+-----------
+## Visionnages 28/02/2028
+
+C'est fou comme il se finit au milieu de nulle part !
+
+Il est franchement bien mais encore une fois je le trouve trop sage, pas très généreux…
+C'est fonctionnel mais ça n'a pas la flamboyance de celui de *David Lynch* et je n'arrive pas à passer outre.
+Et paradoxalement je trouve ça très froid.
+Même la planètes des atréides (que l'on voit assez peu) parait aride avec peu de végétation, c'est austère.
+Et en arrivant sur Arrakis, oui c'est aride mais je n'ai pas la sensation de chaleur écrasante.
+Pas une fois on voit quelqu'un souffrir de la chaleur ou tout du moins transpirer ou s'éventer.
+Oui on nous le dit mais il n'y en a aucun signe.
+C'est dommage d'avoir éludé cet aspect qui me semble important.
+
+Bon la partie 2 vient de sortir et je vais aller me la faire trés prochainement.
