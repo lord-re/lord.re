@@ -60,7 +60,7 @@ Marathon adaptations cinéma de Stephen King
 |  2013 | [Carrie]({{< ref "../visionnages/Carrie-2013/">}})               |<progress value="4" max="5">/<progress> | Je le préfère à l'original mais c'est pas non plus top |
 |  2014 | A Good Marriage      |<progress value="3" max="5">/<progress> |                                                       |
 |  2014 | [Mercy]({{< ref "../visionnages/Mercy/" >}})                |<progress value="4" max="5">/<progress> | Moyen en tout point. Ce film n'a pas vraiment d'intéret                                                      |
-|  2016 | [Cell]({{< ref "../visionnages/Cell//">}})                 |<progress value="4" max="5">/<progress> | Nul malgré un cast prometteur                         |
+|  2016 | [Cell]({{< ref "../visionnages/Cell/">}})                 |<progress value="4" max="5">/<progress> | Nul malgré un cast prometteur                         |
 |  2017 | The Dark Tower       |<progress value="4" max="5">/<progress> | Me suis endormi parceque … c'était … meh              |
 |  2017 | [It]({{< ref "../visionnages/ça-:-partie-1/">}})                   |<progress value="4" max="5">/<progress> |                                                       |
 |  2017 | [Gerald's Game]({{< ref "../visionnages/Gerald-s-Game/">}})        |<progress value="0" max="5">/<progress> | Vraiment excellent sur une base simple                |
