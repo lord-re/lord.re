@@ -2,7 +2,7 @@
 Author = "Lord"
 Description = ""
 notoc = true
-VisionnageDate = ["2021-03-25",""]
+VisionnageDate = ["2021-03-25","2024-03-07"]
 date = 2021-03-25T21:13:53+01:00
 editor = "kakoune"
 year = ["1996"]
@@ -57,3 +57,13 @@ Ce n'est pas une histoire vraie.
 </details>
 
 Vraiment un excellent film comment est-ce que j'ai pu passer à-côté aussi longtemps ?!
+
+## Visionnage du 07/03/2024
+Un plaisir de se le refaire !
+
+C'est super drôle et bien branlé.
+
+Et franchement *William H. Macy* est une grosse merde.
+C'est tellement jouissif de voir que tout lui échape.
+C'est une victime née qui tente un coup qui le dépasse et tout le monde lui chie à la gueule : les malfrats, son beau-père, l'agence de prêt, mème sa fille.
+Et le fait que rien ne marche comme prévu est un beau retour de karma.
