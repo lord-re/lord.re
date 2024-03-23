@@ -24,7 +24,7 @@ Bon il y a plein de films que j'ai déjà vu avant de commencer à rédiger mes 
   - Au 31 Décembre 2022 : J'en ai déjà vu 108/250
   - Au 31 Décembre 2023 : J'en ai déjà vu 168/250
 
-## 180/250
+## 181/250
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -81,7 +81,7 @@ Bon il y a plein de films que j'ai déjà vu avant de commencer à rédiger mes 
 53. [Alien (1979)]({{< ref "../visionnages/Alien" >}})	8.4	 	
 54. [Apocalypse Now (1979)]({{< ref "../visionnages/Apocalypse-Now/" >}})	8.4	 	
 55. [Memento (2000)]({{< ref "../visionnages/Memento/" >}})	8.4	 	
-56. The Great Dictator (1940)	8.4	 	
+56. [The Great Dictator (1940)]({{< ref "../visionnages/the-great-dictator">}})	8.4	 	
 57. Indiana Jones and the Raiders of the Lost Ark (1981)	8.4	 	
 58. [Django Unchained (2012)]({{< ref "../visionnages/django-unchained/" >}})	8.4	 	
 59. [The Lives of Others (2006)]({{< ref "../visionnages/la-vie-des-autres/" >}})	8.4	 	
