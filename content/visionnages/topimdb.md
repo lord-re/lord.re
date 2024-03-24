@@ -24,7 +24,7 @@ Bon il y a plein de films que j'ai déjà vu avant de commencer à rédiger mes 
   - Au 31 Décembre 2022 : J'en ai déjà vu 108/250
   - Au 31 Décembre 2023 : J'en ai déjà vu 168/250
 
-## 181/250
+## 182/250
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -87,7 +87,7 @@ Bon il y a plein de films que j'ai déjà vu avant de commencer à rédiger mes 
 59. [The Lives of Others (2006)]({{< ref "../visionnages/la-vie-des-autres/" >}})	8.4	 	
 60. [Joker (2019)]({{< ref "../visionnages/Joker/" >}})	8.4	 	
 61. [Paths of Glory (1957)]({{< ref "../visionnages/paths-of-glory" >}})	8.4	 	
-62. WALL·E (2008)	8.4	 	
+62. [WALL·E (2008)]({{< ref "../visionnages/WallE" >}})	8.4	 	
 63. [The Shining (1980)]({{< ref "../visionnages/The-Shining/" >}})	8.4	 	
 64. [Avengers: Infinity War (2018)]({{< ref "../visionnages/Avengers-:-Infinity-War" >}})	8.4	 	
 65. [Sunset Blvd. (1950)]({{< ref "../visionnages/sunset-boulevard/" >}})	8.4	 	
