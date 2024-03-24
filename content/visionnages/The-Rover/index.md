@@ -2,7 +2,7 @@
 Author = "Lord"
 Description = ""
 notoc = true
-VisionnageDate = ["2020-10-28",""]
+VisionnageDate = ["2020-10-28","2024-03-23"]
 date = 2020-10-29T10:22:36+01:00
 editor = "kakoune"
 Wikipedia = "https://fr.wikipedia.org/wiki/The_Rover_(film)"
@@ -14,7 +14,7 @@ RssTag = ["visionnage"]
 title = "The Rover"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["excellent"]
-TopWords=["australie","postapo","vengeance"]
+TopWords=["australie","postapo","vengeance","désert","vengeance"]
 +++
 Un film rèche, aride, impitoyable à l'image de son environnement et des protagonistes.
 
@@ -41,3 +41,14 @@ Et force est de constater que ça a marché et qu'il a désormais une bien belle
 C'est un buddy road movie pas drôle dans un environnement impitoyable.
 
 Super découverte.
+
+## Visionnage du 24/03/2024
+
+Je me le suis refait et franchement c'est rèche, dur et ça fait pas rêver.
+Un ptit côté **Mad Max 1** dans cet univers proche mais différent.
+
+En plus à la fin on découvre que *Guy Pearce* a fait tout cela pour récupérer le cadavre de son chien qui se trouve dans son coffre.
+C'est un mec qui a tout perdu et qui voulait juste honorer son pauvre toutou.
+Ça permet d'ailleurs de mieux comprendre une scène en milieu de film où il est chez la médic.
+Alors qu'il attend que son partenaire guérisse un peu, il découvre que la meuf a de nombreux chiens en cage.
+Il ne parle pas à ce moment mais il s'agit surtout de la difficulté à vivre la récente perte de son clebs.
