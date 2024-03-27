@@ -2,7 +2,7 @@
 Author = "Lord"
 Description = ""
 notoc = true
-VisionnageDate = ["2020-05-23",""]
+VisionnageDate = ["2020-05-23","2024-03-26"]
 date = 2020-05-23T23:10:48+02:00
 editor = "kakoune"
 Wikipedia = "https://fr.wikipedia.org/wiki/The_Cell"
@@ -14,9 +14,19 @@ RssTag = ["visionnage"]
 title = "The Cell"
 Avis_possibles = ["nul","long","court","oneshot","meh","cool","excellent","parfait"]
 Avis = ["cool"] 
-Saga = [""]
-TopWords = [ "rêve", "cage", "psychopathe", "kidnapping", "victime", "esprit"]
+TopWords = [ "rêve", "cage", "psychopathe", "kidnapping", "victime", "esprit","inconscient","enquète","serial killer"]
 +++
+## Histoire
+Une psy utilise un équipement spécial pour rentrer dans l'inconscient d'un gamin dans le coma pour tenter de le faire revenir
+
+Â-côté de ça, un tueur en série capture des femmes et les tortures des femmes avant de les tuer.
+Les flics parviennent à mettre la main sur le gars mais ce dernier est en état catatonique alors qu'une de ces victimes est encore retenue prisonnières on ne sait où.
+Ils décident d'utiliser la machine pour rentrer dans l'esprit du tueur afin de parvenir à avoir l'info concernant à localisation de la victime.
+
+## Ressenti
+
+### 23/05/2020
+
 Je n'avais pas vu ce film depuis au moins quinze ans.
 Je n'avais plus que quelques bribes de souvenirs.
 
@@ -58,3 +68,17 @@ Je sais pas trop pourquoi il me fait penser à du **Silent Hill** ou bien au cli
 Bref, c'est lui le mieux sapper du film.
 
 Moralité : le film est cool mais pourrait être excellent avec une meilleure histoire.
+
+### 26/03/2024
+Hmmm plus je le vois moins ce film a d'effets sur moi.
+Je l'ai vraiment adoré et d'ailleurs son aspect visuel me titille toujours en bien.
+Mais à chaque fois c'est un peu plus décevant.
+
+Entre *Jennifer Lopez* qui me gonfle en étant molle dans sa façon de parler et cette impression qui s'en dégage…
+Vraiment, elle est là pour montrer son minois et ses formes et c'est tout.
+Elle est insipide.
+
+Mais au final c'est quand même creu.
+Le concept est super bien mais en dehors des scènes visuellement somptueuses ça s'essoufle bien vite.
+
+Tout ça pour ça.
