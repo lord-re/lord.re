@@ -65,13 +65,11 @@ body{
  grid-template-areas: "a a a" "b b b";
 }
 nav{
- grid-area:a;
  box-shadow:0 0 2em rgba(0,0,0,0.4);
  border-bottom:2px solid var(--header-delimiter);
  font-size:clamp(0.3rem, 1.3rem, 3rem);
  display: grid;
  grid-template-areas: "c d d" "c e e";
- align-items:center;
  gap:1rem;
  }
 .brand-title{
