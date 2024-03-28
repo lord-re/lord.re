@@ -78,7 +78,7 @@ Il y a enfin des scènes de balade à dos de vers.
 Et wow celle où c'est Paul qui se lance pour la première fois est forte.
 Le son avec la musique, le sable, les tremblements, la bête qui enfin jailli.
 Le sol qui se dérobe, *Paul* qui en chie.
-Ptain chapean *Denis Villeneuve, c'était pas gagné de rendre ça aussi bien !
+Ptain chapean *Denis Villeneuve*, c'était pas gagné de rendre ça aussi bien !
 
 Bon, bha je me suis régalé.
 En plus on nous a épargné la ptite sœur maléfique (un traumatisme de *David Lynch*).
