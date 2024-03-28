@@ -54,6 +54,7 @@ You can reuse it, and if you do i'll gladly take a look at your website, don't h
 }
 html{
  line-height:1.35em;
+ font-size: clamp(1rem, 0.5rem + 1vw, 2rem);
  background:var(--background);
  color:var(--default-color);
 }
@@ -65,53 +66,39 @@ body{
 }
 nav{
  grid-area:a;
- padding:1rem;
- text-align:center;
  box-shadow:0 0 2em rgba(0,0,0,0.4);
- background: var(--nav);
  border-bottom:2px solid var(--header-delimiter);
+ font-size:clamp(0.3rem, 1.3rem, 3rem);
+ display: grid;
+ grid-template-areas: "c d d" "c e e";
+ align-items:center;
+ gap:1rem;
+ }
+.brand-title{
+  grid-area:d;
+  justify-self:center;
+  padding-block-start:1rem;
+ }
+#sidebar{
+ grid-area:e;
+ display: flex;
+ align-items:baseline;
+ gap:1rem;
+ flex-wrap:wrap;
+}
+nav > img{
+ grid-area:c;
+ width:clamp(3vw, 10vw, 10vw);
+}
+nav .icon{
+ font-size:clamp(1.4rem, 0.8rem + 3vw, 3rem);
 }
 main{
  grid-area:b;
  padding:0.5rem;
- margin:1rem;
  justify-self:center;
+ max-width:clamp(10rem, 70rem, 98vw);
 }
-.blogroll{
- grid-area:c;
- display:none;
-}
-
-@media (min-width:130ch){
- body{
- grid-template-columns:20ch auto 20ch;
- grid-template-areas:"a b c" "a b c" "a b c";
- }
- nav {
-  border-bottom:none;
-  width:20ch;
-  align-self:start;
-  position:sticky;
-  top: 0;
-  height:100vh;
- }
- main {
-  max-width:70ch;
- }
- .blogroll{
-  display:block;
-  background:var(--bg-accent);
-  box-shadow:0 0 2em rgba(0,0,0,0.4);
- }
-}
-
-
-@media (min-width: 220ch){
- html{
-  font-size:20pt;
- }
-}
-
 
 a{
  text-decoration:none;
@@ -135,16 +122,16 @@ article{
  padding:0 0.8rem 0 0.8rem;
 }
 h1 a{
- font-size:1.7rem;
- line-height:2.2rem;
+ font-size:clamp(1.2rem, 1rem + 3vw, 2.8rem);
+ line-height:3rem;
 }
 h2{
- font-size:1.5rem;
+ font-size:clamp(1rem, 0.5rem + 2vw, 2.6rem);
  color:var(--h2-color);
  padding-top:1.2rem;
 }
 h3{
- font-size:1.3rem;
+ font-size: clamp(1rem, 0.5rem + 1.5vw, 2.3rem);
  padding-top:1.1rem;
 }
 section{
@@ -184,6 +171,10 @@ section{
  border:2px solid hsl(0,33%,30%);
  border-top:4px solid hsl(0,58%,58%);
  box-shadow:0 0 5rem 0.5rem hsla(0,33%,30%,0.3);
+}
+.card{
+ width:42ch;
+ padding-block-end:1rem;
 }
 .posts h1 a{
  color:var(--posts-h1-a);
@@ -283,7 +274,6 @@ hr{
  border: 1px dashed #555;
 }
 table{
- margin:1rem;
  text-align:left;
  border:1px solid rgba(0,0,0,0.2);
 }
@@ -308,11 +298,7 @@ header .sous-titre{
  color:var(--sous-titre);
 }
 footer{
- margin-top:1rem;
- padding:1rem;
  background-color:var(--bg-accent);
- /*petit hack pour que le fond du footer s'applique jusqu'au bout. Me demandez pas, ça marche. */
- border-bottom:1px dotted rgba(0,0,0,0);
 }
 kbd::selection{
  background-color:orangered;
@@ -361,16 +347,15 @@ details{
 details[open]{
  max-width:100%;
  border:1px solid #ea872d;
- padding:1px;
+}
+details p{
+ margin-inline:1rem;
 }
 summary{
  cursor:pointer;
- background:#333;
- background: repeating-linear-gradient(-45deg, #333,#333 10px,#353535 10px, #353535 20px);
- color:#aaa;
  padding:0.3rem;
  border:0.1rem solid #444;
- box-shadow: 0 0.3rem 1rem #222;
+ box-shadow: 0 0.3rem 1rem rgba(0,0,0,0.4);
 }
 summary:hover, summary:focus{
  border:0.1rem solid #665;
@@ -396,7 +381,7 @@ summary:hover, summary:focus{
  100%{ transform:rotate(1turn);}
 }
 .svg2{
- width:2em;
+ width:clamp(1.1rem,1.8rem, 2rem);
 }
 .svg3{
  width:0.9em;

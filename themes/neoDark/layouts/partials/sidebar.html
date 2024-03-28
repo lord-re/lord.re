@@ -1,17 +1,12 @@
   <nav>
+    <img type="image/svg+xml" src="{{ .Site.BaseURL }}svg/favicon.svg">
+    <h1 class="brand-title"><a href="{{ .Site.BaseURL }}">/home/lord</a></h1>
     <div id="sidebar">
-    <h1 class="brand-title"><img type="image/svg+xml" src="{{ .Site.BaseURL }}svg/favicon.svg"><a href="{{ .Site.BaseURL }}">/home/lord</a></h1>
-		<!--<p>{{ i18n "sidebar-description"}}</p>-->
-    <br>
-    <p class="icons">
-    <a href="https://lord.re/rss" rel="alternate" type="application/rss+xml" title="Les RSS c'est le bien ! Par contre pas la peine d'updater plus de deux fois par jours ;-)" style="color:#3b95f0"><img src="{{ .Site.BaseURL }}svg/rss.svg" class="svg2"> RSS</a>
-    <a href="{{ .Site.BaseURL}}visionnages/" title="Les films que j'ai mattés" style="color:white"><img src="{{ .Site.BaseURL }}svg/cinema.svg" class="svg2" > Visionnages</a>
-    <br>
-    <a href="{{ .Site.BaseURL}}mono/" title="Le site en version monopage" style="color:#2bf0b5"><img src="{{ .Site.BaseURL }}svg/mono.svg" class="svg2" > Monopage</a>
-<a href="{{ .Site.BaseURL}}bestof/" title="Le Best-Of" style="color:yellow"><span style="line-height:2.3rem;font-size:2.3em;">★</span> Best-Of</a>
-    <a href="{{ .Site.BaseURL}}recherche/" title="Recherche" style="color:#b84dff;"><img src="{{ .Site.BaseURL }}svg/loupe.svg" class="svg2"> Recherche</a>
-    <a href="{{ .Site.BaseURL}}apropos/" title="À propos" style="color:orangered"><span style="line-height:2.3rem;font-size:2.3rem;">?</span> À propos</a>
-    </p>
-{{ range .Translations }}    <br><p lang="{{ .Language }}"><a href="{{ .Permalink }}">{{i18n "dispo"}} : {{ .Title }}{{ if .IsPage }} {{ end }}</a></p>{{ end}}
+      <a href="https://lord.re/rss" rel="alternate" type="application/rss+xml" title="Les RSS c'est le bien ! Par contre pas la peine d'updater plus de deux fois par jours ;-)" style="color:#3b95f0"><img src="{{ .Site.BaseURL }}svg/rss.svg" class="svg2"> RSS</a>
+      <a href="{{ .Site.BaseURL}}mono/" title="Le site en version monopage" style="color:#2bf0b5"><span class="icon">∞</span> Monopage</a>
+<a href="{{ .Site.BaseURL}}bestof/" title="Le Best-Of" style="color:yellow"><span class="icon">★</span> Best-Of</a>
+      <a href="{{ .Site.BaseURL}}recherche/" title="Recherche" style="color:#b84dff;"><img src="{{ .Site.BaseURL }}svg/loupe.svg" class="svg2"> Recherche</a>
+      <a href="{{ .Site.BaseURL}}apropos/" title="À propos" style="color:orangered"><span class="icon">?</span> À propos</a>
+{{- range .Translations -}}      <br><p lang="{{ .Language }}"><a href="{{ .Permalink }}">{{i18n "dispo"}} : {{ .Title }}{{ if .IsPage }} {{ end }}</a></p>{{ end -}}
     </div>
   </nav>
