@@ -113,3 +113,4 @@ J'ai d'ailleurs l'impression que ça a été majoritairement tourné en lumière
 Mais du coup c'est parfois pas super lumineux, les couleurs sont un peu délavées et j'aime beaucoup cet aspect aride et inhospitalier qui s'en dégage.
 
 Voilà, au final le film est plus sympa que dans mes souvenirs mais ces personnages… grrrrr
+Tiens par contre pour le titre je me demande d'où il sort 🤷
