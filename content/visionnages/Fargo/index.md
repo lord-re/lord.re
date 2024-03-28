@@ -67,3 +67,6 @@ Et franchement *William H. Macy* est une grosse merde.
 C'est tellement jouissif de voir que tout lui échape.
 C'est une victime née qui tente un coup qui le dépasse et tout le monde lui chie à la gueule : les malfrats, son beau-père, l'agence de prêt, mème sa fille.
 Et le fait que rien ne marche comme prévu est un beau retour de karma.
+
+Par contre j'ai appris qu'il existe un film où le personnage principal tente de retrouver la malette de pognon perdue aux alentours de Fargo.
+J'aime bien cette idée de se baser juste sur un élément d'un film comme cela.
