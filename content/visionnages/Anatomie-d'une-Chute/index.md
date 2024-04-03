@@ -27,8 +27,8 @@ La mère est suspectée et débute alors un procès.
 
 ## Ressenti :
 Tout le battage médiatique autour du film m'a gonflé.
-J'avais pas envie de le voir mais les finalement l'occasion est venu à moi.
-Je n'avais aucune idée du sujet du film et d'ailleurs vu le buzz et tout je pensais qu'il s'agissait d'une critique sociale mais en fait pas du tout.
+J'avais pas envie de le voir mais finalement l'occasion est venue à moi.
+Je n'avais aucune idée du sujet du film et d'ailleurs vu le buzz et tout, je pensais qu'il s'agissait d'une critique sociale, mais en fait pas du tout.
 
 Non, c'est un film plutôt simple avec une idée elle aussi assez simple.
 Mais tout l'intéret du bousin c'est qu'en tant que spectateur, on est étrangement balloté d'un camp à un autre.
@@ -49,7 +49,7 @@ Il y a même des extraites d'émissions de télévision renforçant cette impres
 <details><summary>ma théorie et du coup spoil total</summary>
 
 Bon.
-Donc la mère est acquittée et n'est donc pas coupable puisqu'il est décidé que c'est un meurtre.
+Donc la mère est acquittée et n'est donc pas coupable puisqu'il est décidé que c'est un suicide.
 Mais j'ai l'intime conviction qu'elle a tout de même tué son mari.
 
 On a pas le fin mot de l'histoire et visiblement la réalisatrice ne souhaite pas le donner.
