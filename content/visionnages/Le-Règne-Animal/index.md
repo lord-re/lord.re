@@ -37,15 +37,6 @@ La province existe !!
 
 Bon, j'ai trouvé le film sympatique et assez audacieux.
 L'histoire est cool et les décors super sympas.
-
-D'ailleurs les effets visuels sont vraiment bien foutus.
-Franchement, les bestioles sont classes.
-C'est pas du monstre, c'est juste de l'humain qui se transforme progressivement en animal.
-Du coup selon l'animal ça se manifeste différemment : des plumes qui commencent à apparaitrent, des griffes qui poussent, des poils qui recouvrent progressivement le corps … 
-C'est pas trop "in your face" et du coup ça passe vraiment bien.
-
-Bon, j'ai trouvé le film sympatique et assez audacieux.
-L'histoire est cool et les décors super sympas.
 Et c'est joli un peu ce coin de la france, faudrait y faire un tour plus souvent messieurs dames les producteurs !
 
 D'ailleurs les effets visuels sont vraiment bien foutus.
