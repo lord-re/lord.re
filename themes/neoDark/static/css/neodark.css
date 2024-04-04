@@ -60,36 +60,45 @@ html{
 }
 
 body{
- display:grid;
- justify-content:space-between;
- grid-template-areas: "a a a" "b b b";
+ display: grid;
+ grid-template-areas: "a" "b"
 }
 nav{
+ grid-area:a;
+ display: grid;
+ grid-template-areas: "c d" "c e";
+ grid-template-columns: 10rem 1fr ;
+ gap:1rem;
+ width:100vw;
  box-shadow:0 0 2em rgba(0,0,0,0.4);
  border-bottom:2px solid var(--header-delimiter);
  font-size:clamp(0.3rem, 1.3rem, 3rem);
- display: grid;
- grid-template-areas: "c d d" "c e e";
- gap:1rem;
  }
+#logo-site{
+ grid-area:c;
+ height:10rem;
+}
 .brand-title{
   grid-area:d;
   justify-self:center;
   padding-block-start:1rem;
  }
-#sidebar{
+#lemenu{
  grid-area:e;
  display: flex;
  align-items:baseline;
  gap:1rem;
  flex-wrap:wrap;
-}
-nav > img{
- grid-area:c;
- width:clamp(3vw, 10vw, 10vw);
+ justify-content:space-evenly; 
 }
 nav .icon{
  font-size:clamp(1.4rem, 0.8rem + 3vw, 3rem);
+}
+.svg2{
+ width:clamp(1.1rem,1.8rem, 2rem);
+}
+.svg3{
+ width:0.9em;
 }
 main{
  grid-area:b;
@@ -378,12 +387,6 @@ summary:hover, summary:focus{
  0%{   transform:rotate(0 turn);}
  100%{ transform:rotate(1turn);}
 }
-.svg2{
- width:clamp(1.1rem,1.8rem, 2rem);
-}
-.svg3{
- width:0.9em;
-}
 audio{
  width:100%;
 }
@@ -393,7 +396,4 @@ audio{
 }
 .paragraph-icon:hover, .paragraph-icon:focus{
  opacity:1;
-}
-.brand-title img{
- width:2em;
 }
