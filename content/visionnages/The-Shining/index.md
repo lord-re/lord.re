@@ -16,6 +16,15 @@ Avis = ["parfait"]
 Saga = ["Shining"]
 TopWords = [ "horreur", "ambiance", "salle de bain","voiture","neige","labyrinthe","hôtel", "pouvoir","surnaturel","stephen king"]
 +++
+## Histoire
+*Jack Torrance* est un écrivain qui souhaite écrire son prochain roman et se trouve un boulot de gardiennage d'un vieil hotel isolé.
+Il est embauché pour s'occuper de l'*Overlook Hotel* pour l'hiver.
+Ce boulot va lui permettre de bosser sans distraction sur son prochain bouquin.
+
+Avec lui, il y a sa femme et son fils.
+Ces derniers constatent que la santé mentale de l'auteur vacille petit à petit et que l'hotel semble de moins en moins hospitalier.
+
+## Ressenti
 Rhaaalalala mais quel film !
 Tout est génial.
 Franchement c'est top.
