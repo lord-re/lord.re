@@ -17,11 +17,11 @@ Avis = ["excellent"]
 TopWords=["malaise","dérangeant","enceinte","pompier","drame","accident","masculinité","body horror","trash"]
 +++
 ## Histoire :
-Suite à un accident de voiture la toute petite *Alexia* se fait poser une plaque de titane dans le crâne (voilà pour le titre).
+Suite à un accident de voiture, la toute petite *Alexia* se fait poser une plaque de titane dans le crâne (voilà pour le titre).
 Une fois adulte elle est devenue danseuse olé olé.
 
 Un soir elle se fait interpeller par un fan alors qu'elle rentre chez elle dans sa voiture.
-Elle est apeurée et se fait ratrapper.
+Elle est apeurée et se fait rattraper.
 Il est de plus en plus insistant et fini par commencer à la violer.
 
 Elle se défend et finit par le tuer.
@@ -33,21 +33,20 @@ Sans dec, il y a un peu tout ce qui est malaisant là-dedans : de la violence, d
 C'est vraiment très particulier.
 
 Et malgré tout cela, bha c'est vraiment cool.
-Il s'y passe des choses tellement hors du commun et surtout l'actrice principale est … parfaitement dans son rôle.
+Il s'y passe des choses tellement hors du commun et surtout l'actrice principale est … parfaite dans son rôle.
 Elle fait flipper et on n'est jamais trop sûr de ce qu'elle est prête à faire.
 
-Dès le début le film parvient à déraper complètement ce qui fait que tout le reste du film on ne sait pas trop à quoi s'attendre.
+Dès le début, le film parvient à déraper complètement ce qui fait que tout le reste du film on ne sait pas trop à quoi s'attendre.
 C'est vraiment très prenant.
 
-*Julia Ducournau* est la réalisatrice qui avait réalisé le film **[Grave]({{< ref "visionnages/grave" >}})** pour son premier film que j'avais vraiment adoré.
+*Julia Ducournau* est la réalisatrice qui avait commencé sa carrière avec le film **[Grave]({{< ref "visionnages/grave" >}})** que j'avais vraiment adoré.
 Et là, bha elle persiste dans son style bien à elle, tant mieux !
 
 C'est assez marrant de voir d'ailleurs que les prénoms des personnages de ce film sont les mêmes que dans son précédent film.
 Alors comme ça, on a une créativité débordante pour des scénars tout foufou mais pour les prénoms on sèche ?!
 
 Je suis vraiment très étonné que ce film ait gagné une palme d'or.
-Le film est top, ça je le concède, mais c'est pas vraiment le genre de film a être récompensé habituellement.
-Il n'a d'ailleurs pas le droit à se présenter aux oscars…
+Le film est top, ça je le concède, mais c'est pas vraiment le genre de film à être récompensé habituellement.
+Il n'a d'ailleurs pas le droit de se présenter aux oscars…
 
-Bon bha à quand son prochain film ? :-D
-
+Bon bha à quand son prochain film ?
