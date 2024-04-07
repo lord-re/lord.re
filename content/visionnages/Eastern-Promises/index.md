@@ -61,7 +61,7 @@ Tout est ouf dans cette séquence !
 
 *Viggo Mortensen* vole la vedette à tous les autres.
 Même *Vincent Cassel* se défend comme il peut, mais il ne peut pas lutter.
-*Legolas* est badass et charismatique comme jamais !
+*Aragorn* est badass et charismatique comme jamais !
 
 La moitié du cast fait semblant d'être russe mais bon de mon point de vue ça fait bien illusion.
 
