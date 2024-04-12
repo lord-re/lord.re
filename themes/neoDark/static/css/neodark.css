@@ -69,7 +69,7 @@ nav{
  grid-template-areas: "c d" "c e";
  grid-template-columns: 10rem 1fr ;
  gap:1rem;
- width:100vw;
+ width:99vw;
  box-shadow:0 0 2em rgba(0,0,0,0.4);
  border-bottom:2px solid var(--header-delimiter);
  font-size:clamp(0.3rem, 1.3rem, 3rem);
