@@ -20,3 +20,5 @@ C'est également rangé par [réalisateur]({{< ref "directors">}}) ou bien [acte
 Ce n'est pas exhaustif mais ça s'améliore de jour en jour.
 
 En 2019 je me suis lancé dans un [marathon Stephen King]({{< ref "stephking" >}}) et en 2021 c'est un [marathon TOP 250 IMDB]({{< ref "topimdb" >}}).
+
+En 2024, je me lance dans une autre liste (sans avoir fini la précédente) : les [Saturn Awards]({{< ref "saturn">}}).
