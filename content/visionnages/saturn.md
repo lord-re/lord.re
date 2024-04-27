@@ -16,12 +16,12 @@ Ils ont plusieurs catégories et je vais pas toutes me les faire mais déjà la 
 
 L'avantage c'est que ça sera bien plus rapide et qu'en plus j'en ai déjà visionné pas mal !
 
-<details open><summary>Science fiction 26/49</summary>
+<details open><summary>Science fiction 27/49 <progress value="27" max="49"></summary>
 
 1973. [Slaughterhouse Five]({{< ref "../visionnages/slaughterhouse-five">}})
 1975. [Soylent Green]({{< ref "../visionnages/soylent-green">}})
 1976. [Rollerball]({{< ref "../visionnages/rollerball-1975">}})
-1977. Logan's Run
+1977. [Logan's Run]({{< ref "../visionnages/logan's-run">}})
 1978. [Star Wars episode 4]({{< ref "../visionnages/star-wars-4">}})
 1979. [Superman]({{< ref "../visionnages/superman">}})
 1980. [Alien]({{< ref "../visionnages/alien">}})
