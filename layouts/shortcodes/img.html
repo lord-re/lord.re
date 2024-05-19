@@ -5,11 +5,11 @@
   {{ with .Get "link"}}<a href="{{.}}">{{ else }}<a href="{{strings.TrimSuffix "en/" .Site.BaseURL}}{{ strings.TrimPrefix "/" $img.RelPermalink}}">{{ end }}
   <picture>
 {{ if ( in "svg ico" (index $name_splitted 1) ) }}
-    <img src="{{strings.TrimSuffix "en/" .Site.BaseURL}}{{ strings.TrimPrefix "/" $img.RelPermalink }}" alt="{{.Get "alt" }}" />
+    <img src="{{strings.TrimSuffix "en/" .Site.BaseURL}}{{ strings.TrimPrefix "/" $img.RelPermalink }}" alt="{{.Get "alt" }}" loading="lazy" />
 {{ else }}
     <source srcset="{{strings.TrimSuffix "en/" .Site.BaseURL}}{{ strings.TrimPrefix "/" $name_base}}.thumb.avif" type="image/avif">
     <source srcset="{{strings.TrimSuffix "en/" .Site.BaseURL}}{{ strings.TrimPrefix "/" $name_base}}.thumb.webp" type="image/webp">
-    <img src="{{ strings.TrimSuffix "en/" .Site.BaseURL}}{{ strings.TrimPrefix "/" $img.RelPermalink }}" alt="{{.Get "alt" }} loading="lazy"/>
+    <img src="{{ strings.TrimSuffix "en/" .Site.BaseURL}}{{ strings.TrimPrefix "/" $img.RelPermalink }}" alt="{{.Get "alt" }}" loading="lazy"  />
 {{ end }}
   </picture>
   </a>
