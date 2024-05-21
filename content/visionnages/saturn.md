@@ -16,7 +16,7 @@ Ils ont plusieurs catégories et je vais pas toutes me les faire mais déjà la 
 
 L'avantage c'est que ça sera bien plus rapide et qu'en plus j'en ai déjà visionné pas mal !
 
-<details open><summary>Science fiction 27/49 <progress value="27" max="49"></summary>
+<details open><summary>Science fiction 29/49 <progress value="29" max="49"></summary>
 
 1973. [Slaughterhouse Five]({{< ref "../visionnages/slaughterhouse-five">}})
 1975. [Soylent Green]({{< ref "../visionnages/soylent-green">}})
@@ -34,7 +34,7 @@ L'avantage c'est que ça sera bien plus rapide et qu'en plus j'en ai déjà visi
 1987. [Aliens]({{< ref "visionnages/aliens">}})
 1988. [Robocop]({{< ref "../visionnages/robocop">}})
 1990. [Alien Nation]({{<ref "../visionnages/alien-nation">}})
-1991. Total Recall
+1991. [Total Recall]({{< ref "../visionnages/total-recall">}})
 1992. [Terminator 2]({{< ref "../visionnages/terminator-2">}})
 1993. Star Trek 6
 1994. Jurassik Park
