@@ -16,7 +16,7 @@ Ils ont plusieurs catégories et je vais pas toutes me les faire mais déjà la 
 
 L'avantage c'est que ça sera bien plus rapide et qu'en plus j'en ai déjà visionné pas mal !
 
-<details open><summary>Science fiction 29/49 <progress value="29" max="49"></summary>
+<details open><summary>Science fiction 30/49 <progress value="30" max="49"></summary>
 
 1973. [Slaughterhouse Five]({{< ref "../visionnages/slaughterhouse-five">}})
 1975. [Soylent Green]({{< ref "../visionnages/soylent-green">}})
@@ -38,7 +38,7 @@ L'avantage c'est que ça sera bien plus rapide et qu'en plus j'en ai déjà visi
 1992. [Terminator 2]({{< ref "../visionnages/terminator-2">}})
 1993. Star Trek 6
 1994. Jurassik Park
-1995. Stargate
+1995. [Stargate]({{< ref "../visionnages/stargate">}})
 1996. [12 Monkeys]({{< ref "../visionnages/12-monkeys">}})
 1997. Independance Days
 1998. Men In Black
