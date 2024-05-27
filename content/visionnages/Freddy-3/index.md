@@ -24,35 +24,36 @@ Un hopital psy s'occupe d'un groupe d'enfants ayant des troubles du sommeil.
 Ils font tous des cauchemars avec *Freddy* mais le personnel hospitalier n'y voit que le reflet de troubles de leur vie réelle.
 
 Cependant, on retrouve *Nancy* du premier opus qui vient d'être embauché dans le service.
-Elle est bien au courant de la menace que représente *Freddy* et s'attire vite la symathie du groupe d'adolescent.
-Une des ado possède même un pouvoir plutôt utile : elle peut faire rentrer quelqu'un dans son rève.
+Elle est bien au courant de la menace que représente *Freddy* et s'attire vite la sympathie du groupe d'adolescent.
+Une des ados possède même un pouvoir plutôt utile : elle peut faire rentrer quelqu'un dans son rève.
 
 Les ados se font attaquer les uns à la suite des autres.
 
 <details><summary>suite</summary>
 
 Bien entendu le personnel ne croit toujours pas à l'existence de *Freddy* malgré l'accumulation de morts suspectes et les témoignages des gosses.
-Cependant *Nancy* souhaite leur prescrire un nouveau médicament permettant de supprimer les rèves afin d'avoir un répit.
+Cependant *Nancy* souhaite leur prescrire un nouveau médicament permettant de supprimer les rêves afin d'avoir un répit.
 Elle-même l'utilise depuis quelques années.
 Elle parvient à convaincre l'un des deux médecins responsables et elle organise également une séance d'hypnose collective.
 
-Ils y croise *Freddy* mais dans l'opération, l'un des mioches se fait attaquer et fini dans le coma.
+Ils y croisent *Freddy* mais dans l'opération, l'un des mioches se fait attaquer et fini dans le coma.
 Cet incident mène au renvoi de *Nancy* ainsi que du médecin qui croit désormais à notre griffu.
 Mais en repartant, il tombe sur une bonne sœur connaissant la légende du tueur des songes et lui dévoile que d'enterrer son corps dans une terre bénie devrait mettre fin à ses agissements.
 
 Le père de *Nancy* serait l'une des rares personnes au courant de la localisation du corps de *Freddy*.
 *Nancy* et le docteur partent à sa rencontre afin de lui soutirer l'info mais ce n'est qu'en insistant très lourdement que le docteur et le père partent en voyage.
 
-Pendant ce temps, *Nancy* retourne à l'hopital pour sauver les ados restants.
+Pendant ce temps, *Nancy* retourne à l'hôpital pour sauver les ados restants.
 Elle organise une hypnose de groupe pour pouvoir affronter leur cauchemar tous ensemble.
 
 Grosse baston, deux ados se font crever, *Nancy* est gravement blessée.
-*Freddy* part affronter les deux tentant d'inhumer son cadavres et il tue le père.
+*Freddy* part affronter les deux tentant d'inhumer son cadavre et il tue le père.
 Le docteur asperge d'eau bénite la dépouille ce qui semble déchirer le corps de *Freddy*.
 
 Et voilà, tout semble fini.
 Le docteur se repose près d'une maquette fabriquée par l'une des ados mais une ptite lumière en surgie.
 
+Ha et on apprend que la bonne sœur mystérieuse était en fait la mère de *Freddy* et qu'il est le fruit de viols.
 FIN
 
 </details>
@@ -62,7 +63,7 @@ Pfiouuuu
 Cet épisode relève le niveau par rapport au précédent.
 
 C'est plus cohérent.
-*Freddy* n'apparait que dans les rèves à l'exception de son cadavre.
+*Freddy* n'apparait que dans les rêves à l'exception de son cadavre.
 Les gamins qu'il victimise sont les rejetons des adultes l'ayant buté.
 Vraiment ça se tient bien plus que le précédent.
 
