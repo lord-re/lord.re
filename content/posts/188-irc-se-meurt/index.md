@@ -6,11 +6,27 @@ menu = "main"
 notoc = true
 WritingDate = 2019-12-20T19:11:00+01:00
 date = 2019-12-22T11:11:00+01:00
-lastEdit = 2021-01-16T22:56:00+01:00
+#lastEdit = 2021-01-16T22:56:00+01:00
+lastEdit = 2024-06-05T22:48:00+01:00
 title = "IRC se meurt"
 editor = "kakoune"
 TopWords = [  "communauté", "google", "matrix", "salon", "weechat", "xmpp", "mort", "protocole", "réseaux", "irc"]
 +++
+
+<details><summary>PS 05/06/2024</summary>
+
+Et bien je relis ce blogpost et j'en profite pour mettre à jour un peu le tableau de stats.
+
+Bon je suis toujours d'accord avec moi-même.
+
+Par contre c'est marrant de voir la ptite remarque sur la pérennité de Freenode…
+Halala ce rachat par PIA … 
+Bon Freenode le vrai est devenu Libera ^__^
+
+Et ICQ qui est défénitivement mort ce mois-ci…
+
+</details>
+
 Je suis **Team IRC** depuis très longtemps.
 
 Ce protocole mais surtout son environnement me râvie.
@@ -39,22 +55,23 @@ On en discutait un peu sur #weechat-fr et j'ai eu l'idée de faire quelques stat
 Voici le nombre de lignes par années : 
 
 
-| salon         | 2014   | 2015   | 2016   | 2017   | 2018   | 2019    | 2020   |
-|:-------------:|:------:|:------:|:------:|:------:|:------:|:-------:|:------:|
-| #fdn          | 206300 | 149873 | 129766 | 100459 | 71664  | 72635   | 68743  |
-| #ffdn         | 139850 | 121075 | 89192  | 99414  | 83748  | 65050   | 46508  |
-| #troll        | 42253  | 30534  | 21081  | 11940  | 21363  | 31939   | 17810  |
+| salon         | 2014   | 2015   | 2016   | 2017   | 2018   | 2019    | 2020   | 2021   | 2022   | 2023   |
+|:-------------:|:------:|:------:|:------:|:------:|:------:|:-------:|:------:|:------:|:------:|:------:|
+| #fdn          | 206300 | 149873 | 129766 | 100459 | 71664  | 72635   | 68743  | 67911  | 68766  | 90723  |
+| #ffdn         | 139850 | 121075 | 89192  | 99414  | 83748  | 65050   | 46508  | 38021  | 29712  | 30773  |
+| #troll        | 42253  | 30534  | 21081  | 11940  | 21363  | 31939   | 17810  | 3708   | 3961   | 5792   |
 | #alacritty    |        |        |        | 23211  | 39571  | 61522   | 133871 |
-| #alpine-linux |        |        |        | 153916 | 146090 | 150625  | 209181 |
-| #bepo         |        |        | 59545  | 24281  | 25212  | 30309   | 32106  |
+| #alpine-linux |        |        |        | 153916 | 146090 | 150625  | 209181 | 173417 | 113819 | 179671 |
+| #bepo         |        |        | 59545  | 24281  | 25212  | 30309   | 32106  | 10276  | 19963  | 19016  |
 | #debianfr     |        | 80119  | 142313 | 141069 | 137146 | 55766   | 67350  |
-| #gentoofr     | 78229  | 61015  | 45535  | 49698  | 39227  | 30740   | 43828  |
-| #qutebrowser  |        |        |        | 129711 | 151354 | 110156  | 106869 |
-| #sway         |        |        | 29446  | 30329  | 78783  | 135948  | 175844 |
+| #gentoofr     | 78229  | 61015  | 45535  | 49698  | 39227  | 30740   | 43828  | 26640  | 16352  | 21283  |
+| #qutebrowser  |        |        |        | 129711 | 151354 | 110156  | 106869 | 71767  | 3696   | 7570   |
+| #sway         |        |        | 29446  | 30329  | 78783  | 135948  | 175844 | 109875 | 105641 | 128360 |
 | #weboob       | 54310  | 39988  | 37583  | 32532  | 29830  | 17496   | 16653  |
-| #weechat-fr   |        | 16957  | 14898  | 13437  | 15999  | 9586    | 11631  |
+| #weechat-fr   |        | 16957  | 14898  | 13437  | 15999  | 9586    | 11631  | 13800  | 10725  | 12878  |
 | #iloth        | 79535  | 52060  | 22864  | 18593  | 16402  | 10391   |        |
-| #online       |        |        | 235134 | 217374 | 140566 | 111832  | 108135 |
+| #online       |        |        | 235134 | 217374 | 140566 | 111832  | 108135 | 71681  | 30470  | 20979  |
+| #fediverse    |        |        |        |        |        | 36867   | 28180  | 18750  | 16022  | 11350  |
 
 On voit clairement que sauf exceptions, l'année 2019 marque une grosse perte de vitesse dans des communautés un peu variées.
 
