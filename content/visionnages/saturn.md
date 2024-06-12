@@ -16,7 +16,7 @@ Ils ont plusieurs catégories et je vais pas toutes me les faire mais déjà la 
 
 L'avantage c'est que ça sera bien plus rapide et qu'en plus j'en ai déjà visionné pas mal !
 
-<details open><summary>Science fiction 32/49 <progress value="32" max="49"></summary>
+<details open><summary>Science fiction 33/49 <progress value="33" max="49"></summary>
 
 1973. [Slaughterhouse Five]({{< ref "../visionnages/slaughterhouse-five">}})
 1975. [Soylent Green]({{< ref "../visionnages/soylent-green">}})
@@ -41,7 +41,7 @@ L'avantage c'est que ça sera bien plus rapide et qu'en plus j'en ai déjà visi
 1995. [Stargate]({{< ref "../visionnages/stargate">}})
 1996. [12 Monkeys]({{< ref "../visionnages/12-monkeys">}})
 1997. Independance Days
-1998. Men In Black
+1998. [Men In Black]({{< ref "../visionnages/men-in-black">}})
 1999. Armageddon - [Dark City]({{< ref "../visionnages/dark-city">}})
 2000. [The Matrix]({{< ref "../visionnages/matrix">}})
 2001. [X-Men]({{< ref "../visionnages/x-men">}})
