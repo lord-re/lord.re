@@ -10,7 +10,10 @@
   {{ hugo.Generator }}
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/neodark.css" title="NeoDark">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/isso.css">
-  <link href="{{ .Site.RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+  {{ with .OutputFormats.Get "rss" -}}
+  {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
+  {{ else }}<link href="https://lord.re/index.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+  {{ end }}
   <link rel="canonical" href="{{ .Permalink }}" />
   <meta name="theme-color" content="#272B30">
   <link rel="icon" type="image/svg+xml" href="{{ .Site.BaseURL }}svg/favicon.svg" />

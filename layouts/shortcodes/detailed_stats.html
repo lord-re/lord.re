@@ -25,13 +25,13 @@
 {{- $avgPostLength := div $wordCount $postCount -}}
 <table class="post-stats-tbl">
     <tr>
-        <td width="40%">Nombre de publications</td><td width="60%">{{ $postCount | lang.NumFmt 0 }}</td>
+        <td width="40%">Nombre de publications</td><td width="60%">{{ $postCount | lang.FormatNumber 0 }}</td>
     </tr>
     <tr>
-      <td>Mots écrits</td><td>{{ $wordCount | lang.NumFmt 0 }}{{ if gt $wordCount 40000 }} (C'est presque {{ (div $wordCount 40000) | lang.NumFmt 0 }} romans){{ end }}</td>
+      <td>Mots écrits</td><td>{{ $wordCount | lang.FormatNumber 0 }}{{ if gt $wordCount 40000 }} (C'est presque {{ (div $wordCount 40000) | lang.FormatNumber 0 }} romans){{ end }}</td>
     </tr>
     <tr>
-      <td>Moyenne de mots par publication</td><td>{{ $avgPostLength | lang.NumFmt 0 }}</td>
+      <td>Moyenne de mots par publication</td><td>{{ $avgPostLength | lang.FormatNumber 0 }}</td>
     </tr>
     <tr>
       <td>Première publication</td><td>{{ range last 1 $posts }}{{ if .Title }}<a href="{{ .Permalink }}">{{ .Title }}</a> le {{ .Date.Format "02/01/2006" }}{{ else }}<a href="{{ .Permalink }}">Micro Post</a> published on {{ .Date.Format "2006-01-02" }}{{ end }}{{ end }}</td>
@@ -56,7 +56,7 @@
     </tr>
     {{- range $grouped.Reverse }} {{ $yearPostCount := len (where .Pages "Type" $type) -}}
     <tr>
-        <td>{{ .Key }}</td><td>{{ $yearPostCount | lang.NumFmt 0 }}</td>
+        <td>{{ .Key }}</td><td>{{ $yearPostCount | lang.FormatNumber 0 }}</td>
     </tr>
 {{- $scratch.Add "yearKeys" "'"  -}} {{- $scratch.Add "yearKeys" .Key  -}} {{- $scratch.Add "yearKeys" "',"  -}} {{- $scratch.Add "yearCount" (string $yearPostCount) -}} {{- $scratch.Add "yearCount" ","  -}}
     {{- end -}}
@@ -96,7 +96,6 @@
 <h3 class="post-stats-hd">Nuage de tags</h3>
 <div class="categorycloud">
 </div>
-
 {{- $DirectorsScratch := newScratch -}}
 {{- $ActorsScratch := newScratch -}}
 {{- range $posts -}}
