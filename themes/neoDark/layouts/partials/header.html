@@ -7,6 +7,7 @@
   <meta name="description" content="{{ .Description }}">
   <meta name="keywords" content="{{ range .Params.Categories }}{{ . }},{{ end }}">
   <meta name="author" content="{{ .Params.author }}">
+  <meta name="fediverse:creator" content="@lord@pleroma.lord.re">
   {{ hugo.Generator }}
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/neodark.css" title="NeoDark">
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/isso.css">
