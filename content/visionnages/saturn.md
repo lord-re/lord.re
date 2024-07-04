@@ -16,7 +16,7 @@ Ils ont plusieurs catégories et je vais pas toutes me les faire mais déjà la 
 
 L'avantage c'est que ça sera bien plus rapide et qu'en plus j'en ai déjà visionné pas mal !
 
-<details open><summary>Science fiction 34/49 <progress value="34" max="49"></summary>
+<details open><summary>Science fiction 35/49 <progress value="35" max="49"></summary>
 
 1973. [Slaughterhouse Five]({{< ref "../visionnages/slaughterhouse-five">}})
 1975. [Soylent Green]({{< ref "../visionnages/soylent-green">}})
@@ -46,7 +46,7 @@ L'avantage c'est que ça sera bien plus rapide et qu'en plus j'en ai déjà visi
 2000. [The Matrix]({{< ref "../visionnages/matrix">}})
 2001. [X-Men]({{< ref "../visionnages/x-men">}})
 2002. AI
-2003. Minority Report
+2003. [Minority Report]({{<ref "../visionnages/minority-report">}})
 2004. [X-Men 2]({{< ref "../visionnages/x-men-2">}})
 2005. [Eternal Sunshine of the Spotless Mind]({{< ref "../visionnages/eternal-sunshine-of-the-spotless-mind">}})
 2006. [Star Wars episode 3]({{< ref "../visionnages/star-wars-3">}})
