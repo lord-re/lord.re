@@ -16,7 +16,7 @@ Ils ont plusieurs catégories et je vais pas toutes me les faire mais déjà la 
 
 L'avantage c'est que ça sera bien plus rapide et qu'en plus j'en ai déjà visionné pas mal !
 
-<details open><summary>Science fiction 36/49 <progress value="36" max="49"></summary>
+<details open><summary>Science fiction 37/49 <progress value="37" max="49"></summary>
 
  | Année | Film                                                                                                       |
  | :---: | :--------------------------------------------------------------------------------------------------------: |
@@ -63,7 +63,7 @@ L'avantage c'est que ça sera bien plus rapide et qu'en plus j'en ai déjà visi
  | 2015  | [Interstellar]({{< ref "../visionnages/interstellar">}})                                                   |
  | 2016  | [Star Wars episode 7]({{<ref "../visionnages/star-wars-7">}})                                              |
  | 2017  | Rogue One                                                                                                  |
- | 2018  | Blade Runner 2049                                                                                          |
+ | 2018  | [Blade Runner 2049]({{< ref "../visionnages/blade-runner-2049">}})                                         |
  | 2019  | Ready Player One                                                                                           |
  | 2021  | [Star Wars episode 9]({{< ref "../visionnages/star-wars-9">}})                                             |
  | 2022  | [Nope]({{< ref "../visionnages/nope">}})                                                                   |
