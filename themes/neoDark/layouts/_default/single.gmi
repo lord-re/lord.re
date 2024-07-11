@@ -1,22 +1,35 @@
-# {{ .Title | safeHTML }}
+# {{ .Title | safeHTML }}{{ $scratch := newScratch }}
 -------------------------------------------------
 [{{.Date.Format "02/01/2006"}}] - {{ i18n "readingTime" .ReadingTime}} - {{range .Params.Categories}}#{{.}} {{end}}
 -------------------------------------------------
 
-{{ $content := .RawContent -}}
-{{ $content := $content | replaceRE "`(.+?)`" "$1" -}}
-{{ $content := $content | replaceRE "`" "```" -}}
-{{ $content := $content | replaceRE "\\*(.+?)\\*" "$1" -}}
-{{ $content := $content | replaceRE " \\[(.+?)\\]\\((.+?)\\)" "\n\n=> $2 $1\n\n" -}}
-{{ $content := $content | replaceRE "\\[(.+?)\\]\\((.+?)\\)" "=> $2 $1" -}}
-{{ $content }}
+{{- $content := .RawContent -}}
+{{ $content := $content | replaceRE `#### ` "### " -}}
+{{ $content := $content | replaceRE `\n- (.+?)` "\n* $1" -}}
+{{ $content := $content | replaceRE `\n(\d+). (.+?)` "\n* $2" -}}
+{{ $content := $content | replaceRE `\[\^(.+?)\]:?` "" -}}
+{{ $content := $content | replaceRE `<br/??>` "\n" -}}
+{{ $content := $content | replaceRE `<a .*href="(.+?)".*>(.+?)</a>` "[$2]($1)" -}}
+{{ $content := $content | replaceRE `\sgemini://(\S*)` " [gemini://$1](gemini://$1)" -}}
+{{ $content := $content | replaceRE "([^`])<.*?>([^`])" "$1$2" -}}
+{{ $content := $content | replaceRE `\n\n!\[.*\]\((.+?) \"(.+?)\"\)` "\n\n=> $1 Image: $2" -}}
+{{ $content := $content | replaceRE `\n\n!\[.*]\((.+?)\)` "\n\n=> $1 Embedded Image: $1" -}}
+{{ $links := findRE `\n=> ` $content }}{{ $scratch.Set "ref" (add (len $links) 1) }}
+{{ $refs := findRE `\[.+?\]\(.+?\)` $content }}
+{{ $scratch.Set "content" $content }}{{ range $refs }}{{ $ref := $scratch.Get "ref" }}{{ $contentInLoop := $scratch.Get "content" }}{{ $url := (printf "%s #%d" . $ref) }}{{ $contentInLoop := replace $contentInLoop . $url -}}{{ $scratch.Set "content" $contentInLoop }}{{ $scratch.Set "ref" (add $ref 1) }}{{ end }}{{ $content := $scratch.Get "content" | replaceRE `\[(.+?)\]\((.+?)\) #(\d+)` "$1 [$3]" -}}
+{{ $content | safeHTML }}
 
+## Liens
+{{ $scratch.Set "ref" (add (len $links) 1) }}{{ range $refs }}{{ $ref := $scratch.Get "ref" }}{{ $url := (printf "%s #%d" . $ref) }}
+=> {{ $url | replaceRE `\[(.+?)\]\((.+?)\) #(\d+)` "$2 [$3] $1 ($2)" -}}
+{{ $scratch.Set "ref" (add $ref 1) }}{{ end}}
+{{ $related := first 3 (where (where .Site.RegularPages.ByDate.Reverse ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
 
 
 ------------------------------------
 => gemini://lord.re 🏠 Retour à la home
 ------------------------------------
-[{{ .Date.Format "02/01/2006"}}] {{ .Params.Categories}}
+[{{.Date.Format "02/01/2006"}}] - {{range .Params.Categories}}#{{.}} {{end}}
 ------------------------------------
 {{ if .NextPage }}=> {{ .NextPage.RelPermalink }} [>>  Suivant  >>] ⏭  {{ .NextPage.Title}} {{end}}
 {{ if .PrevPage }}=> {{ .PrevPage.Permalink }} [<< Précédent <<] ⏮  {{ .PrevPage.Title}} {{end}}
