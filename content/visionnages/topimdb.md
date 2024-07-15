@@ -24,7 +24,7 @@ Bon il y a plein de films que j'ai déjà vu avant de commencer à rédiger mes 
   - Au 31 Décembre 2022 : J'en ai déjà vu 108/250
   - Au 31 Décembre 2023 : J'en ai déjà vu 168/250
 
-## 183/250
+## 184/250
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -191,7 +191,7 @@ Bon il y a plein de films que j'ai déjà vu avant de commencer à rédiger mes 
 163. Soul (2020)	8.1	 	
 164. [The Sixth Sense (1999)]({{< ref "../visionnages/the-sixth-sense" >}})	8.1	 	
 165. [Trainspotting (1996)]({{< ref "../visionnages/trainspotting" >}})	8.1	 	
-166. Jurassic Park (1993)	8.1	 	
+166. [Jurassic Park (1993)]({{< ref "../visionnages/jurassic-park" >}})	8.1	 	
 167. Anand (1971)	8.1	 	
 168. The Truman Show (1998)	8.1	 	
 169. [Gone with the Wind (1939)]({{< ref "../visionnages/Gone-with-the-Wind" >}})	8.1	 	

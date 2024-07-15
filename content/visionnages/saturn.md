@@ -16,7 +16,7 @@ Ils ont plusieurs catégories et je vais pas toutes me les faire mais déjà la 
 
 L'avantage c'est que ça sera bien plus rapide et qu'en plus j'en ai déjà visionné pas mal !
 
-<details open><summary>Science fiction 37/49 <progress value="37" max="49"></summary>
+<details open><summary>Science fiction 38/49 <progress value="38" max="49"></summary>
 
  | Année | Film                                                                                                       |
  | :---: | :--------------------------------------------------------------------------------------------------------: |
@@ -39,7 +39,7 @@ L'avantage c'est que ça sera bien plus rapide et qu'en plus j'en ai déjà visi
  | 1991  | [Total Recall]({{< ref "../visionnages/total-recall">}})                                                   |
  | 1992  | [Terminator 2]({{< ref "../visionnages/terminator-2">}})                                                   |
  | 1993  | Star Trek 6                                                                                                |
- | 1994  | Jurassik Park                                                                                              |
+ | 1994  | [Jurassik Park]({{<ref "../visionnages/jurassic-park">}})                                                  |
  | 1995  | [Stargate]({{< ref "../visionnages/stargate">}})                                                           |
  | 1996  | [12 Monkeys]({{< ref "../visionnages/12-monkeys">}})                                                       |
  | 1997  | Independance Days                                                                                          |
