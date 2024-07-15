@@ -30,6 +30,7 @@
        {{ if .Params.Directors }}{{ $Site := .Site }}&lt;tr&gt;&lt;td&gt;Réal&lt;/td&gt;{{range .Params.Directors}}&lt;td&gt;&lt;a href=&quot;{{$Site.BaseURL}}directors/{{. | urlize}}&quot;&gt;{{ . }}&lt;/a&gt;&lt;/td&gt;{{end}}&lt;/tr&gt;{{end}}
 	     {{ if .Params.Actors }}{{$Site := .Site}}&lt;tr&gt;&lt;td&gt;Acteur(s)&lt;/td&gt;{{ range .Params.Actors }}&lt;td&gt;&lt;a href=&quot;{{$Site.BaseURL}}actors/{{ . |urlize }}&quot;&gt;{{ . }}&lt;/a&gt;&lt;/td&gt;{{end}}&lt;/tr&gt;{{end}}
 	     {{ if .Params.Saga }}{{$Site := .Site}}&lt;tr&gt;&lt;td&gt;Saga&lt;/td&gt;{{ range .Params.Saga }}&lt;td&gt;&lt;a href=&quot;{{$Site.BaseURL}}saga/{{ . |urlize }}&quot;&gt;{{ . }}&lt;/a&gt;&lt;/td&gt;{{end}}&lt;/tr&gt;{{end}}
+	     {{ if .Params.TopWords }}{{$Site := .Site}}&lt;tr&gt;&lt;td&gt;Tags&lt;/td&gt;{{ range .Params.TopWords }}&lt;td&gt;{{ . }}&lt;/td&gt;{{end}}&lt;/tr&gt;{{end}}
 	     {{ if .Params.year }}{{$Site := .Site}}&lt;tr&gt;&lt;td&gt;Année&lt;/td&gt;{{ range .Params.year }}&lt;td&gt;&lt;a href=&quot;{{$Site.BaseURL}}year/{{ . |urlize }}&quot;&gt;{{ . }}&lt;/a&gt;&lt;/td&gt;{{end}}&lt;/tr&gt;{{end}}
        &lt;tr&gt;&lt;td&gt;liens&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;{{ .Params.Wikipedia}}&quot;&gt;Wikipedia&lt;/a&gt; − &lt;a href=&quot;{{ .Params.Imdb}}&quot;&gt;Imdb&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
 	     {{ if .Params.VisionnageDate }}{{$Site := .Site}}&lt;tr&gt;&lt;td&gt;Visionnage&lt;/td&gt;{{ range .Params.VisionnageDate }}&lt;td&gt;{{ . }}&lt;/td&gt;{{end}}&lt;/tr&gt;{{end}}

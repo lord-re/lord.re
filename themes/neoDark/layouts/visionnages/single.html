@@ -25,6 +25,7 @@
 	{{ if .Params.Avis }}{{ $Site := .Site }}<tr><td>Avis</td>{{range .Params.Avis}}<td><a href="{{$Site.BaseURL}}avis/{{. | urlize}}">{{ . }}</a></td>{{end}}</tr>{{end}}
 	{{ if .Params.Directors }}{{ $Site := .Site }}<tr><td>Réal</td>{{range .Params.Directors}}<td><a href="{{$Site.BaseURL}}directors/{{. | urlize}}">{{ . }}</a></td>{{end}}</tr>{{end}}
 	{{ if .Params.Actors }}{{$Site := .Site}}<tr><td>Acteur(s)</td>{{ range .Params.Actors }}<td><a href="{{$Site.BaseURL}}actors/{{ . |urlize }}">{{ . }}</a></td>{{end}}</tr>{{end}}
+	{{ if .Params.TopWords }}{{$Site := .Site}}<tr><td>Tag(s)</td>{{ range .Params.TopWords }}<td>{{ . }}</td>{{end}}</tr>{{end}}
 	{{ if .Params.Saga }}{{$Site := .Site}}<tr><td>Saga</td>{{ range .Params.Saga }}<td><a href="{{$Site.BaseURL}}saga/{{ . |urlize }}">{{ . }}</a></td>{{end}}</tr>{{end}}
 	{{ if .Params.year }}{{$Site := .Site}}<tr><td>Année</td>{{ range .Params.year }}<td><a href="{{$Site.BaseURL}}year/{{ . |urlize }}">{{ . }}</a></td>{{end}}</tr>{{end}}
 	<tr><td>liens</td><td><a href="{{ .Params.Wikipedia}}">Wikipedia</a> — <a href="{{ .Params.Imdb}}">Imdb</a></td></tr>
