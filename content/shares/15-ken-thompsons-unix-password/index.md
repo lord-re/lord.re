@@ -15,18 +15,18 @@ Elle est apparue ***[sur le blog de Leah Neukirchen](https://leahneukirchen.org/
 Je vous en propose une traduction avec bien entendu l'accord de son auteur.
 
 ------
-Aux alentours de 2014 je suis tombé sur un fichier [/etc/passwd](https://github.com/dspinellis/unix-history-repo/blob/BSD-3-Snapshot-Development/etc/passwd) dans les sources de BSD3 contenant les mots de passes des vieux de la vieille tels que Dennis Ritchie, Ken Thompson, Brian W. Kernighan, Steve Bourne et Bill Joy.
+Aux alentours de 2014 je suis tombé sur un fichier [/etc/passwd](https://github.com/dspinellis/unix-history-repo/blob/BSD-3-Snapshot-Development/etc/passwd) dans les sources de BSD3 contenant les mots de passe des vieux de la vieille tels que Dennis Ritchie, Ken Thompson, Brian W. Kernighan, Steve Bourne et Bill Joy.
 
-Comme l'algorithme [crypt(3)](https://minnie.tuhs.org/cgi-bin/utree.pl?file=V7/usr/man/man3/crypt.3) basé sur DES est bien connu pour être assez mauvais (et limité à maximum 8 caractères), j'ai pensué qu'il serait amusant de cracker ces mots de passe.
+Comme l'algorithme [crypt(3)](https://minnie.tuhs.org/cgi-bin/utree.pl?file=V7/usr/man/man3/crypt.3) basé sur DES est bien connu pour être assez mauvais (et limité à maximum 8 caractères), j'ai pensé qu'il serait amusant de cracker ces mots de passe.
 
-Les outils les plus connus pour ce genre d'exercices sont [John](https://www.openwall.com/john/) et [Hashcat](https://hashcat.net/wiki/).
+Les outils les plus connus pour ce genre d'exercice sont [John](https://www.openwall.com/john/) et [Hashcat](https://hashcat.net/wiki/).
 
-Rapidement, je suis parvenu à cracké la majorité de ces mots de passe, qui pour la plupart étaient plutôt mauvais.
-(Curieusement, Bwk utilisait /.,/., qui sont relativement simple à taper en Qwerty.
+Rapidement, je suis parvenu à cracker la majorité de ces mots de passe, qui pour la plupart étaient plutôt mauvais.
+(Curieusement, BwK utilisait /.,/., qui sont relativement simple à taper en Qwerty).
 
-Malgré tout, le mote de passe de Ken résistait à mes assauts.
+Malgré tout, le mot de passe de Ken résistait à mes assauts.
 Même une recherche exhaustive de toutes les combinaisons de lettres minuscules et de chiffres prirent plusieurs jours (c'était en 2014) sans résultat probant.
-Sachant que l'algorithme fût développé par Ken Thompos et Robert Morris, je me demandais ce qu'il se tramait.
+Sachant que l'algorithme fût développé par Ken Thompson et Robert Morris, je me demandais ce qu'il se tramait.
 J'ai d'ailleurs réalisé à ce moment que contrairement à d'autre méthode de hash (comme NTLM), crypt(3) s'avérait plus long à craquer (probablement dû à un manque d'optimisation).
 
 Avait-il réellement utilisé des majuscules ou des caractères spéciaux ?
