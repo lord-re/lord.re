@@ -21,29 +21,29 @@
         {{ .Content }}
       </article>
 {{ if not .Params.nofooter}}      <footer class="post-meta">
-<table>
-	{{ if .Params.Avis }}{{ $Site := .Site }}<tr><td>Avis</td>{{range .Params.Avis}}<td><a href="{{$Site.BaseURL}}avis/{{. | urlize}}">{{ . }}</a></td>{{end}}</tr>{{end}}
-	{{ if .Params.Directors }}{{ $Site := .Site }}<tr><td>Réal</td>{{range .Params.Directors}}<td><a href="{{$Site.BaseURL}}directors/{{. | urlize}}">{{ . }}</a></td>{{end}}</tr>{{end}}
-	{{ if .Params.Actors }}{{$Site := .Site}}<tr><td>Acteur(s)</td>{{ range .Params.Actors }}<td><a href="{{$Site.BaseURL}}actors/{{ . |urlize }}">{{ . }}</a></td>{{end}}</tr>{{end}}
-	{{ if .Params.TopWords }}{{$Site := .Site}}<tr><td>Tag(s)</td>{{ range .Params.TopWords }}<td>{{ . }}</td>{{end}}</tr>{{end}}
-	{{ if .Params.Saga }}{{$Site := .Site}}<tr><td>Saga</td>{{ range .Params.Saga }}<td><a href="{{$Site.BaseURL}}saga/{{ . |urlize }}">{{ . }}</a></td>{{end}}</tr>{{end}}
-	{{ if .Params.year }}{{$Site := .Site}}<tr><td>Année</td>{{ range .Params.year }}<td><a href="{{$Site.BaseURL}}year/{{ . |urlize }}">{{ . }}</a></td>{{end}}</tr>{{end}}
-	<tr><td>liens</td><td><a href="{{ .Params.Wikipedia}}">Wikipedia</a> — <a href="{{ .Params.Imdb}}">Imdb</a></td></tr>
-	{{ if .Params.VisionnageDate }}{{$Site := .Site}}<tr><td>Visionnage</td>{{ range .Params.VisionnageDate }}<td>{{ . }}</td>{{end}}</tr>{{end}}
-</table>
+        <table>
+        	{{ if .Params.Avis }}{{ $Site := .Site }}<tr><td>Avis</td>{{range .Params.Avis}}<td><a href="{{$Site.BaseURL}}avis/{{. | urlize}}">{{ . }}</a></td>{{end}}</tr>{{end}}
+        	{{ if .Params.Directors }}{{ $Site := .Site }}<tr><td>Réal</td>{{range .Params.Directors}}<td><a href="{{$Site.BaseURL}}directors/{{. | urlize}}">{{ . }}</a></td>{{end}}</tr>{{end}}
+        	{{ if .Params.Actors }}{{$Site := .Site}}<tr><td>Acteur(s)</td>{{ range .Params.Actors }}<td><a href="{{$Site.BaseURL}}actors/{{ . |urlize }}">{{ . }}</a></td>{{end}}</tr>{{end}}
+        	{{ if .Params.TopWords }}{{$Site := .Site}}<tr><td>Tag(s)</td>{{ range .Params.TopWords }}<td>{{ . }}</td>{{end}}</tr>{{end}}
+        	{{ if .Params.Saga }}{{$Site := .Site}}<tr><td>Saga</td>{{ range .Params.Saga }}<td><a href="{{$Site.BaseURL}}saga/{{ . |urlize }}">{{ . }}</a></td>{{end}}</tr>{{end}}
+        	{{ if .Params.year }}{{$Site := .Site}}<tr><td>Année</td>{{ range .Params.year }}<td><a href="{{$Site.BaseURL}}year/{{ . |urlize }}">{{ . }}</a></td>{{end}}</tr>{{end}}
+        	<tr><td>liens</td><td><a href="{{ .Params.Wikipedia}}">Wikipedia</a> </td><td> <a href="{{ .Params.Imdb}}">Imdb</a></td></tr>
+        	{{ if .Params.VisionnageDate }}{{$Site := .Site}}<tr><td>Visionnage</td>{{ range .Params.VisionnageDate }}<td>{{ . }}</td>{{end}}</tr>{{end}}
+        </table>
 {{ $related := .Site.RegularPages.Related . | first 5 }}
 {{ with $related }}
 Similaire : {{ range . }}<a href="{{.Permalink}}">{{.Title}}</a> — {{end}}
 {{ end }}
         <div class="paging">
-          <p>{{ i18n "paging-start" }}
-          {{if .NextPage }}{{ i18n "paging-fresher" }}<a class="paging-link" rel="next" href="{{ .NextPage.RelPermalink }}">{{.NextPage.Title}}</a>{{ end }}
-          {{if .PrevPage }}{{ i18n "paging-older" }}<a class="paging-link" rel="prev"  href="{{ .PrevPage.RelPermalink }}">{{.PrevPage.Title}}</a>{{ end }}
+          <p>{{- i18n "paging-start" -}}
+          {{- if .NextPage -}}{{ i18n "paging-fresher" }}<a class="paging-link" rel="next" href="{{ .NextPage.RelPermalink }}">{{.NextPage.Title}}</a>{{- end -}}
+          {{- if .PrevPage -}}{{ i18n "paging-older" }}<a class="paging-link" rel="prev"  href="{{ .PrevPage.RelPermalink }}">{{.PrevPage.Title}}</a>{{- end -}}
           </p>
         </div>
-         <br>
-         <br>
-
+       <br>
+       <br>
+       <div>
          <script data-isso="https://isso.lord.re/" src="https://isso.lord.re/js/embed.min.js" data-isso-css="false" data-isso-avatar-bg="#222" defer></script>
          <section id="isso-thread"></section>
         </div>
