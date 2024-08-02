@@ -2,7 +2,6 @@
 Author = "Lord"
 Description = ""
 notoc = true
-draft = true
 WritingDate = 2024-07-16T11:47:05+02:00
 date = 2024-08-01T11:47:05+02:00
 editor = "helix"
@@ -14,6 +13,7 @@ Objectif 1000 avant l'automne !
 J'ai grandement ralentit le rythme vu les températures actuelles qui rendent la ballade plus difficilement supportable.
 
 ## Blog
+J'ai commencé une ptite série de blogpost que je vous distillerai au compte-goutte (à moins que ça ne finisse dans les limbes des brouillons infernaux).
 
 En bref ce mois-ci : 2 articles, 5 commentaires, 17 visionnages, 429587 requêtes, 65650 visiteurs uniques pour 12.81Go de trafic.
 
@@ -80,7 +80,7 @@ Par contre je ne pensais pas autant me souvenir des énigmes.
 J'ai presque speedrunné le tout en deux soirées.
 
 ## Nuxeries
-Tiens un [ptit article sur la beauté de l'ASCII].
+Tiens un [ptit article sur la beauté de l'ASCII](https://danq.me/2024/07/21/ascii/).
 Il évoque la façon dont les caractères ont été rangés et les raisonnements qu'il y a derrière.
 Ils ont pris en compte le fait de pouvoir trier alphabétiquement mais également de rendre la conversion en majuscule/minuscule facile à faire (pour un ordinateur des années 70).
 Mais également qu'ils ont pris en compte le fait que ce soit utilisé sur des bandes perforées !
