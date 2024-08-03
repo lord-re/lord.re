@@ -61,10 +61,8 @@ Tout sauf une fèlure sur le fameux œuf que sa mère remarque immédiatement.
 Cela-dit son père, lui ne remarque rien sur la voiture et il est même fier d'apprendre qu'il est admis à la fac de Princeton.
 Tout est bien qui finit bien.
 
-Fin du film où l'on apprend qu'il est devenu proxénète.Cela-dit son père, lui ne remarque rien sur la voiture et il est même fier d'apprendre qu'il est admis à la fac de Princeton.
-Tout est bien qui finit bien.
-
 Fin du film où l'on apprend qu'il est devenu proxénète.
+
 
 </details>
 
