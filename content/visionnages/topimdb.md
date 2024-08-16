@@ -24,7 +24,7 @@ Bon il y a plein de films que j'ai déjà vu avant de commencer à rédiger mes 
   - Au 31 Décembre 2022 : J'en ai déjà vu 108/250
   - Au 31 Décembre 2023 : J'en ai déjà vu 168/250
 
-## 184/250
+## 185/250
 
 1. [The Shawshank Redemption (1994)]({{< ref "../visionnages/the-shawshank-redemption" >}})	9.2	 	
 2. [The Godfather (1972)]({{< ref "../visionnages/The-Godfather/">}})	9.1	 	
@@ -96,7 +96,7 @@ Bon il y a plein de films que j'ai déjà vu avant de commencer à rédiger mes 
 68. [Princess Mononoke (1997)]({{< ref "../visionnages/Princesse-Mononoké/" >}})	8.3	 	
 69. [Spider-Man: Into the Spider-Verse (2018)]({{< ref "../visionnages/spiderman-into-the-spider-verse/" >}})	8.3	 	
 70. [Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964)]({{< ref "../visionnages/dr-strangelove/" >}})	8.3	 	
-71. The Dark Knight Rises (2012)	8.3	 	
+71. [The Dark Knight Rises (2012)]({{< ref "../visionnages/the-dark-knight-rises" >}})	8.3	 	
 72. [Once Upon a Time in America (1984)]({{< ref "../visionnages/Once-Upon-A-Time-In-Amercia/" >}})	8.3	 	
 73. [Aliens (1986)]({{< ref "../visionnages/Aliens" >}})	8.3	 	
 74. [Your Name. (2016)]({{< ref "../visionnages/Kimi-no-na-wa/" >}})	8.3	 	
