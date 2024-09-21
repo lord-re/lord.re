@@ -6,6 +6,7 @@ menu = "main"
 notoc = true
 WritingDate = 2023-06-25T13:57:26+02:00
 date = 2023-06-25T13:57:26+02:00
+lastedit = 2024-09-21T13:21:13+02:00
 title = "Amélioration de mon environnement nunux vol.3 : Multimonitor + Yambar"
 editor = "helix"
 +++
@@ -101,7 +102,7 @@ Vous verrez que je me suis inspiré d'extraits qu'on trouve à droite à gauche 
 Alors oui il s'apelle i3 mais fonctionne parfaitement avec sway.
 C'est grâce à lui que j'utilise **yambar** au lieu de **swaybar** même si au final il est assez simple.
 
-<details open><summary>extrait de ~/.config/yambar/config.yml</summary>
+<details><summary>extrait de ~/.config/yambar/config.yml (obsolète, remplacé par celle juste après)</summary>
 
 {{< highlight "yaml">}}
   left:
@@ -147,12 +148,88 @@ On a donc la liste des workspaces qui est affichée.
 S'ils sont "focused" il y a une couleur vive, si c'est visible mais pas focus (sur l'autre écran), c'est moins vif et sinon c'est gris.
 Très pratique pour en un clin d'œil se rendre compte de ce qui est à l'écran ou non.
 
-Bon le seul truc pas ouf c'est qu'on ne peut pas savoir sur quel écran est un workspace.
+~~Bon le seul truc pas ouf c'est qu'on ne peut pas savoir sur quel écran est un workspace.~~
 L'action on-click permet de se rendre sur le workspace en question.
 On sait jamais, si par malheur vous aviez la souris à la main…
 
 Remarquez qu'on utilise une condition qui regarde la valeur d'une variable.
 Ça sera très utilisé plus loin.
+
+Il est désormais possible d'avoir une condition sur l'output ce qui permet de distinguer les workspaces en fonction de l'écran sur lequel il se trouve !
+
+Depuis Septembre 2024 on peut utiliser ça.
+
+<details open><summary>extrait de ~/.config/yambar/config.yml </summary>
+
+{{< highlight "yaml">}}
+
+left:
+  - i3:
+      sort: ascending
+      content:
+        "":
+          map:
+            margin: 2
+            default:
+            - string:
+                text: " {name} "
+                foreground: 918175ff
+                on-click: swaymsg workspace "{name}"
+            conditions:
+              state == focused && output == DP-2:
+              - string: 
+                  text: " {name} "
+                  foreground: FBB829ff
+                  deco: {overline: {color: FBB829ff, size: 3}}
+                  on-click: swaymsg workspace "{name}"
+              state == focused && output == HDMI-A-1:
+              - string: 
+                  text: " {name} "
+                  foreground: FBB829ff
+                  deco: {underline: {color: FBB829ff, size: 3}}
+                  on-click: swaymsg workspace "{name}"
+              state == unfocused && output == DP-2:
+              - string:
+                  text: " {name} "
+                  foreground: d99609ff
+                  deco: {overline: {color: c98607ff, size: 3}}
+                  on-click: swaymsg workspace "{name}"
+              state == unfocused && output == HDMI-A-1:
+              - string:
+                  text: " {name} "
+                  foreground: d99609ff
+                  deco: {underline: {color: c98607ff, size: 3}}
+                  on-click: swaymsg workspace "{name}"
+              state == urgent && output == DP-2:
+              - string:
+                  text: " {name} "
+                  foreground: EF2F27ff
+                  deco: {overline: {color: EF2F27ff, size: 3}}
+                  on-click: swaymsg workspace "{name}"
+              state == urgent && output == HDMI-A-1:
+              - string:
+                  text: " {name} "
+                  foreground: EF2F27ff
+                  deco: {underline: {color: EF2F27ff, size: 3}}
+                  on-click: swaymsg workspace "{name}"
+              output == DP-2:
+              - string: 
+                  text: " {name} "
+                  foreground: 918175ff
+                  deco: {overline: {color: 918175ff, size: 3}}
+                  on-click: swaymsg workspace "{name}"
+              output == HDMI-A-1:
+              - string: 
+                  text: " {name} "
+                  foreground: 918175ff
+                  deco: {underline: {color: 918175ff, size: 3}}
+                  on-click: swaymsg workspace "{name}"
+{{< / highlight >}}
+
+
+</details>
+
+Ouai la définition est un poil plus complexe mais ça marche parfaitement !
 
 ### Module mpd
 Non je ne vous montre toujours pas le résultat :-þ
