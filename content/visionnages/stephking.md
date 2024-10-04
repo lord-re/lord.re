@@ -72,5 +72,6 @@ Marathon adaptations cinéma de Stephen King
 |  2022 | [Firestarter]({{< ref "../visionnages/Firestarter-(2022)/" >}})	|<progress value="3" max="5">/<progress> | Meilleur que l'original de 84 mais quand même pas ouf |
 |  2022 | [Mr Harrigan's Phone]({{< ref "../visionnages/mr-harrigan-phone/" >}})	|<progress value="3" max="5">/<progress> | Bon départ puis ça tombe à plat |
 |  2023 | [The Boogeyman]({{< ref "../visionnages/the-boogeyman/" >}})	|<progress value="3" max="5">/<progress> | Très convenu, sans surprise, insipide mais pas mauvais non plus |
+|  2024 | [Salem's Lot]({{< ref "../visionnages/salem-lot/" >}})	|<progress value="3" max="5">/<progress> | Très convenu, sans surprise, insipide mais pas mauvais non plus (bis) |
 
 
