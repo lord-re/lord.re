@@ -11,6 +11,7 @@ You can reuse it, and if you do i'll gladly take a look at your website, don't h
   --url-color: #ea872d;
   --h2-color: #8aa;
   --posts-h1-a: #cac;
+  --daily-h1-a: rgb(158, 173, 249);
   --fast-posts-h1-a: #99c3d1;
   --shares-h1-a: #ffa;
   --ideas-h1-a: #aff;
@@ -183,6 +184,13 @@ section {
   box-shadow: 0 0 5rem 0.5rem hsl(258, 58%, 58%, 0.3);
 }
 
+.daily {
+  border: 2px solid hsl(239, 33%, 30%);
+  border-top: 4px solid hsl(239, 58%, 58%);
+  box-shadow: 0 0 5rem 0.5rem hsl(239, 58%, 58%, 0.3);
+
+}
+
 .fast-posts {
   border: 2px solid hsl(210, 33%, 30%);
   border-top: 4px solid hsl(210, 58%, 58%);
@@ -221,6 +229,10 @@ section {
 
 .posts h1 a {
   color: var(--posts-h1-a);
+}
+
+.daily h1 a {
+  color: var(--daily-h1-a);
 }
 
 .fast-posts h1 a {

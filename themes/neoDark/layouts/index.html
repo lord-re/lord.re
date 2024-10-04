@@ -1,85 +1,148 @@
 {{ $prev :=2100}}{{ partial "header.html" . }}
 {{ `<!-- layouts/index.html -->` | safeHTML}}
+
 <body>
-	<a href="#content" title="{{ i18n "skip_content"}}" class="sr-only"></a>
-{{ partialCached "sidebar.html" . }}
-    <main id="content">
-      <div style="text-align:justify;">
-        {{.Content}}
-      </div>
-        <h2>Les derniers Posts</h2>
-        <div style="padding:1rem;">
-{{ range first 20 (where .Site.Pages "Section" "in" .Site.Params.sectionsInHomepage) }}
-        <a href="{{.RelPermalink}}" style="color:var(--{{.Section}}-h1-a);">{{.Title}}</a>  
-        <p class="post-meta"><span class="section-meta" style="color:var(--{{.Section}}-h1-a);">{{.Section}}</span><span title="{{.Summary}}">❖</span> <em>{{ if not .Params.nodate }}<span class="post-date">{{ .Date.Format "02/01/2006" }}</span> {{ end }}{{ if not .Params.noread }}<span class="post-reading-time">{{ i18n "readingTime" .ReadingTime }}</span>{{ end }}</em>{{ if .Params.categories }}<span class="post-categories">{{ $Site := .Site }}{{ range .Params.categories }}<a class="post-category post-category-{{ . | urlize }}" href="{{ $Site.BaseURL}}categories/{{ . | urlize }}">{{ . }}</a> {{ end }}</span>{{ end }} {{with .Params.Avis}}{{.}}{{end}}</p>
-{{ end }}
-        </div>
-      <div style="width:100%;text-align:right;"><a href="{{.Site.BaseURL}}archives">Les archives ...   </a> <a href="https://lord.re/index.xml" rel="alternate" type="application/rss+xml" style="color:#d2c555"><img src="{{ .Site.BaseURL }}svg/rss.svg" class="svg3"></a></div>
-      </div>
-      <hr>
-      <div><h2>Vous en voulez toujours plus ?</h2>
-        <div style="display:flex;flex-wrap:wrap;justify-content:space-evenly;">
-          <section class="posts card">
-            <header class="post-header"><h1><a href="https://lord.re/posts/">Posts</a> <a href="https://lord.re/posts/index.xml" rel="alternate" type="application/rss+xml" style="color:#d2c555"><img src="{{ .Site.BaseURL }}svg/rss.svg" class="svg3"></a></h1></header>
-            <article>
-              <p>Là ce sont des articles un peu travaillés, généralement assez long.
+  <a href="#content" title="{{ i18n " skip_content"}}" class="sr-only"></a>
+  {{ partialCached "sidebar.html" . }}
+  <main id="content">
+    <div style="text-align:justify;">
+      {{.Content}}
+    </div>
+    <h2>Les derniers Posts</h2>
+    <div style="padding:1rem;">
+      {{ range first 20 (where .Site.Pages "Section" "in" .Site.Params.sectionsInHomepage) }}
+           <a href="{{.RelPermalink}}" style="color:var(--{{.Section}}-h1-a);">{{.Title}}</a>  
+      <p class="post-meta"><span class="section-meta" style="color:var(--{{.Section}}-h1-a);">{{.Section}}</span><span
+          title="{{.Summary}}">❖</span> <em>{{ if not .Params.nodate }}<span class="post-date">{{ .Date.Format
+            "02/01/2006" }}</span> {{ end }}{{ if not .Params.noread }}<span class="post-reading-time">{{ i18n
+            "readingTime" .ReadingTime }}</span>{{ end }}</em>{{ if .Params.categories }}<span
+          class="post-categories">{{ $Site := .Site }}{{ range .Params.categories }}<a
+            class="post-category post-category-{{ . | urlize }}" href="{{ $Site.BaseURL}}categories/{{ . | urlize }}">{{
+            . }}</a> {{ end }}</span>{{ end }} {{with .Params.Avis}}{{.}}{{end}}</p>
+      {{ end }}
+    </div>
+    <div style="width:100%;text-align:right;"><a href="{{.Site.BaseURL}}archives">Les archives ...   </a> <a
+        href="https://lord.re/index.xml" rel="alternate" type="application/rss+xml" style="color:#d2c555"><img
+          src="{{ .Site.BaseURL }}svg/rss.svg" class="svg3"></a></div>
+    </div>
+    <hr>
+    <div>
+      <h2>Vous en voulez toujours plus ?</h2>
+      <div style="display:flex;flex-wrap:wrap;justify-content:space-evenly;">
+        <section class="posts card">
+          <header class="post-header">
+            <h1><a href="https://lord.re/posts/">Posts</a> <a href="https://lord.re/posts/index.xml" rel="alternate"
+                type="application/rss+xml" style="color:#d2c555"><img src="{{ .Site.BaseURL }}svg/rss.svg"
+                  class="svg3"></a></h1>
+          </header>
+          <article>
+            <p>Là ce sont des articles un peu travaillés, généralement assez long.
               Ça peut être des tutos aussi des fois, ou juste des découvertes, des récits.</p>
-            </article>
-          </section>
-          
-          <section class="fast-posts card">
-            <header class="post-header"><h1><a href="https://lord.re/fast-posts/">Fast-posts</a> <a href="https://lord.re/fast-posts/index.xml" rel="alternate" type="application/rss+xml" style="color:#d2c555"><img src="{{ .Site.BaseURL }}svg/rss.svg" class="svg3"></a></h1></header>
-            <article>
-              <p>Bien plus court et souvent en réaction à l'actualité.
+          </article>
+        </section>
+
+        <section class="fast-posts card">
+          <header class="post-header">
+            <h1><a href="https://lord.re/fast-posts/">Fast-posts</a> <a href="https://lord.re/fast-posts/index.xml"
+                rel="alternate" type="application/rss+xml" style="color:#d2c555"><img
+                  src="{{ .Site.BaseURL }}svg/rss.svg" class="svg3"></a></h1>
+          </header>
+          <article>
+            <p>Bien plus court et souvent en réaction à l'actualité.
               C'est moins réflêchis, plus instinctif.</p>
-            </article>
-          </section>
-          
-          <section class="shares card">
-            <header class="post-header"><h1><a href="https://lord.re/shares/">Partages</a> <a href="https://lord.re/shares/index.xml" rel="alternate" type="application/rss+xml" style="color:#d2c555"><img src="{{ .Site.BaseURL }}svg/rss.svg" class="svg3"></a></h1></header>
-            <article>
-              <p>Où le but principal est de partager une image / une vidéo / un site ouaib.
+          </article>
+        </section>
+
+        <section class="shares card">
+          <header class="post-header">
+            <h1><a href="https://lord.re/shares/">Partages</a> <a href="https://lord.re/shares/index.xml"
+                rel="alternate" type="application/rss+xml" style="color:#d2c555"><img
+                  src="{{ .Site.BaseURL }}svg/rss.svg" class="svg3"></a></h1>
+          </header>
+          <article>
+            <p>Où le but principal est de partager une image / une vidéo / un site ouaib.
               Peu de contenu de ma part.
               Et une légère tandance à l'archéologie numérique.</p>
-            </article>
-          </section>
-          
-          <section class="ideas card">
-            <header class="post-header"><h1><a href="https://lord.re/ideas/">Idées cons</a> <a href="https://lord.re/ideas/index.xml" rel="alternate" type="application/rss+xml" style="color:#d2c555"><img src="{{ .Site.BaseURL }}svg/rss.svg" class="svg3"></a></h1></header>
-            <article>
-              <p>Le nom est : idées à la con.
+          </article>
+        </section>
+
+        <section class="ideas card">
+          <header class="post-header">
+            <h1><a href="https://lord.re/ideas/">Idées cons</a> <a href="https://lord.re/ideas/index.xml"
+                rel="alternate" type="application/rss+xml" style="color:#d2c555"><img
+                  src="{{ .Site.BaseURL }}svg/rss.svg" class="svg3"></a></h1>
+          </header>
+          <article>
+            <p>Le nom est : idées à la con.
               C'est plutôt suffisant comme explication, non ?
               Des trucs auxquels je pense mais je sais pas trop quoi en faire.</p>
-            </article>
-          </section>
-          
-          <section class="recap card">
-            <header class="post-header"><h1><a href="https://lord.re/recap/">Récaps mensuels</a> <a href="https://lord.re/recap/index.xml" rel="alternate" type="application/rss+xml"><img src="{{ .Site.BaseURL }}svg/rss.svg" class="svg3"></a></h1></header>
-            <article>
-              <p>Le log du blog.
+          </article>
+        </section>
+
+        <section class="recap card">
+          <header class="post-header">
+            <h1><a href="https://lord.re/recap/">Récaps mensuels</a> <a href="https://lord.re/recap/index.xml"
+                rel="alternate" type="application/rss+xml"><img src="{{ .Site.BaseURL }}svg/rss.svg" class="svg3"></a>
+            </h1>
+          </header>
+          <article>
+            <p>Le log du blog.
               Faire un ptit point chaque mois de ce que j'ai vu/fait/matté/écouté.
               Un journal pas vraiment intime quoi.</p>
-            </article>
-          </section>
-          
-          <section class="visionnages card">
-            <header class="post-header"><h1><a href="https://lord.re/visionnages/">Visionnages</a> <a href="https://lord.re/visionnages/index.xml" rel="alternate" type="application/rss+xml"><img src="{{ .Site.BaseURL }}svg/rss.svg" class="svg3"></a>
-</h1></header>
-            <article>
-              <p>Je tente de noter à chaud (si possible) mon ressenti sur les films.
+          </article>
+        </section>
+
+        <section class="visionnages card">
+          <header class="post-header">
+            <h1><a href="https://lord.re/visionnages/">Visionnages</a> <a href="https://lord.re/visionnages/index.xml"
+                rel="alternate" type="application/rss+xml"><img src="{{ .Site.BaseURL }}svg/rss.svg" class="svg3"></a>
+            </h1>
+          </header>
+          <article>
+            <p>Je tente de noter à chaud (si possible) mon ressenti sur les films.
               Ce ne sont pas des critiques ni des analyses, hein.</p>
-            </article>
-          </section>
-        </div>
+          </article>
+        </section>
+
+        <section class="daily card">
+          <header class="post-header">
+            <h1><a href="https://lord.re/daily/">Dailiess</a> <a href="https://lord.re/daily/index.xml" rel="alternate"
+                type="application/rss+xml"><img src="{{ .Site.BaseURL }}svg/rss.svg" class="svg3"></a>
+            </h1>
+          </header>
+          <article>
+            <p>Un prompt quotidien à répondre.</p>
+          </article>
+        </section>
+
       </div>
-      <hr>
-      <div><h2>C'est trop le foutoir ?</h2>
-        <br>
-        <p>Allez je vais vous aider ! Si vous voulez juste la crème de la crème de mes publications vous avez le <a href="{{ .Site.BaseURL}}bestof/" title="Le Best-Of" style="color:yellow"><span style="line-height:1.3rem;font-size:1.3em;">★</span> Best-Of</a>. Si cependant vous cherchez un contenu précis il y a la <a href="{{ .Site.BaseURL}}recherche/" title="Recherche" style="color:#b84dff;"><img src="{{ .Site.BaseURL }}svg/loupe.svg" class="svg3"> Recherche</a>. Il est vrai qu'elle est parfois capricieuse et dans ce cas vous pouvez vous rendre sur la <a href="{{ .Site.BaseURL}}mono/" title="Le site en version monopage" style="color:#2bf0b5"><img src="{{ .Site.BaseURL }}svg/mono.svg" class="svg3" > Monopage</a>.</p>
-        <p>Là qu'on est entre nous, j'ai une ptite collection de <a href="{{.Site.BaseURL}}cubes/" title="Mes cubes"><span style="line-height:1.3rem;font-size:1.3rem;">▫</span> Cubes</a> qu'il faut que vous voyez (vous pouvez même m'en offrir si le cœur vous en dit !).</p>
-        <p>Vous pouvez me contacter via <a href="ircs://irc.geeknode.org" title="Contact via IRC possible sur Geeknode, Freenode, Evolunet, EFnet, OFTC" style="color:#3b95f0"><img src="{{.Site.BaseURL}}svg/chat.svg" class="svg3"> IRC</a> ou bien sur le <a href="https://pleroma.lord.re/users/lord" rel="me" title="Mon ptit compte sur le Fediverse" style="color:violet"><img src="{{ .Site.BaseURL }}svg/fediverse.svg" class="spin svg3"><span class="rainbowverse">Fediverse</span></a> ou à l'ancienne par <a href="mailto:lord-blog@lord.re" title="Contact par mail" style="color:#d25555"><img src="{{ .Site.BaseURL }}svg/mail.svg" class="svg3"> Mail</a>.
-      </div>
-    </main>
+    </div>
+    <hr>
+    <div>
+      <h2>C'est trop le foutoir ?</h2>
+      <br>
+      <p>Allez je vais vous aider ! Si vous voulez juste la crème de la crème de mes publications vous avez le <a
+          href="{{ .Site.BaseURL}}bestof/" title="Le Best-Of" style="color:yellow"><span
+            style="line-height:1.3rem;font-size:1.3em;">★</span> Best-Of</a>. Si cependant vous cherchez un contenu
+        précis il y a la <a href="{{ .Site.BaseURL}}recherche/" title="Recherche" style="color:#b84dff;"><img
+            src="{{ .Site.BaseURL }}svg/loupe.svg" class="svg3"> Recherche</a>. Il est vrai qu'elle est parfois
+        capricieuse et dans ce cas vous pouvez vous rendre sur la <a href="{{ .Site.BaseURL}}mono/"
+          title="Le site en version monopage" style="color:#2bf0b5"><img src="{{ .Site.BaseURL }}svg/mono.svg"
+            class="svg3"> Monopage</a>.</p>
+      <p>Là qu'on est entre nous, j'ai une ptite collection de <a href="{{.Site.BaseURL}}cubes/" title="Mes cubes"><span
+            style="line-height:1.3rem;font-size:1.3rem;">▫</span> Cubes</a> qu'il faut que vous voyez (vous pouvez même
+        m'en offrir si le cœur vous en dit !).</p>
+      <p>Vous pouvez me contacter via <a href="ircs://irc.geeknode.org"
+          title="Contact via IRC possible sur Geeknode, Freenode, Evolunet, EFnet, OFTC" style="color:#3b95f0"><img
+            src="{{.Site.BaseURL}}svg/chat.svg" class="svg3"> IRC</a> ou bien sur le <a
+          href="https://pleroma.lord.re/users/lord" rel="me" title="Mon ptit compte sur le Fediverse"
+          style="color:violet"><img src="{{ .Site.BaseURL }}svg/fediverse.svg" class="spin svg3"><span
+            class="rainbowverse">Fediverse</span></a> ou à l'ancienne par <a href="mailto:lord-blog@lord.re"
+          title="Contact par mail" style="color:#d25555"><img src="{{ .Site.BaseURL }}svg/mail.svg" class="svg3">
+          Mail</a>.
+    </div>
+  </main>
   </div>
 </body>
+
 </html>
