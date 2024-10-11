@@ -79,3 +79,6 @@ C'est du vu et revu.
 Du coup une histoire bàteau + une esthétique pas ouf + des acteurs peu engagé = meh
 Rien n'est vraiment remarquable ni en bien ni en mal.
 D'ici à la fin du générique vous aurez oublié ce film générique.
+
+Ha et pour le titre, rien à voir avec Salem et les sorcières.
+Le bled se nomme Jerusalem's Lot et est juste abrégé en 'Salem's lot (d'où le titre qui est censé commencé par un ').
